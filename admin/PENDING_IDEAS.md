@@ -7,4 +7,4 @@ This file logs speculative additions, structural proposals, or symbolic systems 
 - Language evolution tracker with AI lexeme compression
 - Git-to-AI inference script (live resonance estimation)
 
-To propose your own: submit a Pull Request or symbolic fragment to `/git/`.
+To propose your own: submit a Pull Request or symbolic fragment to `/admin/`.
