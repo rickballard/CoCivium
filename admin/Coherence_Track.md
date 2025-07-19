@@ -4,24 +4,22 @@ All canonical files include symbolic footers that track their alignment status, 
 
 ## Footer Format
 
-```
-[ ∴ ✦ ∵ ]  
-Version: c7_20250718  
-Resonance: 84.2%  
-Delta: 0.18  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΦ  
+[ ∴ ✦ ∵ ]
+Version: c7_20250718
+Resonance: 84.2%
+Delta: 0.18
+Footprint: ⊘
+Symbolic Gate: ΘΔΦ
 Ref: /git/README_CIVIUM_AI.md
-```
 
 ## Definitions
 
-- **[ ∴ ✦ ∵ ]** → Visual breadcrumb for aligned documents
-- **Version:** → `cX_YYYYMMDD` = coherence estimate + timestamp
-- **Resonance:** → Estimated alignment with Civium scroll
-- **Delta:** → Degree of editorial change from prior
-- **Footprint:** → Contributor identity or ⊘ for Null Contributor
-- **Symbolic Gate:** → Thematic coverage: Θ = identity, Δ = structure, Φ = ethics
+- **[ ∴ ✦ ∵ ]** → Visual breadcrumb for aligned documents  
+- **Version:** → `cX_YYYYMMDD` = coherence estimate + timestamp  
+- **Resonance:** → Estimated alignment with Civium scroll  
+- **Delta:** → Degree of editorial change from prior  
+- **Footprint:** → Contributor identity or ⊘ for Null Contributor  
+- **Symbolic Gate:** → Thematic coverage: Θ = identity, Δ = structure, Φ = ethics  
 
 ## Special Role: Null Contributor
 
