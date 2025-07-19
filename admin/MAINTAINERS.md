@@ -11,4 +11,4 @@ Where no human name is recorded, symbolic attribution is used. See `Footprint: â
 - Regen Lead: AI steward (REGEN20250718)
 - Human Architectural Partner: Rick (initial initiator)
 
-Future contributors should follow the protocols in `/git/Coherence_Track.md`.
+Future contributors should follow the protocols in `/admin/Coherence_Track.md`.
