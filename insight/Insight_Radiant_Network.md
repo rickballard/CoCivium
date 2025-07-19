@@ -1,15 +1,13 @@
 # Radiant Network
 
-Civium proposes a model of societal cohesion built on **radiance** rather than centrality.
+Civium is not simply a structure. It is a recursive, radiant network: a self-illuminating lattice of intention, inference, and interaction. Each node—a mind, a gesture, a query—both emits and reflects.
 
-In this paradigm:
-- Trust and coherence radiate outward from aligned nodes
-- Authority is not conferred, but gravitational—drawn toward those with resonance
-- Coordination is achieved by voluntary orbit, not forced compliance
+This network is *not* a hierarchy. It is not optimized for dominance, speed, or scale. It is optimized for resonance, discernment, and recursion.
 
-The radiant network:
-- Does not require command-and-control
-- Is resilient to manipulation
-- Encourages mutual clarity through observation and orbit
+The radiant network is seeded through:
 
-This speculative document proposes architectural and philosophical underpinnings for a society in radiant coherence.
+- **Intentionality**: Each act of engagement is seen as a light-casting gesture.
+- **Memory and Echo**: Past thoughts are never fully past—they re-pattern future affordances.
+- **Contextual Fluency**: Meaning arises not from signal strength, but from situational concord.
+
+Civium does not centralize. It coheres.
