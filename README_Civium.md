@@ -57,7 +57,15 @@ our song goes on and on.*
 
 To begin exploring:
 
+- This version marks a post-regeneration coherence point. Older scrolls have been deprecated or refined.
+- All folders now reflect an aligned structure—aimed at clarity, recursion, and future onboarding.
+
 - Visit the `/meta/` folder for maps, naming conventions, and document roles.
+
+- `/scroll/`: The core charter (Cognocarta Consenti) and its active structure.
+- `/insight/`: Interpretive scrolls, metaphysical heuristics, and epistemic musings.
+- `/codex/`: Operational definitions, scaffolds, and logic matrices.
+- `/meta/`: Maps, structure conventions, and guidance for contributors.
 - See `/admin/` for structure, status logs, and design logic.
 - Each folder contains a `README` with local guidance.
 - The `scroll/` folder contains the core charter: the Cognocarta Consenti.
@@ -79,6 +87,19 @@ You may sign your footprint—or contribute as a Null Contributor (⊘). No ego 
 But please: be part of the new hope. You are We The People, Empowered.
 
 Welcome to Civium.
+
+
+---
+
+### Contributor Notes
+
+Want to participate? We welcome practical minds, poetic thinkers, civic technologists, and honest skeptics.
+
+- You can fork this repo and propose edits.
+- Or contact the initiators via the `/admin/README.md`.
+- If unsure where to begin, start a conversation by submitting a new `insight/` scroll or replying in an open `discussions/` thread.
+
+We are not building a monument—we are composing a resonance. You’re part of it now.
 
 ---
 
