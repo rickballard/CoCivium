@@ -11,13 +11,14 @@
 - `/discussions/` – Socratic-style narrative Q&A
 - `/Seed/` – Founding origin files
 
-## Housekeeping Folder: `/git/`
+## Admin Folder: `/admin/`
 
 Contains all process logs, manifests, and planning tools:
 - Regen manifests
 - Contributor roles
 - Symbolic systems
 - AI-human onboarding
+- Repository structure map (this file)
 
 ## Root Files
 
