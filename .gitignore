@@ -1,24 +1,26 @@
-# Civium standard ignores
-
-# System junk
-.DS_Store
-Thumbs.db
-
-# Backup and temp
-*.bak
-*.swp
-*.tmp
-*.odt
-*.zip
-
-# Node & dev artifacts
+# Node modules and other typical junk
 node_modules/
-.env
 dist/
-build/
-log/
-logs/
 *.log
+.DS_Store
+*.tmp
+*.swp
+*.bak
 
-# Scratch / regen logs
-scratchpad_REGEN.md
+# OS and IDE-specific files
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Git backups or patches
+*.orig
+*.rej
+*.patch
+
+# Civium-specific temp or staging
+sandbox/
+test_drafts/
+__archive__/
