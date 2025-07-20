@@ -1,0 +1,29 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex d519ef5..0000000[m
+[1m--- a/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,5 +0,0 @@[m
+[31m-# Civium Repository[m
+[31m-[m
+[31m-For full project overview, contributor guides, and design scaffolding, see:[m
+[31m-[m
+[31m-👉 [`/git/README_CIVIUM_PUBLIC.md`](./git/README_CIVIUM_PUBLIC.md)[m
+\ No newline at end of file[m
+[1mdiff --git a/insight/README_insight.md b/insight/README_insight.md[m
+[1mindex a8c1111..f53da3d 100644[m
+[1m--- a/insight/README_insight.md[m
+[1m+++ b/insight/README_insight.md[m
+[36m@@ -1,7 +1,8 @@[m
+ # Insight Folder[m
+ [m
+[31m-This folder contains philosophical essays, refactored from legacy codices or emergent through recursive pattern work.[m
+[32m+[m[32mThis folder contains high-level thought pieces, perspective shifts, and conceptual essays that help ground the philosophical underpinnings of Civium. Insights may be speculative, evocative, or technical—each is meant to illuminate Civium’s foundational questions.[m
+ [m
+[31m-These are *not* canonical like the Codex—they are explorations, arguments, and mirrors.[m
+[32m+[m[32m## Contents[m
+ [m
+[31m-They are meant to evolve.[m
+\ No newline at end of file[m
+[32m+[m[32m- `Radiant_Network.md`: Describes the recursive field of intention and connectivity that Civium seeks to nurture.[m
+[32m+[m[32m- `Glossary_Metaphysics.md`: Outlines key metaphysical terms and how Civium reinterprets them.[m
