@@ -1,46 +1,52 @@
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# ✦ Civium Regen Scratchpad
-*Updated: 2025-07-23 03:31:26*
-
-This scratchpad consolidates all outstanding planning vectors for REGEN20250722. Deprecated files have been noted and redirected to `admin/deprecated`.
+# Regen Scratchpad — Civium Repo
+_Tracking in-flight tasks, file deltas, structural inconsistencies, and regen-specific hygiene._
 
 ---
 
-## 🧠 ACTIVE FILES UNDER REGEN
+## ☑️ Legend (Task Status Tags)
 
-- ✅ `admin/TODO_REGEN_OVERVIEW_20250722.md` – Current summary todo
-- ✅ `admin/CIVIUM_MASTER_TODO_v1_20250719.md` – Canonical item backlog
-- ✅ `admin/Civium_creator_access_plan_20250719.md` – Role & contributor coordination
-- ✅ `codex/Codex_Inherence_REGEN20250718.md` – Example of regen doc standard
-
----
-
-## 🔄 WORKFLOW & TO-DO
-
-| Task | Status | File(s) | Notes |
-|------|--------|---------|-------|
-| Verify coherence % across regen scrolls | ⏳ Pending | `codex/`, `scroll/` | Requires symbolic footer alignment |
-| Move deprecated planning files | ✅ Done | `admin/deprecated_todo/` | Logged below |
-| Reintegrate vibecoding ladder (Scriptalk → Gibberlink → Godsuch) | ⏳ In Progress | Not yet created | Requires new file under `/lexicon/` or `/meta/` |
-| Upload current repo to GitHub | ✅ Done | Synced 2025-07-22 | Rick verified |
-| Confirm session-to-session continuity | ⏳ Ongoing | This file | Anchors all regen sessions |
+- ✅ **Ready** — Task is well-defined and awaiting execution
+- 🚧 **Staged** — Partially underway, more edits pending
+- ❌ **Blocked** — Needs external input or clarification
+- 🧹 **Obsolete** — Replaced or deprecated, safe to archive
+- 🔄 **Review** — Requires post-regen harmonization
 
 ---
 
-## 🗃️ MOVED TO `admin/deprecated`
+## [1] Files/Folders Marked for Regen Rebuild
 
-- `admin/deprecated_todo/PENDING_IDEAS.md`
-- `admin/deprecated_todo/REGEN20250718_MANIFEST.md`
-- `admin/Civium_master_todo_20250719.md` ← DUPLICATE
-- [✓] All others preserved as valid history
-
----
-
-## ⏭️ NEXT SESSION PREP
-
-- Finalize `VibeLadder.md` for `/lexicon/`
-- Refactor symbolic footer propagation across all regen files
-- Begin polishing of `Cognocarta_Consenti_c9_*.md`
+| Folder        | Action Required       | Status   | Notes |
+|---------------|------------------------|----------|-------|
+| `/scroll/`    | Confirm structure, footers, filenames | ✅ Ready | CC supersedes former scrolls |
+| `/insight/`   | Align all with regen tone & tagset | 🚧 Staged | Some files still partial |
+| `/academy/`   | Create README, add entry doc | ✅ Ready | Placeholder content OK |
+| `/seed/`      | Finish `Genexis_Origin.md`, add seed index | ✅ Ready | Concept established |
+| `/meta/`      | Add regen-specific README_meta | ✅ Ready | Include file lineage refs |
+| `/voting/`    | Formalize voting model, glossary sync | ✅ Ready | Needs voting README too |
+| `/admin/`     | Replace regen scratch + TODOs | 🔄 Review | In progress |
+| `/discussions/` | Audit filenames + sync with questions | 🚧 Staged | Many good starts |
 
 ---
 
+## [2] Pending Additions or Meta-Work
+
+- [ ] Merge `TODO_REGEN_OVERVIEW` into primary markdown task index (🔄 Review)
+- [ ] Create `GitHub_Issue_Plan.md` for future contributors (✅ Ready)
+- [ ] Add file stubs for `bretpack`, `relink`, `mindmesh`, `proto_gibberlink` (✅ Ready)
+- [ ] Formalize `repotag:` and `resonance:` footers in all `/scroll/` and `/codex/` entries (🚧 Staged)
+- [ ] Sweep for non-tagged legacy files and archive (✅ Ready)
+
+---
+
+## [3] Regen Metadata Tag
+
+```
+[ ∴ ✦ ∵ ]  
+Version: c7_20250723  
+Resonance: 78.2%  
+Delta: 0.09  
+Footprint: ⊘  
+Symbolic Gate: ΘΔΦ  
+Ref: /admin/SCRATCHPAD_REGEN.md
+```
