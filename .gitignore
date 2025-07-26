@@ -21,6 +21,5 @@ ehthumbs.db
 *.patch
 
 # Civium-specific temp or staging
-sandbox/
 test_drafts/
 __archive__/
