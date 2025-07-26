@@ -1,0 +1,3 @@
+Add Civium Landing Page and Evomap Interface Project Plan
+
+This commit includes the markdown design spec for the Civium landing page and the interactive Evomap visualization. It introduces the architectural and symbolic rationale, UX behavior, and artistic tone for a non-editable, poetic interface mirroring the evolution-positive Civium repo. Associated visual assets include Civium_Evomap_Mock_up_v1.png and Civium_Logo_v1.png for brand inspiration.
