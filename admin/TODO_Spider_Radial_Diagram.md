@@ -25,6 +25,22 @@ Create and maintain a dynamic spider radial chart to visually represent developm
 - Dynamic tool for prioritization and narrative framing
 - Embedded semiotic signature (logo-style use) for visualizing Civium’s evolving soulprint
 
+## Zones vs Radials (Design Clarification)
+Radials represent the top-level philosophical domains of Civium (e.g., Ontology, Ethics, Consent, etc.). These are fixed axes used to track developmental congruence over time.
+
+Zones are cross-domain tension overlays, rendered as stars, clusters, or clouds depending on scope and clarity:
+Stars = isolated contention points
+Clusters = bounded tensions between 2–3 domains
+Clouds = vague or emergent tensions spanning multiple axes
+
+Zones are not fixed—they float over or between radials, visually flagging areas of unresolved philosophical complexity or ongoing debate.
+
+Each zone can be clickable or annotated to show:
+- Descriptive metadata (origin, implications)
+- Associated scrolls/files
+- Current status (e.g. ✅ resolved, 🔁 active, ☣️ paradox)
+This structure allows the diagram to serve as both a progress map and a contention heatmap for contributors.
+
 ## Status:
 [ ] Draft radial arm definitions
 [ ] Agree on update cadence and source authority
