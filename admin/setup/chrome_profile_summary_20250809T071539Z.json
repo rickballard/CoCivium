@@ -1,16 +1,14 @@
-﻿{
-    "profile":  "Default",
-    "homepage":  null,
-    "homepage_is_newtab":  null,
-    "restore_on_startup":  null,
-    "startup_urls":  null,
-    "bookmark_bar":  true,
-    "search_provider":  {
-                            "name":  null,
-                            "search_url":  null
-                        },
-    "flags":  [
-
-              ],
-    "extensions":  null
+{
+  "profile": "Default",
+  "homepage": null,
+  "homepage_is_newtab": null,
+  "restore_on_startup": null,
+  "startup_urls": null,
+  "bookmark_bar": true,
+  "search_provider": {
+    "name": null,
+    "search_url": null
+  },
+  "flags": [],
+  "extensions": null
 }
