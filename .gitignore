@@ -3,3 +3,5 @@ Thumbs.db
 admin/scratchpad/
 *.tmp
 ~$*
+
+!admin/scratchpad/published/**
