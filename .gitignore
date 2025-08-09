@@ -9,3 +9,4 @@ admin/scratchpad/*
 # allow tracked notes under scratchpad/published
 !admin/scratchpad/published/
 !admin/scratchpad/published/**
+admin/setup/dist/
