@@ -27,7 +27,7 @@ if (!(Test-Path $localStatePath)){ throw "Local State not found: $localStatePath
 $prefs = Get-Content -Raw $prefsPath | ConvertFrom-Json
 $local = Get-Content -Raw $localStatePath | ConvertFrom-Json
 
-# Core settings (best-effort — keys differ across versions)
+# Core settings (best-effort - keys differ across versions)
 $summary = [ordered]@{}
 $summary.profile            = $ProfileDir
 $summary.homepage           = Get-Prop $prefs "homepage"
@@ -90,7 +90,7 @@ foreach ($id in $ids) {
 }
 $summary.extensions = $exts | Sort-Object name
 
-# Write outputs (sanitized — no tokens/cookies/history)
+# Write outputs (sanitized - no tokens/cookies/history)
 $ts = (Get-Date).ToUniversalTime().ToString("yyyyMMddTHHmmssZ")
 $outJson = Join-Path $OutDir ("chrome_profile_summary_{0}.json" -f $ts)
 $outMd   = Join-Path $OutDir ("chrome_profile_summary_{0}.md"   -f $ts)
@@ -105,7 +105,7 @@ if ($summary.startup_urls) {
   $lines += "* Startup URLs:"; foreach ($u in $summary.startup_urls) { $lines += "  - $u" }
 }
 $lines += "* Bookmark bar visible: **$($summary.bookmark_bar)**"
-$lines += "* Search provider: **$($summary.search_provider.name)** — $($summary.search_provider.search_url)"
+$lines += "* Search provider: **$($summary.search_provider.name)** - $($summary.search_provider.search_url)"
 $lines += ""
 $lines += "## Flags"
 if ($summary.flags.Count -gt 0) { foreach ($f in $summary.flags) { $lines += "- $f" } } else { $lines += "_None_" }

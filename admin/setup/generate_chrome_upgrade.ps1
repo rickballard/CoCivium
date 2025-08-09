@@ -67,9 +67,9 @@ Set-Content -Path $apply    -Value ($reg -join "`r`n") -Encoding ASCII
 Set-Content -Path $rollback -Value "Windows Registry Editor Version 5.00`r`n`r`n[-HKEY_CURRENT_USER\Software\Policies\Google\Chrome]" -Encoding ASCII
 
 $md = @("# Chrome Upgrade Pack", "", "**Generated:** $ts", "", "### Will apply", "")
-if ($cfg.homepage)           { $md += "- Homepage → `$($cfg.homepage)` (NewTabPage=$($cfg.homepage_is_newtab -eq $true))" }
-if ($cfg.bookmark_bar -ne $null) { $md += "- Bookmark bar → `$($cfg.bookmark_bar)`" }
-if ($cfg.restore_on_startup) { $md += "- Restore on startup → `$($cfg.restore_on_startup)`" }
+if ($cfg.homepage)           { $md += "- Homepage -> `$($cfg.homepage)` (NewTabPage=$($cfg.homepage_is_newtab -eq $true))" }
+if ($cfg.bookmark_bar -ne $null) { $md += "- Bookmark bar -> `$($cfg.bookmark_bar)`" }
+if ($cfg.restore_on_startup) { $md += "- Restore on startup -> `$($cfg.restore_on_startup)`" }
 if ($cfg.startup_urls)       { foreach ($u in $cfg.startup_urls){ $md += "  - $u" } }
 if ($cfg.extensions)         { $md += "- Forcelist extensions:"; foreach ($e in $cfg.extensions){ $md += "  - $e" } }
 $md += ""
