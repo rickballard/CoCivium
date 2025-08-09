@@ -1,7 +1,11 @@
 .DS_Store
 Thumbs.db
-admin/scratchpad/
+admin/scratchpad/*
 *.tmp
 ~$*
 
+!admin/scratchpad/published/**
+
+# allow tracked notes under scratchpad/published
+!admin/scratchpad/published/
 !admin/scratchpad/published/**
