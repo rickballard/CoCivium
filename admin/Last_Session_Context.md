@@ -29,3 +29,4 @@
 ---
 **Notes:** Two spaces after sentences.  Prefer better over newer.  
 - 2025-08-09T07:33:08Z — Built Chrome Upgrade Pack; review CHANGES.md; next: snapshot actual Chrome profile (“Profile 1”), repopulate manifest with core extensions, rebuild pack.
+- 2025-08-09T08:00:14Z — Built core Chrome Upgrade Pack; review CHANGES.md next session.
