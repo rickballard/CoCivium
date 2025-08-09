@@ -1,0 +1,18 @@
+{
+  "profile": "Default",
+  "homepage": "https://chatgpt.com/",
+  "homepage_is_newtab": false,
+  "restore_on_startup": "urls",   // "newtab" | "urls" | "lastsession"
+  "startup_urls": [
+    "https://github.com/rickballard/CoCivium",
+    "https://github.com/rickballard/CoCivium/actions",
+    "https://github.com/rickballard/GIBindex",
+    "https://github.com/rickballard/GIBindex/actions",
+    "https://github.com/notifications",
+    "https://chatgpt.com/"
+  ],
+  "bookmark_bar": true,
+  "extensions": [
+    // Fill with extension IDs from your snapshot (e.g., "hlepfoohegkhhmjieoechaddaejaokhf")
+  ]
+}
