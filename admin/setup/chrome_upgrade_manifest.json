@@ -2,7 +2,7 @@
   "profile": "Default",
   "homepage": "https://chatgpt.com/",
   "homepage_is_newtab": false,
-  "restore_on_startup": "urls",   // "newtab" | "urls" | "lastsession"
+  "restore_on_startup": "urls",
   "startup_urls": [
     "https://github.com/rickballard/CoCivium",
     "https://github.com/rickballard/CoCivium/actions",
@@ -12,7 +12,5 @@
     "https://chatgpt.com/"
   ],
   "bookmark_bar": true,
-  "extensions": [
-    // Fill with extension IDs from your snapshot (e.g., "hlepfoohegkhhmjieoechaddaejaokhf")
-  ]
+  "extensions": []
 }
