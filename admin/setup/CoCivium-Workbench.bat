@@ -11,7 +11,7 @@ if not exist "%CHROME%" set "CHROME=%ProgramFiles(x86)%\Google\Chrome\Applicatio
 if not exist "%CHROME%" set "CHROME=chrome"
 
 rem --- Use a dedicated Chrome profile (create it once and name it CoCivium)
-set "PROFILE=--profile-directory=CoCivium"
+set "PROFILE=--profile-directory=Default"
 
 rem --- Tabs to open
 set URLS=https://github.com/rickballard/CoCivium ^
