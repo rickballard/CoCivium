@@ -5,9 +5,7 @@
   "restore_on_startup": "urls",
   "startup_urls": [
     "https://github.com/rickballard/CoCivium",
-    "https://github.com/rickballard/CoCivium/actions",
     "https://github.com/rickballard/GIBindex",
-    "https://github.com/rickballard/GIBindex/actions",
     "https://github.com/notifications",
     "https://chatgpt.com/"
   ],
