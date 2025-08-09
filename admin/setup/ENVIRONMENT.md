@@ -1,7 +1,7 @@
 # ENVIRONMENT (snapshot)
 
 ## Browser profile
-- Chrome profile: "CoCivium"
+- Chrome profile: "Default (Rick)"
 
 ## Extensions (to confirm)
 - Refined GitHub
