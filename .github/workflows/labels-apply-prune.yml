@@ -1,6 +1,8 @@
 name: Apply & Prune Labels (direct)
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'
   push:
     paths:
       - .github/workflows/labels-apply-prune.yml
