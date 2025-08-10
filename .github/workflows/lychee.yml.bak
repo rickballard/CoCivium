@@ -1,0 +1,40 @@
+name: Link Check
+on:
+  schedule:
+    - cron: '0 3 * * 0'
+  pull_request:
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.md'
+      - '**/*.html'
+      - '**/*.yml'
+      - '**/*.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    name: Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v1
+        with:
+          args: --config .lychee.toml .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  lychee:
+    name: lychee
+    needs: linkcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v1
+        with:
+          args: --config .lychee.toml .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

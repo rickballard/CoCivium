@@ -1,17 +1,17 @@
 name: Markdown Lint
 on:
   pull_request:
-    paths:
-      - '**/*.md'
-  workflow_dispatch:
-permissions:
-  contents: read
+  push:
+    branches: [main]
 jobs:
-  mdl:
+  markdownlint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DavidAnson/markdownlint-cli2-action@v16
+      - uses: DavidAnson/markdownlint-cli2-action@v17
         with:
+          config: .markdownlint-cli2.yaml
           globs: |
             **/*.md
+            !admin/setup/dist/**
+            !.github/ISSUE_TEMPLATE/_legacy/**

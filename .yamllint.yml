@@ -1,10 +1,12 @@
 extends: default
-
+ignore: |
+  admin/setup/dist/**
+  .github/ISSUE_TEMPLATE/_legacy/**
 rules:
   line-length:
-    max: 140
+    max: 120
+    level: warning
     allow-non-breakable-words: true
-  truthy:
-    check-keys: false
-  quoted-strings:
-    required: only-when-needed
+    allow-non-breakable-inline-mappings: true
+  document-start: disable
+  truthy: disable
