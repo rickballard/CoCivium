@@ -8,3 +8,6 @@
 # Preserve CRLF for Windows scripts/regs
 *.cmd text eol=crlf
 *.reg text eol=crlf
+*.sh   text eol=lf
+*.py   text eol=lf
+*.yml   text eol=lf

@@ -152,7 +152,7 @@ def main():
     ee = external_engagement()
     rd = redundancy_debt()
 
-    now = datetime.datetime.utcnow().replace(microsecond=0).isoformat()+"Z"
+    now = datetime.datetime.now(datetime.UTC).replace(microsecond=0).isoformat()+"Z"
     data = {
         "timestamp": now,
         "ci": round(ci,3),
@@ -176,7 +176,7 @@ def main():
     HISTORY.mkdir(parents=True, exist_ok=True)
     ASSETS.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2), encoding="utf-8")
-    stamp = datetime.datetime.utcnow().strftime("%Y%m%d_%H%M%SZ")
+    stamp = datetime.datetime.now(datetime.UTC).strftime("%Y%m%d_%H%M%SZ")
     (HISTORY/f"metrics_{stamp}.json").write_text(json.dumps(data, indent=2), encoding="utf-8")
 
     # Render SVG
