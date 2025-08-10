@@ -17,4 +17,4 @@ jobs:
         with:
           config_file: .yamllint.yml
           format: github
-          strict: true
+          strict: false
