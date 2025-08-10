@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome]
+"HomepageLocation"="https://chatgpt.com/"
+"HomepageIsNewTabPage"=dword:00000000
+"BookmarkBarEnabled"=dword:00000001
+"RestoreOnStartup"=dword:00000004
+
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\RestoreOnStartupURLs]
+"1"="https://github.com/rickballard/CoCivium"
+"2"="https://github.com/rickballard/GIBindex"
+"3"="https://github.com/notifications"
+"4"="https://chatgpt.com/"
