@@ -1,9 +1,9 @@
 name: Markdown Lint
 on:
-  workflow_dispatch:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
