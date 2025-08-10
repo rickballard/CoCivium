@@ -1,18 +1,31 @@
-# CoCivium Setup & Environment
+# Setup Folder
 
-This folder is the **source of truth** for the working environment and launch workflow for CoCivium.
+This folder contains scripts, registry files, and other distribution artifacts used for setting up or upgrading local environments.
 
-## Contents
-- `Workbench_Setup_Plan.md` — one-click workbench plan (ChatGPT config, connectors, browser profile, launcher, data controls).
-- (optional) `ENVIRONMENT.md` — machine + browser profile snapshot (extensions, versions, paths, credential policy).
-- (optional) `Browser_Setup_and_Launcher.md` — extensions + launcher behavior (live copy here; older versions in `/admin/history`).
+## CRLF Preservation for Windows Scripts
 
-## Rules
-- No secrets (passwords/tokens) in repo or chats.
-- Live docs use **stable names**; dated snapshots go in `/admin/history/Name_YYYYMMDDThhmmssZ.md`.
-- Prefer short, verifiable checklists and links to repo files/PRs.
+Windows `.cmd` batch scripts and `.reg` registry files require **CRLF** (Carriage Return + Line Feed) line endings to run correctly.
+If they are converted to LF-only endings (common on Linux/macOS systems), execution can fail or produce unexpected behavior.
 
-## Quickstart
-1. Launch the CoCivium Chrome profile + terminals (desktop launcher).
-2. Paste **CIVPACK** at session start in ChatGPT.
-3. Work the top 1–3 focus items; log outcomes to `GIBindex/sessions/`.
+### How This Repo Preserves CRLF
+
+- `.gitattributes` includes:
+  ```
+  # Preserve CRLF for Windows scripts/regs
+  *.cmd text eol=crlf
+  *.reg text eol=crlf
+  ```
+- This ensures:
+  - When checked out on Windows, files keep `CRLF`.
+  - When committed from any OS, Git normalizes them to `CRLF` in the repository.
+
+### Contributor Guidelines
+
+1. **Do not** manually change line endings in `.cmd` or `.reg` files unless fixing actual content.
+2. If you see a Git warning about line endings for these files, confirm that `.gitattributes` is present and correct.
+3. If adding new `.cmd` or `.reg` files, simply commit them — Git will handle endings automatically.
+4. Avoid opening these files in editors that auto-convert endings unless you explicitly disable that behavior.
+
+---
+
+**Tip:** If you work on Linux or macOS and need to create/update `.cmd` or `.reg` files, ensure your editor supports CRLF and respects `.gitattributes`.
