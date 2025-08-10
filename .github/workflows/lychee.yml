@@ -1,18 +1,36 @@
 name: Link Check
+name: Link Check
+on:
 on:
   schedule:
+  schedule:
+    - cron: '0 3 * * 0' # weekly
     - cron: '0 3 * * 0' # weekly
   workflow_dispatch:
+  workflow_dispatch:
+permissions:
 permissions:
   contents: read
+  contents: read
+jobs:
 jobs:
   lychee:
+  lychee:
+    name: Link Check
     name: Link Check
     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v1
         with:
+          args: --config .lychee.toml .
+        with:
+          args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .
           args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .
         env:
+        env:
+          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
           GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }

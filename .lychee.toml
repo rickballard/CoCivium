@@ -1,0 +1,7 @@
+exclude = ["^mailto:", "^tel:", "localhost", "127\\.0\\.0\\.1"]
+max_redirects = 5
+timeout = 20
+retry_wait_time = 2
+max_retries = 2
+accept = [200, 429]
+exclude_path = ["admin/setup/dist", "site/assets"]
