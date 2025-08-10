@@ -1,9 +1,14 @@
 extends: default
+
+ignore: |
+  admin/setup/dist/**
+  .github/ISSUE_TEMPLATE/_legacy/**
+
 rules:
-  document-start: disable
   line-length:
-    max: 160
+    max: 120
+    level: warning
     allow-non-breakable-words: true
-    allow-nl: true
-  comments-indentation: disable
+    allow-non-breakable-inline-mappings: true
+  document-start: disable
   truthy: disable

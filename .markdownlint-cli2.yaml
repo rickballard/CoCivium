@@ -1,0 +1,5 @@
+globs:
+  - "**/*.md"
+ignores:
+  - "admin/setup/dist/**"
+  - ".github/ISSUE_TEMPLATE/_legacy/**"
