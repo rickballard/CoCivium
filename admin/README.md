@@ -1,17 +1,14 @@
-# Admin Area
+# Admin — What’s happening now
+**Owner:** @rickballard  
+**Updated:** 025-08-10
 
-This area contains operational docs and scaffolding for maintainers.
-Casual contributors can ignore this folder and jump into issues/PRs.
+## Focus (Now)
+- Migration regrooming and standards enforcement.
+- Nightly metrics + landing progress map.
 
-## Quick Links
-- **Runbooks**: `admin/runbooks/` — long-running or heavy operations (e.g., Sidechain Housekeeping).
-- **Policies**: `admin/policies/` — governance and contribution policies.
-- **Templates**: `admin/templates/` — PR/issue/session templates.
-- **Setup**: `admin/setup/` — environment/setup artifacts (Windows CRLF rules documented).
+## Next
+- Governance/template rollout.
+- Tooling hygiene and contributor onramp.
 
-## Sidechain Housekeeping
-For periodic repo-wide maintenance across CoCivium/CoCache/GIBindex (Civium legacy), use:
-- `admin/runbooks/ChatGPT_Sidecar_Housekeeping_v1.txt`
-
-When the sidecar run is complete, return to the main chat and post:
-`SIDECHAIN→MERGE:HOUSEKEEPING:v1:DONE`
+## Later
+- Interactive progress map (Phase B), per-axis RD dents.

@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a feature
+labels: ["type/feature"]
+body:
+  - type: textarea
+    id: value
+    attributes:
+      label: User value / outcome
+      description: What outcome does this enable?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope (MVP first)
+  - type: checkboxes
+    id: governance
+    attributes:
+      label: HumanGate
+      description: Select gating
+      options:
+        - label: Passive approval OK after window
+          required: false
+        - label: Explicit approval required (critical-core)
+          required: false

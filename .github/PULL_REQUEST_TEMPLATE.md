@@ -1,14 +1,14 @@
 ## Summary
-<!-- What does this PR change and why? -->
+- What changed and why? Link issues/RFCs.
 
-## Linked Items
-<!-- e.g., closes #123 -->
-
-## Reviewer Notes
-- [ ] Docs updated if needed
-- [ ] Breaking changes called out
-- [ ] Coherence level (cX) updated if doc changes
+## HumanGate
+- [ ] Passive approval OK after 24h (non-critical)
+- [ ] Explicit approval required (**critical-core**)
 
 ## Checklist
-- [ ] Scope small and focused
-- [ ] References/links added
+- [ ] Added/updated docs or rationale where useful
+- [ ] Linked to issue/RFC
+- [ ] CI passes
+
+## Notes
+- Decision-trail: state rationale or link to it.
