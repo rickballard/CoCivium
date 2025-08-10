@@ -15,6 +15,7 @@ permissions:
 jobs:
 jobs:
   lychee:
+    name: Link Check
   lychee:
     name: Link Check
     name: Link Check
