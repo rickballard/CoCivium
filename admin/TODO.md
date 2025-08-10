@@ -6,3 +6,5 @@
 - [ ] Monitor metrics (CI/Coverage/OFS/LSH/DTI).
 
 # ci: register on main 20250810T191652Z
+
+[protection smoke 2025-08-10T19:51:24Z]
