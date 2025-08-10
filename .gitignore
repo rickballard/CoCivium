@@ -1,15 +1,11 @@
+# OS cruft
 .DS_Store
 Thumbs.db
-admin/scratchpad/*
-*.tmp
-~$*
 
-!admin/scratchpad/published/**
+# Archives & exports
+*.zip
+*.tar.gz
 
-# allow tracked notes under scratchpad/published
-!admin/scratchpad/published/
-!admin/scratchpad/published/**
-admin/setup/dist/
-
-# Ignore GitHub download snapshots
-CoCivium-main/
+# Local notes
+*.local.md
+*.private.md
