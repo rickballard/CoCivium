@@ -1,13 +1,13 @@
-MD003: false   # heading style
-MD007: false   # ul indent
-MD009: false   # trailing spaces
-MD012: false   # multiple blank lines
-MD013: false   # line length
-MD022: false   # blanks around headings
-MD025: false   # multiple H1s
-MD026: false   # trailing punctuation in headings
-MD031: false   # blanks around fenced code
-MD032: false   # blanks around lists
-MD034: false   # bare URLs
-MD036: false   # emphasis as heading
-MD040: false   # fenced code needs language
+MD003: false
+MD007: false
+MD009: false
+MD012: false
+MD013: false
+MD022: false
+MD025: false
+MD026: false
+MD031: false
+MD032: false
+MD034: false
+MD036: false
+MD040: false

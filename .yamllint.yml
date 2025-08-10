@@ -1,9 +1,7 @@
 extends: default
-
 ignore: |
   admin/setup/dist/**
   .github/ISSUE_TEMPLATE/_legacy/**
-
 rules:
   line-length:
     max: 120
