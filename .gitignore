@@ -9,3 +9,7 @@ Thumbs.db
 # Local notes
 *.local.md
 *.private.md
+
+# Ignore editor/backup artifacts
+*.bak
+README.pre_refactor_*.bak
