@@ -19,3 +19,5 @@ See [meta/Doc_Headers_Footers.md](meta/Doc_Headers_Footers.md) and [meta/ONEBLOC
 
 </details>
 
+
+<!-- ci: register on main 20250810T191652Z -->
