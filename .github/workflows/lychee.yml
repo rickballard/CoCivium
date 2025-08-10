@@ -27,14 +27,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  lychee:
-    name: lychee
-    needs: linkcheck
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@v1
-        with:
-          args: --config .lychee.toml .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
