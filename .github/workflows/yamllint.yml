@@ -9,6 +9,7 @@ permissions:
   contents: read
 jobs:
   yamllint:
+    name: YAML Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
