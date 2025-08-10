@@ -10,3 +10,6 @@ admin/scratchpad/*
 !admin/scratchpad/published/
 !admin/scratchpad/published/**
 admin/setup/dist/
+
+# Ignore GitHub download snapshots
+CoCivium-main/
