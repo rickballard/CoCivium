@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-08-10T16:54:39Z",
+  "ci": 0.2,
+  "coverage": 0.0,
+  "ofs": 0.667,
+  "lsh": 0.444,
+  "dti": 0.25,
+  "throughput_per_month": 70,
+  "t_norm": 1.0,
+  "lead_time_days": null,
+  "lt_norm": 0.5,
+  "ee": 0.0,
+  "rd": 0.094,
+  "starpoints": [
+    {
+      "id": "MeritRank_Demo",
+      "theta_deg": 270,
+      "r": 0.5,
+      "stage": 5,
+      "velocity": 0.05
+    },
+    {
+      "id": "Opename_Stub",
+      "theta_deg": 135,
+      "r": 0.3,
+      "stage": 4,
+      "velocity": 0.02
+    }
+  ],
+  "links": [
+    [
+      "MeritRank_Demo",
+      "Opename_Stub"
+    ]
+  ]
+}
