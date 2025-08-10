@@ -56,4 +56,3 @@ It serves as a reality-check framework for CoCivium: ensuring we identify and co
 ---
 
 ## Diagram Placeholder
-
