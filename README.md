@@ -21,3 +21,7 @@ See [meta/Doc_Headers_Footers.md](meta/Doc_Headers_Footers.md) and [meta/ONEBLOC
 
 
 <!-- ci: register on main 20250810T191652Z -->
+
+<!-- PROGRESS-MAP-LEGEND v1.1 -->
+### Progress Map (v1.1) — with Redundancy-Debt dents
+See [admin/metrics/RD_Dents_Explained.md](admin/metrics/RD_Dents_Explained.md).

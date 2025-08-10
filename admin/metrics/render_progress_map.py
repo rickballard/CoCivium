@@ -1,85 +1,145 @@
 #!/usr/bin/env python3
-import json, math, random, hashlib
-from pathlib import Path
-HERE = Path(__file__).resolve(); REPO = HERE.parents[2]
-METRICS = REPO/"admin"/"metrics"/"metrics.json"; OUT = REPO/"site"/"assets"/"progress_map_v0.svg"
-AXES=[("ci",90,"Coherence"),("coverage",45,"Coverage"),("ofs",0,"Onramp"),("lsh",315,"Link/Schema"),("dti",270,"Decision Trail"),("t_norm",225,"Throughput"),("lt_norm",180,"Lead Time"),("ee",135,"Engagement")]
-DESC={"ci":"Weighted coherence/resonance (proxy for alignment).","coverage":"Canon coverage (must/should manifest).","ofs":"Newcomer onramp fitness (README/Quickstart/etc.).","lsh":"Link & schema hygiene (lint, anchors, metadata).","dti":"Decision-trail integrity (rationale/lineage).","t_norm":"Change cadence vs target (normalized).","lt_norm":"Responsiveness (lower lead time ⇒ higher score).","ee":"External engagement (issues/PRs/returns/traffic)."}
-def polar(cx,cy,r,deg): rad=math.radians(deg); return cx+r*math.cos(rad), cy-r*math.sin(rad)
-def c01(x): 
-  try: return max(0.0,min(1.0,float(x)))
-  except: return 0.0
-def seed(m): random.seed(int(hashlib.sha256(json.dumps(m,sort_keys=True).encode()).hexdigest()[:16],16))
-def soft(x1,y1,x2,y2,cx,cy,t=0.18):
-  mx,my=(x1+x2)/2,(y1+y2)/2; dx,dy=cx-mx,cy-my; c1x,c1y=mx+dx*t,my+dy*t; return f"M{x1:.1f},{y1:.1f} Q{c1x:.1f},{c1y:.1f} {x2:.1f},{y2:.1f}"
-def txt(s,x,y,size=12,color="#cbd5e1",anchor="start"): return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" text-anchor="{anchor}">{s}</text>'
-def main():
-  if not METRICS.exists():
-    METRICS.parent.mkdir(parents=True,exist_ok=True)
-    METRICS.write_text(json.dumps({"timestamp":"(missing)","ci":0,"coverage":0,"ofs":0,"lsh":0,"dti":0,"t_norm":0,"lt_norm":0,"ee":0,"rd":0,"rd_axes":{},"starpoints":[],"links":[]},indent=2),encoding="utf-8")
-  data=json.loads(METRICS.read_text(encoding="utf-8")); seed(data)
-  W,H=1280,920; cx,cy=W/2,H/2+20; R=380; rings=9; rd_axes=data.get("rd_axes",{})
-  pts=[]; tips=[]
-  for key,deg,label in AXES:
-    v=c01(data.get(key,0.0)); dent=float(rd_axes.get(key,0.0)); v2=max(0.0, v*(1.0-min(0.22,dent)))
-    x,y=polar(cx,cy,R*v2,deg); pts.append((x,y)); tips.append((x,y,key,v))
-  poly=" ".join(f"{x:.1f},{y:.1f}" for x,y in pts)
-  svg=[]
-  svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
-  svg.append('''<defs><radialGradient id="bgGrad" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="#0c0f15"/><stop offset="60%" stop-color="#070a0f"/><stop offset="100%" stop-color="#05070b"/></radialGradient><linearGradient id="polyGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0.18"/></linearGradient><filter id="softGlow"><feGaussianBlur stdDeviation="4" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="pointGlow"><feGaussianBlur stdDeviation="1.2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>''')
-  svg.append('<rect x="0" y="0" width="100%" height="100%" fill="url(#bgGrad)"/>')
-  for _ in range(260):
-    x=random.uniform(0,W); y=random.uniform(0,H); rr=random.uniform(0.3,1.4); o=random.uniform(0.06,0.4)
-    svg.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{rr:.2f}" fill="#ffffff" opacity="{o:.2f}"/>')
-  for i in range(1,rings+1):
-    r=R*i/rings; op=0.08 if i<rings else 0.20; dash=' stroke-dasharray="4,6"' if i==rings else ""
-    svg.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" stroke="#cbd5e1" stroke-opacity="{op}" fill="none"{dash}/>')
-    lx,ly=polar(cx,cy,r,350); svg.append(f'<text x="{lx:.1f}" y="{ly:.1f}" fill="#94a3b8" font-size="11" text-anchor="start">Stage {i}</text>')
-  for i in range(1,rings*2):
-    r=R*i/(rings*2); svg.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" stroke="#94a3b8" stroke-opacity="0.04" fill="none"/>')
-  for key,deg,label in AXES:
-    x,y=polar(cx,cy,R,deg)
-    svg.append(f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="#e2e8f0" stroke-opacity="0.12"><title>{label}: {DESC.get(key,"")}</title></line>')
-    lx,ly=polar(cx,cy,R+42,deg); svg.append(f'<text x="{lx:.1f}" y="{ly:.1f}" fill="#cbd5e1" font-size="14" text-anchor="middle" dominant-baseline="middle">{label}</text>')
-  svg.append(f'<polygon points="{poly}" fill="url(#polyGrad)" stroke="#7dd3fc" stroke-opacity="0.55" stroke-width="2" filter="url(#softGlow)"><title>Progress envelope (farther out = healthier)</title></polygon>')
-  for x,y,key,v in tips:
-    svg.append(f'<text x="{x:.1f}" y="{y:.1f}" fill="#e2e8f0" font-size="12" text-anchor="middle" dy="-6"><title>{DESC.get(key,"")}</title>{int(round(100*float(v)))}%</text>')
-  links=data.get("links",[]); id2={}
-  for sp in data.get("starpoints",[]):
-    deg=float(sp.get("theta_deg",0.0)); rr=float(sp.get("r",0.0)); x,y=polar(cx,cy,R*c01(rr),deg); id2[sp.get("id","?")]=(x,y)
-  for a,b in links:
-    if a in id2 and b in id2:
-      x1,y1=id2[a]; x2,y2=id2[b]; path=soft(x1,y1,x2,y2,cx,cy,0.18)
-      svg.append(f'<path d="{path}" stroke="#93c5fd" stroke-opacity="0.18" stroke-width="1.2" fill="none"><title>Concept link: {a} ↔ {b}</title></path>')
-  for sp in data.get("starpoints",[]):
-    deg=float(sp.get("theta_deg",0.0)); rr=float(sp.get("r",0.0)); v=float(sp.get("velocity",0.0)); x,y=polar(cx,cy,R*c01(rr),deg)
-    if v>0:
-      tlen=min(40+200*v,140); bx,by=polar(cx,cy,R*c01(rr)-tlen,deg)
-      svg.append(f'<line x1="{bx:.1f}" y1="{by:.1f}" x2="{x:.1f}" y2="{y:.1f}" stroke="#fde68a" stroke-opacity="0.35" stroke-width="1.6"><title>Recent velocity {v:.2f}</title></line>')
-    svg.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.8" fill="#fde68a" filter="url(#pointGlow)"><title>{sp.get("id","").replace("_"," ")}</title></circle>')
-    lbl=sp.get("id","").replace("_"," "); svg.append(f'<text x="{x+10:.1f}" y="{y-8:.1f}" fill="#fef3c7" font-size="12">{lbl}</text>')
-  rd_pct=int(round(100*float(data.get("rd",0.0))))
-  svg.append(f'<rect x="{W-300}" y="24" width="276" height="114" rx="10" fill="#0b1220" opacity="0.66" stroke="#1f2937" stroke-opacity="0.5"/>')
-  svg.append(f'<text x="{W-162}" y="50" fill="#cbd5e1" font-size="14" text-anchor="middle">Redundancy Debt (axis dents)</text>')
-  svg.append(f'<text x="{W-162}" y="74" fill="#fca5a5" font-size="18" text-anchor="middle">{rd_pct}%</text>')
-  ts=data.get("timestamp",""); svg.append(f'<text x="{W-162}" y="{98}" fill="#94a3b8" font-size="11" text-anchor="middle">Last updated: {ts}</text>')
-  svg.append(f'<a href="https://github.com/rickballard/CoCivium/blob/main/admin/metrics/metrics.json"><text x="{W-162}" y="{114}" fill="#93c5fd" font-size="11" text-anchor="middle">View data JSON</text></a>')
-  bx,by,bw,bh=24,H-280,620,256
-  svg.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="14" fill="#0b1220" opacity="0.66" stroke="#1f2937" stroke-opacity="0.5"/>')
-  svg.append(txt("What is this map?",bx+18,by+30,size=16,color="#e2e8f0"))
-  lines=["A living radar of CoCivium repo health across 8 axes (0–1).","Rings = evolution stages 1–9; dashed ring hints at ∞ (beyond roadmap).","Polygon = current progress; farther out = healthier. Values shown as %.","Starpoints = key concepts/files; trails = recent velocity.","Edge dents = Redundancy Debt per axis (duplicates/conflicts).","Data source: admin/metrics/metrics.json (updated nightly via GitHub Action)."]
-  for i,t in enumerate(lines,1): svg.append(txt("• "+t,bx+18,by+30+20*i,size=12,color="#cbd5e1"))
-  lw,lh=560,256; lx,ly=W-lw-24,H-lh-24
-  svg.append(f'<rect x="{lx}" y="{ly}" width="{lw}" height="{lh}" rx="14" fill="#0b1220" opacity="0.66" stroke="#1f2937" stroke-opacity="0.5"/>')
-  svg.append(txt("Axes & references",lx+18,ly+30,size=16,color="#e2e8f0"))
-  y=ly+54
-  for key,_deg,label in AXES:
-    svg.append(txt(f"{label}:",lx+18,y,size=13,color="#e5e7eb")); svg.append(txt(DESC.get(key,""),lx+150,y,size=12,color="#cbd5e1")); y+=20
-  sy=y+6; svg.append(f'<line x1="{lx+18}" y1="{sy}" x2="{lx+78}" y2="{sy}" stroke="#fde68a" stroke-width="1.6"/>')
-  svg.append(f'<circle cx="{lx+78}" cy="{sy}" r="3.6" fill="#fde68a" filter="url(#pointGlow)"/>'); svg.append(txt("Starpoint + velocity trail",lx+98,sy+4,size=12,color="#cbd5e1"))
-  sy+=22; svg.append(f'<path d="M{lx+18},{sy} Q{lx+50},{sy-16} {lx+82},{sy}" stroke="#93c5fd" stroke-opacity="0.6" stroke-width="1.2" fill="none"/>')
-  svg.append(txt("Fungal filament (concept link)",lx+98,sy+4,size=12,color="#cbd5e1"))
-  svg.append(f'<text x="{cx}" y="{34}" fill="#e2e8f0" font-size="20" text-anchor="middle">CoCivium Progress Map — v1.3</text>')
-  svg.append('</svg>')
-  OUT.parent.mkdir(parents=True,exist_ok=True); OUT.write_text("\n".join(svg),encoding="utf-8")
-if __name__=="__main__": main()
+# -*- coding: utf-8 -*-
+import json, math, os, datetime, pathlib, random
+
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]
+METRICS = REPO_ROOT / "admin" / "metrics" / "metrics.json"
+OUT_SVG = REPO_ROOT / "site" / "assets" / "progress_map_v0.svg"
+OUT_SVG_THUMB = REPO_ROOT / "site" / "assets" / "progress_map_thumb_v1_1.svg"
+
+AXES = [
+    ("SCO", "Scope/Complexity/Orderliness"),
+    ("CI",  "CI Pass Rate"),
+    ("COV", "Coverage"),
+    ("OFS", "Open File Standards"),
+    ("LSH", "Linked Semantic Hubs"),
+    ("DTI", "Decision Traceability Index"),
+    ("TP",  "Throughput"),
+    ("LT",  "Lead Time (lower=better)"),
+]
+
+def load_metrics():
+    data = {
+        "ci_pass_rate": 0.80, "coverage_pct": 60, "ofs_score": 0.5,
+        "lsh_score": 0.3, "dti_score": 0.4, "throughput_norm": 0.4,
+        "lead_time_hours": 48, "lead_time_max": 72, "sco_score": 0.5, "rd": {}
+    }
+    if METRICS.exists():
+        try:
+            incoming = json.loads(METRICS.read_text(encoding="utf-8"))
+            g = incoming.get
+            data["ci_pass_rate"]    = float(g("ci_pass_rate", data["ci_pass_rate"]))
+            data["coverage_pct"]    = float(g("coverage_pct", data["coverage_pct"]))
+            data["ofs_score"]       = float(g("ofs_score", data["ofs_score"]))
+            data["lsh_score"]       = float(g("lsh_score", data["lsh_score"]))
+            data["dti_score"]       = float(g("dti_score", data["dti_score"]))
+            data["throughput_norm"] = float(g("throughput_norm", data["throughput_norm"]))
+            data["lead_time_hours"] = float(g("lead_time_hours", data["lead_time_hours"]))
+            data["lead_time_max"]   = float(g("lead_time_max", data["lead_time_max"]))
+            data["sco_score"]       = float(g("sco_score", data["sco_score"]))
+            if isinstance(g("rd", {}), dict):
+                data["rd"] = {k: max(0.0, min(1.0, float(v))) for k,v in g("rd", {}).items()}
+            if not data["rd"] and "duplication_ratio" in incoming:
+                dup = max(0.0, min(1.0, float(incoming["duplication_ratio"])))
+                data["rd"] = {k[0]: round(0.5*dup, 3) for k in AXES}
+        except Exception:
+            pass
+    return data
+
+def normalize(d):
+    vals = {}
+    vals["SCO"] = max(0, min(1, d["sco_score"]))
+    vals["CI"]  = max(0, min(1, d["ci_pass_rate"]))
+    vals["COV"] = max(0, min(1, d["coverage_pct"]/100.0))
+    vals["OFS"] = max(0, min(1, d["ofs_score"]))
+    vals["LSH"] = max(0, min(1, d["lsh_score"]))
+    vals["DTI"] = max(0, min(1, d["dti_score"]))
+    vals["TP"]  = max(0, min(1, d["throughput_norm"]))
+    denom = d["lead_time_max"] if d["lead_time_max"] > 0 else max(1.0, d["lead_time_hours"])
+    vals["LT"]  = 1.0 - max(0.0, min(1.0, d["lead_time_hours"]/denom))
+    return vals
+
+def polar_to_xy(cx, cy, r, theta):
+    return (cx + r*math.sin(theta), cy - r*math.cos(theta))
+
+def build_svg(data):
+    W = H = 1000
+    cx = cy = W/2
+    R = 400
+    rings = [0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.0]
+    axes = AXES
+    n = len(axes)
+    vals = normalize(data)
+    rd = data.get("rd", {})
+    rdv = {k: max(0.0, min(1.0, float(rd.get(k, 0.0)))) for k,_ in axes}
+
+    ts = datetime.datetime.utcnow().replace(microsecond=0).isoformat()+"Z"
+    out = []
+    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">')
+    out.append(f'  <title id="title">CoCivium Progress Map — v1.1 — {ts}</title>')
+    out.append('  <desc id="desc">8-axis radial map with per-axis Redundancy-Debt dents and tooltips.</desc>')
+    out.append('  <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>')
+    out.append('  <rect width="100%" height="100%" fill="#05060a"/>')
+
+    random.seed(42)
+    for _ in range(150):
+        x = random.randint(0,W); y = random.randint(0,H); a = random.choice([0.15,0.25,0.35])
+        out.append(f'<circle cx="{x}" cy="{y}" r="1.2" fill="white" opacity="{a}"/>')
+
+    for ring in rings:
+        rr = R*ring
+        if ring < 1.0:
+            out.append(f'<circle cx="{cx}" cy="{cy}" r="{rr}" fill="none" stroke="#6ee7ff" stroke-opacity="0.08" stroke-dasharray="2,4"/>')
+        else:
+            out.append(f'<circle cx="{cx}" cy="{cy}" r="{rr}" fill="none" stroke="#22d3ee" stroke-opacity="0.35"/>')
+
+    for i,(key,label) in enumerate(axes):
+        theta = (2*math.pi*i)/n
+        x2,y2 = polar_to_xy(cx,cy,R,theta)
+        out.append(f'<line x1="{cx}" y1="{cy}" x2="{x2}" y2="{y2}" stroke="#94a3b8" stroke-opacity="0.45"/>')
+        lx,ly = polar_to_xy(cx,cy,R+32,theta)
+        out.append(f'<text x="{lx}" y="{ly}" fill="#e2e8f0" font-size="14" text-anchor="middle">{label}<title>{key}</title></text>')
+        v = vals[key]
+        tip_r = R*(v*0.98)
+        tx,ty = polar_to_xy(cx,cy,tip_r,theta)
+        dent_pct = int(rdv[key]*100)
+        out.append(f'<circle cx="{tx:.1f}" cy="{ty:.1f}" r="3.2" fill="#22d3ee"><title>{label}: {round(v*100):d}% (RD dent {dent_pct}%)</title></circle>')
+
+    def dent_profile(angle_diff, width=math.radians(20)):
+        return math.exp(- (angle_diff**2) / (2*(width**2)))
+
+    coords = []
+    fine_steps = 360
+    for s in range(fine_steps):
+        theta = (2*math.pi*s)/fine_steps
+        axis_idx = int(round((theta/(2*math.pi))*n)) % n
+        key,_ = axes[axis_idx]
+        v = vals[key]
+        base_r = R*(v*0.98)
+
+        dent = 0.0
+        for i,(k,_) in enumerate(axes):
+            axis_theta = (2*math.pi*i)/n
+            dtheta = math.atan2(math.sin(theta-axis_theta), math.cos(theta-axis_theta))
+            dent += rdv[k] * dent_profile(abs(dtheta))
+        dent = min(1.0, dent)
+        dent_depth = 0.15
+        r = base_r * (1.0 - dent_depth*dent)
+        coords.append(polar_to_xy(cx,cy,r,theta))
+
+    path_d = "M " + " L ".join(f"{x:.2f},{y:.2f}" for x,y in coords) + " Z"
+    out.append(f'<path d="{path_d}" fill="#22d3ee" fill-opacity="0.22" stroke="#67e8f9" stroke-opacity="0.8" filter="url(#glow)"><title>Progress polygon with RD dents</title></path>')
+
+    out.append('<g transform="translate(40,40)"><rect x="0" y="0" width="280" height="120" rx="12" ry="12" fill="#0b1220" stroke="#1f2937" opacity="0.9"/><text x="16" y="24" fill="#e2e8f0" font-size="16">Legend</text><circle cx="20" cy="48" r="6" fill="#22d3ee"/><text x="36" y="52" fill="#cbd5e1" font-size="13">Axis tip (value %)<title>Numeric axis tip</title></text><rect x="14" y="64" width="16" height="10" fill="#22d3ee" fill-opacity="0.22" stroke="#67e8f9"/><text x="36" y="72" fill="#cbd5e1" font-size="13">Progress polygon<title>Higher is better</title></text><path d="M14,96 h16" stroke="#94a3b8" stroke-opacity="0.45"/><text x="36" y="100" fill="#cbd5e1" font-size="13">Axis (with RD dent inward)<title>Redundancy-Debt notch reduces radius</title></text></g>')
+    out.append('</svg>')
+    svg = "\n".join(out)
+
+    OUT_SVG.parent.mkdir(parents=True, exist_ok=True)
+    OUT_SVG.write_text(svg, encoding="utf-8")
+    OUT_SVG_THUMB.write_text(svg.replace('width="1000" height="1000"', 'width="640" height="640"'), encoding="utf-8")
+    print(f">> Wrote {OUT_SVG}")
+    print(f">> Wrote {OUT_SVG_THUMB}")
+
+if __name__ == "__main__":
+    data = load_metrics()
+    build_svg(data)
