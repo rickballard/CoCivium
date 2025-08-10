@@ -1,9 +1,6 @@
 name: YAML Lint
 on:
   pull_request:
-    paths:
-      - '**/*.yml'
-      - '**/*.yaml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,8 +9,6 @@ jobs:
     name: YAML Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: ibiqlik/action-yamllint@v3
         with:
           format: github
           strict: true
