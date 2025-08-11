@@ -9,3 +9,6 @@ Thumbs.db
 # Local notes
 *.local.md
 *.private.md
+
+# backups
+*.bak
