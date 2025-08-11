@@ -1,7 +1,7 @@
 name: Link Check
 on:
   schedule:
-    - cron: '0 3 * * 0' # weekly
+    - cron: '0 3 * * 0'  # weekly
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .
+          args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .  # yamllint disable-line rule:line-length
         env:
           GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
