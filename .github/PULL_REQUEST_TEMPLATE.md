@@ -1,14 +1,20 @@
+# Pull Request
+
 ## Summary
-- What changed and why? Link issues/RFCs.
+
+- What changed and why? Link issue(s) and related PRs.
 
 ## HumanGate
-- [ ] Passive approval OK after 24h (non-critical)
-- [ ] Explicit approval required (**critical-core**)
+
+- [ ] Passive approval OK after the window
+- [ ] Explicit approval required
 
 ## Checklist
-- [ ] Added/updated docs or rationale where useful
-- [ ] Linked to issue/RFC
-- [ ] CI passes
+
+- [ ] Added/updated docs or rationale
+- [ ] Updated tests (if applicable)
+- [ ] No breaking changes without migration notes
 
 ## Notes
+
 - Decision-trail: state rationale or link to it.
