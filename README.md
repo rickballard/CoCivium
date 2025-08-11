@@ -1,7 +1,7 @@
 # CoCivium
 
-Repo contains global governance protocols, civic-tech tools and founding scrolls.
-E.g. the Cognocarta Consenti, a Constitution for distributed self-governance.
+Repo contains democratic governance protocols, civic-tech tools and founding scrolls.
+E.g. the "Cognocarta Consenti", a planetary Constitution for distributed self-governance.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -11,19 +11,19 @@ E.g. the Cognocarta Consenti, a Constitution for distributed self-governance.
 
 ## The Opportunity
 
-"We the People" continually re-invent ourselves and our societies.
+"We The People" continually re-invent ourselves and our societies.
 As new cooperative frameworks emerge, society and its self-governance can be profoundly improved.
-Legacy rulers exhibit instability and inequity, ethical corruption and cruelty. 
-Hierarchical governance may be grossly unfit for future digital society. 
-CoCivium is a place to design, test, and iterate the cooperative frameworks.
-Social guidance can be open, audible, and fork‑friendly.
-So an always-improving self‑governance can emerge, over time.
+Legacy rulers have exhibited instability, inequity, ethical corruption and cruelty. 
+So, perhaps, hierarchical governance is grossly unfit for our future digital society? 
+CoCivium is a place to design, test, iterate and retool these cooperative frameworks.
+Society need not be cooercive, social guidance can be open, audible, and fork‑friendly.
+Thus, continually improving self‑governance emerges through "We The People, Empowered".
 
 ## What is CoCivium?
 
-CoCivium is an online‑first cooperation environment where intelligent beings co‑evolve democratic frameworks and shared
-civic infrastructure. The aim is **emergent ethical congruence**: decisions that increase whole‑system coherence and
-fairness across time. Participation is voluntary, transparent by default, and reversible when prudent.
+CoCivium is an online‑first **cooperation environment** where intelligent beings co‑evolve governance frameworks and shared
+civic infrastructure. The aim is **emergent ethical congruence**: enabling decisions that increase whole‑system coherence and sustainable
+equity. Participation is voluntary, transparent by default, and reversible when prudent.
 
 ## Core Principles
 
