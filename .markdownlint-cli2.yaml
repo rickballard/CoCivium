@@ -3,3 +3,9 @@ globs:
 ignores:
   - "admin/setup/dist/**"
   - ".github/ISSUE_TEMPLATE/_legacy/**"
+
+MD033:
+  allowed_elements:
+    - details
+    - summary
+    - next
