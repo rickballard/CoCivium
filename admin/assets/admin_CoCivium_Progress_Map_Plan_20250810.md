@@ -197,11 +197,17 @@ site/
 ## 10) Action checklist (numbered)
 
 1. Create `admin/metrics/build_metrics.yml` (nightly at 02:00 UTC).  
+
 2. Implement metric collectors (CI, Coverage, OFS, LSH, DTI, T, LT, EE, RD).  
+
 3. Emit `metrics.json` and append to `history/` with datestamp.  
+
 4. Write `render_progress_map.py` to generate `site/assets/progress_map_v0.svg`.  
+
 5. Embed the SVG on the landing page with alt text and legend.  
+
 6. Add two demo **starpoints** (MeritRank_Demo, Opename_Stub) wired to real links.  
+
 7. Ship.  Then start Phase B (interactive) on a separate branch.
 
 ---
