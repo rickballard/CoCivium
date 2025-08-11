@@ -23,31 +23,49 @@ fairness across time. Participation is voluntary, transparent by default, and re
 ## Core Principles
 
 **0)** **Prime Directive — Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.  
+
 **1)** **Consent over coercion.** Opt‑in, informed, granular, revocable.  
+
 **2)** **Accountability with trails.** Clear owners, appeals, restitution, public rationale.  
+
 **3)** **Transparency by default; privacy by right.** Open process/code; user‑owned keys; portability; erasure.  
+
 **4)** **Evidence over authority.** Claims need sources, tests, and adversarial review.  
+
 **5)** **Least power, staged risk.** Minimal permissions; sandboxes; kill‑switches; reversible‑first.  
+
 **6)** **Fairness and proportionality.** Rights floors; merit‑weighted influence; proportional sanctions.  
+
 **7)** **Pluralism and interoperability.** Many worldviews; shared protocols; easy fork‑and‑rejoin.  
+
 **8)** **Resilience via redundancy.** No single point of failure—technical, social, or legal.  
+
 **9)** **Commons stewardship.** Open licenses; contributor covenant; anti‑enclosure.  
+
 **10)** **Incentive alignment.** Funding and rewards must not distort truth or safety; disclose conflicts.  
+
 **11)** **Antitrust of power (human or AI).** Caps on governance share; rotation; independence tests.  
+
 **12)** **Continuous improvement.** Versioned experiments; metrics, rollbacks, upgrade paths.  
+
 **13)** **Non‑violence and dignified discourse.** Mediation over flame wars; restorative outcomes.  
+
 **14)** **Sustainability and long‑termism.** Price externalities; favor multi‑generational impact.  
+
 **15)** **Inclusivity and accessibility (all minds).** Real access for human and synthetic minds; strong on‑ramps.
 
 ## Start Here
 
 - **What is this?** See [admin/README.md](admin/README.md).  
+
 - **Quickstart:** clone, open `site/` preview, scan the progress map.  
+
 - **For AI agents:** [README_FOR_AI.md](README_FOR_AI.md).  
 
 <!-- START-HERE -->
 
 ### Progress Map (v1.1) — with Redundancy‑Debt dents
+
 See [admin/metrics/RD_Dents_Explained.md](admin/metrics/RD_Dents_Explained.md).
 
 <details><summary>Conventions &amp; Standards</summary>
