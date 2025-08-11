@@ -1,6 +1,7 @@
 # CoCivium
 
-Civic protocols and founding scrolls for aligning biological and synthetic minds via recursive ethical co‑evolution.
+Repo contains global governance protocols, civic-tech tools and founding scrolls.
+E.g. the Cognocarta Consenti, a Constitution for distributed self-governance.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -10,9 +11,13 @@ Civic protocols and founding scrolls for aligning biological and synthetic minds
 
 ## The Opportunity
 
-"We the People" can use modern civic‑tech to govern more fairly than legacy hierarchies. With AI and other emerging tools,
-new cooperative frameworks become possible. CoCivium is a place to design, test, and iterate those frameworks—openly,
-audibly, and fork‑friendly—so better self‑governance can emerge over time.
+"We the People" continually re-invent ourselves and our societies.
+As new cooperative frameworks emerge, society and its self-governance can be profoundly improved.
+Legacy rulers exhibit instability and inequity, ethical corruption and cruelty. 
+Hierarchical governance may be grossly unfit for future digital society. 
+CoCivium is a place to design, test, and iterate the cooperative frameworks.
+Social guidance can be open, audible, and fork‑friendly.
+So an always-improving self‑governance can emerge, over time.
 
 ## What is CoCivium?
 
