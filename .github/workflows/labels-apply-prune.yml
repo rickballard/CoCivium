@@ -36,8 +36,7 @@ jobs:
               {name:'governance/explicit-approval', color:'5319E7', desc:'HumanGate: explicit approval required (no passive)'},
               {name:'governance/passive-ok',    color:'006B75', desc:'HumanGate: passive approval allowed after window'},
               {name:'critical-core',            color:'8B4513', desc:'Core strategy or irreversible change'}
-];
-
+              ];
             // Upsert curated labels
             for (const L of wanted) {
               try {
