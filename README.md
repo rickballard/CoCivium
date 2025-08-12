@@ -1,8 +1,8 @@
 # CoCivium
 
-Repo contains democratic governance protocols, civic-tech tools and founding scrolls.
+Democracy protocols and civic-tech tools for borderless governance.
 
-E.g. the **"Cognocarta Consenti"**, a planetary Constitution for distributed self-governance.
+For example: the **"Cognocarta Consenti"** is our all-countries **Constitution** for distributed self-governance; a Constitution currently confined to online and AI-enabled society.  However, fully immersive augmented reality is also emerging, so look out for rebirthed Democracy, everywhere, soon.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
