@@ -1,9 +1,9 @@
 # DB Init — PostgreSQL — Parking Card (_c0_) — 2025-08-12
 
-**Status:** Parked (Maybe).  **Owner:** Rick.  **Reason:** Overload / deprioritized.  **Revisit by:** 2025-09-15.
+**Status:** Parked (Maybe).  **Owner:** Rick.  **Repo:** CoCivium.  **Reason:** Overload / deprioritized.  **Revisit by:** 2025-09-15.
 
 ## Scope when revived
-Establish Postgres baseline for CoCivium: migration tool, seed strategy, CI service, env contracts.
+Establish a Postgres baseline for CoCivium: choose a migration tool, define seed strategy, add CI service, lock env contracts.
 
 ## Exit criteria
 1) Single migration tool chosen.  2) `DATABASE_URL` contract documented.  3) CI: fresh DB → apply migrations → tests pass.
