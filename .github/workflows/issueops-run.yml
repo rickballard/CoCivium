@@ -16,12 +16,12 @@ jobs:
       - name: Restrict trigger to Rick
         if: ${{ github.event.comment.user.login != 'rickballard' }}
         run: echo Unauthorized; exit 0
-        shell: pwsh
+        shell: powershell
 
       - uses: actions/checkout@v4
 
       - name: Ensure Git Bash exists
-        shell: pwsh
+        shell: powershell
         run: |
           $gitbash = "C:\Program Files\Git\bin\bash.exe"
           if (-not (Test-Path $gitbash)) { throw "Git Bash not found at $gitbash" }
@@ -29,7 +29,7 @@ jobs:
 
       - name: Extract fenced bash block
         id: extract
-        shell: pwsh
+        shell: powershell
         run: |
           $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
           $body  = $event.comment.body
@@ -45,7 +45,7 @@ jobs:
 
       - name: Execute bash block
         if: steps.extract.outputs.found == 'true'
-        shell: pwsh
+        shell: powershell
         run: |
           $ErrorActionPreference = "Stop"
           & "C:\Program Files\Git\bin\bash.exe" "-lc" "set -euo pipefail; bash ./issueops_run.sh" *>&1 | Tee-Object tmp_exec.log
