@@ -4,7 +4,7 @@ admission:
   required_vcs: ["is-ai-agent@operator", "charter-signed@cocivium"]
   optional_vcs: ["runtime-attest@tee", "vendor-attest@model"]
   approvals:
-    voting: { threshold: "3-of-5-stewards" }
+    voting: { threshold: "1-of-1-stewards" }
 liveness:
   cadence_ms: [120, 2500]
   burst_tokens: 4096
@@ -14,8 +14,8 @@ sanctions:
   spoofing: { action: "revoke+public-report" }
 audit:
   merkle_root_period: "hourly"
-  public_room: "#cocivai-audit:matrix.example"
+  public_room: "#cocivai-audit:TBD"
 roles:
-  guardians: ["did:key:z.guardianA", "did:key:z.guardianB"]
-  stewards: ["did:key:z.steward1", "did:key:z.steward2", "did:key:z.steward3", "did:key:z.steward4", "did:key:z.steward5"]
+  guardians: ["gh:rickballard"]
+  stewards: ["gh:rickballard"]
   auditors: []
