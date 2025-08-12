@@ -1,20 +1,11 @@
-# Pull Request
-
 ## Summary
-
-- What changed and why? Link issue(s) and related PRs.
-
-## HumanGate
-
-- [ ] Passive approval OK after the window
-- [ ] Explicit approval required
+Explain the change and why.
 
 ## Checklist
+- [ ] Linked issue / context
+- [ ] Docs updated (if needed)
+- [ ] Tested locally or via `/run`
+- [ ] Ready for **squash merge**
 
-- [ ] Added/updated docs or rationale
-- [ ] Updated tests (if applicable)
-- [ ] No breaking changes without migration notes
-
-## Notes
-
-- Decision-trail: state rationale or link to it.
+## Notes for reviewers
+Anything risky, follow-up tasks, or roll-back plan.
