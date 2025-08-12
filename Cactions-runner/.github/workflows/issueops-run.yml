@@ -1,0 +1,75 @@
+name: IssueOps Run (/run)
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  run:
+    if: contains(github.event.comment.body, '/run')
+    runs-on: [self-hosted, windows]
+    steps:
+      - name: Only allow Rick to trigger
+        if: ${{ github.event.comment.user.login != 'rickballard' }}
+        run: echo "Unauthorized commenter. Ignoring." && exit 0
+
+      - uses: actions/checkout@v4
+
+      - name: Ensure Git Bash is available
+        shell: pwsh
+        run: |
+          $gitbash = "C:\Program Files\Git\bin\bash.exe"
+          if (-not (Test-Path $gitbash)) { throw "Git Bash not found at $gitbash. Install Git for Windows." }
+          $env:PATH = "$env:PATH;C:\Program Files\Git\bin"
+          bash --version
+
+      - name: Extract ```bash fenced block from the comment
+        id: extract
+        shell: pwsh
+        run: |
+          $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
+          $body  = $event.comment.body
+          $m = [regex]::Matches($body, '(?s)```bash\s*(.+?)\s*```')
+          if ($m.Count -eq 0) {
+            'No ```bash code block found in the /run comment.' | Out-File issueops_out.txt -Encoding UTF8
+            "found=false" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          $code = $m[0].Groups[1].Value
+          Set-Content -Path issueops_run.sh -Value $code -Encoding UTF8
+          "found=true" >> $env:GITHUB_OUTPUT
+
+      - name: Execute bash block
+        if: steps.extract.outputs.found == 'true'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          "### Command\n```bash`n$ (Get-Content issueops_run.sh -Raw)`n```" | Out-File issueops_out.md -Encoding UTF8
+          & "C:\Program Files\Git\bin\bash.exe" "-lc" "set -euo pipefail; bash ./issueops_run.sh" *>&1 | Tee-Object -FilePath tmp_exec.log
+          "`n### Output`n```\n$(Get-Content tmp_exec.log -Raw)`n```" | Add-Content issueops_out.md
+
+      - name: Upload artifacts
+        if: steps.extract.outputs.found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: issueops_run_${{ github.run_id }}
+          path: |
+            issueops_run.sh
+            tmp_exec.log
+            issueops_out.md
+          retention-days: 7
+
+      - name: Comment results
+        if: steps.extract.outputs.found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = fs.readFileSync('issueops_out.md','utf8');
+            if (body.length > 65000) body = body.slice(0,65000) + "\n\n[...truncated...]";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "✅ **/run executed on self-hosted runner**\n\n" + body + "\n\nArtifacts attached."
+            })
