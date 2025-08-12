@@ -1,2 +1,2 @@
-admin/projects/* @rickballard
-admin/products/* @rickballard
+# Temporary gatekeeper: require a maintainer review for everything
+* @rickballard
