@@ -7,3 +7,5 @@
 **Naming.** `<ProductName>_cN_YYYYMMDD/` with a short Product Card and viability notes.  
 
 - [PromptQ_c0_20250812](PromptQ_c0_20250812/) — prompt orchestration layer (Parked; revisit 2025-09-15).
+
+- [PromptQ_c0_20250812](PromptQ_c0_20250812/) — prompt orchestration layer (Parked; revisit 2025-09-15).
