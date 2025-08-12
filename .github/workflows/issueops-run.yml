@@ -1,5 +1,9 @@
 name: IssueOps Run (/run)
 
+concurrency:
+  group: issueops-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
   issues: write
@@ -12,6 +16,7 @@ jobs:
   run:
     if: contains(github.event.comment.body, '/run')
     runs-on: [self-hosted, Windows, X64]
+    timeout-minutes: 15
     steps:
       - name: Restrict trigger to Rick
         if: ${{ github.event.comment.user.login != 'rickballard' }}
