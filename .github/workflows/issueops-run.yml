@@ -1,5 +1,9 @@
 name: IssueOps Run (/run)
 
+permissions:
+  contents: read
+  issues: write
+
 on:
   issue_comment:
     types: [created]
@@ -7,7 +11,7 @@ on:
 jobs:
   run:
     if: contains(github.event.comment.body, '/run')
-    runs-on: [self-hosted, windows]
+    runs-on: [self-hosted, Windows, X64]
     steps:
       - name: Restrict trigger to Rick
         if: ${{ github.event.comment.user.login != 'rickballard' }}
@@ -58,16 +62,16 @@ jobs:
             issueops_out.md
           retention-days: 7
 
-      - uses: actions/github-script@v7
+      - name: Comment results
         if: steps.extract.outputs.found == 'true'
+        uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            let body = fs.readFileSync('issueops_out.md','utf8');
-            if (body.length > 65000) body = body.slice(0,65000) + "\n\n[...truncated...]";
+            const body = fs.readFileSync('issueops_out.md','utf8');
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
-              body: "✅ **/run executed on self-hosted runner**\n\n" + body + "\n\nArtifacts attached."
-            })
+              body
+            });
