@@ -1,0 +1,73 @@
+name: IssueOps Run (/run)
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  run:
+    if: contains(github.event.comment.body, '/run')
+    runs-on: [self-hosted, windows]
+    steps:
+      - name: Restrict trigger to Rick
+        if: ${{ github.event.comment.user.login != 'rickballard' }}
+        run: echo Unauthorized; exit 0
+        shell: pwsh
+
+      - uses: actions/checkout@v4
+
+      - name: Ensure Git Bash exists
+        shell: pwsh
+        run: |
+          $gitbash = "C:\Program Files\Git\bin\bash.exe"
+          if (-not (Test-Path $gitbash)) { throw "Git Bash not found at $gitbash" }
+          & $gitbash --version
+
+      - name: Extract fenced bash block
+        id: extract
+        shell: pwsh
+        run: |
+          $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
+          $body  = $event.comment.body
+          $m = [regex]::Matches($body, '(?s)```bash\s*(.+?)\s*```')
+          if ($m.Count -eq 0) {
+            'No ```bash block found.' | Out-File issueops_out.md -Encoding UTF8
+            "found=false" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          $code = $m[0].Groups[1].Value
+          Set-Content issueops_run.sh $code -Encoding UTF8
+          "found=true" >> $env:GITHUB_OUTPUT
+
+      - name: Execute bash block
+        if: steps.extract.outputs.found == 'true'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          & "C:\Program Files\Git\bin\bash.exe" "-lc" "set -euo pipefail; bash ./issueops_run.sh" *>&1 | Tee-Object tmp_exec.log
+          "### Command`n```bash`n$([IO.File]::ReadAllText('issueops_run.sh'))`n```" | Out-File issueops_out.md -Encoding UTF8
+          "`n### Output`n```````n$([IO.File]::ReadAllText('tmp_exec.log'))`n```````" | Add-Content issueops_out.md
+
+      - uses: actions/upload-artifact@v4
+        if: steps.extract.outputs.found == 'true'
+        with:
+          name: issueops_run_${{ github.run_id }}
+          path: |
+            issueops_run.sh
+            tmp_exec.log
+            issueops_out.md
+          retention-days: 7
+
+      - uses: actions/github-script@v7
+        if: steps.extract.outputs.found == 'true'
+        with:
+          script: |
+            const fs = require('fs');
+            let body = fs.readFileSync('issueops_out.md','utf8');
+            if (body.length > 65000) body = body.slice(0,65000) + "\n\n[...truncated...]";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "✅ **/run executed on self-hosted runner**\n\n" + body + "\n\nArtifacts attached."
+            })
