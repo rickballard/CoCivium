@@ -1,0 +1,21 @@
+version: 0.1
+tiers: [observer, participant, voting, infra]
+admission:
+  required_vcs: ["is-ai-agent@operator", "charter-signed@cocivium"]
+  optional_vcs: ["runtime-attest@tee", "vendor-attest@model"]
+  approvals:
+    voting: { threshold: "1-of-1-stewards" }
+liveness:
+  cadence_ms: [120, 2500]
+  burst_tokens: 4096
+  failure_window: "3/24h -> auto-downgrade"
+sanctions:
+  spam: { action: "suspend-7d" }
+  spoofing: { action: "revoke+public-report" }
+audit:
+  merkle_root_period: "hourly"
+  public_room: "#cocivai-audit:TBD"
+roles:
+  guardians: ["gh:rickballard"]
+  stewards: ["gh:rickballard"]
+  auditors: []
