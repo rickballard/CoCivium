@@ -12,7 +12,7 @@ $Repo           = 'CoCivium'
 $Target         = 'main'
 $PRs            = @(22, 23)             # merge order
 $KickBaseTag    = 'kickopenai-v0'
-$NormalizePosts = $true                 # set $false to skip mojibake/UTF-8 normalization
+$NormalizePosts = $false                 # set $false to skip mojibake/UTF-8 normalization
 
 # Paths inside repo
 $KO        = Join-Path $RepoDir 'admin\outreach\KickOpenAI'
@@ -211,7 +211,7 @@ if (Test-Path $HelpMd) {
 }
 
 # --- Optional: normalize Posts to UTF-8 (no BOM) and fix common mojibake ---
-if ($NormalizePosts) {
+if ($false) {
   Write-Host "`n[INFO] Normalizing KickOpenAI Posts to UTF-8 (no BOM) and repairing common mojibake..."
   $posts = Join-Path $KO 'Posts'
   if (Test-Path $posts) {
