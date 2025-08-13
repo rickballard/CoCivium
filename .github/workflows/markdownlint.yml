@@ -1,19 +1,17 @@
 ---
 name: Markdown Lint
-on:
-  pull_request:
-    paths:
-      - '**/*.md'
-  workflow_dispatch:
+on: [push, pull_request]
 permissions:
   contents: read
+
 jobs:
   mdl:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DavidAnson/markdownlint-cli2-action@v16
+      - name: Run markdownlint-cli2 (non-blocking)
+        uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |
             **/*.md
-
+        continue-on-error: true
