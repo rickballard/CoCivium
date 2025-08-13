@@ -1,3 +1,4 @@
+---
 name: Markdown Lint
 on:
   pull_request:
@@ -15,3 +16,4 @@ jobs:
         with:
           globs: |
             **/*.md
+
