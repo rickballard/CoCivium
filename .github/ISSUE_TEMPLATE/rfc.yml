@@ -1,3 +1,4 @@
+---
 name: RFC
 description: Request for Comments (non-trivial change)
 labels: ["needs/decision"]
@@ -28,3 +29,5 @@ body:
         - explicit-approval
     validations:
       required: true
+
+

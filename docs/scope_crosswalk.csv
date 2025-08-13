@@ -1,0 +1,11 @@
+theme,abbr,layer,artifact,readiness,notes
+Principles & Rights,PRIN,0|1,docs/charter/cc.md,RL2,Amendment wall + rights baseline
+Decision Frameworks,DEC,2,docs/specs/cps.yaml,RL2,Statecharts + test vectors
+Ethical AI Integration,EAI,1|3,docs/policies/ai_use.md,RL2,Model use policy + audit hooks
+Transparency & Oversight,TRNS,1|3,docs/process/appeals.md,RL2,Appeals flow + DR template
+Reference Domains,DOM,3,docs/domains/overview.md,RL1,Exemplars: economy/health/education
+Identity & Voting,IDV,2|4,docs/adapters/voting/README.md,RL1,Eligibility proofs + coercion resistance
+Contributor Experience,CX,3|4,docs/onboarding/index.md,RL3,Templates + CI + docs architecture
+Sustainability & Funding,FUND,3,docs/policies/funding.md,RL1,Non-capture rails + disclosure norms
+Tools & Infrastructure,TOOLS,4,docs/ci/overview.md,RL2,Automations, link-check, pages, observability
+Interoperability & Standards,INT,2|3,docs/standards/registry.md,RL1,Schema registry + API contracts

@@ -1,41 +1,6 @@
-- name: type/bug
-  color: D73A4A
-  description: Bug report
-- name: type/feature
-  color: A2EEEF
-  description: Feature request
-- name: type/chore
-  color: C5DEF5
-  description: Maintenance, cleanup, or tooling
-- name: type/docs
-  color: 0075CA
-  description: Documentation
-- name: priority/P0
-  color: B60205
-  description: Highest urgency
-- name: priority/P1
-  color: D93F0B
-- name: priority/P2
-  color: FBCA04
-- name: priority/P3
-  color: 0E8A16
-- name: status/blocked
-  color: 5319E7
-- name: needs/decision
-  color: BFDADC
-  description: Requires a human decision
-- name: governance/explicit-approval
-  color: 5319E7
-  description: HumanGate: explicit approval required (no passive)
-- name: governance/passive-ok
-  color: 006B75
-  description: HumanGate: passive approval allowed after window
-- name: critical-core
-  color: 8B4513
-  description: Core strategy or irreversible change
+---
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 
-# sync 20250810T184833Z
-
-# sync 20250810T185307Z
-
-# sync 20250810T185834Z

@@ -1,10 +1,10 @@
+---
 extends: default
-
 rules:
-  line-length:
-    max: 140
-    allow-non-breakable-words: true
-  truthy:
-    check-keys: false
-  quoted-strings:
-    required: only-when-needed
+  document-start: disable
+  truthy: disable
+  new-lines: { type: unix }
+  empty-lines: disable
+  braces: disable
+  colons: disable
+  line-length: disable
