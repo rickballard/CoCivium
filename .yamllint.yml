@@ -3,7 +3,7 @@ extends: default
 rules:
   document-start: disable
   new-lines:
-    type: any           # accept CRLF locally and LF on CI
+    type: unix        # require LF (matches GitHub runners and .gitattributes)
   line-length: disable
   empty-lines:
     max: 1
