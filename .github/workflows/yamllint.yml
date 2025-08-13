@@ -18,3 +18,4 @@ jobs:
           format: github
           strict: false
           no_warnings: true
+

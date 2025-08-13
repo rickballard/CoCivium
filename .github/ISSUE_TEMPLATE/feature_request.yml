@@ -1,3 +1,4 @@
+---
 name: Feature request
 description: Propose a feature
 labels: ["type/feature"]
@@ -23,3 +24,5 @@ body:
           required: false
         - label: Explicit approval required (critical-core)
           required: false
+
+

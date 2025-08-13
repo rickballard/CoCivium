@@ -1,3 +1,4 @@
+---
 name: Chore
 description: Maintenance or refactor task
 labels: ["type/chore"]
@@ -10,3 +11,5 @@ body:
       placeholder: Short, actionable
     validations:
       required: true
+
+
