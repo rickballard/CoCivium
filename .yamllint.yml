@@ -1,8 +1,10 @@
 ---
 extends: default
+ignore: |
+  .github/labels.yml
 rules:
-  truthy: disable
   document-start: disable
+  truthy: disable
   new-lines:
     type: unix
   line-length: disable
