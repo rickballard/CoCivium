@@ -1,3 +1,4 @@
+---
 - name: type/bug
   color: D73A4A
   description: Bug report
@@ -39,3 +40,5 @@
 # sync 20250810T185307Z
 
 # sync 20250810T185834Z
+
+
