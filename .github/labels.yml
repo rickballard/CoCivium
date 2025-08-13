@@ -1,14 +1,6 @@
----
-labels:
-  - name: "help wanted"
-    color: "0E8A16"
-    description: "Extra attention is needed—triage or mentoring"
-  - name: "bug"
-    color: "D73A4A"
-    description: "Something isn't working"
-  - name: "documentation"
-    color: "0075CA"
-    description: "Improvements or additions to documentation"
-  - name: "good first issue"
-    color: "7057FF"
-    description: "Good for newcomers"
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+
