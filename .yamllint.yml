@@ -3,12 +3,8 @@ extends: default
 rules:
   document-start: disable
   truthy: disable
-  new-lines:
-    type: unix
-  line-length: disable
-  empty-lines:
-    max: 1
-    level: error
+  new-lines: { type: unix }
+  empty-lines: disable
   braces: disable
   colons: disable
-
+  line-length: disable
