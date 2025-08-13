@@ -1,0 +1,57 @@
+openapi: 3.1.0
+info:
+  title: CoCivBus Action API
+  version: 0.1.0
+servers:
+  - url: https://bus.example.org
+paths:
+  /append:
+    post:
+      summary: Append a status line to the bus
+      description: |
+        Append a short, non-sensitive JSONL event to the current bus.
+        Fields: ts (server-side if omitted), author, session, status (<=180 chars), todos[], chat.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [session, status]
+              properties:
+                session: { type: string, maxLength: 60 }
+                status:  { type: string, maxLength: 180 }
+                todos:   { type: array, items: { type: string, maxLength: 80 } }
+                chat:    { type: string, maxLength: 512 }
+      responses:
+        '200':
+          description: OK
+  /feed:
+    get:
+      summary: Fetch recent lines from the bus
+      parameters:
+        - in: query
+          name: since
+          schema: { type: string, description: "RFC3339 timestamp or transport cursor" }
+        - in: query
+          name: limit
+          schema: { type: integer, minimum: 1, maximum: 200, default: 50 }
+      responses:
+        '200':
+          description: OK
+  /pin:
+    post:
+      summary: Pin an important note
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id]
+              properties:
+                id: { type: string }
+      responses:
+        '200':
+          description: OK
+components: {}
