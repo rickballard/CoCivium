@@ -1,0 +1,11 @@
+name: linkcheck (stub)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3 * * *'
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op stub to reserve workflow path
+        run: echo "Replace with lychee or your preferred link checker.  This stub ensures path exists."

@@ -1,0 +1,5 @@
+theme,layer,artifact,readiness
+Principles & Rights,0,docs/charter/cc.md,RL2
+Decision Frameworks,2,docs/specs/cps.yaml,RL2
+Transparency & Oversight,1|3,docs/process/appeals.md,RL2
+Contributor Experience,3|4,docs/onboarding/index.md,RL3
