@@ -1,15 +1,11 @@
 ---
 extends: default
-ignore: |
-  .github/labels.yml
 rules:
   document-start: disable
   truthy: disable
   new-lines:
-    type: unix
+    type: unix        # GitHub runners use LF
   line-length: disable
   empty-lines:
     max: 1
     level: error
-  braces: disable
-  colons: disable

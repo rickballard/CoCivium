@@ -60,7 +60,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: steps.extract.outputs.found == 'true'
         with:
-          name: issueops_run_${{github.run_id}}
+          name: "issueops_run_${{github.run_id}}"
           path: |
             issueops_run.sh
             tmp_exec.log
