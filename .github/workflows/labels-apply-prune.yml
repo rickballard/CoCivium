@@ -52,3 +52,4 @@ jobs:
             for (const lab of existing) {if (!allow.has(lab.name)) {await github.rest.issues.deleteLabel({owner, repo, name: lab.name});
                 core.info(`Deleted: ${lab.name}`);}}
 
+
