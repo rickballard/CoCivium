@@ -1,9 +1,7 @@
 ---
 extends: default
-ignore: |
-  .github/labels.yml
-
 rules:
+  truthy: disable
   document-start: disable
   new-lines:
     type: unix
