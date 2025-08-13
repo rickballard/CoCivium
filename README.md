@@ -1,5 +1,14 @@
 # CoCivium
 
+<!-- triad:why-who-how -->
+### Why · Who · How (30 sec)
+
+**Why.** Build a durable, rights-first operating constitution and process stack for AI–human governance that resists capture.  
+
+**Who.** Social scientists, civic technologists, policy folks, and engineers collaborating under HumanGate until assemblies form.  
+
+**How.** Start from the [Scope Specification](admin/projects/CoCivium_Scope_Specification_c1_20250813.md), track progress via the Twin Eyes, and contribute through issues/PRs using our standard templates.  
+<!-- /triad:why-who-how -->
 Democracy protocols and civic-tech tools for borderless governance.
 
 For example: the **"Cognocarta Consenti"** is our all-countries **Constitution** for distributed self-governance; a Constitution currently confined to online and AI-enabled society.  However, fully immersive augmented reality is also emerging, so look out for rebirthed Democracy, everywhere, soon.
@@ -91,3 +100,4 @@ See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash mer
 
 ## Automation
 Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
+
