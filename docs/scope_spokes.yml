@@ -1,0 +1,13 @@
+# CoCivium spoke abbreviations (≤4 chars)
+# Use these labels on the spider axes and in star JSON.
+spokes:
+  PRIN: "Principles & Rights"
+  DEC:  "Decision Frameworks"
+  EAI:  "Ethical AI Integration"
+  TRNS: "Transparency & Oversight"
+  DOM:  "Reference Domains"
+  IDV:  "Identity & Voting"
+  CX:   "Contributor Experience"
+  FUND: "Sustainability & Funding"
+  TOOLS:"Tools & Infrastructure"
+  INT:  "Interoperability & Standards"
