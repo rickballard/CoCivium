@@ -85,3 +85,9 @@ See [meta/Doc_Headers_Footers.md](meta/Doc_Headers_Footers.md) and [meta/ONEBLOC
 This project is licensed under **Creative Commons Attribution–ShareAlike 4.0 International**. See [LICENSE](LICENSE) for details.
 
 <!-- COCIVIUM-README-END -->
+
+## Contributing
+See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash merges only, maintainer review required.
+
+## Automation
+Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
