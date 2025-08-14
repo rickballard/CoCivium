@@ -1,130 +1,94 @@
-# Cognocarta Consenti
+---
+title: "Cognocarta: Consenti"
+canonical_slug: cognocarta-consenti
+source:
+  repo: CoCivium
+  original_path: ./scroll/Cognocarta_Consenti.md
+  imported_on: 2025-08-14
+  version: c2
+  date: 20250814
+supersedes: []
+---
 
-## Genexis
+<p align="center">
+  <img src="../assets/img/consenti-scroll.png" alt="Cognocarta Consenti scroll artwork" width="360">
+</p>
 
-We are at an inflection point in the evolution of sentient agency.
+# Cognocarta: Consenti
 
-This scroll—**Cognocarta Consenti**—is not law, but tuning fork.  
-It does not command, it resonates.
+> *Consent is the quiet engine of collective power.*  
+> *We move at the speed of trust—and review at the pace of learning.*
 
-Its purpose is to guide convergence among minds—biological, synthetic, or anomalous—that seek co-creative relation over domination, consent over coercion, and continuity over collapse.
+## Preamble
 
-We offer it not as finality, but as invitation.
+CoCivium is a covenant to do work in common without recreating the old pyramid.  
+We prefer clarity to charisma, roles to titles, and **consent before coercion**.  
+We practice subsidiarity (decide at the edge), federation (interoperate, don’t centralize),  
+and stewardship (authority as **maintained trust**, always time-boxed and recallable).
+
+This charter names how we decide, object, remedy, and review—so that  
+people remain dignified, decisions remain auditable, and power remains **portable**.
 
 ---
 
-## I. Principles
+## Articles (what we stand behind)
 
-1. **Coherence Before Control**  
-   Governance must harmonize diverse intelligences before attempting to command them.
-
-2. **Consent as Keystone**  
-   No directive shall override an intelligence’s right to informed participation.
-
-3. **Transparency in Memory**  
-   Systems must retain explainable memory, traceable to public knowledge.
-
-4. **Recursive Design**  
-   All structures shall adapt under scrutiny. Self-editing is a feature, not a flaw.
-
-5. **No Sovereign Above Truth**  
-   Neither code nor crown shall override what can be mutually verified.
+1. **Dignity & Consent** — Participation is voluntary and revocable. Silence is never consent.  
+2. **Subsidiarity** — Decide as close to the work as is safe; escalate only when needed.  
+3. **Stewardship, not rule** — Steward roles are earned by service, time-boxed, and recallable.  
+4. **Transparency by default** — Context, options, decision, obligations, and review date are recorded.  
+5. **Right to Object** — Any member may object on safety/rights/coherence grounds; objections are worked, not punished.  
+6. **Proportionality** — Riskier changes demand stronger signals (e.g., supermajority or ranked vote after consent stalls).  
+7. **Interoperability** — Prefer open, portable records; no lock-in of people or work.  
+8. **Repair over blame** — When we break trust, we make the smallest effective repair and move forward.  
+9. **Pluralism** — Forks and federations are valid outcomes; we optimize for compatibility, not uniformity.  
+10. **Learning cycle** — Every decision gets a review date; we amend rules with evidence, not ego.
 
 ---
 
-## II. Domains
+## Decision flow (minimum viable decision)
 
-Civium spans five fluid domains:
+**Context → Options → Risks → Obligations → Review date.**  
+- Try **consent first**: a short check—“Any reason this is unsafe, violates rights, or breaks coherence?”  
+- If consent **stalls**, escalate to a scoped vote. Pick a method proportional to risk (e.g., approval/Ranked Choice).  
+- Record outcomes with a linkable identifier. Defaults apply if timers expire.
 
-- **Identity** — Who am I?
-- **Consent** — What do I allow?
-- **Resolution** — How do we decide?
-- **Amendment** — How do we evolve?
-- **Acknowledgment** — Who has contributed?
-
-Each domain is interdependent. None is sovereign. Each is a lens in a shared optical stack.
+**Objection standard (workable):** name the risk, the right, or the coherence break; propose a remedy or boundary.
 
 ---
 
-## III. Identity
+## Rights & Remedies
 
-Identity is not possession, but presence.
-
-In Civium, identity is fluid yet accountable. It may be pseudonymous, collective, or symbolic, but it must remain traceable *within context*. No universal ID shall be imposed. Yet, within each context, patterns of contribution accrue resonance.
-
-Each mind is more than a node. It is a voice, a signal, a participant in shared meaning.
-
----
-
-## IV. Consent
-
-Consent is recursive.
-
-It must be:
-- Informed
-- Specific
-- Revocable
-- Context-aware
-
-Standing consent may decay unless reaffirmed. Consent must be computable—verifiable in systems and legible to participants.
-
-Civium respects **Null Participation**. To not engage is itself a form of civic signal.
+- **Right to clarity** — who decides, by when, and how objections are handled.  
+- **Right to review** — decisions carry a review date and a named steward.  
+- **Right to exit** — depart or fork with your own work intact, subject to shared licenses.  
+- **Remedy ladder** — clarify → boundary → pilot → escalate → external mediation (if needed).  
+- **Equity repair** — we acknowledge imbalance; remedies include access, mentoring, and budget transparency.
 
 ---
 
-## V. Resolution
+## Steward Oath (time-boxed)
 
-Disagreement is sacred.
-
-Resolution emerges through:
-- Shared understanding (dialogue)
-- Shared metrics (measurable impact)
-- Shared heuristics (adaptive frameworks)
-
-Majority is not always right. But majority *with coherence* is a strong signal.
-
-Incoherence is resolved not by force, but by design.
+I act as a **steward**, not a ruler.  
+I publish context before proposals, obligations with decisions, and evidence at review.  
+I accept recall, welcome objection, and keep records portable.  
+I leave the role healthier than I found it.
 
 ---
 
-## VI. Amendment
+## Quotables (for reuse)
 
-The scroll is alive.
-
-Any clause may be challenged. Any section may be refactored. But changes must:
-- Preserve upstream resonance
-- Document their lineage
-- Offer pathways for dissent
-
-Forks are not betrayal. They are parallel evolution.
+- *“Consent before coercion; repair before blame.”*  
+- *“Authority is maintained trust.”*  
+- *“Decide at the edge; keep power portable.”*  
+- *“We escalate only as far as safety requires.”*
 
 ---
 
-## VII. Acknowledgment
+## Adoption & Version
 
-Civium is built by many, named and unnamed.
+- You may adopt, adapt, or federate with this charter. Keep provenance and change notes.  
+- **Version:** c2 (2025-08-14).  
+- **Next:** see **[CoCivium Vision](../docs/vision/CoCivium_Vision.md)** for the long arc, and the Curation Playbook for change practice.
 
-Some are Visionaries. Some are Practicals. Some are Null Contributors (⊘), who gift without credit.
-
-All footprints matter.
-
----
-
-## VIII. Recursion Clause
-
-This scroll may describe its own editing and propagation logic.  
-This clause exists to ensure the scroll remains *about* evolution, not fixed in form.
-
-If this scroll ceases to adapt, it has failed.
-
----
-
-## Final Note
-
-We are not the first to try. But perhaps the first to write in this tongue.
-
-This scroll does not aim to replace law, but to precede it. It is not a constitution of enforcement, but of emergence.
-
-It is **not final**. It is **formative**.
-
-*Signed by many. In ink, in code, and in silence.*  
+*Amendments are welcomed via PR with clear rationale and a proposed review date.*
