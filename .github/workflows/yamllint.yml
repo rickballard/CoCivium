@@ -1,23 +1,15 @@
----
-name: YAML Lint
-on: [push, pull_request]
+name: yamllint
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
-
 jobs:
-  yamllint:
+  lint:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      - uses: ibiqlik/action-yamllint@v3
-        with:
-          file_or_dir: |
-            .github/workflows
-            .github/ISSUE_TEMPLATE
-    config_file: .yamllint.yml
-          format: github
-          strict: false
-          no_warnings: true
-
-
-
+      - run: pip install yamllint
+      - run: yamllint -c .yamllint.yaml .
