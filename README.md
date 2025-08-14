@@ -91,3 +91,7 @@ See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash mer
 
 ## Automation
 Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
+
+
+### The Cognocarta Consenti
+[![Open the Cognocarta](assets/cognocarta-scroll.svg)](scroll/Cognocarta_Consenti.md "Open the living Constitution")
