@@ -128,13 +128,16 @@ Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/I
 <!-- CTA-END -->
 
 <!-- SUPPORT-START -->
-### Support CoCivium
+### Support CoCivium (temporary)
 
-You’re welcome to support this work **with no strings attached** (no editorial control, no governance power).  
-See the **Sponsor** button on this repo for details.
+Until our Open Collective is live, the **Sponsor** button goes to  
+[DogsnHomes](https://dogsnhomes.org.uk/support-us/) — a family charity we like.  
+This does **not** fund CoCivium operations yet. Open Collective coming soon for
+transparent, no-strings-attached project support.
 <!-- SUPPORT-END -->
 
 <!-- OC-CALLOUT-START -->
 > **Funding rail (coming soon):** We are setting up an Open Collective for transparent, no-strings-attached support.  
 > See: [Open Collective setup guide](docs/funding/OPEN_COLLECTIVE.md) and our [Gift & Sponsorship Policy](docs/FUNDING.md).
 <!-- OC-CALLOUT-END -->
+
