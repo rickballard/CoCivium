@@ -43,3 +43,8 @@ flowchart TD
 - Publish a monthly transparency note format (inflow/outflow/cash on hand).
 - Pilot a small grant with "cap + sunset" and review on evidence.
 
+## How we'll measure
+- # of decisions with review dates
+- % of expenses linked to decisions
+- On-time review rate per month
+
