@@ -95,3 +95,6 @@ Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/I
 
 ### The Cognocarta Consenti
 [![Open the Cognocarta](assets/cognocarta-scroll.svg)](scroll/Cognocarta_Consenti.md "Open the living Constitution")
+
+![CoCivium](assets/og-autogen.png)
+
