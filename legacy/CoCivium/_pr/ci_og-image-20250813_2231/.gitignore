@@ -1,0 +1,14 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Archives & exports
+*.zip
+*.tar.gz
+
+# Local notes
+*.local.md
+*.private.md
+
+# backups
+*.bak

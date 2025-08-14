@@ -1,0 +1,1 @@
+Add diagrams README with conventions (SVG-first, versioned filenames, relative embeds).

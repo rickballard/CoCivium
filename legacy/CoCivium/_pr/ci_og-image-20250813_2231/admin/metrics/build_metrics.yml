@@ -1,0 +1,42 @@
+name: Build Metrics & Progress Map
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # daily at 02:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps (none required)
+        run: python -V
+
+      - name: Run collector
+        run: python admin/metrics/collect_metrics.py
+
+      - name: Commit & push artifacts
+        run: |
+          git config user.name "cocivium-bot"
+          git config user.email "bot@cocivium.org"
+          if ! git diff --quiet; then
+            git add admin/metrics/metrics.json admin/metrics/history/*.json site/assets/progress_map_v0.svg
+            git commit -m "chore(metrics): nightly snapshot & progress map update"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+

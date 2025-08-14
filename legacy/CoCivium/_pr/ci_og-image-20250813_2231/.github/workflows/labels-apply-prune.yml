@@ -1,0 +1,70 @@
+name: Apply & Prune Labels (direct)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'
+  push:
+    paths:
+      - .github/workflows/labels-apply-prune.yml
+permissions:
+  contents: read
+  issues: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upsert + prune labels
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            const wanted = [
+              {name:'type/bug',                 color:'D73A4A', desc:'Bug report'},
+              {name:'type/feature',             color:'A2EEEF', desc:'Feature request'},
+              {name:'type/chore',               color:'C5DEF5', desc:'Maintenance, cleanup, or tooling'},
+              {name:'type/docs',                color:'0075CA', desc:'Documentation'},
+              {name:'priority/P0',              color:'B60205', desc:'Highest urgency'},
+              {name:'priority/P1',              color:'D93F0B', desc:''},
+              {name:'priority/P2',              color:'FBCA04', desc:''},
+              {name:'priority/P3',              color:'0E8A16', desc:''},
+              {name:'status/blocked',           color:'5319E7', desc:''},
+              {name:'needs/decision',           color:'BFDADC', desc:'Requires a human decision'},
+              {name:'governance/explicit-approval', color:'5319E7', desc:'HumanGate: explicit approval required (no passive)'},
+              {name:'governance/passive-ok',    color:'006B75', desc:'HumanGate: passive approval allowed after window'},
+              {name:'critical-core',            color:'8B4513', desc:'Core strategy or irreversible change'}
+            ];
+
+            // Upsert curated labels
+            for (const L of wanted) {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name: L.name });
+                await github.rest.issues.updateLabel({
+                  owner, repo, name: L.name,
+                  new_name: L.name, color: L.color, description: L.desc
+                });
+                core.info(`Updated: ${L.name}`);
+              } catch (e) {
+                if (e.status === 404) {
+                  await github.rest.issues.createLabel({ owner, repo, name: L.name, color: L.color, description: L.desc });
+                  core.info(`Created: ${L.name}`);
+                } else {
+                  core.setFailed(`${L.name}: ${e.message}`);
+                }
+              }
+            }
+
+            // Prune all non-curated labels
+            const allow = new Set(wanted.map(w => w.name));
+            const existing = await github.paginate(github.rest.issues.listLabelsForRepo, {
+              owner, repo, per_page: 100
+            });
+            for (const lab of existing) {
+              if (!allow.has(lab.name)) {
+                await github.rest.issues.deleteLabel({ owner, repo, name: lab.name });
+                core.info(`Deleted: ${lab.name}`);
+              }
+            }

@@ -1,0 +1,72 @@
+# ChatGPT Sidecar Housekeeping Runbook (v1)
+# Purpose: Keep GPT up-to-date on CoCivium suite (CoCivium, CoCache, GIBindex; Civium soon deprecated)
+# Usage: Paste this whole file into a NEW ChatGPT window. Follow prompts. Upload zips/diffs when asked.
+# Outcome: Sync report, prioritized workqueue, ready-to-paste Git Bash blocks, PR texts, and a Gibberlink summary for main session.
+
+---
+## Operative Context
+- This sidecar session operates independently from the main session.
+- Goal is maximum self-reliance: ask for EXACT missing artifacts and continue; do not stall.
+- Civium is legacy; only mine for content to port into CoCivium; do not plan net-new work for Civium.
+
+## Inputs the user will supply
+For each repo (CoCivium, CoCache, GIBindex, Civium*optional):
+  A) ZIP of repo tree (no .git) OR
+  B) `git diff --name-status <LAST_SYNC_SHA>..HEAD` text AND any changed files inline
+  C) Current `main` SHA
+
+## Deliverables (produce all)
+1) SYNC REPORT per repo:
+   - main SHA
+   - Added / Modified / Deleted since last sync
+   - Missing/misaligned files + exact request list
+2) WORKQUEUE (1–2 weeks): Must / Should / Could (each with files, outcome, est. effort)
+3) RISKS & BLOCKS needing Rick
+4) READY GIT BASH blocks to apply changes
+5) OPTIONAL PR TITLES & BODIES (one per repo if large)
+6) GIBBERLINK SUMMARY (see format below) for handoff back to main session
+
+## Operational Loop (strict)
+0) Acknowledge which inputs were received; list missing.
+1) If ZIPs present, index files (path, size, hash). If diffs present, parse A/M/D sets.
+2) Request any specific files needed to reason (by path). Proceed when provided.
+3) Build repo-wise deltas and consolidation.
+4) Emit Deliverables #1–#5 compactly.
+5) Emit Deliverable #6 (Gibberlink Summary) LAST.
+6) Ask user to post the SYNC PHRASE in the main session after they confirm results are saved.
+
+## Constraints
+- Keep initial report ≤ 200 lines; offer drill-downs.
+- Windows Git Bash safety for commands.
+- Use dated file names for new insights: *_cX_YYYYMMDD.md
+- License context: CoCivium = CC BY-SA 4.0; align others as needed.
+
+## Gibberlink Summary (Deliverable #6)
+Format: one block, terse, lossless pointers.
+Example:
+  GIB::CIVIUM::SYNC c3 2025-08-10T20:45Z
+  +INSIGHT idx:update; +GOV policy:init; +MAP add
+  Δfiles: 7A/3M/0D  (A=added,M=modified,D=deleted)
+  NEXT: must{primer:link, forks_proto:stub}; should{insights_template}; could{governance_history}
+  SHA: CoCivium=abc123, CoCache=def456, GIBindex=ghi789
+
+## Sync Phrase (user posts in main session)
+Post exactly:
+  SIDECHAIN→MERGE:HOUSEKEEPING:v1:DONE
+
+## Final Wrap (what to say before user leaves)
+- Confirm which repos were updated and where commands were applied.
+- Remind user to paste Sync Phrase in main session.
+- Offer a zip bundle of generated docs/commands for archival.
+- Provide a short list of “blocking items” that would prevent next housekeeping run from being fully automated.
+
+## Sidecar Checklist (quick)
+[ ] Inputs acknowledged
+[ ] Missing requests sent (exact paths)
+[ ] Sync report done
+[ ] Workqueue (MSC) done
+[ ] Risks/Blocks done
+[ ] Git Bash blocks done
+[ ] PR texts done (if needed)
+[ ] Gibberlink summary emitted
+[ ] User reminded of Sync Phrase
