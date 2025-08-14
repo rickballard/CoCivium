@@ -1,0 +1,13 @@
+feat(progress-map): add spider-web progress map plan (stages, metrics, data pipeline)
+
+This adds a commit-ready plan for the CoCivium.org landing page progress map:
+- 8-axis radar (CI, Coverage, OFS, LSH, DTI, Throughput, Lead Time, EE)
+- Rings for stages 1–9 with dashed infinity extensions
+- Redundancy Debt rendered as polygon voids (visual penalty)
+- Starpoints and shooting-star trails for key concept/file progress
+- Nightly metrics pipeline (GitHub Action → metrics.json)
+- Phase A static SVG generator; Phase B interactive; Phase C 3D
+
+Includes risks/guardrails and an actionable checklist.  File path:
+`admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md`.
+

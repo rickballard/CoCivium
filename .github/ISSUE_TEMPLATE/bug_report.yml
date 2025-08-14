@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a bug
+labels: ["type/bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Concise steps + expected vs actual.
+      placeholder: Steps to reproduce...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Logs, screenshots, environment

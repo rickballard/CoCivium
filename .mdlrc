@@ -1,0 +1,7 @@
+rules 'all'
+# Allow long paragraphs (wrap is stylistic in this repo)
+rule 'MD013', :line_length => 120, :ignore_code_blocks => true, :ignore_tables => true
+# Permit inline HTML (badges/details/summary)
+exclude_rule 'MD033'
+# (Optional) If titles with punctuation ever trip you up:
+# exclude_rule 'MD026'
