@@ -1,7 +1,8 @@
+---
 name: IssueOps Run (/run)
 
 concurrency:
-  group: issueops-${{ github.event.issue.number }}
+  group: issueops-${{github.event.issue.number}}
   cancel-in-progress: true
 
 permissions:
@@ -9,8 +10,9 @@ permissions:
   issues: write
 
 on:
-  issue_comment:
-    types: [created]
+  push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   run:
@@ -19,7 +21,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Restrict trigger to Rick
-        if: ${{ github.event.comment.user.login != 'rickballard' }}
+        if: ${{github.event.comment.user.login != 'rickballard'}}
         run: echo Unauthorized; exit 0
         shell: powershell
 
@@ -29,7 +31,7 @@ jobs:
         shell: powershell
         run: |
           $gitbash = "C:\Program Files\Git\bin\bash.exe"
-          if (-not (Test-Path $gitbash)) { throw "Git Bash not found at $gitbash" }
+          if (-not (Test-Path $gitbash)) {throw "Git Bash not found at $gitbash"}
           & $gitbash --version
 
       - name: Extract fenced bash block
@@ -39,11 +41,9 @@ jobs:
           $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
           $body  = $event.comment.body
           $m = [regex]::Matches($body, '(?s)```bash\s*(.+?)\s*```')
-          if ($m.Count -eq 0) {
-            'No ```bash block found.' | Out-File issueops_out.md -Encoding UTF8
+          if ($m.Count -eq 0) {'No ```bash block found.' | Out-File issueops_out.md -Encoding UTF8
             "found=false" >> $env:GITHUB_OUTPUT
-            exit 0
-          }
+            exit 0}
           $code = $m[0].Groups[1].Value
           Set-Content issueops_run.sh $code -Encoding UTF8
           "found=true" >> $env:GITHUB_OUTPUT
@@ -60,7 +60,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: steps.extract.outputs.found == 'true'
         with:
-          name: issueops_run_${{ github.run_id }}
+          name: "issueops_run_${{github.run_id}}"
           path: |
             issueops_run.sh
             tmp_exec.log
@@ -74,9 +74,9 @@ jobs:
           script: |
             const fs = require('fs');
             const body = fs.readFileSync('issueops_out.md','utf8');
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
+            await github.rest.issues.createComment({owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
-              body
-            });
+              body});
+
+
