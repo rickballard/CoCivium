@@ -3,11 +3,3 @@ Noname
 mermaid
 hashable
 steward
-CoCivium
-Civium
-Noname
-Cognocarta
-Consenti
-CoCivSecOps
-ODT
-OG
