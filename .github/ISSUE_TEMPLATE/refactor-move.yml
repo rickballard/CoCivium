@@ -1,0 +1,11 @@
+name: Refactor / Move
+description: Suggest relocating or renaming files to match structure
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      placeholder: Move X -> Y because...
+    validations:
+      required: true

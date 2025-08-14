@@ -1,11 +1,12 @@
 ## Summary
-Explain the change and why.
+[What does this change do?]
 
-## Checklist
-- [ ] Linked issue / context
-- [ ] Docs updated (if needed)
-- [ ] Tested locally or via `/run`
-- [ ] Ready for **squash merge**
+## Type
+- [ ] Migration / curation
+- [ ] Docs
+- [ ] Refactor
+- [ ] Fix
 
-## Notes for reviewers
-Anything risky, follow-up tasks, or roll-back plan.
+## Notes
+- Provenance included?
+- Section indexes updated?

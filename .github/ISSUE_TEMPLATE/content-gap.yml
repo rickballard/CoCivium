@@ -1,0 +1,12 @@
+name: Content gap
+description: Propose a canonical doc to add or expand
+labels: ["content"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What needs to exist and why?
+      placeholder: The missing concept is...
+    validations:
+      required: true
