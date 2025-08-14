@@ -30,3 +30,12 @@ Money flows shape incentives and trust. We keep ledgers open, roles separated, a
 2) Consent check → if stalled, escalate to risk-scaled vote
 3) Record outcome + ledger entry + steward owner
 4) Review on date; renew/retire; publish note
+## Diagram
+```mermaid
+flowchart TD
+  P[Proposal] --> C{Consent?}
+  C -- yes --> L[Ledger entry + Obligations + Review date]
+  C -- no --> V[Vote (proportional to risk)]
+  V --> L
+  L --> R[Review → renew/retire → publish note]
+```
