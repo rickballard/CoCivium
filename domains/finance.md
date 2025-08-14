@@ -39,3 +39,7 @@ flowchart TD
   V --> L
   L --> R[Review → renew/retire → publish note]
 ```
+## Experiments we'll run
+- Publish a monthly transparency note format (inflow/outflow/cash on hand).
+- Pilot a small grant with "cap + sunset" and review on evidence.
+
