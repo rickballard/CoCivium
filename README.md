@@ -106,3 +106,39 @@ Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/I
 > Our living charter for consent, convergence, and coherence.  
 **→ [Read the scroll](scroll/Cognocarta_Consenti.md)**
 
+<!-- CONSENTI-CTA-START -->
+<p align="center">
+  <a href="scroll/Cognocarta_Consenti.md" title="Open Cognocarta Consenti">
+    <img src="assets/img/consenti-scroll.png" alt="Cognocarta Consenti" width="220" />
+  </a>
+</p>
+<!-- CONSENTI-CTA-END -->
+
+<!-- CTA-START -->
+<p align="center">
+  <a href="docs/vision/CoCivium_Vision.md" title="Read the CoCivium Vision">
+    <strong>📜 Read the CoCivium Vision</strong>
+  </a>
+</p>
+<p align="center">
+  <a href="scroll/Cognocarta_Consenti.md" title="Open Cognocarta Consenti">
+    <img src="assets/img/consenti-scroll.png" alt="Cognocarta Consenti" width="220" />
+  </a>
+</p>
+<!-- CTA-END -->
+
+<!-- SUPPORT-START -->
+### Support CoCivium (temporary)
+
+Until our Open Collective is live, the **Sponsor** button links to  
+[DogsnHomes](https://dogsnhomes.org.uk/support-us/) — a *family charity*.  
+> **Important:** Donations made there **support DogsnHomes’ mission** and **do not fund CoCivium operations**.  
+Open Collective is coming soon for transparent, **no-strings-attached** CoCivium support.
+<!-- SUPPORT-END -->
+
+<!-- OC-CALLOUT-START -->
+> **Funding rail (coming soon):** We are setting up an Open Collective for transparent, no-strings-attached support.  
+> See: [Open Collective setup guide](docs/funding/OPEN_COLLECTIVE.md) and our [Gift & Sponsorship Policy](docs/FUNDING.md).
+<!-- OC-CALLOUT-END -->
+
+
