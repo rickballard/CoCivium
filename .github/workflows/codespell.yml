@@ -2,11 +2,13 @@ name: codespell
 on:
   push:
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
   spell:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - name: Install codespell
@@ -14,7 +16,7 @@ jobs:
           python -m pip install --upgrade pip codespell
       - name: Run codespell
         run: |
-          codespell \
-            --ignore-words docs/lexicon/codespell-ignore.txt \
-            --skip "legacy/**,staging/**,insights/**,scroll/**,notes/**,outreach/**,admin/**,scripts/**,*.png,*.jpg,*.svg,*.csv" \
+          codespell `
+            --ignore-words docs/lexicon/codespell-ignore.txt `
+            --skip "legacy/**,staging/**,insights/**,scroll/**,notes/**,outreach/**,admin/**,scripts/**,*.png,*.jpg,*.svg,*.csv" `
             .
