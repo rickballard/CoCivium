@@ -2,12 +2,13 @@ name: Link Check
 on:
   push:
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
-    continue-on-error: true   # ← advisory, won’t block merges
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - name: Lychee Link Checker
