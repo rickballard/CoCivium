@@ -141,4 +141,7 @@ Open Collective is coming soon for transparent, **no-strings-attached** CoCivium
 > See: [Open Collective setup guide](docs/funding/OPEN_COLLECTIVE.md) and our [Gift & Sponsorship Policy](docs/FUNDING.md).
 <!-- OC-CALLOUT-END -->
 
-
+<!-- CONSENTI-BLURB -->
+> *Consent is the quiet engine of collective power.*  
+> Read the **Cognocarta: Consenti** → [scroll/Cognocarta_Consenti.md](scroll/Cognocarta_Consenti.md)
+<!-- /CONSENTI-BLURB -->
