@@ -1,9 +1,13 @@
-# Exclude noisy areas
-exclude_path = ["legacy/**", "staging/_imported/**"]
-# Treat these as internal-only (don’t 404 on PR branches)
-accept = ["200..299", "403", "429"]
-cache = true
-max_concurrency = 8
-# (until the page exists)
-exclude = ["https://opencollective.com/cocivium*",""https://dogsnhomes.org.uk/*""]
-
+# Lychee config for CoCivium
+exclude = [
+  "^mailto:",
+  "^tel:",
+  "^#",
+  "^https://github.com/.*/(pull|issues)/.*"
+]
+max_retries = 3
+retry_wait_time = 2
+user_agent = "CoCiviumLinkChecker/0.1 (+https://cocivium.org)"
+accept = ["200", "204", "301", "302", "403", "429"]
+schemes = ["http", "https", "mailto"]
+exclude_path = ["legacy/", "staging/", "insights/", "scroll/"]

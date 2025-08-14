@@ -1,0 +1,27 @@
+name: Render Eyes
+on:
+  pull_request:
+    paths:
+      - "metrics/**"
+      - "tools/render_eyes.py"
+      - ".github/workflows/render-eyes.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1"
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render Eyes
+        run: |
+          python3 tools/render_eyes.py
+      - name: Commit assets
+        run: |
+          git config user.name "cocivium-bot"
+          git config user.email "bot@cocivium.org"
+          git add docs/img/mission_eye.svg docs/img/credibility_eye.svg
+          git diff --cached --quiet || git commit -m "chore(eyes): refresh mission/credibility eyes [skip ci]"
+          git push

@@ -1,0 +1,18 @@
+- id: R-001
+  title: Adoption stall
+  category: Growth
+  likelihood: 3
+  impact: 3
+  owner: Rick
+  triggers: ["<10 published logs/month for 2 months"]
+  mitigations: ["Run 2 GBSC Sprints", "Publish 2 micro-studies"]
+  status: Open
+- id: R-002
+  title: Brand contamination
+  category: Reputation
+  likelihood: 2
+  impact: 4
+  owner: Rick
+  triggers: ["Association with groups tolerating illegality"]
+  mitigations: ["Guardrails policy; fast removal with receipts"]
+  status: Open

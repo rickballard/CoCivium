@@ -1,0 +1,64 @@
+version: 0.1
+title: Decision Integrity Index (DII)
+scale: 0-100
+bands:
+  A: 85-100
+  B: 70-84
+  C: 55-69
+  D: 40-54
+  F: 0-39
+weights:
+  transparency: 20
+  consentfulness: 20
+  inclusivity_access: 15
+  redress_appeals: 15
+  procedural_rigor: 15
+  execution_traceability: 15
+checks:
+  transparency:
+    - id: t1
+      text: "Decision logs are public and indexable."
+      evidence: "URL to log index"
+    - id: t2
+      text: "Each decision links to underlying evidence."
+      evidence: "Links present"
+    - id: t3
+      text: "Change history is preserved (e.g., VCS)."
+      evidence: "Repo URL or changelog"
+  consentfulness:
+    - id: c1
+      text: "Objection window defined and honored."
+      evidence: "Policy link + timestamped records"
+    - id: c2
+      text: "Quorum policy declared and met."
+      evidence: "Policy + attendance/roll call"
+    - id: c3
+      text: "Appeal path exists."
+      evidence: "Policy link"
+  inclusivity_access:
+    - id: i1
+      text: "Agenda published ahead of decision."
+      evidence: "Agenda URL + timestamp"
+    - id: i2
+      text: "Accessibility considered (format/language)."
+      evidence: "Statement or link"
+  redress_appeals:
+    - id: r1
+      text: "Appeals logged with outcomes."
+      evidence: "Appeals page/entries"
+  procedural_rigor:
+    - id: p1
+      text: "Roles (Proposer, Chair, Recorder) recorded."
+      evidence: "Log fields present"
+    - id: p2
+      text: "Alternatives considered are listed."
+      evidence: "Considerations section"
+  execution_traceability:
+    - id: e1
+      text: "Execution owners and dates recorded."
+      evidence: "Execution section"
+    - id: e2
+      text: "Rollback or mitigation noted."
+      evidence: "Rollback note"
+scoring:
+  method: "Each satisfied check scores equally within its category. Category scores are weighted by `weights` and summed to produce 0–100."

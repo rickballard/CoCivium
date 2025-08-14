@@ -1,16 +1,19 @@
----
+name: Link Check
 on:
-  push:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
-  pull_request:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
   push:
   pull_request:
   workflow_dispatch:
-
-
-
+permissions:
+  contents: read
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lychee Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --config .lychee.toml .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

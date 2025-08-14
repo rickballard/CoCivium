@@ -1,0 +1,16 @@
+name: Decision Log Linter
+on:
+  pull_request:
+    paths:
+      - "kits/GLK/templates/Decision_Log.md"
+      - "docs/decisions/**"
+      - "decisions/**"
+  workflow_dispatch:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run linter
+        run: |
+          python3 tools/decision_log_linter.py $(git ls-files | grep -E "(decisions/|docs/decisions/).*(\.md)$" || echo kits/GLK/templates/Decision_Log.md)
