@@ -1,19 +1,9 @@
----
-name: Markdown Lint
+name: markdownlint
 on: [push, pull_request]
-permissions:
-  contents: read
-
 jobs:
-  mdl:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run markdownlint-cli2 (non-blocking)
-        uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          globs: |
-            **/*.md
-        continue-on-error: true
-
-
+      - run: npm install -g markdownlint-cli
+      - run: markdownlint **/*.md
