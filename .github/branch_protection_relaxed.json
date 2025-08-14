@@ -1,0 +1,1 @@
+"{\n  \"required_status_checks\": null,\n  \"enforce_admins\": true,\n  \"required_pull_request_reviews\": {\n    \"dismiss_stale_reviews\": true,\n    \"require_code_owner_reviews\": true,\n    \"require_last_push_approval\": true,\n    \"required_approving_review_count\": 1\n  },\n  \"restrictions\": null,\n  \"allow_force_pushes\": false,\n  \"allow_deletions\": false\n}"
