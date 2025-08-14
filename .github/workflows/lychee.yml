@@ -1,6 +1,14 @@
 ---
 name: Link Check
 on:
+  push:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
+  pull_request:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
   schedule:
     - cron: '0 3 * * 0' # weekly
   workflow_dispatch:
@@ -16,5 +24,6 @@ jobs:
           args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .
         env:
           GITHUB_TOKEN: ${secrets.GITHUB_TOKEN}
+
 
 

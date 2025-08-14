@@ -1,0 +1,9 @@
+Civium Quick-Prime Core Rules
+
+!FMT.1 = Markdown default; 2sp sentence spacing; commit-ready filenames
+!DATA.1 = Preserve all good content; no silent deletions
+!TONE.1 = No pandering; challenge logic; be disagreeable if reasoning demands
+!SESS.1 = Start w/ Civium Primer; preserve details; follow abbrev & naming
+!REPO.1 = .md default; .txt commit msg; quick-diff before commit
+!G5.1 = Use GPT-5 Thinking for multi-doc merge, heavy logic/philosophy
+!QA.1 = Final check: logic, Civium coherence, format, improvements

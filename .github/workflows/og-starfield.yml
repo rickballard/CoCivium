@@ -1,5 +1,13 @@
 name: OG Starfield Autogen
 on:
+  push:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
+  pull_request:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
   workflow_dispatch: {}
   push:
     paths:
@@ -26,3 +34,4 @@ jobs:
             git commit -m "ci(og): autogen starfield preview"
             git push
           fi
+

@@ -101,3 +101,8 @@ See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash mer
 ## Automation
 Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
 
+## Cognocarta Consenti — the core scroll
+
+> Our living charter for consent, convergence, and coherence.  
+**→ [Read the scroll](scroll/Cognocarta_Consenti.md)**
+

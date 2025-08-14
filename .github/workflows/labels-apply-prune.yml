@@ -1,6 +1,14 @@
 ---
 name: Apply & Prune Labels (direct)
 on:
+  push:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
+  pull_request:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
   workflow_dispatch:
   schedule:
     - cron: '0 4 * * 1'
@@ -51,5 +59,6 @@ jobs:
             const existing = await github.paginate(github.rest.issues.listLabelsForRepo, {owner, repo, per_page: 100});
             for (const lab of existing) {if (!allow.has(lab.name)) {await github.rest.issues.deleteLabel({owner, repo, name: lab.name});
                 core.info(`Deleted: ${lab.name}`);}}
+
 
 

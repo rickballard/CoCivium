@@ -1,0 +1,2 @@
+"migration":
+  - head-branch: ['^migration/.*']

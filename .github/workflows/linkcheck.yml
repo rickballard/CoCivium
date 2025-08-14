@@ -1,7 +1,16 @@
 ---
 on:
   push:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
+  pull_request:
+    paths-ignore:
+      - 'legacy/**'
+      - 'staging/_imported/**'
+  push:
   pull_request:
   workflow_dispatch:
+
 
 
