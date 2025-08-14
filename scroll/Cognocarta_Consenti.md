@@ -92,3 +92,14 @@ I leave the role healthier than I found it.
 - **Next:** see **[CoCivium Vision](../docs/vision/CoCivium_Vision.md)** for the long arc, and the Curation Playbook for change practice.
 
 *Amendments are welcomed via PR with clear rationale and a proposed review date.*
+## Decision diagram
+
+```mermaid
+flowchart TD
+  P[Proposal] --> C{Consent?}
+  C -- yes --> L[Record + Obligations + Review date]
+  C -- no --> V[Vote (proportional to risk)]
+  V --> L
+  L --> R[Review -> renew/retire -> publish note]
+```
+
