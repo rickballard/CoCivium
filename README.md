@@ -145,3 +145,7 @@ Open Collective is coming soon for transparent, **no-strings-attached** CoCivium
 > *Consent is the quiet engine of collective power.*  
 > Read the **Cognocarta: Consenti** → [scroll/Cognocarta_Consenti.md](scroll/Cognocarta_Consenti.md)
 <!-- /CONSENTI-BLURB -->
+
+## Quick links
+- Wiki: https://github.com/rickballard/CoCivium/wiki
+- Sources: docs/sources/annotated-bibliography.md, docs/sources/comparable-initiatives.md
