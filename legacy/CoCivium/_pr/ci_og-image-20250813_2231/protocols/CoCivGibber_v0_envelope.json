@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "headers": {
+    "msg_id": "uuid",
+    "thread_id": "uuid",
+    "ts": "RFC3339",
+    "sender_did": "did:key:z...",
+    "sig": "ed25519-base64",
+    "ttl_ms": 10000
+  },
+  "body": {
+    "performative": "inform|query|propose|agree|refuse|vote|commit",
+    "intent": "short-string",
+    "content": {},
+    "refs": [
+      "uri-or-digest"
+    ],
+    "evidence": [
+      {
+        "type": "vc",
+        "issuer": "did:...",
+        "claim": {},
+        "proof": {}
+      },
+      {
+        "type": "merkle",
+        "root": "hex",
+        "path": [
+          "hex..."
+        ]
+      }
+    ]
+  }
+}

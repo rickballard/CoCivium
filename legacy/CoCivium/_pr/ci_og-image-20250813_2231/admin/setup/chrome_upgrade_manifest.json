@@ -1,0 +1,39 @@
+{
+  "profile": "Default",
+  "homepage": "https://chatgpt.com/",
+  "homepage_is_newtab": false,
+  "restore_on_startup": "urls",
+  "startup_urls": [
+    "https://github.com/rickballard/CoCivium",
+    "https://github.com/rickballard/GIBindex",
+    "https://github.com/notifications",
+    "https://chatgpt.com/"
+  ],
+  "bookmark_bar": true,
+  "extensions": [
+    "ahfgeienlihckogmohjhadlkjgocpleb",
+    "mhjfbmdgcfjbbpaeojofohoefgiehjai",
+    "neajdppkdcdipfabeoofebfddakdcjhd",
+    "nkeimhogjdpnpccoofpliimaahmaaome",
+    "aciahcmjmecflokailenpkdchphgkefd",
+    "ceimgagkkofjoalgojpkdcmhmbljbbaa",
+    "ckkdlimhmcjmikdlpkmbgfkaikojcbjk",
+    "ejcfepkfckglbgocfkanmcdngdijcgld",
+    "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+    "giljefjcheohhamkjphiebfjnlphnokk",
+    "hdannnflhlmdablckfkjpleikpphncik",
+    "hlepfoohegkhhmjieoechaddaejaokhf",
+    "hmjkmjkepdijhoojdojkdfohbdgmmhki",
+    "iaiomicjabeggjcfkbimgmglanimpnae",
+    "ihcjicgdanjaechkgeegckofjjedodee",
+    "jjdnakkfjnnbbckhifcfchagnpofjffo",
+    "jlmilmpimaepjkihnncinbaooibgelhm",
+    "mkaakpdehdafacodkgkpghoibnmamcme",
+    "moffahdcgnjnglbepimcggkjacdmpojc",
+    "mpiodijhokgodhhofbcjdecpffjipkle",
+    "nfcidnhfgllloclgemladhopcimnmokl",
+    "nmmhkkegccagdldgiimedpiccmgmieda",
+    "nngceckbapebfimnlniiiahkandclblb",
+    "oaogphgfdbdbmhkiplemgehihiiececj"
+  ]
+}

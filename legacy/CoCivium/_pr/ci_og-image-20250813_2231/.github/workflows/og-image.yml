@@ -1,0 +1,29 @@
+name: Build OG images
+on:
+  push:
+    paths:
+      - 'assets/og-banner.svg'
+      - 'assets/cognocarta-scroll.svg'
+  workflow_dispatch: {}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm install -g svgexport
+      - run: |
+          mkdir -p assets
+          if [ -f assets/og-banner.svg ]; then svgexport assets/og-banner.svg assets/og-banner.png 1200:630; fi
+          if [ -f assets/cognocarta-scroll.svg ]; then svgexport assets/cognocarta-scroll.svg assets/cognocarta-scroll.png 1200:630; fi
+      - name: Commit rendered PNG
+        run: |
+          if [ -n "" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/*.png
+            git commit -m "ci(og): render SVG → PNG"
+            git push
+          fi

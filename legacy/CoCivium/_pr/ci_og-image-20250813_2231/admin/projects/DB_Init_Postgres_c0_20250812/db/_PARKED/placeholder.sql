@@ -1,0 +1,3 @@
+-- PARKED PLACEHOLDER (2025-08-12)
+-- Put candidate PostgreSQL blocks here as separate .sql files.
+-- Do not run from here.  They will be migrated properly on revival.

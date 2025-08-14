@@ -1,0 +1,12 @@
+name: Chore
+description: Maintenance or refactor task
+labels: ["type/chore"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What to change and why
+      placeholder: Short, actionable
+    validations:
+      required: true

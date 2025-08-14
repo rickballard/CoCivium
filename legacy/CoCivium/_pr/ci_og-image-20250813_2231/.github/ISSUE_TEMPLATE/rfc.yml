@@ -1,0 +1,30 @@
+name: RFC
+description: Request for Comments (non-trivial change)
+labels: ["needs/decision"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Explain what and why. Link prior art.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale / alternatives considered
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Related issues/PRs
+  - type: dropdown
+    id: gate
+    attributes:
+      label: HumanGate
+      options:
+        - passive-ok
+        - explicit-approval
+    validations:
+      required: true

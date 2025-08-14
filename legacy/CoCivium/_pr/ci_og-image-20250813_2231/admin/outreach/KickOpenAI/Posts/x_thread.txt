@@ -1,0 +1,5 @@
+We’re building CoCivium and keep hitting ChatGPT workflow bugs (support widget, memory hygiene, artifact reliability, repo read, model pinning).  
+Posting a constructive escalation with a full appendix of repro + acceptance tests.  
+Forum thread: <URL after posting>  
+Ticket ID(s): <IDs here>  
+We’ll pilot fixes and report back.  Thanks @OpenAI.

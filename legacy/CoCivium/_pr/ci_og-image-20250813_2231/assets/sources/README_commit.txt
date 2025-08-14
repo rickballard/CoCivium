@@ -1,0 +1,1 @@
+Add sources README and preservation guide with licensing & integrity rules.
