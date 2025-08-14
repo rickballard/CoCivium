@@ -1,0 +1,12 @@
+name: Consenti idea
+description: Suggest a concrete improvement to the Cognocarta Consenti
+labels: ["consenti-idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What's the change, why, and where it should live in the scroll?
+      placeholder: e.g. clarify consent primitives with a 3-step pattern…
+    validations:
+      required: true
