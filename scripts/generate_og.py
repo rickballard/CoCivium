@@ -67,3 +67,5 @@ img=img.convert("RGB")
 import os; os.makedirs("assets", exist_ok=True)
 img.save("assets/og-autogen.png", "PNG", optimize=True)
 print("Wrote assets/og-autogen.png")
+
+# ci: nudge
