@@ -1,12 +1,6 @@
-# Insights Index
+# Insights
 
-This folder contains thematic and technical insights that inform the design of CoCivium.
+Curated, canonical essays. Each file includes provenance and which drafts it supersedes.
 
-## Navigation
 
-- **Insight_Truth_Metrics** — epistemic alignment and knowledge evaluation.
-- **Insight_Substrate_Assumptions** — substrate-specific threat and opportunity modelling.
-- **Insight_Forks_Protocol** — governance split design.
-
-## Status
-Living documents — updated as new patterns and case studies are identified.
+> Deprecated drafts are preserved under [/insights/_deprecated](_deprecated/) with pointers back to the canonical.
