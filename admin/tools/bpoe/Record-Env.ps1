@@ -8,7 +8,7 @@ function TryVer($name, $cmd, $args='--version'){
     $out = Get-Content -Raw -ErrorAction SilentlyContinue "STDOUT.tmp"
     if(-not $out){ $out = Get-Content -Raw -ErrorAction SilentlyContinue "STDERR.tmp" }
     Remove-Item -ErrorAction SilentlyContinue "STDOUT.tmp","STDERR.tmp"
-    if($LASTEXITCODE -ne 0){ return "$name: (error) $out".Trim() }
+    if($LASTEXITCODE -ne 0){ return "${name}: (error) $out".Trim() }
     return "$name: $($out.Trim() -replace '\r','' -replace '\n+','  ')"
   } catch { return "$name: not found" }
 }
@@ -33,3 +33,4 @@ $lines += "## Notes"
 $lines += "- Captured automatically by admin/tools/bpoe/Record-Env.ps1"
 $lines -join "`r`n" | Out-File -Encoding utf8 -Force $outFile
 Write-Host "Wrote $outFile"
+
