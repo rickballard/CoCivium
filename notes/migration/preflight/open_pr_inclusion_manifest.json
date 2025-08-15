@@ -1,0 +1,222 @@
+[
+  {
+    "repo": "CoCivium",
+    "pr": 53,
+    "title": "ci: add OG image renderer",
+    "headRef": "ci/og-image-20250813_2231",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/53",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 52,
+    "title": "Branding: add OG banner (SVG placeholder)",
+    "headRef": "branding/og-20250813_2221",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/52",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 51,
+    "title": "Grand Migration ΓÇö Dry-Run (20250813_2215)",
+    "headRef": "migration/dryrun-20250813_2215",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/51",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 50,
+    "title": "GM Preflight: checkpoint (20250813_2024)",
+    "headRef": "gm/preflight-20250813_2024",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/50",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 49,
+    "title": "Grand Migration: bootstrap",
+    "headRef": "gm/bpoe-migration-20250813_2007",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/49",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 33,
+    "title": "ci: add filename-sanity workflow",
+    "headRef": "ci/filename-sanity-fix",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/33",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCivium",
+    "pr": 31,
+    "title": "ci: normalize workflows; remove stray CPUA path",
+    "headRef": "fix/normalize-actions-path",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCivium/pull/31",
+    "mode": "merge-into-migration",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "Civium",
+    "pr": 5,
+    "title": "ci: add OG image renderer",
+    "headRef": "ci/og-image-20250813_2231",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/Civium/pull/5",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "Civium",
+    "pr": 4,
+    "title": "Branding: add OG banner (SVG placeholder)",
+    "headRef": "branding/og-20250813_2221",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/Civium/pull/4",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "Civium",
+    "pr": 3,
+    "title": "GM Preflight: checkpoint (20250813_2042)",
+    "headRef": "gm/preflight-20250813_2042",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/Civium/pull/3",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "Civium",
+    "pr": 2,
+    "title": "inbox/gmaildrafts 20250811",
+    "headRef": "inbox/gmaildrafts-20250811",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/Civium/pull/2",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "Civium",
+    "pr": 1,
+    "title": "review: evaluate deletion of two Insights (from stash)",
+    "headRef": "review/stash-20250811",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/Civium/pull/1",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 9,
+    "title": "ci: add OG image renderer",
+    "headRef": "ci/og-image-20250813_2232",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/9",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 8,
+    "title": "Branding: add OG banner (SVG placeholder)",
+    "headRef": "branding/og-20250813_2222",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/8",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 7,
+    "title": "GM Preflight: checkpoint (20250813_2042)",
+    "headRef": "gm/preflight-20250813_2042",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/7",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 6,
+    "title": "Move: protocols ΓåÆ packages/protocols (history preserved)",
+    "headRef": "migration/move-protocols",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/6",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 5,
+    "title": "Move: foundations ΓåÆ packages/foundations (history preserved)",
+    "headRef": "migration/move-foundations",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/5",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "CoCache",
+    "pr": 1,
+    "title": "migration/plan v1",
+    "headRef": "migration/plan-v1",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/CoCache/pull/1",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "GIBindex",
+    "pr": 5,
+    "title": "ci: add OG image renderer",
+    "headRef": "ci/og-image-20250813_2232",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/GIBindex/pull/5",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  },
+  {
+    "repo": "GIBindex",
+    "pr": 4,
+    "title": "Branding: add OG banner (SVG placeholder)",
+    "headRef": "branding/og-20250813_2222",
+    "baseRef": "main",
+    "url": "https://github.com/rickballard/GIBindex/pull/4",
+    "mode": "vendor-subtree",
+    "status": "included",
+    "note": ""
+  }
+]

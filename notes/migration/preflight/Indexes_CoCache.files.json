@@ -1,0 +1,110 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "sha": "c11b02cfc2b713ae8ee8ae7d7f782255455d835c",
+    "size": 73
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "sha": "55a5c455d6c3b8a44032f0486512735e17df8248",
+    "size": 122
+  },
+  {
+    "path": "INITIAL_COMMIT.txt",
+    "mode": "100644",
+    "sha": "0b54ac614350db34bfc06adf1ed35967f5616ebf",
+    "size": 95
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "sha": "f2796d96ff8d973c1de7e477dbdd5898ef59215f",
+    "size": 1312
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "sha": "fccfb85487d7aff9643b43c8a1c3f93a13b35ee6",
+    "size": 250
+  },
+  {
+    "path": "concepts/CoC_Scratch.md",
+    "mode": "100644",
+    "sha": "5774f261dcf1ede791b9791d03b3cd2bf26bb18e",
+    "size": 98
+  },
+  {
+    "path": "concepts/README.md",
+    "mode": "100644",
+    "sha": "8ddbd40df58c99892d08e5cde7683ba81fd4e9a3",
+    "size": 73
+  },
+  {
+    "path": "context/Last_Session_Context.md",
+    "mode": "100644",
+    "sha": "a134d7c3b6409e7db4ec07c353b539e287243132",
+    "size": 445
+  },
+  {
+    "path": "context/README.md",
+    "mode": "100644",
+    "sha": "e30b720c3f4f0609e15f986c7a1cfc2b2f3f66cf",
+    "size": 197
+  },
+  {
+    "path": "links/README.md",
+    "mode": "100644",
+    "sha": "025e807752d98d2ddbe4f9fdecb4a00f38e2b7c0",
+    "size": 137
+  },
+  {
+    "path": "log/2025-08-09.md",
+    "mode": "100644",
+    "sha": "b4f6fd9742f1e4fdf71d2bb1e742ff12f65f25c6",
+    "size": 127
+  },
+  {
+    "path": "log/README.md",
+    "mode": "100644",
+    "sha": "db493e435721f61bf6041640f4a62a95922f3318",
+    "size": 56
+  },
+  {
+    "path": "projects.json",
+    "mode": "100644",
+    "sha": "2446c6c27f58d6e456048e02c3a122fdc829d3d9",
+    "size": 416
+  },
+  {
+    "path": "templates/SESSION_BOOTSTRAP.txt",
+    "mode": "100644",
+    "sha": "6a4130a6f32e114c3b8370d319474d9515ade606",
+    "size": 409
+  },
+  {
+    "path": "templates/SESSION_WRAPUP.md",
+    "mode": "100644",
+    "sha": "d874992be7ddbb575fa28e32286095a66ab7564f",
+    "size": 153
+  },
+  {
+    "path": "templates/WORKQUEUE.md",
+    "mode": "100644",
+    "sha": "2b0a26f1e2423e8faa003c1592b54b92b2641515",
+    "size": 232
+  },
+  {
+    "path": "todo/CoC_TODO.md",
+    "mode": "100644",
+    "sha": "18a19b08e4e31ce09ffb593aaa8f6d530c1e0bbd",
+    "size": 157
+  },
+  {
+    "path": "todo/README.md",
+    "mode": "100644",
+    "sha": "42bc6795fa8358558d17c8aee3626e844135fe25",
+    "size": 88
+  }
+]

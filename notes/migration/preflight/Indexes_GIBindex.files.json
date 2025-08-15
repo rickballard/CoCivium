@@ -1,0 +1,110 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "sha": "cc23192c603394c18824316b095a0d59b1e5caf8",
+    "size": 39
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "mode": "100644",
+    "sha": "8ec6b0e4916bd8e8e27824b5dedb17c3d32b41ca",
+    "size": 74
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_request.yml",
+    "mode": "100644",
+    "sha": "7772531a9aeb1f72ffa6242478c4ccfda4eeb621",
+    "size": 386
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "mode": "100644",
+    "sha": "8005e3226730ef74f37ae9614ba94a1bb879b4a0",
+    "size": 46
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/entry_request.yml",
+    "mode": "100644",
+    "sha": "57c44ff6fb3869a2d5dd682eaf84025bfc0090c7",
+    "size": 531
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "mode": "100644",
+    "sha": "f9389b0d1c0a8f4bdad6933a5ec52a37792a9ad8",
+    "size": 274
+  },
+  {
+    "path": ".github/workflows/validate.yml",
+    "mode": "100644",
+    "sha": "f46de3700911873cd010f87f232555b672a18b01",
+    "size": 471
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "sha": "2699e52fc9b0ccc3f657f1d3d4af9f4eb504b1ad",
+    "size": 30
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "sha": "419d8d214360f19177e960c6f0f786dd89b38093",
+    "size": 138
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "sha": "d6e397d2cca61fb663a6ea2b4f6e15545dffdec2",
+    "size": 1701
+  },
+  {
+    "path": "decisions/ADR-0001-repo-structure.md",
+    "mode": "100644",
+    "sha": "b59e395e60e2690739b74c3bdac3bbe7cda67ece",
+    "size": 236
+  },
+  {
+    "path": "docs/CONTRIBUTING.md",
+    "mode": "100644",
+    "sha": "047a2f37a9cb7d7865a22d2466669ea66cd6b8d6",
+    "size": 501
+  },
+  {
+    "path": "entries/core/truth-metrics_20250809T035946Z.gib.yaml",
+    "mode": "100644",
+    "sha": "1cbaa40a0e65a13fc14449c9cad1c51409909cff",
+    "size": 431
+  },
+  {
+    "path": "lexicon/README.md",
+    "mode": "100644",
+    "sha": "9abc32f99ab84ed09f691576f37287f89937303d",
+    "size": 126
+  },
+  {
+    "path": "schemas/gibentry.schema.yaml",
+    "mode": "100644",
+    "sha": "b36070ea85b045458308483f17368e46cf6a5cc7",
+    "size": 594
+  },
+  {
+    "path": "scripts/validate_entries.py",
+    "mode": "100644",
+    "sha": "9d8afd2365d27ef82b43818394cba3c0a1b46f40",
+    "size": 1723
+  },
+  {
+    "path": "sessions/LOG.md",
+    "mode": "100644",
+    "sha": "cce0b1fda25a42646e20877f43e84926c8845977",
+    "size": 40
+  },
+  {
+    "path": "sessions/README.md",
+    "mode": "100644",
+    "sha": "ae7eb78a3e6785e14b1f9c9f6fce03b03f6cdc58",
+    "size": 118
+  }
+]

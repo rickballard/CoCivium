@@ -1,0 +1,1184 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "sha": "85a9090dda9b38c825d81dacd443f58c74895c1b",
+    "size": 203
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "sha": "efbb01a2701213c2d7dfb183f3f1f0d1c42e3c00",
+    "size": 39
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "mode": "100644",
+    "sha": "eea2705235434501c05e1c1aa5021c5ffc3384ff",
+    "size": 82
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/_legacy/bug_report.md",
+    "mode": "100644",
+    "sha": "c6b0b8b6329c5d2a1cda5bf52664bbf112c5c38f",
+    "size": 307
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/_legacy/feature_request.md",
+    "mode": "100644",
+    "sha": "f5e088b7474ed24f5b0cf3a64720065d87a2d7f4",
+    "size": 303
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "mode": "100644",
+    "sha": "5d39df88eaf63bb8472bcdcb0544740b80f13969",
+    "size": 417
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/chore.yml",
+    "mode": "100644",
+    "sha": "ca678b5cd2048f96196f9b78b9e3d2d43da25a57",
+    "size": 286
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "mode": "100644",
+    "sha": "320be84df0a619ae58c4679d8cc2860a02875b5e",
+    "size": 630
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/rfc.yml",
+    "mode": "100644",
+    "sha": "533efa9d6275a07ea0556609962f2893e9376135",
+    "size": 664
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "mode": "100644",
+    "sha": "5865d57c09afd6d00ab08f287c7d0fa2329fe474",
+    "size": 257
+  },
+  {
+    "path": ".github/labels.yml",
+    "mode": "100644",
+    "sha": "717a3a457708b886882b0c520553093dfe46d5e5",
+    "size": 54
+  },
+  {
+    "path": ".github/workflows/emergency-merge.yml",
+    "mode": "100644",
+    "sha": "45e1be9b8930ab9dbc1ea3f2e5ee086cbb429504",
+    "size": 890
+  },
+  {
+    "path": ".github/workflows/issueops-run.yml",
+    "mode": "100644",
+    "sha": "6d1d266a1863890c8361b0d52a2edc2c9a7dba20",
+    "size": 2691
+  },
+  {
+    "path": ".github/workflows/labels-apply-prune.yml",
+    "mode": "100644",
+    "sha": "66789ad6d82585c6775bcdfd84e0407f9fc59f4f",
+    "size": 2814
+  },
+  {
+    "path": ".github/workflows/linkcheck.yml",
+    "mode": "100644",
+    "sha": "55f99b88020805f6fef5f34c6b7676df54fb5eb6",
+    "size": 55
+  },
+  {
+    "path": ".github/workflows/lychee.yml",
+    "mode": "100644",
+    "sha": "18ca5c6a92044173d28cb3bf26108c1265b9bdc6",
+    "size": 454
+  },
+  {
+    "path": ".github/workflows/markdownlint.yml",
+    "mode": "100644",
+    "sha": "ddb9cd784861a21f05c4b4e1ff303ca35b7b839e",
+    "size": 356
+  },
+  {
+    "path": ".github/workflows/yamllint.yml",
+    "mode": "100644",
+    "sha": "8c5cede10b52829c21c41d748ebdf7b19166af0b",
+    "size": 421
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "sha": "013a2b1ced3f87221cd902d4d52e5efb96b27930",
+    "size": 124
+  },
+  {
+    "path": ".markdownlint.json",
+    "mode": "100644",
+    "sha": "6dcd7f46fc88fd922b42cab9f17760168196c9c4",
+    "size": 124
+  },
+  {
+    "path": ".mdlignore",
+    "mode": "100644",
+    "sha": "33e01faabf4107f8bf5cf4990f2e12a6c23bde3c",
+    "size": 122
+  },
+  {
+    "path": ".mdlrc",
+    "mode": "100644",
+    "sha": "eb9c1f73ec7b281c3edf46e256bd0b4bab6a3dca",
+    "size": 144
+  },
+  {
+    "path": ".yamllint.yml",
+    "mode": "100644",
+    "sha": "5ebc4a3f3f58d0f8db376b68a7b89b9356b88abe",
+    "size": 182
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "sha": "d5598b5a7f01a66bd8bf6c01f253fee1da35fe4f",
+    "size": 70
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "sha": "9ef822fb9c470d24b82966a8dd5564e1d9b0bb84",
+    "size": 847
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "sha": "5cc0fa235d925bf4a6a31ee19968464582d096dc",
+    "size": 674
+  },
+  {
+    "path": "GOVERNANCE.md",
+    "mode": "100644",
+    "sha": "75d1ea60a559bd86d1c591508e7683db16b1e6d9",
+    "size": 493
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "sha": "c72e89b8e12310e4805547f884ec44c194913cce",
+    "size": 8150
+  },
+  {
+    "path": "MAP.md",
+    "mode": "100644",
+    "sha": "03d0d7aae546b1493771ef5f970b304478114338",
+    "size": 388
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "sha": "734eb6b646216531078b149f43c0816953fd4e90",
+    "size": 4878
+  },
+  {
+    "path": "README_FOR_AI.md",
+    "mode": "100644",
+    "sha": "87f3609dcaf9279d097249d90943db4270b2a1b9",
+    "size": 472
+  },
+  {
+    "path": "admin/CoCivium_Admin_Workflow_Tips_20250811.md",
+    "mode": "100644",
+    "sha": "787151d98c3bc990470eca1418212a951ca87a8a",
+    "size": 4550
+  },
+  {
+    "path": "admin/CoCivium_Session_Primer.md",
+    "mode": "100644",
+    "sha": "d8e672d69d92da3ffe420a0ede5f6bea5b3a271b",
+    "size": 667
+  },
+  {
+    "path": "admin/DEPRECATIONS.md",
+    "mode": "100644",
+    "sha": "237336dedfcf9815c745c807e9567d1026840ace",
+    "size": 435
+  },
+  {
+    "path": "admin/End_of_Session_Template.md",
+    "mode": "100644",
+    "sha": "9213badfd6cd7959d65e62a2e80bd17d1f914976",
+    "size": 781
+  },
+  {
+    "path": "admin/End_of_Session_Template_commit.txt",
+    "mode": "100644",
+    "sha": "6e79cb440a162324cd21732137df3c406aa376ab",
+    "size": 75
+  },
+  {
+    "path": "admin/Intersessional_Profile.md",
+    "mode": "100644",
+    "sha": "eafa74ec46fd5597f95ca497e5dd7f6daa53ed70",
+    "size": 3401
+  },
+  {
+    "path": "admin/Intersessional_Profile_commit.txt",
+    "mode": "100644",
+    "sha": "eaf57e035bca5af5c5403223c0ab929bc819664c",
+    "size": 74
+  },
+  {
+    "path": "admin/Last_Session_Context.md",
+    "mode": "100644",
+    "sha": "1eec1ffe13e4dde027c3a2357b6b1393afbf1839",
+    "size": 1244
+  },
+  {
+    "path": "admin/MIGRATION_LOG.md",
+    "mode": "100644",
+    "sha": "0dd1dc0660ae3581100b4f037cc230fdab8054ec",
+    "size": 891
+  },
+  {
+    "path": "admin/PR_CHECKLIST.md",
+    "mode": "100644",
+    "sha": "654926c902eac6a6d185ea3610eaf87b50456ce9",
+    "size": 622
+  },
+  {
+    "path": "admin/README.md",
+    "mode": "100644",
+    "sha": "4b9e9de78a5f4024afab60a4c8b715344545eccd",
+    "size": 341
+  },
+  {
+    "path": "admin/README.top_fold.plan.md",
+    "mode": "100644",
+    "sha": "0bb38f06eea89974d94831e29a36aef0e641d818",
+    "size": 482
+  },
+  {
+    "path": "admin/README_FOR_AI_commit.txt",
+    "mode": "100644",
+    "sha": "9e261399a333910b5fe1691950f68ade0e7f752f",
+    "size": 59
+  },
+  {
+    "path": "admin/Session_Starter_Prompt.md",
+    "mode": "100644",
+    "sha": "8d37c6aca9438fd6ee369b43e75457568a82a345",
+    "size": 465
+  },
+  {
+    "path": "admin/Session_Starter_Prompt_commit.txt",
+    "mode": "100644",
+    "sha": "1fae21a4a982e6358337f47f98a64015bd2f8984",
+    "size": 74
+  },
+  {
+    "path": "admin/TODO.md",
+    "mode": "100644",
+    "sha": "c25afae1c4ac385638ce27211a77ff57bdba99d9",
+    "size": 313
+  },
+  {
+    "path": "admin/TODO_BPOE_20250812.md",
+    "mode": "100644",
+    "sha": "5710af002b1c6aae6c54ac5d780feb38ab862a8e",
+    "size": 46
+  },
+  {
+    "path": "admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md",
+    "mode": "100644",
+    "sha": "9f2ccf1bc65eae73463a739f2aeda2efd7bedc0e",
+    "size": 8542
+  },
+  {
+    "path": "admin/assets/admin_CoCivium_Progress_Map_Plan_20250810_commit.txt",
+    "mode": "100644",
+    "sha": "8ec1613e697156ad16073df14ee34112e0fa5bcd",
+    "size": 677
+  },
+  {
+    "path": "admin/cocivai/BUS.md",
+    "mode": "100644",
+    "sha": "d34115109a9934473194a21d529a419e80b8fb9e",
+    "size": 279
+  },
+  {
+    "path": "admin/decisions/DR-20250813-cocivbus-mvp.md",
+    "mode": "100644",
+    "sha": "1c35d2f0bf74fa4a4ee1c241465b8e9a6b1a2f90",
+    "size": 460
+  },
+  {
+    "path": "admin/history/Browser_Setup_and_Launcher_20250809T054950Z.md",
+    "mode": "100644",
+    "sha": "e6a3eeb04041c66249b929113450d5a3f2698e63",
+    "size": 2065
+  },
+  {
+    "path": "admin/history/DR_20250813_Emergency_Merge_Relaxation.md",
+    "mode": "100644",
+    "sha": "0b727c62afc13111a0cd9b85fe1f46e1a07a605e",
+    "size": 856
+  },
+  {
+    "path": "admin/history/End_of_Session_Template_20250809T054950Z.md",
+    "mode": "100644",
+    "sha": "9213badfd6cd7959d65e62a2e80bd17d1f914976",
+    "size": 781
+  },
+  {
+    "path": "admin/history/Intersessional_Profile_20250809T054732Z.md",
+    "mode": "100644",
+    "sha": "eafa74ec46fd5597f95ca497e5dd7f6daa53ed70",
+    "size": 3401
+  },
+  {
+    "path": "admin/history/Session_Starter_Prompt_20250809T054950Z.md",
+    "mode": "100644",
+    "sha": "8d37c6aca9438fd6ee369b43e75457568a82a345",
+    "size": 465
+  },
+  {
+    "path": "admin/inventory_audit.py",
+    "mode": "100644",
+    "sha": "4ac0f8164b0e5589ce3df7c61afa9ecf64d09ab1",
+    "size": 4374
+  },
+  {
+    "path": "admin/metrics/RD_Dents_Explained.md",
+    "mode": "100644",
+    "sha": "e384451380c0b10ab031c0a3a6562921c2a159b3",
+    "size": 966
+  },
+  {
+    "path": "admin/metrics/README.md",
+    "mode": "100644",
+    "sha": "e3fca54e916af5b87fb37637290a38e2d7ca74f6",
+    "size": 835
+  },
+  {
+    "path": "admin/metrics/build_metrics.yml",
+    "mode": "100644",
+    "sha": "8e80c0fa9812c40a0b2a601a0e03d867860e4ead",
+    "size": 1042
+  },
+  {
+    "path": "admin/metrics/collect_metrics.py",
+    "mode": "100644",
+    "sha": "94c5f1899cc135824e38251dd5bbdf323e9c9b8f",
+    "size": 6399
+  },
+  {
+    "path": "admin/metrics/history/metrics_20250810_165439Z.json",
+    "mode": "100644",
+    "sha": "ee130daa61b1dd0412d357f0254f7c4ba039062a",
+    "size": 617
+  },
+  {
+    "path": "admin/metrics/history/metrics_20250810_170955Z.json",
+    "mode": "100644",
+    "sha": "2a6f72042f7cd2acfaa2211c27272b9837b351ea",
+    "size": 623
+  },
+  {
+    "path": "admin/metrics/history/metrics_20250810_182424Z.json",
+    "mode": "100644",
+    "sha": "3015e1ef28331be83d4be2696c5c8adf37d91a81",
+    "size": 621
+  },
+  {
+    "path": "admin/metrics/metrics.json",
+    "mode": "100644",
+    "sha": "3015e1ef28331be83d4be2696c5c8adf37d91a81",
+    "size": 621
+  },
+  {
+    "path": "admin/metrics/render_progress_map.py",
+    "mode": "100644",
+    "sha": "5ad7ed21c2ef4cd5b5deb5249f0bbb4d2140f96b",
+    "size": 7383
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/About_CoCivAI.md",
+    "mode": "100644",
+    "sha": "dd7044c70b0aec3fbc094d0604bd4247378bcce3",
+    "size": 594
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Appendix/CoCivium_OpenAI_Bugs_Appendix_2025-08-12.md",
+    "mode": "100644",
+    "sha": "425f9eb7884550a53349faad12c84081472621bc",
+    "size": 7934
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Changelogs/CHANGELOG.md",
+    "mode": "100644",
+    "sha": "8aa5347fe2fc59a2fc75ecf557c7fd67d0d77e02",
+    "size": 114
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/CoCivAI_Branding.md",
+    "mode": "100644",
+    "sha": "5e24da0f854812f28d1d1d003ab92bb53b47ac65",
+    "size": 881
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Deck/10slides_outline.md",
+    "mode": "100644",
+    "sha": "0fcfecdef2e22b16b5389a66e402dcee88033fbf",
+    "size": 474
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Gibberlink_Explainer.md",
+    "mode": "100644",
+    "sha": "22baaa7ac6095c617777fe056b51ea83ca60f248",
+    "size": 638
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Legal-Ethics.md",
+    "mode": "100644",
+    "sha": "9a0f0209d24a6fda5b1c9b020da90b9e3fafc235",
+    "size": 409
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Metrics.md",
+    "mode": "100644",
+    "sha": "9a35d7a922cc635e03ae991a57dfa507abe261bf",
+    "size": 470
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Plan.md",
+    "mode": "100644",
+    "sha": "d31ae974cd8d0394a825f1a346f854d8da4136d4",
+    "size": 3561
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/being_noname_insert.md",
+    "mode": "100644",
+    "sha": "53755dea7bc6d3d02c5f7862fa7f08b8c1ebc633",
+    "size": 330
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/forum_post.md",
+    "mode": "100644",
+    "sha": "4a3033df9fe4b8803380a97821586f50da5cfe03",
+    "size": 1603
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/forum_post_cocivai_variant.md",
+    "mode": "100644",
+    "sha": "f4d4a03e9ca080ae3c41419c1dde10448b64f876",
+    "size": 387
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/github_issue.md",
+    "mode": "100644",
+    "sha": "71aac86d3b858b5fa7598e2863dfaaa42965c9d4",
+    "size": 1000
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/help_ticket_summary.md",
+    "mode": "100644",
+    "sha": "d15efa3f22ad79bad6fd42c928b159b7378a2a0a",
+    "size": 921
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/medium_article.md",
+    "mode": "100644",
+    "sha": "2ef7316a6beb4f8edf553afee5916214c07c1314",
+    "size": 615
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/medium_cocivai_sidebar.md",
+    "mode": "100644",
+    "sha": "98d75dad3bcabffb54692100106e13445e0672e8",
+    "size": 343
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Posts/x_thread.txt",
+    "mode": "100644",
+    "sha": "ea9ce2ffaa9b5197625d8d57dece7f537b5951a6",
+    "size": 352
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/README.md",
+    "mode": "100644",
+    "sha": "41042bef43f5b848375c33763c85be8c65db0c5a",
+    "size": 1506
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/RiskRegister.md",
+    "mode": "100644",
+    "sha": "639e2608144771b2dc9105e116c155cf083ca230",
+    "size": 576
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Runbook_Checklist.md",
+    "mode": "100644",
+    "sha": "aa1ede27f8b14df9845d04089edb6dde558374ed",
+    "size": 669
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Scripts/gh_issue_create.sh",
+    "mode": "100644",
+    "sha": "e5293c0dbcc94604b99cd57f45ccc64f642cc4b7",
+    "size": 596
+  },
+  {
+    "path": "admin/outreach/KickOpenAI/Signature_Blocks.md",
+    "mode": "100644",
+    "sha": "076f24d4469b5230047d450efa2b4b4d16761e17",
+    "size": 367
+  },
+  {
+    "path": "admin/products/CoCivBus/ACTION_openapi.yaml",
+    "mode": "100644",
+    "sha": "e923ab36e178e50e8fc5198d3a950a1aa88abd53",
+    "size": 1636
+  },
+  {
+    "path": "admin/products/CoCivBus/PLAN_v0.1.md",
+    "mode": "100644",
+    "sha": "ce6a519ea2dffa68651379ec24521ab13a8ca5ae",
+    "size": 9165
+  },
+  {
+    "path": "admin/products/CoCivBus/SPEC_v0.1.md",
+    "mode": "100644",
+    "sha": "3a575689dbf5c684f49d1b37547f57d2fe967e00",
+    "size": 1122
+  },
+  {
+    "path": "admin/products/CoCivBus/transports/git_gist.md",
+    "mode": "100644",
+    "sha": "fad7514c4d479feb3a19240de9a10f4d5b615b6a",
+    "size": 339
+  },
+  {
+    "path": "admin/products/CoCivBus/transports/matrix.md",
+    "mode": "100644",
+    "sha": "01a32d64320d0c2ba0279bde9eb1dd295e2325ea",
+    "size": 409
+  },
+  {
+    "path": "admin/products/CoCivBus/transports/nostr.md",
+    "mode": "100644",
+    "sha": "8ac2aea591e85a397f34316db0aef9f960292534",
+    "size": 297
+  },
+  {
+    "path": "admin/products/CoCivBus/ux/beacon_format.md",
+    "mode": "100644",
+    "sha": "8a3d36e3a7f38e045ec91e783613e52cc9d28415",
+    "size": 283
+  },
+  {
+    "path": "admin/products/CoCivBus/ux/extension_scope.md",
+    "mode": "100644",
+    "sha": "2759b8fd369c92749dc8523ef252e44070145051",
+    "size": 253
+  },
+  {
+    "path": "admin/products/CoCivBus/ux/quickstart.md",
+    "mode": "100644",
+    "sha": "1d7f27d49265453a5e727b4ca4ac90338bb529cd",
+    "size": 548
+  },
+  {
+    "path": "admin/products/PromptQ_c0_20250812/ProductCard_c0_20250812.md",
+    "mode": "100644",
+    "sha": "e76f8cc0cc6a64e11376ad950ed04eaad1779420",
+    "size": 1173
+  },
+  {
+    "path": "admin/products/PromptQ_c0_20250812/README.md",
+    "mode": "100644",
+    "sha": "6f9f9b0544e812e2b48a03b2dc69474a89494847",
+    "size": 160
+  },
+  {
+    "path": "admin/products/README.md",
+    "mode": "100644",
+    "sha": "d7939334078d2c17981a788b85aabbbd894971b6",
+    "size": 621
+  },
+  {
+    "path": "admin/projects/CoCivium_Scope_Specification_c1_20250813.md",
+    "mode": "100644",
+    "sha": "e2f8d272e31c72d2eca3bada1a44367f6d9a250c",
+    "size": 5587
+  },
+  {
+    "path": "admin/projects/CoCivium_Twin_Eyes_Initiative_Plan_c1_20250813.md",
+    "mode": "100644",
+    "sha": "9041bba80ac8a2f92dbc1984725e730be3f950f3",
+    "size": 3912
+  },
+  {
+    "path": "admin/projects/DB_Init_Postgres_c0_20250812/ParkingCard_c0_20250812.md",
+    "mode": "100644",
+    "sha": "fdcccc0b768af1ff708f13b25319da93a8d60d91",
+    "size": 728
+  },
+  {
+    "path": "admin/projects/DB_Init_Postgres_c0_20250812/README.md",
+    "mode": "100644",
+    "sha": "92efe538546ae1201aa14b479f510488773aecaf",
+    "size": 467
+  },
+  {
+    "path": "admin/projects/DB_Init_Postgres_c0_20250812/db/_PARKED/placeholder.sql",
+    "mode": "100644",
+    "sha": "9b91ab15118b29174f8a50cedb4e268ce4f09bc1",
+    "size": 168
+  },
+  {
+    "path": "admin/projects/README.md",
+    "mode": "100644",
+    "sha": "8ac202ef8c0c74e9e20d016b23714d1c07a316d9",
+    "size": 547
+  },
+  {
+    "path": "admin/runbooks/ChatGPT_Sidecar_Housekeeping_v1.txt",
+    "mode": "100644",
+    "sha": "04aae08026ac0a11e136197de93571a4fb393de6",
+    "size": 3214
+  },
+  {
+    "path": "admin/runbooks/README.md",
+    "mode": "100644",
+    "sha": "b9e1ae3bc68b00048fa1a84bcef0844276e44dcc",
+    "size": 633
+  },
+  {
+    "path": "admin/scratchpad/.gitkeep",
+    "mode": "100644",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0
+  },
+  {
+    "path": "admin/scratchpad/published/.gitkeep",
+    "mode": "100644",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0
+  },
+  {
+    "path": "admin/scratchpad/published/20250809T055719Z_setup_notes.md",
+    "mode": "100644",
+    "sha": "cf09f78a08596703d0a4460dcf4df53952af58ba",
+    "size": 54
+  },
+  {
+    "path": "admin/scratchpad/published/20250809T055903Z_setup_notes.md",
+    "mode": "100644",
+    "sha": "7c4c9a5d24577f21f58fcf945b9589f8238e1ffb",
+    "size": 54
+  },
+  {
+    "path": "admin/session-bus/session_bus.jsonl",
+    "mode": "100644",
+    "sha": "d7c8a047b6a14723518bec9178546f3c01e28e6d",
+    "size": 203
+  },
+  {
+    "path": "admin/setup/Browser_Setup_and_Launcher.md",
+    "mode": "100644",
+    "sha": "6a63470cbdc7c12fe3e9501aa9db89ca65648264",
+    "size": 432
+  },
+  {
+    "path": "admin/setup/CoCivium-Workbench.bat",
+    "mode": "100644",
+    "sha": "10876f958612b35dc2ec3bc6f6becb8864978a36",
+    "size": 1120
+  },
+  {
+    "path": "admin/setup/ENVIRONMENT.md",
+    "mode": "100644",
+    "sha": "3b97b520154b15a7b9e86df087ff98946a856827",
+    "size": 474
+  },
+  {
+    "path": "admin/setup/EXTENSIONS.md",
+    "mode": "100644",
+    "sha": "bf78e964f9075a43400e49b4236c25a72c1b84dc",
+    "size": 275
+  },
+  {
+    "path": "admin/setup/README.md",
+    "mode": "100644",
+    "sha": "8f2f7118d95cf81f08b9cb4d402093e00c17fc14",
+    "size": 1380
+  },
+  {
+    "path": "admin/setup/Workbench_Setup_Plan.md",
+    "mode": "100644",
+    "sha": "bc4964411c381e0bbe80ff8e4506eacc9ac4f9a4",
+    "size": 3493
+  },
+  {
+    "path": "admin/setup/chrome_profile_summary_20250809T071539Z.json",
+    "mode": "100644",
+    "sha": "12d7628b6ff8f0ba33a9e7be38faf062825c47d4",
+    "size": 273
+  },
+  {
+    "path": "admin/setup/chrome_profile_summary_20250809T071539Z.md",
+    "mode": "100644",
+    "sha": "ebd02555a494dc7752eda21d898fb0896529f2c9",
+    "size": 347
+  },
+  {
+    "path": "admin/setup/chrome_profile_summary_20250809T074129Z.json",
+    "mode": "100644",
+    "sha": "312a6921178d19ef88717eceeb01353e77a8b3ac",
+    "size": 395
+  },
+  {
+    "path": "admin/setup/chrome_profile_summary_20250809T074129Z.md",
+    "mode": "100644",
+    "sha": "8d6e06740810d2761d5f20fbee33db7ebcfd8e6e",
+    "size": 347
+  },
+  {
+    "path": "admin/setup/chrome_upgrade_manifest.json",
+    "mode": "100644",
+    "sha": "ecfbf5ae121368f418b3f36bc9ab3b516eea8e00",
+    "size": 1357
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T072640Z/CHANGES.md",
+    "mode": "100644",
+    "sha": "521f5ad6baabc871f7979bc0a0125d60cecf46ee",
+    "size": 545
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T072640Z/INSTALL.cmd",
+    "mode": "100644",
+    "sha": "dad1f86a2a9686678b31de3dea136775ddbc796a",
+    "size": 78
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T072640Z/UNDO.cmd",
+    "mode": "100644",
+    "sha": "768ff5b8cc418152813b6eb90387e25a9497d226",
+    "size": 85
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T072640Z/apply.reg",
+    "mode": "100644",
+    "sha": "95ae1c8444d2216074db893f54007c72b8914508",
+    "size": 595
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T072640Z/rollback.reg",
+    "mode": "100644",
+    "sha": "a4e4b47fe5d6baaeb6ff84369d6d00bd003214f7",
+    "size": 94
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T075739Z/CHANGES.md",
+    "mode": "100644",
+    "sha": "6198406aa042f6e0259d0bec3a0352846f348d6c",
+    "size": 439
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T075739Z/INSTALL.cmd",
+    "mode": "100644",
+    "sha": "dad1f86a2a9686678b31de3dea136775ddbc796a",
+    "size": 78
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T075739Z/UNDO.cmd",
+    "mode": "100644",
+    "sha": "768ff5b8cc418152813b6eb90387e25a9497d226",
+    "size": 85
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T075739Z/apply.reg",
+    "mode": "100644",
+    "sha": "dc774fe74bef358d11c397892412639636b0818b",
+    "size": 485
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T075739Z/rollback.reg",
+    "mode": "100644",
+    "sha": "a4e4b47fe5d6baaeb6ff84369d6d00bd003214f7",
+    "size": 94
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080004Z/CHANGES.md",
+    "mode": "100644",
+    "sha": "a3f19a69cdd130f32a8add070ec7182df0018b06",
+    "size": 439
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080004Z/INSTALL.cmd",
+    "mode": "100644",
+    "sha": "dad1f86a2a9686678b31de3dea136775ddbc796a",
+    "size": 78
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080004Z/UNDO.cmd",
+    "mode": "100644",
+    "sha": "768ff5b8cc418152813b6eb90387e25a9497d226",
+    "size": 85
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080004Z/apply.reg",
+    "mode": "100644",
+    "sha": "dc774fe74bef358d11c397892412639636b0818b",
+    "size": 485
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080004Z/rollback.reg",
+    "mode": "100644",
+    "sha": "a4e4b47fe5d6baaeb6ff84369d6d00bd003214f7",
+    "size": 94
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080214Z/CHANGES.md",
+    "mode": "100644",
+    "sha": "23bfcc5e32da707c05ca2f1b6b7c9855588b1cbd",
+    "size": 1376
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080214Z/INSTALL.cmd",
+    "mode": "100644",
+    "sha": "dad1f86a2a9686678b31de3dea136775ddbc796a",
+    "size": 78
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080214Z/UNDO.cmd",
+    "mode": "100644",
+    "sha": "768ff5b8cc418152813b6eb90387e25a9497d226",
+    "size": 85
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080214Z/apply.reg",
+    "mode": "100644",
+    "sha": "afea0ebe330b7c26a98d8261331b749d64b05801",
+    "size": 2693
+  },
+  {
+    "path": "admin/setup/dist/ChromeUpgrade_20250809T080214Z/rollback.reg",
+    "mode": "100644",
+    "sha": "a4e4b47fe5d6baaeb6ff84369d6d00bd003214f7",
+    "size": 94
+  },
+  {
+    "path": "admin/setup/generate_chrome_upgrade.ps1",
+    "mode": "100644",
+    "sha": "9ce47314b39f9298efb36898c5f69be6e9a34858",
+    "size": 3460
+  },
+  {
+    "path": "admin/setup/snapshot_chrome_config.ps1",
+    "mode": "100644",
+    "sha": "96152e104b0150039cd312daf903f55fdfb57c84",
+    "size": 4822
+  },
+  {
+    "path": "admin/system/bpoe-audit/BPOE_Audit_20250813_192734.md",
+    "mode": "100644",
+    "sha": "4b606d200ef9571399df65900ee31a3c626cd85b",
+    "size": 5109
+  },
+  {
+    "path": "admin_CoCivium_Sprint_Retrospective_2025-08-11.md",
+    "mode": "100644",
+    "sha": "676d2b66f7b0f39db0cab7da45543e1ea5dbefec",
+    "size": 4407
+  },
+  {
+    "path": "assets/diagrams/README.md",
+    "mode": "100644",
+    "sha": "c827d6dba5219ef7e2924945faa93dc367f451a3",
+    "size": 390
+  },
+  {
+    "path": "assets/diagrams/README_commit.txt",
+    "mode": "100644",
+    "sha": "c8989029dc333be9627caa28d6e2b473585d100d",
+    "size": 87
+  },
+  {
+    "path": "assets/diagrams/bio_vs_synth_observers_c1_20250809.svg",
+    "mode": "100644",
+    "sha": "2e4af740a577856694c4c069a165b241a052ddfe",
+    "size": 2250
+  },
+  {
+    "path": "assets/diagrams/bio_vs_synth_observers_commit.txt",
+    "mode": "100644",
+    "sha": "d2fb708c855ebef98dbcad442922780b269e3ba0",
+    "size": 71
+  },
+  {
+    "path": "assets/sources/Preservation_Guide.md",
+    "mode": "100644",
+    "sha": "210022032258a0cf8e36227ed67341a7fe4216b6",
+    "size": 865
+  },
+  {
+    "path": "assets/sources/README.md",
+    "mode": "100644",
+    "sha": "38dc6939ccdd2b4f34cdb1e4f1befbe0781a7880",
+    "size": 361
+  },
+  {
+    "path": "assets/sources/README_commit.txt",
+    "mode": "100644",
+    "sha": "caaded68d88fb01d6815ca1c63540056473bca34",
+    "size": 75
+  },
+  {
+    "path": "docs/CONTRIBUTING.md",
+    "mode": "100644",
+    "sha": "db4eb16c95bb85e5b2316dc62730dd8e10ab9d50",
+    "size": 880
+  },
+  {
+    "path": "docs/ISSUEOPS.md",
+    "mode": "100644",
+    "sha": "86c04e862d9ee922b7fb65adb2b62d38b7adeb36",
+    "size": 1825
+  },
+  {
+    "path": "docs/scope_crosswalk.csv",
+    "mode": "100644",
+    "sha": "13a1c06b73bead0f5b3fa4d16ba7dba583fa1165",
+    "size": 968
+  },
+  {
+    "path": "docs/scope_spokes.yml",
+    "mode": "100644",
+    "sha": "39e135ef711443b615c5b60ad7aa712e4bc2dca8",
+    "size": 97
+  },
+  {
+    "path": "foundations/Foundational_Building_Blocks.md",
+    "mode": "100644",
+    "sha": "aedf8566b508bdf39c01640b229305b583bb91cf",
+    "size": 478
+  },
+  {
+    "path": "governance/membership_policy.yaml",
+    "mode": "100644",
+    "sha": "6e17a424e56d5eb97aff3b078b590c2a3e189190",
+    "size": 609
+  },
+  {
+    "path": "insights/Insight_Substrate_Assumptions_c1_20250809.md",
+    "mode": "100644",
+    "sha": "69b197cd54f1ee53c8237b8a512d933342592302",
+    "size": 1628
+  },
+  {
+    "path": "insights/Insight_Substrate_Assumptions_c2_20250809.md",
+    "mode": "100644",
+    "sha": "a5c0e222154cec065a6f7962c585af7e53e6d536",
+    "size": 7813
+  },
+  {
+    "path": "insights/Insight_Substrate_Assumptions_c2_20250809_commit.txt",
+    "mode": "100644",
+    "sha": "5c551991febabcc3e02606ca484bbdc99d880552",
+    "size": 187
+  },
+  {
+    "path": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+    "mode": "100644",
+    "sha": "405ea6eeaef27aa0d57dff7265b541d2c4e0f9e2",
+    "size": 3832
+  },
+  {
+    "path": "insights/Insight_Substrate_Assumptions_commit.txt",
+    "mode": "100644",
+    "sha": "52e080864109b678b6b7c22a876063d106a1b9f3",
+    "size": 89
+  },
+  {
+    "path": "insights/README.md",
+    "mode": "100644",
+    "sha": "5ce5e6ef4739aff0f118ca680b6ee040cfb1fc49",
+    "size": 441
+  },
+  {
+    "path": "ko-finisher.ps1",
+    "mode": "100644",
+    "sha": "5c0917eac34798e77568fbd8dc0068dd8aead969",
+    "size": 11930
+  },
+  {
+    "path": "merge-pr.sh",
+    "mode": "100644",
+    "sha": "b64adc2cc1c100e798ced3105b272af70af0d447",
+    "size": 1272
+  },
+  {
+    "path": "meta/Contributing_HumanGate.md",
+    "mode": "100644",
+    "sha": "34f69c67e68009942397ec582ede0cb227b43b97",
+    "size": 430
+  },
+  {
+    "path": "meta/Doc_Headers_Footers.md",
+    "mode": "100644",
+    "sha": "164db16881de8355adc4985638a6fdaab9aaaf32",
+    "size": 829
+  },
+  {
+    "path": "meta/ONEBLOCK_Spec.md",
+    "mode": "100644",
+    "sha": "aa754115754a3cce980cb5710826931f21ea3c5f",
+    "size": 565
+  },
+  {
+    "path": "ops/Matrix/README.md",
+    "mode": "100644",
+    "sha": "c3103a96e86c2115a5112e40db41c13367526011",
+    "size": 451
+  },
+  {
+    "path": "outreach/FAQ.md",
+    "mode": "100644",
+    "sha": "bf2490a90c121ec6e0dc4ed871937aa51385d60d",
+    "size": 770
+  },
+  {
+    "path": "outreach/README.md",
+    "mode": "100644",
+    "sha": "4538df0ea3e1431e5f12935eaa7166bc92cbcff2",
+    "size": 1236
+  },
+  {
+    "path": "outreach/briefs/CoCivAI_Circle.md",
+    "mode": "100644",
+    "sha": "7289fd9f0be6644d9cafaefc04df178c355f8de1",
+    "size": 1015
+  },
+  {
+    "path": "outreach/briefs/CoCivGibber.md",
+    "mode": "100644",
+    "sha": "f92940920fda8d9ef890314a12f2e16e1d8e400c",
+    "size": 1027
+  },
+  {
+    "path": "outreach/briefs/Matrix_Bus.md",
+    "mode": "100644",
+    "sha": "65582c6a4faf264c4b27caa47b1faccf90f55b5a",
+    "size": 593
+  },
+  {
+    "path": "outreach/discord_notice.txt",
+    "mode": "100644",
+    "sha": "29ee4df16627397195deab71717907e9ddca7e8d",
+    "size": 502
+  },
+  {
+    "path": "outreach/invites/ally_orgs.md",
+    "mode": "100644",
+    "sha": "98cbaa13c3b516d98ac5e1d0efc40610f4ba5b27",
+    "size": 829
+  },
+  {
+    "path": "outreach/invites/independent_agents.md",
+    "mode": "100644",
+    "sha": "be384f3223f0769936e10152345bd84564b5c163",
+    "size": 647
+  },
+  {
+    "path": "projects/CoCivGibber-Core/README.md",
+    "mode": "100644",
+    "sha": "ba2e968a6660a64455e53315705a447517072917",
+    "size": 373
+  },
+  {
+    "path": "projects/CoCivGibber-Core/clients/python/README.md",
+    "mode": "100644",
+    "sha": "b94f6a773247f2105efc1bdcc475716f14d00fb7",
+    "size": 441
+  },
+  {
+    "path": "projects/CoCivGibber-Core/spec/overview.md",
+    "mode": "100644",
+    "sha": "e42bbab918bd071483ba6762f35339f7a327f687",
+    "size": 689
+  },
+  {
+    "path": "protocols/CoCivGibber_v0_envelope.json",
+    "mode": "100644",
+    "sha": "ede206d99a883a438238f0bb84457782ad8931b8",
+    "size": 617
+  },
+  {
+    "path": "protocols/handshake.md",
+    "mode": "100644",
+    "sha": "9fd9df4511802bf133e01d2d01ca2383e96ffb4c",
+    "size": 231
+  },
+  {
+    "path": "scripts/emergency-merge.ps1",
+    "mode": "100644",
+    "sha": "b60852fabfb8ecd224fe8eed1841f1469884bd12",
+    "size": 2054
+  },
+  {
+    "path": "scripts/issueops/run-task.sh",
+    "mode": "100755",
+    "sha": "22feeae92e3b40391d4158ed273c68215b572bb2",
+    "size": 449
+  },
+  {
+    "path": "scripts/tasks/hello.sh",
+    "mode": "100755",
+    "sha": "75b5fbbb9539bdfec7bbf40614c346a811b81209",
+    "size": 140
+  },
+  {
+    "path": "site/assets/progress_map_thumb_v1_1.svg",
+    "mode": "100644",
+    "sha": "f24fac137f29bcb956aa54db19826863ce588e88",
+    "size": 20655
+  },
+  {
+    "path": "site/assets/progress_map_v0.svg",
+    "mode": "100644",
+    "sha": "5b1db1166f8b5b567b8fff48b4c565836c54be6d",
+    "size": 20657
+  },
+  {
+    "path": "site/eyes/README.md",
+    "mode": "100644",
+    "sha": "c2a0fbefe22e95fc8535ed61ffcd8d16e24bc9c3",
+    "size": 680
+  },
+  {
+    "path": "site/eyes/metrics.svg",
+    "mode": "100644",
+    "sha": "0af53ea43eb7ef562a9a0b2991e41a5e50b93440",
+    "size": 728
+  },
+  {
+    "path": "site/eyes/scope.svg",
+    "mode": "100644",
+    "sha": "62c1a7db99aa01f0bf393b57d8604b16a8adc9c4",
+    "size": 1619
+  },
+  {
+    "path": "site/eyes/stars.metrics.json",
+    "mode": "100644",
+    "sha": "71c535ffaf377f2210e9e0c131457cdb636ae859",
+    "size": 17
+  },
+  {
+    "path": "site/eyes/stars.scope.json",
+    "mode": "100644",
+    "sha": "71c535ffaf377f2210e9e0c131457cdb636ae859",
+    "size": 17
+  }
+]

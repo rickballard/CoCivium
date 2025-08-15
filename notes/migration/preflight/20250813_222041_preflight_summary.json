@@ -1,0 +1,38 @@
+[
+  {
+    "Repo": "Civium",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 299,
+    "SizeMB": 14.92,
+    "BackedUp": true,
+    "Notes": ""
+  },
+  {
+    "Repo": "CoCache",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 18,
+    "SizeMB": 5.48,
+    "BackedUp": true,
+    "Notes": ""
+  },
+  {
+    "Repo": "CoCivium",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 197,
+    "SizeMB": 12.13,
+    "BackedUp": true,
+    "Notes": ""
+  },
+  {
+    "Repo": "GIBindex",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 18,
+    "SizeMB": 0.05,
+    "BackedUp": true,
+    "Notes": ""
+  }
+]
