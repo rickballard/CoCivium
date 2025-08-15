@@ -1,0 +1,4 @@
+#!/bin/sh
+# Call PowerShell hint script (works on Git for Windows with pwsh in PATH)
+pwsh -NoProfile -ExecutionPolicy Bypass -File "$(git rev-parse --show-toplevel)/.githooks/post-commit-record-oe.ps1" >/dev/null 2>&1 || true
+exit 0
