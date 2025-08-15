@@ -35,3 +35,4 @@ $summary = $lines -join "`r`n"
 if($DryRun){ $summary | Write-Host; exit 0 }
 $summary | Out-File -Encoding utf8 -Force $report
 Write-Host "Report written: $report"
+
