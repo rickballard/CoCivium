@@ -149,3 +149,5 @@ Open Collective is coming soon for transparent, **no-strings-attached** CoCivium
 ## Quick links
 - Wiki: https://github.com/rickballard/CoCivium/wiki
 - Sources: docs/sources/annotated-bibliography.md, docs/sources/comparable-initiatives.md
+
+> **Core Principles — Short Read:** see [docs/principles/CORE_SHORT.md](docs/principles/CORE_SHORT.md)
