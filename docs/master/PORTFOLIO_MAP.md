@@ -10,3 +10,5 @@ Phases:
 Rules:
 - Keep this as the canonical cross-repo index.
 - Link out; do not duplicate.  Update as priorities shift.
+
+- Academy: [docs/academy/BP_OE_WF.md](../academy/BP_OE_WF.md)
