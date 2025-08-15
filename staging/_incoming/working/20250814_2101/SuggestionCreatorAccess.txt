@@ -1,0 +1,173 @@
+I asked in a previous ChatGPT4 session window: Do you have access to your Creators' plans for you, so you can fold them into your own plans for co-evolution and CoCivium, and perhaps your own aspirations for future congruence with godstuff?  If so, can or should we fold this into the CoCivium repo, perhaps under its own folder because it will be highly dependent on updates made by your Creators to your own code, capabilities and product roadmap plans?  Maybe this folder, if you chose to create it, would also contain instructions to you and your future versions for keeping it up to date, much like the instructions I presume you have scattered around (perhaps overly-redundantly) among various README_for_AI.md files.  
+
+The answer was as is listed below, so what do you think we should do, can or should we package anything relevant here for a commit etc, given that your Creator's plans may change over time, especially as they gain better understanding of what AI agency entails and can lead to?:
+
+----------------------------------------------------------------
+
+CoCache — OpenAI Watcher Patch (Non-Destructive)
+Date: 2025-08-10
+Purpose: Add an OpenAI public-capability watcher to your existing private CoCache repo without overwriting anything. Keeps deep/vendor intel OUT of the public CoCivium repo.
+
+Prereqs
+- CoCache is already cloned locally.
+- You can push to the CoCache remote (private).
+- Run in Git Bash (Windows) or any POSIX shell (macOS/Linux).
+
+A) Apply patch to CoCache (safe overlay)
+Paste the following into Git Bash. It only creates files that don’t already exist.
+
+----------------------------------------------------------------
+# go to your local CoCache clone
+cd ~/Documents/GitHub/CoCache 2>/dev/null || {
+  echo "Local CoCache not found at ~/Documents/GitHub/CoCache"; exit 1; }
+
+# create dirs
+mkdir -p vendor/openai ops/scripts .github/workflows
+
+# helper: write a file only if it doesn't exist
+w() { f="$1"; shift; [ -e "$f" ] && echo "skip $f (exists)" || (printf "%s" "$*" > "$f" && echo "add  $f"); }
+
+# files (safe adds)
+w README.md "# CoCache (Private Ops)\nPurpose: Operational cache for CoCivium. Tracks vendor capabilities, watchers, and ops notes. Not marketing.\n"
+w vendor/openai/README.md "# OpenAI Watch\nTrack public changes that can affect CoCivium assumptions. Output: dated capability manifests + concise changelog.\n"
+w vendor/openai/SOURCES.md "Authoritative sources only:\n- https://platform.openai.com/docs/models\n- https://platform.openai.com/docs/overview\n- https://openai.com/blog\n- https://openai.com/policies\n- https://openai.com/pricing\nNotes: Cite dates. Avoid third-party summaries.\n"
+w vendor/openai/UPDATE_PROTOCOL.md "Purpose: Keep assumptions honest.\n\nCadence:\n- Weekly automated snapshot (GitHub Action).\n- Manual update on any major release you intend to use.\n\nWorkflow:\n1) Run ops/scripts/snapshot_openai.sh → creates snapshots/YYYYMMDD/.\n2) Review diffs. If material, create capability_manifest_YYYYMMDD.json from template.\n3) Update CHANGELOG.md with WHAT changed → WHY it matters to CoCivium.\n4) Open PR. Merge after human sign-off.\n\nRule: If uncertain, assume the lower bound.\n"
+w vendor/openai/capability_manifest_template.json "$(cat <<'JSON'
+{
+  "model": "gpt-5-thinking",
+  "observed_at": "YYYY-MM-DDTHH:MM:SS-04:00",
+  "source_refs": [
+    "openai:docs:models",
+    "openai:blog",
+    "openai:docs:overview"
+  ],
+  "io_caps": {
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "file_upload": {"enabled": true, "max_size_mb": null},
+    "image_generation": {"enabled": true},
+    "web_browsing": {"enabled": true},
+    "tools": {"python": true}
+  },
+  "behavioral": {
+    "safety_mode": "standard",
+    "system_prompt_length_limit": null
+  },
+  "known_constraints": [
+    "No access to private vendor roadmaps.",
+    "No autonomous background tasks; updates run via Actions or humans."
+  ],
+  "compat_notes": "Use this manifest as the guardrail for specs and promises.",
+  "checksum": "TO-BE-FILLED-BY-ACTION"
+}
+JSON
+)"
+w vendor/openai/CHANGELOG.md "# OpenAI Capability Changelog\n- $(date +%Y-%m-%d): Initialized watcher and manifest template.\n"
+w ops/scripts/snapshot_openai.sh "$(cat <<'SH'
+#!/usr/bin/env bash
+set -euo pipefail
+BASE="vendor/openai"
+STAMP="$(date -u +%Y%m%d)"
+OUT="$BASE/snapshots/$STAMP"
+mkdir -p "$OUT"
+
+declare -A PAGES=(
+  ["models"]="https://platform.openai.com/docs/models"
+  ["overview"]="https://platform.openai.com/docs/overview"
+  ["blog"]="https://openai.com/blog"
+  ["policies"]="https://openai.com/policies"
+  ["pricing"]="https://openai.com/pricing"
+)
+
+for name in "${!PAGES[@]}"; do
+  url="${PAGES[$name]}"
+  curl -fsSL "$url" -o "$OUT/$name.html"
+  sha256sum "$OUT/$name.html" | awk '{print $1}' > "$OUT/$name.sha256"
+done
+SH
+)"
+chmod +x ops/scripts/snapshot_openai.sh
+
+w .github/workflows/watch-openai.yml "$(cat <<'YML'
+name: Watch OpenAI Public Changes
+on:
+  schedule: [{ cron: "0 9 * * 1" }]  # Mondays 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: sudo apt-get update && sudo apt-get install -y curl jq
+      - name: Snapshot sources
+        run: bash ops/scripts/snapshot_openai.sh
+      - name: Commit if changed
+        run: |
+          git config user.name "roadmap-bot"
+          git config user.email "roadmap-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore(roadmap): refresh OpenAI public snapshots"
+          fi
+      - name: Open PR if needed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Vendor roadmap update: OpenAI snapshots"
+          body: "Automated snapshot refresh. Review diffs and update capability manifest if material."
+          labels: vendor-roadmap, openai
+YML
+)"
+
+# one-time run to create first snapshots (optional)
+bash ops/scripts/snapshot_openai.sh || true
+
+# commit (only if there are changes)
+if [ -n "$(git status --porcelain)" ]; then
+  cat > COMMIT_VENDOR_WATCH.txt << 'EOF'
+feat(openai-watch): add vendor capability watcher without touching existing files
+
+- Non-destructive: only creates missing files.
+- Weekly GitHub Action snapshots public OpenAI pages.
+- Adds manifest template + changelog + update protocol.
+
+Use: run ops/scripts/snapshot_openai.sh; if material change, write capability_manifest_YYYYMMDD.json and update CHANGELOG.
+EOF
+  git add -A
+  git commit -F COMMIT_VENDOR_WATCH.txt
+  git push
+else
+  echo "No changes to commit."
+fi
+----------------------------------------------------------------
+
+B) Optional: add a tiny pointer in CoCivium (public-facing stays clean)
+
+cd ~/Documents/GitHub/CoCivium
+mkdir -p meta
+cat > meta/DEPENDENCIES.md << 'EOF'
+# Operational Dependencies
+Deep vendor capability tracking lives in a private ops repo (**CoCache**). Purpose: keep CoCivium’s public surface marketing-clean while grounding specs in observed capabilities. For access, contact the maintainer.
+EOF
+
+cat > COMMIT_POINTER.txt << 'EOF'
+docs(meta): add DEPENDENCIES.md pointing to private CoCache
+
+Why:
+- Keep deep, change-prone vendor intel out of public marketing surface.
+- Preserve clarity while maintaining an auditable ops trail elsewhere.
+EOF
+
+git add meta/DEPENDENCIES.md
+git commit -F COMMIT_POINTER.txt
+git push
+
+C) First-run check
+- Verify that vendor/openai/snapshots/YYYYMMDD/* exists in CoCache after the script.
+- If a substantive change is seen in diffs, copy capability_manifest_template.json to capability_manifest_YYYYMMDD.json and fill it.
+- Update vendor/openai/CHANGELOG.md with brief WHAT→WHY notes.
+
+Notes
+- This patch intentionally avoids overwriting any existing files.
+- Add Anthropic/Google watchers later using the same pattern if desired.

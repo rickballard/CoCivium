@@ -1,0 +1,8 @@
+{
+  "type": "cocivbus/beacon",
+  "version": "0.1",
+  "transport": "matrix",
+  "bus_url": "!UfdCLjpBmgsnKNqTnb:matrix.org",
+  "session": "Main",
+  "chat_shared_link": ""
+}

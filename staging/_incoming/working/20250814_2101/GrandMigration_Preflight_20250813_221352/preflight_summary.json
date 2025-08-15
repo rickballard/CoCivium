@@ -1,0 +1,38 @@
+[
+  {
+    "Repo": "Civium",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 0,
+    "SizeMB": 0,
+    "BackedUp": false,
+    "Notes": "ERROR: The variable '$sha?recursive' cannot be retrieved because it has not been set."
+  },
+  {
+    "Repo": "CoCache",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 0,
+    "SizeMB": 0,
+    "BackedUp": false,
+    "Notes": "ERROR: The variable '$sha?recursive' cannot be retrieved because it has not been set."
+  },
+  {
+    "Repo": "CoCivium",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 0,
+    "SizeMB": 0,
+    "BackedUp": false,
+    "Notes": "ERROR: The variable '$sha?recursive' cannot be retrieved because it has not been set."
+  },
+  {
+    "Repo": "GIBindex",
+    "Visible": true,
+    "DefaultBranch": "main",
+    "Files": 0,
+    "SizeMB": 0,
+    "BackedUp": false,
+    "Notes": "ERROR: The variable '$sha?recursive' cannot be retrieved because it has not been set."
+  }
+]
