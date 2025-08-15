@@ -14,3 +14,5 @@
 *.yaml text eol=lf
 *.json text eol=lf
 *.editorconfig text eol=lf
+*.cmd   text eol=crlf
+*.reg   text eol=crlf
