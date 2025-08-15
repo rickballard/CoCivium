@@ -6,3 +6,4 @@
 - [ ] Monitor metrics (CI/Coverage/OFS/LSH/DTI).
 
 # ci: register on main 20250810T191652Z
+* [todo][automation] Weekly BackChats Sweep reminder — add once task limit cleared.  (Queued: 2025-08-15)
