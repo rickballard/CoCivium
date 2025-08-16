@@ -1,3 +1,4 @@
+---
 name: Render Eyes
 on:
   pull_request:
@@ -25,3 +26,4 @@ jobs:
           git add docs/img/mission_eye.svg docs/img/credibility_eye.svg
           git diff --cached --quiet || git commit -m "chore(eyes): refresh mission/credibility eyes [skip ci]"
           git push
+

@@ -158,7 +158,7 @@ Place **ring labels** subtly on the north arc.  Show the **current stage** as a 
 
 - **Above the fold:** the canvas/SVG with a short caption:
   
-  *“This living map shows CoCivium’s real progress across coherence, coverage, onboarding, hygiene, decision integrity, cadence, responsiveness, and community signal.  The brighter the weave, the healthier the organism.”*  
+  *“This living map shows CoCoCivium’s real progress across coherence, coverage, onboarding, hygiene, decision integrity, cadence, responsiveness, and community signal.  The brighter the weave, the healthier the organism.”*  
 
 - **Legend:** compact compass legend at bottom-right.  
 
@@ -217,4 +217,5 @@ site/
 - **Why CI ≈ “Godstuff congruence.”** Until we formalize an Ethical Alignment Score, CI (coherence/resonance to the stated vision and recursive ethics) is the least-bad proxy.  The east radial will later multiply CI × EAS.  
 
 - **Why 8 axes.** Human legibility and compass mapping beat maximal completeness.  RD as dents keeps duplication painful without breaking symmetry.
+
 

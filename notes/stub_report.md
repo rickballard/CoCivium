@@ -14,8 +14,9 @@
 | 373 | projects\CoCivGibber-Core\README.md |
 | 441 | projects\CoCivGibber-Core\clients\python\README.md |
 | 3695 | insights\epistemology.md |
-| 3756 | insights\scaling-civium-coherence.md |
+| 3756 | insights\scaling-CoCivium-coherence.md |
 | 4129 | insights\rights-alignment.md |
 | 5978 | insights\forking-as-epistemic-containment.md |
 | 7813 | insights\Insight_Substrate_Assumptions_c2_20250809.md |
 | 11592 | insights\unequal-equity-v5a.md |
+

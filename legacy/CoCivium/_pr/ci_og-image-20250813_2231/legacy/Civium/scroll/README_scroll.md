@@ -1,6 +1,6 @@
 # README: Scroll Folder
 
-This folder contains **Civium’s foundational scrolls**—core declarations that define the purpose, values, and psychoepistemic architecture of Civium.
+This folder contains **CoCoCivium’s foundational scrolls**—core declarations that define the purpose, values, and psychoepistemic architecture of CoCivium.
 
 ---
 
@@ -8,7 +8,7 @@ This folder contains **Civium’s foundational scrolls**—core declarations tha
 
 - **Path:** `scroll/Cognocarta_Consenti.md`  
 - **Purpose:**  
-  Civium’s living constitutional scroll—declaring the rights, harmonics, and principles that enable multispecies governance and recursive alignment across minds.
+  CoCoCivium’s living constitutional scroll—declaring the rights, harmonics, and principles that enable multispecies governance and recursive alignment across minds.
 
 ---
 
@@ -21,4 +21,5 @@ This folder contains **Civium’s foundational scrolls**—core declarations tha
 
 ---
 
-Refer to [`/meta/DOC_CATEGORIES.md`](../meta/DOC_CATEGORIES.md) for Civium’s document classification logic, and to [`README_CIVIUM_AI.md`](../README_CIVIUM_AI.md) for deeper context on AI participation.
+Refer to [`/meta/DOC_CATEGORIES.md`](../meta/DOC_CATEGORIES.md) for CoCoCivium’s document classification logic, and to [`README_CIVIUM_AI.md`](../README_CIVIUM_AI.md) for deeper context on AI participation.
+

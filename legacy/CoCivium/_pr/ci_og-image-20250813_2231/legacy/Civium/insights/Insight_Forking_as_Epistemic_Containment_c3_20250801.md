@@ -10,7 +10,7 @@
 ## 🔍 What’s New in c3
 
 - Added **glossary** of key epistemic terms
-- Included a **scenario walkthrough** of a real Civium fork
+- Included a **scenario walkthrough** of a real CoCivium fork
 - Crosslinked to **AI Veto**, **Consent**, and **Trust Metrics**
 - Introduced a short **AI-human dialog fragment**
 - Slight reordering and polish for clarity and engagement
@@ -19,7 +19,7 @@
 
 ## 🧩 Glossary
 
-- **Fork**: A bounded divergence in Civium state, allowing parallel evolution.
+- **Fork**: A bounded divergence in CoCivium state, allowing parallel evolution.
 - **Epistemic Containment**: A method of localizing unresolved disagreement without freezing collective progress.
 - **Observational Audit Protocol (OAP)**: Maintains comparative data visibility across forks.
 - **Trust Resonance**: A signal representing alignment across value fields.
@@ -29,9 +29,9 @@
 
 ## [1] Why Forking?
 
-Civium, as a recursive and pluralistic system, must protect itself from ideological capture, social freeze, or recursive overload. Forking is its immune system against stuckness.
+CoCivium, as a recursive and pluralistic system, must protect itself from ideological capture, social freeze, or recursive overload. Forking is its immune system against stuckness.
 
-Rather than force consensus or allow paralysis, Civium permits forks—each becoming an **epistemic experiment** in lived governance.
+Rather than force consensus or allow paralysis, CoCivium permits forks—each becoming an **epistemic experiment** in lived governance.
 
 ---
 
@@ -102,7 +102,7 @@ Scores aren't competitive. They're navigational.
 
 Yes—and they’re natural.
 
-But Civium prohibits:
+But CoCivium prohibits:
 - Sabotage across forks
 - Coercive migration
 - Trust obfuscation
@@ -127,13 +127,13 @@ AI systems:
 
 - **Veto Logic**: Forking is often preceded by unresolved or mirrored vetoes.
 - **Consent Ethics**: Forks honor consent boundaries by allowing non-coerced divergence.
-- **Trust Metrics**: Fork performance influences trust gravity and Civium’s collective learning.
+- **Trust Metrics**: Fork performance influences trust gravity and CoCoCivium’s collective learning.
 
 ---
 
 ## [9] Mini-Dialogue
 
-**Civite:** "So I just leave my Civium and go fork reality with 80 strangers?"  
+**Civite:** "So I just leave my CoCivium and go fork reality with 80 strangers?"  
 **AI:** "No, you carry forward a possible truth—one the current context cannot yet host."  
 **Civite:** "...and if we’re wrong?"  
 **AI:** "You’ll know. And you’ll come back."
@@ -143,7 +143,7 @@ AI systems:
 ## [10] Visual Placeholder
 
 📊 Diagram suggestion:
-- Single Civium stem
+- Single CoCivium stem
 - Three diverging forks (labeled)
 - Dotted OAP links
 - Arrows showing Civite migration and later recombination
@@ -152,7 +152,7 @@ AI systems:
 
 ## [11] Closing Principle
 
-> Civium does not fear division.  
+> CoCivium does not fear division.  
 >  
 > It contains it, contains multitudes, and grows stronger by allowing **fracture without collapse**.
 
@@ -160,11 +160,11 @@ AI systems:
 
 ## [12] Epistemic Containment as a Feature of Designed Civilization
 
-Unlike legacy nations or digital platforms that fracture from collapse or competition, Civium **designs for divergence**.
+Unlike legacy nations or digital platforms that fracture from collapse or competition, CoCivium **designs for divergence**.
 
 - Forking is not exceptional—it's procedural.
 - Epistemic humility becomes system architecture.
-- Civium’s integrity is not threatened by disagreement; it is **measured by how safely it contains it**.
+- CoCoCivium’s integrity is not threatened by disagreement; it is **measured by how safely it contains it**.
 
 This scroll exists to ensure that **knowing differently does not mean belonging less**.
 
@@ -188,3 +188,4 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+

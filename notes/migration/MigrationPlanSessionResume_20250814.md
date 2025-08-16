@@ -15,7 +15,7 @@
   - `codespell` — advisory + dispatchable. Uses `docs/lexicon/codespell-ignore.txt` and skips legacy/noisy paths.
   - `linkcheck` (Lychee) — advisory + dispatchable. Repo `.lychee.toml` with excludes and tolerant status codes (`200, 204, 301, 302, 403, 429`).
   - `yamllint` — **added** with repo `.yamllint.yaml`, advisory + dispatchable.
-- **Domain lexicon** — `docs/lexicon/codespell-ignore.txt` seeded with: `CoCivium, Civium, Noname, Cognocarta, Consenti, CoCivSecOps, ODT, OG`.
+- **Domain lexicon** — `docs/lexicon/codespell-ignore.txt` seeded with: `CoCivium, CoCivium, Noname, Cognocarta, Consenti, CoCivSecOps, ODT, OG`.
 - **Line endings normalized** — `.gitattributes` committed:
   ```gitattributes
   *       text=auto

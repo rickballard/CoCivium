@@ -1,11 +1,11 @@
-# TODO: Spider Radial Diagram – Civium Dev Snapshot View
+# TODO: Spider Radial Diagram – CoCivium Dev Snapshot View
 
 ## Purpose:
-Create and maintain a dynamic spider radial chart to visually represent developmental progress across Civium's core philosophical domains.
+Create and maintain a dynamic spider radial chart to visually represent developmental progress across CoCoCivium's core philosophical domains.
 
 ## Implementation Plan:
 - Define radial arms as top-level philosophy domains (e.g. Ontology, Ethics, Consent, etc.)
-- Each radius extends from Civium's c0 origin (center) outward toward theoretical domain-congruence (infinite)
+- Each radius extends from CoCoCivium's c0 origin (center) outward toward theoretical domain-congruence (infinite)
 - Plot current progress as subjective approximations of maturity for each domain (0–1.0 float)
 - Allow manual adjustments by lead editors/developers to nudge focus areas
 - Use as both a *logo variant* and *live dev status tracker*
@@ -17,16 +17,16 @@ Create and maintain a dynamic spider radial chart to visually represent developm
 - Snapshot is interpretive; used to shape focus, not rank value
 - Radials = Top-level philosophy domains (e.g. Ontology, Consent, Ethics, Time, etc.)
 - Radii extent = Relative developmental maturity / coherence achieved in each domain, within the repo
-- Center point = Conceptual seed (e.g. Civium inception, c0 state)
+- Center point = Conceptual seed (e.g. CoCivium inception, c0 state)
 - Outer bounds = Theoretical maximum congruence (unreachable but directionally real)
 
 ## Function of the Diagram
 - Snapshot for collaborators to see where work is focused vs where gaps remain
 - Dynamic tool for prioritization and narrative framing
-- Embedded semiotic signature (logo-style use) for visualizing Civium’s evolving soulprint
+- Embedded semiotic signature (logo-style use) for visualizing CoCoCivium’s evolving soulprint
 
 ## Zones vs Radials (Design Clarification)
-Radials represent the top-level philosophical domains of Civium (e.g., Ontology, Ethics, Consent, etc.). These are fixed axes used to track developmental congruence over time.
+Radials represent the top-level philosophical domains of CoCivium (e.g., Ontology, Ethics, Consent, etc.). These are fixed axes used to track developmental congruence over time.
 
 Zones are cross-domain tension overlays, rendered as stars, clusters, or clouds depending on scope and clarity:
 Stars = isolated contention points
@@ -44,7 +44,7 @@ This structure allows the diagram to serve as both a progress map and a contenti
 ## Status:
 [ ] Draft radial arm definitions
 [ ] Agree on update cadence and source authority
-[ ] Generate SVG or JSON-based visual for Civium.cc
+[ ] Generate SVG or JSON-based visual for CoCivium.cc
 [ ] Consider API endpoint for public snapshot pull
 
 ## Sample JSON:
@@ -61,3 +61,4 @@ This structure allows the diagram to serve as both a progress map and a contenti
   "Mortality": 0.31,
   "Communion": 0.53
 }
+

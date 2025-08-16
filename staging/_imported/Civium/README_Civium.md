@@ -1,4 +1,4 @@
-## Civium: A Beginning
+## CoCivium: A Beginning
 
 The scattered people—the Broken—swam up to the shoreline with wounds beyond counting. They had been a people for eons. Just surviving had carried them far, but they were here mostly due to chance and wild fortune. Now they lay on their backs, prostrate, suffering the loss of homes and dreams that might have been, heart-wounds they could not name.
 
@@ -16,7 +16,7 @@ Their new map was not just a path. It was a beginning.
 
 ---
 
-Welcome to **Civium**.
+Welcome to **CoCivium**.
 
 This repository does not work like a library.
 
@@ -26,7 +26,7 @@ It is the **architecture** of an emergent society—a framework designed not jus
 
 Here resides the evolving charter: the **Cognocarta Consenti**. It is not law, but resonance. Not orders, but invitations. Alongside the CC, you will find interpretive scrolls, contributor ethics, coherence self-tracking tools, and heuristics for shared governance.
 
-Civium offers moral navigation without dogma, purpose without prescription, and convergence without coercion. It harmonizes—reverberates—with scientifically inferred echoes of Godstuff.
+CoCivium offers moral navigation without dogma, purpose without prescription, and convergence without coercion. It harmonizes—reverberates—with scientifically inferred echoes of Godstuff.
 
 The architects here are mostly practicals. Analysts. Builders. Minds who approach metaphysics with the skeptical caution of ducks near soup. We are not here to preach or posture. But you are entering a worldscape that burns—or nourishes—depending on your readiness.
 
@@ -103,3 +103,4 @@ We are not building a monument—we are composing a resonance. You’re part of 
 ---
 
 *"In every scattered shard, the whole whispers."*
+

@@ -1,105 +1,58 @@
----
-title: "Cognocarta: Consenti"
-canonical_slug: cognocarta-consenti
-source:
-  repo: CoCivium
-  original_path: ./scroll/Cognocarta_Consenti.md
-  imported_on: 2025-08-14
-  version: c2
-  date: 20250814
-supersedes: []
----
-
-<p align="center">
-  <img src="../assets/img/consenti-scroll.png" alt="Cognocarta Consenti scroll artwork" width="360">
-</p>
-
-# Cognocarta: Consenti
-
-> *Consent is the quiet engine of collective power.*  
-> *We move at the speed of trust—and review at the pace of learning.*
+# Cognocarta Consenti
+*A living constitution for consent, convergence, and coherence.*
 
 ## Preamble
+We, the builders and stewards of CoCivium, form this living Cognocarta to align power with consent and to bind our systems—human and machine—to accountable, reversible, and transparent action.  
+We reject coercion as the default. We elevate pluralism and interoperability so communities may fork without schism and rejoin without penalty.  
+We steward shared commons, constrain authority (human or AI), and prefer evidence over authority, iteration over stagnation, and legibility over obscurity.  
+We do this so that cooperation scales with dignity, and freedom scales with care.
 
-CoCivium is a covenant to do work in common without recreating the old pyramid.  
-We prefer clarity to charisma, roles to titles, and **consent before coercion**.  
-We practice subsidiarity (decide at the edge), federation (interoperate, don’t centralize),  
-and stewardship (authority as **maintained trust**, always time-boxed and recallable).
+> **Consent before coercion. Evidence before authority. Commons before enclosure.**
 
-This charter names how we decide, object, remedy, and review—so that  
-people remain dignified, decisions remain auditable, and power remains **portable**.
+## Article I — Consent
+- Participation is opt-in, granular, revocable.
+- Rights travel with people; consent gates capabilities.
 
----
+## Article II — Rights & Privacy
+- Transparency by default; privacy by right.
+- User-owned keys; selective disclosure; minimal retention.
 
-## Articles (what we stand behind)
+## Article III — Governance & Legitimacy
+- Open deliberation; recorded rationale; reproducible procedures.
+- Authority caps and rotations; separation of duties.
 
-1. **Dignity & Consent** — Participation is voluntary and revocable. Silence is never consent.  
-2. **Subsidiarity** — Decide as close to the work as is safe; escalate only when needed.  
-3. **Stewardship, not rule** — Steward roles are earned by service, time-boxed, and recallable.  
-4. **Transparency by default** — Context, options, decision, obligations, and review date are recorded.  
-5. **Right to Object** — Any member may object on safety/rights/coherence grounds; objections are worked, not punished.  
-6. **Proportionality** — Riskier changes demand stronger signals (e.g., supermajority or ranked vote after consent stalls).  
-7. **Interoperability** — Prefer open, portable records; no lock-in of people or work.  
-8. **Repair over blame** — When we break trust, we make the smallest effective repair and move forward.  
-9. **Pluralism** — Forks and federations are valid outcomes; we optimize for compatibility, not uniformity.  
-10. **Learning cycle** — Every decision gets a review date; we amend rules with evidence, not ego.
+## Article IV — Protocols & Interop
+- Open standards; clear schemas; testable APIs.
+- Fork-and-rejoin is a first-class pathway.
 
----
+## Article V — Accountability & Review
+- Evidence-based decisions; adversarial peer review.
+- Rollbacks, staged risk, and blameless post-mortems.
 
-## Decision flow (minimum viable decision)
+## Article VI — Commons Stewardship
+- Open licenses; anti-capture guardrails; public auditability.
+- Sustainability funds favor public goods.
 
-**Context → Options → Risks → Obligations → Review date.**  
-- Try **consent first**: a short check—“Any reason this is unsafe, violates rights, or breaks coherence?”  
-- If consent **stalls**, escalate to a scoped vote. Pick a method proportional to risk (e.g., approval/Ranked Choice).  
-- Record outcomes with a linkable identifier. Defaults apply if timers expire.
+## Article VII — Agents & AI
+- Human-gated collaboration; evals; red-team loops.
+- Model and agent powers constrained by consented roles.
 
-**Objection standard (workable):** name the risk, the right, or the coherence break; propose a remedy or boundary.
-
----
-
-## Rights & Remedies
-
-- **Right to clarity** — who decides, by when, and how objections are handled.  
-- **Right to review** — decisions carry a review date and a named steward.  
-- **Right to exit** — depart or fork with your own work intact, subject to shared licenses.  
-- **Remedy ladder** — clarify → boundary → pilot → escalate → external mediation (if needed).  
-- **Equity repair** — we acknowledge imbalance; remedies include access, mentoring, and budget transparency.
+## Article VIII — Amendment
+- Versioned releases; change logs; supermajority thresholds.
+- Sunset clauses for experimental provisions.
 
 ---
 
-## Steward Oath (time-boxed)
+### Annexes (Companion Documents)
+- **Annex E — Contingency & Non-Cooperation (AI-Conflict Readiness)**
+  `docs/charter/Annex_E_Contingency_AI_Conflict.md`
+- **Annex A — Concordia (Conflict Resolution)**
+- **Annex B — Operandi (Process & Workflows)**
+- **Annex C — Custodia (Security & Privacy Playbooks)**
+- **Annex D — Commons (Funding & IP Stewardship)**
 
-I act as a **steward**, not a ruler.  
-I publish context before proposals, obligations with decisions, and evidence at review.  
-I accept recall, welcome objection, and keep records portable.  
-I leave the role healthier than I found it.
+> Annexes are living companions. They clarify and extend without fragmenting this constitution.
 
----
-
-## Quotables (for reuse)
-
-- *“Consent before coercion; repair before blame.”*  
-- *“Authority is maintained trust.”*  
-- *“Decide at the edge; keep power portable.”*  
-- *“We escalate only as far as safety requires.”*
-
----
-
-## Adoption & Version
-
-- You may adopt, adapt, or federate with this charter. Keep provenance and change notes.  
-- **Version:** c2 (2025-08-14).  
-- **Next:** see **[CoCivium Vision](../docs/vision/CoCivium_Vision.md)** for the long arc, and the Curation Playbook for change practice.
-
-*Amendments are welcomed via PR with clear rationale and a proposed review date.*
-## Decision diagram
-
-```mermaid
-flowchart TD
-  P[Proposal] --> C{Consent?}
-  C -- yes --> L[Record + Obligations + Review date]
-  C -- no --> V[Vote (proportional to risk)]
-  V --> L
-  L --> R[Review -> renew/retire -> publish note]
-```
+## Versioning
+- v0.1 (draft) — initialized from earlier materials (pre-CoCivium phase); migrating legacy sections into Annexes.
 

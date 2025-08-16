@@ -1,4 +1,5 @@
 ---
+---
 name: Link Check
 on:
   push:
@@ -24,6 +25,7 @@ jobs:
           args: --verbose --no-progress --accept 200,429 --exclude-mail --timeout 20s --retry-wait-time 2s --max-retries 2 .
         env:
           GITHUB_TOKEN: ${secrets.GITHUB_TOKEN}
+
 
 
 

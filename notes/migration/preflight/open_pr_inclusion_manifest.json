@@ -77,56 +77,56 @@
     "note": ""
   },
   {
-    "repo": "Civium",
+    "repo": "CoCivium",
     "pr": 5,
     "title": "ci: add OG image renderer",
     "headRef": "ci/og-image-20250813_2231",
     "baseRef": "main",
-    "url": "https://github.com/rickballard/Civium/pull/5",
+    "url": "https://github.com/rickballard/CoCivium/pull/5",
     "mode": "vendor-subtree",
     "status": "included",
     "note": ""
   },
   {
-    "repo": "Civium",
+    "repo": "CoCivium",
     "pr": 4,
     "title": "Branding: add OG banner (SVG placeholder)",
     "headRef": "branding/og-20250813_2221",
     "baseRef": "main",
-    "url": "https://github.com/rickballard/Civium/pull/4",
+    "url": "https://github.com/rickballard/CoCivium/pull/4",
     "mode": "vendor-subtree",
     "status": "included",
     "note": ""
   },
   {
-    "repo": "Civium",
+    "repo": "CoCivium",
     "pr": 3,
     "title": "GM Preflight: checkpoint (20250813_2042)",
     "headRef": "gm/preflight-20250813_2042",
     "baseRef": "main",
-    "url": "https://github.com/rickballard/Civium/pull/3",
+    "url": "https://github.com/rickballard/CoCivium/pull/3",
     "mode": "vendor-subtree",
     "status": "included",
     "note": ""
   },
   {
-    "repo": "Civium",
+    "repo": "CoCivium",
     "pr": 2,
     "title": "inbox/gmaildrafts 20250811",
     "headRef": "inbox/gmaildrafts-20250811",
     "baseRef": "main",
-    "url": "https://github.com/rickballard/Civium/pull/2",
+    "url": "https://github.com/rickballard/CoCivium/pull/2",
     "mode": "vendor-subtree",
     "status": "included",
     "note": ""
   },
   {
-    "repo": "Civium",
+    "repo": "CoCivium",
     "pr": 1,
     "title": "review: evaluate deletion of two Insights (from stash)",
     "headRef": "review/stash-20250811",
     "baseRef": "main",
-    "url": "https://github.com/rickballard/Civium/pull/1",
+    "url": "https://github.com/rickballard/CoCivium/pull/1",
     "mode": "vendor-subtree",
     "status": "included",
     "note": ""
@@ -220,3 +220,4 @@
     "note": ""
   }
 ]
+

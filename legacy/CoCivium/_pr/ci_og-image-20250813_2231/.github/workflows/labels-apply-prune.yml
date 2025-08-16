@@ -1,3 +1,4 @@
+---
 name: Apply & Prune Labels (direct)
 on:
   workflow_dispatch:
@@ -68,3 +69,4 @@ jobs:
                 core.info(`Deleted: ${lab.name}`);
               }
             }
+

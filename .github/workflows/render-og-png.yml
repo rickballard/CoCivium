@@ -1,0 +1,47 @@
+---
+name: Render OG PNG sidecars
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "site/assets/*_og.svg"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+
+      - name: Render all *_og.svg → *_og.png
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for f in site/assets/*_og.svg; do
+            out="${f%.svg}.png"
+            inkscape --export-type=png --export-filename="$out" "$f"
+          done
+
+      - name: Commit PNGs (if changed)
+        run: |
+          git config user.name  "CoCivium-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/assets/*_og.png || true
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: render OG PNG sidecars"
+            git push
+          else
+            echo "No PNG changes to commit."
+          fi
+

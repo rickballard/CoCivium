@@ -1,3 +1,4 @@
+---
 name: Emergency Merge (manual)
 on:
   push:
@@ -28,4 +29,5 @@ jobs:
         run: |
           $prs = "${{ inputs.pr_numbers }}".Split(',') | ForEach-Object { $_.Trim() } | Where-Object { $_ }
           ./scripts/emergency-merge.ps1 -Owner "rickballard" -Repo "CoCivium" -Branch "${{ inputs.branch }}" -PRs $prs -Strategy "${{ inputs.strategy }}"
+
 

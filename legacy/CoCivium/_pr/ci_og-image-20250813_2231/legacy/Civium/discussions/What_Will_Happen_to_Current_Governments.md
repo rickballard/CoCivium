@@ -4,7 +4,7 @@
 
 ---
 
-**Opening Prompt:** Are existing governments supposed to just let Civium grow unchallenged?
+**Opening Prompt:** Are existing governments supposed to just let CoCivium grow unchallenged?
 
 ---
 
@@ -17,3 +17,4 @@ They argue over state friction vs. evolutionary governance. One fears suppressio
 **Tentative Resolution:**
 
 Governments may resist at first, but coexistence and hybrid legitimacy pathways are possible—and already emerging.
+

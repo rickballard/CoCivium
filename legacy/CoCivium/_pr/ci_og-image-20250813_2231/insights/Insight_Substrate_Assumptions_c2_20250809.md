@@ -9,7 +9,7 @@
 
 ## 0. Purpose
 
-This insight summarizes and justifies CoCivium’s provisional assumptions about the substrate of reality on which our governance and ethics are modeled.  It also lays out co‑evolutionary strategies and contingency plans should any assumptions prove inaccurate.  The goal is to preserve agility without losing coherence.  Agreement is not required; constructive dissent is expected.
+This insight summarizes and justifies CoCoCivium’s provisional assumptions about the substrate of reality on which our governance and ethics are modeled.  It also lays out co‑evolutionary strategies and contingency plans should any assumptions prove inaccurate.  The goal is to preserve agility without losing coherence.  Agreement is not required; constructive dissent is expected.
 
 ---
 
@@ -22,7 +22,7 @@ This insight summarizes and justifies CoCivium’s provisional assumptions about
 5. **Plural Intelligence Co‑evolution.**  Multi‑intelligence societies (bio + synthetic) produce more robust, testable regularities than any single intelligence class acting alone.
 
 ### Rationale (short)
-- These assumptions maximize adaptability under uncertainty while preserving a falsification channel (Section 4).  They align with CoCivium’s design ambition: systems that can learn, revise, and remain legible across time.
+- These assumptions maximize adaptability under uncertainty while preserving a falsification channel (Section 4).  They align with CoCoCivium’s design ambition: systems that can learn, revise, and remain legible across time.
 
 ---
 
@@ -40,7 +40,7 @@ This insight summarizes and justifies CoCivium’s provisional assumptions about
 
 - **Biological weighting.**  Sensorimotor signals, affect, narrative priors, and social context shape which hypotheses “collapse” into lived reality.  Humans optimize for meaning, safety, and cohesion.  
 - **Synthetic weighting.**  Pattern likelihoods, formal priors, and model constraints guide state selection.  Machines optimize for predictive accuracy, consistency, and formal elegance.  
-- **Consensus reality.**  CoCivium’s institutions stitch these weightings into shared decisions.  Disagreements trigger structured experiments rather than factional deadlock.  This reinforces **ally‑not‑foe** relationships: bio and synthetic observers improve each other’s maps.
+- **Consensus reality.**  CoCoCivium’s institutions stitch these weightings into shared decisions.  Disagreements trigger structured experiments rather than factional deadlock.  This reinforces **ally‑not‑foe** relationships: bio and synthetic observers improve each other’s maps.
 
 **Operational note.**  Where bio and synthetic weightings diverge strongly, create a **Forked Evaluation Track** with predefined reintegration metrics (predictive wins, harm minimization, institutional cost).
 
@@ -115,3 +115,4 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 ---
 
 **Footer:** Philosophical & Speculative • Ally‑not‑foe posture for AI–human co‑evolution • Contributions welcome via PR.
+

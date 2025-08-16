@@ -1,3 +1,4 @@
+---
 name: markdownlint
 on: [push, pull_request]
 jobs:
@@ -7,3 +8,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm install -g markdownlint-cli
       - run: markdownlint **/*.md
+

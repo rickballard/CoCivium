@@ -1,4 +1,5 @@
 ---
+---
 name: Apply & Prune Labels (direct)
 on:
   push:
@@ -59,6 +60,7 @@ jobs:
             const existing = await github.paginate(github.rest.issues.listLabelsForRepo, {owner, repo, per_page: 100});
             for (const lab of existing) {if (!allow.has(lab.name)) {await github.rest.issues.deleteLabel({owner, repo, name: lab.name});
                 core.info(`Deleted: ${lab.name}`);}}
+
 
 
 

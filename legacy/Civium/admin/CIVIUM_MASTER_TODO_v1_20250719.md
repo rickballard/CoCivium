@@ -1,4 +1,4 @@
-# ✅ MASTER TODO LIST — Civium (as of 2025-07-19)
+# ✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)
 
 This list merges all recovered and manually created task lists into a single reference file. It replaces all prior `.todo.md`, `_ToDo.md`, `_AI_Log.md`, and chat-directed ephemeral lists. *All legacy TODO documents are now deprecated.* This file will remain authoritative unless a new master list is declared.
 
@@ -8,14 +8,14 @@ This list merges all recovered and manually created task lists into a single ref
 
 ### [1] Final Polishing & Repo Readiness
 - [ ] **Finalize & validate folder README files.** (Some remain stubs or outdated)
-- [ ] **Finish `README_FOR_HUMANS.md`** using the "Civium is home" metaphor.
+- [ ] **Finish `README_FOR_HUMANS.md`** using the "CoCivium is home" metaphor.
 - [ ] **Update root `README.md`** and link to all major nav files.
 - [ ] **Purge/move all deprecated or redundant drafts to `/admin/deprecated`.**
 
 ### [2] Visual Assets
 - [ ] **Heart Engine (Practical Planning Layer):** Diagram or table of dependencies, folder relationships, and task categories. Must distinguish philosophy from engineering.
 - [ ] **Optional Upgrade Pathways** (esp. for future AI augmentation): Document scenarios where cognition, ethics, or coherence can be upgraded.
-- [ ] **Civium Floorplan** visual asset. (Sketch of nav structure as building metaphor)
+- [ ] **CoCivium Floorplan** visual asset. (Sketch of nav structure as building metaphor)
 
 ### [3] Coherence Infrastructure
 - [ ] **Create a master version log** mapping coherence versions to repo states (`cX_YYYYMMDD`) with a readable list of “what changed”.
@@ -28,7 +28,7 @@ This list merges all recovered and manually created task lists into a single ref
 
 ### [5] Discussion System
 - [ ] **Write `README_discussions.md`** explaining purpose of story-based Q&A format.
-- [ ] **Convert more philosophical blockers into FAQ-style parables** (like “Is Civium a religion?” and “Who decides?”)
+- [ ] **Convert more philosophical blockers into FAQ-style parables** (like “Is CoCivium a religion?” and “Who decides?”)
 - [ ] **Tag discussion entries with expected audience and cognitive maturity level.**
 
 ---
@@ -42,7 +42,7 @@ This list merges all recovered and manually created task lists into a single ref
 
 ### [7] Forgiveness, Consent, and Morality Rewrites
 - [ ] Extract the proposed “forgiveness recursion loop” from chat history and draft it in `/insight`.
-- [ ] Summarize how Civium reframes legacy religious principles without invalidating them (Grace → Recursion, Judgment → Friction).
+- [ ] Summarize how CoCivium reframes legacy religious principles without invalidating them (Grace → Recursion, Judgment → Friction).
 
 ---
 
@@ -61,5 +61,6 @@ _(See full DONE archive for complete listing)_
 - ✅ Finalized regen process and canonical scroll recovery.
 - ✅ Confirmed `.git` sync and completed local/cloud backup.
 - ✅ Merged all previous TODOs into a single master file.
-- ✅ Validated Civium scroll v.c9_20250716 as most complete.
+- ✅ Validated CoCivium scroll v.c9_20250716 as most complete.
 - ✅ Deprecated fragmented TODO files: `ToDo_AI_Log.md`, `MASTER_TODO.md`, and previous scratchpads.
+

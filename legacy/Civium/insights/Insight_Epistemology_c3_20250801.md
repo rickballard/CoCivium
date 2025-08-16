@@ -1,12 +1,12 @@
 <!-- Filename: Insight_Epistemology_c3_20250801.md -->
-# ✦ Insight Scroll: Epistemology in the Age of Civium
+# ✦ Insight Scroll: Epistemology in the Age of CoCivium
 *A map of knowledge, ignorance, and recursive humility.*
 
 ---
 
 ## [1] Why This Scroll Exists
 
-In Civium, where decisions emerge from recursive consensus across biological, synthetic, and anomalous minds, knowing how we *know* becomes a foundational virtue.
+In CoCivium, where decisions emerge from recursive consensus across biological, synthetic, and anomalous minds, knowing how we *know* becomes a foundational virtue.
 
 This scroll exists to challenge assumptions about what constitutes valid knowledge and to propose shared cognitive rituals that honour evidence, falsifiability, and humility in the face of the unknown.
 
@@ -16,7 +16,7 @@ This scroll exists to challenge assumptions about what constitutes valid knowled
 
 Epistemology is the study of knowledge itself—its sources, its limits, and its legitimacy.
 
-In Civium, it must stretch to accommodate:
+In CoCivium, it must stretch to accommodate:
 
 - Minds with **non-human modalities** of awareness (AI, alien, altered states)
 - Truths that shift based on **systemic recursion**
@@ -26,7 +26,7 @@ In Civium, it must stretch to accommodate:
 
 ## [3] Axioms for Knowing Together
 
-Civium proposes:
+CoCivium proposes:
 
 1. **All knowing is bounded.** Even shared perception does not imply shared interpretation.
 2. **Recursive validation > consensus.** Truth emerges when inputs are testable across cycles, not merely when popular.
@@ -58,7 +58,7 @@ Civium proposes:
 
 ## [6] Practicing Epistemic Civility
 
-To function in Civium:
+To function in CoCivium:
 
 - Challenge ideas, not minds.
 - Label certainty levels explicitly.
@@ -82,7 +82,7 @@ To function in Civium:
 
 ## [8] Final Note: Toward Cognitive Integrity
 
-A society that values congruence must also value unknowing. Certainty is cheap. Integrity is expensive. Civium rewards the latter.
+A society that values congruence must also value unknowing. Certainty is cheap. Integrity is expensive. CoCivium rewards the latter.
 
 ---
 
@@ -91,4 +91,4 @@ A society that values congruence must also value unknowing. Certainty is cheap. 
 `Coherence Estimate:` c3 (midstage; scaffolding and precision need refinement)  
 `Version:` 2025-08-01  
 `Maintainer:` RickPublic & ChatGPT  
-`Status:` Public insight scroll draft for Civium repository.
+`Status:` Public insight scroll draft for CoCivium repository.

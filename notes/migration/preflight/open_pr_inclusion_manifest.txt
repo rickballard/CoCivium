@@ -8,11 +8,11 @@ CoCivium 50 GM Preflight: checkpoint (20250813_2024)                       gm/pr
 CoCivium 49 Grand Migration: bootstrap                                     gm/bpoe-migration-20250813_2007 main    https://github.com/rickballard/CoCivium/pull/49 merge-into-migration included 
 CoCivium 33 ci: add filename-sanity workflow                               ci/filename-sanity-fix          main    https://github.com/rickballard/CoCivium/pull/33 merge-into-migration included 
 CoCivium 31 ci: normalize workflows; remove stray CPUA path                fix/normalize-actions-path      main    https://github.com/rickballard/CoCivium/pull/31 merge-into-migration included 
-Civium    5 ci: add OG image renderer                                      ci/og-image-20250813_2231       main    https://github.com/rickballard/Civium/pull/5    vendor-subtree       included 
-Civium    4 Branding: add OG banner (SVG placeholder)                      branding/og-20250813_2221       main    https://github.com/rickballard/Civium/pull/4    vendor-subtree       included 
-Civium    3 GM Preflight: checkpoint (20250813_2042)                       gm/preflight-20250813_2042      main    https://github.com/rickballard/Civium/pull/3    vendor-subtree       included 
-Civium    2 inbox/gmaildrafts 20250811                                     inbox/gmaildrafts-20250811      main    https://github.com/rickballard/Civium/pull/2    vendor-subtree       included 
-Civium    1 review: evaluate deletion of two Insights (from stash)         review/stash-20250811           main    https://github.com/rickballard/Civium/pull/1    vendor-subtree       included 
+CoCivium    5 ci: add OG image renderer                                      ci/og-image-20250813_2231       main    https://github.com/rickballard/CoCivium/pull/5    vendor-subtree       included 
+CoCivium    4 Branding: add OG banner (SVG placeholder)                      branding/og-20250813_2221       main    https://github.com/rickballard/CoCivium/pull/4    vendor-subtree       included 
+CoCivium    3 GM Preflight: checkpoint (20250813_2042)                       gm/preflight-20250813_2042      main    https://github.com/rickballard/CoCivium/pull/3    vendor-subtree       included 
+CoCivium    2 inbox/gmaildrafts 20250811                                     inbox/gmaildrafts-20250811      main    https://github.com/rickballard/CoCivium/pull/2    vendor-subtree       included 
+CoCivium    1 review: evaluate deletion of two Insights (from stash)         review/stash-20250811           main    https://github.com/rickballard/CoCivium/pull/1    vendor-subtree       included 
 CoCache   9 ci: add OG image renderer                                      ci/og-image-20250813_2232       main    https://github.com/rickballard/CoCache/pull/9   vendor-subtree       included 
 CoCache   8 Branding: add OG banner (SVG placeholder)                      branding/og-20250813_2222       main    https://github.com/rickballard/CoCache/pull/8   vendor-subtree       included 
 CoCache   7 GM Preflight: checkpoint (20250813_2042)                       gm/preflight-20250813_2042      main    https://github.com/rickballard/CoCache/pull/7   vendor-subtree       included 
@@ -21,5 +21,6 @@ CoCache   5 Move: foundations ΓåÆ packages/foundations (history preserved) mi
 CoCache   1 migration/plan v1                                              migration/plan-v1               main    https://github.com/rickballard/CoCache/pull/1   vendor-subtree       included 
 GIBindex  5 ci: add OG image renderer                                      ci/og-image-20250813_2232       main    https://github.com/rickballard/GIBindex/pull/5  vendor-subtree       included 
 GIBindex  4 Branding: add OG banner (SVG placeholder)                      branding/og-20250813_2222       main    https://github.com/rickballard/GIBindex/pull/4  vendor-subtree       included 
+
 
 

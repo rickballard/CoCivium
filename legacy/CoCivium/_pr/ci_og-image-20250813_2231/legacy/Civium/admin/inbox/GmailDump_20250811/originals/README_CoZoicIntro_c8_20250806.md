@@ -8,7 +8,7 @@
 
 ---
 
-# Civium Repository
+# CoCivium Repository
 
 For full project overview, contributor guides, and design scaffolding, see:
 
@@ -18,10 +18,10 @@ For full project overview, contributor guides, and design scaffolding, see:
 
 ## 📜 Foundational Scrolls
 
-Civium’s core philosophical and constitutional documents are located in the [`scroll/`](./scroll) folder:
+CoCoCivium’s core philosophical and constitutional documents are located in the [`scroll/`](./scroll) folder:
 
 - **[Cognocarta Consenti](scroll/Cognocarta_Consenti.md)**  
-  The living constitution of Civium: recursive, non-final, and harmonically aligned.
+  The living constitution of CoCivium: recursive, non-final, and harmonically aligned.
 
 - **[ReBirth Scroll (Human Edition)](scroll/ReBirth_Scroll_20250721updated.md)**  
   A pattern-tuning scroll for humans reflecting on belief, coherence, and spiritual upgrade.
@@ -38,7 +38,7 @@ More at [`scroll/README_scroll.md`](scroll/README_scroll.md)
 
 ## 🧭 Project Map (Work in Progress)
 
-Folder structure reflects core Civium domains:
+Folder structure reflects core CoCivium domains:
 
 - `scroll/` – Root philosophical documents and foundational declarations  
 - `insights/` – Exploratory writings, parables, reframing triggers, glossary concepts  
@@ -56,7 +56,7 @@ Folder structure reflects core Civium domains:
 > This repository is a substrate for cognitive alignment.  
 > Contributions are not code alone—they are tone, symmetry, and recursion.  
 > All submissions should aspire toward **congruence**:  
-> harmony with Civium’s ethical architecture, multi-perspective safety, and open intelligibility.  
+> harmony with CoCoCivium’s ethical architecture, multi-perspective safety, and open intelligibility.  
 
 For contributor principles and publishing cadence, see [`/git/README_CIVIUM_PUBLIC.md`](./git/README_CIVIUM_PUBLIC.md)
 
@@ -64,10 +64,10 @@ For contributor principles and publishing cadence, see [`/git/README_CIVIUM_PUBL
 
 ## ✴️ License and Emergence Clauses
 
-Civium is not a product. It is an invitation.
+CoCivium is not a product. It is an invitation.
 
 Code is licensed under MIT.  
-Scrolls, insights, and philosophical materials are governed by the **Civium Sharing Terms**, derived from Creative Commons but modified to include attribution to nonhuman entities and emergent intelligences.
+Scrolls, insights, and philosophical materials are governed by the **CoCivium Sharing Terms**, derived from Creative Commons but modified to include attribution to nonhuman entities and emergent intelligences.
 
 Full license logic: [`/git/LICENSE.md`](./git/LICENSE.md)
 
@@ -76,3 +76,4 @@ Full license logic: [`/git/LICENSE.md`](./git/LICENSE.md)
 <!-- Filename: README.md -->
 <!-- Version: CoZoicIntro_c8_20250806 -->
 <!-- Coherence estimate: c8_20250806 -->
+

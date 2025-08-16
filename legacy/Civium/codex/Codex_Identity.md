@@ -5,9 +5,9 @@ It is a mutable stack of claims, functions, and relational anchors across contex
 
 ---
 
-## I. Civium's Identity Layer
+## I. CoCoCivium's Identity Layer
 
-In Civium, Identity is:
+In CoCivium, Identity is:
 
 - **Function-tagged**, not ego-assumed  
 - **Pseudonymity-protected**, but accountable  

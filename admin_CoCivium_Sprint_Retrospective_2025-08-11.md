@@ -1,9 +1,9 @@
-# CoCivium / Civium — Short Retrospective
+# CoCivium / CoCivium — Short Retrospective
 **Date:** 2025-08-11  
 **Window covered:** Aug 1–11, 2025
 
 ## 1) Outcomes (Wins)
-- CoCivium repo stood up and linked mentally to Civium source.  "HumanGate" norm reinforced.  DEC footers adopted.  
+- CoCivium repo stood up and linked mentally to CoCivium source.  "HumanGate" norm reinforced.  DEC footers adopted.  
 - Admin taxonomy converging: `admin/hold`, `deprecated/holding`, and named drops like `GmailDump_20250811`.  
 - Safer Git habits practiced: stash-before-merge, commit messages with rationale, and non-destructive moves.  
 - Readme refactor attempted with above‑the‑fold focus.  Decision trails captured in chat + commits.  
@@ -40,7 +40,7 @@
 ## 7) Risks
 - Silent content loss during inbox moves.  
 - Drift between local trees and origin due to branch hopping.  
-- Confusion between Civium → CoCivium provenance if logs aren’t explicit.  
+- Confusion between CoCivium → CoCivium provenance if logs aren’t explicit.  
 
 ## 8) Concrete Fixes (Actionable)
 1. **Artifact channel:** Generate deliverables here as files, provide sandbox links and SHA256.  Keep a `releases/` folder in CoCivium for canonical drops.  
@@ -78,3 +78,4 @@ chore: move Gmail dump → deprecated/holding (52 files) (20250811)
 - inventory report: reports/inventory_20250811.md (sha256: ...)
 - rollback: git mv deprecated/holding/GmailDump_20250811 admin/inbox/GmailDump_20250811
 ```
+

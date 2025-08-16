@@ -20,6 +20,7 @@ ehthumbs.db
 *.rej
 *.patch
 
-# Civium-specific temp or staging
+# CoCivium-specific temp or staging
 test_drafts/
 __archive__/
+

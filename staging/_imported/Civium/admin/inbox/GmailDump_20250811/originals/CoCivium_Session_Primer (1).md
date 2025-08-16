@@ -40,7 +40,7 @@ Copy and paste the following prompt into your AI assistant at the start of each 
 
 ## 4. Tutorials & Onboarding Resources
 New civic architects or AI collaborators should review:
-1. **Civium Overview** – Concept, mission, and principles.  
+1. **CoCivium Overview** – Concept, mission, and principles.  
 2. **CoCivium Repo Structure** – Folder purposes and naming conventions.  
 3. **GIB Registry Primer** – Understanding compressed concept language.  
 4. **Challenge Perspective Method** – How to question assumptions productively.  
@@ -56,3 +56,4 @@ New civic architects or AI collaborators should review:
 - If major workflow changes occur, update this primer so new contributors stay aligned.
 
 ---
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Run-ReminderHub.ps1 — v0.3 (compact, parser-safe)
 [CmdletBinding()]
 param([switch]$NoBackChats,[switch]$NoCIScan,[switch]$NoPRScan,[switch]$NoOESuggest)
@@ -14,25 +15,57 @@ if(-not $NoPRScan){
   Add-Section "PR status"
   try{
     $json  = gh pr list --state open --json number,title,isDraft,createdAt,updatedAt,url
+=======
+# Run-ReminderHub.ps1 — v0.1
+[CmdletBinding()]
+param([switch]$NoBackChats,[switch]$NoCIScan,[switch]$NoPRScan,[switch]$NoOESuggest)
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+$stamp = Get-Date -Format "yyyyMMdd_HHmm"; $hist="admin/history"; New-Item -ItemType Directory -Force -Path $hist | Out-Null
+$out = Join-Path $hist "Reminder_Run_$stamp.md"
+$lines=@("# Reminder Hub — $(Get-Date -Format 'yyyy-MM-dd HH:mm')", "")
+
+function Add-Section($title){ $script:lines += "## $title"; $script:lines += "" }
+
+# 1) PR surface (stale, drafts, etc.)
+if(-not $NoPRScan){
+  Add-Section "PR status"
+  try {
+    $json = gh pr list --state open --json number,title,isDraft,createdAt,updatedAt,url
+>>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
     $items = if($json){ $json | ConvertFrom-Json } else { @() }
     if(!$items){ $lines += "_No open PRs._"; $lines += "" }
     else{
       foreach($p in $items){
+<<<<<<< HEAD
         $age   = [int]((New-TimeSpan -Start ([datetime]$p.createdAt) -End (Get-Date)).TotalDays)
         $stale = ($age -gt 21 -and -not $p.isDraft)
         $lines += ("- PR #{0} — {1}  (age:{2}d){3}  {4}" -f $p.number,$p.title,$age, $(if($p.isDraft){" [DRAFT]"}else{""}), $p.url)
         if($stale){ $lines += "  - _Action:_ consider 'gh pr ready --undo $($p.number)' or rebase/close." }
+=======
+        $age = [int]((New-TimeSpan -Start ([datetime]$p.createdAt) -End (Get-Date)).TotalDays)
+        $stale = ($age -gt 21 -and -not $p.isDraft)
+        $lines += ("- PR #{0} — {1}  (age:{2}d){3}  {4}" -f $p.number,$p.title,$age, $(if($p.isDraft){" [DRAFT]"}else{""}), $p.url)
+        if($stale){ $lines += "  - _Action:_ consider `gh pr ready --undo $($p.number)` or rebase/close." }
+>>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
       }
       $lines += ""
     }
   } catch { $lines += "_PR scan error_: $($_.Exception.Message)"; $lines += "" }
 }
 
+<<<<<<< HEAD
 # 2) CI snapshot
 if(-not $NoCIScan){
   Add-Section "CI snapshot"
   try{
     $runs  = gh run list --limit 10 --json workflowName,status,conclusion,createdAt,url
+=======
+# 2) CI snapshot (summary of recent runs)
+if(-not $NoCIScan){
+  Add-Section "CI snapshot"
+  try{
+    $runs = gh run list --limit 10 --json workflowName,status,conclusion,createdAt,url
+>>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
     $items = if($runs){ $runs | ConvertFrom-Json } else { @() }
     if(!$items){ $lines += "_No recent runs._"; $lines += "" }
     else{
@@ -54,12 +87,21 @@ if(-not $NoBackChats){
     $dry = pwsh -NoProfile -ExecutionPolicy Bypass -File "admin/tools/BackChats/Run-BackChatsSweep.ps1" -DryRun 2>$null
     if([string]::IsNullOrWhiteSpace($dry)){ $lines += "_BackChats tool produced no output (ok if inbox empty)._"; $lines += "" }
     else{
+<<<<<<< HEAD
       $head = ($dry -split "`r?`n") | Select-Object -First 40
       $lines += $head; $lines += "…(truncated)…"; $lines += ""
+=======
+      # Keep it short in the reminder; full report already written by the sweep when not -DryRun.
+      $head = ($dry -split "`r?`n") | Select-Object -First 40
+      $lines += $head
+      $lines += "…(truncated)…"
+      $lines += ""
+>>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
     }
   } catch { $lines += "_BackChats error_: $($_.Exception.Message)"; $lines += "" }
 }
 
+<<<<<<< HEAD
 # 4) OE snapshot hint
 if(-not $NoOESuggest){
   Add-Section "OE snapshot hint"
@@ -67,6 +109,17 @@ if(-not $NoOESuggest){
   $lines += "  `pwsh -File admin/tools/bpoe/Record-Env.ps1`"
   $lines += "- Weekly cadence reminder lives in docs/academy/BP_OE_WF.md."
   $lines += ""
+=======
+# 4) OE snapshot suggestion (never blocks: just a nudge)
+if(-not $NoOESuggest){
+  Add-Section "OE snapshot hint"
+  $hint = @(
+    "- If `admin/tools/*` changed recently or you updated tooling, capture OE:",
+    "  `pwsh -File admin/tools/bpoe/Record-Env.ps1`",
+    "- Weekly cadence reminder is in docs/academy/BP_OE_WF.md."
+  )
+  $lines += $hint; $lines += ""
+>>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
 }
 
 ($lines -join "`r`n") | Out-File -Encoding utf8 -Force $out

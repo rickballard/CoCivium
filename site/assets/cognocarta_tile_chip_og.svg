@@ -1,0 +1,72 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="space" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/><stop offset="100%" stop-color="#0b0e17"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="55%" stop-color="#7ec9a7" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#3a4a55" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2f39"/><stop offset="100%" stop-color="#1e232c"/>
+    </linearGradient>
+    <linearGradient id="crt" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0a3a22"/><stop offset="100%" stop-color="#052f1a"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+    <style><![CDATA[
+      .chipText { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill:#bbffe0 }
+      .chipSub  { fill:#8bf2c4 }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="628" fill="url(#space)"/>
+  <circle cx="600" cy="290" r="280" fill="url(#halo)"/>
+
+  <!-- star specks -->
+  <g opacity=".6">
+    <circle cx="100" cy="120" r="1.2" fill="#cfe3ff"/>
+    <circle cx="220" cy="80"  r="1.0" fill="#d7dbff"/>
+    <circle cx="980" cy="120" r="1.4" fill="#eef4ff"/>
+    <circle cx="880" cy="520" r="1.2" fill="#e8f1ff"/>
+  </g>
+
+  <!-- chip body -->
+  <g transform="translate(220,110)">
+    <!-- pins -->
+    <g fill="#3b414d">
+      <!-- top -->
+      <rect x="40" y="-20" width="20" height="40"/><rect x="100" y="-20" width="20" height="40"/><rect x="160" y="-20" width="20" height="40"/>
+      <rect x="220" y="-20" width="20" height="40"/><rect x="280" y="-20" width="20" height="40"/><rect x="340" y="-20" width="20" height="40"/>
+      <rect x="400" y="-20" width="20" height="40"/><rect x="460" y="-20" width="20" height="40"/><rect x="520" y="-20" width="20" height="40"/>
+      <!-- bottom -->
+      <rect x="40" y="418" width="20" height="40"/><rect x="100" y="418" width="20" height="40"/><rect x="160" y="418" width="20" height="40"/>
+      <rect x="220" y="418" width="20" height="40"/><rect x="280" y="418" width="20" height="40"/><rect x="340" y="418" width="20" height="40"/>
+      <rect x="400" y="418" width="20" height="40"/><rect x="460" y="418" width="20" height="40"/><rect x="520" y="418" width="20" height="40"/>
+      <!-- left -->
+      <rect x="-20" y="40" width="40" height="20"/><rect x="-20" y="100" width="40" height="20"/><rect x="-20" y="160" width="40" height="20"/>
+      <rect x="-20" y="220" width="40" height="20"/><rect x="-20" y="280" width="40" height="20"/><rect x="-20" y="340" width="40" height="20"/>
+      <!-- right -->
+      <rect x="620" y="40" width="40" height="20"/><rect x="620" y="100" width="40" height="20"/><rect x="620" y="160" width="40" height="20"/>
+      <rect x="620" y="220" width="40" height="20"/><rect x="620" y="280" width="40" height="20"/><rect x="620" y="340" width="40" height="20"/>
+    </g>
+
+    <!-- bezel + screen -->
+    <rect x="0" y="0" width="640" height="438" rx="22" ry="22" fill="url(#bezel)" stroke="#151922" stroke-width="2"/>
+    <rect x="54" y="50" width="532" height="338" rx="14" ry="14" fill="url(#crt)" stroke="#0f5c39" stroke-width="2" />
+    <rect x="54" y="50" width="532" height="338" rx="14" ry="14" fill="#34d399" opacity=".06" filter="url(#soft)"/>
+
+    <!-- text -->
+    <g transform="translate(320,130)" text-anchor="middle">
+      <text class="chipText" font-weight="800" font-size="44" y="0">COGNOCARTA</text>
+      <text class="chipText" font-weight="800" font-size="44" y="52">CONSENTI</text>
+      <text class="chipText chipSub" font-weight="500" font-size="22" y="96">The Foundational Scroll of CoCivium</text>
+      <text class="chipText" font-size="18" y="138">⟦ 𐌂𐌂 · ☍ · 𐌂𐌂 ⟧</text>
+      <text class="chipText" font-size="18" y="172">El Fundamental Scroll de CoCivium · Le Manuscrit Fondamental de CoCivium</text>
+      <text class="chipText" font-size="18" y="204">…and more</text>
+    </g>
+  </g>
+</svg>

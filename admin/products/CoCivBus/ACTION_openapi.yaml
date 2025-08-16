@@ -1,4 +1,5 @@
 ---
+---
 openapi: 3.1.0
 info:
   title: CoCivBus Action API
@@ -56,4 +57,5 @@ paths:
         '200':
           description: OK
 components: {}
+
 

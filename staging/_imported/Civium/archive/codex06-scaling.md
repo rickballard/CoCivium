@@ -2,7 +2,7 @@
 
 ## Overview
 
-Scaling governance effectively is critical for Civium’s growth, ensuring that coordination, participation, and ethical coherence are maintained as complexity increases.
+Scaling governance effectively is critical for CoCoCivium’s growth, ensuring that coordination, participation, and ethical coherence are maintained as complexity increases.
 
 This codex outlines strategies and frameworks to manage scaling challenges across domains and intelligences.
 
@@ -37,4 +37,5 @@ This codex outlines strategies and frameworks to manage scaling challenges acros
 
 ---
 
-*This codex document is subject to iterative refinement as Civium evolves.*
+*This codex document is subject to iterative refinement as CoCivium evolves.*
+

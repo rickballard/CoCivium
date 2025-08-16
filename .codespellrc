@@ -1,0 +1,2 @@
+skip = *.png,*.jpg,*.jpeg,*.svg,*.ico,*.pdf,site/assets/**,_site/**
+dictionary = .codespell.words

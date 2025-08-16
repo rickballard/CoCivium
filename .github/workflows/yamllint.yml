@@ -1,3 +1,4 @@
+---
 name: yamllint
 on:
   push:
@@ -13,3 +14,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install yamllint
       - run: yamllint -c .yamllint.yaml .
+

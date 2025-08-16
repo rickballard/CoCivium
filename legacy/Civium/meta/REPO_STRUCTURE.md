@@ -1,4 +1,4 @@
-# Civium Repository Structure
+# CoCivium Repository Structure
 
 ## Root-Level Folders
 

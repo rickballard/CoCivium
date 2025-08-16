@@ -16,7 +16,7 @@ metadata:
 
 # Codex002: [[Transparency]] & Explainability
 
-This Codex defines the transparency obligations for all AI systems operating within the [[Civium]] ecosystem.
+This Codex defines the transparency obligations for all AI systems operating within the [[CoCivium]] ecosystem.
 
 ---
 
@@ -80,3 +80,4 @@ All outputs must be:
 ---
 
 [tags]: # (appendix codex transparency consensus-audit ai-rationale open-ops)
+

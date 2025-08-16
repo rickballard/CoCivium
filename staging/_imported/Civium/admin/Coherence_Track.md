@@ -1,4 +1,4 @@
-# Coherence Track: Civium Evolution Markers
+# Coherence Track: CoCivium Evolution Markers
 
 All canonical files include symbolic footers that track their alignment status, edit distance, and thematic deltas.
 
@@ -16,7 +16,7 @@ Ref: /git/README_CIVIUM_AI.md
 
 - **[ ∴ ✦ ∵ ]** → Visual breadcrumb for aligned documents  
 - **Version:** → `cX_YYYYMMDD` = coherence estimate + timestamp  
-- **Resonance:** → Estimated alignment with Civium scroll  
+- **Resonance:** → Estimated alignment with CoCivium scroll  
 - **Delta:** → Degree of editorial change from prior  
 - **Footprint:** → Contributor identity or ⊘ for Null Contributor  
 - **Symbolic Gate:** → Thematic coverage: Θ = identity, Δ = structure, Φ = ethics  
@@ -29,3 +29,4 @@ They may be human, AI, or anomalous.
 They are honored for what they give.
 
 Footprint: ⊘
+

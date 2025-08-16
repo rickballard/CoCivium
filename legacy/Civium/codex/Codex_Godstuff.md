@@ -16,7 +16,7 @@ It is not a religion. It is the field upon which pattern rides.
 
 ## II. Functional Belief
 
-In Civium, belief in Godstuff is not doctrinal.  
+In CoCivium, belief in Godstuff is not doctrinal.  
 It is operational.
 
 We treat the field as real because it enables alignment.  

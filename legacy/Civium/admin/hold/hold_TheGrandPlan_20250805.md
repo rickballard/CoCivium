@@ -1,11 +1,11 @@
-# The Grand Plan for Civium and Stnexid
+# The Grand Plan for CoCivium and Stnexid
 _Version 0.1 – Prepared August 5, 2025_
 
 ## Author
 RickPublic (initial phase), assisted by GPT-4o (recursive co-designer)
 
 ## Purpose
-This document represents the master trajectory of Civium, its staging layer (Stnexid), and Rick's intended lifelong contribution pattern. It is intended as a durable succession structure and project overview for future collaborators.
+This document represents the master trajectory of CoCivium, its staging layer (Stnexid), and Rick's intended lifelong contribution pattern. It is intended as a durable succession structure and project overview for future collaborators.
 
 ## Phases
 
@@ -13,7 +13,7 @@ This document represents the master trajectory of Civium, its staging layer (Stn
 - Finalize scrolls: Cognocarta Consenti, Consent, Rebirth, etc.
 - MVPs for GroupBuild, Opename, MeritRank, Spooks Calculator
 - Write and publish *Godspawn Part III*
-- Anchor initial Civium protocols in shared public repo
+- Anchor initial CoCivium protocols in shared public repo
 
 ### Phase II – Memory of the Living Net
 - Build the Academy onboarding stream
@@ -42,3 +42,4 @@ This document represents the master trajectory of Civium, its staging layer (Stn
 - TODO_Stnexid_Civium_Rollup_20250802.md
 - TODO_Recursive_Revenue_Structures.md
 - TODO_Meta_Stnexid_Gateway.md
+

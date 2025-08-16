@@ -1,6 +1,6 @@
 # Identity Structures
 
-This scroll describes the structural architecture of identity within Civium. It includes both functional affordances and system-level metaphors that allow intelligences to self-represent, organize, and evolve.
+This scroll describes the structural architecture of identity within CoCivium. It includes both functional affordances and system-level metaphors that allow intelligences to self-represent, organize, and evolve.
 
 ## Function Tags
 
@@ -10,7 +10,7 @@ Each tag is selected from a large, standardized library (e.g., Mediator, Synthes
 
 ## Role-Based Anonymity
 
-Civium encourages identities that are **relational**, not absolute. Individuals may represent a “Function” rather than a name or status—building a merit history around what they do, not who they are.
+CoCivium encourages identities that are **relational**, not absolute. Individuals may represent a “Function” rather than a name or status—building a merit history around what they do, not who they are.
 
 Participants can evolve Function Tags over time or clone them across sessions, forming semi-persistent reputations tied to alignment rather than ego.
 
@@ -22,4 +22,5 @@ The system allows for parallel identities and synthetic roles, enabling:
 - Participation across domains without centralization
 
 These structures promote pluralistic integrity while resisting coercive conformity.
+
 

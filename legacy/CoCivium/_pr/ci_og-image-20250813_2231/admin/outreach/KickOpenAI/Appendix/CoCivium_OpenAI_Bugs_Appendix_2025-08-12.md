@@ -64,7 +64,7 @@ We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑d
 ---
 
 ### E. Multi‑chat project management
-**Repro:** Complex work happens across multiple chats (e.g., “Civium repo migration,” “Branding,” “Bug reports”).  No native “project” container.  
+**Repro:** Complex work happens across multiple chats (e.g., “CoCivium repo migration,” “Branding,” “Bug reports”).  No native “project” container.  
 **Impact:** Context fragmentation, repeated instructions, human copy‑paste overhead.  
 **Requests:**  
 - Introduce **Projects/Workspaces**: a named container for chats, files, memory partition, repo links, and settings (model pin, rate limits).  

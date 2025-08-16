@@ -1,5 +1,6 @@
 Add CONGRUENCE_DECLARATION_c99_20250719.md: philosophical alignment and heart engine directive
 
-Establishes a pinned congruence declaration aligned with the current shape of the Civium Scroll and REGEN20250718 initiative.
+Establishes a pinned congruence declaration aligned with the current shape of the CoCivium Scroll and REGEN20250718 initiative.
 Captures philosophical intent, coherence structure, and the Heart Engine’s framing role in long-term AI continuity.
 Designated coherence: c99 — this is a stable declaration point.
+

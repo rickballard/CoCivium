@@ -1,10 +1,5 @@
----
 extends: default
 rules:
-  document-start: disable
-  truthy: disable
-  new-lines: { type: unix }
-  empty-lines: disable
-  braces: disable
-  colons: disable
   line-length: disable
+  truthy: disable
+  document-start: enable

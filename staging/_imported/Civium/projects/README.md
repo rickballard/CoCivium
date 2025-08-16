@@ -1,10 +1,10 @@
-# Civium Projects Overview
+# CoCivium Projects Overview
 
-This folder contains the active workspaces for each of the major Civium-related initiatives.
+This folder contains the active workspaces for each of the major CoCivium-related initiatives.
 
-Each subfolder in this directory represents a distinct project. Most of these are not core constitutional components (like those in `/scroll`, `/codex`, or `/ethos`) but are instead civic applications, tooling experiments, or auxiliary systems intended to support or extend Civium's practical implementation.
+Each subfolder in this directory represents a distinct project. Most of these are not core constitutional components (like those in `/scroll`, `/codex`, or `/ethos`) but are instead civic applications, tooling experiments, or auxiliary systems intended to support or extend CoCoCivium's practical implementation.
 
-Some subprojects are tightly integrated into the Civium governance architecture (like Opename or BeAxa), while others are more experimental or context-specific (like EntMent or Academy).
+Some subprojects are tightly integrated into the CoCivium governance architecture (like Opename or BeAxa), while others are more experimental or context-specific (like EntMent or Academy).
 
 ## Structure and Guidelines
 
@@ -19,7 +19,7 @@ If you are a contributor, you are encouraged to:
 - Look for open tasks or TODOs inside the markdown files.
 - Ask questions or open issues in the main repo if clarification is needed.
 
-If you are a general Civium participant:
+If you are a general CoCivium participant:
 - You are welcome to explore and comment, especially on public-facing tools.
 - Please respect the ongoing nature of these projects—they are in active evolution.
 
@@ -31,12 +31,12 @@ The subfolders you see here include:
 - **beaxa/** – Building the BeAxa moderation and AI oversight framework.
 - **civiscan/** – Exploring Civic Signal Indexing and real-world influence analytics.
 - **entment/** – Designing tools for entrepreneurial mentorship and startup scaffolding.
-- **godspawn/** – Hosting the narrative fiction project tied to Civium mythogenesis.
+- **godspawn/** – Hosting the narrative fiction project tied to CoCivium mythogenesis.
 - **opename/** – Developing the deliberative meritocratic voting engine.
 - **outreach/** – Managing media, partnership, and recruitment efforts.
 - **sandbox/** – Testing ideas, fragments, and unclassified exploratory assets.
 - **votingengine/** – Underlying mechanisms and design flows for Opename voting.
-- **website/** – Prototypes and plans for the official Civium site and evomap.
+- **website/** – Prototypes and plans for the official CoCivium site and evomap.
 
 ---
 
@@ -47,3 +47,4 @@ Delta: 0.42
 Footprint: ⊕  
 Symbolic Gate: ΘΞΨ  
 Ref: /projects/
+

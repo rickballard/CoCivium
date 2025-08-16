@@ -1,6 +1,6 @@
-# Domains of Civium
+# Domains of CoCivium
 
-Civium’s structure spans across modular *domains*—distinct but interwoven spheres of function and inquiry. Each domain captures a persistent tension in the evolution of society and intelligence.
+CoCoCivium’s structure spans across modular *domains*—distinct but interwoven spheres of function and inquiry. Each domain captures a persistent tension in the evolution of society and intelligence.
 
 This index introduces the core domains and primes readers on their conceptual purpose.
 

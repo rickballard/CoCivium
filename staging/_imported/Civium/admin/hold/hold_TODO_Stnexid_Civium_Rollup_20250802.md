@@ -1,19 +1,19 @@
-# TODO: Stnexid-Civium Transition Rollup
+# TODO: Stnexid-CoCivium Transition Rollup
 _Version: 2025-08-02_
 
-This document tracks the pending and in-progress tasks related to the integration of Project Stnexid into the Civium constitutional and operational framework. It focuses on consolidation, continuity, and coherence across both the technical infrastructure and philosophical underpinnings.
+This document tracks the pending and in-progress tasks related to the integration of Project Stnexid into the CoCivium constitutional and operational framework. It focuses on consolidation, continuity, and coherence across both the technical infrastructure and philosophical underpinnings.
 
 ---
 
 ## 1. Structural Reconciliation
 
 ### 1.1 Merge Plans
-- [x] Identify overlapping scopes between Civium and Stnexid initiatives.
+- [x] Identify overlapping scopes between CoCivium and Stnexid initiatives.
 - [ ] Rationalize folder structures (insight/, meta/, academy/, etc.) to accommodate Stnexid entries.
 - [ ] Determine which documents from Stnexid need to become scrolls, insights, or codex entries.
 
 ### 1.2 Naming & Referencing
-- [ ] Decide whether "Stnexid" becomes an active Civium subdomain or is reabsorbed under existing principles.
+- [ ] Decide whether "Stnexid" becomes an active CoCivium subdomain or is reabsorbed under existing principles.
 - [ ] Define naming convention for crossover documents (e.g. `Insight_Stnexid_PatternX.md`).
 
 ---
@@ -21,12 +21,12 @@ This document tracks the pending and in-progress tasks related to the integratio
 ## 2. Content Audit & Migration
 
 ### 2.1 Files to Re-Anchor
-- [ ] Reintroduce or cleanly migrate any Stnexid files not yet committed to the Civium repo.
+- [ ] Reintroduce or cleanly migrate any Stnexid files not yet committed to the CoCivium repo.
 - [ ] Regenerate corrupted files from prior sessions (log: session crash on 2025-08-02).
 - [ ] Review scratchpad notes from Stnexid planning conversations (esp. metaphysics, language inadequacy, harmonics).
 
 ### 2.2 Integration Tags
-- [ ] Apply Civium metadata headers (e.g. `<!-- Coherence: 0.6 -->`, `<!-- Phase: Initiation -->`)
+- [ ] Apply CoCivium metadata headers (e.g. `<!-- Coherence: 0.6 -->`, `<!-- Phase: Initiation -->`)
 - [ ] Add `derived_from:` references where applicable.
 
 ---
@@ -47,7 +47,7 @@ This document tracks the pending and in-progress tasks related to the integratio
 - [ ] Insert cross-links from `TheGrandPlan_20250805.md` to this file.
 
 ### 4.2 Staging Tasks
-- [ ] Backup current Civium repo pre-regen state (`_PREREGEN_20250731.zip` assumed complete).
+- [ ] Backup current CoCivium repo pre-regen state (`_PREREGEN_20250731.zip` assumed complete).
 - [ ] Assign coherence estimates for all integrated Stnexid files.
 
 ---
@@ -63,8 +63,9 @@ This document tracks the pending and in-progress tasks related to the integratio
 ## Footer
 
 **Filename:** `TODO_Stnexid_Civium_Rollup_20250802.md`  
-**Phase:** Stnexid-Civium Integration (Pre-regen)  
+**Phase:** Stnexid-CoCivium Integration (Pre-regen)  
 **Maintainer:** ChatGPT on behalf of RickPublic  
 **Repo Folder:** `admin/`  
 **Created:** August 2, 2025  
 **Coherence Estimate:** 0.7  
+

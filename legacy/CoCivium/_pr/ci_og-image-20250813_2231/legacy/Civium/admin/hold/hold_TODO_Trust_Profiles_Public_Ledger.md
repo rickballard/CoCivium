@@ -10,7 +10,7 @@ Design and propose a system for storing anonymous user trust profiles on a publi
 This service could be hosted or prototyped at **Opename.com**, allowing identity-linked trust signals to be anchored cryptographically, yet accessed in pseudonymous or anonymous ways.
 
 ## Purpose
-To provide decentralized reputation infrastructure for systems like Civium, GroupBuild, or third-party platforms needing:
+To provide decentralized reputation infrastructure for systems like CoCivium, GroupBuild, or third-party platforms needing:
 - Persistent pseudonymous credibility
 - Community auditability
 - Anti-Sybil mechanisms without centralized control
@@ -26,5 +26,6 @@ To provide decentralized reputation infrastructure for systems like Civium, Grou
 🟡 Parked — Phase 2 priority (Opename backend service strategy)
 
 ## Notes
-This may intersect with Civium identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
+This may intersect with CoCivium identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
+
 

@@ -1,3 +1,4 @@
+---
 name: Consenti idea
 description: Suggest a concrete improvement to the Cognocarta Consenti
 labels: ["consenti-idea"]
@@ -10,3 +11,4 @@ body:
       placeholder: e.g. clarify consent primitives with a 3-step pattern…
     validations:
       required: true
+

@@ -1,13 +1,13 @@
 <!-- Filename: ConsensusEngine_ProjectPlan_c1_20250730.md -->
 
-# Civium Consensus Engine – Project Plan
+# CoCivium Consensus Engine – Project Plan
 *Version: c1_20250730 | Project: Consensus Coherence Engine*
 
 ---
 
 ## 1. Purpose
 
-This project plan defines the architecture, roadmap, and integration model for the **Consensus Coherence Engine (CCE)**, Civium's post-voting decision framework. The engine replaces traditional majoritarian models with dynamic, coherence-weighted, interpretability-aware processes. It is designed to accommodate mixed-agent ecosystems—humans, AIs, and hybrids—while upholding agency, auditability, and emergent trust.
+This project plan defines the architecture, roadmap, and integration model for the **Consensus Coherence Engine (CCE)**, CoCoCivium's post-voting decision framework. The engine replaces traditional majoritarian models with dynamic, coherence-weighted, interpretability-aware processes. It is designed to accommodate mixed-agent ecosystems—humans, AIs, and hybrids—while upholding agency, auditability, and emergent trust.
 
 This engine emerges from the philosophical groundwork laid in **Insight: Unequal Equity** and its companion frameworks.
 
@@ -36,7 +36,7 @@ This engine emerges from the philosophical groundwork laid in **Insight: Unequal
 
 **Phase 0: MeritRank Voting Bridge**
 
-While Civium aspires to coherence-based consensus, early-stage humans require continuity. A transitional engine—**MeritRank Voting**—will:
+While CoCivium aspires to coherence-based consensus, early-stage humans require continuity. A transitional engine—**MeritRank Voting**—will:
 - Respect legacy expectations of fairness (one human, one voice)
 - Weight votes by contextual credibility and engagement history
 - Support session re-voting and option refinement during deliberation
@@ -51,7 +51,7 @@ To provide symbolic legitimacy and testable audit structures while preparing par
 - Option-editing permissions via contributor consensus
 
 ### Transition Strategy
-This engine will be embedded in early Civium sessions and gradually deprecated as interpretive consensus models gain adoption.
+This engine will be embedded in early CoCivium sessions and gradually deprecated as interpretive consensus models gain adoption.
 
 ---
 
@@ -133,7 +133,7 @@ This plan presumes acceptance of the principles in:
 📖 `Insight_Unequal_Equity_c1_20250730.md`  
 📖 `Scroll_Gravitas_First_Commitments_c0_20250730.md`
 
-Civium does not assume voting is the endpoint of governance. This engine redefines consensus as **emergent coherence under epistemic tension**.
+CoCivium does not assume voting is the endpoint of governance. This engine redefines consensus as **emergent coherence under epistemic tension**.
 
 ---
 
@@ -146,3 +146,4 @@ Delta: 0.15
 Footprint: ⊕  
 Symbolic Gate: ΘΞΨ  
 Ref: /projects/consensus/ConsensusEngine_ProjectPlan_c1_20250730.md
+

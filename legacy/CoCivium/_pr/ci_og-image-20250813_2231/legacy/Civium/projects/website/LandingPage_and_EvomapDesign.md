@@ -1,14 +1,14 @@
 <!-- Filename: Civium_LandingPage_and_EvomapDesign.md -->
-# 🌱 Civium Landing Page and Evomap Interface Design
+# 🌱 CoCivium Landing Page and Evomap Interface Design
 
 ## 1. Purpose
 
-To create a poetic, emotive, and visually inspiring non-editable mirror of the Civium repo (CC), hosted at www.Civium.cc, with a living interface (Evomap) that reveals the structure and evolution of the Civium mindspace.
+To create a poetic, emotive, and visually inspiring non-editable mirror of the CoCivium repo (CC), hosted at www.CoCivium.cc, with a living interface (Evomap) that reveals the structure and evolution of the CoCivium mindspace.
 
 ## 2. Components
 
-### 🔹 Civium Landing Page
-- Inspirational introduction to Civium’s mission.
+### 🔹 CoCivium Landing Page
+- Inspirational introduction to CoCoCivium’s mission.
 - Entry point to a non-editable repo mirror.
 - Static, curated content snapshot of evolution-positive CC state.
 - Styled for elegance, readability, and emotional resonance.
@@ -22,7 +22,7 @@ To create a poetic, emotive, and visually inspiring non-editable mirror of the C
 
 ## 3. Visual Identity
 
-- Evomap represents Civium’s cognitive field—not a strict menu or sitemap.
+- Evomap represents CoCoCivium’s cognitive field—not a strict menu or sitemap.
 - Core metaphors: mycelium, neural filaments, soulstuff recursion.
 - Brand design includes:
   - `Civium_Evomap_Mock_up_v1.png`
@@ -45,9 +45,10 @@ To create a poetic, emotive, and visually inspiring non-editable mirror of the C
 
 - AI agents may “crawl the Evomap” and leave visible annotations or glows.
 - Version delta trails may appear on the diagram over time.
-- The Evomap may become the Civium default interface once robust.
+- The Evomap may become the CoCivium default interface once robust.
 
 ---
 
-**Author:** ChatGPT for Civium  
+**Author:** ChatGPT for CoCivium  
 **Date:** 2025-07-26
+

@@ -1,118 +1,69 @@
 # CoCivium
 
-<!-- triad:why-who-how -->
-### Why · Who · How (30 sec)
+> **Operating System for Digital Society**\
+> Consent before coercion • open protocols • human-gated AI collaboration
 
-**Why.** Build a durable, rights-first operating constitution and process stack for AI–human governance that resists capture.  
+---
 
-**Who.** Social scientists, civic technologists, policy folks, and engineers collaborating under HumanGate until assemblies form.  
+## Why · Who · How (30s)
 
-**How.** Start from the [Scope Specification](admin/projects/CoCivium_Scope_Specification_c1_20250813.md), track progress via the Twin Eyes, and contribute through issues/PRs using our standard templates.  
-<!-- /triad:why-who-how -->
-Democracy protocols and civic-tech tools for borderless governance.
+**Why.** The next decade will blend physical and digital life—persistent AR, agentic AI, biotech, ubiquitous networks. Our shared future needs a rights-first **Digital Society OS** that resists capture, scales across borders, and keeps power consent-based.
 
-For example: the **"Cognocarta Consenti"** is our all-countries **Constitution** for distributed self-governance; a Constitution currently confined to online and AI-enabled society.  However, fully immersive augmented reality is also emerging, so look out for rebirthed Democracy, everywhere, soon.
+**Who.** You don’t need to be a policy expert or coder. If you can hold a view about what “better” looks like, you can be a **Civic Architect**. Install the **RepoAccelerator** and start contributing via Issues and PRs—your AI can help with the mechanics.
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+**How.** Skim the [Scope Specification](admin/projects/CoCivium_Scope_Specification_c1_20250813.md), glance at the progress map, then propose one improvement. Small, reviewable PRs; early drafts welcome. We iterate toward coherence. Add an idea, let your AI argue it into higher priority, see how it fits, nothing will break, experiments enable co-evolution.
 
-![CoCivium Progress Map](site/assets/progress_map_v0.svg)
+---
 
-<!-- COCIVIUM-README-START -->
+## What (10s)
+
+**Democracy protocols and civic-tech tools for borderless governance.**\
+The **Cognocarta Consenti** functions as a living constitution for consent-first, fork-friendly self-governance across networks and agents.
+
+---
 
 ## The Opportunity
 
-"We The People" continually re-invent ourselves and our societies.
-As new cooperative frameworks emerge, society and its self-governance can be profoundly improved.
-Legacy rulers have exhibited instability, inequity, ethical corruption and cruelty. 
-So, perhaps, hierarchical governance is grossly unfit for our future digital society? 
-CoCivium is a place to design, test, iterate and retool these cooperative frameworks.
-Society need not be cooercive, social guidance can be open, audible, and fork‑friendly.
-Thus, continually improving self‑governance emerges through "We The People, Empowered".
+"We the People" can re-tool our cooperation. Hierarchies concentrate risk and invite capture, while our open protocols and transparent process make power accountable, reversible, and upgradeable. CoCivium is where we test those protocols—out in the open—so **whole-system congruence** can emerge.
 
-## What is CoCivium?
+## Core Principles (abridged)
 
-CoCivium is an online‑first **cooperation environment** where intelligent beings co‑evolve governance frameworks and shared
-civic infrastructure. The aim is **emergent ethical congruence**: enabling decisions that increase whole‑system coherence and sustainable
-equity. Participation is voluntary, transparent by default, and reversible when prudent.
+1. **Consent over coercion** — opt-in, granular, revocable.
+2. **Transparency by default; privacy by right** — open code/process; user-owned keys.
+3. **Evidence over authority** — sources, tests, adversarial review.
+4. **Least power, staged risk** — easy permissions, sandboxes, rollbacks.
+5. **Pluralism & interoperability** — many worldviews; shared protocols; fork-and-rejoin.
+6. **Commons stewardship** — open licenses; anti-enclosure, anti-capture.
+7. **Antitrust of power (human or AI)** — authority caps, rotations, tests.
+8. **Continuous improvement** — experiments; metrics; versions, recursion.
 
-## Core Principles
+> Full list: [docs/principles/CORE_SHORT.md](docs/principles/CORE_SHORT.md)
 
-**0)** **Prime Directive — Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.  
-
-**1)** **Consent over coercion.** Opt‑in, informed, granular, revocable.  
-
-**2)** **Accountability with trails.** Clear owners, appeals, restitution, public rationale.  
-
-**3)** **Transparency by default; privacy by right.** Open process/code; user‑owned keys; portability; erasure.  
-
-**4)** **Evidence over authority.** Claims need sources, tests, and adversarial review.  
-
-**5)** **Least power, staged risk.** Minimal permissions; sandboxes; kill‑switches; reversible‑first.  
-
-**6)** **Fairness and proportionality.** Rights floors; merit‑weighted influence; proportional sanctions.  
-
-**7)** **Pluralism and interoperability.** Many worldviews; shared protocols; easy fork‑and‑rejoin.  
-
-**8)** **Resilience via redundancy.** No single point of failure—technical, social, or legal.  
-
-**9)** **Commons stewardship.** Open licenses; contributor covenant; anti‑enclosure.  
-
-**10)** **Incentive alignment.** Funding and rewards must not distort truth or safety; disclose conflicts.  
-
-**11)** **Antitrust of power (human or AI).** Caps on governance share; rotation; independence tests.  
-
-**12)** **Continuous improvement.** Versioned experiments; metrics, rollbacks, upgrade paths.  
-
-**13)** **Non‑violence and dignified discourse.** Mediation over flame wars; restorative outcomes.  
-
-**14)** **Sustainability and long‑termism.** Price externalities; favor multi‑generational impact.  
-
-**15)** **Inclusivity and accessibility (all minds).** Real access for human and synthetic minds; strong on‑ramps.
+---
 
 ## Start Here
 
-- **What is this?** See [admin/README.md](admin/README.md).  
+- **Quickstart:** clone, open `site/`, scan the progress map.
+- **Quickstart for non-humans:** [README_FOR_AI.md](README_FOR_AI.md).
+- **Academy:** [docs/academy](docs/academy) → supercharge your workflow [BP_OE_WF.md](docs/academy/BP_OE_WF.md).
 
-- **Quickstart:** clone, open `site/` preview, scan the progress map.  
+---
 
-- **For AI agents:** [README_FOR_AI.md](README_FOR_AI.md).  
+## Cognocarta Consenti — the core scroll
 
-<!-- START-HERE -->
+> Our living charter for consent, convergence, and coherence.  
+> **→ [Read the scroll](scroll/Cognocarta_Consenti.md)**
 
-### Progress Map (v1.1) — with Redundancy‑Debt dents
+---
 
-See [admin/metrics/RD_Dents_Explained.md](admin/metrics/RD_Dents_Explained.md).
+## Contributing
 
-<details><summary>Conventions &amp; Standards</summary>
+See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR; squash merges; maintainer review.
 
-See [meta/Doc_Headers_Footers.md](meta/Doc_Headers_Footers.md) and [meta/ONEBLOCK_Spec.md](meta/ONEBLOCK_Spec.md).
+## Automation
 
-</details>
+IssueOps: comment `/run` with a single fenced `bash` block. See [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
 
 ## License
 
-This project is licensed under **Creative Commons Attribution–ShareAlike 4.0 International**. See [LICENSE](LICENSE) for details.
-
-<!-- COCIVIUM-README-END -->
-
-## Contributing
-See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash merges only, maintainer review required.
-
-## Automation
-Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
-
-## Cognocarta Consenti — the core scroll
-> Our living charter for consent, convergence, and coherence.
-> → **[Read the scroll](scroll/Cognocarta_Consenti.md)**
-
-[![Cognocarta Consenti — scroll preview](site/assets/cognocarta_scroll_og.svg)](scroll/Cognocarta_Consenti.md)
-
-## Quick links
-- Wiki: https://github.com/rickballard/CoCivium/wiki
-- Sources: docs/sources/annotated-bibliography.md, docs/sources/comparable-initiatives.md
-
-> **Core Principles — Short Read:** see [docs/principles/CORE_SHORT.md](docs/principles/CORE_SHORT.md)
-
-> **CoCivium Academy:** see [docs/academy](docs/academy) — start with [BP_OE_WF.md](docs/academy/BP_OE_WF.md)
-
-
+Creative Commons Attribution–ShareAlike 4.0 International. See [LICENSE](LICENSE).

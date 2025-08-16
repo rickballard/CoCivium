@@ -1,3 +1,4 @@
+---
 version: 0.1
 tiers: [observer, participant, voting, infra]
 admission:
@@ -19,3 +20,4 @@ roles:
   guardians: ["gh:rickballard"]
   stewards: ["gh:rickballard"]
   auditors: []
+

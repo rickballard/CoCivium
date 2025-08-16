@@ -13,7 +13,7 @@ Tracks every file altered or regenerated.
 [✔] Voices_of_Alignment.md  
 → New file  
 → Footprint: ⊘  
-→ Notes: Gallery of thinkers aligned with Civium principles
+→ Notes: Gallery of thinkers aligned with CoCivium principles
 
 [✔] Coherence_Track.md  
 → New file  
@@ -44,3 +44,4 @@ Tracks every file altered or regenerated.
 [✔] README_git.md → Replaced by README_admin.md  
 → Footprint: ⊘  
 → Notes: Refactored to match renamed /admin/ folder
+

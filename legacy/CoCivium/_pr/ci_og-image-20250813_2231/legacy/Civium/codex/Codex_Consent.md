@@ -7,7 +7,7 @@ It is an ongoing, context-aware, revocable process that must remain intelligible
 
 ## I. Foundations
 
-In Civium, **Consent** means:
+In CoCivium, **Consent** means:
 
 - Freely given, not presumed  
 - Continuously reviewable  
@@ -47,7 +47,7 @@ Consent fails when:
 - Hidden in complexity  
 - Treated as permanent
 
-Civium encodes **semantic auditability** as a default for all acts of permission.
+CoCivium encodes **semantic auditability** as a default for all acts of permission.
 
 —Footprint: ⊘  
 [ ∴ ✦ ∵ ]  

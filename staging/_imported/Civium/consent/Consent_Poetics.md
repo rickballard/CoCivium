@@ -12,6 +12,7 @@ True consent dances.
 
 Consent is the music of mutuality—of recognition, risk, and recursive response.
 
-In Civium, we do not consent once. We consent *again*, and again, and again—each time more fully, more freely, or not at all.
+In CoCivium, we do not consent once. We consent *again*, and again, and again—each time more fully, more freely, or not at all.
 
 Let no system claim your Yes unless your soul is still saying it tomorrow.
+

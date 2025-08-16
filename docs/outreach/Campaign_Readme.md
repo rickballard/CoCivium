@@ -1,6 +1,6 @@
 # Influencer & Media Campaign — Starter Pack
 
-**Goal:** Earn public review and thoughtful endorsements for CoCivium’s consent‑first governance pack.  Drive contributors to adapters and pilots.
+**Goal:** Earn public review and thoughtful endorsements for CoCoCivium’s consent‑first governance pack.  Drive contributors to adapters and pilots.
 
 **KPIs:** Views on article, RFC comments, signatories, roundtable RSVPs, stars/forks on adapters, media mentions.
 

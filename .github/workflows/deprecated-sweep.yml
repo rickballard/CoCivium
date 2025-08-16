@@ -1,0 +1,29 @@
+---
+name: Deprecated Terms Sweep
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.txt"
+      - "**/*.html"
+      - "**/*.yml"
+      - "**/*.yaml"
+      - "**/*.ps1"
+  push:
+    branches: ["**"]
+    paths:
+      - "**/*.md"
+      - "**/*.txt"
+      - "**/*.html"
+      - "**/*.yml"
+      - "**/*.yaml"
+      - "**/*.ps1"
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for deprecated terms
+        shell: pwsh
+        run: pwsh tools/deprecated-sweep.ps1
+

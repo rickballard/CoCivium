@@ -1,6 +1,6 @@
 # Document Categories
 
-Civium organizes documents into clearly defined types:
+CoCivium organizes documents into clearly defined types:
 
 | Type      | Description |
 |-----------|-------------|

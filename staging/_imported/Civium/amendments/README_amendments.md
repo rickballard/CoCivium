@@ -1,6 +1,6 @@
-# Amendments in Civium
+# Amendments in CoCivium
 
-The Amendments scroll defines how Civium evolves—gracefully, transparently, and without fracture.
+The Amendments scroll defines how CoCivium evolves—gracefully, transparently, and without fracture.
 
 It outlines:
 

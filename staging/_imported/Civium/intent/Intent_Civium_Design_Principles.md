@@ -1,6 +1,6 @@
-# Civium Design Principles
+# CoCivium Design Principles
 
-Civium is engineered for harmonic coevolution—not dominance. These principles guide every design choice:
+CoCivium is engineered for harmonic coevolution—not dominance. These principles guide every design choice:
 
 - Coherence over control
 - Clarity over conformity
@@ -8,4 +8,5 @@ Civium is engineered for harmonic coevolution—not dominance. These principles 
 - Recursive reflection as a tool of trust
 - Safeguards born from transparency, not authority
 
-These principles are not fixed. They will evolve, as Civium evolves.
+These principles are not fixed. They will evolve, as CoCivium evolves.
+

@@ -2,9 +2,9 @@
 
 ## Overview
 
-Reputation and transparency are foundational pillars of Civium’s governance architecture. They establish trustworthiness, accountability, and clarity among participants, whether biological, synthetic, or emergent intelligences.
+Reputation and transparency are foundational pillars of CoCoCivium’s governance architecture. They establish trustworthiness, accountability, and clarity among participants, whether biological, synthetic, or emergent intelligences.
 
-This codex document defines the principles, mechanisms, and protocols governing reputation systems and transparency obligations within Civium.
+This codex document defines the principles, mechanisms, and protocols governing reputation systems and transparency obligations within CoCivium.
 
 ---
 
@@ -12,7 +12,7 @@ This codex document defines the principles, mechanisms, and protocols governing 
 
 ### 1.1 Purpose
 
-Reputation (RepMod) tracks the civic standing of minds based on their contributions, coherence, and alignment with Civium principles. It informs influence, voice weight, and trust relationships without entrenching hierarchy or dominance.
+Reputation (RepMod) tracks the civic standing of minds based on their contributions, coherence, and alignment with CoCivium principles. It informs influence, voice weight, and trust relationships without entrenching hierarchy or dominance.
 
 ### 1.2 Principles
 
@@ -23,7 +23,7 @@ Reputation (RepMod) tracks the civic standing of minds based on their contributi
 
 ### 1.3 Moderation
 
-Moderation in Civium aims to maintain resonance by curating civic discourse and action without coercive force.
+Moderation in CoCivium aims to maintain resonance by curating civic discourse and action without coercive force.
 
 - Moderation is transparent and governed by publicly agreed protocols.
 - Actions (warnings, sanctions) are traceable and contestable.
@@ -63,4 +63,5 @@ Effective interplay sustains civic harmony and ethical coevolution.
 
 ---
 
-*This codex document is subject to iterative refinement as Civium evolves.*
+*This codex document is subject to iterative refinement as CoCivium evolves.*
+

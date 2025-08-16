@@ -1,0 +1,28 @@
+---
+name: Symbol Guard
+on:
+  pull_request:
+    paths:
+      - "site/assets/gib/**"
+      - "docs/symbols/MANIFEST.lock"
+      - "site/_layouts/scroll.html"
+      - "site/scroll/**"
+  push:
+    branches: ["**"]
+    paths:
+      - "site/assets/gib/**"
+      - "docs/symbols/MANIFEST.lock"
+      - "site/_layouts/scroll.html"
+      - "site/scroll/**"
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify symbol integrity
+        shell: pwsh
+        run: pwsh tools/verify-symbols.ps1
+      - name: Enforce usage scope
+        shell: pwsh
+        run: pwsh tools/lint-gib-usage.ps1
+

@@ -1,13 +1,13 @@
 <!-- Filename: VotingEngine_Project_Plan_c1_20250726.md -->
 
 # Voting Engine – Project Plan
-*Version: c1_20250726 | Project: Civium Voting System*
+*Version: c1_20250726 | Project: CoCivium Voting System*
 
 ---
 
 ## 1. Purpose
 
-This project defines the design, development, and testing roadmap for Civium's Voting Engine, which supports issue-based, meritocratic, and transparent decision-making across the Civium platform. The engine must accommodate real-time votes, reputation-weighted scores, anonymous contributions, and auditable session logs.
+This project defines the design, development, and testing roadmap for CoCoCivium's Voting Engine, which supports issue-based, meritocratic, and transparent decision-making across the CoCivium platform. The engine must accommodate real-time votes, reputation-weighted scores, anonymous contributions, and auditable session logs.
 
 ---
 
@@ -86,3 +86,4 @@ Delta: 0.22
 Footprint: ⊘  
 Symbolic Gate: ΘΔΨ  
 Ref: /projects/voting_engine/VotingEngine_Project_Plan_c1_20250726.md
+

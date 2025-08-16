@@ -1,4 +1,4 @@
-# Civium Code of Conduct
+# CoCivium Code of Conduct
 
 ## Our Pledge
 We pledge to make participation in CoCivium an open, harassment-free experience for everyone.
@@ -12,7 +12,7 @@ Examples of behavior that contribute to a positive environment:
 Examples of unacceptable behavior:
 - Harassment, trolling, or personal attacks.
 - Publishing private information without consent.
-- Conduct that violates applicable laws or Civium principles.
+- Conduct that violates applicable laws or CoCivium principles.
 
 ## Enforcement
 The maintainers are responsible for clarifying and enforcing this Code of Conduct.  
@@ -20,3 +20,4 @@ Serious violations may result in temporary or permanent exclusion from the proje
 
 ## Attribution
 This Code of Conduct is adapted from the Contributor Covenant (v2.1).
+

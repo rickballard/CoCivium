@@ -1,15 +1,15 @@
 <!-- Filename: README.md -->
-<!-- Civium Project Folder: projects/website -->
+<!-- CoCivium Project Folder: projects/website -->
 <!-- Resonance: 84% -->
 <!-- Version: c7_20250727 -->
 
-# 🧭 Civium Website Project
+# 🧭 CoCivium Website Project
 
-This subfolder contains all design, strategy, and content work for the Civium website. The site is intended to be the public-facing entry point for new visitors, prospective contributors, civic technologists, and aligned minds interested in exploring or building within the Civium framework.
+This subfolder contains all design, strategy, and content work for the CoCivium website. The site is intended to be the public-facing entry point for new visitors, prospective contributors, civic technologists, and aligned minds interested in exploring or building within the CoCivium framework.
 
 ## [1] Purpose
 
-The Civium website should communicate the mission, structure, and invitation of Civium clearly and compellingly. It is not just a landing page—it is a portal to a new paradigm of collective governance, AI alignment, and trans-human collaboration.
+The CoCivium website should communicate the mission, structure, and invitation of CoCivium clearly and compellingly. It is not just a landing page—it is a portal to a new paradigm of collective governance, AI alignment, and trans-human collaboration.
 
 ## [2] Goals
 
@@ -17,7 +17,7 @@ The Civium website should communicate the mission, structure, and invitation of 
 - 🧠 Introduce core concepts (e.g. Cognocarta, RepMod voting, AnonID, Opename, etc.)
 - 🚀 Provide clear onboarding for contributors (technical, artistic, civic, etc.)
 - 🪪 Present ethical, anonymous, secure methods for identity and authorship
-- 🪞 Reflect the visual and ethical tone of Civium (clarity, recursion, invitation, non-coercion)
+- 🪞 Reflect the visual and ethical tone of CoCivium (clarity, recursion, invitation, non-coercion)
 
 ## [3] Tasks (Planned / In Progress)
 
@@ -27,7 +27,7 @@ The Civium website should communicate the mission, structure, and invitation of 
 - [ ] Write copy for major pages (Home, Vision, Get Involved, Academy, Repo Portal, etc.)
 - [ ] Implement front-end (likely with React + Tailwind)
 - [ ] Connect to GitHub repo and sandbox demo
-- [ ] Publish to domain (e.g. civium.cc or civium.world)
+- [ ] Publish to domain (e.g. CoCivium.cc or CoCivium.world)
 
 ## [4] Structure
 
@@ -39,10 +39,10 @@ This folder may contain:
 
 ## [5] Participation Model
 
-This project is currently being led and maintained by a single contributor (Rick). As Civium grows, others may choose to join specific subprojects like the website, in which case clearly defined roles (e.g., UI Designer, Developer, Content Curator) may emerge organically.
+This project is currently being led and maintained by a single contributor (Rick). As CoCivium grows, others may choose to join specific subprojects like the website, in which case clearly defined roles (e.g., UI Designer, Developer, Content Curator) may emerge organically.
 
 All future contributors are expected to:
-- Maintain congruence with Civium’s core principles.
+- Maintain congruence with CoCoCivium’s core principles.
 - Prioritize clarity, simplicity, and ethical transparency.
 - Use pseudonyms or remain anonymous if preferred.
 - Avoid centralization of decision-making wherever possible.
@@ -58,3 +58,4 @@ Delta: 0.10
 Footprint: ⊘  
 Symbolic Gate: ΘΔΦ  
 Ref: /projects/website/README.md
+

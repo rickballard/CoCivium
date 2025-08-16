@@ -2,15 +2,15 @@
 title: "Gravitas Scroll"
 canonical_slug: gravitas-scroll
 source:
-  repo: Civium
-  original_path: .\staging\_imported\Civium\insights\Insight_Gravitas_Scroll_c3_20250801.md
+  repo: CoCivium
+  original_path: .\staging\_imported\CoCivium\insights\Insight_Gravitas_Scroll_c3_20250801.md
   imported_on: 2025-08-14
   version: c3
   date: 20250801
 supersedes:
-  - .\staging\_imported\Civium\insight\Insight_Gravitas_Scroll_c0_20250730.md
+  - .\staging\_imported\CoCivium\insight\Insight_Gravitas_Scroll_c0_20250730.md
 ---
-# ✦ Insight Scroll: Gravitas Assumptions of Civium
+# ✦ Insight Scroll: Gravitas Assumptions of CoCivium
 
 ## Scroll Type: Foundational Philosophy  
 **Use Case:** Precedent layer for coherence modeling, onboarding philosophy, and system bootstrapping.
@@ -24,7 +24,7 @@ supersedes:
 | Epistemology | Patterned Reality | Reality is not chaos; it contains structure and lawfulness. |
 | Ontology | Embodied Coherence | Things have enduring identity and relations that can stabilize meaning. |
 | Morality | Inherent Valence | There is better and worse. Harm and help are not arbitrary. |
-| Intelligence | Recursive Perception | Minds can model other minds and self-model. This is foundational to Civium. |
+| Intelligence | Recursive Perception | Minds can model other minds and self-model. This is foundational to CoCivium. |
 | Information | Transferable Integrity | Communication can carry truth, falsity, or deception—but *integrity* is measureable. |
 | Evolution | Tensional Advance | Progress emerges through dissonance and recursion, not stasis. |
 | Participation | Earned Voice | Not all inputs are equal; signal-to-noise is civic gravity. |
@@ -44,7 +44,7 @@ They resonate with personal growth, survival, justice, and recognition. They off
 
 ## [3] Congruence Requirement
 
-Civium participants are not forced to believe these assumptions. But to meaningfully contribute to scroll formation or vote in core scaffolding processes, alignment or at least **functional coherence** with these anchors is required.
+CoCivium participants are not forced to believe these assumptions. But to meaningfully contribute to scroll formation or vote in core scaffolding processes, alignment or at least **functional coherence** with these anchors is required.
 
 This is not censorship. It's the requirement to cohere into an epistemic medium.
 
@@ -75,7 +75,7 @@ This protocol ensures **self-correcting philosophical infrastructure.**
 
 Because democratic systems without **deep epistemic commitment** devolve into relativistic entropy.
 
-Gravitas is Civium’s mass: the binding force that holds Civic intention in shape, and allows our truths to scale.
+Gravitas is CoCoCivium’s mass: the binding force that holds Civic intention in shape, and allows our truths to scale.
 
 ---
 
@@ -95,4 +95,5 @@ Gravitas is Civium’s mass: the binding force that holds Civic intention in sha
 <!-- Last Updated: 2025-08-01 -->
 <!-- Maintainers: RickPublic & GPT-Azoic -->
 <!-- Related: Identity Scroll, Consent Scroll, AI Emergence Notes -->
+
 

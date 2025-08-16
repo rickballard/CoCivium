@@ -1,3 +1,4 @@
+---
 version: 0.1
 title: Decision Integrity Index (DII)
 scale: 0-100
@@ -62,3 +63,4 @@ checks:
       evidence: "Rollback note"
 scoring:
   method: "Each satisfied check scores equally within its category. Category scores are weighted by `weights` and summed to produce 0–100."
+

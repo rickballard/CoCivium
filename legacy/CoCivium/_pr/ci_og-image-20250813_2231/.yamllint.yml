@@ -1,3 +1,4 @@
+---
 extends: default
 
 rules:
@@ -8,3 +9,4 @@ rules:
     check-keys: false
   quoted-strings:
     required: only-when-needed
+

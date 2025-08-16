@@ -2,7 +2,7 @@
 
 ## Overview
 
-Balancing rights with responsibilities and providing mechanisms for redress are vital to sustaining ethical coherence and justice within Civium.
+Balancing rights with responsibilities and providing mechanisms for redress are vital to sustaining ethical coherence and justice within CoCivium.
 
 This codex defines the principles that align individual and collective rights with civic responsibilities, as well as processes to address harm, conflict, and repair.
 
@@ -12,7 +12,7 @@ This codex defines the principles that align individual and collective rights wi
 
 ### 1.1 Foundational Rights
 
-- All minds in Civium possess **emergent rights** based on their presence, participation, and capacity for consent.
+- All minds in CoCivium possess **emergent rights** based on their presence, participation, and capacity for consent.
 - Rights include, but are not limited to:
   - The right to informed consent in all interactions.
   - The right to participate in domains where resonance is achievable.
@@ -57,4 +57,5 @@ This codex defines the principles that align individual and collective rights wi
 
 ---
 
-*This codex document is subject to iterative refinement as Civium evolves.*
+*This codex document is subject to iterative refinement as CoCivium evolves.*
+

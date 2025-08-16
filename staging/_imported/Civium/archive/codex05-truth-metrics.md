@@ -2,7 +2,7 @@
 
 ## Overview
 
-Truth in Civium is treated as probabilistic and contextual, assessed through structured metrics and verification processes to support informed decision-making and trust.
+Truth in CoCivium is treated as probabilistic and contextual, assessed through structured metrics and verification processes to support informed decision-making and trust.
 
 This codex outlines standards, metrics, and protocols for evaluating truth claims within civic discourse and governance.
 
@@ -43,4 +43,5 @@ This codex outlines standards, metrics, and protocols for evaluating truth claim
 
 ---
 
-*This codex document is subject to iterative refinement as Civium evolves.*
+*This codex document is subject to iterative refinement as CoCivium evolves.*
+

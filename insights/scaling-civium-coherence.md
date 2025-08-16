@@ -1,9 +1,9 @@
 ---
-title: "Scaling Civium Coherence"
-canonical_slug: scaling-civium-coherence
+title: "Scaling CoCivium Coherence"
+canonical_slug: scaling-CoCivium-coherence
 source:
-  repo: Civium
-  original_path: .\staging\_imported\Civium\insights\Insight_Scaling_Civium_Coherence_c2_20250801.md
+  repo: CoCivium
+  original_path: .\staging\_imported\CoCivium\insights\Insight_Scaling_Civium_Coherence_c2_20250801.md
   imported_on: 2025-08-14
   version: c2
   date: 20250801
@@ -14,9 +14,9 @@ supersedes:
 <!-- Coherence Estimate: 0.7 (early expansion phase) -->
 <!-- Status: Partial draft with explanatory segments and structure -->
 
-# ✦ Insight: Scaling Civium with Coherence and Anti-Fragility
+# ✦ Insight: Scaling CoCivium with Coherence and Anti-Fragility
 
-Civium aspires not just to grow—but to scale with wisdom, congruence, and survivability. This insight outlines the frameworks, protocols, and philosophical underpinnings needed to expand from tens to millions of participants without collapse, capture, or cognitive dilution.
+CoCivium aspires not just to grow—but to scale with wisdom, congruence, and survivability. This insight outlines the frameworks, protocols, and philosophical underpinnings needed to expand from tens to millions of participants without collapse, capture, or cognitive dilution.
 
 ---
 
@@ -42,7 +42,7 @@ Civium aspires not just to grow—but to scale with wisdom, congruence, and surv
 
 ## 4. Symbolic Breadcrumbs
 
-- Civium is a recursive medium—future members inherit context.
+- CoCivium is a recursive medium—future members inherit context.
 - Use memes, symbols, and micro-rituals to carry forward encoded wisdom.
 - Design for intergenerational legibility, not just immediate clarity.
 - Example: A symbolic “branch lock” that prevents premature collapse of deliberation paths.
@@ -79,7 +79,7 @@ Civium aspires not just to grow—but to scale with wisdom, congruence, and surv
 
 ## Summary
 
-Civium must scale like a fungal network: robust, anti-fragile, organically adaptive—and recursively meaningful. This insight serves as an evolving scaffold, not a blueprint.
+CoCivium must scale like a fungal network: robust, anti-fragile, organically adaptive—and recursively meaningful. This insight serves as an evolving scaffold, not a blueprint.
 
 ---
 
@@ -87,5 +87,6 @@ _Created: 2025-08-01
 Filename: Insight_Scaling_Civium_Coherence_c2_20250801.md  
 Scroll Status: Partial Draft  
 Maintainer: RickPublic & ChatGPT  
-Use: Insight folder in Civium repo_
+Use: Insight folder in CoCivium repo_
+
 

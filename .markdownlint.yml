@@ -1,3 +1,4 @@
+---
 default: true
 MD012: false   # multiple blank lines
 MD022: false   # blanks around headings
@@ -11,3 +12,4 @@ MD041: false   # first line should be H1
 MD049: false   # emphasis style
 MD009:
   strict: false  # trailing spaces - be tolerant in dumps
+

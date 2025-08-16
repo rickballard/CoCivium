@@ -1,27 +1,64 @@
 <svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="0%" stop-color="#0C1020"/><stop offset="100%" stop-color="#0A0D16"/></linearGradient>
-    <radialGradient id="halo" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="60%" stop-color="#8fb3ff" stop-opacity="0.12"/><stop offset="100%" stop-color="#3b3b6d" stop-opacity="0.05"/></radialGradient>
-    <filter id="soft"><feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/></filter>
+    <linearGradient id="bg" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#080b17"/><stop offset="100%" stop-color="#0b0f1f"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#e8f1ff" stop-opacity=".55"/>
+      <stop offset="45%" stop-color="#7ea7ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#3a3f6b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="mycelium" x="-30%" y="-30%" width="160%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008" numOctaves="3" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.85 0" result="noisergba"/>
+      <feBlend mode="screen" in="SourceGraphic" in2="noisergba"/>
+    </filter>
+    <linearGradient id="scrollGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141b2a"/><stop offset="100%" stop-color="#111626"/>
+    </linearGradient>
     <style><![CDATA[
-      .title{ font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; fill:#E8F1FF }
-      .sub{ fill:#9FB4CC } .ink{ fill:none; stroke:#e8e4d6; stroke-width:3; stroke-linecap:round; }
+      .title{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;fill:#E8F1FF}
+      .sub{fill:#A3B8D6}
+      .ink{fill:none;stroke:#9fd0ff;stroke-opacity:.25;stroke-width:2.2;stroke-linecap:round}
+      .ink2{fill:none;stroke:#b9ffcf;stroke-opacity:.18;stroke-width:1.6;stroke-linecap:round}
+      .roll{fill:#0d1322;stroke:#2a3350;stroke-width:1.5}
+      .scrollEdge{stroke:#2a3350;stroke-width:2;fill:url(#scrollGrad)}
     ]]></style>
   </defs>
+
   <rect width="1200" height="628" fill="url(#bg)"/>
-  <circle cx="600" cy="270" r="230" fill="url(#halo)"/>
-  <!-- parchment -->
-  <g transform="translate(150,120)"><rect x="0" y="0" rx="14" ry="14" width="900" height="360" fill="#141821" stroke="#2a3348" stroke-width="2"/>
-    <rect x="18" y="18" rx="10" ry="10" width="864" height="324" fill="#1a1f2c" stroke="#2a3348" stroke-width="1"/>
-    <!-- decorative inkwaves -->
-    <path class="ink" stroke-opacity=".18" d="M40,80 C180,30 280,140 440,110 C600,80 720,160 840,120" filter="url(#soft)"/>
-    <path class="ink" stroke-opacity=".12" d="M40,160 C180,110 280,220 440,190 C600,160 720,240 840,200" filter="url(#soft)"/>
+  <circle cx="600" cy="270" r="260" fill="url(#halo)"/>
+
+  <g opacity=".65">
+    <circle cx="104" cy="120" r="1.2" fill="#cfe3ff"/><circle cx="210" cy="80" r="1.0" fill="#d7dbff"/>
+    <circle cx="980" cy="140" r="1.4" fill="#eef4ff"/><circle cx="860" cy="90" r="1.1" fill="#c4d7ff"/>
+    <circle cx="1080" cy="300" r="1.3" fill="#d0e8ff"/><circle cx="90" cy="320" r="1.1" fill="#d0e8ff"/>
+    <circle cx="300" cy="520" r="1.2" fill="#e8f1ff"/><circle cx="970" cy="510" r="1.0" fill="#e8f1ff"/>
   </g>
-  <!-- glyph CC in the header -->
-  <g transform="translate(600,210)"><path d="M -68,0 a68,68 0 1,0 0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/>
-      <path d="M  68,0 a68,68 0 1,1 -0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/></g>
+
+  <g transform="translate(150,140)" filter="url(#mycelium)">
+    <g filter="url(#glow)">
+      <path class="roll" d="M0,40 a26,26 0 0 1 26,-26 h20 v312 h-20 a26,26 0 0 1 -26,-26 z"/>
+      <path class="roll" d="M900,14 h20 a26,26 0 0 1 26,26 v260 a26,26 0 0 1 -26,26 h-20 z"/>
+    </g>
+    <rect x="24" y="0" rx="16" ry="16" width="852" height="340" class="scrollEdge"/>
+    <g filter="url(#glow)">
+      <path class="ink"  d="M60,90 C150,40 230,140 360,110 C500,75 620,160 780,120"/>
+      <path class="ink2" d="M60,150 C150,100 230,200 360,170 C500,140 620,220 780,190"/>
+      <path class="ink"  d="M80,230 C180,210 280,260 420,230 C560,200 660,260 810,240"/>
+    </g>
+  </g>
+
+  <g transform="translate(600,210)" filter="url(#glow)">
+    <path d="M -70,0 a70,70 0 1,0 0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M  70,0 a70,70 0 1,1 -0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
   <g text-anchor="middle">
-    <text class="title" x="600" y="430" font-size="34" font-weight="700">Cognocarta Consenti</text>
-    <text class="title sub" x="600" y="465" font-size="22" font-weight="500">Our living charter for consent, convergence, and coherence</text>
+    <text class="title" x="600" y="430" font-size="36" font-weight="800">Cognocarta Consenti</text>
+    <text class="title sub" x="600" y="468" font-size="22" font-weight="500">A living charter for consent, convergence, and coherence</text>
   </g>
 </svg>

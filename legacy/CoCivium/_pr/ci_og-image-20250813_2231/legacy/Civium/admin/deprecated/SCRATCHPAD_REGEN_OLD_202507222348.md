@@ -1,5 +1,5 @@
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# ✦ Civium Regen Scratchpad
+# ✦ CoCivium Regen Scratchpad
 *Updated: 2025-07-23 03:31:26*
 
 This scratchpad consolidates all outstanding planning vectors for REGEN20250722. Deprecated files have been noted and redirected to `admin/deprecated`.
@@ -43,4 +43,5 @@ This scratchpad consolidates all outstanding planning vectors for REGEN20250722.
 - Begin polishing of `Cognocarta_Consenti_c9_*.md`
 
 ---
+
 

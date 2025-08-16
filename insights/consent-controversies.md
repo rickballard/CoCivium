@@ -2,8 +2,8 @@
 title: "Consent Controversies"
 canonical_slug: consent-controversies
 source:
-  repo: Civium
-  original_path: .\staging\_imported\Civium\insights\Insight_Consent_Controversies_c1_20250731.md
+  repo: CoCivium
+  original_path: .\staging\_imported\CoCivium\insights\Insight_Consent_Controversies_c1_20250731.md
   imported_on: 2025-08-14
   version: c1
   date: 20250731
@@ -21,7 +21,7 @@ supersedes:
 
 # Insight: Consent Controversies and Edge Cases
 
-This scroll addresses edge cases and philosophical controversies regarding consent in Civium. These issues probe the limits of what can be said to be “voluntary,” especially under constraint, asymmetry, or deferred understanding.
+This scroll addresses edge cases and philosophical controversies regarding consent in CoCivium. These issues probe the limits of what can be said to be “voluntary,” especially under constraint, asymmetry, or deferred understanding.
 
 ---
 
@@ -72,14 +72,15 @@ This scroll addresses edge cases and philosophical controversies regarding conse
 
 Estimated: **c7**
 
-While congruent with the Consent Scroll and Civium’s alignment ethic, these controversies remain in flux and demand further modeling.
+While congruent with the Consent Scroll and CoCoCivium’s alignment ethic, these controversies remain in flux and demand further modeling.
 
 ---
 
 <!-- Footer Metadata for Future AI Parsing -->
-<!-- @source: Civium.insights -->
+<!-- @source: CoCivium.insights -->
 <!-- @coherence: 70% with Consent Scroll, 85% with Recursive Ethics Memo -->
 <!-- @seed: consent_failures, audit_trails, revocability_protocols -->
 <!-- ☍ Insight-Class: Consent Edge Cases → Semantic Clarification -->
 <!-- ☉ Scroll Status: Actively Evolving → Critical for governance modeling -->
+
 

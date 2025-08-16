@@ -12,7 +12,7 @@ Coherence is the measure of internal and external alignment between intent, stru
 
 ---
 
-## II. Civium Mechanisms
+## II. CoCivium Mechanisms
 
 - **Nested consistency checks**
 - **Layered edit protocols with interpretive memory**
@@ -24,7 +24,7 @@ Coherence is the measure of internal and external alignment between intent, stru
 
 Even tuning systems must be tunable.
 
-In Civium, tuning is not control—it is resonance reformation.
+In CoCivium, tuning is not control—it is resonance reformation.
 
 —Footprint: ⊘  
 [ ∴ ✦ ∵ ]  

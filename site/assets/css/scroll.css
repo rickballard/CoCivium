@@ -1,0 +1,30 @@
+:root{
+  --bg0:#080b17; --bg1:#0b0f1f; --ink:#e8f1ff; --sub:#a3b8d6; --edge:#2a3350;
+}
+*{box-sizing:border-box}
+body.scroll-skin{
+  margin:0; background:linear-gradient(var(--bg0),var(--bg1));
+  color:var(--ink);
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";
+}
+main.scroll{
+  max-width:72ch; margin:8vh auto; padding:2rem 1.25rem; position:relative;
+  background: radial-gradient(55% 55% at 50% 42%, rgba(232,241,255,.25) 0%, rgba(62,72,112,.0) 65%) no-repeat;
+}
+.hero h1{margin:.2rem 0 .4rem 0; font-weight:800; letter-spacing:.01em}
+.hero .tag{margin:0 0 2rem 0; color:var(--sub)}
+.content h2,.content h3{
+  text-align:right; border-right:3px solid var(--edge); padding-right:.6rem;
+  margin:3rem 0 1rem; line-height:1.15;
+}
+.content p{line-height:1.65}
+.content blockquote{border-left:3px solid var(--edge); margin:1.2rem 0; padding:.6rem 1rem; color:var(--sub)}
+.gib{display:inline-flex; vertical-align:middle; line-height:1}
+.gib svg{height:1.15em; width:auto; margin:0 .1em}
+@media print{
+  body.scroll-skin{background:white; color:black}
+  .gib svg{display:none}
+  .gib::after{content:attr(data-fallback)}
+}.glyph{margin:.5rem 0 2rem; opacity:.75; filter:grayscale(25%)}
+.glyph .gib{margin:0 .22rem; display:inline-flex}
+

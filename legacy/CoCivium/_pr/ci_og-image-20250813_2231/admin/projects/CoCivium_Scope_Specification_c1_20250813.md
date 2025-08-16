@@ -1,6 +1,6 @@
 # CoCivium Scope Specification (c1)
 
-**Purpose.** Define the boundaries, priorities, and milestones for CoCivium’s initial phases.  Serve as both an internal roadmap and a public‑facing invitation for contributors.
+**Purpose.** Define the boundaries, priorities, and milestones for CoCoCivium’s initial phases.  Serve as both an internal roadmap and a public‑facing invitation for contributors.
 
 **Lineage.** Derived from “CoCivium Scope Specification — Skeleton Draft” (2025‑08‑13).
 
@@ -114,3 +114,4 @@ This document is **Informative** until ratified.  Normative sections will be exp
 ### Footer (standardized)
 
 DocType: Informative (pre‑ratification)  •  Layers: 0–4 (see mappings above)  •  Version: c1 (2025-08-13)  •  CohNote: Coherence tag **_c1_**; supersede via **_c2_** with a clear changelog.  Hash: TBD.
+

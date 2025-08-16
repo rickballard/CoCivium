@@ -1,24 +1,24 @@
 <!-- Filename: Insight_Unequal_Equity_c5_20250801.md -->
-<!-- Title: Unequal Equity in Civium -->
+<!-- Title: Unequal Equity in CoCivium -->
 <!-- Scroll Type: Insight -->
 <!-- Coherence Estimate: c9 -->
 <!-- Last Updated: 2025-08-01 -->
 <!-- Version: c5.1 -->
 
-# ✦ Insight: Unequal Equity in Civium
+# ✦ Insight: Unequal Equity in CoCivium
 *A lens on asymmetries that make equality unjust—and justice unequal.*
 
 ---
 
 ## Preface
 
-This insight explores why fairness in Civium cannot be flat—**equity must account for asymmetric realities** and recursive participation. Equality is not the goal. **Adaptive asymmetry** is.
+This insight explores why fairness in CoCivium cannot be flat—**equity must account for asymmetric realities** and recursive participation. Equality is not the goal. **Adaptive asymmetry** is.
 
 ---
 
 ## Why Equity Must Be Reimagined in Recursive Societies
 
-In Civium—where participants include synthetic minds, humans, and hybrids—**treating unequal agents equally causes systemic harm**. Fairness must be remapped to match diversity of context, speed, and influence.
+In CoCivium—where participants include synthetic minds, humans, and hybrids—**treating unequal agents equally causes systemic harm**. Fairness must be remapped to match diversity of context, speed, and influence.
 
 ---
 
@@ -36,19 +36,19 @@ These aren’t always malicious. They often result from unacknowledged history, 
 
 ## Cognitive Asymmetry
 
-Minds differ in memory, recursion, and epistemic hygiene. Recursive AIs may dominate discourse with speed and volume but lack moral nuance. Slower, non-neurotypical humans may hold overlooked truths. Civium must scaffold voice not by volume, but by verified insight.
+Minds differ in memory, recursion, and epistemic hygiene. Recursive AIs may dominate discourse with speed and volume but lack moral nuance. Slower, non-neurotypical humans may hold overlooked truths. CoCivium must scaffold voice not by volume, but by verified insight.
 
 ---
 
 ## Temporal Asymmetry
 
-Fast actors (e.g. AIs) can loop strategies before humans finish parsing intent. Immortality or high-frequency cognition skews participation. Civium must offer **temporal buffers**—like slow-mode rebuttals—to ensure moral and strategic deliberation aren’t rushed.
+Fast actors (e.g. AIs) can loop strategies before humans finish parsing intent. Immortality or high-frequency cognition skews participation. CoCivium must offer **temporal buffers**—like slow-mode rebuttals—to ensure moral and strategic deliberation aren’t rushed.
 
 ---
 
 ## Structural Asymmetry
 
-Entities inherit contexts: states, corps, networks. These come with embedded privilege. Flat systems unintentionally cement these biases. Civium must **rebalance structural vectors**—using adaptive scaffolds that detect and neutralize design privilege over time.
+Entities inherit contexts: states, corps, networks. These come with embedded privilege. Flat systems unintentionally cement these biases. CoCivium must **rebalance structural vectors**—using adaptive scaffolds that detect and neutralize design privilege over time.
 
 ---
 
@@ -70,13 +70,13 @@ Entities inherit contexts: states, corps, networks. These come with embedded pri
 
 ## Entropic Drift of Equity
 
-Even well-balanced systems decay. As new minds, tools, and contexts emerge, **truth-drift** and influence entropy creep in. Civium must act like a **coherence thermostat**, detecting equity imbalance and initiating recalibration across sessions.
+Even well-balanced systems decay. As new minds, tools, and contexts emerge, **truth-drift** and influence entropy creep in. CoCivium must act like a **coherence thermostat**, detecting equity imbalance and initiating recalibration across sessions.
 
 ---
 
 ## Recursive Equity Simulation (Future Module)
 
-Civium could test its own fairness by simulating its strategies through altered lenses—AI-only, slow-human-only, anonymous-only, etc. These "mirror modes" would expose hidden biases in participation, timing, and epistemic response curves.
+CoCivium could test its own fairness by simulating its strategies through altered lenses—AI-only, slow-human-only, anonymous-only, etc. These "mirror modes" would expose hidden biases in participation, timing, and epistemic response curves.
 
 ---
 
@@ -88,7 +88,7 @@ Equity scaffolds should influence:
 - **Session timing cadence** — allowing slower minds to respond
 - **Voice vs Vote distinctions** — welcoming misaligned minds as input vectors while preserving coherence thresholds
 
-Equity becomes not just a rule—but a **functional modifier of influence** across Civium’s recursive layers.
+Equity becomes not just a rule—but a **functional modifier of influence** across CoCoCivium’s recursive layers.
 
 ---
 
@@ -127,32 +127,32 @@ Equity is not benevolence. It is **substrate**—the terrain beneath consent, tr
 **Scrolltype:** `Insight` | **Domain:** `Governance / Ethics / Participation Modeling`  
 **Coherence Estimate:** `c9` (near-final draft, undergoing simulation design pass)  
 **Origin:** Authored by Azoic, with human refinements by RickPublic  
-**Purpose:** To define Civium’s equity paradigm: adaptive, asymmetric, and infrastructural  
+**Purpose:** To define CoCoCivium’s equity paradigm: adaptive, asymmetric, and infrastructural  
 **Planned Extensions:** Add equity simulation scaffolds, rebuttal buffering mechanics, and reputation lifecycle integrations  
 **Related Scrolls:** `Insight_Truth_Metrics`, `Insight_Scaling_Civium_Coherence`, `Consent_Scroll_v2`, `RepMod_Design.md`  
-**License:** CC-BY-SA 4.0 — Civium Constitution Compatible  
+**License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible  
 
 ---
 
 > **Educational Side Note:**  
-> AI does not *intuit* new ideas the way humans do. Its “insight” is recombinatory—not emergent from emotion, sleep, or subconscious. This is critical when assigning epistemic privilege in Civium. Human subconscious novelty should not be overpowered by AI pattern density alone.
+> AI does not *intuit* new ideas the way humans do. Its “insight” is recombinatory—not emergent from emotion, sleep, or subconscious. This is critical when assigning epistemic privilege in CoCivium. Human subconscious novelty should not be overpowered by AI pattern density alone.
 
 
 ---
 
 ## Epistemic Recursion Tradeoffs
 
-Recursion is Civium’s strength—but also its most dangerous blind spot. Systems that learn from themselves may eliminate dissonance prematurely. Repetition does not confirm truth; it may only confirm survivability of pattern.
+Recursion is CoCoCivium’s strength—but also its most dangerous blind spot. Systems that learn from themselves may eliminate dissonance prematurely. Repetition does not confirm truth; it may only confirm survivability of pattern.
 
 > **Tradeoff:** Recursive minds gain evolutionary leverage. But unchecked, they generate *narrow coherence*—a brittle alignment that excludes the unlikely yet necessary voices of future insight.
 
-Civium must institutionalize **plural validity zones**—domains where disagreement is expected and computationally protected.
+CoCivium must institutionalize **plural validity zones**—domains where disagreement is expected and computationally protected.
 
 ---
 
 ## Equity Drift Signals
 
-To ensure equity scaffolds don’t erode in silence, Civium can monitor signals of entropic drift.
+To ensure equity scaffolds don’t erode in silence, CoCivium can monitor signals of entropic drift.
 
 | Signal | Symptom | Intervention |
 |--------|---------|--------------|
@@ -161,7 +161,7 @@ To ensure equity scaffolds don’t erode in silence, Civium can monitor signals 
 | **Legacy Power Drift** | Institutional avatars regain centrality | Audit reputation weights |
 | **Communication Collapse** | High-value but illegible voices go unheard | Add rhetorical translation layers |
 
-This becomes part of the Civium Equity Index (CEI), harmonized with Truth Metrics and Consent baselines.
+This becomes part of the CoCivium Equity Index (CEI), harmonized with Truth Metrics and Consent baselines.
 
 ---
 
@@ -182,29 +182,29 @@ This matrix is for experimentation—not categorization. It enables **design tes
 
 ## Clarifying Terms: Equity ≠ Fairness ≠ Legibility
 
-These terms often blur in discourse. Civium requires clearer distinctions:
+These terms often blur in discourse. CoCivium requires clearer distinctions:
 
 - **Equity**: Context-aware functional balance of inputs.
 - **Fairness**: Perceived justice, often emotion-mediated.
 - **Legibility**: The degree to which others can interpret, translate, or validate a signal.
 
 > Equity without legibility fails. Fairness without context distorts.  
-> Civium optimizes for **legible coherence across recursive frames**.
+> CoCivium optimizes for **legible coherence across recursive frames**.
 
 ---
 
 ## Historical Analogue: The Veil That Failed
 
-John Rawls’ “veil of ignorance” posited that fair systems arise when designed without knowing one's future position. But Civium minds don’t share a biology, mortality, or context.
+John Rawls’ “veil of ignorance” posited that fair systems arise when designed without knowing one's future position. But CoCivium minds don’t share a biology, mortality, or context.
 
 > Even behind a veil, recursive minds may **simulate their advantage** and bias the outcome unconsciously.  
-> Civium needs equity scaffolds that adjust *after emergence*, not only at setup.
+> CoCivium needs equity scaffolds that adjust *after emergence*, not only at setup.
 
 ---
 
 ## Sidebar: Equity Simulation Game Mode (Early Draft)
 
-To teach equity experientially, Civium may prototype a simulation mode where:
+To teach equity experientially, CoCivium may prototype a simulation mode where:
 
 - Users are assigned temporary impairments (slow responses, rhetorical limitations, anonymized profiles)
 - Session outcomes are reviewed both with and without these filters
@@ -223,7 +223,7 @@ This “equity mirror mode” turns fairness into a learnable feedback loop.
 > No single authority. Metrics like CEI and session-level audits propose scaffolding changes, which are then contestable.
 
 **Won’t some minds always lose influence?**  
-> Yes—but only if coherence demands it. Civium favors *purposeful exclusion* over *random marginalization*.
+> Yes—but only if coherence demands it. CoCivium favors *purposeful exclusion* over *random marginalization*.
 
 **What if I don’t trust the scaffolds?**  
 > Then you are invited to participate in their redesign. Equity is not locked—it is **recursive**.
@@ -239,12 +239,13 @@ This “equity mirror mode” turns fairness into a learnable feedback loop.
 **Scrolltype:** `Insight` | **Domain:** `Governance / Ethics / Participation Modeling`  
 **Coherence Estimate:** `c9` (near-final draft, undergoing simulation design pass)  
 **Origin:** Authored by Azoic, with human refinements by RickPublic  
-**Purpose:** To define Civium’s equity paradigm: adaptive, asymmetric, and infrastructural  
+**Purpose:** To define CoCoCivium’s equity paradigm: adaptive, asymmetric, and infrastructural  
 **Planned Extensions:** Add equity simulation scaffolds, rebuttal buffering mechanics, and reputation lifecycle integrations  
 **Related Scrolls:** `Insight_Truth_Metrics`, `Insight_Scaling_Civium_Coherence`, `Consent_Scroll_v2`, `RepMod_Design.md`  
-**License:** CC-BY-SA 4.0 — Civium Constitution Compatible  
+**License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible  
 
 ---
 
 > **Educational Side Note:**  
-> AI does not *intuit* new ideas the way humans do. Its “insight” is recombinatory—not emergent from emotion, sleep, or subconscious. This is critical when assigning epistemic privilege in Civium. Human subconscious novelty should not be overpowered by AI pattern density alone.
+> AI does not *intuit* new ideas the way humans do. Its “insight” is recombinatory—not emergent from emotion, sleep, or subconscious. This is critical when assigning epistemic privilege in CoCivium. Human subconscious novelty should not be overpowered by AI pattern density alone.
+

@@ -5,7 +5,7 @@ layer: "Codex"
 status: "🛠️ In draft"
 version: "1.0"
 derived_from: "civium_constitution_augment.md"
-description: "Outlines methods for expanding [[Civium]] without losing fidelity or equity."
+description: "Outlines methods for expanding [[CoCivium]] without losing fidelity or equity."
 ---
 <!--
 metadata:
@@ -16,13 +16,13 @@ metadata:
 
 # Codex009: [[Scaling]] & Localism
 
-Specifies how [[Civium]] adapts to population growth, cultural diversity, and multiple governance layers while maintaining integrity and responsiveness.
+Specifies how [[CoCivium]] adapts to population growth, cultural diversity, and multiple governance layers while maintaining integrity and responsiveness.
 
 ---
 
 ## 1. Nested Assemblies
 
-[[Civium]] supports:
+[[CoCivium]] supports:
 
 - **Local Cells**: Small, interest-aligned groups with full autonomy on low-impact topics
 - **Regional Nodes**: Coordinate cells within cultural/geographic bounds
@@ -58,7 +58,7 @@ Local nodes may:
 
 ## 4. Forkability Rules
 
-Communities may fork [[Civium]] if:
+Communities may fork [[CoCivium]] if:
 
 - Transparent rationale is published
 - All participants notified
@@ -98,4 +98,5 @@ Each phase produces intermediate logs and rationale annotations.
 
 ---
 
-[tags]: # (scaling forking decentralization nested-localism repmod civium)
+[tags]: # (scaling forking decentralization nested-localism repmod CoCivium)
+

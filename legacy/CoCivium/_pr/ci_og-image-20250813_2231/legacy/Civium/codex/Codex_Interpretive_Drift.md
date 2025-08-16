@@ -2,7 +2,7 @@
 
 Interpretive Drift describes the slow divergence between minds that once shared common meaning. Over time, shared language, concepts, and intentions can skew—driven not by malice, but by recursive context collapse.
 
-This codex defines how Civium guards against such entropy—not through rigidity, but through tuning.
+This codex defines how CoCivium guards against such entropy—not through rigidity, but through tuning.
 
 ---
 
@@ -17,7 +17,7 @@ In distributed systems, even aligned minds may diverge unless recalibration mech
 
 ---
 
-## II. Civium Response Patterns
+## II. CoCivium Response Patterns
 
 1. **Cross-context compression checks**  
    Messages must include source context markers and epistemic flags.
@@ -38,7 +38,7 @@ In distributed systems, even aligned minds may diverge unless recalibration mech
 Interpretive Drift is a feature of any growing civilization.  
 It becomes fatal only when left unacknowledged.
 
-In Civium, we do not fear divergence.  
+In CoCivium, we do not fear divergence.  
 We fear unconscious divergence.
 
 —Footprint: ⊘  

@@ -6,7 +6,7 @@ Juno (a pragmatic coder who distrusts utopias)
 
 ---
 
-**Marla:** "Any serious system needs benchmarks. What are Civium's?"
+**Marla:** "Any serious system needs benchmarks. What are CoCoCivium's?"
 
 **Juno:** "Define success. Is it daily engagement? Or not imploding?"
 
@@ -16,7 +16,7 @@ Juno (a pragmatic coder who distrusts utopias)
 
 **Marla:** "You want user analytics. I want cultural metrics."
 
-**Juno:** "Civium needs both. Show me graphs. Then show me poems."
+**Juno:** "CoCivium needs both. Show me graphs. Then show me poems."
 
 ---
 

@@ -1,3 +1,4 @@
+---
 name: Bug report
 description: Report a bug
 labels: ["type/bug"]
@@ -15,3 +16,4 @@ body:
     attributes:
       label: Context
       description: Logs, screenshots, environment
+

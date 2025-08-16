@@ -148,7 +148,7 @@ cd ~/Documents/GitHub/CoCivium
 mkdir -p meta
 cat > meta/DEPENDENCIES.md << 'EOF'
 # Operational Dependencies
-Deep vendor capability tracking lives in a private ops repo (**CoCache**). Purpose: keep CoCivium’s public surface marketing-clean while grounding specs in observed capabilities. For access, contact the maintainer.
+Deep vendor capability tracking lives in a private ops repo (**CoCache**). Purpose: keep CoCoCivium’s public surface marketing-clean while grounding specs in observed capabilities. For access, contact the maintainer.
 EOF
 
 cat > COMMIT_POINTER.txt << 'EOF'
@@ -171,3 +171,4 @@ C) First-run check
 Notes
 - This patch intentionally avoids overwriting any existing files.
 - Add Anthropic/Google watchers later using the same pattern if desired.
+

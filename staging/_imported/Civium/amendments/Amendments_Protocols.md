@@ -2,7 +2,7 @@
 
 ## 1. Proposal
 
-Any registered contributor or null contributor may propose an amendment to any scroll or structural element within Civium. Proposals must include:
+Any registered contributor or null contributor may propose an amendment to any scroll or structural element within CoCivium. Proposals must include:
 
 - A rationale for change.
 - The intended coherence improvement (estimated cX target).
@@ -30,4 +30,5 @@ If no convergence is reached, the amendment can be archived in `/experimental` o
 ## 5. Null Contributor Amendments
 
 Anonymous amendments (⊘) are allowed under stricter thresholds and AI-vetted coherence protocols. All such edits must be independently peer-reviewed.
+
 

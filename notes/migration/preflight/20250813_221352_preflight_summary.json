@@ -1,6 +1,6 @@
 [
   {
-    "Repo": "Civium",
+    "Repo": "CoCivium",
     "Visible": true,
     "DefaultBranch": "main",
     "Files": 0,
@@ -36,3 +36,4 @@
     "Notes": "ERROR: The variable '$sha?recursive' cannot be retrieved because it has not been set."
   }
 ]
+

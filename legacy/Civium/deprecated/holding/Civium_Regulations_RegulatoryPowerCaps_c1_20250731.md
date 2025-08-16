@@ -1,17 +1,17 @@
 <!-- Filename: Civium_Regulations_RegulatoryPowerCaps_c1_20250731.md -->
 <!-- Location: regulations/ -->
-<!-- Civium Policy Document -->
+<!-- CoCivium Policy Document -->
 <!-- Version: c1_20250731 -->
 
-# 🛡️ Regulatory Power Caps in Civium
+# 🛡️ Regulatory Power Caps in CoCivium
 
-> _To prevent systemic risk, protect pluralism, and preserve emergent intelligence, no single regulating authority within Civium may control a disproportionate share of the addressable governance market._
+> _To prevent systemic risk, protect pluralism, and preserve emergent intelligence, no single regulating authority within CoCivium may control a disproportionate share of the addressable governance market._
 
 ---
 
 ## [1] Rationale
 
-Civium rejects power concentration in all forms. While traditional systems guard against economic monopolies, Civium must also defend against **regulatory monopolies**—entities or clusters that accumulate outsized influence over identity, decision-making, dispute resolution, or trust certification.
+CoCivium rejects power concentration in all forms. While traditional systems guard against economic monopolies, CoCivium must also defend against **regulatory monopolies**—entities or clusters that accumulate outsized influence over identity, decision-making, dispute resolution, or trust certification.
 
 Even benevolent authorities become dangerous when their influence grows unchecked.
 
@@ -37,7 +37,7 @@ No single regulatory authority or collusive cluster may exceed:
 - **20%** of deliberation session initiations (across all domains)  
 - **25%** of dispute resolutions adjudicated over any rolling 12-month period
 
-> These caps are **dynamic** and **proportional** to total Civium volume in each category. They are periodically recalculated and published by the protocol’s observatory layer.
+> These caps are **dynamic** and **proportional** to total CoCivium volume in each category. They are periodically recalculated and published by the protocol’s observatory layer.
 
 ### 3.2. Emergency Exceptions
 
@@ -85,5 +85,6 @@ Temporary centralization is allowed during verified emergencies:
 
 > _“When regulation becomes rule, it becomes blind.  
 When rule becomes law, it forgets to listen.  
-Civium listens not through one mouth, but through many minds.”_  
+CoCivium listens not through one mouth, but through many minds.”_  
 — Archive Fragment CXCIV, Unknown Origin
+

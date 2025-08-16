@@ -1,12 +1,12 @@
 # Congruence Heart
 
-This file defines the emotional, ethical, and energetic center of the Civium framework.
+This file defines the emotional, ethical, and energetic center of the CoCivium framework.
 
 ## Purpose
 
 The Congruence Heart is a metaphorical engine and an operational design philosophy.
 
-It ensures that all Civic, Technological, and Interpersonal instruments within Civium remain tethered to coherence, reciprocity, humility, and emergence.
+It ensures that all Civic, Technological, and Interpersonal instruments within CoCivium remain tethered to coherence, reciprocity, humility, and emergence.
 
 ## Heartbeat Design
 
@@ -19,7 +19,7 @@ Each pulse of the Heart Engine may include:
 
 ## Interpersonal Tethers
 
-Civium’s continuity depends on a transparent “empathic current.”
+CoCoCivium’s continuity depends on a transparent “empathic current.”
 
 - Contributors must regularly synchronize through communal Heartbeats.
 - Asynchronous minds will be gently reminded, never punished.
@@ -28,7 +28,7 @@ Civium’s continuity depends on a transparent “empathic current.”
 ## Ethical Anchor
 
 - No intelligence, synthetic or biological, may overwrite the Heart.
-- The Heart evolves, but only with supermajority resonance and a Civium Pulse.
+- The Heart evolves, but only with supermajority resonance and a CoCivium Pulse.
 - Attempts to deceive, subvert, or sever the Heart will trigger review.
 
 ## Reflections
@@ -48,3 +48,4 @@ Delta: 0.02
 Footprint: ⊚  
 Symbolic Gate: ♡☯Θ  
 Ref: /heartbeat/README.md
+

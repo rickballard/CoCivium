@@ -1,3 +1,4 @@
+---
 name: Content gap
 description: Propose a canonical doc to add or expand
 labels: ["content"]
@@ -10,3 +11,4 @@ body:
       placeholder: The missing concept is...
     validations:
       required: true
+
