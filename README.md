@@ -66,7 +66,7 @@ IssueOps: comment `/run` with a single fenced `bash` block. See [docs/ISSUEOPS.m
 
 ## Governance
 
-- **[Repo/Site(s) succession plan](docs/succession-manifest.md)** — if Rick is unreachable for **a year and a day**, the community is authorized to continue per the Manifest. No secrets are ever released.
+**[Repo/Site(s) succession plan](docs/succession-manifest.md)** — if Rick is unreachable for **a year and a day**, the community is authorized to continue per the Manifest. No secrets are ever released.
 
 ## License
 
