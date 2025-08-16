@@ -1,0 +1,31 @@
+name: filename-sanity
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail on control/private-use/forbidden chars in filenames
+        run: |
+          set -euo pipefail
+          base="${{ github.base_ref || 'main' }}"
+          git fetch --no-tags --depth=1 origin "$base"
+          git diff --name-only --diff-filter=ACMR "origin/$base"...HEAD > /tmp/changed.txt || true
+          python3 - <<'PY'
+          import sys, re, pathlib
+          bad=[]
+          forb = re.compile(r'[:<>\\"/\\\\|?*\x00-\x1F\x7F]')   # OS-forbidden/control
+          pua  = re.compile(r'[\uE000-\uF8FF]')                # Private-use (BMP)
+          for line in pathlib.Path("/tmp/changed.txt").read_text().splitlines():
+              line=line.strip()
+              if not line: continue
+              if forb.search(line) or pua.search(line) or line.startswith(("'", '"')) or line.endswith(("'", '"')):
+                  bad.append(line)
+          if bad:
+              print("Invalid filenames detected:\\n - " + "\\n - ".join(bad))
+              sys.exit(1)
+          print("OK: filenames clean.")
+          PY
