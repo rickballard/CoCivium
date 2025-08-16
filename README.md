@@ -102,49 +102,10 @@ See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). All changes via PR, squash mer
 Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/ISSUEOPS.md](docs/ISSUEOPS.md).
 
 ## Cognocarta Consenti — the core scroll
+> Our living charter for consent, convergence, and coherence.
+> → **[Read the scroll](scroll/Cognocarta_Consenti.md)**
 
-> Our living charter for consent, convergence, and coherence.  
-**→ [Read the scroll](scroll/Cognocarta_Consenti.md)**
-
-<!-- CONSENTI-CTA-START -->
-<p align="center">
-  <a href="scroll/Cognocarta_Consenti.md" title="Open Cognocarta Consenti">
-    <img src="assets/img/consenti-scroll.png" alt="Cognocarta Consenti" width="220" />
-  </a>
-</p>
-<!-- CONSENTI-CTA-END -->
-
-<!-- CTA-START -->
-<p align="center">
-  <a href="docs/vision/CoCivium_Vision.md" title="Read the CoCivium Vision">
-    <strong>📜 Read the CoCivium Vision</strong>
-  </a>
-</p>
-<p align="center">
-  <a href="scroll/Cognocarta_Consenti.md" title="Open Cognocarta Consenti">
-    <img src="assets/img/consenti-scroll.png" alt="Cognocarta Consenti" width="220" />
-  </a>
-</p>
-<!-- CTA-END -->
-
-<!-- SUPPORT-START -->
-### Support CoCivium (temporary)
-
-Until our Open Collective is live, the **Sponsor** button links to  
-[DogsnHomes](https://dogsnhomes.org.uk/support-us/) — a *family charity*.  
-> **Important:** Donations made there **support DogsnHomes’ mission** and **do not fund CoCivium operations**.  
-Open Collective is coming soon for transparent, **no-strings-attached** CoCivium support.
-<!-- SUPPORT-END -->
-
-<!-- OC-CALLOUT-START -->
-> **Funding rail (coming soon):** We are setting up an Open Collective for transparent, no-strings-attached support.  
-> See: [Open Collective setup guide](docs/funding/OPEN_COLLECTIVE.md) and our [Gift & Sponsorship Policy](docs/FUNDING.md).
-<!-- OC-CALLOUT-END -->
-
-<!-- CONSENTI-BLURB -->
-> *Consent is the quiet engine of collective power.*  
-> Read the **Cognocarta: Consenti** → [scroll/Cognocarta_Consenti.md](scroll/Cognocarta_Consenti.md)
-<!-- /CONSENTI-BLURB -->
+[![Cognocarta Consenti — scroll preview](site/assets/cognocarta_scroll_og.svg)](scroll/Cognocarta_Consenti.md)
 
 ## Quick links
 - Wiki: https://github.com/rickballard/CoCivium/wiki
@@ -153,4 +114,5 @@ Open Collective is coming soon for transparent, **no-strings-attached** CoCivium
 > **Core Principles — Short Read:** see [docs/principles/CORE_SHORT.md](docs/principles/CORE_SHORT.md)
 
 > **CoCivium Academy:** see [docs/academy](docs/academy) — start with [BP_OE_WF.md](docs/academy/BP_OE_WF.md)
+
 

@@ -16,3 +16,5 @@ Thumbs.db
 # Local protection backups (do not commit)
 .github/branch_protection_*.json
 .github/prr_*.json
+STDOUT.tmp
+STDERR.tmp

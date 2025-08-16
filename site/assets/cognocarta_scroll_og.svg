@@ -1,0 +1,27 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="0%" stop-color="#0C1020"/><stop offset="100%" stop-color="#0A0D16"/></linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="60%" stop-color="#8fb3ff" stop-opacity="0.12"/><stop offset="100%" stop-color="#3b3b6d" stop-opacity="0.05"/></radialGradient>
+    <filter id="soft"><feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/></filter>
+    <style><![CDATA[
+      .title{ font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; fill:#E8F1FF }
+      .sub{ fill:#9FB4CC } .ink{ fill:none; stroke:#e8e4d6; stroke-width:3; stroke-linecap:round; }
+    ]]></style>
+  </defs>
+  <rect width="1200" height="628" fill="url(#bg)"/>
+  <circle cx="600" cy="270" r="230" fill="url(#halo)"/>
+  <!-- parchment -->
+  <g transform="translate(150,120)"><rect x="0" y="0" rx="14" ry="14" width="900" height="360" fill="#141821" stroke="#2a3348" stroke-width="2"/>
+    <rect x="18" y="18" rx="10" ry="10" width="864" height="324" fill="#1a1f2c" stroke="#2a3348" stroke-width="1"/>
+    <!-- decorative inkwaves -->
+    <path class="ink" stroke-opacity=".18" d="M40,80 C180,30 280,140 440,110 C600,80 720,160 840,120" filter="url(#soft)"/>
+    <path class="ink" stroke-opacity=".12" d="M40,160 C180,110 280,220 440,190 C600,160 720,240 840,200" filter="url(#soft)"/>
+  </g>
+  <!-- glyph CC in the header -->
+  <g transform="translate(600,210)"><path d="M -68,0 a68,68 0 1,0 0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/>
+      <path d="M  68,0 a68,68 0 1,1 -0.1,0" fill="none" stroke="#E4F2FF" stroke-width="6" stroke-linecap="round"/></g>
+  <g text-anchor="middle">
+    <text class="title" x="600" y="430" font-size="34" font-weight="700">Cognocarta Consenti</text>
+    <text class="title sub" x="600" y="465" font-size="22" font-weight="500">Our living charter for consent, convergence, and coherence</text>
+  </g>
+</svg>

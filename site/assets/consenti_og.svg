@@ -1,0 +1,60 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Cosmic halo -->
+    <radialGradient id="halo" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#8fb3ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3b3b6d" stop-opacity="0.05"/>
+    </radialGradient>
+
+    <!-- Subtle background -->
+    <linearGradient id="bg" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0C1020"/>
+      <stop offset="100%" stop-color="#0A0D16"/>
+    </linearGradient>
+
+    <!-- Mycelium stroke style -->
+    <style><![CDATA[
+      .myc { fill:none; stroke:#9ad0ff; stroke-opacity:.25; stroke-width:1.25; stroke-linecap:round; }
+      .myc2{ stroke:#aee6c7; stroke-opacity:.20; stroke-width:1;   }
+      .glyph { fill:none; stroke:#E4F2FF; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; }
+      .title{ font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; fill:#E8F1FF; }
+      .sub  { fill:#9FB4CC; }
+    ]]></style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="628" fill="url(#bg)"/>
+
+  <!-- halo -->
+  <circle cx="600" cy="290" r="220" fill="url(#halo)"/>
+
+  <!-- starlets -->
+  <g opacity=".45">
+    <circle cx="180" cy="90"  r="1.5" fill="#d7e7ff"/>
+    <circle cx="1030" cy="120" r="1.2" fill="#d7e7ff"/>
+    <circle cx="980" cy="520" r="1.4" fill="#d7e7ff"/>
+    <circle cx="240" cy="510" r="1.2" fill="#d7e7ff"/>
+    <circle cx="620" cy="560" r="1.1" fill="#d7e7ff"/>
+  </g>
+
+  <!-- fungal/mycelial filaments -->
+  <g>
+    <path class="myc" d="M340,460 C430,420 470,360 520,330 C560,305 590,285 630,275 C700,255 770,265 820,300"/>
+    <path class="myc" d="M380,210 C450,200 500,210 560,245 C600,268 640,310 690,335 C760,371 840,380 880,365"/>
+    <path class="myc2 myc" d="M310,330 C370,345 420,355 470,350 C540,342 610,300 650,270 C710,225 800,215 870,240"/>
+    <path class="myc2 myc" d="M360,520 C420,480 480,470 540,480 C600,490 670,510 740,500 C800,492 860,460 900,430"/>
+  </g>
+
+  <!-- interlocking “C C” glyph (Cognocara Consenti) -->
+  <g transform="translate(600,290)">
+    <path class="glyph" d="M -95,0 a95,95 0 1,0 0.1,0"/>
+    <path class="glyph" d="M  95,0 a95,95 0 1,1 -0.1,0"/>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="middle">
+    <text class="title" x="600" y="470" font-size="36" font-weight="700">Cognocara Consenti</text>
+    <text class="title sub" x="600" y="504" font-size="22" font-weight="500">Consent before coercion • human-gated AI collaboration</text>
+  </g>
+</svg>
