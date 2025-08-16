@@ -1,0 +1,10 @@
+# Grand Migration manifest (stub)
+version: 0
+repos:
+  - name: CoCivium
+    url: https://github.com/rickballard/CoCivium
+    folders:
+      - admin/gm
+      - admin/history
+notes:
+  - Add other repos here (one per line) before starting bulk moves.
