@@ -81,3 +81,10 @@ Creative Commons Attribution–ShareAlike 4.0 International. See [LICENSE](LICEN
 - [Repo/Site(s) succession plan](docs/succession-manifest.md)
 - [BPOE / Workflow record](docs/BPOE.md)
 
+
+## Governance & Ops
+- **[Community Objectives](docs/community-objectives.md)**
+- **[Ethics Charter](docs/ethics-charter.md)**
+- **[BPOE / Workflow record](docs/BPOE.md)**
+- **[Succession Manifest](docs/succession-manifest.md)**
+
