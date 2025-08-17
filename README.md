@@ -71,3 +71,13 @@ IssueOps: comment `/run` with a single fenced `bash` block. See [docs/ISSUEOPS.m
 ## License
 
 Creative Commons Attribution–ShareAlike 4.0 International. See [LICENSE](LICENSE).
+
+## Governance & Ops
+- [Repo/Site(s) succession plan](docs/succession-manifest.md)
+- [BPOE / Workflow record](docs/BPOE.md)
+
+
+## Governance & Ops
+- [Repo/Site(s) succession plan](docs/succession-manifest.md)
+- [BPOE / Workflow record](docs/BPOE.md)
+
