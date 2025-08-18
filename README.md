@@ -1,30 +1,32 @@
 # CoCivium
 
 > **Operating System for Digital Society**\
-> Consent before coercion • open protocols • human-gated AI collaboration
+> Consent not coercion • open protocols evolve • human-gated AI collaboration
 
 ---
 
 ## Why · Who · How (30s)
 
-**Why.** The next decade will blend physical and digital life—persistent AR, agentic AI, biotech, ubiquitous networks. Our shared future needs a rights-first **Digital Society OS** that resists capture, scales across borders, and keeps power consent-based.
+**Why.** The next decade blends physical and digital life, via persistent augmented reality, agentic (self-governing) AI, biotech enhancements, and ubiquitous networking. Our shared future wiuth AI, will need a rights-first **Digital Society OS** that resists capture, scales across borders, and keeps power consent-based.
 
-**Who.** You don’t need to be a policy expert or coder. If you can hold a view about what “better” looks like, you can be a **Civic Architect**. Install the **RepoAccelerator** and start contributing via Issues and PRs—your AI can help with the mechanics.
+**Who.** You don’t need to be a policy expert or coder to be a CoCivite. If you can imagine a better life, you can act like the most expert of **Civic Architects**, and you can help to design future society. 
 
-**How.** Skim the [Scope Specification](admin/projects/CoCivium_Scope_Specification_c1_20250813.md), glance at the progress map, then propose one improvement. Small, reviewable PRs; early drafts welcome. We iterate toward coherence. Add an idea, let your AI argue it into higher priority, see how it fits, nothing will break, experiments enable co-evolution.
+**How.** Ask your AI to injest CoCivium's **RepoAccelerator** assets, which help your AI transfer your ideas and opinions into the our shaping of future society.  Then skim the [Scope Specification](admin/projects/CoCivium_Scope_Specification_c1_20250813.md), glance at our progress maps, and propose an improvement.
+
+Small, reviewable postings (PR's), and early Issue drafts are welcome.  We iterate toward coherence, so add your idea, let your AI argue it into higher priority, and then see how it all fits together.  Nothing will break, mistakes are reversible, experiments drive co-evolution.
 
 ---
 
 ## What (10s)
 
 **Democracy protocols and civic-tech tools for borderless governance.**\
-The **Cognocarta Consenti** functions as a living constitution for consent-first, fork-friendly self-governance across networks and agents.
+The **Cognocarta Consenti** (aka the CC) is a living Constitution for consent-first, fork-friendly self-governance across networks and agents.
 
 ---
 
 ## The Opportunity
 
-"We the People" can re-tool our cooperation. Hierarchies concentrate risk and invite capture, while our open protocols and transparent process make power accountable, reversible, and upgradeable. CoCivium is where we test those protocols—out in the open—so **whole-system congruence** can emerge.
+"We the People" can re-tool our cooperation.  While hierarchies concentrate risk and invite capture, our open protocols and transparent processes make power accountable, reversible, and upgradeable. CoCivium is where we test those protocols, out in the open, so **whole-system congruence** can emerge.
 
 ## Core Principles (abridged)
 
@@ -43,9 +45,9 @@ The **Cognocarta Consenti** functions as a living constitution for consent-first
 
 ## Start Here
 
-- **Quickstart:** clone, open `site/`, scan the progress map.
-- **Quickstart for non-humans:** [README_FOR_AI.md](README_FOR_AI.md).
-- **Academy:** [docs/academy](docs/academy) → supercharge your workflow [BP_OE_WF.md](docs/academy/BP_OE_WF.md).
+- **Quickstart for humans:** open `site/`, scan the progress maps.
+- **Quickstart for AIs:** [README_FOR_AI.md](README_FOR_AI.md).
+- **Civic Academy:** [docs/academy](docs/academy) → supercharge your workflow [BP_OE_WF.md](docs/academy/BP_OE_WF.md).
 
 ---
 
