@@ -3,16 +3,14 @@
   <h3><em>A Civic CoConstitution For AI-Enabled Society</em></h3>
 </div>
 
-
-
-
-
 <!-- HERO:BEGIN -->
-> <div align="center"><em>“Government of the people, by the people, for the people, shall not perish from the Earth.”</em><br/>— Abraham Lincoln, <em>Gettysburg Address</em> (1863)</div>
+<p align="center">
+<img src="./assets/hero/quote.svg" alt='Government of the people… — Abraham Lincoln' width="720" />
+</p>
 
 <p align="center">
   <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
-    <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
+<img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
   </a>
 </p>
 <!-- HERO:END -->
