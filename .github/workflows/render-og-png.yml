@@ -44,4 +44,3 @@ jobs:
           else
             echo "No PNG changes to commit."
           fi
-

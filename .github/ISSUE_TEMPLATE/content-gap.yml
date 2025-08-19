@@ -11,4 +11,3 @@ body:
       placeholder: The missing concept is...
     validations:
       required: true
-

@@ -1,4 +1,18 @@
 extends: default
+
+ignore: |
+  .github/workflows.disabled/**
+
 rules:
-  line-length: { max: 999, level: warning }
-  document-start: { present: true }
+  # Allow GitHub Actions' required top-level "on:" key
+  truthy:
+    allowed-values: ['on','off','yes','no','true','false']
+    check-keys: false
+
+  # Don’t require '---' at start of every YAML doc
+  document-start: disable
+
+  # Long lines are warning, not error (workflows sometimes need long run lines)
+  line-length:
+    max: 160
+    level: warning

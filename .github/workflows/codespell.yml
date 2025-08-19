@@ -8,6 +8,3 @@ jobs:
       - uses: actions/checkout@v4
       - run: python -m pip install --upgrade pip codespell --config .codespellrc --ignore-words .codespell.words || true
       - run: codespell --config .codespellrc --ignore-words .codespell.words || true
-
-
-

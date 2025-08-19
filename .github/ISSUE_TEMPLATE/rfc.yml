@@ -30,6 +30,3 @@ body:
         - explicit-approval
     validations:
       required: true
-
-
-

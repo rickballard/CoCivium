@@ -7,3 +7,4 @@
 *.png -text
 *.jpg -text
 *.svg -text
+*.yml  text eol=lf
