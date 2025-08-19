@@ -1,0 +1,14 @@
+name: repo-quality
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run smoke checks
+        shell: pwsh
+        run: ./scripts/smoke.ps1 -Path README.md

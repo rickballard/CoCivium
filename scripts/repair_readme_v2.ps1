@@ -1,29 +1,52 @@
 Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
 $P = "$HOME\Documents\GitHub\CoCivium\README.md"
 
-# 0) Backup
-$stamp = (Get-Date).ToString('yyyyMMdd-HHmmss')
-$bak = "$P.bak.$stamp"
-Copy-Item -LiteralPath $P -Destination $bak -Force
-Write-Host "[backup] $bak"
+# --- backup ---
+$stamp = (Get-Date).ToString('yyyyMMdd-HHmmss'); $bak = "$P.bak.$stamp"
+Copy-Item -LiteralPath $P -Destination $bak -Force; Write-Host "[backup] $bak"
 
-# 1) Read bytes and repair mojibake via cp1252?utf8 round-trip
+# --- helpers ---
+function CountTok($s){ @{
+  A = ([regex]::Matches($s,'?')).Count
+  B = ([regex]::Matches($s,'?')).Count
+  R = ([regex]::Matches($s,[string][char]0xFFFD)).Count
+} }
+function Score($c){ $c.A + $c.B + ($c.R*10) }  # penalize U+FFFD heavily
+
 $bytes = [IO.File]::ReadAllBytes($P)
-$utf8s = [Text.UTF8Encoding]::new($false,$true)   # strict, no BOM
-$broken = $utf8s.GetString($bytes)                # shows the ?/? mess
-$bytes1252 = [Text.Encoding]::GetEncoding(1252).GetBytes($broken)
-$t = $utf8s.GetString($bytes1252)                 # repaired text
+$u8_strict = [Text.UTF8Encoding]::new($false,$true)
+$u8_loose  = [Text.UTF8Encoding]::new($false,$false)
 
-# 2) Strip stray PS prompts only (keep real blockquotes)
+# the mojibake-as-unicode string
+$broken = $u8_strict.GetString($bytes)
+
+# Try round-trips; pick best by minimal (?+?) and U+FFFD
+$cands = @()
+foreach($encName in  @('windows-1252','iso-8859-1')){
+  try{
+    $enc = [Text.Encoding]::GetEncoding($encName)
+    $rt  = $u8_loose.GetString($enc.GetBytes($broken))   # loose to avoid hard fail
+    $cnt = CountTok $rt
+    $cands += [pscustomobject]@{ Enc=$encName; Text=$rt; C=$cnt; Score=(Score $cnt) }
+  } catch {}
+}
+
+if(-not $cands){ throw "No round-trip candidates produced text." }
+$cands = $cands | Sort-Object Score, { $_.C.R }, { $_.C.A + $_.C.B }
+$best  = $cands[0]
+Write-Host "[round-trip] picked: $($best.Enc)  score=$($best.Score)  A=$($best.C.A) B=$($best.C.B) R=$($best.C.R)"
+$t = $best.Text
+
+# --- strip stray PS prompts (keep real blockquotes) ---
 $t = [regex]::Replace($t,'(?m)^PS [^\r\n>]*>.*$','')
 
-# 3) Normalize common punctuation to ASCII (safer for diffs)
+# --- normalize punctuation / spaces ---
 $map = @{
   0x00A0=' '; 0x2018="'"; 0x2019="'"; 0x201C='"'; 0x201D='"'; 0x2013='-'; 0x2014='-'; 0x2026='...'
 }
 foreach($k in $map.Keys){ $t = $t.Replace([string][char]$k, $map[$k]) }
 
-# 4) Ensure exactly one '---' after HOW line, and ensure '## Fix The World.' header
+# --- ensure separator and header present ---
 $lines = $t -split "`r?`n",0
 $how=-1; $firstAcro=-1
 for($i=0;$i -lt $lines.Length;$i++){
@@ -46,24 +69,19 @@ if ($firstAcro -ge 0){
 }
 $t = ($lines -join "`n")
 
-# 5) Specific punctuation fix: "insanity tsunami"**, ? "insanity tsunami",
+# --- specific punctuation fix ---
 $t = [regex]::Replace($t,'("insanity tsunami")\*\*,','$1,')
 
-# 6) Final newline normalization & save UTF-8 (no BOM)
+# --- newline normalization & save (UTF-8, no BOM) ---
 $t = ($t -replace "`r`n","`n" -replace "`r","`n").TrimEnd("`n") + "`n"
 [IO.File]::WriteAllText($P,$t,[Text.UTF8Encoding]::new($false))
 
-# 7) Health checks
-function C($s){ ([regex]::Matches($t,$s)).Count }
-$counts = [pscustomobject]@{
-  A = C('?'); B = C('?'); ReplacementChar = C([string][char]0xFFFD)
-}
-Write-Host "[counts after repair] ?=$($counts.A)  ?=$($counts.B)  U+FFFD=$($counts.ReplacementChar)"
+# --- health checks ---
+$cnt2 = CountTok $t
+Write-Host "[post-save counts] ?=$($cnt2.A)  ?=$($cnt2.B)  U+FFFD=$($cnt2.R)"
 
-# Show a short preview and a tiny hex slice
-$preview = $t.Substring(0,[Math]::Min(200,$t.Length))
-Write-Host "`n[preview]"
-Write-Output $preview
+$preview = $t.Substring(0,[Math]::Min(220,$t.Length))
+Write-Host "`n[preview]"; Write-Output $preview
 
 Write-Host "`n[hex first 96 bytes]"
 $nb = [Text.UTF8Encoding]::new($false).GetBytes($t)

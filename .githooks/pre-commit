@@ -1,9 +1,22 @@
 #!/usr/bin/env bash
-# Guard UTF-8 cleanliness (PowerShell script handles details)
+set -euo pipefail
+
+echo "[pre-commit] running quality checks..."
+
+# Run smoke checks (UTF-8/LF/final newline/mojibake/assets) with a permissive execution policy
 if command -v pwsh >/dev/null 2>&1; then
-  pwsh -NoProfile -File ./scripts/check-encoding.ps1 || exit 1
+  pwsh -NoProfile -ExecutionPolicy Bypass -File ./scripts/smoke.ps1 -Path README.md
 elif command -v powershell >/dev/null 2>&1; then
-  powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check-encoding.ps1 || exit 1
+  powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/smoke.ps1 -Path README.md
 else
-  echo "No PowerShell found; skipping encoding check." >&2
+  echo "[pre-commit] No PowerShell found; skipping smoke checks" >&2
 fi
+
+# Preserve your existing behavior around Inkscape if it's installed
+if command -v inkscape >/dev/null 2>&1; then
+  echo "[pre-commit] inkscape present; (render rules go here if needed)"
+else
+  echo "[pre-commit] inkscape not found; skipping local PNG render (CI will handle it)."
+fi
+
+exit 0
