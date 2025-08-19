@@ -10,37 +10,24 @@ NOTE TO EDITORS (offline-safe):
 
 <!-- HERO (offline placeholder) -->
 
-![HERO — replace with ./assets/hero/hero.jpg](./assets/hero/hero.jpg "If this image is missing, it's a placeholder. Keep editing; replace on commit.")
+> “<<Insert your short democracy quote here>>”  
+> — <<Attribution>>
 
- 
-
-<!-- BADGES (will 404 offline; keep for repo) -->
-
-<!-- GITHUB_ONLY: begin -->
-
-[![Build](https://img.shields.io/badge/build-passing-informational)](#)
-[![Docs](https://img.shields.io/badge/docs-clickable-blue)](#)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-
-<!-- GITHUB_ONLY: end -->
-
-<div align="center">
-<em>Digital governance CoConstitution and open tools for AI-enabled democracy.</em>
-</div>
-
----
+<p align="center">
+  <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
+</p>
 
 ## Fix The World
 
-  **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **Why:** **  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
+  **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why: **  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
   **
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **Who:** **  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Who: **  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
   **
 
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **How:** **  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; How: **  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
 
-Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while our constitutional artifacts remain openly published, complete and version/fork certified.
+> <span style="color:#6b7280">**Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while our constitutional artifacts remain openly published, complete and version/fork certified.**</span>
 
 ---
 
@@ -175,3 +162,7 @@ Apache-2.0 unless noted otherwise.  See `LICENSE`.
 -->
 
 ---
+
+---
+**Credits:** Globe animation: “Flag globe” by *Lukings* on Wikimedia Commons (CC BY-SA 3.0).  
+Source: https://commons.wikimedia.org/wiki/File:Flag_globe.gif
