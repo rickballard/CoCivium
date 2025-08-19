@@ -10,16 +10,16 @@ NOTE TO EDITORS (offline-safe):
 
 <!-- HERO (offline placeholder) -->
 
-> “<<Insert your short democracy quote here>>”  
-> — <<Attribution>>
+> “Government of the people, by the people, for the people, shall not perish from the Earth.”
+> — Abraham Lincoln, *Gettysburg Address* (1863)
 
 <p align="center">
-> “Democracy survives when citizens act before systems fail.”  
-> — CoCivium
+> “Government of the people, by the people, for the people, shall not perish from the Earth.”
+> — Abraham Lincoln, *Gettysburg Address* (1863)
 
 <p align="center">
-> “Democracy survives when citizens act before systems fail.”  
-> — CoCivium
+> “Government of the people, by the people, for the people, shall not perish from the Earth.”
+> — Abraham Lincoln, *Gettysburg Address* (1863)
 
 <p align="center">
   <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
