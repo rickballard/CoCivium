@@ -17,13 +17,13 @@ NOTE TO EDITORS (offline-safe):
 
 <h2 align="center">Fix The World</h2>
 
-  **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why: **  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
+  **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why:  **  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
   **
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Who: **  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Who:  **  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
   **
 
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; How: **  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; How:  **  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
 
 > <span style="color:#6b7280">**Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while our constitutional artifacts remain openly published, complete and version/fork certified.**</span>
 
