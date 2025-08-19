@@ -27,6 +27,12 @@ NOTE TO EDITORS (offline-safe):
 ## We The People, Empowered.
 <img src="./assets/icons/life.svg" alt="LIFE" width="20" height="20" />&nbsp; **LIFE:** Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?
 
+**Why:** Democracy needs to be rescued. Digital life is faster than law. Guardrails<<link>> must scale with agency.
+**Who:** Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
+**How:** CoConstitution, process specs, and adapters that embed dignity into civic tools.
+
+<img src="./assets/icons/life.svg" alt="LIFE" width="20" height="20" />&nbsp; **LIFE:** Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?
+
 <img src="./assets/icons/feels.svg" alt="FEELS" width="20" height="20" />&nbsp; **FEELS:** It's easy to accept that resistance is futile, or that half the country has lost the plot, captured by partisan hostility and tribal reflexes.  Our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
 
 <img src="./assets/icons/broken.svg" alt="BROKEN" width="20" height="20" />&nbsp; **BROKEN:** Some are fighting back, using rage against rage, hate versus hate, but multiplying damage.  Their faith in institutions lies crippled by exclusion and disrespect, their voices ignored while policies harden.  But anger, like an "insanity tsunami"**, becomes more coercion.
@@ -35,7 +41,7 @@ NOTE TO EDITORS (offline-safe):
 
 <img src="./assets/icons/governments.svg" alt="GOVERNMENTS" width="20" height="20" />&nbsp; **GOVERNMENTS:** Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society, existential to humanity, yet so unregulated it risks lawless chaos.
 
-<img src="./assets/icons/coevolve.svg" alt="CoEvolve" width="20" height="20" />&nbsp; **CoEvolve:** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g., acountability<<lik>>, transparency<<link>>, reversibility<<link>>).
+<img src="./assets/icons/coevolve.svg" alt="CoEvolve" width="20" height="20" />&nbsp; **CoEvolve:** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability<<link>>, transparency<<link>>, reversibility<<link>>).
 
 <img src="./assets/icons/solutions.svg" alt="SOLUTIONS" width="20" height="20" />&nbsp; **SOLUTIONS:** Our job here, as an open source community, is to **Protect Prove, and Play.  Protect:** rescue democracy from abuse of power, (e.g., evolve access controls, audit trails, adversarial-testing program).  **Prove:** keep truth verifiable in an age of synthesis, (e.g., evolve verifiable claims, signed evidence bundles, provenance check<<link>>).  **Play:** make the rules fair for everyone, including human–AI teams, (e.g., evolve fair-use rules, symmetric obligations for human–AI teams, appeal paths).
 
