@@ -9,18 +9,7 @@ concurrency:
 permissions:
   contents: read
   issues: write
-
 on:
-  push:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
-  pull_request:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
-  push:
-  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -87,6 +76,7 @@ jobs:
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
               body});
+
 
 
 

@@ -1,0 +1,133 @@
+guard	Set up job	﻿2025-08-16T06:47:05.1876176Z Current runner version: '2.327.1'
+guard	Set up job	2025-08-16T06:47:05.1903464Z ##[group]Runner Image Provisioner
+guard	Set up job	2025-08-16T06:47:05.1904282Z Hosted Compute Agent
+guard	Set up job	2025-08-16T06:47:05.1904949Z Version: 20250812.370
+guard	Set up job	2025-08-16T06:47:05.1905514Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+guard	Set up job	2025-08-16T06:47:05.1906185Z Build Date: 2025-08-12T16:08:14Z
+guard	Set up job	2025-08-16T06:47:05.1906815Z ##[endgroup]
+guard	Set up job	2025-08-16T06:47:05.1907384Z ##[group]Operating System
+guard	Set up job	2025-08-16T06:47:05.1907914Z Ubuntu
+guard	Set up job	2025-08-16T06:47:05.1908456Z 24.04.2
+guard	Set up job	2025-08-16T06:47:05.1908896Z LTS
+guard	Set up job	2025-08-16T06:47:05.1909343Z ##[endgroup]
+guard	Set up job	2025-08-16T06:47:05.1909907Z ##[group]Runner Image
+guard	Set up job	2025-08-16T06:47:05.1910454Z Image: ubuntu-24.04
+guard	Set up job	2025-08-16T06:47:05.1911275Z Version: 20250810.1.0
+guard	Set up job	2025-08-16T06:47:05.1912329Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+guard	Set up job	2025-08-16T06:47:05.1913669Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+guard	Set up job	2025-08-16T06:47:05.1914861Z ##[endgroup]
+guard	Set up job	2025-08-16T06:47:05.1917316Z ##[group]GITHUB_TOKEN Permissions
+guard	Set up job	2025-08-16T06:47:05.1919668Z Actions: write
+guard	Set up job	2025-08-16T06:47:05.1920254Z Attestations: write
+guard	Set up job	2025-08-16T06:47:05.1920876Z Checks: write
+guard	Set up job	2025-08-16T06:47:05.1921488Z Contents: write
+guard	Set up job	2025-08-16T06:47:05.1921964Z Deployments: write
+guard	Set up job	2025-08-16T06:47:05.1922468Z Discussions: write
+guard	Set up job	2025-08-16T06:47:05.1923129Z Issues: write
+guard	Set up job	2025-08-16T06:47:05.1923665Z Metadata: read
+guard	Set up job	2025-08-16T06:47:05.1924134Z Models: read
+guard	Set up job	2025-08-16T06:47:05.1924677Z Packages: write
+guard	Set up job	2025-08-16T06:47:05.1925189Z Pages: write
+guard	Set up job	2025-08-16T06:47:05.1925650Z PullRequests: write
+guard	Set up job	2025-08-16T06:47:05.1926276Z RepositoryProjects: write
+guard	Set up job	2025-08-16T06:47:05.1926814Z SecurityEvents: write
+guard	Set up job	2025-08-16T06:47:05.1927437Z Statuses: write
+guard	Set up job	2025-08-16T06:47:05.1927942Z ##[endgroup]
+guard	Set up job	2025-08-16T06:47:05.1930394Z Secret source: Actions
+guard	Set up job	2025-08-16T06:47:05.1931779Z Prepare workflow directory
+guard	Set up job	2025-08-16T06:47:05.2255033Z Prepare all required actions
+guard	Set up job	2025-08-16T06:47:05.2293903Z Getting action download info
+guard	Set up job	2025-08-16T06:47:05.4929524Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+guard	Set up job	2025-08-16T06:47:05.7850525Z Complete job name: guard
+guard	Run actions/checkout@v4	﻿2025-08-16T06:47:05.8611148Z ##[group]Run actions/checkout@v4
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8612053Z with:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8612459Z   repository: rickballard/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8613133Z   token: ***
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8613513Z   ssh-strict: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8613901Z   ssh-user: git
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8614293Z   persist-credentials: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8614737Z   clean: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8615132Z   sparse-checkout-cone-mode: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8615605Z   fetch-depth: 1
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8615987Z   fetch-tags: false
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8616375Z   show-progress: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8616779Z   lfs: false
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8617148Z   submodules: false
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8617540Z   set-safe-directory: true
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.8618181Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9688936Z Syncing repository: rickballard/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9691053Z ##[group]Getting Git version info
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9691786Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9692784Z [command]/usr/bin/git version
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9724671Z git version 2.50.1
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9751666Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9775703Z Temporarily overriding HOME='/home/runner/work/_temp/2c9e8a2e-e407-48d0-8e14-041d0c240da6' before making global git config changes
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9778057Z Adding repository directory to the temporary git global config as a safe directory
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9782554Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9818342Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9821951Z ##[group]Initializing the repository
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9826681Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9892248Z hint: Using 'master' as the name for the initial branch. This default branch name
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9894082Z hint: is subject to change. To configure the initial branch name to use in all
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9895434Z hint: of your new repositories, which will suppress this warning, call:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9896370Z hint:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9897209Z hint: 	git config --global init.defaultBranch <name>
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9898239Z hint:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9899217Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9901067Z hint: 'development'. The just-created branch can be renamed via this command:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9902365Z hint:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9903057Z hint: 	git branch -m <name>
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9903782Z hint:
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9904783Z hint: Disable this message with "git config set advice.defaultBranchName false"
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9906479Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9909335Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9944510Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9945704Z ##[group]Disabling automatic garbage collection
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9949563Z [command]/usr/bin/git config --local gc.auto 0
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9979594Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9981001Z ##[group]Setting up auth
+guard	Run actions/checkout@v4	2025-08-16T06:47:05.9987476Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0019809Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0291964Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0322720Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0548829Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0583944Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0585612Z ##[group]Fetching the repository
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.0602187Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5a0b41526f51ec1100717799c281cf9dbeb37a49:refs/remotes/origin/branding/og-png-render-v1
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5662672Z From https://github.com/rickballard/CoCivium
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5664556Z  * [new ref]         5a0b41526f51ec1100717799c281cf9dbeb37a49 -> origin/branding/og-png-render-v1
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5687363Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5688631Z ##[group]Determining the checkout info
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5690188Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5695668Z [command]/usr/bin/git sparse-checkout disable
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5735142Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5764558Z ##[group]Checking out the ref
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.5769130Z [command]/usr/bin/git checkout --progress --force -B branding/og-png-render-v1 refs/remotes/origin/branding/og-png-render-v1
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.6948972Z Switched to a new branch 'branding/og-png-render-v1'
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.6951247Z branch 'branding/og-png-render-v1' set up to track 'origin/branding/og-png-render-v1'.
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.6965209Z ##[endgroup]
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.7001946Z [command]/usr/bin/git log -1 --format=%H
+guard	Run actions/checkout@v4	2025-08-16T06:47:06.7025335Z 5a0b41526f51ec1100717799c281cf9dbeb37a49
+guard	Verify symbol integrity	﻿2025-08-16T06:47:06.7241141Z ##[group]Run pwsh tools/verify-symbols.ps1
+guard	Verify symbol integrity	2025-08-16T06:47:06.7242797Z [36;1mpwsh tools/verify-symbols.ps1[0m
+guard	Verify symbol integrity	2025-08-16T06:47:06.7274910Z shell: /usr/bin/pwsh -command ". '{0}'"
+guard	Verify symbol integrity	2025-08-16T06:47:06.7276280Z ##[endgroup]
+guard	Verify symbol integrity	2025-08-16T06:47:18.9569889Z Symbols match manifest.
+guard	Enforce usage scope	﻿2025-08-16T06:47:19.9992236Z ##[group]Run pwsh tools/lint-gib-usage.ps1
+guard	Enforce usage scope	2025-08-16T06:47:19.9992688Z [36;1mpwsh tools/lint-gib-usage.ps1[0m
+guard	Enforce usage scope	2025-08-16T06:47:20.0019795Z shell: /usr/bin/pwsh -command ". '{0}'"
+guard	Enforce usage scope	2025-08-16T06:47:20.0020127Z ##[endgroup]
+guard	Enforce usage scope	2025-08-16T06:47:20.9117039Z GIB usage OK (fallback present; not in headings; scope limited).
+guard	Post Run actions/checkout@v4	﻿2025-08-16T06:47:21.5033550Z Post job cleanup.
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.5961201Z [command]/usr/bin/git version
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.5997263Z git version 2.50.1
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6040989Z Temporarily overriding HOME='/home/runner/work/_temp/04fbe0b2-5660-4dbc-a595-26c31a33f087' before making global git config changes
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6042347Z Adding repository directory to the temporary git global config as a safe directory
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6047252Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6087154Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6119274Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6342234Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6362307Z http.https://github.com/.extraheader
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6374054Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+guard	Post Run actions/checkout@v4	2025-08-16T06:47:21.6403339Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+guard	Complete job	﻿2025-08-16T06:47:21.6725024Z Cleaning up orphan processes

@@ -1,5 +1,4 @@
 extends: default
 rules:
-  line-length: disable
-  truthy: disable
-  document-start: enable
+  line-length: { max: 999, level: warning }
+  document-start: { present: true }

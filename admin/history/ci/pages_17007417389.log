@@ -1,0 +1,237 @@
+build	Set up job	﻿2025-08-16T10:32:20.9068114Z Current runner version: '2.327.1'
+build	Set up job	2025-08-16T10:32:20.9100400Z ##[group]Runner Image Provisioner
+build	Set up job	2025-08-16T10:32:20.9101201Z Hosted Compute Agent
+build	Set up job	2025-08-16T10:32:20.9101744Z Version: 20250812.370
+build	Set up job	2025-08-16T10:32:20.9102289Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+build	Set up job	2025-08-16T10:32:20.9103346Z Build Date: 2025-08-12T16:08:14Z
+build	Set up job	2025-08-16T10:32:20.9103919Z ##[endgroup]
+build	Set up job	2025-08-16T10:32:20.9104465Z ##[group]Operating System
+build	Set up job	2025-08-16T10:32:20.9105097Z Ubuntu
+build	Set up job	2025-08-16T10:32:20.9105537Z 24.04.2
+build	Set up job	2025-08-16T10:32:20.9105982Z LTS
+build	Set up job	2025-08-16T10:32:20.9106456Z ##[endgroup]
+build	Set up job	2025-08-16T10:32:20.9106942Z ##[group]Runner Image
+build	Set up job	2025-08-16T10:32:20.9107469Z Image: ubuntu-24.04
+build	Set up job	2025-08-16T10:32:20.9108021Z Version: 20250810.1.0
+build	Set up job	2025-08-16T10:32:20.9108976Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2025-08-16T10:32:20.9110327Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+build	Set up job	2025-08-16T10:32:20.9111504Z ##[endgroup]
+build	Set up job	2025-08-16T10:32:20.9112813Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2025-08-16T10:32:20.9114608Z Contents: read
+build	Set up job	2025-08-16T10:32:20.9115137Z Metadata: read
+build	Set up job	2025-08-16T10:32:20.9115704Z Pages: write
+build	Set up job	2025-08-16T10:32:20.9116212Z ##[endgroup]
+build	Set up job	2025-08-16T10:32:20.9118123Z Secret source: Actions
+build	Set up job	2025-08-16T10:32:20.9118905Z Prepare workflow directory
+build	Set up job	2025-08-16T10:32:20.9531401Z Prepare all required actions
+build	Set up job	2025-08-16T10:32:20.9587080Z Getting action download info
+build	Set up job	2025-08-16T10:32:21.2742001Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+build	Set up job	2025-08-16T10:32:21.6326514Z Download action repository 'actions/configure-pages@v5' (SHA:983d7736d9b0ae728b81ab479565c72886d7745b)
+build	Set up job	2025-08-16T10:32:21.9925821Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+build	Set up job	2025-08-16T10:32:22.3117049Z Getting action download info
+build	Set up job	2025-08-16T10:32:22.4142857Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	Set up job	2025-08-16T10:32:22.5496490Z Complete job name: build
+build	Run actions/checkout@v4	﻿2025-08-16T10:32:22.6244180Z ##[group]Run actions/checkout@v4
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6245436Z with:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6246189Z   repository: rickballard/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6247364Z   token: ***
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6248078Z   ssh-strict: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6248825Z   ssh-user: git
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6249604Z   persist-credentials: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6250453Z   clean: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6251223Z   sparse-checkout-cone-mode: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6252142Z   fetch-depth: 1
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6253046Z   fetch-tags: false
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6253836Z   show-progress: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6254600Z   lfs: false
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6255307Z   submodules: false
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6256070Z   set-safe-directory: true
+build	Run actions/checkout@v4	2025-08-16T10:32:22.6257146Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7371207Z Syncing repository: rickballard/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7374235Z ##[group]Getting Git version info
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7375714Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7377620Z [command]/usr/bin/git version
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7388167Z git version 2.50.1
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7415251Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7430967Z Temporarily overriding HOME='/home/runner/work/_temp/3ffd11c5-de1b-4e5c-a378-1892dbe29a10' before making global git config changes
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7435861Z Adding repository directory to the temporary git global config as a safe directory
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7439433Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7477074Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7480643Z ##[group]Initializing the repository
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7485644Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7547660Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7550823Z hint: is subject to change. To configure the initial branch name to use in all
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7554220Z hint: of your new repositories, which will suppress this warning, call:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7556005Z hint:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7557294Z hint: 	git config --global init.defaultBranch <name>
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7558394Z hint:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7559426Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7561303Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7563707Z hint:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7564669Z hint: 	git branch -m <name>
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7565487Z hint:
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7566640Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7568536Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7571424Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7595255Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7596790Z ##[group]Disabling automatic garbage collection
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7598685Z [command]/usr/bin/git config --local gc.auto 0
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7626321Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7627597Z ##[group]Setting up auth
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7632321Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7661707Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7929077Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Run actions/checkout@v4	2025-08-16T10:32:22.7958077Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Run actions/checkout@v4	2025-08-16T10:32:22.8176190Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Run actions/checkout@v4	2025-08-16T10:32:22.8211100Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:22.8213521Z ##[group]Fetching the repository
+build	Run actions/checkout@v4	2025-08-16T10:32:22.8220772Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +99189075091e48932777d446a3ed6f397d7e4fec:refs/remotes/origin/ci/pages-preview
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4170938Z From https://github.com/rickballard/CoCivium
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4173297Z  * [new ref]         99189075091e48932777d446a3ed6f397d7e4fec -> origin/ci/pages-preview
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4194916Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4196665Z ##[group]Determining the checkout info
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4198298Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4201750Z [command]/usr/bin/git sparse-checkout disable
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4242209Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4271189Z ##[group]Checking out the ref
+build	Run actions/checkout@v4	2025-08-16T10:32:23.4274564Z [command]/usr/bin/git checkout --progress --force -B ci/pages-preview refs/remotes/origin/ci/pages-preview
+build	Run actions/checkout@v4	2025-08-16T10:32:23.5485069Z Switched to a new branch 'ci/pages-preview'
+build	Run actions/checkout@v4	2025-08-16T10:32:23.5487723Z branch 'ci/pages-preview' set up to track 'origin/ci/pages-preview'.
+build	Run actions/checkout@v4	2025-08-16T10:32:23.5503478Z ##[endgroup]
+build	Run actions/checkout@v4	2025-08-16T10:32:23.5540794Z [command]/usr/bin/git log -1 --format=%H
+build	Run actions/checkout@v4	2025-08-16T10:32:23.5563476Z 99189075091e48932777d446a3ed6f397d7e4fec
+build	Run actions/configure-pages@v5	﻿2025-08-16T10:32:23.5788831Z ##[group]Run actions/configure-pages@v5
+build	Run actions/configure-pages@v5	2025-08-16T10:32:23.5789826Z with:
+build	Run actions/configure-pages@v5	2025-08-16T10:32:23.5790727Z   token: ***
+build	Run actions/configure-pages@v5	2025-08-16T10:32:23.5791418Z   enablement: false
+build	Run actions/configure-pages@v5	2025-08-16T10:32:23.5792132Z ##[endgroup]
+build	Ensure stub index exists	﻿2025-08-16T10:32:23.9279856Z ##[group]Run mkdir -p site
+build	Ensure stub index exists	2025-08-16T10:32:23.9280334Z [36;1mmkdir -p site[0m
+build	Ensure stub index exists	2025-08-16T10:32:23.9280872Z [36;1mtest -e site/index.html || echo '<!doctype html><h1>CoCivium preview</h1>' > site/index.html[0m
+build	Ensure stub index exists	2025-08-16T10:32:23.9354405Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build	Ensure stub index exists	2025-08-16T10:32:23.9355111Z env:
+build	Ensure stub index exists	2025-08-16T10:32:23.9355353Z   GITHUB_PAGES: true
+build	Ensure stub index exists	2025-08-16T10:32:23.9355621Z ##[endgroup]
+build	Run actions/upload-pages-artifact@v3	﻿2025-08-16T10:32:23.9534218Z ##[group]Run actions/upload-pages-artifact@v3
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9534636Z with:
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9534878Z   path: ./site
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9535136Z   name: github-pages
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9535415Z   retention-days: 1
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9535656Z env:
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9535889Z   GITHUB_PAGES: true
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9536153Z ##[endgroup]
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9623751Z ##[group]Run echo ::group::Archive artifact
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9624192Z [36;1mecho ::group::Archive artifact[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9624527Z [36;1mtar \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9624855Z [36;1m  --dereference --hard-dereference \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9625220Z [36;1m  --directory "$INPUT_PATH" \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9625591Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9625983Z [36;1m  --exclude=.git \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9626294Z [36;1m  --exclude=.github \[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9626607Z [36;1m  .[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9626871Z [36;1mecho ::endgroup::[0m
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9694362Z shell: /usr/bin/sh -e {0}
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9694727Z env:
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9694971Z   GITHUB_PAGES: true
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9695249Z   INPUT_PATH: ./site
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9759147Z ##[endgroup]
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9819772Z ##[group]Archive artifact
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9832262Z ./
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9832919Z ./_layouts/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9833349Z ./_layouts/scroll.html
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9833814Z ./_config.yml
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9834276Z ./.preview-touch5
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9834745Z ./.preview-touch3
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9835174Z ./.keep
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9835595Z ./.preview-trigger
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9836044Z ./.preview-ping
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9836501Z ./eyes/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9836888Z ./eyes/README.md
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9837351Z ./eyes/stars.scope.json
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9837827Z ./eyes/metrics.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9838280Z ./eyes/scope.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9838764Z ./eyes/stars.metrics.json
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9839242Z ./.nojekyll
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9839656Z ./.preview-touch
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9840094Z ./index.md
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9840489Z ./scroll/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9840888Z ./scroll/index.md
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9841334Z ./index.html
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9841738Z ./assets/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9842114Z ./assets/gib/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9842454Z ./assets/gib/oath.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9843102Z ./assets/gib/commons.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9843603Z ./assets/gib/sentry.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9843940Z ./assets/gib/covenant.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9844257Z ./assets/gib/concord.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9844559Z ./assets/gib/agent.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9844896Z ./assets/gib/pluralism.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9845214Z ./assets/gib/rollback.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9845525Z ./assets/gib/evidence.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9845830Z ./assets/gib/forkrejoin.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9846153Z ./assets/gib/interop.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9846527Z ./assets/gib/consent.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9846832Z ./assets/js/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9847098Z ./assets/js/gibindex.js
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9847408Z ./assets/cognocarta_scroll_og.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9847764Z ./assets/cc_mark_48.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9848085Z ./assets/cognocarta_4k_wallpaper.jpg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9848483Z ./assets/cognocarta_tile_chip_og.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9848837Z ./assets/consenti_og.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9850544Z ./assets/favicon-16.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9851110Z ./assets/cognocarta_scroll_og_src.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9923151Z ./assets/cc_mark_512.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9924248Z ./assets/progress_map_thumb_v1_1.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9924947Z ./assets/repo_social_1280x640.jpg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9925647Z ./assets/apple-touch-icon.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9926265Z ./assets/progress_map_v0.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9926837Z ./assets/css/
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9927316Z ./assets/css/scroll.css
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9927831Z ./assets/css/site.css
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9928359Z ./assets/cc_mark_256.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9929086Z ./assets/consenti_og.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9929638Z ./assets/cc_mark_1024.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9931835Z ./assets/cognocarta_scroll_og.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9936117Z ./assets/favicon.ico
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9936708Z ./assets/cognocarta_scroll_og.jpg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9937319Z ./assets/favicon-32.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9937881Z ./assets/cognocarta_tile_chip_og.png
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9938498Z ./assets/cc_mark.svg
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:23.9941614Z ##[endgroup]
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0024786Z ##[group]Run actions/upload-artifact@v4
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0025154Z with:
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0025426Z   name: github-pages
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0025761Z   path: /home/runner/work/_temp/artifact.tar
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0026129Z   retention-days: 1
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0026420Z   if-no-files-found: error
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0026743Z   compression-level: 6
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0027030Z   overwrite: false
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0027329Z   include-hidden-files: false
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0027632Z env:
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0027900Z   GITHUB_PAGES: true
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.0028178Z ##[endgroup]
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.2117881Z With the provided path, there will be 1 file uploaded
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.2122985Z Artifact name is valid!
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.2124263Z Root directory input is valid!
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:24.3306706Z Beginning upload of artifact content to blob storage
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.0210705Z Uploaded bytes 8388608
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.1254230Z Uploaded bytes 11228397
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.1626720Z Finished uploading artifact content to blob storage!
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.1630617Z SHA256 digest of uploaded artifact zip is e5c91d7451acaf370c4ffce23c22217873c7b3aa74774fc966d5140ea826f96c
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.1632254Z Finalizing artifact upload
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.2409459Z Artifact github-pages.zip successfully finalized. Artifact ID 3779434246
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.2410688Z Artifact github-pages has been successfully uploaded! Final size is 11228397 bytes. Artifact ID is 3779434246
+build	Run actions/upload-pages-artifact@v3	2025-08-16T10:32:25.2417686Z Artifact download URL: https://github.com/rickballard/CoCivium/actions/runs/17007417389/artifacts/3779434246
+build	Post Run actions/checkout@v4	﻿2025-08-16T10:32:25.2622002Z Post job cleanup.
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3528215Z [command]/usr/bin/git version
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3564388Z git version 2.50.1
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3607017Z Temporarily overriding HOME='/home/runner/work/_temp/93a9e641-ff76-4f8b-aa24-3768765ab39c' before making global git config changes
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3608413Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3613565Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3648159Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3680412Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3906139Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3926300Z http.https://github.com/.extraheader
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3939291Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Run actions/checkout@v4	2025-08-16T10:32:25.3969411Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Complete job	﻿2025-08-16T10:32:25.4289289Z Cleaning up orphan processes

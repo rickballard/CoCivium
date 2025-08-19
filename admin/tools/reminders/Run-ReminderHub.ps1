@@ -1,126 +1,90 @@
-<<<<<<< HEAD
-# Run-ReminderHub.ps1 — v0.3 (compact, parser-safe)
-[CmdletBinding()]
-param([switch]$NoBackChats,[switch]$NoCIScan,[switch]$NoPRScan,[switch]$NoOESuggest)
-Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+param([switch]$InstallTask)
 
-$stamp = Get-Date -Format "yyyyMMdd_HHmm"
-$hist  = "admin/history"; New-Item -ItemType Directory -Force -Path $hist | Out-Null
-$out   = Join-Path $hist "Reminder_Run_$stamp.md"
-$lines = @("# Reminder Hub — $([datetime]::Now.ToString('yyyy-MM-dd HH:mm'))","")
-function Add-Section([string]$t){ $script:lines += "## $t"; $script:lines += "" }
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
 
-# 1) PR surface
-if(-not $NoPRScan){
-  Add-Section "PR status"
-  try{
-    $json  = gh pr list --state open --json number,title,isDraft,createdAt,updatedAt,url
-=======
-# Run-ReminderHub.ps1 — v0.1
-[CmdletBinding()]
-param([switch]$NoBackChats,[switch]$NoCIScan,[switch]$NoPRScan,[switch]$NoOESuggest)
-Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
-$stamp = Get-Date -Format "yyyyMMdd_HHmm"; $hist="admin/history"; New-Item -ItemType Directory -Force -Path $hist | Out-Null
-$out = Join-Path $hist "Reminder_Run_$stamp.md"
-$lines=@("# Reminder Hub — $(Get-Date -Format 'yyyy-MM-dd HH:mm')", "")
+# Ensure repo root even when launched by Task Scheduler (starts in System32)
+$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+Set-Location $RepoRoot
 
-function Add-Section($title){ $script:lines += "## $title"; $script:lines += "" }
+$IsMonday = ((Get-Date).DayOfWeek -eq 'Monday')
 
-# 1) PR surface (stale, drafts, etc.)
-if(-not $NoPRScan){
-  Add-Section "PR status"
+function Get-StalePRs {
   try {
-    $json = gh pr list --state open --json number,title,isDraft,createdAt,updatedAt,url
->>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
-    $items = if($json){ $json | ConvertFrom-Json } else { @() }
-    if(!$items){ $lines += "_No open PRs._"; $lines += "" }
-    else{
-      foreach($p in $items){
-<<<<<<< HEAD
-        $age   = [int]((New-TimeSpan -Start ([datetime]$p.createdAt) -End (Get-Date)).TotalDays)
-        $stale = ($age -gt 21 -and -not $p.isDraft)
-        $lines += ("- PR #{0} — {1}  (age:{2}d){3}  {4}" -f $p.number,$p.title,$age, $(if($p.isDraft){" [DRAFT]"}else{""}), $p.url)
-        if($stale){ $lines += "  - _Action:_ consider 'gh pr ready --undo $($p.number)' or rebase/close." }
-=======
-        $age = [int]((New-TimeSpan -Start ([datetime]$p.createdAt) -End (Get-Date)).TotalDays)
-        $stale = ($age -gt 21 -and -not $p.isDraft)
-        $lines += ("- PR #{0} — {1}  (age:{2}d){3}  {4}" -f $p.number,$p.title,$age, $(if($p.isDraft){" [DRAFT]"}else{""}), $p.url)
-        if($stale){ $lines += "  - _Action:_ consider `gh pr ready --undo $($p.number)` or rebase/close." }
->>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
-      }
-      $lines += ""
-    }
-  } catch { $lines += "_PR scan error_: $($_.Exception.Message)"; $lines += "" }
+    gh pr list --state open --json number,isDraft,updatedAt,title,url |
+      ConvertFrom-Json |
+      Where-Object { -not $_.isDraft -and ((Get-Date) - [datetime]$_.updatedAt).Days -gt 21 }
+  } catch { @() }
 }
 
-<<<<<<< HEAD
-# 2) CI snapshot
-if(-not $NoCIScan){
-  Add-Section "CI snapshot"
-  try{
-    $runs  = gh run list --limit 10 --json workflowName,status,conclusion,createdAt,url
-=======
-# 2) CI snapshot (summary of recent runs)
-if(-not $NoCIScan){
-  Add-Section "CI snapshot"
-  try{
-    $runs = gh run list --limit 10 --json workflowName,status,conclusion,createdAt,url
->>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
-    $items = if($runs){ $runs | ConvertFrom-Json } else { @() }
-    if(!$items){ $lines += "_No recent runs._"; $lines += "" }
-    else{
-      $lines += "| Workflow | Status | Conclusion | Age(d) | URL |"
-      $lines += "|---|---|---|---:|---|"
-      foreach($r in $items){
-        $age = [int]((New-TimeSpan -Start ([datetime]$r.createdAt) -End (Get-Date)).TotalDays)
-        $lines += "| $($r.workflowName) | $($r.status) | $($r.conclusion) | $age | $($r.url) |"
-      }
-      $lines += ""
-    }
-  } catch { $lines += "_CI scan error_: $($_.Exception.Message)"; $lines += "" }
-}
-
-# 3) BackChats sweep (dry run)
-if(-not $NoBackChats){
-  Add-Section "BackChats sweep (summary)"
-  try{
-    $dry = pwsh -NoProfile -ExecutionPolicy Bypass -File "admin/tools/BackChats/Run-BackChatsSweep.ps1" -DryRun 2>$null
-    if([string]::IsNullOrWhiteSpace($dry)){ $lines += "_BackChats tool produced no output (ok if inbox empty)._"; $lines += "" }
-    else{
-<<<<<<< HEAD
-      $head = ($dry -split "`r?`n") | Select-Object -First 40
-      $lines += $head; $lines += "…(truncated)…"; $lines += ""
-=======
-      # Keep it short in the reminder; full report already written by the sweep when not -DryRun.
-      $head = ($dry -split "`r?`n") | Select-Object -First 40
-      $lines += $head
-      $lines += "…(truncated)…"
-      $lines += ""
->>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
-    }
-  } catch { $lines += "_BackChats error_: $($_.Exception.Message)"; $lines += "" }
-}
-
-<<<<<<< HEAD
-# 4) OE snapshot hint
-if(-not $NoOESuggest){
-  Add-Section "OE snapshot hint"
-  $lines += "- If `admin/tools/*` changed recently or you updated tooling, capture OE:"
-  $lines += "  `pwsh -File admin/tools/bpoe/Record-Env.ps1`"
-  $lines += "- Weekly cadence reminder lives in docs/academy/BP_OE_WF.md."
-  $lines += ""
-=======
-# 4) OE snapshot suggestion (never blocks: just a nudge)
-if(-not $NoOESuggest){
-  Add-Section "OE snapshot hint"
-  $hint = @(
-    "- If `admin/tools/*` changed recently or you updated tooling, capture OE:",
-    "  `pwsh -File admin/tools/bpoe/Record-Env.ps1`",
-    "- Weekly cadence reminder is in docs/academy/BP_OE_WF.md."
+function Write-ReminderSummary {
+  $checklist = @(
+    '- [ ] PR surface'
+    '- [ ] CI snapshot'
+    '- [ ] BackChats sweep'
+    '- [ ] OE snapshot (Mon only)'
   )
-  $lines += $hint; $lines += ""
->>>>>>> 8b98fb8 (tools(reminders): add Reminder Hub (single runner for PR/CI/BackChats/OE nudges))
+
+  $body = @()
+  $body += '# Reminder Hub'
+  $body += ''
+  $body += 'Run `cc-hub` (or `pwsh -NoProfile -ExecutionPolicy Bypass -File "$HOME\Documents\GitHub\CoCivium\admin\tools\reminders\Run-ReminderHub.ps1"`).'
+  $body += 'Then I''ll skim the generated `admin/history/Reminder_Run_*.md`.'
+  if ($IsMonday) {
+    $body += 'If today is Monday, also remind me to capture an OE snapshot with `pwsh -File admin/tools/bpoe/Record-Env.ps1`.'
+  }
+  $body += 'If any PRs are >21 days and not Draft, suggest `gh pr ready --undo <num>` or closing.'
+  $body += ''
+  $body += '## Hygiene'
+  $body += ($checklist -join "`n")
+
+  $stale=@();$tmp=Get-StalePRs; if($null -ne $tmp){ $stale=@($tmp) }
+  if ($stale.Length -gt 0) {
+    $body += ''
+    $body += '### Stale PRs (>21d, not Draft)'
+    $body += ($stale | ForEach-Object {
+      "- #$($_.number): $($_.title) — $($_.url) → consider `gh pr ready --undo $($_.number)` or close"
+    })
+  }
+
+  $outDir = Join-Path $RepoRoot 'admin/history'
+  if (!(Test-Path $outDir)) { New-Item -Type Directory -Force $outDir | Out-Null }
+  $out = Join-Path $outDir ("Reminder_Run_{0}.md" -f (Get-Date -Format 'yyyyMMdd_HHmmss_fff'))
+  ($body -join "`n") | Set-Content $out -Encoding utf8
+  Write-Host "Wrote $out"
+
+  # keep only the latest 30 hub logs
+  Get-ChildItem $outDir -Filter 'Reminder_Run_*.md' -ErrorAction SilentlyContinue |
+    Sort-Object LastWriteTime -Descending |
+    Select-Object -Skip 30 |
+    Remove-Item -Force -ErrorAction SilentlyContinue
 }
 
-($lines -join "`r`n") | Out-File -Encoding utf8 -Force $out
-Write-Host "Reminder Hub wrote: $out"
+if ($InstallTask) {
+  $taskName = 'CoCivium-ReminderHub'
+
+  # Remove differently-named duplicates
+  Get-ScheduledTask -TaskName "$taskName*" -ErrorAction SilentlyContinue |
+    Where-Object { $_.TaskName -ne $taskName } |
+    Unregister-ScheduledTask -Confirm:$false -ErrorAction SilentlyContinue
+
+  # Register/replace canonical task (idempotent)
+  $pwsh = (Get-Command pwsh -ErrorAction SilentlyContinue)?.Source
+  if (-not $pwsh) { $pwsh = (Get-Command powershell).Source }
+
+  $action    = New-ScheduledTaskAction -Execute $pwsh -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`""
+  $trigger   = New-ScheduledTaskTrigger -Daily -At 08:30
+  $settings  = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew
+  $principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive -RunLevel Highest
+
+  $task = New-ScheduledTask -Action $action -Trigger $trigger -Settings $settings -Principal $principal
+  Register-ScheduledTask -TaskName $taskName -InputObject $task -Force | Out-Null
+  Write-Host "Installed/updated scheduled task '$taskName'."
+  return
+}
+
+# Normal run (single-instance guard — literal, no expansion)
+$mutex = New-Object -TypeName System.Threading.Mutex -ArgumentList @($false,'Global\CoCivium-ReminderHub')
+if (-not $mutex.WaitOne(0)) { Write-Host 'ReminderHub already running; exit.'; exit 0 }
+try { Write-ReminderSummary } finally { $mutex.ReleaseMutex(); $mutex.Dispose() }
+

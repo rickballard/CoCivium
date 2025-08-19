@@ -1,0 +1,214 @@
+lint	Set up job	﻿2025-08-16T07:40:07.3539244Z Current runner version: '2.327.1'
+lint	Set up job	2025-08-16T07:40:07.3562692Z ##[group]Runner Image Provisioner
+lint	Set up job	2025-08-16T07:40:07.3563483Z Hosted Compute Agent
+lint	Set up job	2025-08-16T07:40:07.3564116Z Version: 20250812.370
+lint	Set up job	2025-08-16T07:40:07.3564714Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+lint	Set up job	2025-08-16T07:40:07.3565399Z Build Date: 2025-08-12T16:08:14Z
+lint	Set up job	2025-08-16T07:40:07.3566035Z ##[endgroup]
+lint	Set up job	2025-08-16T07:40:07.3566573Z ##[group]Operating System
+lint	Set up job	2025-08-16T07:40:07.3567138Z Ubuntu
+lint	Set up job	2025-08-16T07:40:07.3567566Z 24.04.2
+lint	Set up job	2025-08-16T07:40:07.3568107Z LTS
+lint	Set up job	2025-08-16T07:40:07.3568526Z ##[endgroup]
+lint	Set up job	2025-08-16T07:40:07.3568999Z ##[group]Runner Image
+lint	Set up job	2025-08-16T07:40:07.3569841Z Image: ubuntu-24.04
+lint	Set up job	2025-08-16T07:40:07.3570363Z Version: 20250810.1.0
+lint	Set up job	2025-08-16T07:40:07.3571338Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+lint	Set up job	2025-08-16T07:40:07.3572737Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+lint	Set up job	2025-08-16T07:40:07.3573833Z ##[endgroup]
+lint	Set up job	2025-08-16T07:40:07.3576252Z ##[group]GITHUB_TOKEN Permissions
+lint	Set up job	2025-08-16T07:40:07.3578128Z Actions: write
+lint	Set up job	2025-08-16T07:40:07.3578789Z Attestations: write
+lint	Set up job	2025-08-16T07:40:07.3579274Z Checks: write
+lint	Set up job	2025-08-16T07:40:07.3580017Z Contents: write
+lint	Set up job	2025-08-16T07:40:07.3580623Z Deployments: write
+lint	Set up job	2025-08-16T07:40:07.3581117Z Discussions: write
+lint	Set up job	2025-08-16T07:40:07.3581618Z Issues: write
+lint	Set up job	2025-08-16T07:40:07.3582101Z Metadata: read
+lint	Set up job	2025-08-16T07:40:07.3582604Z Models: read
+lint	Set up job	2025-08-16T07:40:07.3583052Z Packages: write
+lint	Set up job	2025-08-16T07:40:07.3583621Z Pages: write
+lint	Set up job	2025-08-16T07:40:07.3584137Z PullRequests: write
+lint	Set up job	2025-08-16T07:40:07.3584681Z RepositoryProjects: write
+lint	Set up job	2025-08-16T07:40:07.3585196Z SecurityEvents: write
+lint	Set up job	2025-08-16T07:40:07.3585863Z Statuses: write
+lint	Set up job	2025-08-16T07:40:07.3586366Z ##[endgroup]
+lint	Set up job	2025-08-16T07:40:07.3588314Z Secret source: Actions
+lint	Set up job	2025-08-16T07:40:07.3589177Z Prepare workflow directory
+lint	Set up job	2025-08-16T07:40:07.3911456Z Prepare all required actions
+lint	Set up job	2025-08-16T07:40:07.3948210Z Getting action download info
+lint	Set up job	2025-08-16T07:40:07.8041331Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+lint	Set up job	2025-08-16T07:40:08.4481049Z Complete job name: lint
+lint	Run actions/checkout@v4	﻿2025-08-16T07:40:08.5226963Z ##[group]Run actions/checkout@v4
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5227791Z with:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5228204Z   repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5228866Z   token: ***
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5229248Z   ssh-strict: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5229832Z   ssh-user: git
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5230241Z   persist-credentials: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5230690Z   clean: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5231076Z   sparse-checkout-cone-mode: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5231557Z   fetch-depth: 1
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5231931Z   fetch-tags: false
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5232326Z   show-progress: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5232714Z   lfs: false
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5233070Z   submodules: false
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5233462Z   set-safe-directory: true
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.5234134Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6273079Z Syncing repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6274799Z ##[group]Getting Git version info
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6275489Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6276396Z [command]/usr/bin/git version
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6384216Z git version 2.50.1
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6409938Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6433601Z Temporarily overriding HOME='/home/runner/work/_temp/431446df-650b-48ee-8534-56d713da23ab' before making global git config changes
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6435951Z Adding repository directory to the temporary git global config as a safe directory
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6439874Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6479162Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6483151Z ##[group]Initializing the repository
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6487820Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6569190Z hint: Using 'master' as the name for the initial branch. This default branch name
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6570995Z hint: is subject to change. To configure the initial branch name to use in all
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6572030Z hint: of your new repositories, which will suppress this warning, call:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6572710Z hint:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6573185Z hint: 	git config --global init.defaultBranch <name>
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6574181Z hint:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6574890Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6576031Z hint: 'development'. The just-created branch can be renamed via this command:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6577309Z hint:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6577989Z hint: 	git branch -m <name>
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6578897Z hint:
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6580114Z hint: Disable this message with "git config set advice.defaultBranchName false"
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6581908Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6587707Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6624047Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6625229Z ##[group]Disabling automatic garbage collection
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6628761Z [command]/usr/bin/git config --local gc.auto 0
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6657148Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6658415Z ##[group]Setting up auth
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6664643Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.6694620Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7053925Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7083011Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7302649Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7344975Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7346052Z ##[group]Fetching the repository
+lint	Run actions/checkout@v4	2025-08-16T07:40:08.7354410Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +77bc6a4028d14c43cfa8f88f56fc458025f52174:refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6168898Z From https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6170630Z  * [new ref]         77bc6a4028d14c43cfa8f88f56fc458025f52174 -> origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6196039Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6197973Z ##[group]Determining the checkout info
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6200417Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6204305Z [command]/usr/bin/git sparse-checkout disable
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6251872Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6280040Z ##[group]Checking out the ref
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.6284256Z [command]/usr/bin/git checkout --progress --force -B branding/og-png-render-v1 refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.7499125Z Switched to a new branch 'branding/og-png-render-v1'
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.7502788Z branch 'branding/og-png-render-v1' set up to track 'origin/branding/og-png-render-v1'.
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.7518198Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.7554613Z [command]/usr/bin/git log -1 --format=%H
+lint	Run actions/checkout@v4	2025-08-16T07:40:09.7576455Z 77bc6a4028d14c43cfa8f88f56fc458025f52174
+lint	Run npm install -g markdownlint-cli	﻿2025-08-16T07:40:09.7799226Z ##[group]Run npm install -g markdownlint-cli
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:09.7800780Z [36;1mnpm install -g markdownlint-cli[0m
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:09.7883666Z shell: /usr/bin/bash -e {0}
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:09.7884687Z ##[endgroup]
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:14.6610566Z 
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:14.6611685Z added 104 packages in 4s
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:14.6612205Z 
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:14.6612412Z 54 packages are looking for funding
+lint	Run npm install -g markdownlint-cli	2025-08-16T07:40:14.6613440Z   run `npm fund` for details
+lint	Run markdownlint **/*.md	﻿2025-08-16T07:40:14.6793311Z ##[group]Run markdownlint **/*.md
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.6793714Z [36;1mmarkdownlint **/*.md[0m
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.6835540Z shell: /usr/bin/bash -e {0}
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.6835833Z ##[endgroup]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9735435Z codex/README.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Each file carries YAML front..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9739998Z codex/README.md:7 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Index"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9741571Z codex/README.md:10 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9743019Z consent/README.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Each file carries YAML front..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9744640Z consent/README.md:7 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Index"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9746145Z consent/README.md:10 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9746988Z discussions/README.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Each file carries YAML front..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9747931Z discussions/README.md:7 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Index"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9748758Z discussions/README.md:10 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9749929Z docs/CONTRIBUTING.md:9 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Typical flow"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9750956Z docs/CONTRIBUTING.md:10 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "1. `git switch -c feat/your-th..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9751948Z docs/FUNDING.md:3 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Current status"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9752821Z docs/FUNDING.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- **Temporary:** The GitHub *S..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9753698Z docs/FUNDING.md:9 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## No-strings policy"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9754582Z docs/FUNDING.md:10 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Support does **not** buy edi..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9755520Z docs/FUNDING.md:13 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## When Open Collective is live"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9756413Z docs/FUNDING.md:14 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Funds are held by a **fiscal..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9757293Z docs/FUNDING.md:18 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Conflicts & ethics"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9758186Z docs/FUNDING.md:19 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- We avoid arrangements that c..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9759092Z docs/ISSUEOPS.md:3 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## What it does"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9760351Z docs/ISSUEOPS.md:8 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Who can trigger"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9761302Z docs/ISSUEOPS.md:11 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## How to use"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9762220Z docs/STYLE.md:3 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Names & slugs"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9763550Z docs/STYLE.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Filenames are lowercase-with..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9764402Z docs/STYLE.md:8 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Markdown"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9765235Z docs/STYLE.md:9 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Wrap lines softly (no hard-w..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9766078Z docs/STYLE.md:13 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Provenance"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9766921Z docs/STYLE.md:14 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Never copy content into a ca..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9767780Z domains/finance.md:17 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Context"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9768880Z domains/finance.md:20 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Practices worth copying"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9770025Z domains/finance.md:21 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- **Open ledgers** with monthl..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9771054Z domains/finance.md:28 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Minimum Viable Flow"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9772317Z domains/finance.md:29 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "1) Proposal: context → options..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9773244Z domains/finance.md:32 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "4) Review on date; renew/retir..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9774226Z domains/finance.md:33 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## Diagram"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9775265Z domains/finance.md:33 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Diagram"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9776200Z domains/finance.md:34 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```mermaid"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9777035Z domains/finance.md:41 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9778237Z domains/finance.md:42 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## Experiments we'll run"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9780248Z domains/finance.md:42 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Experiments we'll run"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9781872Z domains/finance.md:43 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Publish a monthly transparen..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9783555Z domains/finance.md:46 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## How we'll measure"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9785414Z domains/finance.md:47 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "- # of decisions with review dates"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9787346Z domains/finance.md:47 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "- # of decisions with review dates"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9789085Z domains/finance.md:47 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- # of decisions with review d..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9790625Z domains/finance.md:51 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9792237Z ethos/README.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Each file carries YAML front..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9794013Z ethos/README.md:7 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Index"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9795381Z ethos/README.md:10 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9797034Z foundations/Foundational_Building_Blocks.md:3 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Purpose"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9799093Z foundations/Foundational_Building_Blocks.md:6 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Approach"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9801255Z foundations/Foundational_Building_Blocks.md:7 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Identify the foundational "a..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9803286Z foundations/Foundational_Building_Blocks.md:11 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Notes"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9805109Z identity/README.md:4 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Each file carries YAML front..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9806765Z identity/README.md:7 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Index"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9808237Z identity/README.md:10 MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9810459Z meta/Contributing_HumanGate.md:1 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "# Contributing — HumanGate Policy"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9812294Z meta/Contributing_HumanGate.md:7 MD036/no-emphasis-as-heading Emphasis used instead of a heading [Context: "Decision Trail"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9813896Z meta/Contributing_HumanGate.md:8 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Link PRs to issues/RFCs."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9816010Z meta/Doc_Headers_Footers.md:1 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "# Doc Headers & Footers — CoCivium"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9817993Z meta/Doc_Headers_Footers.md:5 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Header (Markdown)"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9819812Z meta/Doc_Headers_Footers.md:6 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9821264Z meta/Doc_Headers_Footers.md:6 MD040/fenced-code-language Fenced code blocks should have a language specified [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9822712Z meta/Doc_Headers_Footers.md:13 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9824381Z meta/Doc_Headers_Footers.md:16 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Footer (Markdown)"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9826077Z meta/Doc_Headers_Footers.md:17 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9827571Z meta/Doc_Headers_Footers.md:17 MD040/fenced-code-language Fenced code blocks should have a language specified [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9829051Z meta/Doc_Headers_Footers.md:21 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9830910Z meta/Doc_Headers_Footers.md:22 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ODT Notes (optional)"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9832997Z meta/Doc_Headers_Footers.md:22 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ODT Notes (optional)"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9834960Z meta/Doc_Headers_Footers.md:23 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Times NR ~10pt, 2 cm margins..."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9836515Z meta/ONEBLOCK_Spec.md:1 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "# ONEBLOCK Spec"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9838225Z meta/ONEBLOCK_Spec.md:4 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Expectations"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9839864Z meta/ONEBLOCK_Spec.md:5 MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- Idempotent: safe to re-run."]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9841212Z meta/ONEBLOCK_Spec.md:11 MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## Run Pattern"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9842177Z meta/ONEBLOCK_Spec.md:12 MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9843015Z meta/ONEBLOCK_Spec.md:12 MD040/fenced-code-language Fenced code blocks should have a language specified [Context: "```"]
+lint	Run markdownlint **/*.md	2025-08-16T07:40:14.9882693Z ##[error]Process completed with exit code 1.
+lint	Post Run actions/checkout@v4	﻿2025-08-16T07:40:14.9972087Z Post job cleanup.
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.0885878Z [command]/usr/bin/git version
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.0921945Z git version 2.50.1
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.0963682Z Temporarily overriding HOME='/home/runner/work/_temp/8aae89d0-6807-4006-91c0-548cf546c21f' before making global git config changes
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.0964506Z Adding repository directory to the temporary git global config as a safe directory
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.0968710Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1004748Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1037975Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1262458Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1282460Z http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1294285Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T07:40:15.1323644Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Complete job	﻿2025-08-16T07:40:15.1644126Z Cleaning up orphan processes

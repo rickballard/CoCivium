@@ -2,61 +2,61 @@
   {
     "slug": "agent",
     "path": "site/assets/gib/agent.svg",
-    "sha256": "d169ec98115b814d4543e0eda9c39f9980bee8524d15612c547a921937522ffc"
+    "sha256": "949f40a283337512c2811563a96ca68bf25a76aab97ff7ca5c7bd134bef40a79"
   },
   {
     "slug": "commons",
     "path": "site/assets/gib/commons.svg",
-    "sha256": "6673d648bb8f2ac04d3f5de4fb6a98ab63c4f84405351059f93ffdc5a37babff"
+    "sha256": "d83dba98ef3fea089bcf5b08328390c9b4b04f4d0ed3b5c01bfd865f6bef4cad"
   },
   {
     "slug": "concord",
     "path": "site/assets/gib/concord.svg",
-    "sha256": "bf63b34ffa8cfbd68e843824b958dc7e10d665d8c14fd277d09af9768b041a80"
+    "sha256": "2782c60220d1dc614521414294b21f417c05122269c6eecd54f6967ed56d51ba"
   },
   {
     "slug": "consent",
     "path": "site/assets/gib/consent.svg",
-    "sha256": "2345a3c3c64176c5c47eedf8767f3c051da9d6406115f89ccd1ec0758ff05f0b"
+    "sha256": "281aacff3e70e0c52519a966b71304d6e08ca0c6aedb065a15356f0343f2b079"
   },
   {
     "slug": "covenant",
     "path": "site/assets/gib/covenant.svg",
-    "sha256": "e2ffc1af5701060c964ed0f8f95f070be5ce6f25628786f9f3072810a8eef8ba"
+    "sha256": "3be6c097163962d0732d01ff8db97f41a2d5e569eca8aaf20e3ef6c7842da9e8"
   },
   {
     "slug": "evidence",
     "path": "site/assets/gib/evidence.svg",
-    "sha256": "4b7d6ad541b94d06e9afeb45855872f489690742d07717fa904c9e0eae7511e7"
+    "sha256": "4a0ece44d0a389c73886a74a23e38e12248680c6f23a82c1ab79a78407c4c664"
   },
   {
     "slug": "forkrejoin",
     "path": "site/assets/gib/forkrejoin.svg",
-    "sha256": "cfdb4cac2b92779a9803dd1e82f760e7e8557c8a99644872e61ac5ede4004d81"
+    "sha256": "2a026ae6687609696b04906d459f5e9e30416373b137db016e9bd19b04d2d91d"
   },
   {
     "slug": "interop",
     "path": "site/assets/gib/interop.svg",
-    "sha256": "e173e378915e11266f0eaad1200ff716a608042315894805fbd8631aadd71814"
+    "sha256": "70787c2b3039fe1ad69e287284cff1c50aa64315021ea5799bdd2429aa67e4ff"
   },
   {
     "slug": "oath",
     "path": "site/assets/gib/oath.svg",
-    "sha256": "1004911a2e8eee5974476b48b9c136413221603efba898f020aadc126385cb19"
+    "sha256": "ff7bd27adb1702fb097c63e3c6a148b6fcc59f5e48334b10afceb6c8e37e7ce6"
   },
   {
     "slug": "pluralism",
     "path": "site/assets/gib/pluralism.svg",
-    "sha256": "594a3479d03d5f1f718dbe3cc4b059bdf18810b2a833e5041118e03f8d0b2cbf"
+    "sha256": "79f5e942376cc7155729162c774a328b393af8f79484ff0540efd411d928f68b"
   },
   {
     "slug": "rollback",
     "path": "site/assets/gib/rollback.svg",
-    "sha256": "7db8043bcb6a39ecb64085a018dd5590fb882684c86fd9e54e005c784d13f713"
+    "sha256": "fa5a739a029217edb7bd3a47199295de597681761c707ceac9a18c97f7a8b253"
   },
   {
     "slug": "sentry",
     "path": "site/assets/gib/sentry.svg",
-    "sha256": "ba865f5d0bf03afa2600f89899875d09c67042a153b9174789842bf2ebcbd96e"
+    "sha256": "d5fb3811edd40a8c77105b4c0e59bf67f8486b0270d3267a621192ede8b70e55"
   }
 ]

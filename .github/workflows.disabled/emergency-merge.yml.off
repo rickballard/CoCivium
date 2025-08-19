@@ -1,22 +1,8 @@
 ---
 name: Emergency Merge (manual)
 on:
-  push:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
-  pull_request:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
   workflow_dispatch:
-    inputs:
-      pr_numbers: { description: "Comma-separated PR numbers, e.g., 46,43", required: true }
-      branch:     { description: "Protected branch", required: true, default: main }
-      strategy:   { description: "s(squash)/m(merge)/r(rebase)", required: true, default: s }
-permissions:
-  contents: read
-  pull-requests: write
+
 jobs:
   run:
     runs-on: windows-latest
@@ -29,5 +15,6 @@ jobs:
         run: |
           $prs = "${{ inputs.pr_numbers }}".Split(',') | ForEach-Object { $_.Trim() } | Where-Object { $_ }
           ./scripts/emergency-merge.ps1 -Owner "rickballard" -Repo "CoCivium" -Branch "${{ inputs.branch }}" -PRs $prs -Strategy "${{ inputs.strategy }}"
+
 
 

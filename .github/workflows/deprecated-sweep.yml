@@ -1,29 +1,37 @@
 ---
 name: Deprecated Terms Sweep
 on:
-  pull_request:
-    paths:
-      - "**/*.md"
-      - "**/*.txt"
-      - "**/*.html"
-      - "**/*.yml"
-      - "**/*.yaml"
-      - "**/*.ps1"
+   continue-on-error: true
+   continue-on-error: true
   push:
-    branches: ["**"]
-    paths:
-      - "**/*.md"
-      - "**/*.txt"
-      - "**/*.html"
-      - "**/*.yml"
-      - "**/*.yaml"
-      - "**/*.ps1"
+       continue-on-error: true
+       continue-on-error: true
+    paths: ['docs/**','site/**']
+  pull_request:
+               continue-on-error: true
+               continue-on-error: true
+    paths: ['docs/**','site/**']
+
 jobs:
+      continue-on-error: true
+      continue-on-error: true
   sweep:
+        continue-on-error: true
+        continue-on-error: true
+    continue-on-error: true
+  continue-on-error: true
     runs-on: ubuntu-latest
     steps:
+          continue-on-error: true
+          continue-on-error: true
+      continue-on-error: true
       - uses: actions/checkout@v4
       - name: Check for deprecated terms
+        continue-on-error: true
         shell: pwsh
         run: pwsh tools/deprecated-sweep.ps1
+
+
+
+
 

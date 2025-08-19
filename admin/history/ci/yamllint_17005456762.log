@@ -1,0 +1,141 @@
+lint	Set up job	﻿2025-08-16T06:41:36.7399784Z Current runner version: '2.327.1'
+lint	Set up job	2025-08-16T06:41:36.7433655Z ##[group]Runner Image Provisioner
+lint	Set up job	2025-08-16T06:41:36.7434863Z Hosted Compute Agent
+lint	Set up job	2025-08-16T06:41:36.7436046Z Version: 20250812.370
+lint	Set up job	2025-08-16T06:41:36.7437070Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+lint	Set up job	2025-08-16T06:41:36.7438251Z Build Date: 2025-08-12T16:08:14Z
+lint	Set up job	2025-08-16T06:41:36.7439359Z ##[endgroup]
+lint	Set up job	2025-08-16T06:41:36.7440196Z ##[group]Operating System
+lint	Set up job	2025-08-16T06:41:36.7441102Z Ubuntu
+lint	Set up job	2025-08-16T06:41:36.7441820Z 24.04.2
+lint	Set up job	2025-08-16T06:41:36.7442678Z LTS
+lint	Set up job	2025-08-16T06:41:36.7443362Z ##[endgroup]
+lint	Set up job	2025-08-16T06:41:36.7444165Z ##[group]Runner Image
+lint	Set up job	2025-08-16T06:41:36.7445097Z Image: ubuntu-24.04
+lint	Set up job	2025-08-16T06:41:36.7446201Z Version: 20250810.1.0
+lint	Set up job	2025-08-16T06:41:36.7447882Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+lint	Set up job	2025-08-16T06:41:36.7450260Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+lint	Set up job	2025-08-16T06:41:36.7452212Z ##[endgroup]
+lint	Set up job	2025-08-16T06:41:36.7453886Z ##[group]GITHUB_TOKEN Permissions
+lint	Set up job	2025-08-16T06:41:36.7456772Z Contents: read
+lint	Set up job	2025-08-16T06:41:36.7457770Z Metadata: read
+lint	Set up job	2025-08-16T06:41:36.7458586Z ##[endgroup]
+lint	Set up job	2025-08-16T06:41:36.7461955Z Secret source: Actions
+lint	Set up job	2025-08-16T06:41:36.7463528Z Prepare workflow directory
+lint	Set up job	2025-08-16T06:41:36.7935322Z Prepare all required actions
+lint	Set up job	2025-08-16T06:41:36.7992063Z Getting action download info
+lint	Set up job	2025-08-16T06:41:37.0151122Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+lint	Set up job	2025-08-16T06:41:37.3154792Z Complete job name: lint
+lint	Run actions/checkout@v4	﻿2025-08-16T06:41:37.3928432Z ##[group]Run actions/checkout@v4
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3929289Z with:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3929710Z   repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3930399Z   token: ***
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3930797Z   ssh-strict: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3931203Z   ssh-user: git
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3931613Z   persist-credentials: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3932065Z   clean: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3932493Z   sparse-checkout-cone-mode: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3932980Z   fetch-depth: 1
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3933376Z   fetch-tags: false
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3933774Z   show-progress: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3934184Z   lfs: false
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3934562Z   submodules: false
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3934973Z   set-safe-directory: true
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.3935852Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5024895Z Syncing repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5027029Z ##[group]Getting Git version info
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5027751Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5028735Z [command]/usr/bin/git version
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5087942Z git version 2.50.1
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5115132Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5133371Z Temporarily overriding HOME='/home/runner/work/_temp/30f239b8-1a6b-42c8-b07d-1300908f9e86' before making global git config changes
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5135930Z Adding repository directory to the temporary git global config as a safe directory
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5148020Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5185038Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5189434Z ##[group]Initializing the repository
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5194106Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5254867Z hint: Using 'master' as the name for the initial branch. This default branch name
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5256618Z hint: is subject to change. To configure the initial branch name to use in all
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5257931Z hint: of your new repositories, which will suppress this warning, call:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5258953Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5259565Z hint: 	git config --global init.defaultBranch <name>
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5260584Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5261558Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5263146Z hint: 'development'. The just-created branch can be renamed via this command:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5264761Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5265492Z hint: 	git branch -m <name>
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5266469Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5267464Z hint: Disable this message with "git config set advice.defaultBranchName false"
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5269121Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5272430Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5305998Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5307239Z ##[group]Disabling automatic garbage collection
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5310933Z [command]/usr/bin/git config --local gc.auto 0
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5340745Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5341954Z ##[group]Setting up auth
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5348700Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5379490Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5667256Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5698038Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5921970Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5958408Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5960404Z ##[group]Fetching the repository
+lint	Run actions/checkout@v4	2025-08-16T06:41:37.5978229Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +98db7642e7dd94bc3ff57522de3a3f23864ae49a:refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1043419Z From https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1045485Z  * [new ref]         98db7642e7dd94bc3ff57522de3a3f23864ae49a -> origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1070928Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1073999Z ##[group]Determining the checkout info
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1075419Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1079810Z [command]/usr/bin/git sparse-checkout disable
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1121295Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1151188Z ##[group]Checking out the ref
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.1154838Z [command]/usr/bin/git checkout --progress --force -B branding/og-png-render-v1 refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.2397002Z Switched to a new branch 'branding/og-png-render-v1'
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.2399455Z branch 'branding/og-png-render-v1' set up to track 'origin/branding/og-png-render-v1'.
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.2412960Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.2450923Z [command]/usr/bin/git log -1 --format=%H
+lint	Run actions/checkout@v4	2025-08-16T06:41:38.2472413Z 98db7642e7dd94bc3ff57522de3a3f23864ae49a
+lint	Run pip install yamllint	﻿2025-08-16T06:41:38.2689418Z ##[group]Run pip install yamllint
+lint	Run pip install yamllint	2025-08-16T06:41:38.2690766Z [36;1mpip install yamllint[0m
+lint	Run pip install yamllint	2025-08-16T06:41:38.2762366Z shell: /usr/bin/bash -e {0}
+lint	Run pip install yamllint	2025-08-16T06:41:38.2763481Z ##[endgroup]
+lint	Run pip install yamllint	2025-08-16T06:41:39.6634963Z Defaulting to user installation because normal site-packages is not writeable
+lint	Run pip install yamllint	2025-08-16T06:41:40.8033113Z Collecting yamllint
+lint	Run pip install yamllint	2025-08-16T06:41:40.8394340Z   Downloading yamllint-1.37.1-py3-none-any.whl.metadata (4.3 kB)
+lint	Run pip install yamllint	2025-08-16T06:41:40.8793715Z Collecting pathspec>=0.5.3 (from yamllint)
+lint	Run pip install yamllint	2025-08-16T06:41:40.8828542Z   Downloading pathspec-0.12.1-py3-none-any.whl.metadata (21 kB)
+lint	Run pip install yamllint	2025-08-16T06:41:40.8908169Z Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from yamllint) (6.0.1)
+lint	Run pip install yamllint	2025-08-16T06:41:40.8954670Z Downloading yamllint-1.37.1-py3-none-any.whl (68 kB)
+lint	Run pip install yamllint	2025-08-16T06:41:40.9043382Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 kB 9.0 MB/s eta 0:00:00
+lint	Run pip install yamllint	2025-08-16T06:41:40.9076057Z Downloading pathspec-0.12.1-py3-none-any.whl (31 kB)
+lint	Run pip install yamllint	2025-08-16T06:41:41.1635282Z Installing collected packages: pathspec, yamllint
+lint	Run pip install yamllint	2025-08-16T06:41:41.2149005Z Successfully installed pathspec-0.12.1 yamllint-1.37.1
+lint	Run yamllint -c .yamllint.yaml .	﻿2025-08-16T06:41:41.2763579Z ##[group]Run yamllint -c .yamllint.yaml .
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.2763998Z [36;1myamllint -c .yamllint.yaml .[0m
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.2806357Z shell: /usr/bin/bash -e {0}
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.2806605Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4006816Z Traceback (most recent call last):
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4007532Z   File "/home/runner/.local/bin/yamllint", line 8, in <module>
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4008272Z     sys.exit(run())
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4008638Z              ^^^^^
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4009266Z   File "/home/runner/.local/lib/python3.12/site-packages/yamllint/cli.py", line 197, in run
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4009985Z     conf = YamlLintConfig(file=args.config_file)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4010293Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4010805Z   File "/home/runner/.local/lib/python3.12/site-packages/yamllint/config.py", line 41, in __init__
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4011425Z     with open(file, mode='rb') as f:
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4011718Z          ^^^^^^^^^^^^^^^^^^^^^
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4012095Z FileNotFoundError: [Errno 2] No such file or directory: '.yamllint.yaml'
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:41:41.4204416Z ##[error]Process completed with exit code 1.
+lint	Post Run actions/checkout@v4	﻿2025-08-16T06:41:41.4303422Z Post job cleanup.
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5254149Z [command]/usr/bin/git version
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5292808Z git version 2.50.1
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5339617Z Temporarily overriding HOME='/home/runner/work/_temp/09c8bffa-cc4b-48cc-a1d8-8db78f34bdf6' before making global git config changes
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5341026Z Adding repository directory to the temporary git global config as a safe directory
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5346600Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5385048Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5419907Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5652189Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5674173Z http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5687193Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:41:41.5719997Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Complete job	﻿2025-08-16T06:41:41.6092705Z Cleaning up orphan processes

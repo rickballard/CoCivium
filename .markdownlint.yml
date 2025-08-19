@@ -1,15 +1,9 @@
 ---
 default: true
-MD012: false   # multiple blank lines
-MD022: false   # blanks around headings
-MD025: false   # single H1
-MD029: false   # ordered list prefix
-MD031: false   # blanks around fenced code
-MD032: false   # blanks around lists
-MD036: false   # emphasis as heading
-MD040: false   # fenced code language
-MD041: false   # first line should be H1
-MD049: false   # emphasis style
-MD009:
-  strict: false  # trailing spaces - be tolerant in dumps
-
+MD013: false   # line length
+MD033: false   # inline HTML
+MD041: false   # first line heading
+MD025: false   # single H1 per doc
+MD012: false
+MD036: false
+MD022: false  # temp while stabilizing

@@ -1,0 +1,422 @@
+lint	Set up job	﻿2025-08-16T06:52:23.7432529Z Current runner version: '2.327.1'
+lint	Set up job	2025-08-16T06:52:23.7458131Z ##[group]Runner Image Provisioner
+lint	Set up job	2025-08-16T06:52:23.7458929Z Hosted Compute Agent
+lint	Set up job	2025-08-16T06:52:23.7459549Z Version: 20250812.370
+lint	Set up job	2025-08-16T06:52:23.7460122Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+lint	Set up job	2025-08-16T06:52:23.7460821Z Build Date: 2025-08-12T16:08:14Z
+lint	Set up job	2025-08-16T06:52:23.7461448Z ##[endgroup]
+lint	Set up job	2025-08-16T06:52:23.7461996Z ##[group]Operating System
+lint	Set up job	2025-08-16T06:52:23.7462558Z Ubuntu
+lint	Set up job	2025-08-16T06:52:23.7462985Z 24.04.2
+lint	Set up job	2025-08-16T06:52:23.7463515Z LTS
+lint	Set up job	2025-08-16T06:52:23.7463938Z ##[endgroup]
+lint	Set up job	2025-08-16T06:52:23.7464418Z ##[group]Runner Image
+lint	Set up job	2025-08-16T06:52:23.7465017Z Image: ubuntu-24.04
+lint	Set up job	2025-08-16T06:52:23.7465876Z Version: 20250810.1.0
+lint	Set up job	2025-08-16T06:52:23.7466889Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+lint	Set up job	2025-08-16T06:52:23.7468340Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+lint	Set up job	2025-08-16T06:52:23.7469451Z ##[endgroup]
+lint	Set up job	2025-08-16T06:52:23.7470516Z ##[group]GITHUB_TOKEN Permissions
+lint	Set up job	2025-08-16T06:52:23.7472244Z Contents: read
+lint	Set up job	2025-08-16T06:52:23.7472886Z Metadata: read
+lint	Set up job	2025-08-16T06:52:23.7473345Z ##[endgroup]
+lint	Set up job	2025-08-16T06:52:23.7475487Z Secret source: Actions
+lint	Set up job	2025-08-16T06:52:23.7476242Z Prepare workflow directory
+lint	Set up job	2025-08-16T06:52:23.7798138Z Prepare all required actions
+lint	Set up job	2025-08-16T06:52:23.7841990Z Getting action download info
+lint	Set up job	2025-08-16T06:52:24.1710913Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+lint	Set up job	2025-08-16T06:52:24.8027236Z Complete job name: lint
+lint	Run actions/checkout@v4	﻿2025-08-16T06:52:24.8775924Z ##[group]Run actions/checkout@v4
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8776875Z with:
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8777291Z   repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8777944Z   token: ***
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8778327Z   ssh-strict: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8778716Z   ssh-user: git
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8779107Z   persist-credentials: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8779551Z   clean: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8779965Z   sparse-checkout-cone-mode: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8780439Z   fetch-depth: 1
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8780820Z   fetch-tags: false
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8781205Z   show-progress: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8781598Z   lfs: false
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8781963Z   submodules: false
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8782360Z   set-safe-directory: true
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.8782996Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.9878643Z Syncing repository: rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.9880545Z ##[group]Getting Git version info
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.9881249Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.9882197Z [command]/usr/bin/git version
+lint	Run actions/checkout@v4	2025-08-16T06:52:24.9986661Z git version 2.50.1
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0013771Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0030926Z Temporarily overriding HOME='/home/runner/work/_temp/75be917d-3640-4862-af97-5733c8f4cb2f' before making global git config changes
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0033275Z Adding repository directory to the temporary git global config as a safe directory
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0045576Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0084631Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0088789Z ##[group]Initializing the repository
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0093359Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0188111Z hint: Using 'master' as the name for the initial branch. This default branch name
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0189362Z hint: is subject to change. To configure the initial branch name to use in all
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0190676Z hint: of your new repositories, which will suppress this warning, call:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0191857Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0192670Z hint: 	git config --global init.defaultBranch <name>
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0193805Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0194676Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0196019Z hint: 'development'. The just-created branch can be renamed via this command:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0197054Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0197459Z hint: 	git branch -m <name>
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0197913Z hint:
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0198508Z hint: Disable this message with "git config set advice.defaultBranchName false"
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0199594Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0205691Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0253289Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0254480Z ##[group]Disabling automatic garbage collection
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0258694Z [command]/usr/bin/git config --local gc.auto 0
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0287521Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0288707Z ##[group]Setting up auth
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0295542Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0326436Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0679221Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0710537Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0932737Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0967136Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0968280Z ##[group]Fetching the repository
+lint	Run actions/checkout@v4	2025-08-16T06:52:25.0983932Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +dab9db69f64adc6704d13255ce023099d7a6de7a:refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8288088Z From https://github.com/rickballard/CoCivium
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8288990Z  * [new ref]         dab9db69f64adc6704d13255ce023099d7a6de7a -> origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8314764Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8315273Z ##[group]Determining the checkout info
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8317326Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8322162Z [command]/usr/bin/git sparse-checkout disable
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8366941Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8395091Z ##[group]Checking out the ref
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.8398859Z [command]/usr/bin/git checkout --progress --force -B branding/og-png-render-v1 refs/remotes/origin/branding/og-png-render-v1
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.9643649Z Switched to a new branch 'branding/og-png-render-v1'
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.9644840Z branch 'branding/og-png-render-v1' set up to track 'origin/branding/og-png-render-v1'.
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.9659663Z ##[endgroup]
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.9698357Z [command]/usr/bin/git log -1 --format=%H
+lint	Run actions/checkout@v4	2025-08-16T06:52:26.9719946Z dab9db69f64adc6704d13255ce023099d7a6de7a
+lint	Run pip install yamllint	﻿2025-08-16T06:52:26.9900458Z ##[group]Run pip install yamllint
+lint	Run pip install yamllint	2025-08-16T06:52:26.9900915Z [36;1mpip install yamllint[0m
+lint	Run pip install yamllint	2025-08-16T06:52:26.9978596Z shell: /usr/bin/bash -e {0}
+lint	Run pip install yamllint	2025-08-16T06:52:26.9978929Z ##[endgroup]
+lint	Run pip install yamllint	2025-08-16T06:52:28.1903254Z Defaulting to user installation because normal site-packages is not writeable
+lint	Run pip install yamllint	2025-08-16T06:52:29.1774052Z Collecting yamllint
+lint	Run pip install yamllint	2025-08-16T06:52:29.2125253Z   Downloading yamllint-1.37.1-py3-none-any.whl.metadata (4.3 kB)
+lint	Run pip install yamllint	2025-08-16T06:52:29.2508805Z Collecting pathspec>=0.5.3 (from yamllint)
+lint	Run pip install yamllint	2025-08-16T06:52:29.2580270Z   Downloading pathspec-0.12.1-py3-none-any.whl.metadata (21 kB)
+lint	Run pip install yamllint	2025-08-16T06:52:29.2634562Z Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from yamllint) (6.0.1)
+lint	Run pip install yamllint	2025-08-16T06:52:29.2693320Z Downloading yamllint-1.37.1-py3-none-any.whl (68 kB)
+lint	Run pip install yamllint	2025-08-16T06:52:29.2774634Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 kB 10.3 MB/s eta 0:00:00
+lint	Run pip install yamllint	2025-08-16T06:52:29.2806280Z Downloading pathspec-0.12.1-py3-none-any.whl (31 kB)
+lint	Run pip install yamllint	2025-08-16T06:52:29.5330048Z Installing collected packages: pathspec, yamllint
+lint	Run pip install yamllint	2025-08-16T06:52:29.5823307Z Successfully installed pathspec-0.12.1 yamllint-1.37.1
+lint	Run yamllint -c .yamllint.yaml .	﻿2025-08-16T06:52:29.6464473Z ##[group]Run yamllint -c .yamllint.yaml .
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.6464917Z [36;1myamllint -c .yamllint.yaml .[0m
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.6506756Z shell: /usr/bin/bash -e {0}
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.6507009Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8057726Z ##[group]./.yamllint.yaml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8088099Z ##[error]4:17 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8099631Z ##[error]4:42 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8101863Z ##[error]5:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8103849Z ##[error]5:34 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8105281Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8105705Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8106124Z ##[group]./.yamllint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8107246Z ##[error]4:17 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8109324Z ##[error]4:42 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8111457Z ##[error]5:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8113549Z ##[error]5:34 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8115077Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8115287Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8115874Z ##[group]./specs/dii/v0.1/dii.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8117135Z ##[error]66:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8118652Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8118847Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8119404Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.yamllint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8120803Z ##[error]12:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8122356Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8122551Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8123171Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/metrics/build_metrics.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8126306Z ##[warning]4:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8128678Z ##[error]44:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8130217Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8130430Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8131070Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/governance/membership_policy.yaml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8132555Z ##[error]8:14 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8134593Z ##[error]8:43 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8136985Z ##[error]14:10 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8139047Z ##[error]14:31 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8141091Z ##[error]15:14 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8143099Z ##[error]15:45 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8145127Z ##[error]23:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8146832Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8147035Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8147559Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/labels.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8148983Z ##[error]43:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8151204Z ##[error]30:25 syntax error: mapping values are not allowed here (syntax)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8152754Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8152970Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8153609Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/issueops-run.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8155169Z ##[warning]12:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8157660Z ##[error]84:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8159127Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8159330Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8160022Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/labels-apply-prune.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8161629Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8163725Z ##[error]72:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8165190Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8165589Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8166609Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/markdownlint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8168197Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8170838Z ##[error]19:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8172884Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8173319Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8174058Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/lychee.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8175789Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8178118Z ##[warning]5:25 [comments] too few spaces before comment: expected 2
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8180290Z ##[error]19:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8181868Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8182061Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8182666Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/og-image.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8184199Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8186653Z ##[error]31:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8188239Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8188432Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8189059Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/workflows/yamllint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8190637Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8192800Z ##[error]20:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8194356Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8194548Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8195174Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/ISSUE_TEMPLATE/chore.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8196878Z ##[error]14:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8198482Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8198673Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8199330Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/ISSUE_TEMPLATE/bug_report.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8200820Z ##[error]19:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8202398Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8202592Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8203199Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/ISSUE_TEMPLATE/rfc.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8204657Z ##[error]32:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8206590Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8206755Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8207190Z ##[group]./legacy/CoCivium/_pr/ci_og-image-20250813_2231/.github/ISSUE_TEMPLATE/feature_request.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8208127Z ##[error]27:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8209046Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8209158Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8209366Z ##[group]./site/_config.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8209989Z ##[error]4:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8210860Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8210975Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8211188Z ##[group]./docs/scope_spokes.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8211835Z ##[error]10:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8212725Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8212835Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8213084Z ##[group]./docs/presskit/PressRelease_Config.yaml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8213835Z ##[error]20:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8215061Z ##[error]6:54 syntax error: mapping values are not allowed here (syntax)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8216122Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8216229Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8216469Z ##[group]./admin/products/CoCivBus/ACTION_openapi.yaml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8217187Z ##[error]24:27 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8218313Z ##[error]24:55 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8219420Z ##[error]25:25 [colons] too many spaces after colon
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8220576Z ##[error]25:27 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8757595Z ##[error]25:56 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8760685Z ##[error]26:25 [colons] too many spaces after colon
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8763063Z ##[error]26:27 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8765818Z ##[error]26:49 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8767799Z ##[error]26:77 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8769597Z ##[error]26:79 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8770754Z ##[error]27:25 [colons] too many spaces after colon
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8771883Z ##[error]27:27 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8772984Z ##[error]27:56 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8774071Z ##[error]37:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8775142Z ##[error]37:87 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8776510Z ##[error]40:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8777605Z ##[error]40:73 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8778743Z ##[error]55:22 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8779840Z ##[error]55:35 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8780966Z ##[error]61:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8781816Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8781931Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8782151Z ##[group]./admin/metrics/build_metrics.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8782883Z ##[warning]5:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8784037Z ##[error]46:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8784871Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8784972Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8785178Z ##[group]./risk/register.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8785992Z ##[error]20:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8786851Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8786951Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8787171Z ##[group]./governance/membership_policy.yaml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8787811Z ##[error]26:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8788639Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8788739Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8788942Z ##[group]./.github/labeler.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8789540Z ##[error]4:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8790379Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8790479Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8790679Z ##[group]./.github/labels.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8791338Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8792488Z ##[error]8:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8793317Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8793417Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8793612Z ##[group]./.github/FUNDING.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8794208Z ##[error]5:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8795045Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8795143Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8795558Z ##[group]./.github/workflows/issueops-run.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8796360Z ##[warning]13:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8797717Z ##[error]22:3 [key-duplicates] duplication of key "push" in mapping
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8798982Z ##[error]23:3 [key-duplicates] duplication of key "pull_request" in mapping
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8800181Z ##[error]93:1 [empty-lines] too many blank lines (4 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8801017Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8801118Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8801356Z ##[group]./.github/workflows/labels-apply-prune.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8802136Z ##[warning]4:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8871871Z ##[error]16:3 [key-duplicates] duplication of key "push" in mapping
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8873405Z ##[error]66:1 [empty-lines] too many blank lines (4 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8874477Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8874606Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8874853Z ##[group]./.github/workflows/emergency-merge.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8875883Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8877147Z ##[error]14:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8878330Z ##[error]14:91 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8879440Z ##[error]15:18 [colons] too many spaces after colon
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8880914Z ##[error]15:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8882050Z ##[error]15:83 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8883151Z ##[error]16:18 [colons] too many spaces after colon
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8884512Z ##[error]16:20 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8885951Z ##[error]16:92 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8887148Z ##[error]28:15 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8888339Z ##[error]28:28 syntax error: expected ',' or '}', but got '{' (syntax)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8889512Z ##[error]28:48 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8890669Z ##[error]28:51 [braces] too many spaces inside braces
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8891778Z ##[error]33:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8892629Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8892736Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8892958Z ##[group]./.github/workflows/codespell.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8893655Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8894834Z ##[error]11:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8895974Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8896096Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8896331Z ##[group]./.github/workflows/markdownlint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8897055Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8898239Z ##[error]11:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8899097Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8899202Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8899423Z ##[group]./.github/workflows/render-og-png.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8900162Z ##[warning]4:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8901332Z ##[error]47:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8902193Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8902295Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8902517Z ##[group]./.github/workflows/og-starfield.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8903218Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8904459Z ##[error]13:3 [key-duplicates] duplication of key "push" in mapping
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8905770Z ##[error]39:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8906663Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8906770Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8906985Z ##[group]./.github/workflows/render-eyes.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8907681Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8908848Z ##[error]29:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8909704Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8909806Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8910035Z ##[group]./.github/workflows/deprecated-sweep.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8910738Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8911917Z ##[error]29:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8912771Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8912877Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8913083Z ##[group]./.github/workflows/lychee.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8913777Z ##[warning]4:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8915024Z ##[warning]14:25 [comments] too few spaces before comment: expected 2
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8916424Z ##[error]31:1 [empty-lines] too many blank lines (4 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8917289Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8917399Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.8917620Z ##[group]./.github/workflows/symbol-guard.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9173942Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9176340Z ##[error]28:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9177548Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9177704Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9177999Z ##[group]./.github/workflows/eol-check.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9178929Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9180468Z ##[error]6:16 [brackets] too many spaces inside brackets
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9181936Z ##[error]6:21 [brackets] too many spaces inside brackets
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9183547Z ##[error]24:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9184446Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9184551Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9184798Z ##[group]./.github/workflows/decision-log-linter.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9185863Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9187131Z ##[error]18:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9188025Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9188130Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9188347Z ##[group]./.github/workflows/pages.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9189012Z ##[error]48:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9190264Z ##[error]3:20 syntax error: mapping values are not allowed here (syntax)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9191180Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9191282Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9191499Z ##[group]./.github/workflows/linkcheck.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9192196Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9193391Z ##[error]21:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9194260Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9194360Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9194585Z ##[group]./.github/workflows/pr-labeler.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9195439Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9196678Z ##[error]25:1 [empty-lines] too many blank lines (2 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9197543Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9197652Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9197868Z ##[group]./.github/workflows/link-check.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9198560Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9199744Z ##[error]15:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9200609Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9200708Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9200925Z ##[group]./.github/workflows/yamllint.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9201609Z ##[warning]3:1 [truthy] truthy value should be one of [false, true]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9202796Z ##[error]17:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9203660Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9203759Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9203969Z ##[group]./.github/ISSUE_TEMPLATE/config.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9204629Z ##[error]3:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9205625Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9205735Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9205956Z ##[group]./.github/ISSUE_TEMPLATE/content-gap.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9206629Z ##[error]14:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9207490Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9207596Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9207821Z ##[group]./.github/ISSUE_TEMPLATE/refactor-move.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9208487Z ##[error]13:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9209377Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9209478Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9209684Z ##[group]./.github/ISSUE_TEMPLATE/chore.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9210329Z ##[error]17:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9211202Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9211303Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9211544Z ##[group]./.github/ISSUE_TEMPLATE/consenti_idea.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9212203Z ##[error]14:1 [empty-lines] too many blank lines (1 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9213085Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9213193Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9213419Z ##[group]./.github/ISSUE_TEMPLATE/bug_report.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9214066Z ##[error]22:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9214923Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9215022Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9215237Z ##[group]./.github/ISSUE_TEMPLATE/rfc.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9216067Z ##[error]35:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9216985Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9217113Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9217352Z ##[group]./.github/ISSUE_TEMPLATE/feature_request.yml
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9218027Z ##[error]30:1 [empty-lines] too many blank lines (3 > 0)
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9218893Z ##[endgroup]
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9218999Z 
+lint	Run yamllint -c .yamllint.yaml .	2025-08-16T06:52:29.9287173Z ##[error]Process completed with exit code 1.
+lint	Post Run actions/checkout@v4	﻿2025-08-16T06:52:29.9377186Z Post job cleanup.
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0330277Z [command]/usr/bin/git version
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0367626Z git version 2.50.1
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0409984Z Temporarily overriding HOME='/home/runner/work/_temp/cfd756fb-7fb5-497f-ac45-588365ad8651' before making global git config changes
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0410868Z Adding repository directory to the temporary git global config as a safe directory
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0415165Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0449377Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0480661Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0708234Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0728829Z http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0740649Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+lint	Post Run actions/checkout@v4	2025-08-16T06:52:30.0771666Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Complete job	﻿2025-08-16T06:52:30.1101609Z Cleaning up orphan processes

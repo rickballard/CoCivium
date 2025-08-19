@@ -1,0 +1,147 @@
+spell	Set up job	﻿2025-08-16T06:41:35.9162721Z Current runner version: '2.327.1'
+spell	Set up job	2025-08-16T06:41:35.9188115Z ##[group]Runner Image Provisioner
+spell	Set up job	2025-08-16T06:41:35.9189653Z Hosted Compute Agent
+spell	Set up job	2025-08-16T06:41:35.9190546Z Version: 20250812.370
+spell	Set up job	2025-08-16T06:41:35.9191627Z Commit: 4a2b2bf7520004e3e907c2150c8cabe342a3da32
+spell	Set up job	2025-08-16T06:41:35.9192821Z Build Date: 2025-08-12T16:08:14Z
+spell	Set up job	2025-08-16T06:41:35.9193788Z ##[endgroup]
+spell	Set up job	2025-08-16T06:41:35.9194789Z ##[group]Operating System
+spell	Set up job	2025-08-16T06:41:35.9195739Z Ubuntu
+spell	Set up job	2025-08-16T06:41:35.9196456Z 24.04.2
+spell	Set up job	2025-08-16T06:41:35.9197106Z LTS
+spell	Set up job	2025-08-16T06:41:35.9197879Z ##[endgroup]
+spell	Set up job	2025-08-16T06:41:35.9198384Z ##[group]Runner Image
+spell	Set up job	2025-08-16T06:41:35.9198970Z Image: ubuntu-24.04
+spell	Set up job	2025-08-16T06:41:35.9199492Z Version: 20250810.1.0
+spell	Set up job	2025-08-16T06:41:35.9200503Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+spell	Set up job	2025-08-16T06:41:35.9202534Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+spell	Set up job	2025-08-16T06:41:35.9204777Z ##[endgroup]
+spell	Set up job	2025-08-16T06:41:35.9207703Z ##[group]GITHUB_TOKEN Permissions
+spell	Set up job	2025-08-16T06:41:35.9210153Z Actions: write
+spell	Set up job	2025-08-16T06:41:35.9210696Z Attestations: write
+spell	Set up job	2025-08-16T06:41:35.9211285Z Checks: write
+spell	Set up job	2025-08-16T06:41:35.9211760Z Contents: write
+spell	Set up job	2025-08-16T06:41:35.9212258Z Deployments: write
+spell	Set up job	2025-08-16T06:41:35.9212718Z Discussions: write
+spell	Set up job	2025-08-16T06:41:35.9213324Z Issues: write
+spell	Set up job	2025-08-16T06:41:35.9213796Z Metadata: read
+spell	Set up job	2025-08-16T06:41:35.9214226Z Models: read
+spell	Set up job	2025-08-16T06:41:35.9215284Z Packages: write
+spell	Set up job	2025-08-16T06:41:35.9216156Z Pages: write
+spell	Set up job	2025-08-16T06:41:35.9217005Z PullRequests: write
+spell	Set up job	2025-08-16T06:41:35.9218115Z RepositoryProjects: write
+spell	Set up job	2025-08-16T06:41:35.9219107Z SecurityEvents: write
+spell	Set up job	2025-08-16T06:41:35.9220170Z Statuses: write
+spell	Set up job	2025-08-16T06:41:35.9221166Z ##[endgroup]
+spell	Set up job	2025-08-16T06:41:35.9223942Z Secret source: Actions
+spell	Set up job	2025-08-16T06:41:35.9225669Z Prepare workflow directory
+spell	Set up job	2025-08-16T06:41:35.9551316Z Prepare all required actions
+spell	Set up job	2025-08-16T06:41:35.9589109Z Getting action download info
+spell	Set up job	2025-08-16T06:41:36.2074975Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+spell	Set up job	2025-08-16T06:41:36.4982792Z Complete job name: spell
+spell	Run actions/checkout@v4	﻿2025-08-16T06:41:36.5719285Z ##[group]Run actions/checkout@v4
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5720112Z with:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5720534Z   repository: rickballard/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5721180Z   token: ***
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5721574Z   ssh-strict: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5721975Z   ssh-user: git
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5722381Z   persist-credentials: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5722827Z   clean: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5723227Z   sparse-checkout-cone-mode: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5723698Z   fetch-depth: 1
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5724079Z   fetch-tags: false
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5724637Z   show-progress: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5725047Z   lfs: false
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5725419Z   submodules: false
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5725825Z   set-safe-directory: true
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.5726626Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6807758Z Syncing repository: rickballard/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6810531Z ##[group]Getting Git version info
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6811700Z Working directory is '/home/runner/work/CoCivium/CoCivium'
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6813386Z [command]/usr/bin/git version
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6838752Z git version 2.50.1
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6865358Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6880449Z Temporarily overriding HOME='/home/runner/work/_temp/6b1e53ca-7658-4cea-8992-7962dbac9084' before making global git config changes
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6882833Z Adding repository directory to the temporary git global config as a safe directory
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6893705Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6928572Z Deleting the contents of '/home/runner/work/CoCivium/CoCivium'
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6932279Z ##[group]Initializing the repository
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6937085Z [command]/usr/bin/git init /home/runner/work/CoCivium/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6995531Z hint: Using 'master' as the name for the initial branch. This default branch name
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6997336Z hint: is subject to change. To configure the initial branch name to use in all
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6998759Z hint: of your new repositories, which will suppress this warning, call:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.6999600Z hint:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7000422Z hint: 	git config --global init.defaultBranch <name>
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7001449Z hint:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7002437Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7004024Z hint: 'development'. The just-created branch can be renamed via this command:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7005560Z hint:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7006247Z hint: 	git branch -m <name>
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7006975Z hint:
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7007962Z hint: Disable this message with "git config set advice.defaultBranchName false"
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7009676Z Initialized empty Git repository in /home/runner/work/CoCivium/CoCivium/.git/
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7012436Z [command]/usr/bin/git remote add origin https://github.com/rickballard/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7042417Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7043631Z ##[group]Disabling automatic garbage collection
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7047699Z [command]/usr/bin/git config --local gc.auto 0
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7075973Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7077185Z ##[group]Setting up auth
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7083248Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7113343Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7368936Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7397592Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7612810Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7646373Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7647982Z ##[group]Fetching the repository
+spell	Run actions/checkout@v4	2025-08-16T06:41:36.7664199Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +98db7642e7dd94bc3ff57522de3a3f23864ae49a:refs/remotes/origin/branding/og-png-render-v1
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2423022Z From https://github.com/rickballard/CoCivium
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2425897Z  * [new ref]         98db7642e7dd94bc3ff57522de3a3f23864ae49a -> origin/branding/og-png-render-v1
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2447518Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2448773Z ##[group]Determining the checkout info
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2450329Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2454227Z [command]/usr/bin/git sparse-checkout disable
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2493993Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2521262Z ##[group]Checking out the ref
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.2525166Z [command]/usr/bin/git checkout --progress --force -B branding/og-png-render-v1 refs/remotes/origin/branding/og-png-render-v1
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.3703747Z Switched to a new branch 'branding/og-png-render-v1'
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.3706433Z branch 'branding/og-png-render-v1' set up to track 'origin/branding/og-png-render-v1'.
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.3720252Z ##[endgroup]
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.3757810Z [command]/usr/bin/git log -1 --format=%H
+spell	Run actions/checkout@v4	2025-08-16T06:41:37.3779408Z 98db7642e7dd94bc3ff57522de3a3f23864ae49a
+spell	Run python -m pip install --upgrade pip codespell	﻿2025-08-16T06:41:37.4005022Z ##[group]Run python -m pip install --upgrade pip codespell
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:37.4006939Z [36;1mpython -m pip install --upgrade pip codespell[0m
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:37.4079260Z shell: /usr/bin/bash -e {0}
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:37.4080390Z ##[endgroup]
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:38.6365388Z Defaulting to user installation because normal site-packages is not writeable
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.1144181Z Requirement already satisfied: pip in /usr/lib/python3/dist-packages (24.0)
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.2162427Z Collecting pip
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.4869844Z   Downloading pip-25.2-py3-none-any.whl.metadata (4.7 kB)
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5049142Z Collecting codespell
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5079891Z   Downloading codespell-2.4.1-py3-none-any.whl.metadata (15 kB)
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5252827Z Downloading pip-25.2-py3-none-any.whl (1.8 MB)
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5745445Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 37.4 MB/s eta 0:00:00
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5772716Z Downloading codespell-2.4.1-py3-none-any.whl (344 kB)
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.5848015Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 344.5/344.5 kB 57.4 MB/s eta 0:00:00
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:39.8405768Z Installing collected packages: pip, codespell
+spell	Run python -m pip install --upgrade pip codespell	2025-08-16T06:41:40.5902287Z Successfully installed codespell-2.4.1 pip-25.2
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	﻿2025-08-16T06:41:40.6424284Z ##[group]Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6425535Z [36;1mcodespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"[0m
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6468134Z shell: /usr/bin/bash -e {0}
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6468426Z ##[endgroup]
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6973162Z ERROR: ill-formed config file: File contains no section headers.
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6973922Z file: '.codespellrc', line: 1
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.6974842Z 'skip = *.png,*.jpg,*.jpeg,*.svg,*.ico,*.pdf,site/assets/**,_site/**\n'
+spell	Run codespell --ignore-words docs/lexicon/codespell-ignore.txt --skip "legacy/**,staging/_imported/**,*.png,*.jpg,*.svg"	2025-08-16T06:41:40.7030746Z ##[error]Process completed with exit code 78.
+spell	Post Run actions/checkout@v4	﻿2025-08-16T06:41:40.7120348Z Post job cleanup.
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8032822Z [command]/usr/bin/git version
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8068339Z git version 2.50.1
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8109341Z Temporarily overriding HOME='/home/runner/work/_temp/73762600-52f9-4861-af9c-b93c2e286155' before making global git config changes
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8110331Z Adding repository directory to the temporary git global config as a safe directory
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8114618Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/CoCivium/CoCivium
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8147928Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8179437Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8400880Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8421325Z http.https://github.com/.extraheader
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8438104Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+spell	Post Run actions/checkout@v4	2025-08-16T06:41:40.8478674Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+spell	Complete job	﻿2025-08-16T06:41:40.8812506Z Cleaning up orphan processes

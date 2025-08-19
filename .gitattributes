@@ -1,18 +1,9 @@
-* text=auto
-*.md   text eol=lf
-*.yml  text eol=lf
-*.yaml text eol=lf
-*.py   text eol=lf
-
-*.csv  text eol=lf
-
-*.ps1  text eol=lf
-*.txt  text eol=lf
-
-*.md text eol=lf
+* text=auto eol=lf
+*.ps1 text eol=lf
+*.sh  text eol=lf
+*.md  text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
-*.json text eol=lf
-*.editorconfig text eol=lf
-*.cmd   text eol=crlf
-*.reg   text eol=crlf
+*.png -text
+*.jpg -text
+*.svg -text
