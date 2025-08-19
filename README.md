@@ -16,13 +16,8 @@ NOTE TO EDITORS (offline-safe):
 <p align="center">
 
 <h2 align="center">Fix The World</h2>
-
-  **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why:  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
-  **
-
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why:  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Who:  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
-  **
-
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; How:  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
 
 > <span style="color:#6b7280">**Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while our constitutional artifacts remain openly published, complete and version/fork certified.**</span>
@@ -31,21 +26,21 @@ NOTE TO EDITORS (offline-safe):
 
 <h2 align="center">We The People, Empowered</h2>
 
-  <img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; LIFE:  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
+  `<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; LIFE:  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
 
-  <img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FEELS:  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
+  `<img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FEELS:  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
 
-  <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; BROKEN:  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
+  `<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; BROKEN:  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
 
-  <img src="./assets/icons/until-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; UNTIL:  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
+  `<img src="./assets/icons/until-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; UNTIL:  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
 
-  <img src="./assets/icons/governments-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; GOVERNMENTS:  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
+  `<img src="./assets/icons/governments-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; GOVERNMENTS:  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
 
-  <img src="./assets/icons/coevolve-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; COEVOLVE:  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability, transparency, reversibility).
+  `<img src="./assets/icons/coevolve-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; COEVOLVE:  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability, transparency, reversibility).
 
-  <img src="./assets/icons/solutions-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; SOLUTIONS:  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
+  `<img src="./assets/icons/solutions-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; SOLUTIONS:  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
 
-  <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FOR YOU:  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
+  `<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FOR YOU:  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
 
 ---
 
