@@ -1,4 +1,5 @@
-# CoCivium — CoConstitution for a Digital Society
+<h1 align=""center"">CoCivium</h1>
+<h3 align=""center""><em>A Civic CoConstitution For AI-Enabled Society</em></h3>
 
 <!--
 NOTE TO EDITORS (offline-safe):
