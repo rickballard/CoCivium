@@ -10,24 +10,11 @@ NOTE TO EDITORS (offline-safe):
 
 <!-- HERO (offline placeholder) -->
 
-> “Government of the people, by the people, for the people, shall not perish from the Earth.”
-> — Abraham Lincoln, *Gettysburg Address* (1863)
+<p align="center">
 
 <p align="center">
-> “Government of the people, by the people, for the people, shall not perish from the Earth.”
-> — Abraham Lincoln, *Gettysburg Address* (1863)
 
-<p align="center">
-> “Government of the people, by the people, for the people, shall not perish from the Earth.”
-> — Abraham Lincoln, *Gettysburg Address* (1863)
-
-<p align="center">
-  <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
-    <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
-  </a>
-</p>
-
-## Fix The World
+<h2 align="center">Fix The World</h2>
 
   **<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why: **  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
   **
@@ -41,7 +28,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## We The People, Empowered
+<h2 align="center">We The People, Empowered</h2>
 
   <img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE:**  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
 
@@ -61,7 +48,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Quick Links
+<h2 align="center">Quick Links</h2>
 
 * [Start Here](#start-here)
 * [How To Help](#contributing)
@@ -74,7 +61,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Start Here
+<h2 align="center">Start Here</h2>
 
 1. Read the **Preamble** to the CoConstitution (Cognocarta Consenti).  *(Repo-relative link; will resolve after commit.)*
    `[link placeholder → ./charter/Cognocarta_Consenti_Preamble.md]`
@@ -89,7 +76,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## How To Help
+<h2 align="center">How To Help</h2>
 
 * Read **CONTRIBUTING.md**.
 * File an issue tagged `domain`, `product`, `ops`, `ci`, `wiki`, `content`, `refactor`.
@@ -99,7 +86,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Current Status (by most active)
+<h2 align="center">Current Status (by most active)</h2>
 
 <!-- GITHUB_ONLY: begin -->
 
@@ -119,7 +106,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Performance
+<h2 align="center">Performance</h2>
 
 ![Two-Eyes Status — replace with ./assets/status/two-eyes.png](./assets/status/two-eyes.png "If missing, this is a placeholder visualization.")
 
@@ -127,7 +114,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## CoConstitution (Cognocarta Consenti)
+<h2 align="center">CoConstitution (Cognocarta Consenti)</h2>
 
 * **Purpose.** A consent-first constitutional core meant to be adopted alongside, not over, existing constitutions.
 * **Lineage.** Drafted by the CoCivium community; versioned and amendable via transparent process.
@@ -137,7 +124,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Strategy Roadmap
+<h2 align="center">Strategy Roadmap</h2>
 
 * **Short:**  Migration finish; CI for congruence/hash/gibberlink checks; PR previews.
 * **Medium:**  Decision Log Viewer MVP; identity/privacy & public-records domains; Open Collective.
@@ -145,7 +132,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## Housekeeping
+<h2 align="center">Housekeeping</h2>
 
 * **Repo map:**  `README → Start Here → Quickstart`.
 * **Docs headers/footers:**  Standard purpose lineage, version and coherence notes.
@@ -159,7 +146,7 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## License
+<h2 align="center">License</h2>
 
 Apache-2.0 unless noted otherwise.  See `LICENSE`.
 
