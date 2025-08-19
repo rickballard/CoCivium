@@ -17,9 +17,9 @@
 
 ## Fix The World
 
-<<unique inline icon>>  **Why:**  Democracy on crutches, institutions using paper, digital society AI-enabled.  Guardrails<<link>> must scale with agency.
-<<unique inline icon>>  **Who:**  For Humans, AIs and hybrid minds who accept consent-first rules, temporary stewards/founders, federated open-ownership ASAP.
-<<unique inline icon>>  **How:**  An ever-evolving CoConstitution using smart processes, iterative policies, open access, ethics, truth and accountability.
+<<unique inline icon>>  **Why:  **  Democracy on crutches, institutions using paper, digital society AI-enabled.  Guardrails<<link>> must scale with agency.
+<<unique inline icon>>  **Who:  **  For Humans, AIs and hybrid minds who accept consent-first rules, temporary stewards/founders, federated open-ownership ASAP.
+<<unique inline icon>>  **How:  **  An ever-evolving CoConstitution using smart processes, iterative policies, open access, ethics, truth and accountability.
 
 Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while we openly publish our constitutional artifacts as complete and version/fork certified.
 
@@ -27,21 +27,21 @@ Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our
 
 ## We The People, Empowered
 
-<<unique inline icon>>  **LIFE:**  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
+<<unique inline icon>>  **LIFE:  **  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
 
-<<unique inline icon>>  **FEELS:**  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
+<<unique inline icon>>  **FEELS:  **  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
 
-<<unique inline icon>>  **BROKEN:**  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
+<<unique inline icon>>  **BROKEN:  **  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
 
-<<unique inline icon>>  **UNTIL:**  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
+<<unique inline icon>>  **UNTIL:  **  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
 
-<<unique inline icon>>  **GOVERNMENTS:**  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
+<<unique inline icon>>  **GOVERNMENTS:  **  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
 
-<<unique inline icon>>  **COEVOLVE:**  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability<<link>>, transparency<<link>>, reversibility<<link>>).
+<<unique inline icon>>  **COEVOLVE:  **  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability<<link>>, transparency<<link>>, reversibility<<link>>).
 
-<<unique inline icon>>  **SOLUTIONS:**  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks<<link>>); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
+<<unique inline icon>>  **SOLUTIONS:  **  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks<<link>>); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
 
-<<unique inline icon>>  **FOR YOU:**  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
+<<unique inline icon>>  **FOR YOU:  **  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
 
 ---
 
