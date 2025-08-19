@@ -24,24 +24,22 @@ NOTE TO EDITORS (offline-safe):
 
 ---
 
-## We The People, Empowered. (the hook, top-of-fold)
+## We The People, Empowered.
+<img src="./assets/icons/life.svg" alt="LIFE" width="20" height="20" />&nbsp; **LIFE:** ** Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?
 
+<img src="./assets/icons/feels.svg" alt="FEELS" width="20" height="20" />&nbsp; **FEELS:** ** It's easy to accept that resistance is futile, or that half the country has lost the plot, captured by partisan hostility and tribal reflexes.  Our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
 
-**LIFE:** Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?
+<img src="./assets/icons/broken.svg" alt="BROKEN" width="20" height="20" />&nbsp; **BROKEN:** ** Some are fighting back, using rage against rage, hate versus hate, but multiplying damage.  Their faith in instutions lies crippled by exclusion and disrespect, their voices ignored while policies harden.  But anger, like an "insanity tsunami"**, becomes more coercion.
 
-**FEELS:** It's easy to accept that resistance is futile, or that half the country has lost the plot, captured by partisan hostility and tribal reflexes.  Our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
+<img src="./assets/icons/until.svg" alt="UNTIL" width="20" height="20" />&nbsp; **UNTIL:** ** There is a better operating system for society, and a less brittle future.  It requires updates to our country Constitutions and civic frameworks, to encompass the challenge of a newly emerging society.  CoCivium’s CoConstitution, (the “Cognocarta Consenti”), is a baseline anyone can adopt and evolve, for free, no strings attached.
 
-**BROKEN:** Some are fighting back, using rage against rage, hate versus hate, but multiplying damage.  Their faith in instutions lies crippled by exclusion and disrespect, their voices ignored while policies harden.  But anger, like an "insanity tsunami"**, becomes more coercion.
+<img src="./assets/icons/governments.svg" alt="GOVERNMENTS" width="20" height="20" />&nbsp; **GOVERNMENTS:** ** Many public institutions rely on civic architecture developed before typewriters.  Few or their policies can be evolved by those they impact, and they continual to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society, existential to humanity, yet so unregulated it risks lawless chaos.
 
-**UNTIL:** There is a better operating system for society, and a less brittle future.  It requires updates to our country Constitutions and civic frameworks, to encompass the challenge of a newly emerging society.  CoCivium’s CoConstitution, (the “Cognocarta Consenti”), is a baseline anyone can adopt and evolve, for free, no strings attached.
+<img src="./assets/icons/coevolve.svg" alt="CoEvolve" width="20" height="20" />&nbsp; **CoEvolve:** ** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g. acountability<<lik>>, transparency<<link>>, reversibility<<link>>).
 
-**GOVERNMENTS:** Many public institutions rely on civic architecture developed before typewriters.  Few or their policies can be evolved by those they impact, and they continual to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society, existential to humanity, yet so unregulated it risks lawless chaos.
+<img src="./assets/icons/solutions.svg" alt="SOLUTIONS" width="20" height="20" />&nbsp; **SOLUTIONS:** ** Our job here, as an open source community, is to **Protect Prove, and Play.  Protect:** rescue democracy from abuse of power, (e.g. evolve access controls, audit trails, adversarial-testing program).  **Prove:** keep truth verifiable in an age of synthesis, (e.g. evolve verifiable claims, signed evidence bundles, provenance check<<link>>).  **Play:** make the rules fair for everyone, including human–AI teams, (e.g. evolve fair-use rules, symmetric obligations for human–AI teams, appeal paths).
 
-**COEVOLVE:** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g. acountability<<lik>>, transparency<<link>>, reversibility<<link>>).
-
-**SOLUTIONS:** Our job here, as an open source community, is to **Protect Prove, and Play.  Protect:** rescue democracy from abuse of power, (e.g. evolve access controls, audit trails, adversarial-testing program).  **Prove:** keep truth verifiable in an age of synthesis, (e.g. evolve verifiable claims, signed evidence bundles, provenance check<<link>>).  **Play:** make the rules fair for everyone, including human–AI teams, (e.g. evolve fair-use rules, symmetric obligations for human–AI teams, appeal paths).
-
-**FOR YOU:** If you can picture a society that works better, or test ideas against evidence, you are already qualified to be a civic architect here.  Start small, iterate alongside AI, and use the below links to see how you can join in, measure progress and help others to help you.
+<img src="./assets/icons/for-you.svg" alt="FOR YOU" width="20" height="20" />&nbsp; **FOR YOU:** ** If you can picture a society that works better, or test ideas against evidence, you are already qualified to be a civic architect here.  Start small, iterate alongside AI, and use the below links to see how you can join in, measure progress and help others to help you.
 
 ---
 
@@ -161,3 +159,4 @@ Apache‑2.0 unless noted otherwise.  See `LICENSE`.
   - Preserve top-of-fold “LIFE/FEELS/BROKEN/UNTIL/GOVERNMENTS/CoEvolve/SOLUTIONS/FOR YOU” acrostic.
   - When committing, verify links and replace placeholders.
 -->
+
