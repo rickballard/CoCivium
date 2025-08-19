@@ -18,7 +18,13 @@ NOTE TO EDITORS (offline-safe):
 > — CoCivium
 
 <p align="center">
-  <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
+> “Democracy survives when citizens act before systems fail.”  
+> — CoCivium
+
+<p align="center">
+  <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
+    <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
+  </a>
 </p>
 
 ## Fix The World
