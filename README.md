@@ -1,3 +1,14 @@
+| CoCivium |
+|:--:|
+| *A Civic CoConstitution For AI-Enabled Society* |
+
+| _“Government of the people, by the people, for the people, shall not perish from the Earth.”_ |
+|:--:|
+| — Abraham Lincoln, _Gettysburg Address_ (1863) |
+
+| [![Rotating globe](./assets/hero/hero.gif)](./docs/country-watchlist.md) |
+|:--:|
+
 <div align="center">
   <h1>CoCivium</h1>
   <h3><em>A Civic CoConstitution For AI-Enabled Society</em></h3>
@@ -32,23 +43,23 @@ NOTE TO EDITORS (offline-safe):
 <p align="center">
 
 <h2 align="center">Fix The World</h2>
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Why:  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; Who:  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; How:  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
+![](./assets/icons/broken-line.svg)&nbsp;&nbsp; Why:  Democracies are brittle. Digital life is faster than law. We need guardrails that scale with agency.
+![](./assets/icons/for-you-line.svg)&nbsp;&nbsp; Who:  Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
+![](./assets/icons/how-line.svg)&nbsp;&nbsp; How:  The CoConstitution, process specs, and adapters that embed dignity into day-to-day tools.
 
 > <span style="color:#6b7280">**Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our community surrenders all rights to it, to encourage governments and organizations to adopt, subsume or harmonize; while our constitutional artifacts remain openly published, complete and version/fork certified.**</span>
 
 ---
 
 <h2 align="center">We The People, Empowered</h2>
-<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; LIFE:  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
-<img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FEELS:  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; BROKEN:  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
-<img src="./assets/icons/until-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; UNTIL:  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
-<img src="./assets/icons/governments-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; GOVERNMENTS:  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
-<img src="./assets/icons/coevolve-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; COEVOLVE:  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability, transparency, reversibility).
-<img src="./assets/icons/solutions-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; SOLUTIONS:  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; FOR YOU:  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
+![](./assets/icons/life-line.svg)&nbsp;&nbsp; LIFE:  Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word “dignity” fall out of our Constitution?
+![](./assets/icons/feels-line.svg)&nbsp;&nbsp; FEELS:  It’s too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing by partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
+![](./assets/icons/broken-line.svg)&nbsp;&nbsp; BROKEN:  Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an “**insanity tsunami**”, bringing more coercion.
+![](./assets/icons/until-line.svg)&nbsp;&nbsp; UNTIL:  There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium’s CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
+![](./assets/icons/governments-line.svg)&nbsp;&nbsp; GOVERNMENTS:  Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society—existential for humanity—yet so unregulated it risks lawless chaos.
+![](./assets/icons/coevolve-line.svg)&nbsp;&nbsp; COEVOLVE:  Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability, transparency, reversibility).
+![](./assets/icons/solutions-line.svg)&nbsp;&nbsp; SOLUTIONS:  Our job here is to **Protect, Prove, Play**. **Protect** keeps power accountable (access controls, audit trails, red-team/bug-bash); **Prove** makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks); **Play** ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).
+![](./assets/icons/for-you-line.svg)&nbsp;&nbsp; FOR YOU:  If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.
 
 ---
 
@@ -68,13 +79,13 @@ NOTE TO EDITORS (offline-safe):
 <h2 align="center">Start Here</h2>
 
 1. Read the **Preamble** to the CoConstitution (Cognocarta Consenti).  *(Repo-relative link; will resolve after commit.)*
-   `[link placeholder → ./charter/Cognocarta_Consenti_Preamble.md]`
+[link placeholder → ./charter/Cognocarta_Consenti_Preamble.md]`
 2. Skim the **Implementation Documents** for structure and amendment paths.
-   `[link placeholder → ./constitution/Operating_Constitution.md]`
+[link placeholder → ./constitution/Operating_Constitution.md]`
 3. Browse the **Process Spec (CPS)** to see how proposals → deliberation → voting → execution flows.
-   `[link placeholder → ./specs/Process_Spec.md]`
+[link placeholder → ./specs/Process_Spec.md]`
 4. Try the **Decision Log Viewer**.
-   `[link placeholder → ./apps/decision-log/README.md]`
+[link placeholder → ./apps/decision-log/README.md]`
 
 > Offline editing?  These files may not yet exist.  Placeholders resolve as files are committed.
 
@@ -111,7 +122,6 @@ NOTE TO EDITORS (offline-safe):
 ---
 
 <h2 align="center">Performance</h2>
-
 ![Two-Eyes Status — replace with ./assets/status/two-eyes.png](./assets/status/two-eyes.png "If missing, this is a placeholder visualization.")
 
 *Legend:* Left eye = **Document quality & coherence**.  Right eye = **Operational readiness & adoption**.  Each iris ring tracks a dimension (CI, Coverage, OFS, LSH, DTI, Throughput, LT(inv), EE).  Replace the image with an auto-generated chart when wiring CI.
