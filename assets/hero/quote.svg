@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180">
   <style>
-    .q  { font: italic 20px "Georgia","Times New Roman",serif; fill: #6a737d; }
-    .by { font: 14px "Georgia","Times New Roman",serif; fill: #6a737d; }
+    .q  { font: italic 28px "Georgia","Times New Roman",serif; fill: #6a737d; }
+    .by { font: italic 20px "Georgia","Times New Roman",serif; fill: #6a737d; }
   </style>
-  <text x="600" y="50"  text-anchor="middle" class="q">“Government of the people, by the people, for the people, shall not perish from the Earth.”</text>
-  <text x="600" y="85"  text-anchor="middle" class="by">— Abraham Lincoln, <tspan font-style="italic">Gettysburg Address</tspan> (1863)</text>
+  <text x="800" y="70"  text-anchor="middle" class="q">“Government of the people, by the people, for the people,</text>
+  <text x="800" y="102" text-anchor="middle" class="q">shall not perish from the Earth.”</text>
+  <text x="800" y="145" text-anchor="middle" class="by">— Abraham Lincoln, Gettysburg Address (1863)</text>
 </svg>
