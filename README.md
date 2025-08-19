@@ -1,19 +1,16 @@
-<div align="center">
+<div align=""center"">
   <h1>CoCivium</h1>
   <p><em>A Civic CoConstitution For AI-Enabled Society</em></p>
 
   <p>
-    <picture>
-      <source srcset="./assets/hero/quote.svg" type="image/svg+xml" />
-      <img src="./assets/hero/quote-960w.png"
-           alt="“Government of the people…” — Abraham Lincoln, Gettysburg Address (1863)"
-           width="960" />
-    </picture>
+    <img src=""./assets/hero/quote-960w.png""
+         alt=""“Government of the people…” — Abraham Lincoln, Gettysburg Address (1863)""
+         width=""960"" />
   </p>
 
   <p>
-    <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
-      <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
+    <a href=""./docs/country-watchlist.md"" title=""See the democracy watchlist"">
+      <img src=""./assets/hero/hero.gif"" alt=""Rotating globe"" width=""420"" />
     </a>
   </p>
 </div>
@@ -72,7 +69,7 @@ Terms: We refer to our CoConstitution as The Cognocarta Consenti, or CC, and our
 4. Try the **Decision Log Viewer**.
 [link placeholder → ./apps/decision-log/README.md]`
 
-> Offline editing?  These files may not yet exist.  Placeholders resolve as files are committed.
+Offline editing?  These files may not yet exist.  Placeholders resolve as files are committed.
 
 ---
 
