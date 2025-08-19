@@ -1,17 +1,9 @@
 #!/usr/bin/env bash
-set -euo pipefail
-
-if ! command -v inkscape >/dev/null 2>&1; then
-  echo "[pre-commit] inkscape not found; skipping local PNG render (CI will handle it)." >&2
-  exit 0
+# Guard UTF-8 cleanliness (PowerShell script handles details)
+if command -v pwsh >/dev/null 2>&1; then
+  pwsh -NoProfile -File ./scripts/check-encoding.ps1 || exit 1
+elif command -v powershell >/dev/null 2>&1; then
+  powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check-encoding.ps1 || exit 1
+else
+  echo "No PowerShell found; skipping encoding check." >&2
 fi
-
-changed_svgs=$(git diff --cached --name-only -- 'site/assets/*_og.svg' || true)
-[ -z "$changed_svgs" ] && exit 0
-
-echo "[pre-commit] Rendering OG PNG sidecars…"
-for f in $changed_svgs; do
-  out="${f%.svg}.png"
-  inkscape --export-type=png --export-filename="$out" "$f"
-  git add "$out"
-done
