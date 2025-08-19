@@ -18,3 +18,5 @@ Thumbs.db
 .github/prr_*.json
 STDOUT.tmp
 STDERR.tmp
+
+README.md.bak.*
