@@ -1,0 +1,16 @@
+version: 1
+sources:
+  - name: matrix.card_md
+    room: "<staging-room-id>"
+    match: "^```card-md[\\s\\S]+```$"
+guards:
+  require_label: approved-for-discussion
+  rate_limit: 5/hour
+actions:
+  - type: github.discussion.create
+    category: "Ideas"
+    title: "{{ front_matter.title }}"
+    body: "{{ body }}"
+    dry_run: true
+kill_switch:
+  file: ops/kill-switch

@@ -1,0 +1,12 @@
+name: user-heartbeat
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Record heartbeat
+        run: echo "heartbeat by $GITHUB_ACTOR at $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
