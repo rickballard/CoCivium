@@ -21,4 +21,3 @@ jobs:
           else
             echo "No CRLF detected."
           fi
-

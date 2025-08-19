@@ -24,6 +24,3 @@ jobs:
             git commit -m "ci(og): autogen starfield preview"
             git push
           fi
-
-
-

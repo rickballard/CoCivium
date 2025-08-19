@@ -25,6 +25,3 @@ body:
           required: false
         - label: Explicit approval required (critical-core)
           required: false
-
-
-

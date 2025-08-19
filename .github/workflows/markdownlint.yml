@@ -8,6 +8,3 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm install -g markdownlint-cli || true
       - run: markdownlint || true
-
-
-

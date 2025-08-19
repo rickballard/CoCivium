@@ -9,4 +9,3 @@ rules:
     check-keys: false
   quoted-strings:
     required: only-when-needed
-
