@@ -35,7 +35,7 @@ NOTE TO EDITORS (offline-safe):
 
 <img src="./assets/icons/governments.svg" alt="GOVERNMENTS" width="20" height="20" />&nbsp; **GOVERNMENTS:** ** Many public institutions rely on civic architecture developed before typewriters.  Few or their policies can be evolved by those they impact, and they continual to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society, existential to humanity, yet so unregulated it risks lawless chaos.
 
-**COEVOLVE:** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g. acountability<<lik>>, transparency<<link>>, reversibility<<link>>).
+<img src="./assets/icons/coevolve.svg" alt="CoEvolve" width="20" height="20" />&nbsp; **CoEvolve:** ** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g. acountability<<lik>>, transparency<<link>>, reversibility<<link>>).
 
 <img src="./assets/icons/solutions.svg" alt="SOLUTIONS" width="20" height="20" />&nbsp; **SOLUTIONS:** ** Our job here, as an open source community, is to **Protect Prove, and Play.  Protect:** rescue democracy from abuse of power, (e.g. evolve access controls, audit trails, adversarial-testing program).  **Prove:** keep truth verifiable in an age of synthesis, (e.g. evolve verifiable claims, signed evidence bundles, provenance check<<link>>).  **Play:** make the rules fair for everyone, including human–AI teams, (e.g. evolve fair-use rules, symmetric obligations for human–AI teams, appeal paths).
 
@@ -159,3 +159,4 @@ Apache‑2.0 unless noted otherwise.  See `LICENSE`.
   - Preserve top-of-fold “LIFE/FEELS/BROKEN/UNTIL/GOVERNMENTS/CoEvolve/SOLUTIONS/FOR YOU” acrostic.
   - When committing, verify links and replace placeholders.
 -->
+
