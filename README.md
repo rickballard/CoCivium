@@ -14,6 +14,10 @@ NOTE TO EDITORS (offline-safe):
 > — <<Attribution>>
 
 <p align="center">
+> “Democracy survives when citizens act before systems fail.”  
+> — CoCivium
+
+<p align="center">
   <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
 </p>
 
