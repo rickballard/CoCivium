@@ -26,9 +26,9 @@ NOTE TO EDITORS (offline-safe):
 
 ## We The People, Empowered.
 
-<img src="./assets/icons/why-line.svg?v=20250819061852" alt="" width="20" height="20" />&nbsp;&nbsp; **Why:** Democracy needs to be rescued. Digital life is faster than law. Guardrails<<link>> must scale with agency.
-<img src="./assets/icons/who-line.svg?v=20250819061852" alt="" width="20" height="20" />&nbsp;&nbsp; **Who:** Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
-<img src="./assets/icons/how-line.svg?v=20250819061852" alt="" width="20" height="20" />&nbsp;&nbsp; **How:** CoConstitution, process specs, and adapters that embed dignity into civic tools.
+<img src="./assets/icons/why-line.svg?v=20250819062240" alt="" width="20" height="20" />&nbsp;&nbsp; **Why:** Democracy needs to be rescued. Digital life is faster than law. Guardrails<<link>> must scale with agency.
+<img src="./assets/icons/who-line.svg?v=20250819062240" alt="" width="20" height="20" />&nbsp;&nbsp; **Who:** Humans and AIs who accept consent-first rules. Temporary stewards/founders, federated ASAP.
+<img src="./assets/icons/how-line.svg?v=20250819062240" alt="" width="20" height="20" />&nbsp;&nbsp; **How:** CoConstitution, process specs, and adapters that embed dignity into civic tools.
 
 <img src="./assets/icons/life-linelife?v=20250819052549" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE:** Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?
 
@@ -44,7 +44,7 @@ NOTE TO EDITORS (offline-safe):
 
 <img src="./assets/icons/coevolve-linecoevolve?v=20250819052549" alt="" width="20" height="20" />&nbsp;&nbsp; **CoEvolve:** Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AI's achieve agency, as Artificial General Intelligence reaches its singularity, we more urgently require effective guardrails to keep power accountable (e.g., accountability<<link>>, transparency<<link>>, reversibility<<link>>).
 
-<img src="./assets/icons/solutions-line.svg?v=20250819061852" alt="" width="20" height="20" />&nbsp;&nbsp; **SOLUTIONS:** We ship three workstreams — **Protect, Prove, Play**. **Protect:** keep power accountable (access controls, audit trails, red-team/bug-bash). **Prove:** make claims verifiable (verifiable credentials, signed evidence bundles, provenance checks<<link>>). **Play:** ensure fair rules for people and human–AI teams (fair-use norms, symmetric obligations, clear appeals).
+<img src="./assets/icons/solutions-line.svg?v=20250819062240" alt="" width="20" height="20" />&nbsp;&nbsp; **SOLUTIONS:** We ship three workstreams — **Protect, Prove, Play**. **Protect:** keep power accountable (access controls, audit trails, red-team/bug-bash). **Prove:** make claims verifiable (verifiable credentials, signed evidence bundles, provenance checks<<link>>). **Play:** ensure fair rules for people and human–AI teams (fair-use norms, symmetric obligations, clear appeals).
 
 <img src="./assets/icons/for-you-linefor-you?v=20250819052549" alt="" width="20" height="20" />&nbsp;&nbsp; **FOR YOU:** If you can picture a society that works better, or test ideas against evidence, you are already qualified to be a civic architect here.  Start small, iterate alongside AI, and use the below links to see how you can join in, measure progress and help others to help you.
 
