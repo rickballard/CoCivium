@@ -3,7 +3,7 @@
     .q  { font: italic 28px "Georgia","Times New Roman",serif; fill: #6a737d; }
     .by { font: italic 20px "Georgia","Times New Roman",serif; fill: #6a737d; }
   </style>
-  <text x="800" y="70"  text-anchor="middle" class="q">“Government of the people, by the people, for the people,</text>
-  <text x="800" y="102" text-anchor="middle" class="q">shall not perish from the Earth.”</text>
+  <text x="800" y="70"  text-anchor="middle" class="q">&quot;Government of the people, by the people, for the people,</text>
+  <text x="800" y="102" text-anchor="middle" class="q">shall not perish from the Earth.&quot;</text>
   <text x="800" y="145" text-anchor="middle" class="by">— Abraham Lincoln, Gettysburg Address (1863)</text>
 </svg>
