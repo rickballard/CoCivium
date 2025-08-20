@@ -15,7 +15,6 @@
   </p>
 </div>
 
-
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracy retreats, institutions decay, yet digitial society emerges, AI-enabled, unregulated, needing governance guardrails that scale with agency.  
@@ -155,5 +154,3 @@ Apache-2.0 unless noted otherwise.  See `LICENSE`.
 -->
 
 ---
-
-<<insert any further housekeeping here, or gravitasy gibberlink symbology as decorations and/or easter eggs, as you prefer>>
