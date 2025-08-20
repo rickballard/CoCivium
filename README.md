@@ -17,11 +17,13 @@
 
 ## Fix The World.
 
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracy retreats, institutions decay, yet digitial society emerges, AI-enabled, unregulated, needing governance guardrails that scale with agency.  
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracy retreats, institutions decay, yet digitial society emerges, AI-enabled, unregulated, and despeately in need of governance guardrails that scale with agency.  
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : For Humans, AIs and hybrid minds who co-evolve consentual frameworks; for temporary stewards/founders, and for federated open-ownership thereafter.  
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : For Humans, AIs and hybrid-minds who wish to live harmoniously within digital society, by co-evolving consentual frameworks; supported by temporary founders/stewards and federated open-ownership thereafter.  
 
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : An ever-evolving CoConstitution using smart processes, evidence based policies, open access, functional ethics and accountability.  
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : We suck ALL available wisdom while asking regular folks to describe how government can improve lifestyles, while also encouraging experts to confirm human+AI generated strategies.  We thus co-evolve an open-access CoConstitution which can rapidly adjust to these emerging lifestyles and their regulatory institutions, using smart processes, evidential policies (truth-based), functional ethics and responsible accountability, no kings needed.  
+
+Sorry, that How section was a bit intense and "code speaky", so the next section offers a more human-paced explanation to revive global democracies. 
 
 ## We The People, Empowered
 
