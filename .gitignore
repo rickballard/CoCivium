@@ -20,3 +20,6 @@ STDOUT.tmp
 STDERR.tmp
 
 README.md.bak.*
+
+__head.tmp
+__orig.tmp
