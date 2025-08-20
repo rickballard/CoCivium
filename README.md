@@ -14,6 +14,7 @@
     </a>
   </p>
 </div>
+
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; WHY : Democracy retreats, institutions decay, yet digitial society emerges, AI-enabled, unregulated, needing governance guardrails that scale with agency.  
