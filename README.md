@@ -20,7 +20,7 @@
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digital society.  
 
-We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", so we can fairly cohabit this borderless "hybrid society".  This Github repo turns **your** best ideas into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators as they attempt to save Democracy.  
+We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", so we can fairly cohabit a borderless "hybrid society".  
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first digital society.
 
@@ -34,7 +34,7 @@ We need guardrails that scale with machine agency, regardless whether AIs become
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW:** Listen widely (everyday people + experts).  Co-write an open, ever-green CoConstitution.  Run fast policy loops.  Evidence over hype.  Functional ethics with real accountability.  
 
-This Github repo aggregates ALL the available wisdom, to turn **your good ideas** into deployable upgrades for organizations (especially government institutions), who wish to serve a fair and just society.  While doing this, we co-evolve an open-access CoConstitution which gently adjusts to emerging lifestyles and regulatory needs, using "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths); no coercion, no deep-state, no kings.  
+This Github repo aggregates ALL the available wisdom, to turn **your good ideas** into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators as they attempt to save Democracy.  While doing this, we co-evolve an open-access CoConstitution which uses your ideas to gently adjust itself to better fit emerging lifestyles and regulatory needs.  We also use "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths); no coercion, no deep-state, no kings.  
 
 **Contribute via any input channel:**
 
