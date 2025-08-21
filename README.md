@@ -180,5 +180,9 @@ Apache-2.0 unless noted otherwise.  See `LICENSE`.
   - Preserve top-of-fold “LIFE/FEELS/BROKEN/UNTIL/GOVERNMENTS/COEVOLVE/SOLUTIONS/FOR YOU” acrostic.
   - When committing, verify links and replace placeholders.
 -->
-
 ---
+<details>
+  <summary><small>About the category & our stance</small></summary>
+  <small>CoCivium is one implementation of an open pattern where <strong>individuals</strong> turn ideas into adoptable policy/standards packs.  The pattern is illustrated in our <a href="https://cocivium.org/map">Master Influence Flow Diagram (MIFD)</a>.  We welcome compatible forks and independent competitors, aiming for interoperable tooling and datasets so multiple platforms can converge as society learns what works.  Organizations do not govern CoCivium; they are recipients and venues to be influenced.  One person—optionally working with their AI—counts as one voice.</small>
+</details>
+
