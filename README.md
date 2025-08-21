@@ -1,6 +1,7 @@
 <div align="center">
   <h1>CoCivium</h1>
-  <p><em>Home of a/the Civic CoConstitution For AI-Enabled Society</em></p>
+  <p><em>Home of a/the Civic CoConstitution  
+    for AI-Enabled "Hybrid Society")</em></p>
 
   <p>
     <img src="./assets/hero/quote-960w.png"
