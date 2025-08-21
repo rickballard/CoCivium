@@ -34,7 +34,7 @@ We need guardrails that scale with machine agency, regardless whether AIs become
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW:** Listen widely (everyday people + experts).  Co-write an open, ever-green CoConstitution.  Run fast policy loops.  Evidence over hype.  Functional ethics with real accountability.  
 
-This Github repo aggregates ALL the available wisdom, to turn **your good ideas** into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators as they attempt to save Democracy.  While doing this, we co-evolve an open-access CoConstitution which uses your ideas to gently adjust itself to better fit emerging lifestyles and regulatory needs.  We also use "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths); no coercion, no deep-state, no kings.  
+More How?  This Github repo aggregates ALL the available wisdom, to turn **your good ideas** into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators as they attempt to save Democracy.  While doing this, we co-evolve an open-access CoConstitution which uses your ideas to gently adjust itself to better fit emerging lifestyles and regulatory needs.  We also use "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths); no coercion, no deep-state, no kings.  
 
 **Contribute via any input channel:**
 
