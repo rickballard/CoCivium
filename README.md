@@ -38,11 +38,18 @@ More How?  This Github repo aggregates ALL the available wisdom, to turn **your 
 
 **Contribute via any input channel:**
 
-- Use your preferred AI to vibe-code solutions and pull requests.  
-- Use GitHub, or our workflow accelerator [⚡ RepoAccelerator](tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks").  
-- Partner through GroupBuild.org (advocacy, protests, meetups), InSeed.com (consulting), others (((insert as signed))).  
-- Join [CoCivium.org chats](https://cocivium.org/chats).  
+- Use [ChatGPT] (or your preferred AI) to vibe-code solutions and pull requests.  
+  _Starter prompt:_ “Begin an ideas session for **CoCivium** and help me vibe-code pull requests for `rickballard/CoCivium`.”  
+- Use GitHub or our workflow accelerator [⚡ RepoAccelerator].  
+- Partner through [GroupBuild] and [InSeed], plus others — open a PR to add yours.  
+- Join [CoCivium chats].  
 - Fork this repo to friendly-compete.
+
+[ChatGPT]: https://chatgpt.com/
+[⚡ RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
+[GroupBuild]: https://www.groupbuild.org
+[InSeed]: https://www.inseed.com
+[CoCivium chats]: https://cocivium.org/chats
 
 ## We The People, Empowered
 
