@@ -20,9 +20,9 @@
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digital society.  
 
-We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", so we can fairly cohabit a borderless "hybrid society".  
+We need guardrails that scale with AI agency, (regardless whether AIs become souls, slaves or scapegoats), to fairly cohabit our shared, borderless digital world.  
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first digital society.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".
 
 <blockquote>
   Stop shouting into the wind.  
