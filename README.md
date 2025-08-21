@@ -24,19 +24,25 @@ We need guardrails that scale with machine agency, regardless whether AIs become
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first digital society.
 
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW:** Listen widely (everyday people + experts).  Co-write an open, ever-green CoConstitution.  Run fast policy loops.  Evidence over hype.  Functional ethics with real accountability.  No kings required.
-
-This Github repo aggregates all the available wisdom, to turn your good ideas into deployable upgrades for organizations (especially government institutions), who wish to serve a fair and just society.  We thus co-evolve an open-access CoConstitution which rapidly adjusts to emerging lifestyles and regulatory needs, using "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths).  
-
-Contribute via our CoCivium RepoAccelerator toolset, or our CoCivium.org chats, but either way, please ask your preferred AI to "vibe-code the pull request" so it makes the best sense to everyone, or "fork everything" so you can friendly-compete using your own version of all this.  
-
 <blockquote>
   Stop shouting into the wind.  
-    
-  Join debates, agree rules, ship them out ready to work.  
+  
+  Join debates, agree rules, ship them out ready to work.
   
   "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
 </blockquote>
+
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW:** Listen widely (everyday people + experts).  Co-write an open, ever-green CoConstitution.  Run fast policy loops.  Evidence over hype.  Functional ethics with real accountability.  
+
+This Github repo aggregates ALL the available wisdom, to turn **your good ideas** into deployable upgrades for organizations (especially government institutions), who wish to serve a fair and just society.  While doing this, we co-evolve an open-access CoConstitution which gently adjusts to emerging lifestyles and regulatory needs, using "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths); no coercion, no deep-state, no kings.  
+
+**Contribute via any input channel:**
+
+- Use your preferred AI to vibe-code solutions and pull requests.  
+- Use GitHub, or our workflow accelerator [⚡ RepoAccelerator](tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks").  
+- Partner through GroupBuild.org (advocacy, protests, meetups), InSeed.com (consulting), others (((insert as signed))).  
+- Join [CoCivium.org chats](https://cocivium.org/chats).  
+- Fork this repo to friendly-compete.
 
 ## We The People, Empowered
 
