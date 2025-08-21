@@ -15,23 +15,24 @@
   </p>
 </div>
 
-## Fix The World, (and tame the singularity).
 
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies retreat, "the singularity" is upon us, yet civic institutions struggle to include all of us in their attempts to fix our messed-up World.  
+## Fix The World, (tame the singularity).
 
-AI already drives our increasingly polarized digitial societies, typically unregulated.  They need "guardrails", processes that scale with their capacity to self-govern, a capacity we call "agency".  Self-awareness may even lead them to seek a version of human-identity and Human Rights, but either way, we are already sharing a "hybrid society".  
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digial society.  We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", to better cohabit this borderless "hybrid society".  This Github repo turns **your** best ideas into vibe-coded upgrade packages for governments and organizations, auto-shiping them to the administrators that coevolve society, and save Democracy.  
 
-This Github repo helps to rescue ethical Democracy, by turning your ideas into upgrade solutions, for governments and organizations who now face an inherently-borderless, hybrid society.  Stop shouting into the wind, instead join the debates, agree on policies and regulations, and aim them where they can be best implemented.  
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first digital society.
+
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW:** Listen widely (everyday people + experts).  Co-write an open, ever-green CoConstitution.  Run fast policy loops.  Evidence over hype.  Functional ethics with real accountability.  No kings required.
+
+This Github repo aggregates all the available wisdom, to turn your good ideas into deployable upgrades for organizations (especially government institutions), who wish to serve a fair and just society.  We thus co-evolve an open-access CoConstitution which rapidly adjusts to emerging lifestyles and regulatory needs, using "ethical intent" reputations, responsible accountability, smart processes and evidential policies (based on verifiable truths).  
+
+Contribute via our CoCivium RepoAccelerator toolset, or our CoCivium.org chats, but either way, please ask your preferred AI to "vibe-code the pull request" so it makes the best sense to everyone, or "fork everything" so you can friendly-compete using your own version of all this.  
 
 <blockquote>
- "Self-governance doesn't happen on its own" - Rick (temporary cofounder)
- </blockquote>
-
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : For Humans, AIs and hybrid-minds who wish to live harmoniously within digital society, by co-evolving consentual frameworks; supported by temporary founders/stewards and federated open-ownership thereafter.  
-
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : We suck ALL available wisdom while asking regular folks to describe how government can improve lifestyles, while also encouraging experts to confirm human+AI generated strategies.  We thus co-evolve an open-access CoConstitution which can rapidly adjust to these emerging lifestyles and their regulatory institutions, using smart processes, evidential policies (truth-based), functional ethics and responsible accountability, no kings needed.  
-
-Sorry, that How section was a bit intense and "code speaky", so the next section offers a more human-paced explanation to revive global democracies.  
+  Stop shouting into the wind.  
+  Join debates, agree rules, ship them out them ready to work.  
+  "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
+</blockquote>
 
 ## We The People, Empowered
 
