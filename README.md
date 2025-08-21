@@ -32,7 +32,9 @@ Contribute via our CoCivium RepoAccelerator toolset, or our CoCivium.org chats, 
 
 <blockquote>
   Stop shouting into the wind.  
-  Join debates, agree rules, ship them out them ready to work.  
+    
+  Join debates, agree rules, ship them out ready to work.  
+  
   "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
 </blockquote>
 
