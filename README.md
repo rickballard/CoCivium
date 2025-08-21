@@ -18,7 +18,9 @@
 
 ## Fix The World, (tame the singularity).
 
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digial society.  We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", to better cohabit this borderless "hybrid society".  This Github repo turns **your** best ideas into vibe-coded upgrade packages for governments and organizations, auto-shiping them to the administrators that coevolve society, and save Democracy.  
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digital society.  
+
+We need guardrails that scale with machine agency, regardless whether AIs become “selves” or "slaves", so we can fairly cohabit this borderless "hybrid society".  This Github repo turns **your** best ideas into vibe-coded upgrade packages for governments and organizations, auto-shiping them to the administrators that coevolve society, and save Democracy.  
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first digital society.
 
