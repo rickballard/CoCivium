@@ -1,3 +1,9 @@
-# normalize line endings and enforce UTF-8 for markdown
-*        text=auto eol=lf
-*.md     text eol=lf working-tree-encoding=UTF-8
+*           text=auto eol=lf
+*.ps1       text eol=lf
+*.psm1      text eol=lf
+*.md        text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.sh        text eol=lf
+*.psd1      text eol=lf
