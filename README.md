@@ -38,10 +38,10 @@ More How?  This Github repo aggregates ALL the available wisdom, to turn **your 
 
 **Contribute via any input channel:**
 
-- Use [ChatGPT] (or your preferred AI) to vibe-code solutions and pull requests.  
+- Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a solution Pull Request (PR).  
   _Starter prompt:_ “Begin an ideas session for **CoCivium** and help me vibe-code pull requests for `rickballard/CoCivium`.”  
-- Use GitHub or our workflow accelerator [⚡ RepoAccelerator].  
-- Partner through [GroupBuild] and [InSeed], plus others — open a PR to add yours.  
+- Use GitHub directly, or via our workflow accelerator [⚡ RepoAccelerator].  
+- Partner through [GroupBuild],  [InSeed], or others, to preserve **your good ideas**, or to open a PR.  
 - Join [CoCivium chats].  
 - Fork this repo to friendly-compete.
 
