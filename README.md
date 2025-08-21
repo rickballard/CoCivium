@@ -18,7 +18,7 @@
 
 ## Fix The World.
 
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digital society.  
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, while AI takes over administration of our increasingly polarized and unregulated digital society.  
 
 We need guardrails that scale with AI agency, (regardless whether AIs become souls, slaves or scapegoats), so we can ALL fairly cohabit our shared, borderless digital world.  
 
