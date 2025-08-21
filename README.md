@@ -16,7 +16,7 @@
 </div>
 
 
-## Fix The World, (tame the singularity).
+## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, as AI takes over the administration of our increasingly polarized and unregulated digital society.  
 
@@ -26,8 +26,8 @@ We need guardrails that scale with AI agency, (regardless whether AIs become sou
 
 <blockquote>
   Stop shouting into the wind.  
-  
   Join debates, agree rules, ship them out ready to work.
+  Tame the singularity.
   
   "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
 </blockquote>
