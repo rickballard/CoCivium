@@ -22,9 +22,7 @@
 
 We need guardrails that scale with agency, regardless whether AIs become souls, slaves or scapegoats, so we can **ALL** fairly cohabit our shared, borderless digital world.  
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".
-
-Stop shouting into the wind and help us defend Democracy, tame the singularity and revive our societies.  Join debates, agree rules, then ship them out, ready to work.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".  Stop shouting into the wind and help us defend Democracy, tame the singularity and revive our societies.  Join debates, agree rules, then ship them out, ready to work.
 
 <blockquote>
     *"Self-governance doesn't happen on its own"* - Rick, a temporary repo steward.  
