@@ -1,0 +1,1 @@
+[See RickPad_20250822b.md](./RickPad_20250822b.md)
