@@ -20,14 +20,14 @@
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, while AI takes over administration of our increasingly polarized and unregulated digital society.  
 
-We need guardrails that scale with AI agency, (regardless whether AIs become souls, slaves or scapegoats), so we can ALL fairly cohabit our shared, borderless digital world.  
+We need guardrails that scale with agency, regardless whether AIs become souls, slaves or scapegoats, so we can **ALL** fairly cohabit our shared, borderless digital world.  
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".
 
+Stop shouting into the wind and help us defend Democracy, tame the singularity and make our societies safe again.  Join debates, agree rules, ship them out, ready to work.
+
 <blockquote>
-  Stop shouting into the wind and help us defend Democracy, tame the singularity and make our societies safe again.  Join debates, agree rules, ship them out, ready to work.  
-  
-  *"Self-governance doesn't happen on its own"* - Rick (temporary repo steward)  
+    *"Self-governance doesn't happen on its own"* - Rick, a temporary repo steward.  
 </blockquote>
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : (1) Listen widely to everyday people and experts, (2) Help everyone co-evolve an open, ever-green CoConstitution, (3) Run fast policy loops, (4) Ensure evidence beats bullshite, (5) Use functional ethics and blockchain accountability.  
