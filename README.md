@@ -22,7 +22,7 @@
 
 We need guardrails that scale with agency, regardless whether AIs become souls, slaves or scapegoats, so we can **ALL** fairly cohabit our shared, borderless digital world.  
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".  Stop shouting into the wind and help us defend Democracy, tame the singularity and revive our societies.  Join debates, agree rules, then ship them out, ready to work.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds must cooperate to rebuild consent-first "hybrid societies".  Stop shouting into the wind and help defend Democracy, tame the singularity, and fix the world.  Join debates, agree rules, then ship them out, ready to work.
 
 <blockquote>
   <p><em>"Self-governance doesn't happen on its own"</em> — Rick, a temporary repo steward.</p>
@@ -49,9 +49,9 @@ More How : This Github repo aggregates and preserves ALL public wisdom, turning 
 
 ## We The People, Empowered
 
-<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE** : Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Governments?  
+<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE** : Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  
 
-<img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **FEELS** : It's too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing to partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.  
+<img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **FEELS** : It feels like Governments are losing their dignity and society is breaking down.  It's too easy to sit back and accept that resistance is futile, or that half the country has lost the plot, succumbing to partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.  
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **BROKEN** : Some fight back, rage against rage, hate against hate, but this multiplies the damage.  Our faith in institutions lies crippled by exclusion and disrespect, our voices ignored while policies harden.  But anger breaks like an "insanity tsunami", bringing more coercion.  
 
