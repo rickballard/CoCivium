@@ -25,7 +25,7 @@ We need guardrails that scale with agency, regardless whether AIs become souls, 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".  Stop shouting into the wind and help us defend Democracy, tame the singularity and revive our societies.  Join debates, agree rules, then ship them out, ready to work.
 
 <blockquote>
-    *"Self-governance doesn't happen on its own"* - Rick, a temporary repo steward.  
+  <p><em>"Self-governance doesn't happen on its own"</em> — Rick, a temporary repo steward.</p>
 </blockquote>
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : (1) Listen widely to everyday people and experts, (2) Help everyone co-evolve an open, ever-green CoConstitution, (3) Run fast policy loops, (4) Ensure evidence beats bullshite, (5) Use functional ethics and blockchain accountability.  
