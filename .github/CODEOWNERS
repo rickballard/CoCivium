@@ -1,4 +1,2 @@
-# Keep as simple as needed; expand later.
-*   @rickballard
-insights/*being*noname*.*   @rickballard
-insights/*story*.*         @rickballard
+# Protect root README – require review by Rick
+/README.md  @rickballard
