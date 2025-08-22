@@ -51,7 +51,7 @@ More How : This Github repo aggregates and preserves ALL public wisdom, turning 
 
 ## We The People, Empowered
 
-<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE** : Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Constitution?  
+<img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE** : Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?  Did the word "dignity" fall out of our Governments?  
 
 <img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **FEELS** : It's too easy to sit back and accept that resistance is futile, or that half the country is losing the plot, succumbing to partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.  
 
