@@ -37,3 +37,16 @@ Verifies the helper no longer depends on a pre-made directory.
 
 ---
 
+## Ship README Messaging v0 to main (freeze + svg placeholders)
+*When:* 2025-08-22 13:28:21 -04:00
+
+### DO
+- Merge preview README to main via squash.
+- Tag freeze: readme-freeze_20250822_132748.
+- Keep future typo tweaks as tiny PRs against main.
+
+### ADVISORY
+Preview branch served its purpose; new preview branches are fine for bigger copy/layout changes.
+
+---
+
