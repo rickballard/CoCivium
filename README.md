@@ -25,7 +25,7 @@ We need guardrails that scale with AI agency, (regardless whether AIs become sou
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds helping to rebuild consent-first "hybrid society".
 
 <blockquote>
-  Stop shouting into the wind.  Join debates, agree rules, ship them out, ready to work.  Tame the singularity.
+  Stop shouting into the wind and help us defend Democracy, tame the singularity and make our societies safe again.  Join debates, agree rules, ship them out, ready to work.  
   
   "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
 </blockquote>
