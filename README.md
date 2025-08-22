@@ -27,7 +27,7 @@ We need guardrails that scale with AI agency, (regardless whether AIs become sou
 <blockquote>
   Stop shouting into the wind and help us defend Democracy, tame the singularity and make our societies safe again.  Join debates, agree rules, ship them out, ready to work.  
   
-  "Self-governance doesn't happen on its own" - Rick (temporary repo steward)  
+  *"Self-governance doesn't happen on its own"* - Rick (temporary repo steward)  
 </blockquote>
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : (1) Listen widely to everyday people and experts, (2) Help everyone co-evolve an open, ever-green CoConstitution, (3) Run fast policy loops, (4) Ensure evidence beats bullshite, (5) Use functional ethics and blockchain accountability.  
