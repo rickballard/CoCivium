@@ -1,0 +1,27 @@
+name: Idea Issue
+description: Share a problem/opportunity and the smallest useful change.
+title: "Idea: <short title>"
+labels: ["idea"]
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem or opportunity?
+      description: Keep it simple. Your AI can help expand later.
+      placeholder: "2–5 sentences"
+    validations:
+      required: true
+  - type: textarea
+    id: smallest_change
+    attributes:
+      label: Smallest useful change
+      description: What’s the smallest thing we could test or ship?
+      placeholder: "One small step we can try"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / links (optional)
+      description: Links, screenshots, or prior discussion.

@@ -1,12 +1,27 @@
-## Summary
-What/why in plain English.
+# Post (Pull Request)
 
-## Impact & Safety
-- Reversibility: ☐ trivial ☐ moderate ☐ hard (explain)
-- Potential harms & who’s affected:
-- Mitigations & rollback plan:
-- Labels: add `risk:low|med|high`; add `safety-review` if high
+**Summary**
+- What change does this make, in plain language?
 
-## Testing
-- Runtime sanity: ☐ passes locally ☐ N/A
-- Screenshots/logs:
+**Why this helps (Two Eyes)**
+- Citizen value (Eye 1):
+- System value (Eye 2):
+
+**Smallest shippable change**
+- Keep it reversible and incremental.
+
+**How to review**
+- Files/sections to focus on:
+- Suggested order:
+
+**Impact / risk**
+- Any migrations or breaking links?
+
+**Follow-ups**
+- Bullets for next steps, if any.
+
+---
+Checklist:
+- [ ] Plain language
+- [ ] Links resolve
+- [ ] Small, reviewable diff

@@ -1,0 +1,3 @@
+# keep backup spill out of git
+*
+!.gitignore

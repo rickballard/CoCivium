@@ -1,4 +1,4 @@
-# ko-finisher.ps1
+# admin/tools/ko-finisher.ps1
 # PowerShell 7+. Run from anywhere.
 
 Set-StrictMode -Version Latest

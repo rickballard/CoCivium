@@ -1,0 +1,9 @@
+repos: []
+
+- repo: local
+  hooks:
+    - id: readme-preflight
+      name: README preflight
+      entry: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/readme-preflight.ps1
+      language: system
+      files: ^README\.md$

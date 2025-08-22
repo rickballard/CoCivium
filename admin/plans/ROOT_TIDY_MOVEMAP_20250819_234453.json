@@ -1,0 +1,72 @@
+[
+  {
+    "source": ".markdownlint.json",
+    "target": "admin\\configs\\.markdownlint.json",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".markdownlint.yml",
+    "target": "admin\\configs\\.markdownlint.yml",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".markdownlintignore",
+    "target": "admin\\configs\\.markdownlintignore",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".mdlignore",
+    "target": "admin\\configs\\.mdlignore",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".mdlrc",
+    "target": "admin\\configs\\.mdlrc",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".lychee.toml",
+    "target": "admin\\configs\\.lychee.toml",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".yamllint.yml",
+    "target": "admin\\configs\\.yamllint.yml",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".codespell.words",
+    "target": "admin\\configs\\.codespell.words",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".codespellrc",
+    "target": "admin\\configs\\.codespellrc",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".markdownlintignore",
+    "target": "admin\\configs\\.markdownlintignore",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".mdlignore",
+    "target": "admin\\configs\\.mdlignore",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": ".mdlrc",
+    "target": "admin\\configs\\.mdlrc",
+    "note": "config (tool support needed)"
+  },
+  {
+    "source": "admin/tools/merge-pr.sh",
+    "target": "admin\\tools\\admin/tools/merge-pr.sh",
+    "note": "script"
+  },
+  {
+    "source": "admin/tools/ko-finisher.ps1",
+    "target": "admin\\tools\\admin/tools/ko-finisher.ps1",
+    "note": "script"
+  }
+]

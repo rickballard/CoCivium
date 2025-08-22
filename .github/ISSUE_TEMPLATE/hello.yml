@@ -1,0 +1,14 @@
+name: Hello CoCivium
+description: Say hi and what you care about—one line is enough.
+title: "Hello: <your name or alias>"
+labels: ["hello"]
+assignees: []
+body:
+  - type: textarea
+    id: hello
+    attributes:
+      label: Hi!
+      description: One or two lines about you and what you care about.
+      placeholder: "Hi, I’m <name>. I care about <thing>."
+    validations:
+      required: true

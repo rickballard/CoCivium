@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+# Cognocarta Consenti (CC)
+
+<p align="center">
+  <img src="./assets/cc/cc-crest.png" alt="Cognocarta Consenti (CC) — living constitution for digital society" width="420">
+</p>
+=======
 <div align="center">
   <h1>CoCivium</h1>
   <p><em>Home of a/the civic CoConstitution  
@@ -7,14 +14,15 @@
          alt="“Government of the people…” — Abraham Lincoln, Gettysburg Address (1863)"
          width="960" />
   </p>
+>>>>>>> origin/main
 
-  <p>
-    <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
-      <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
-    </a>
-  </p>
-</div>
+**Mission:** Build the **living constitution for digital society**—borderless, people-first, and **directly evolvable by anyone who cares**.
 
+<<<<<<< HEAD
+**Project:** **CoCivium** is the open-source community that **writes, tests, and ships the CC**—plus the policies, processes, and tools that keep **hybrid life (physical + digital)** **democratic, equitable, and aligned** with human values.
+
+> If you can read this page, you’re qualified to help. No coding or civics degree required.
+=======
 
 ## Fix The World.
 
@@ -66,81 +74,96 @@ More How : This Github repo aggregates and preserves ALL public wisdom, turning 
 <img src="./assets/icons/solutions-line.svg"   alt="" width="20" height="20" />&nbsp;&nbsp; **SOLUTIONS** : Our job here is to <strong>Protect, Prove, Play</strong>. <strong>Protect</strong> keeps power accountable (access controls, audit trails, red-team/bug-bash); <strong>Prove</strong> makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks); <strong>Play</strong> ensures fair rules for people and human–AI teams (ethical norms, symmetric obligations, clear appeals).  
 
 <img src="./assets/icons/for-you-line.svg"     alt="" width="20" height="20" />&nbsp;&nbsp; **FOR YOU** : If you can picture society working better, or if you can test ideas against evidence, you already qualify as a civic architect for CoCivium.  Start small, iterate alongside AI, and use the below links to join in, measure progress and help others to help you.  
+>>>>>>> origin/main
 
 ---
 
-## Quick Links
+## Why now (plain language)
 
-* [Start Here](#start-here)
-* [How To Help](#contributing)
-* [Current Status](#status-today)
-* [Performance and KPIs](#two-eyes-snapshot)
-* [CoConstitution (Cognocarta Consenti)](#coconstitution-cognocarta-consenti)
-* [Strategy Roadmap](#roadmap)
-* [Housekeeping](#housekeeping)
-* [License](#license)
+- **Analog rules in a digital era.** Yesterday’s constitutions weren’t built for instant, global coordination.
+- **Platforms act like public squares—without public safeguards.** A few companies set the rules and recourse.
+- **Attention beats trust.** Outrage spreads; nuance stalls.
+- **Participation is hard.** Jargon and gatekeeping keep most people out.
+- **Good ideas die in threads.** We lack a clear path from **voice → draft → decision → action → accountability**.
 
----
-
-## Start Here
-
-1. Read the **Preamble** to the CoConstitution (Cognocarta Consenti).  *(Repo-relative link; will resolve after commit.)*
-[link placeholder → ./charter/Cognocarta_Consenti_Preamble.md]`
-2. Skim the **Implementation Documents** for structure and amendment paths.
-[link placeholder → ./constitution/Operating_Constitution.md]`
-3. Browse the **Process Spec (CPS)** to see how proposals → deliberation → voting → execution flows.
-[link placeholder → ./specs/Process_Spec.md]`
-4. Try the **Decision Log Viewer**.
-[link placeholder → ./apps/decision-log/README.md]`
-
-Offline editing?  These files may not yet exist.  Placeholders resolve as files are committed.
+**The CC’s promise:** a shared, evolvable framework that communities can adopt, adapt, and audit.
 
 ---
 
-## How To Help
+## What the CC is
 
-* Read **CONTRIBUTING.md**.
-* File an issue tagged `domain`, `product`, `ops`, `ci`, `wiki`, `content`, `refactor`.
-* All merges pass through **HumanGate** for now.  Stewardship will decentralize as CoCivAI matures.
+- A **set of shared declarations** (promises, protocols, and rights) for how we listen, decide, and act—together.
+- A **practical playbook** (patterns, templates, guardrails) any community can reuse.
+- A **living document**: updated like good software—proposed, reviewed, improved **in the open**.
 
-*Quickstart scripts are PowerShell-first, with GitHub CLI helpers.  See `admin/setup/`.*
-
----
-
-## Current Status (by most active)
-
-<!-- GITHUB_ONLY: begin -->
-
-<details>
-  <summary>📦 Release / Site / CI (expand)</summary>
-
-* Latest release: `[placeholder → ./releases/latest]`
-* Website: `[placeholder → https://cocivium.org]`
-* CI status page: `[placeholder → ./actions]`
-
-</details>
-<!-- GITHUB_ONLY: end -->
-
-* What exists now: seed docs, early specs, repo scaffolding.
-* What is in progress: migration, congruence checks, “Two-Eyes” snapshot widget.
-* What is next: pilots, adapters, contributor onboarding.
+**Read next:**
+- [CC Preamble](./docs/cc/PREAMBLE.md) *(placeholder)*
+- [CC Overview](./docs/cc/OVERVIEW.md) *(placeholder)*
+- [CC Declarations Index](./docs/cc/DECLARATIONS.md) *(placeholder)*
 
 ---
 
-## Performance
+## From idea to impact (at a glance)
 
-![Two-Eyes Status — replace with ./assets/status/two-eyes.png](./assets/status/two-eyes.png "If missing, this is a placeholder visualization.")
+**voice → draft → review → decision → action → accountability**
 
-*Legend:* Left eye = **Document quality & coherence**.  Right eye = **Operational readiness & adoption**.  Each iris ring tracks a dimension (CI, Coverage, OFS, LSH, DTI, Throughput, LT(inv), EE).  Replace the image with an auto-generated chart when wiring CI.
+Start with an [Idea Issue](https://github.com/rickballard/CoCivium/issues/new?template=idea.yml) *(template link placeholder)* — or ask your AI to open one using our [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(placeholder)*. When ready, open a **post** (pull request). That’s it. The rest you’ll learn as you go.
+
+*Details later:* see [Process Overview](./docs/process/OVERVIEW.md) *(placeholder)*.
+
+
+## Join in (no expertise needed)
+
+**Bring your AI.** Seed it with [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(placeholder)* and ask it to draft issues or posts with you.
+
+
+**2 minutes — Say hi**  
+Open **Issues → New** → title: “Hello CoCivium”. One line about what you care about—locally or online.  
+*Or ask your AI to open it for you using our template.*
+
+**10 minutes — Share an idea**  
+Open an **Idea Issue** with a clear problem and a smallest useful change.  
+*Ask your AI to generate it from a paragraph of notes.*
+
+**30–60 minutes — Start a post (PR)**  
+Edit a page that needs love or add a note under `/proposals/`. Submit a **post**.  
+*Ask your AI to turn your issue into a PR and fill the template.*
+
+**Everything stays reversible.** Small steps, merged often.
 
 ---
 
-## CoConstitution (Cognocarta Consenti)
+## The “Two Eyes” model (citizen × system)
 
-* **Purpose.** A consent-first constitutional core meant to be adopted alongside, not over, existing constitutions.
-* **Lineage.** Drafted by the CoCivium community; versioned and amendable via transparent process.
-* **Versioning.** `cc-v1`, `cocivop-v0.1`, `cocivproc-v0.1.0` (machine tags) with human aliases on site.
+We design governance that sees with **two eyes**:
+- **Eye 1: Citizens** — lived experience, local context, moral intuitions.
+- **Eye 2: Systems** — data, constraints, impact analysis, safety.
 
+Together they give us **depth perception**—humane and workable decisions.
+
+![Two Eyes Diagram](./assets/diagrams/two-eyes.png "Two Eyes: citizen + system co-vision") *(placeholder image)*
+
+---
+
+## Ground rules (The CoCivium Pledge)
+
+**Civility. Clarity. Curiosity. Consent. Credit.**  
+Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, attribute ideas.
+
+- [Code of Conduct](./CODE_OF_CONDUCT.md) *(placeholder)*
+- [Contribution Guide](./CONTRIBUTING.md) *(placeholder)*
+- [Maintainer Guide](./MAINTAINERS.md) *(placeholder)*
+
+---
+
+## Start here (quick links)
+
+- 📣 **New Idea →** [Open an issue](https://github.com/rickballard/CoCivium/issues/new/choose) *(placeholder)*
+- ✍️ **Start a post →** [Use the proposal template](./proposals/stub_proposal-template.md) and open a PR (a “post”).
+
+<<<<<<< HEAD
+- ✏️ **Edit this page →** [Edit this file](https://github.com/rickballard/CoCivium/edit/main/README.md)
+=======
 > **Adoption model:** Fork-and-adopt for orgs/municipalities; federation later via adapters and cross-ledger proofs.
 
 ---
@@ -184,3 +207,4 @@ Apache-2.0 unless noted otherwise.  See `LICENSE`.
   <small>CoCivium is one implementation of an open pattern where <strong>individuals</strong> turn ideas into adoptable policy/standards packs.  The pattern is illustrated in our <a href="https://cocivium.org/map">Master Influence Flow Diagram (MIFD)</a>.  We welcome compatible forks and independent competitors, aiming for interoperable tooling and datasets so multiple platforms can converge as society learns what works.  Organizations do not govern CoCivium; they are recipients and venues to be influenced.  One person—optionally working with their AI—counts as one voice.  We continue to debate how an AI, an AI-collective like CoCivAI, or a post-identity AGI, should be fairly treated as a CoCivite, when it/they present as independent voice(s)</small>
 </details>
 
+>>>>>>> origin/main

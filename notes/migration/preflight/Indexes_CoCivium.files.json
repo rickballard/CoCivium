@@ -888,7 +888,7 @@
     "size": 5109
   },
   {
-    "path": "admin_CoCivium_Sprint_Retrospective_2025-08-11.md",
+    "path": "admin/history/retrospectives/2025-08-11_CoCivium_Sprint_Retrospective.md",
     "mode": "100644",
     "sha": "676d2b66f7b0f39db0cab7da45543e1ea5dbefec",
     "size": 4407
@@ -1008,13 +1008,13 @@
     "size": 441
   },
   {
-    "path": "ko-finisher.ps1",
+    "path": "admin/tools/ko-finisher.ps1",
     "mode": "100644",
     "sha": "5c0917eac34798e77568fbd8dc0068dd8aead969",
     "size": 11930
   },
   {
-    "path": "merge-pr.sh",
+    "path": "admin/tools/merge-pr.sh",
     "mode": "100644",
     "sha": "b64adc2cc1c100e798ced3105b272af70af0d447",
     "size": 1272

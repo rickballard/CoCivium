@@ -1,2 +1,5 @@
----
 blank_issues_enabled: false
+contact_links:
+  - name: Ask your AI to help
+    url: https://github.com/rickballard/CoCivium/tree/main/admin/tools/repo-accelerator
+    about: Use RepoAccelerator to seed your AI and draft an issue or post.

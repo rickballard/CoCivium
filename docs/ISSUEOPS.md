@@ -1,41 +1,40 @@
-# IssueOps: `/run` quick guide
+# IssueOps – quick cheat sheet
 
-## What it does
-Comment `/run` with a **bash** code block and the self-hosted runner (Windows + Git Bash) will execute that block on a fresh checkout of this repo and reply with logs. Artifacts (script + output) are attached to the workflow run.
+**Goal:** smallest useful change → visible, reviewable, reversible.
 
-Only the **first** fenced ```bash block in your comment is executed.
+## 1) Say hi (2 minutes)
+Open New issue → “Hello CoCivium”. One line about what you care about.
+- https://github.com/rickballard/CoCivium/issues/new/choose
 
-## Who can trigger
-Right now: only **@rickballard** (hard-coded in the workflow). Ask to be added if you need access.
+## 2) Share an idea (10 minutes)
+Use the **Idea** form. Describe the problem and one smallest useful change.
+- https://github.com/rickballard/CoCivium/issues/new?template=idea.yml
 
-## How to use
-Write a comment like:
+## 3) Start a post (PR) (30–60 minutes)
+Draft under \/proposals/\ using the stub template, then open a PR.
+- View template: https://github.com/rickballard/CoCivium/blob/main/proposals/stub_proposal-template.md
+- Edit template in-browser: https://github.com/rickballard/CoCivium/edit/main/proposals/stub_proposal-template.md
 
-/run
+**Labeling:** PRs that touch \/proposals/**\ are auto-labeled **post**.  
+Add **docs** for documentation changes.
 
-```bash
-set -euo pipefail
-echo "Repo top: $(pwd)"
-git --no-pager log --oneline -n 3
+## Daily Workbench (one-click start)
+Use **CoCivium-Workbench.bat** (Desktop). It runs a silent preflight and opens:
+- ChatGPT
+- Repo home: https://github.com/rickballard/CoCivium
+- This cheat sheet: docs/ISSUEOPS.md
 
-mkdir -p docs
-cat > docs/ACADEMY.md <<'EOF'
-# CoCivium Academy (Contributor Onboarding)
+Logs: \~/Documents/CoCiviumLogs/preflight_latest.log\
 
-## Baseline tools (Windows)
-- Git for Windows (includes Git Bash)
-- GitHub CLI (`gh`)
-- Optional: PowerShell 7+ for local dev
+## Common git one-liners
+- See what changed: \git status\
+- Stage everything: \git add -A\
+- Commit: \git commit -m "docs: <message>"\
+- Push: \git push\
 
-## How we automate from issues
-We use an IssueOps workflow. Comment `/run` with a **bash** fence; the first fenced block is executed on our self-hosted runner and results are posted back. See [docs/ISSUEOPS.md](./ISSUEOPS.md).
+## Troubleshooting
+- “not a git repository” → you’re not in the repo. Run:
+  \Set-Location "C:\Users\Chris\Documents\GitHub\CoCivium"\
+- Windows wrote to System32 → always use absolute paths or \Set-Location\ first.
 
-## AI Boot Prompt (copy/paste into your assistant)
-You are assisting on the CoCivium project (open-source). Preferences:
-- Default to Git Bash on Windows; keep commands cross-platform where possible.
-- Prefer short, robust steps. For long tasks, propose committing scripts to `scripts/` and calling them from `/run`.
-- Surface tool/install hints only when needed; link to docs/ACADEMY.md and docs/ISSUEOPS.md.
-- When suggesting repo changes, provide clean diffs or ready-to-paste files. Include commit messages.
-- Assume branch protection requires PRs; if automation needs a bypass, propose a temporary rules update and restore it.
-
-When asked to “do” something that requires a machine, emit a minimal `/run` bash block that fetches and executes the reviewed script from the repo.
+— end —

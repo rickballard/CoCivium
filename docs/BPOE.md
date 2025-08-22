@@ -14,3 +14,10 @@
 - Governance scaffolding committed (7f942dd): community objectives, ethics, PR safety gate, ops stubs, labels.
 - Safety gate active on PRs (blocks high-risk until safety-approved).
 - Next: add 	ests/smoke + sanity.yml; stage Matrix↔Discussions L4 policy (dry-run).
+
+### Fast start ritual (BPOE)
+
+- One click: Desktop **CoCivium-Workbench.bat**
+- Preflight runs silently; see `~/Documents/CoCiviumLogs/preflight_latest.log`
+- Browser opens: ChatGPT (left), GitHub repo + **ISSUEOPS** (right)
+- Keep extras out of startup (news, extra terminals) to reduce context switching

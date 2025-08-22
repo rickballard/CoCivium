@@ -1,3 +1,4 @@
----
-"migration":
-  - head-branch: ['^migration/.*']
+post:
+- 'proposals/**'
+docs:
+- 'docs/**'
