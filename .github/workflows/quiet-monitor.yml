@@ -87,3 +87,4 @@ jobs:
           fi
           gh issue comment -R "$REPO" "$inbox" -b "$body"
           echo "Alert posted to issue #$inbox"
+
