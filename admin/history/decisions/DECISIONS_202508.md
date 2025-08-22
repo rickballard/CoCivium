@@ -50,3 +50,14 @@ Preview branch served its purpose; new preview branches are fine for bigger copy
 
 ---
 
+## Adopt canonical README (hero kept; dignified layout + crest)
+*When:* 2025-08-22 19:19:47 -04:00
+
+### DO
+- Squash-merge PR #145 to main; - Keep hero globe+quote; - Crest right-aligned near CC;
+
+### ADVISORY
+Tweak crest size/location via README HTML if needed.
+
+---
+
