@@ -28,11 +28,11 @@ Anyone with an opinion (Human, AI or hybrid), can cooperate and co-evolve.  Stop
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW**
 1. Listen widely to everyday people and experts,
-2. Help everyone co-evolve in the open,
-3. Keep CoConstitution ever-green,
-4. Run fast policy loops,
-5. Use evidential policies (truth-based),
-6. Check against functional ethics and blockchain accountability.  
+2. Help everyone co-evolve ideas, in the open,
+3. Keep the CoConstitution ever-green,
+4. Run fast design-iteration loops,
+5. Check policies are eveidential (truth-based),
+6. Maintain functional ethics and blockchain accountability.  
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **MORE HOW**  
 Join debates, agree rules, then ship them out, ready to work.  This repo aggregates civic wisdom and turns **your best ideas** into vibe-coded upgrade packages for governments and organizations.  It then ships these packages to society's administrators who need us, to stand with them, to save Democracy.  This process also upgrades the CoConstitution so it always fits emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
