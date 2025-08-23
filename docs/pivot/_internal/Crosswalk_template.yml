@@ -1,0 +1,33 @@
+standard: TEMPLATE
+version: 0.0.0
+module: Open-Government Transparency (TEMPLATE)
+scope: |
+  Describe the scope covered by this crosswalk (e.g., DCAT v3 dataset catalog; OCDS tender→award; BODS entities).
+references:
+  - name: Official specification
+    url: https://example.org/spec
+  - name: Implementation guide
+    url: https://example.org/guide
+required_fields:
+  - id: field_a
+    desc: What it is and why it matters
+  - id: field_b
+    desc: Another required element
+equivalents_allowed: true
+equivalents:
+  - name: Alternative schema X
+    conditions: Must map to required_fields and pass validators listed below
+validators:
+  - name: validator-tool
+    url: https://example.org/validator
+    run: "npx validator-tool --input path/to/file.json"
+evidence_artifacts:
+  - name: public-catalog
+    type: url
+    desc: Public URL to catalog or API endpoint
+test_data:
+  - path: examples/catalog.json
+  - path: examples/award.json
+notes: |
+  TEMPLATE file for mapping CoCivium modules to external standards with explicit validator paths.
+  Replace placeholders; keep 'equivalents_allowed' unless there is a legal reason to forbid equivalents.
