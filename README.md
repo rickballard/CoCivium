@@ -120,14 +120,14 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 **Everything stays reversible.** Small steps, merged often.
 
 ## Start here (quick links)
-- 📣 **New Idea →** [Open an issue](../../issues/new/choose)
+- 📣 **New Idea →** [Open an issue](../../issues/new?template=idea.yml)
 - ✍️ **Start a post →** [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
 - 🧭 **CC Declarations →** [Index](./docs/cc/DECLARATIONS.md)
 - 🧰 **RepoAccelerator →** *(placeholder)*
 - 🌐 **CoCivium.org →** *(placeholder site)*
 
 **Input Channels:**
-- Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.  
+- Start with an [Idea](../../issues/new?template=idea.yml). When ready, open a **post** (pull request). Learn by doing.  
 - Use GitHub directly, or via our workflow accelerator [╬ô├£├¡ RepoAccelerator].  
 - Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
   _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
