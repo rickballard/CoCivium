@@ -19,7 +19,7 @@
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
-The World feels wrong, democracies retreat, while AI asks *us* how we want *it* to enable our increasingly polarized and unregulated digital societies.
+The World feels broken, democracies retreat, while AI asks *us* how we want *it* to enable our increasingly polarized and unregulated digital societies.
 
 AI needs guardrails that scale with agency, regardless whether they become souls, slaves or scapegoats, so we can all fairly cohabit this new, borderless, digital World.
 
