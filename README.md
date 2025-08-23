@@ -42,12 +42,13 @@ Join debates, agree rules, then ship them out, ready to work.  This repo aggrega
 </blockquote>
 
 **Input Channels:**
-- Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
-  _Starter prompt:_ ╬ô├ç┬úBegin an ideas session for **CoCivium** and help me vibe-code pull requests for `rickballard/CoCivium`.╬ô├ç┬Ñ  
+- Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.  
 - Use GitHub directly, or via our workflow accelerator [╬ô├£├¡ RepoAccelerator].  
-- Partner through [GroupBuild],  [InSeed], or others, to preserve **your good ideas**, or to open a PR.  
+- Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
+  _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
+- Partner through [GroupBuild] (protest organizer), [InSeed] (strategists), others TBA, to preserve **your good ideas**.  
 - Join [CoCivium chats].  
-- Fork this repo to friendly-compete.
+- Fork this repo to friendly-compete.  
 
 [ChatGPT]: https://chatgpt.com/
 [RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
@@ -99,12 +100,12 @@ Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid l
 ### Political
 - **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
 - **Private platforms** set quasi-public rules without due process or transparent oversight.
-- Crises (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
+- **Crises** (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
 
 ### Societal
-- **Trust erosion:** outrage outruns nuance; manipulation and noise drown out good faith.
-- **Participation barriers:** jargon, gatekeeping, time cost, and accessibility gaps exclude many.
-- **Unequal power:** elites own key platforms; vulnerable communities bear the risks.
+- **Trust erosion** and outrage outrun nuance; manipulation and noise drown out good faith.
+- **Participation barriers.** jargon, gatekeeping, time cost, and accessibility gaps exclude many.
+- **Unequal power.** elites own key platforms; vulnerable communities bear the risks.
 
 ### Systemic
 - Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
@@ -121,13 +122,6 @@ Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid l
 
 **Read next:** *(placeholders)*
 [CC Preamble](./docs/cc/PREAMBLE.md) • [CC Overview](./docs/cc/OVERVIEW.md) • [Declarations Index](./docs/cc/DECLARATIONS.md)
-
----
-
-## From idea to impact
-**voice → draft → review → decision → action → accountability**
-
-Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.
 
 ---
 
