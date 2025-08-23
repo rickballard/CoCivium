@@ -35,7 +35,7 @@ Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop 
 6. Maintain functional ethics and blockchain accountability.  
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **MORE HOW**  
-Join debates, agree rules, ship them ready to work.  CoCivium aggregates all published civic wisdom while packaging **your best ideas** into vibe-coded upgrades for governments and organizations.  It ships these packages to society's administrators who need us, to stand with them, to save Democracy.  Such processes also assist those who choose to coevolve the CoConstitution, to always fit emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
+Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates all published civic wisdom while vibe-coding **your best ideas** into upgrades for governments and organizations.  It ships these packages to society's administrators, who need us, to stand with them, to save Democracy.  Such processes also assist those who wish to coevolve the CoConstitution, so it always fits emerging lifestyles.  No Coercion, No Deep State, No Kings.  
 
 <blockquote>
   <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
