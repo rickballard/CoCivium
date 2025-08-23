@@ -128,7 +128,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 **Input Channels:**
 - Start with an [Idea](../../issues/new?template=idea.yml). When ready, open a **post** (pull request). Learn by doing.  
-- Use GitHub directly, or via our workflow accelerator [╬ô├£├¡ RepoAccelerator].  
+- Use GitHub directly, or via our workflow accelerator [RepoAccelerator].  
 - Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
   _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
 - Partner through [GroupBuild] (protest organizer), [InSeed] (strategists), others TBA, to preserve **your good ideas**.  
