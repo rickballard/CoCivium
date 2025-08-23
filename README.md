@@ -43,6 +43,25 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
 
 ---
 
+## Why Now?
+
+### Political
+- **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
+- **Private platforms** set quasi-public rules without due process or transparent oversight.
+- **Crises** (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
+
+### Societal
+- **Trust erosion** and outrage outrun nuance; manipulation and noise drown out good faith.
+- **Participation barriers**, jargon, gatekeeping, time cost, and accessibility gaps exclude many.
+- **Unequal power**, elites own key platforms; vulnerable communities bear the risks.
+
+### Systemic
+- Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
+- No shared path from **voice → draft → decision → action → accountability** with feedback loops.
+- **Goodhart’s law:** metrics get gamed; incentives misalign without explicit guardrails.
+
+---
+
 ## We The People, Empowered
 
 <img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE**  
@@ -79,25 +98,6 @@ Build a **living CoConstitution for digital society**, borderless, people-first,
 
 **CoCivium**  
 CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep hybrid life (physical + digital) democratic, equitable, and aligned with human values.
-
----
-
-## Why Now?
-
-### Political
-- **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
-- **Private platforms** set quasi-public rules without due process or transparent oversight.
-- **Crises** (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
-
-### Societal
-- **Trust erosion** and outrage outrun nuance; manipulation and noise drown out good faith.
-- **Participation barriers**, jargon, gatekeeping, time cost, and accessibility gaps exclude many.
-- **Unequal power**, elites own key platforms; vulnerable communities bear the risks.
-
-### Systemic
-- Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
-- No shared path from **voice → draft → decision → action → accountability** with feedback loops.
-- **Goodhart’s law:** metrics get gamed; incentives misalign without explicit guardrails.
 
 ---
 
