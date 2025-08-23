@@ -1,45 +1,386 @@
 {
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/CoCivium_Session_Primer.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
-  ],
-  "admin/products/PromptQ_c0_20250812/": [
-    "admin/products/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "insights/ai-in-pandoras-box.md": [
-    "insights/README.md"
-  ],
   "./docs/cc/PREAMBLE.md": [
     "admin/history/readme_backups/README_20250821_214647.backup.md",
     "admin/history/readme_backups/README_20250821_215456.backup.md",
     "docs/drafts/README.next.md"
   ],
-  "docs/onboarding/stub_Being-Noname.md": [
-    "docs/onboarding/Being-Noname.md"
-  ],
-  "Insight_Consent_Controversies_c1_20250731.md": [
+  "Insight_Glossary_Metaphysics_c5_20250731.md": [
     "insights/readme-insight.md"
+  ],
+  "./docs/cc/DECLARATIONS.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
+    "docs/drafts/README.next.md"
+  ],
+  "docs/process/OVERVIEW.md": [
+    "proposals/README.md"
+  ],
+  "insights/interpretive-vectors.md": [
+    "insights/README.md"
+  ],
+  "staging/_imported/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
+    "staging/_imported/Civium/README.md"
+  ],
+  "legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/CoCivium_Session_Primer.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  ],
+  "legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md": [
+    "legacy/Civium/insights/README_Insight.md"
   ],
   "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Rights_Alignment_c3_20250801.md": [
     "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
   ],
+  "Who_runs_this.md": [
+    "legacy/Civium/discussions/What_is_Civium_really.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
+    "staging/_imported/Civium/discussions/What_is_Civium_really.md"
+  ],
   "./docs/FAQ.md": [
+    "docs/drafts/README.next.md"
+  ],
+  "Insight_Inadequacy_of_Words_c5_20250731.md": [
+    "insights/readme-insight.md"
+  ],
+  "docs/academy/BP_OE_WF.md": [
+    "docs/master/PORTFOLIO_MAP.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/Civium/insights/Insight_Forking_as_Epistemic_Containment_c3_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/Civium/scroll": [
+    "legacy/Civium/README.md"
+  ],
+  "insights/ai-in-pandoras-box.md": [
+    "insights/README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "GOVERNANCE.md": [
+    "README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README_FOR_AI.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "../../edit/main/README.md": [
+    "docs/drafts/README.next.md",
+    "README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "docs/stub_FAQ.md": [
+    "docs/FAQ.md"
+  ],
+  "./CONTINUITY.md": [
+    "docs/drafts/README.next.md"
+  ],
+  "Insight_Truth_Metrics_c6_20250801.md": [
+    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+    "insights/readme-insight.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  ],
+  "insights/Insight_Substrate_Assumptions_c3_20250810.md": [
+    "insights/README.md"
+  ],
+  "docs/cc/PREAMBLE.md": [
+    "README.md"
+  ],
+  "docs/img/concord_mark.svg": [
+    "mark/USAGE.md"
+  ],
+  "./docs/onboarding/Being-Noname.md": [
+    "docs/drafts/README.next.md"
+  ],
+  "legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
+  ],
+  "identity/": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md"
+  ],
+  "legacy/Civium/meta/DOC_CATEGORIES.md": [
+    "legacy/Civium/scroll/README_scroll.md"
+  ],
+  "legacy/Civium/insights/Insight_Epistemology_c3_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "Insight_AI_Veto_c4_20250801.md": [
+    "insights/readme-insight.md"
+  ],
+  "insights/Insight_Substrate_Assumptions_c2_20250809.md": [
+    "insights/README.md"
+  ],
+  "insights/consent-controversies.md": [
+    "insights/README.md"
+  ],
+  "./git/LICENSE.md": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  ],
+  "insights/radiant-network.md": [
+    "insights/README.md"
+  ],
+  "./docs/cc/OVERVIEW.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
+    "docs/drafts/README.next.md"
+  ],
+  "scroll/ReBirth_Scroll_20250721updated.md": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/CONTRIBUTING.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "insights/unequal-equity-v5a.md": [
+    "insights/README.md"
+  ],
+  "scroll/README_scroll.md": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  ],
+  "staging/_imported/Civium/scroll": [
+    "staging/_imported/Civium/README.md"
+  ],
+  "Insight_Forks_Protocol_d1_TBD.md": [
+    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  ],
+  "admin/tools/repo-accelerator/stub_README.md": [
+    "admin/tools/repo-accelerator/README.md"
+  ],
+  "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf": [
+    "assets/sources/Preservation_Guide.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/sources/Preservation_Guide.md"
+  ],
+  "insights/inadequacy-of-words.md": [
+    "insights/README.md"
+  ],
+  "./SECURITY.md": [
+    "docs/drafts/README.next.md"
+  ],
+  "insights/epistemology.md": [
+    "insights/README.md"
+  ],
+  "./git/README_CIVIUM_PUBLIC.md": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/Civium/README.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/README.md"
+  ],
+  "legacy/Civium/insights/Insight_Rights_Alignment_c3_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "scaling-CoCivium-coherence.md": [
+    "insights/README.md"
+  ],
+  "legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Epistemology_c3_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "admin/CoCivium_Session_Primer.md": [
+    "insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  ],
+  "votingengine/": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
+  ],
+  "docs/process/stub_OVERVIEW.md": [
+    "docs/process/OVERVIEW.md"
+  ],
+  "../../issues/new/choose": [
     "docs/drafts/README.next.md"
   ],
   "staging/_imported/Civium/scroll/README_scroll.md": [
     "staging/_imported/Civium/README.md"
   ],
-  "../../issues/new": [
-    "docs/drafts/README.next.md",
-    "README.md"
+  "insights/story-being-noname.md": [
+    "insights/README.md"
   ],
-  "Insight_AI_in_Pandoras_Box_c6_20250723.md": [
+  "Insight_Unequal_Equity_v5a_20250801.md": [
     "insights/readme-insight.md"
   ],
-  "legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md": [
+  "docs/BPOE/IssueOps-CheatSheet.md": [
+    "docs/BPOE/Workflow.md"
+  ],
+  "LICENSE": [
+    "README.md"
+  ],
+  "Insight_Substrate_Risk_d1_TBD.md": [
+    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  ],
+  "insights/ai-veto.md": [
+    "insights/README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
+  ],
+  "Insight_Rights_Alignment_c3_20250801.md": [
+    "insights/readme-insight.md"
+  ],
+  "insights/truth-metrics.md": [
+    "insights/README.md"
+  ],
+  "docs/onboarding/stub_Being-Noname.md": [
+    "docs/onboarding/Being-Noname.md"
+  ],
+  "docs/cc/DECLARATIONS.md": [
+    "docs/cc/OVERVIEW.md",
+    "README.md"
+  ],
+  "Insight_Epistemology_c3_20250801.md": [
+    "insights/readme-insight.md"
+  ],
+  "legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md": [
     "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/PromptQ_c0_20250812/": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/README.md"
+  ],
+  "./CONTRIBUTING.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
+    "docs/drafts/README.next.md"
+  ],
+  "admin/products/PromptQ_c0_20250812/": [
+    "admin/products/README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "Is_Civium_a_religion.md": [
+    "legacy/Civium/discussions/What_is_Civium_really.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
+    "staging/_imported/Civium/discussions/What_is_Civium_really.md"
+  ],
+  "Insight_Forking_as_Epistemic_Containment_c3_20250801.md": [
+    "insights/readme-insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/meta/DOC_CATEGORIES.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/README.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "insights/unequal-equity.md": [
+    "insights/README.md"
+  ],
+  "scroll/CoZoic_Intro_Proleptic.md": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/LICENSE": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
+  ],
+  "./scroll": [
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  ],
+  "insights/gravitas-scroll.md": [
+    "insights/README.md"
+  ],
+  "Insight_Interpretive_Vectors_c3_20250731.md": [
+    "insights/readme-insight.md"
+  ],
+  "docs/cc/OVERVIEW.md": [
+    "README.md"
+  ],
+  "insights/readme-insight.md": [
+    "insights/README.md"
   ],
   "scroll/Azoic_Declaration.md": [
     "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
@@ -55,111 +396,95 @@
     "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
     "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
   ],
-  "Insight_Glossary_Metaphysics_c5_20250731.md": [
+  "Insight_Consent_Controversies_c1_20250731.md": [
     "insights/readme-insight.md"
   ],
-  "docs/process/OVERVIEW.md": [
-    "proposals/README.md"
-  ],
-  "docs/cc/OVERVIEW.md": [
-    "README.md"
-  ],
-  "Insight_Forks_Protocol_d1_TBD.md": [
-    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
-  ],
-  "insights/_deprecated/": [
-    "insights/README.md"
-  ],
-  "docs/process/stub_OVERVIEW.md": [
-    "docs/process/OVERVIEW.md"
-  ],
-  "legacy/Civium/insights/Insight_Rights_Alignment_c3_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "Is_Civium_a_religion.md": [
-    "legacy/Civium/discussions/What_is_Civium_really.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
-    "staging/_imported/Civium/discussions/What_is_Civium_really.md"
-  ],
-  "legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "docs/img/concord_mark.svg": [
-    "mark/USAGE.md"
-  ],
-  "insights/glossary-metaphysics.md": [
-    "insights/README.md"
-  ],
-  "insights/Insight_Substrate_Assumptions_c3_20250810.md": [
-    "insights/README.md"
-  ],
-  "insights/interpretive-vectors.md": [
-    "insights/README.md"
-  ],
-  "../../edit/main/README.md": [
-    "docs/drafts/README.next.md",
-    "README.md"
-  ],
-  "Insight_Rights_Alignment_c3_20250801.md": [
+  "Insight_Story_Being_Noname_c2_20250801.md": [
     "insights/readme-insight.md"
   ],
-  "legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "Insight_Forking_as_Epistemic_Containment_c3_20250801.md": [
+  "Insight_Gravitas_Scroll_c3_20250801.md": [
     "insights/readme-insight.md"
   ],
-  "legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/Doc_Headers_Footers.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
   ],
   "./proposals/stub_proposal-template.md": [
     "admin/history/readme_backups/README_20250821_214647.backup.md",
     "admin/history/readme_backups/README_20250821_215456.backup.md"
   ],
-  "insights/unequal-equity.md": [
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/metrics/RD_Dents_Explained.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "insights/forking-as-epistemic-containment.md": [
     "insights/README.md"
   ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
   ],
-  "Who_runs_this.md": [
-    "legacy/Civium/discussions/What_is_Civium_really.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
-    "staging/_imported/Civium/discussions/What_is_Civium_really.md"
+  "legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md": [
+    "legacy/Civium/insights/README_Insight.md"
   ],
-  "insights/story-being-noname.md": [
-    "insights/README.md"
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/cognocarta-scroll.svg": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
   ],
   "legacy/Civium/insights/Insight_Unequal_Equity_v5a_20250801.md": [
     "legacy/Civium/insights/README_Insight.md"
   ],
-  "Insight_Truth_Metrics_c6_20250801.md": [
-    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
-    "insights/readme-insight.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
+  "insights/rights-alignment.md": [
+    "insights/README.md"
   ],
-  "./git/LICENSE.md": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
+  "../README_CIVIUM_AI.md": [
+    "legacy/Civium/scroll/README_scroll.md",
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md",
+    "staging/_imported/Civium/scroll/README_scroll.md"
   ],
-  "admin/CoCivium_Session_Primer.md": [
-    "insights/Insight_Substrate_Assumptions_c3_20250810.md"
-  ],
-  "./CONTINUITY.md": [
+  "./MAINTAINERS.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
     "docs/drafts/README.next.md"
   ],
-  "Insight_Unequal_Equity_v5a_20250801.md": [
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Unequal_Equity_v5a_20250801.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
+  ],
+  "Insight_AI_in_Pandoras_Box_c6_20250723.md": [
     "insights/readme-insight.md"
   ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md": [
+  "CONTINUITY.md": [
+    "README.md"
+  ],
+  "./CODE_OF_CONDUCT.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
+    "docs/drafts/README.next.md"
+  ],
+  "staging/_imported/Civium/meta/DOC_CATEGORIES.md": [
+    "staging/_imported/Civium/scroll/README_scroll.md"
+  ],
+  "legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
+    "legacy/Civium/README.md"
+  ],
+  "insights/_deprecated/": [
+    "insights/README.md"
+  ],
+  "insights/Insight_Substrate_Assumptions_c1_20250809.md": [
+    "insights/README.md"
+  ],
+  "SECURITY.md": [
+    "README.md"
+  ],
+  "./docs/process/OVERVIEW.md": [
+    "admin/history/readme_backups/README_20250821_214647.backup.md",
+    "admin/history/readme_backups/README_20250821_215456.backup.md",
+    "docs/drafts/README.next.md"
+  ],
+  "./LICENSE": [
+    "docs/drafts/README.next.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/ONEBLOCK_Spec.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md": [
     "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
   ],
   "scroll/Cognocarta_Consenti.md": [
@@ -181,220 +506,11 @@
     "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
     "staging/_imported/Civium/README.md"
   ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/metrics/RD_Dents_Explained.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "insights/gravitas-scroll.md": [
-    "insights/README.md"
-  ],
-  "legacy/Civium/meta/DOC_CATEGORIES.md": [
-    "legacy/Civium/scroll/README_scroll.md"
-  ],
-  "legacy/Civium/insights/Insight_Epistemology_c3_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "./docs/onboarding/Being-Noname.md": [
-    "docs/drafts/README.next.md"
-  ],
-  "./docs/cc/OVERVIEW.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
-  ],
-  "Insight_Epistemology_c3_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "./docs/process/OVERVIEW.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
-  ],
-  "insights/truth-metrics.md": [
-    "insights/README.md"
-  ],
-  "identity/": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md"
-  ],
-  "insights/inadequacy-of-words.md": [
-    "insights/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "docs/academy/BP_OE_WF.md": [
-    "docs/master/PORTFOLIO_MAP.md"
-  ],
-  "legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "insights/Insight_Substrate_Assumptions_c2_20250809.md": [
-    "insights/README.md"
-  ],
-  "docs/cc/PREAMBLE.md": [
-    "README.md"
-  ],
-  "legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "Insight_Substrate_Risk_d1_TBD.md": [
-    "insights/Insight_Substrate_Assumptions_c3_20250810.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md"
-  ],
-  "legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
-    "legacy/Civium/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "scroll/README_scroll.md": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README_FOR_AI.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "./docs/cc/DECLARATIONS.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
-  ],
-  "insights/forking-as-epistemic-containment.md": [
-    "insights/README.md"
-  ],
-  "GOVERNANCE.md": [
-    "README.md"
-  ],
-  "./scroll": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "Insight_Gravitas_Scroll_c3_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
-  ],
-  "insights/rights-alignment.md": [
-    "insights/README.md"
-  ],
-  "Insight_Story_Being_Noname_c2_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "staging/_imported/Civium/meta/DOC_CATEGORIES.md": [
-    "staging/_imported/Civium/scroll/README_scroll.md"
-  ],
-  "SECURITY.md": [
-    "README.md"
-  ],
   "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Forking_as_Epistemic_Containment_c3_20250801.md": [
     "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
   ],
-  "insights/epistemology.md": [
-    "insights/README.md"
-  ],
-  "LICENSE": [
-    "README.md"
-  ],
-  "scroll/CoZoic_Intro_Proleptic.md": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
-  ],
-  "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf": [
-    "assets/sources/Preservation_Guide.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/sources/Preservation_Guide.md"
-  ],
-  "docs/BPOE/IssueOps-CheatSheet.md": [
-    "docs/BPOE/Workflow.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/meta/DOC_CATEGORIES.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md"
-  ],
-  "insights/Insight_Substrate_Assumptions_c1_20250809.md": [
-    "insights/README.md"
-  ],
-  "CONTINUITY.md": [
-    "README.md"
-  ],
-  "insights/readme-insight.md": [
-    "insights/README.md"
-  ],
-  "Insight_Radiant_Network_c4_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "Insight_Scaling_Civium_Coherence_c2_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "./LICENSE": [
+  "./GOVERNANCE.md": [
     "docs/drafts/README.next.md"
-  ],
-  "docs/stub_FAQ.md": [
-    "docs/FAQ.md"
-  ],
-  "legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "Insight_AI_Veto_c4_20250801.md": [
-    "insights/readme-insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/ONEBLOCK_Spec.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "Insight_Inadequacy_of_Words_c5_20250731.md": [
-    "insights/readme-insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "insights/ai-veto.md": [
-    "insights/README.md"
-  ],
-  "legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md": [
-    "legacy/Civium/insights/README_Insight.md"
   ],
   "../scrolls/ReBirth_Scroll.md": [
     "legacy/Civium/admin/hold/hold_The_Cloud_of_Becoming.md",
@@ -404,150 +520,34 @@
     "staging/_imported/Civium/admin/hold/hold_The_Cloud_of_Becoming.md",
     "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/The_Cloud_of_Becoming.md"
   ],
-  "../README_CIVIUM_AI.md": [
-    "legacy/Civium/scroll/README_scroll.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md",
-    "staging/_imported/Civium/scroll/README_scroll.md"
-  ],
-  "legacy/Civium/scroll/README_scroll.md": [
-    "legacy/Civium/README.md"
-  ],
-  "../../issues/new/choose": [
-    "docs/drafts/README.next.md"
-  ],
-  "scaling-CoCivium-coherence.md": [
-    "insights/README.md"
-  ],
-  "admin/tools/repo-accelerator/stub_README.md": [
-    "admin/tools/repo-accelerator/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/Doc_Headers_Footers.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Unequal_Equity_v5a_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "insights/unequal-equity-v5a.md": [
-    "insights/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/LICENSE": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "scroll/ReBirth_Scroll_20250721updated.md": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md"
-  ],
-  "docs/cc/DECLARATIONS.md": [
-    "docs/cc/OVERVIEW.md",
-    "README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Epistemology_c3_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "Insight_Interpretive_Vectors_c3_20250731.md": [
+  "Insight_Scaling_Civium_Coherence_c2_20250801.md": [
     "insights/readme-insight.md"
   ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md": [
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md": [
     "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/cognocarta-scroll.svg": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "staging/_imported/Civium/scroll": [
-    "staging/_imported/Civium/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md"
-  ],
-  "staging/_imported/Civium/scroll/ReBirth_Scroll_20250721updated.md": [
-    "staging/_imported/Civium/README.md"
-  ],
-  "./MAINTAINERS.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
-  ],
-  "legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "insights/consent-controversies.md": [
-    "insights/README.md"
-  ],
-  "./SECURITY.md": [
-    "docs/drafts/README.next.md"
-  ],
-  "legacy/Civium/scroll": [
-    "legacy/Civium/README.md"
-  ],
-  "./CODE_OF_CONDUCT.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/Civium/insights/Insight_Forking_as_Epistemic_Containment_c3_20250801.md": [
-    "legacy/Civium/insights/README_Insight.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
-  ],
-  "./CONTRIBUTING.md": [
-    "admin/history/readme_backups/README_20250821_214647.backup.md",
-    "admin/history/readme_backups/README_20250821_215456.backup.md",
-    "docs/drafts/README.next.md"
   ],
   "./admin/tools/repo-accelerator/README.md": [
     "admin/history/readme_backups/README_20250821_214647.backup.md",
     "admin/history/readme_backups/README_20250821_215456.backup.md",
     "docs/drafts/README.next.md"
   ],
-  "./GOVERNANCE.md": [
-    "docs/drafts/README.next.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/PromptQ_c0_20250812/": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/README.md"
-  ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/README.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
-  ],
-  "insights/radiant-network.md": [
+  "insights/glossary-metaphysics.md": [
     "insights/README.md"
   ],
-  "votingengine/": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md"
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
   ],
-  "./git/README_CIVIUM_PUBLIC.md": [
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/Civium/README.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
-    "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
-    "staging/_imported/Civium/README.md"
+  "../../issues/new": [
+    "docs/drafts/README.next.md",
+    "README.md"
   ],
-  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/CONTRIBUTING.md": [
-    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md"
+  "Insight_Radiant_Network_c4_20250801.md": [
+    "insights/readme-insight.md"
+  ],
+  "legacy/Civium/scroll/README_scroll.md": [
+    "legacy/Civium/README.md"
+  ],
+  "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md": [
+    "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md"
   ]
 }
