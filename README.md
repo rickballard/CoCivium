@@ -41,20 +41,7 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
   <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
 </blockquote>
 
-**Input Channels:**
-- Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.  
-- Use GitHub directly, or via our workflow accelerator [╬ô├£├¡ RepoAccelerator].  
-- Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
-  _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
-- Partner through [GroupBuild] (protest organizer), [InSeed] (strategists), others TBA, to preserve **your good ideas**.  
-- Join [CoCivium chats].  
-- Fork this repo to friendly-compete.  
-
-[ChatGPT]: https://chatgpt.com/
-[RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
-[GroupBuild]: https://www.groupbuild.org
-[InSeed]: https://www.inseed.com
-[CoCivium chats]: https://cocivium.org/chats
+---
 
 ## We The People, Empowered
 
@@ -155,6 +142,21 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 - 🧭 **CC Declarations →** [Index](./docs/cc/DECLARATIONS.md)
 - 🧰 **RepoAccelerator →** *(placeholder)*
 - 🌐 **CoCivium.org →** *(placeholder site)*
+
+**Input Channels:**
+- Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.  
+- Use GitHub directly, or via our workflow accelerator [╬ô├£├¡ RepoAccelerator].  
+- Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
+  _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
+- Partner through [GroupBuild] (protest organizer), [InSeed] (strategists), others TBA, to preserve **your good ideas**.  
+- Join [CoCivium chats].  
+- Fork this repo to friendly-compete.  
+
+[ChatGPT]: https://chatgpt.com/
+[RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
+[GroupBuild]: https://www.groupbuild.org
+[InSeed]: https://www.inseed.com
+[CoCivium chats]: https://cocivium.org/chats
 
 ---
 
