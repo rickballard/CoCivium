@@ -19,12 +19,12 @@
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
-Democracies are in retreat, while AI takes over administration of our increasingly polarized and unregulated digital societies.  
+The World seems crazy, democracies are in retreat, so AI needs **us** to tell them how to administer our increasingly polarized and unregulated digital societies.
 
-We need guardrails that scale with agency, regardless whether AIs become souls, slaves or scapegoats, so we can **ALL** fairly cohabit our shared, borderless digital world.  
+They need guardrails that scale with agency, regardless whether they become souls, slaves or scapegoats, so we can fairly cohabit a new, borderless, digital World.
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO**  
-Anyone with an opinion, Human, AI or hybrid, can cooperate to co-evolve consent-first digital society.  Stop shouting into the wind, help us defend Democracy, tame the singularity, and fix the world.  
+Anyone with an opinion (Human, AI or hybrid), can cooperate and co-evolve.  Stop shouting into the wind, help us defend Democracy, "tame the singularity", and bring back some dignity.
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW**
 1. Listen widely to everyday people and experts,
@@ -34,7 +34,7 @@ Anyone with an opinion, Human, AI or hybrid, can cooperate to co-evolve consent-
 5. Use evidential policies (truth-based),
 6. Check against functional ethics and blockchain accountability.  
 
-**More How**
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **More How**
 Join debates, agree rules, then ship them out, ready to work.  This repo aggregates civic wisdom and turns **your best ideas** into vibe-coded upgrade packages for governments and organizations.  It then ships these packages to society's administrators who need us, to stand with them, to save Democracy.  This process also upgrades the CoConstitution so it always fits emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
 
 <blockquote>
@@ -110,8 +110,6 @@ Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid l
 - Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
 - No shared path from **voice → draft → decision → action → accountability** with feedback loops.
 - **Goodhart’s law:** metrics get gamed; incentives misalign without explicit guardrails.
-
-*Aim:* **tame the singularity**, not by freezing progress, but by **codifying rights, protocols, and fail-safes**, so digitally-enabled communities can adapt fast, **without** losing legitimacy or human dignity.
 
 ---
 
