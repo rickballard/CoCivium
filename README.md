@@ -35,7 +35,7 @@ Anyone with an opinion (Human, AI or hybrid), can cooperate and co-evolve.  Stop
 6. Maintain functional ethics and blockchain accountability.  
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **MORE HOW**  
-Join debates, agree rules, then ship them out, ready to work.  This repo aggregates all published civic wisdom to enhance **your best ideas** into vibe-coded upgrade packages for governments and organizations.  It then ships these packages to society's administrators who need us, to stand with them, to save Democracy.  This process also upgrades the CoConstitution so it always fits emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
+Join debates, agree rules, then ship them out, ready to work.  This repo aggregates all published civic wisdom to package **your best ideas** into vibe-coded upgrades for governments and organizations.  It then ships these packages to society's administrators who need us, to stand with them, to save Democracy.  This process also upgrades the CoConstitution so it always fits emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
 
 <blockquote>
   <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
