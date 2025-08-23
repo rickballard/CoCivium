@@ -1,0 +1,2587 @@
+{
+  "edges": [
+    {
+      "from": "README.md",
+      "to": "docs/cc/PREAMBLE.md",
+      "raw": "./docs/cc/PREAMBLE.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "docs/cc/OVERVIEW.md",
+      "raw": "./docs/cc/OVERVIEW.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "../../issues/new",
+      "raw": "../../issues/new?template=idea.yml",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": true
+    },
+    {
+      "from": "README.md",
+      "to": "../../edit/main/README.md",
+      "raw": "../../edit/main/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": true
+    },
+    {
+      "from": "README.md",
+      "to": "docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "../../issues/new",
+      "raw": "../../issues/new?template=idea.yml",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": true
+    },
+    {
+      "from": "README.md",
+      "to": "LICENSE",
+      "raw": "./LICENSE",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "GOVERNANCE.md",
+      "raw": "./GOVERNANCE.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "CONTINUITY.md",
+      "raw": "./CONTINUITY.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "README.md",
+      "to": "SECURITY.md",
+      "raw": "./SECURITY.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./docs/cc/PREAMBLE.md",
+      "raw": "./docs/cc/PREAMBLE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./docs/cc/OVERVIEW.md",
+      "raw": "./docs/cc/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./docs/process/OVERVIEW.md",
+      "raw": "./docs/process/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./CODE_OF_CONDUCT.md",
+      "raw": "./CODE_OF_CONDUCT.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./CONTRIBUTING.md",
+      "raw": "./CONTRIBUTING.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./MAINTAINERS.md",
+      "raw": "./MAINTAINERS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
+      "to": "./proposals/stub_proposal-template.md",
+      "raw": "./proposals/stub_proposal-template.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./docs/cc/PREAMBLE.md",
+      "raw": "./docs/cc/PREAMBLE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./docs/cc/OVERVIEW.md",
+      "raw": "./docs/cc/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./docs/process/OVERVIEW.md",
+      "raw": "./docs/process/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./CODE_OF_CONDUCT.md",
+      "raw": "./CODE_OF_CONDUCT.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./CONTRIBUTING.md",
+      "raw": "./CONTRIBUTING.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./MAINTAINERS.md",
+      "raw": "./MAINTAINERS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/history/readme_backups/README_20250821_215456.backup.md",
+      "to": "./proposals/stub_proposal-template.md",
+      "raw": "./proposals/stub_proposal-template.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/products/README.md",
+      "to": "admin/products/PromptQ_c0_20250812/",
+      "raw": "PromptQ_c0_20250812/",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/products/README.md",
+      "to": "admin/products/PromptQ_c0_20250812/",
+      "raw": "PromptQ_c0_20250812/",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "admin/tools/repo-accelerator/README.md",
+      "to": "admin/tools/repo-accelerator/stub_README.md",
+      "raw": "stub_README.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "assets/sources/Preservation_Guide.md",
+      "to": "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf",
+      "raw": "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/FAQ.md",
+      "to": "docs/stub_FAQ.md",
+      "raw": "stub_FAQ.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/BPOE/Workflow.md",
+      "to": "docs/BPOE/IssueOps-CheatSheet.md",
+      "raw": "./IssueOps-CheatSheet.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/cc/OVERVIEW.md",
+      "to": "docs/cc/DECLARATIONS.md",
+      "raw": "./DECLARATIONS.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/cc/PREAMBLE.md",
+      "raw": "./docs/cc/PREAMBLE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/cc/OVERVIEW.md",
+      "raw": "./docs/cc/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "../../issues/new",
+      "raw": "../../issues/new?template=idea.yml",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/process/OVERVIEW.md",
+      "raw": "./docs/process/OVERVIEW.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./CODE_OF_CONDUCT.md",
+      "raw": "./CODE_OF_CONDUCT.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./CONTRIBUTING.md",
+      "raw": "./CONTRIBUTING.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./MAINTAINERS.md",
+      "raw": "./MAINTAINERS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "../../issues/new/choose",
+      "raw": "../../issues/new/choose",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "../../edit/main/README.md",
+      "raw": "../../edit/main/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/cc/DECLARATIONS.md",
+      "raw": "./docs/cc/DECLARATIONS.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./admin/tools/repo-accelerator/README.md",
+      "raw": "./admin/tools/repo-accelerator/README.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./LICENSE",
+      "raw": "./LICENSE",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./GOVERNANCE.md",
+      "raw": "./GOVERNANCE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./CONTINUITY.md",
+      "raw": "./CONTINUITY.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./SECURITY.md",
+      "raw": "./SECURITY.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/onboarding/Being-Noname.md",
+      "raw": "./docs/onboarding/Being-Noname.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/drafts/README.next.md",
+      "to": "./docs/FAQ.md",
+      "raw": "./docs/FAQ.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/master/PORTFOLIO_MAP.md",
+      "to": "docs/academy/BP_OE_WF.md",
+      "raw": "../academy/BP_OE_WF.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/onboarding/Being-Noname.md",
+      "to": "docs/onboarding/stub_Being-Noname.md",
+      "raw": "stub_Being-Noname.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "docs/process/OVERVIEW.md",
+      "to": "docs/process/stub_OVERVIEW.md",
+      "raw": "stub_OVERVIEW.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Truth_Metrics_c6_20250801.md",
+      "raw": "Insight_Truth_Metrics_c6_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Substrate_Risk_d1_TBD.md",
+      "raw": "Insight_Substrate_Risk_d1_TBD.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "admin/CoCivium_Session_Primer.md",
+      "raw": "../admin/CoCivium_Session_Primer.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Forks_Protocol_d1_TBD.md",
+      "raw": "Insight_Forks_Protocol_d1_TBD.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_AI_Veto_c4_20250801.md",
+      "raw": "Insight_AI_Veto_c4_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "raw": "Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Consent_Controversies_c1_20250731.md",
+      "raw": "Insight_Consent_Controversies_c1_20250731.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Epistemology_c3_20250801.md",
+      "raw": "Insight_Epistemology_c3_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "raw": "Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Glossary_Metaphysics_c5_20250731.md",
+      "raw": "Insight_Glossary_Metaphysics_c5_20250731.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Gravitas_Scroll_c3_20250801.md",
+      "raw": "Insight_Gravitas_Scroll_c3_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Inadequacy_of_Words_c5_20250731.md",
+      "raw": "Insight_Inadequacy_of_Words_c5_20250731.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Interpretive_Vectors_c3_20250731.md",
+      "raw": "Insight_Interpretive_Vectors_c3_20250731.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Radiant_Network_c4_20250801.md",
+      "raw": "Insight_Radiant_Network_c4_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Rights_Alignment_c3_20250801.md",
+      "raw": "Insight_Rights_Alignment_c3_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "raw": "Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Story_Being_Noname_c2_20250801.md",
+      "raw": "Insight_Story_Being_Noname_c2_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Truth_Metrics_c6_20250801.md",
+      "raw": "Insight_Truth_Metrics_c6_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/readme-insight.md",
+      "to": "Insight_Unequal_Equity_v5a_20250801.md",
+      "raw": "Insight_Unequal_Equity_v5a_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/ai-in-pandoras-box.md",
+      "raw": "ai-in-pandoras-box.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/ai-veto.md",
+      "raw": "ai-veto.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/consent-controversies.md",
+      "raw": "consent-controversies.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/epistemology.md",
+      "raw": "epistemology.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/forking-as-epistemic-containment.md",
+      "raw": "forking-as-epistemic-containment.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/glossary-metaphysics.md",
+      "raw": "glossary-metaphysics.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/gravitas-scroll.md",
+      "raw": "gravitas-scroll.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/inadequacy-of-words.md",
+      "raw": "inadequacy-of-words.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/Insight_Substrate_Assumptions_c1_20250809.md",
+      "raw": "Insight_Substrate_Assumptions_c1_20250809.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/Insight_Substrate_Assumptions_c2_20250809.md",
+      "raw": "Insight_Substrate_Assumptions_c2_20250809.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "raw": "Insight_Substrate_Assumptions_c3_20250810.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/interpretive-vectors.md",
+      "raw": "interpretive-vectors.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/radiant-network.md",
+      "raw": "radiant-network.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/readme-insight.md",
+      "raw": "readme-insight.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/rights-alignment.md",
+      "raw": "rights-alignment.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "scaling-CoCivium-coherence.md",
+      "raw": "scaling-CoCivium-coherence.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/story-being-noname.md",
+      "raw": "story-being-noname.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/truth-metrics.md",
+      "raw": "truth-metrics.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/unequal-equity.md",
+      "raw": "unequal-equity.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/unequal-equity-v5a.md",
+      "raw": "unequal-equity-v5a.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "insights/README.md",
+      "to": "insights/_deprecated/",
+      "raw": "_deprecated/",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/README.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/README.md",
+      "to": "legacy/Civium/scroll",
+      "raw": "./scroll",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/README.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/README.md",
+      "to": "legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/README.md",
+      "to": "legacy/Civium/scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/hold/hold_The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "votingengine/",
+      "raw": "votingengine/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "identity/",
+      "raw": "identity/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/admin/inbox/GmailDump_20250811/originals/The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/discussions/What_is_Civium_really.md",
+      "to": "Is_Civium_a_religion.md",
+      "raw": "Is_Civium_a_religion.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/discussions/What_is_Civium_really.md",
+      "to": "Who_runs_this.md",
+      "raw": "Who_runs_this.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md",
+      "raw": "Insight_AI_Veto_c4_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "raw": "Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md",
+      "raw": "Insight_Consent_Controversies_c1_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Epistemology_c3_20250801.md",
+      "raw": "Insight_Epistemology_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "raw": "Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md",
+      "raw": "Insight_Glossary_Metaphysics_c5_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md",
+      "raw": "Insight_Gravitas_Scroll_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md",
+      "raw": "Insight_Inadequacy_of_Words_c5_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md",
+      "raw": "Insight_Interpretive_Vectors_c3_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md",
+      "raw": "Insight_Radiant_Network_c4_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Rights_Alignment_c3_20250801.md",
+      "raw": "Insight_Rights_Alignment_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "raw": "Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md",
+      "raw": "Insight_Story_Being_Noname_c2_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md",
+      "raw": "Insight_Truth_Metrics_c6_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/Civium/insights/Insight_Unequal_Equity_v5a_20250801.md",
+      "raw": "Insight_Unequal_Equity_v5a_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/scroll/README_scroll.md",
+      "to": "legacy/Civium/meta/DOC_CATEGORIES.md",
+      "raw": "../meta/DOC_CATEGORIES.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/Civium/scroll/README_scroll.md",
+      "to": "../README_CIVIUM_AI.md",
+      "raw": "../README_CIVIUM_AI.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/README.md",
+      "raw": "admin/README.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README_FOR_AI.md",
+      "raw": "README_FOR_AI.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/metrics/RD_Dents_Explained.md",
+      "raw": "admin/metrics/RD_Dents_Explained.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/Doc_Headers_Footers.md",
+      "raw": "meta/Doc_Headers_Footers.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/ONEBLOCK_Spec.md",
+      "raw": "meta/ONEBLOCK_Spec.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/LICENSE",
+      "raw": "LICENSE",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/CONTRIBUTING.md",
+      "raw": "docs/CONTRIBUTING.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md",
+      "raw": "docs/ISSUEOPS.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/cognocarta-scroll.svg",
+      "raw": "assets/cognocarta-scroll.svg",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/PromptQ_c0_20250812/",
+      "raw": "PromptQ_c0_20250812/",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/PromptQ_c0_20250812/",
+      "raw": "PromptQ_c0_20250812/",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/assets/sources/Preservation_Guide.md",
+      "to": "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf",
+      "raw": "../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/docs/ISSUEOPS.md",
+      "raw": "./ISSUEOPS.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Truth_Metrics_c6_20250801.md",
+      "raw": "Insight_Truth_Metrics_c6_20250801.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Substrate_Risk_d1_TBD.md",
+      "raw": "Insight_Substrate_Risk_d1_TBD.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/CoCivium_Session_Primer.md",
+      "raw": "../admin/CoCivium_Session_Primer.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md",
+      "to": "Insight_Forks_Protocol_d1_TBD.md",
+      "raw": "Insight_Forks_Protocol_d1_TBD.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll",
+      "raw": "./scroll",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/hold/hold_The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "votingengine/",
+      "raw": "votingengine/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "identity/",
+      "raw": "identity/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
+      "to": "Is_Civium_a_religion.md",
+      "raw": "Is_Civium_a_religion.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md",
+      "to": "Who_runs_this.md",
+      "raw": "Who_runs_this.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_Veto_c4_20250801.md",
+      "raw": "Insight_AI_Veto_c4_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "raw": "Insight_AI_in_Pandoras_Box_c6_20250723.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Consent_Controversies_c1_20250731.md",
+      "raw": "Insight_Consent_Controversies_c1_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Epistemology_c3_20250801.md",
+      "raw": "Insight_Epistemology_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "raw": "Insight_Forking_as_Epistemic_Containment_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Glossary_Metaphysics_c5_20250731.md",
+      "raw": "Insight_Glossary_Metaphysics_c5_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Gravitas_Scroll_c3_20250801.md",
+      "raw": "Insight_Gravitas_Scroll_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Inadequacy_of_Words_c5_20250731.md",
+      "raw": "Insight_Inadequacy_of_Words_c5_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Interpretive_Vectors_c3_20250731.md",
+      "raw": "Insight_Interpretive_Vectors_c3_20250731.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Radiant_Network_c4_20250801.md",
+      "raw": "Insight_Radiant_Network_c4_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Rights_Alignment_c3_20250801.md",
+      "raw": "Insight_Rights_Alignment_c3_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "raw": "Insight_Scaling_Civium_Coherence_c2_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Story_Being_Noname_c2_20250801.md",
+      "raw": "Insight_Story_Being_Noname_c2_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Truth_Metrics_c6_20250801.md",
+      "raw": "Insight_Truth_Metrics_c6_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/README_Insight.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/insights/Insight_Unequal_Equity_v5a_20250801.md",
+      "raw": "Insight_Unequal_Equity_v5a_20250801.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md",
+      "to": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/meta/DOC_CATEGORIES.md",
+      "raw": "../meta/DOC_CATEGORIES.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/scroll/README_scroll.md",
+      "to": "../README_CIVIUM_AI.md",
+      "raw": "../README_CIVIUM_AI.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "mark/USAGE.md",
+      "to": "docs/img/concord_mark.svg",
+      "raw": "docs/img/concord_mark.svg",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "proposals/README.md",
+      "to": "docs/process/OVERVIEW.md",
+      "raw": "../docs/process/OVERVIEW.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "site/index.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "/scroll/Cognocarta_Consenti.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "site/scroll/index.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "/scroll/Cognocarta_Consenti.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/README.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/README.md",
+      "to": "staging/_imported/Civium/scroll",
+      "raw": "./scroll",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/README.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/README.md",
+      "to": "staging/_imported/Civium/scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/README.md",
+      "to": "staging/_imported/Civium/scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/hold/hold_The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "votingengine/",
+      "raw": "votingengine/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "identity/",
+      "raw": "identity/",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./scroll",
+      "raw": "./scroll",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Cognocarta_Consenti.md",
+      "raw": "scroll/Cognocarta_Consenti.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/ReBirth_Scroll_20250721updated.md",
+      "raw": "scroll/ReBirth_Scroll_20250721updated.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/CoZoic_Intro_Proleptic.md",
+      "raw": "scroll/CoZoic_Intro_Proleptic.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/Azoic_Declaration.md",
+      "raw": "scroll/Azoic_Declaration.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "scroll/README_scroll.md",
+      "raw": "scroll/README_scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/README_CIVIUM_PUBLIC.md",
+      "raw": "./git/README_CIVIUM_PUBLIC.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md",
+      "to": "./git/LICENSE.md",
+      "raw": "./git/LICENSE.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/admin/inbox/GmailDump_20250811/originals/The_Cloud_of_Becoming.md",
+      "to": "../scrolls/ReBirth_Scroll.md",
+      "raw": "../scrolls/ReBirth_Scroll.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/discussions/What_is_Civium_really.md",
+      "to": "Is_Civium_a_religion.md",
+      "raw": "Is_Civium_a_religion.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/discussions/What_is_Civium_really.md",
+      "to": "Who_runs_this.md",
+      "raw": "Who_runs_this.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/scroll/README_scroll.md",
+      "to": "staging/_imported/Civium/meta/DOC_CATEGORIES.md",
+      "raw": "../meta/DOC_CATEGORIES.md",
+      "exists": true,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    },
+    {
+      "from": "staging/_imported/Civium/scroll/README_scroll.md",
+      "to": "../README_CIVIUM_AI.md",
+      "raw": "../README_CIVIUM_AI.md",
+      "exists": false,
+      "anchor": null,
+      "anchorExists": null,
+      "isOutsideRepo": false
+    }
+  ]
+}
