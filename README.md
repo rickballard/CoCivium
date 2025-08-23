@@ -4,7 +4,7 @@
   <p>(for AI-Enabled "Hybrid Society")</em></p>
   <p>
     <img src="./assets/hero/quote-960w.png"
-         alt="╬ô├ç┬úGovernment of the people╬ô├ç┬¬╬ô├ç┬Ñ ╬ô├ç├╢ Abraham Lincoln, Gettysburg Address (1863)"
+         alt="Government of the people, for the people, by the people" &mdash; Abraham Lincoln (1863)"
          width="960" />
   </p>
 
