@@ -119,23 +119,6 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 **Everything stays reversible.** Small steps, merged often.
 
----
-
-## The “Two Eyes” model (citizen × system)
-- **Eye 1: Citizens** — lived experience, local context, moral intuitions.  
-- **Eye 2: Systems** — data, constraints, impact analysis, safety.  
-Together they give **depth perception**—humane *and* workable decisions.
-
-![Two Eyes Diagram](./assets/diagrams/two-eyes.svg "Two Eyes: citizen + system co-vision")
-
----
-
-## Ground rules (The CoCivium Pledge)
-**Civility. Clarity. Curiosity. Consent. Credit.**  
-Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, give credit.
-
----
-
 ## Start here (quick links)
 - 📣 **New Idea →** [Open an issue](../../issues/new/choose)
 - ✍️ **Start a post →** [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
@@ -157,6 +140,21 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 [GroupBuild]: https://www.groupbuild.org
 [InSeed]: https://www.inseed.com
 [CoCivium chats]: https://cocivium.org/chats
+
+---
+
+## The “Two Eyes” model (citizen × system)
+- **Eye 1: Citizens** — lived experience, local context, moral intuitions.  
+- **Eye 2: Systems** — data, constraints, impact analysis, safety.  
+Together they give **depth perception**—humane *and* workable decisions.
+
+![Two Eyes Diagram](./assets/diagrams/two-eyes.svg "Two Eyes: citizen + system co-vision")
+
+---
+
+## Ground rules (The CoCivium Pledge)
+**Civility. Clarity. Curiosity. Consent. Credit.**  
+Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, give credit.
 
 ---
 
