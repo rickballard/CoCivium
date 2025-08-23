@@ -18,19 +18,28 @@
 
 ## Fix The World.
 
-<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY** : Democracies are in retreat, while AI takes over administration of our increasingly polarized and unregulated digital societies.  
+<img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
+Democracies are in retreat, while AI takes over administration of our increasingly polarized and unregulated digital societies.  
 
 We need guardrails that scale with agency, regardless whether AIs become souls, slaves or scapegoats, so we can **ALL** fairly cohabit our shared, borderless digital world.  
 
-<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO** : Humans, AIs, and hybrid minds must cooperate to rebuild consent-first "hybrid societies".  Stop shouting into the wind and help defend Democracy, tame the singularity, and fix the world.  Join debates, agree rules, then ship them out, ready to work.
+<img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO**  
+Humans, AIs, and hybrid minds must cooperate to rebuild consent-first "hybrid societies".  Stop shouting into the wind and help defend Democracy, tame the singularity, and fix the world.  Join debates, agree rules, then ship them out, ready to work.
 
 <blockquote>
-  <p><em>"Self-governance doesn't happen on its own"</em> ╬ô├ç├╢ Rick, a temporary repo steward.</p>
+  <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
 </blockquote>
 
-<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW** : (1) Listen widely to everyday people and experts, (2) Help everyone co-evolve an open, ever-green CoConstitution, (3) Run fast policy loops, (4) Ensure evidence beats bullshite, (5) Use functional ethics and blockchain accountability.  
+<img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW**
+1. Listen widely to everyday people and experts,
+2. Help everyone co-evolve in the open,
+3. Keep CoConstitution ever-green,
+4. Run fast policy loops,
+5. Use evidential policies (truth-based),
+6. Check against functional ethics and blockchain accountability.  
 
-More How : This Github repo aggregates and preserves ALL public wisdom, turning **your good ideas** into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators who need us, to stand with them, to save Democracy.  Meanwhile, **your best ideas** flow through our open-access CoConstitution as it gently realigns to fit emerging lifestyles and regulatory needs.  This CoConstituion also tracks "ethical intent", responsible accountability, smart processes and evidential policies (based on verifiable truths).  No Coercion, No Deep State, No Kings.  
+**More How**
+This repo aggregates civic wisdom and turns **your best ideas** into vibe-coded upgrade packages for governments and organizations.  It then ships these packages to society's administrators who need us, to stand with them, to save Democracy.  This process also upgrades the CoConstitution so it always fits emerging lifestyles and regulatory needs.  No Coercion, No Deep State, No Kings.  
 
 **Contribute via any input channel:**
 
@@ -42,7 +51,7 @@ More How : This Github repo aggregates and preserves ALL public wisdom, turning 
 - Fork this repo to friendly-compete.
 
 [ChatGPT]: https://chatgpt.com/
-[╬ô├£├¡ RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
+[RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
 [GroupBuild]: https://www.groupbuild.org
 [InSeed]: https://www.inseed.com
 [CoCivium chats]: https://cocivium.org/chats
