@@ -89,7 +89,7 @@ If you can picture society working better, or if you can test ideas against evid
 **Mission:**  
 Build the **living constitution for digital society**—borderless, people-first, and **directly evolvable by anyone who cares**.
 
-*CoCivium**
+**CoCivium**
 Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid life (physical + digital) democratic, equitable, and aligned with human values.
 
 ---
