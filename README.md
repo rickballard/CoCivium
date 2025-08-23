@@ -77,7 +77,7 @@ Some fight back, rage against rage, hate against hate, but this multiplies the d
 There is a better operating system for society, but it requires profound updates to our country Constitutions and our civic frameworks.  CoCivium's CoConstitution (The Cognocarta Consenti) is a baseline anyone can adopt and evolve, for free, no strings attached.
 
 <img src="./assets/icons/governments-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **GOVERNMENTS**  
-Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society╬ô├ç├╢existential for humanity╬ô├ç├╢yet so unregulated it risks lawless chaos.
+Many public institutions rely on civic architecture developed before typewriters.  Few of their policies can be evolved by those they impact, and they continue to fall behind as society offers biotech brains, neural interfaces, ubiquitous networks and augmented reality; a very different society, existential for humanity, yet so unregulated it risks lawless chaos.
 
 <img src="./assets/icons/coevolve-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **COEVOLVE**  
 Here we create structures and processes for the age of AI, where humans and AIs co-govern at a speed and scale that allows governance to react, iterate and continually improve.  As AIs achieve agency, and as Artificial General Intelligence approaches singularity, we more urgently require effective guardrails to keep power accountable (the triad is accountability, transparency, reversibility).
