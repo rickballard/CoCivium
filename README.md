@@ -59,7 +59,7 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
 ## We The People, Empowered
 
 <img src="./assets/icons/life-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **LIFE**  
-Democracies are in decline as elites gain wealth and power, as entire populations are manipulated by lies, propaganda and information ops, as geopolitical fragmentation brings policy volatility, economic wars and military invasions.  Are governments supposed to serve, or be served?
+Democracies are in decline as elites get richer while the rest don't; entire populations are manipulated by lies, propaganda and information ops; geopolitical fragmentation brings policy volatility, economic wars and military invasions.  "Regulatory capture" is where wealth and power inevitably concentrates in the wrong hands, unless checked.
 
 <img src="./assets/icons/feels-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **FEELS**  
 It feels like Governments are losing their dignity and society is breaking down.  It's too easy to sit back and accept that resistance is futile, or that half the country has lost the plot, succumbing to partisan hostility and tribal reflexes.  Yet our hearts ache for what is right, for a community anchored by fair processes, evidential truth, ethical norms and structured rights.
@@ -104,8 +104,8 @@ Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid l
 
 ### Societal
 - **Trust erosion** and outrage outrun nuance; manipulation and noise drown out good faith.
-- **Participation barriers.** jargon, gatekeeping, time cost, and accessibility gaps exclude many.
-- **Unequal power.** elites own key platforms; vulnerable communities bear the risks.
+- **Participation barriers**, jargon, gatekeeping, time cost, and accessibility gaps exclude many.
+- **Unequal power**, elites own key platforms; vulnerable communities bear the risks.
 
 ### Systemic
 - Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
