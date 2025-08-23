@@ -67,4 +67,95 @@ More How : This Github repo aggregates and preserves ALL public wisdom, turning 
 
 ---
 
-# Cognocarta Consenti (CC)  <p align="center">   <img src="./assets/cc/cc-crest.svg" alt="Cognocarta Consenti (CC) ΓÇö living constitution for digital society" width="420"> </p>  **Mission:** Build the **living CoConstitution for digital society**ΓÇöborderless, people-first, and immediately evolvable by **anyone** who cares about the future of humanity, and augmented humanity.  **CoCivium** is an open-source community that writes/tests/ships the CoConstitution, along with its policies and processes, and the tools that keep hybrid lifesytles (physical + digital) democratic, equitable, and aligned with human values.  > And we all qualify to shape future society; no coding, no social science degree required.  ---  ## Why?  **Political:** - **Democracies in retreat**, dignity, debate and compromise overtaken by tribal reflexes. - **Regulatory capture**, elites own politicians, media and platforms to usurp people power.  **Social:** -  **Manic attention cycles**, outrage spreads, nuance stalls. - **Post-truth society**, lies, propaganda, information ops, uniquely targeted to each person. - **Geopolitical fragmentation**, policy volatility, ideological/ethnic cleansing, economic and territorial wars.  **Systemic:** - **Analog rules in a digital era.** Legacy constitutions werenΓÇÖt built for instant, global coordination. - **Participation is hard.** Jargon and gatekeeping keep most people out. - **Platforms act as public squares, without public safeguards**, companies set rules/recourse. - **Good ideas die in threads.** We lack a clear path from:   **voice ΓåÆ draft ΓåÆ decision ΓåÆ action ΓåÆ accountability**.  ---  ## CoConstitution (Cognocarta Consenti)  **The CCΓÇÖs promise:** a shared, evolvable framework that communities can adopt, adapt, and audit. - **Declarations** (promises, protocols, rights) for listening, deciding, and acting together. - **Playbook** (patterns, templates, guardrails) for any digitally-connected community to reuse. - **LiveScroll** (framework), evergreen, in the open, updated like software, (propose, review, improve). - **Operating System"** for digital society, fair processes, evidential truth, ethical norms.  ## What We Do - **Protect**, keeps power accountable (access controls, audit trails, red-team/bug-bash). - **Prove**, makes claims verifiable (trusted-source credentials, signed evidence bundles, provenance checks) - **Play**, ensures fair rules for people and Human-AI pairings, (ethical norms, symmetric obligations, clear appeals).  ## How We Do It (1) Listen widely to everyday people and experts,  (2) Help everyone co-evolve an open, ever-green CoConstitution,  (3) Run fast policy loops,  (4) Ensure evidence beats bullshite, (5) Use functional ethics and blockchain accountability.  ## More How  This Github repo aggregates and preserves ALL public wisdom, turning your good ideas into vibe-coded upgrade packages for governments and organizations, auto-shipping them to society's administrators who need us, to stand with them, to save Democracy. Meanwhile, your best ideas flow through our open-access CoConstitution as it gently realigns to fit emerging lifestyles and regulatory needs. This CoConstituion also tracks "ethical intent", responsible accountability, smart processes and evidential policies (based on verifiable truths). No Coercion, No Deep State, No Kings.  **Read next:** - [CC Preamble](./docs/cc/PREAMBLE.md) *(placeholder)* - [CC Overview](./docs/cc/OVERVIEW.md) *(placeholder)* - [CC Declarations Index](./docs/cc/DECLARATIONS.md) *(placeholder)*  ---  ## Idea To Impact  **voice ΓåÆ draft ΓåÆ review ΓåÆ decision ΓåÆ action ΓåÆ accountability**  Start with an [Idea](../../issues/new/choose) ΓÇö or ask your AI to open one using our [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(placeholder)*. When ready, open a **post** (pull request). ThatΓÇÖs it. The rest youΓÇÖll learn as you go.  *Details later:* see [Process Overview](./docs/process/OVERVIEW.md) *(placeholder)*.  ## Join in (no expertise needed)  **Bring your own AI.** Seed it with [RepoAccelerator](./admin/tools/repo-accelerator/README.md)  Ask it to draft a proposal to CoCivium, or post ideas into CoCivium-monitored chats.  **2 minutes** Tell your AI your are aiming for Github.com/rickballard/CoCivium (rick is temporary steward, community is open source). Drop a line about what Government could do better, and prehaps how. Your AI will handle the rest.  **5 minutes** In Github, open **Issues ΓåÆ New** ΓåÆ title: ΓÇ£your issue" Drop a line about the issue, and what you want done about it.   *Or ask your AI to open it for you using our template.*  **10 minutes** Share an idea in greater detail.   Open an **Idea Issue** with a clear problem and a smallest useful change.   *Or ask your AI to generate it from a voice-note or text paragraph.*  **30ΓÇô60 minutes** Submit a **post** or Discussion content, using a Pull Request (PR).    Edit a repo page that needs love, or add a note under `/proposals/`. *Ask your AI to turn your issue into a PR and/or fill in a template.*  **Everything stays reversible.** Small steps, merged often.  ---  ## The ΓÇ£Two EyesΓÇ¥ model (citizen ├ù system)  We design governance that sees with **two eyes**: - **Eye 1: Citizens** ΓÇö lived experience, local context, moral intuitions. - **Eye 2: Systems** ΓÇö data, constraints, impact analysis, safety.  Together they give us **depth perception**ΓÇöhumane and workable decisions.  ![Two Eyes Diagram](./assets/diagrams/two-eyes.svg "Two Eyes: citizen + system co-vision") *(placeholder image)*  ---  ## Ground rules (The CoCivium Pledge)  **Civility. Clarity. Curiosity. Consent. Credit.**   Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, attribute ideas.  - [Code of Conduct](./CODE_OF_CONDUCT.md) *(placeholder)* - [Contribution Guide](./CONTRIBUTING.md) *(placeholder)* - [Maintainer Guide](./MAINTAINERS.md) *(placeholder)*  ---  ## Start here (quick links)  - ≡ƒôú **New Idea ΓåÆ** [Open an issue](../../issues/new/choose) *(placeholder)* - Γ£ì∩╕Å **Start a post ΓåÆ** [Edit this file](../../edit/main/README.md) or create `/proposals/your-idea.md` - ≡ƒº¡ **CC Declarations ΓåÆ** [Index](./docs/cc/DECLARATIONS.md) *(placeholder)* - ≡ƒº░ **RepoAccelerator ΓåÆ** [Set up your AI](./admin/tools/repo-accelerator/README.md) *(placeholder)* - ≡ƒîÉ **CoCivium.org ΓåÆ** https://CoCivium.org *(placeholder site)*  ---  ## Governance & continuity  - **License:** [LICENSE](./LICENSE) *(placeholder)* - **Governance:** [GOVERNANCE.md](./GOVERNANCE.md) *(includes decision process & roles)* - **Stewardship & Continuity:** [CONTINUITY.md](./CONTINUITY.md) *(ΓÇ£if Rick gets hit by a busΓÇ¥ plan: key holders, backups, hand-off procedures)* - **Security & Safety:** [SECURITY.md](./SECURITY.md) *(vuln reporting, escalation paths)*  ---  ## Inspiration / Onboarding for humans first  - **Being Noname** ΓÇö a gentle, human-centric onramp to CoCiviumΓÇÖs spirit and practice.     ΓåÆ [Read the essay](./docs/onboarding/Being-Noname.md) *(placeholder)*  - **FAQ** ΓÇö short answers to common ΓÇ£Do I need to code?ΓÇ¥ and ΓÇ£What if I only have 5 minutes?ΓÇ¥ questions.     ΓåÆ [Read the FAQ](./docs/FAQ.md) *(placeholder)*  ---
+# Cognocarta Consenti (CC)
+<img align="right" src="./assets/cc/crest-hold.gif" alt="Cognocarta Consenti crest" width="140">
+
+**Mission:** Build the **living constitution for digital society**—borderless, people-first, and **directly evolvable by anyone who cares**.
+
+**Project:** **CoCivium** writes, tests, and ships the CC—plus the policies, processes, and tools that keep **hybrid life (physical + digital)** **democratic, equitable, and aligned** with human values.
+
+---
+
+## Why now (plain language)
+
+### Political
+- **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
+- **Private platforms** set quasi-public rules without due process or transparent oversight.
+- Crises (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
+
+### Societal
+- **Trust erosion:** outrage outruns nuance; manipulation and noise drown out good faith.
+- **Participation barriers:** jargon, gatekeeping, time cost, and accessibility gaps exclude many.
+- **Unequal power:** elites own key platforms; vulnerable communities bear the risks.
+
+### Systemic
+- Problems are **socio-technical**; we need **two eyes** (citizen × system) to see the whole.
+- No shared path from **voice → draft → decision → action → accountability** with feedback loops.
+- **Goodhart’s law:** metrics get gamed; incentives misalign without explicit guardrails.
+
+*Aim:* **tame the singularity**—not by freezing progress, but by **codifying rights, protocols, and failsafes** so communities adapt fast **without** losing legitimacy or human dignity.
+
+---
+
+## What we ship
+- **CC Declarations:** shared rights, duties, and authorities for digital public life. *(index placeholder)*
+- **Protocols & guardrails:** practical rules for listening, deliberation, consent, appeals.
+- **Tools & patterns:** IssueOps checklists, templates, and AI helpers (CoMessage, CoPitch).
+- **Starter kits:** reuse-ready configs for projects, communities, and institutions.
+
+**Read next:** *(placeholders)*
+[CC Preamble](./docs/cc/PREAMBLE.md) • [CC Overview](./docs/cc/OVERVIEW.md) • [Declarations Index](./docs/cc/DECLARATIONS.md)
+
+---
+
+## From idea to impact
+**voice → draft → review → decision → action → accountability**
+
+Start with an [Idea](../../issues/new/choose). When ready, open a **post** (pull request). Learn by doing.
+
+---
+
+## Join in (no expertise needed)
+**2 minutes — Say hi** → open an issue “Hello CoCivium” with one line on what you care about.  
+**10 minutes — Share an idea** → smallest useful change; your AI can draft it.  
+**30–60 minutes — Start a post (PR)** → edit a page or add `/proposals/your-idea.md`.
+
+**Everything stays reversible.** Small steps, merged often.
+
+---
+
+## The “Two Eyes” model (citizen × system)
+- **Eye 1: Citizens** — lived experience, local context, moral intuitions.  
+- **Eye 2: Systems** — data, constraints, impact analysis, safety.  
+Together they give **depth perception**—humane *and* workable decisions.
+
+![Two Eyes Diagram](./assets/diagrams/two-eyes.svg "Two Eyes: citizen + system co-vision")
+
+---
+
+## Ground rules (The CoCivium Pledge)
+**Civility. Clarity. Curiosity. Consent. Credit.**  
+Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, give credit.
+
+---
+
+## Start here (quick links)
+- 📣 **New Idea →** [Open an issue](../../issues/new/choose)
+- ✍️ **Start a post →** [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
+- 🧭 **CC Declarations →** [Index](./docs/cc/DECLARATIONS.md)
+- 🧰 **RepoAccelerator →** *(placeholder)*
+- 🌐 **CoCivium.org →** *(placeholder site)*
+
+---
+
+## Governance & continuity
+- **License:** [LICENSE](./LICENSE) *(placeholder)*
+- **Governance:** [GOVERNANCE.md](./GOVERNANCE.md)
+- **Continuity:** [CONTINUITY.md](./CONTINUITY.md)
+- **Security:** [SECURITY.md](./SECURITY.md)
+
+---
+
+## Inspiration / Onboarding
+- **Being Noname** — human-first onramp. *(placeholder)*
+- **FAQ** — “Do I need to code?”, “Only 5 minutes?” *(placeholder)*
