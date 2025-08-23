@@ -37,13 +37,13 @@ Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **MORE HOW**  
 Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates all published civic wisdom while vibe-coding **your best ideas** into upgrades for governments and organizations.  It ships these packages to society's administrators, who need us, to stand with them, to save Democracy.  Such processes also assist those who wish to coevolve the CoConstitution, so it always fits emerging lifestyles.  No Coercion, No Deep State, No Kings.  
 
-<blockquote>
-  <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
-</blockquote>
-
 ---
 
 ## Why Now?
+
+<blockquote>
+  <p><em>"Self-governance doesn't happen on its own"</em> &mdash; Rick (temporary repo steward).</p>
+</blockquote>
 
 ### Political
 - **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
