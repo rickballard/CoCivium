@@ -46,7 +46,7 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
 </blockquote>
 
 ### Political
-- **Geopolitical fragmentation** and **policy instability** outpace cross-border digital life.
+- **Geopolitical fragmentation** and **policy instability** outpace borderless digital life.
 - **Private platforms** set quasi-public rules without due process or transparent oversight.
 - **Crises** (fraud, disinfo, safety) trigger **reactive policy** that can erode rights and innovation.
 
