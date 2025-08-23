@@ -88,10 +88,10 @@ If you can picture society working better, or if you can test ideas against evid
 <img align="right" src="./assets/cc/crest-hold.gif" alt="Cognocarta Consenti crest" width="140">
 
 **Mission:**  
-Build the **living constitution for digital society**—borderless, people-first, and **directly evolvable by anyone who cares**.
+Build a **living CoConstitution for digital society**, borderless, people-first, and **directly evolvable by anyone who cares**.
 
 **CoCivium**  
-Writes, tests, and ships the CC, policies, processes, and tools to keep hybrid life (physical + digital) democratic, equitable, and aligned with human values.
+CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep hybrid life (physical + digital) democratic, equitable, and aligned with human values.
 
 ---
 
