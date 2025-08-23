@@ -24,7 +24,7 @@ The World seems crazy, democracies retreat, while AI asks *us* how we want it to
 AI needs guardrails that scale with agency, regardless whether they become souls, slaves or scapegoats, so we can all fairly cohabit this new, borderless, digital World.
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO**  
-Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop shouting into the wind, help us defend Democracy, "tame the singularity", and bring back some dignity and respect.
+Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop shouting into the wind, help us defend Democracy, "tame the singularity", and help us bring back some dignity and respect.
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **HOW**
 1. Listen widely to everyday people and experts,
