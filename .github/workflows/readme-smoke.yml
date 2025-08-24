@@ -1,0 +1,20 @@
+name: readme-smoke
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assert README has substance
+        shell: bash
+        run: |
+          [ -f README.md ] || { echo "Missing README.md"; exit 1; }
+          bytes=$(wc -c < README.md)
+          lines=$(wc -l < README.md)
+          if [ "$bytes" -lt 500 ] || [ "$lines" -lt 10 ]; then
+            echo "README too small (bytes=$bytes, lines=$lines)"; exit 1
+          fi
