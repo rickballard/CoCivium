@@ -1,0 +1,28 @@
+id: example.emergency.guardrails
+title: Emergency Guardrails — Conformance Checklist (TEMPLATE)
+version: 0.1.0
+must:
+  - id: sunset_max_30d
+    desc: Emergency orders include a hard sunset <= 30 days
+  - id: judicial_access_48h
+    desc: Individuals can petition a judge within 48 hours
+  - id: daily_status_report
+    desc: Daily public situation/status report is published
+should:
+  - id: machine_readable_reports
+    desc: Reports published in machine-readable format
+tests:
+  - id: check_sunset_date
+    method: parse_text
+    target: docs/order.md
+    expect: "sunset<=30d"
+  - id: check_judicial_access
+    method: parse_text
+    target: docs/order.md
+    expect: "petition within 48 hours"
+  - id: check_daily_reports
+    method: http_list
+    target: https://example.gov/status/
+    expect: ">=1 report per day"
+notes: |
+  This is a TEMPLATE. Replace method/targets with real checks or scripts.
