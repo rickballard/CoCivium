@@ -1,2 +1,3 @@
-# Protect root README – require review by Rick
-/README.md  @rickballard
+# Sensitive paths
+/README.md @rickballard
+
