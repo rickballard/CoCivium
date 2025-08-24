@@ -21,7 +21,7 @@
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
 The World feels broken, democracies retreat, while AI asks *us* how we want *it* to enable our increasingly polarized and unregulated digital societies.
 
-Regardless whether AIs become souls, slaves or scapegoats, they need guardrails that scale with agency, so we can all fairly cohabit our new, borderless, digital realities.
+Whether AIs become souls, slaves or scapegoats, they need guardrails that scale with agency, so we can all fairly cohabit our new, borderless, digital realities.
 
 <img src="./assets/icons/for-you-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHO**  
 Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop shouting into the wind, help us defend Democracy, "tame the singularity", and help us bring back some dignity and respect.
