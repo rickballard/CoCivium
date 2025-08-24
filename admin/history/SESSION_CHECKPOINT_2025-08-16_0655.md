@@ -13,3 +13,4 @@
 - Merge CoCivium PR #116 when mergeable.
 - Move symbol manifest/checks into **GIBindex**; expose as reusable action.
 - Keep CoCache as sidecar (session notes + CI snapshots).
+

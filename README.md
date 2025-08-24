@@ -32,3 +32,4 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 - **gibindex** (public registry of meanings)  
 - **CoCache** (private scratchpad — this repo)
 
+
