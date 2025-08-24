@@ -56,8 +56,8 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
 - **Unequal power**, elites own key platforms; vulnerable communities bear the risks.
 
 ### Systemic
-- Problems are **socio-technical**; we need **two eyes** (citizen ├ù system) to see the whole.
-- No shared path from **voice ΓåÆ draft ΓåÆ decision ΓåÆ action ΓåÆ accountability** with feedback loops.
+- Problems are **socio-technical**; we need **two eyes** (humans' eye and systems eye) to see the whole.
+- No shared path from **voice to draft to decision to action to accountability** with feedback loops.
 - **Goodhart's Law:** metrics get gamed; incentives misalign without explicit guardrails.
 
 ---
