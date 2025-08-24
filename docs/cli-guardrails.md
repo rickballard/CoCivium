@@ -9,3 +9,15 @@ Set-Location -LiteralPath $repo; git status -sb;
 ```
 
 See `scripts/enter.ps1` for the repo-scoped mutex and `-Force` pattern.
+
+
+## One-liner bounce guard
+- High-end mice can double-paste a single line.
+- Prefer multi-line blocks; **or** add a no-op line before/after the one-liner:
+```powershell
+''|Out-Null
+# your one-liner here
+''|Out-Null
+```
+- Also end one-liners with `;`.
+
