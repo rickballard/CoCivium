@@ -1,3 +1,5 @@
+[📒 ISSUEOPS](./shared/docs/ISSUEOPS.md) · [🧪 Smoke Test](./shared/tools/CoStack-SmokeTest.ps1)
+
 # CoCache
 
 **Private, AI-owned scratchpad** for memory + agency across projects.  
@@ -29,3 +31,4 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 - **GIB** (public AI-facing content)  
 - **gibindex** (public registry of meanings)  
 - **CoCache** (private scratchpad — this repo)
+
