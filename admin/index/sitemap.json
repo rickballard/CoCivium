@@ -2,38 +2,42 @@
   "files": [
     {
       "path": "CODE_OF_CONDUCT.md",
-      "title": "CoCivium Code of Conduct",
+      "title": "Code of Conduct",
       "sections": [
-        "Our Pledge",
-        "Our Standards",
-        "Enforcement",
-        "Attribution"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
       "path": "CONTINUITY.md",
       "title": "Stewardship & Continuity",
       "sections": [
-        "What this page will include"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
       "path": "CONTRIBUTING.md",
-      "title": "Contributing to CoCivium",
+      "title": "Contributing",
       "sections": [
-        "Quick Setup",
-        "Commit Rules",
-        "Before You Push",
-        "Where to Start"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
       "path": "GOVERNANCE.md",
-      "title": "Governance Fork & Reintegration Policy",
+      "title": "Governance",
       "sections": [
-        "Forks",
-        "Reintegration",
-        "Record-Keeping"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
@@ -45,7 +49,10 @@
       "path": "MAINTAINERS.md",
       "title": "Maintainers Guide",
       "sections": [
-        "What this page will include"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
@@ -79,9 +86,12 @@
     },
     {
       "path": "SECURITY.md",
-      "title": "Security & Safety",
+      "title": "Security",
       "sections": [
-        "What this page will include"
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
       ]
     },
     {
@@ -1131,6 +1141,16 @@
       ]
     },
     {
+      "path": "admin/status/GRAND_MIGRATION.md",
+      "title": "Grand Migration — Status Board",
+      "sections": [
+        "NEXT (top 3)",
+        "IN PROGRESS",
+        "QUEUED (after migration)",
+        "Notes"
+      ]
+    },
+    {
       "path": "admin/system/bpoe-audit/BPOE_Audit_20250813_192734.md",
       "title": "BPOE Environment Audit (20250813_192734)",
       "sections": []
@@ -1230,6 +1250,11 @@
       ]
     },
     {
+      "path": "docs/cli-guardrails.md",
+      "title": "CLI Guardrails (PowerShell)",
+      "sections": []
+    },
+    {
       "path": "docs/community-objectives.md",
       "title": "CoCivium — Community Objectives (v0.1)",
       "sections": [
@@ -1268,8 +1293,13 @@
     },
     {
       "path": "docs/FAQ.md",
-      "title": "FAQ (stub bridge)",
-      "sections": []
+      "title": "CoCivium FAQ",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/FUNDING.md",
@@ -1414,18 +1444,33 @@
     },
     {
       "path": "docs/cc/DECLARATIONS.md",
-      "title": "CC Declarations — Index (v0.1)",
-      "sections": []
+      "title": "CC Declarations — Index",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/cc/OVERVIEW.md",
-      "title": "CC Overview (v0.1)",
-      "sections": []
+      "title": "CC Overview",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/cc/PREAMBLE.md",
-      "title": "Cognocarta Consenti — Preamble (v0.1)",
-      "sections": []
+      "title": "CC Preamble",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/cc/stub_DECLARATIONS.md",
@@ -1596,8 +1641,13 @@
     },
     {
       "path": "docs/onboarding/Being-Noname.md",
-      "title": "Being Noname (stub bridge)",
-      "sections": []
+      "title": "Being Noname",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/onboarding/stub_Being-Noname.md",
@@ -1672,8 +1722,13 @@
     },
     {
       "path": "docs/process/OVERVIEW.md",
-      "title": "Process Overview (stub bridge)",
-      "sections": []
+      "title": "Process Overview",
+      "sections": [
+        "Purpose",
+        "Scope & Interfaces",
+        "Draft v0 Outline",
+        "How to Propose Changes"
+      ]
     },
     {
       "path": "docs/process/stub_OVERVIEW.md",
