@@ -31,7 +31,7 @@ Anyone with an opinion (Human, AI or hybrid), can cooperate and coevolve.  Stop 
 2. Help everyone co-evolve ideas, in the open,
 3. Keep the CoConstitution ever-green,
 4. Run fast design-iteration loops,
-5. Check policies are eveidential (truth-based),
+5. Check policies are evidential (truth-based),
 6. Maintain functional ethics and blockchain accountability.  
 
 <img src="./assets/icons/how-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **MORE HOW**  
