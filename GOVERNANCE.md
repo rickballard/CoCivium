@@ -1,13 +1,27 @@
-# Governance Fork & Reintegration Policy
+# Governance
 
-## Forks
-A fork may occur if:
-- Core governance principles are disputed beyond resolution.
-- Substantial changes in substrate mix (human, AI, hybrid) require divergent policies.
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-## Reintegration
-- Forked branches may reintegrate upon reaching protocol and values congruence.
-- Both sides must pass a compatibility audit overseen by an independent panel.
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
 
-## Record-Keeping
-- All forks and reintegrations must be documented in `/governance/history/`.
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
+
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
+
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
+
+---
+Decision process, roles, transparency, appeals.

@@ -1,12 +1,27 @@
-# CC Declarations — Index (v0.1)
+# CC Declarations — Index
 
-Core declarations (draft stubs; each should live in its own file under `docs/cc/declarations/`):
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-1. **Participation & Access** – plain-language rights and entry paths. *(stub)*
-2. **Transparency & Traceability** – public logs, explainable decisions. *(stub)*
-3. **Consent & Data Dignity** – clear boundaries for collection/use. *(stub)*
-4. **Safety & Red Lines** – guardrails, escalation, incident playbook. *(stub)*
-5. **Amendment Process** – proposal → review → decision → rollout. *(stub)*
-6. **AI Mediation & Agency** – AI assistance with human consent and override. *(stub)*
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
 
-> To add a declaration: create a file `docs/cc/declarations/<slug>.md`, link it here, and open a PR (“post”).
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
+
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
+
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
+
+---
+List declarations and link each as they exist.

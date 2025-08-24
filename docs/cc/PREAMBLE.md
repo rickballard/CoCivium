@@ -1,8 +1,27 @@
-# Cognocarta Consenti — Preamble (v0.1)
+# CC Preamble
 
-We, the participants of CoCivium, seek a living constitution for digital society:
-- **People-first**: dignity, consent, and access.
-- **Evolvable**: proposals → review → decision → action → accountability.
-- **Portable**: adoptable and auditable by any community.
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-This preamble frames the declarations below and may be amended through the same open process that governs all CC changes.
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
+
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
+
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
+
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
+
+---
+Context & values that motivate the CC.

@@ -1,23 +1,27 @@
-# CoCivium Code of Conduct
+# Code of Conduct
 
-## Our Pledge
-We pledge to make participation in CoCivium an open, harassment-free experience for everyone.
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-## Our Standards
-Examples of behavior that contribute to a positive environment:
-- Showing empathy and respect to all participants.
-- Giving and gracefully accepting constructive feedback.
-- Focusing on the betterment of the project and community.
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
 
-Examples of unacceptable behavior:
-- Harassment, trolling, or personal attacks.
-- Publishing private information without consent.
-- Conduct that violates applicable laws or CoCivium principles.
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
 
-## Enforcement
-The maintainers are responsible for clarifying and enforcing this Code of Conduct.  
-Serious violations may result in temporary or permanent exclusion from the project.
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
 
-## Attribution
-This Code of Conduct is adapted from the Contributor Covenant (v2.1).
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
 
+---
+Behavior, enforcement.
