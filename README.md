@@ -113,7 +113,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 ---
 
 ## Join in (no expertise needed)
-**2 minutes ΓÇö Say hi** ΓåÆ open an issue ΓÇ£Hello CoCiviumΓÇ¥ with one line on what you care about.  
+**2 minutes**, say hi, open an issue with one line on what you care about.  
 **10 minutes**, share an idea, a smallest useful change, your AI can draft it.  
 **30-minute's**, start a post (PR), a page, or add `/proposals/your-idea.md`.
 
