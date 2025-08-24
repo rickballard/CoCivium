@@ -1,0 +1,20 @@
+name: lock-readme
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Block README changes unless labeled readme-ok
+        run: |
+          base="${{ github.event.pull_request.base.sha }}"
+          head="${{ github.event.pull_request.head.sha }}"
+          if git diff --name-only "$base" "$head" | grep -i '^README\.md$' >/dev/null; then
+            echo "README.md modified."
+            echo '${{ toJson(github.event.pull_request.labels) }}' | grep -qi '"name":"readme-ok"' && { echo "Label present. Allowing."; exit 0; }
+            echo "Missing label readme-ok. Blocking."; exit 1
+          fi
+          echo "README not modified."; exit 0
