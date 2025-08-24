@@ -1,14 +1,27 @@
-# CC Overview (v0.1)
+# CC Overview
 
-**What is CC?** A shared framework for how we **listen, decide, and act** together, online/offline.
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-**How it changes:** Like software. Anyone may propose; changes are reviewed in public and shipped in small, reversible steps.
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
 
-**How to adopt:** Start with the core declarations, then layer local addenda. Keep diffs trackable.
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
 
-**Two Eyes lens:** Citizen (lived experience) × System (constraints & safety) for depth perception in decisions.
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
 
-**Where to start:**
-- Read the [Declarations Index](./DECLARATIONS.md).
-- Open an Idea Issue for improvements.
-- Start a “post” (PR) with the smallest useful change.
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
+
+---
+Components, lifecycle, and adoption.

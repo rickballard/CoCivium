@@ -1,25 +1,27 @@
-# Contributing to CoCivium
+# Contributing
 
-Welcome! This project enforces a few guardrails so our README and assets never break.
+> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 
-## Quick Setup
-```powershell
-git clone https://github.com/<owner>/CoCivium.git
-cd CoCivium
-git config core.hooksPath .githooks   # enable versioned hooks
-pwsh ./scripts/smoke.ps1 -Path README.md
-```
+## Purpose
+- What this is for
+- Who should use it
+- What it does **not** try to do
 
-## Commit Rules
-- UTF‑8 (no BOM), LF line endings, final newline.
-- No mojibake tokens (`Ã`, `Â`, `�`) in diffs.
-- Image paths must resolve locally under `assets/**`.
+## Scope & Interfaces
+- Inputs / responsibilities
+- Outputs / artifacts
+- Interfaces to other docs/processes
 
-## Before You Push
-```powershell
-pwsh ./scripts/smoke.ps1 -Path README.md
-```
+## Draft v0 Outline
+- Key sections to be authored
+- TODOs with checkboxes
+  - [ ] Fill section 1
+  - [ ] Fill section 2
+  - [ ] Add references
 
-## Where to Start
-- Read `WORKFLOW.md` for the BPOE overview.
-- See `docs/ERROR_PLAYBOOK.md` for troubleshooting.
+## How to Propose Changes
+- Open an Idea → PR
+- Review path and decision trace
+
+---
+How to propose and land changes.
