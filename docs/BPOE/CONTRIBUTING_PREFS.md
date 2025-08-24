@@ -1,0 +1,12 @@
+# CoVibe: Repo Preferences (edit as checkboxes)
+- [x] PRs required on main — All changes land via PRs; direct pushes blocked.
+- [x] 1 review minimum — Require 1 approving review to merge.
+- [x] CODEOWNERS required — Require code-owner review where applicable.
+- [x] Linear history — No merge commits to main.
+- [x] Disallow force-pushes — Keep main safe.
+- [x] Disallow branch deletions — Prevent accidental main deletion.
+- [x] README smoke test — Fail CI if README is missing/tiny.
+- [x] Link check on push — Catch broken links early.
+- [x] Normalize LF — Consistent line endings on text files.
+- [x] ASCII in reports — Avoid mojibake/encoding gremlins in logs.
+- [x] Wait notes in scripts — Long steps print a heads-up so contributors don’t Ctrl-C.
