@@ -1,0 +1,16 @@
+name: Auto-add issues to Co Stack
+
+on:
+  issues:
+    types: [opened, transferred, reopened]
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add to project via GraphQL
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT with repo, project scopes
+        run: |
+          PROJECT_ID=$(gh api graphql -f query='query($login:String!,$number:Int!){ user(login:$login){ projectV2(number:$number){ id }}}' -f login="rickballard" -F number=3 --jq '.data.user.projectV2.id')
+          gh api graphql -f query='mutation($project:ID!,$content:ID!){ addProjectV2ItemById(input:{projectId:$project, contentId:$content}){ item { id } } }' -F project="$PROJECT_ID" -F content="${{ github.event.issue.node_id }}"
