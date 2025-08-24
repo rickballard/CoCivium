@@ -58,7 +58,7 @@ Join debates, agree rules, ship them out, ready to work.  CoCivium aggregates al
 ### Systemic
 - Problems are **socio-technical**; we need **two eyes** (citizen ├ù system) to see the whole.
 - No shared path from **voice ΓåÆ draft ΓåÆ decision ΓåÆ action ΓåÆ accountability** with feedback loops.
-- **GoodhartΓÇÖs law:** metrics get gamed; incentives misalign without explicit guardrails.
+- **Goodhart's Law:** metrics get gamed; incentives misalign without explicit guardrails.
 
 ---
 
@@ -114,17 +114,17 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 ## Join in (no expertise needed)
 **2 minutes ΓÇö Say hi** ΓåÆ open an issue ΓÇ£Hello CoCiviumΓÇ¥ with one line on what you care about.  
-**10 minutes ΓÇö Share an idea** ΓåÆ smallest useful change; your AI can draft it.  
-**30ΓÇô60 minutes ΓÇö Start a post (PR)** ΓåÆ edit a page or add `/proposals/your-idea.md`.
+**10 minutes**, share an idea, a smallest useful change, your AI can draft it.  
+**30-minute's**, start a post (PR), a page, or add `/proposals/your-idea.md`.
 
-**Everything stays reversible.** Small steps, merged often.
+**Everything stays reversible**, small steps, merged often.
 
 ## Start here (quick links)
-- ≡ƒôú **New Idea ΓåÆ** [Open an issue](../../issues/new?template=idea.yml)
-- Γ£ì∩╕Å **Start a post ΓåÆ** [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
-- ≡ƒº¡ **CC Declarations ΓåÆ** [Index](./docs/cc/DECLARATIONS.md)
-- ≡ƒº░ **RepoAccelerator ΓåÆ** *(placeholder)*
-- ≡ƒîÉ **CoCivium.org ΓåÆ** *(placeholder site)*
+- **New Idea** [Open an issue](../../issues/new?template=idea.yml)
+- Å **Start a post [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
+- **CC Declarations [Index](./docs/cc/DECLARATIONS.md)
+- **RepoAccelerator** *(placeholder)*
+- **[CoCivium]: https://cocivium.org**
 
 **Input Channels:**
 - Start with an [Idea](../../issues/new?template=idea.yml). When ready, open a **post** (pull request). Learn by doing.  
@@ -143,10 +143,10 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 ---
 
-## The ΓÇ£Two EyesΓÇ¥ model (citizen ├ù system)
-- **Eye 1: Citizens** ΓÇö lived experience, local context, moral intuitions.  
-- **Eye 2: Systems** ΓÇö data, constraints, impact analysis, safety.  
-Together they give **depth perception**ΓÇöhumane *and* workable decisions.
+## The Two Eyes model (citizen x system)
+- **Eye 1: Citizens** lived experience, local context, moral intuitions.  
+- **Eye 2: Systems** data, constraints, impact analysis, safety.  
+Together they give **depth perception**, humane *and* workable decisions.
 
 ![Two Eyes Diagram](./assets/diagrams/two-eyes.svg "Two Eyes: citizen + system co-vision")
 
@@ -167,5 +167,5 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Inspiration / Onboarding
-- **Being Noname** ΓÇö human-first onramp. *(placeholder)*
-- **FAQ** ΓÇö ΓÇ£Do I need to code?ΓÇ¥, ΓÇ£Only 5 minutes?ΓÇ¥ *(placeholder)*
+- **Being Noname** human-first onramp. *(placeholder)*
+- **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
