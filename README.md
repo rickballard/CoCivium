@@ -108,7 +108,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 - **Starter kits:** reuse-ready configs for projects, communities, and institutions.
 
 **Read next:** *(placeholders)*
-[CC Preamble](./docs/cc/PREAMBLE.md) ΓÇó [CC Overview](./docs/cc/OVERVIEW.md) ΓÇó [Declarations Index](./docs/cc/DECLARATIONS.md)
+[CC Preamble](./docs/cc/PREAMBLE.md) [CC Overview](./docs/cc/OVERVIEW.md) [Declarations Index](./docs/cc/DECLARATIONS.md)
 
 ---
 
