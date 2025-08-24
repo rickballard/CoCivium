@@ -1,105 +1,6 @@
 {
   "edges": [
     {
-      "from": "README.md",
-      "to": "docs/cc/PREAMBLE.md",
-      "raw": "./docs/cc/PREAMBLE.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "docs/cc/OVERVIEW.md",
-      "raw": "./docs/cc/OVERVIEW.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "docs/cc/DECLARATIONS.md",
-      "raw": "./docs/cc/DECLARATIONS.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "../../issues/new",
-      "raw": "../../issues/new?template=idea.yml",
-      "exists": false,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": true
-    },
-    {
-      "from": "README.md",
-      "to": "../../edit/main/README.md",
-      "raw": "../../edit/main/README.md",
-      "exists": false,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": true
-    },
-    {
-      "from": "README.md",
-      "to": "docs/cc/DECLARATIONS.md",
-      "raw": "./docs/cc/DECLARATIONS.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "../../issues/new",
-      "raw": "../../issues/new?template=idea.yml",
-      "exists": false,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": true
-    },
-    {
-      "from": "README.md",
-      "to": "LICENSE",
-      "raw": "./LICENSE",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "GOVERNANCE.md",
-      "raw": "./GOVERNANCE.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "CONTINUITY.md",
-      "raw": "./CONTINUITY.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "README.md",
-      "to": "SECURITY.md",
-      "raw": "./SECURITY.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
       "from": "admin/history/readme_backups/README_20250821_214647.backup.md",
       "to": "./docs/cc/PREAMBLE.md",
       "raw": "./docs/cc/PREAMBLE.md",
@@ -316,27 +217,9 @@
       "isOutsideRepo": false
     },
     {
-      "from": "docs/FAQ.md",
-      "to": "docs/stub_FAQ.md",
-      "raw": "stub_FAQ.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
       "from": "docs/BPOE/Workflow.md",
       "to": "docs/BPOE/IssueOps-CheatSheet.md",
       "raw": "./IssueOps-CheatSheet.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "docs/cc/OVERVIEW.md",
-      "to": "docs/cc/DECLARATIONS.md",
-      "raw": "./DECLARATIONS.md",
       "exists": true,
       "anchor": null,
       "anchorExists": null,
@@ -526,24 +409,6 @@
       "from": "docs/master/PORTFOLIO_MAP.md",
       "to": "docs/academy/BP_OE_WF.md",
       "raw": "../academy/BP_OE_WF.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "docs/onboarding/Being-Noname.md",
-      "to": "docs/onboarding/stub_Being-Noname.md",
-      "raw": "stub_Being-Noname.md",
-      "exists": true,
-      "anchor": null,
-      "anchorExists": null,
-      "isOutsideRepo": false
-    },
-    {
-      "from": "docs/process/OVERVIEW.md",
-      "to": "docs/process/stub_OVERVIEW.md",
-      "raw": "stub_OVERVIEW.md",
       "exists": true,
       "anchor": null,
       "anchorExists": null,
