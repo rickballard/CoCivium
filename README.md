@@ -1,21 +1,3 @@
-### Start here
-
-- **New idea:** Open an issue
-- **Start a post:** Edit this file or add `/proposals/your-idea.md`
-- **Being Noname:** a bedtime story for kids who want to make a name for themselves. ([Read the story](stories/being-noname.md))
-- **CC Declarations:** see the index
-
-
-<p align='center'>
-  <img src='assets/hero/hero.gif' alt='Globe animation'>
-</p>
-
-<p align='center'>
-  <img src='assets/hero/quote-960w.png'
-       srcset='assets/hero/quote-960w.png 1x, assets/hero/quote-960w@2x.png 2x'
-       alt='Quote' width='960'>
-</p>
-
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
@@ -171,12 +153,6 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 - **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
 
 <!-- cocivium:all-ages:start -->
-### Open to all ages (safety-first)
 
-Anyone can help co-evolve how we self-govern digital society—within age-appropriate guardrails and clear consent. Start with [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md), then try a tiny contribution: fix a typo, start a post (PR), or ask a question.
-<!-- cocivium:all-ages:end -->
-
-
-
-
+<sub>Anyone is welcome to help co-evolve digital societies, within age appropriate guardrails and clear consent if under legal age of consent.</sub>
 
