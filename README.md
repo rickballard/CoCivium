@@ -1,11 +1,3 @@
-### Start here
-
-- **New idea:** Open an issue
-- **Start a post:** Edit this file or add `/proposals/your-idea.md`
-- **Being Noname:** a bedtime story for kids who want to make a name for themselves. ([Read the story](stories/being-noname.md))
-- **CC Declarations:** see the index
-
-
 <p align='center'>
   <img src='assets/hero/hero.gif' alt='Globe animation'>
 </p>
@@ -101,7 +93,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 ---
 
-## What We Ship
+## What we ship
 - **CC Declarations:** shared rights, duties, and authorities for digital public life. *(index placeholder)*
 - **Protocols & guardrails:** practical rules for listening, deliberation, consent, appeals.
 - **Tools & patterns:** IssueOps checklists, templates, and AI helpers (CoMessage, CoPitch).
@@ -115,19 +107,14 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 ## Join in (no expertise needed)
 **2 minutes**, say hi, open an issue with one line on what you care about.  
 **10 minutes**, share an idea, a smallest useful change, your AI can draft it.  
-**30-minute's**, start a post (PR), a page, or add `/proposals/your-idea.md`.
+**30 minutes**, start a post (PR), a page, or add `/proposals/your-idea.md`.
 
 **Everything stays reversible**, small steps, merged often.
 
 ## Start here (quick links)
-- **New Idea** [Open an issue](../../issues/new?template=idea.yml)
-- Å **Start a post [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
+- **New Idea** [Open an issue](../../issues/new?template=idea.yml).  When ready, open a **post** (pull request). Learn by doing.
+- Start a post [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
 - **CC Declarations [Index](./docs/cc/DECLARATIONS.md)
-- **RepoAccelerator** *(placeholder)*
-- **[CoCivium]: https://cocivium.org**
-
-**Input Channels:**
-- Start with an [Idea](../../issues/new?template=idea.yml). When ready, open a **post** (pull request). Learn by doing.  
 - Use GitHub directly, or via our workflow accelerator [RepoAccelerator].  
 - Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
   _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
@@ -135,6 +122,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 - Join [CoCivium chats].  
 - Fork this repo to friendly-compete.  
 
+## Input channels
 [ChatGPT]: https://chatgpt.com/
 [RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
 [GroupBuild]: https://www.groupbuild.org
@@ -143,7 +131,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 
 ---
 
-## The Two Eyes model (citizen x system)
+## The two eyes model (citizen x system)
 - **Eye 1: Citizens** lived experience, local context, moral intuitions.  
 - **Eye 2: Systems** data, constraints, impact analysis, safety.  
 Together they give **depth perception**, humane *and* workable decisions.
@@ -171,9 +159,7 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 - [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 
 <!-- cocivium:all-ages:start -->
-### Open to all ages (safety-first)
-
-Anyone can help co-evolve how we self-govern digital society—within age-appropriate guardrails and clear consent. Start with [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md), then try a tiny contribution: fix a typo, start a post (PR), or ask a question.
+<sub>Anyone is welcome to help co-evolve digital societies, within age appropriate guardrails and clear consent if under legal age of consent.</sub>
 <!-- cocivium:all-ages:end -->
 
 
