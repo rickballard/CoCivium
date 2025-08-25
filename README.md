@@ -122,7 +122,6 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 - Join [CoCivium chats].  
 - Fork this repo to friendly-compete.  
 
-## Input channels
 [ChatGPT]: https://chatgpt.com/
 [RepoAccelerator]: tools/repo-accelerator/README.md "Quick-start scripts, templates, and checks"
 [GroupBuild]: https://www.groupbuild.org
