@@ -1,7 +1,7 @@
-# Workflow: Auto-add Issues & PRs to "Co Stack"
+# Workflow: Auto-add Issues & PRs to "CoStack"
 
 What it does
-- On issue/PR open or reopen, look up the user project (Co Stack, #3) and add the item via GraphQL `addProjectV2ItemById`.
+- On issue/PR open or reopen, look up the user project (CoStack, #3) and add the item via GraphQL `addProjectV2ItemById`.
 
 Prerequisites
 - Actions secret: GH_PAT (classic) with scopes: repo, project.
