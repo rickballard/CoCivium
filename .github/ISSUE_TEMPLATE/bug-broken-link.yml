@@ -1,0 +1,18 @@
+name: Broken link
+description: Report a link that lands on a stub or 404
+labels: ["content", "broken-link"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where did you click from?
+      description: Paste the URL of the page that sent you here
+  - type: input
+    id: stub
+    attributes:
+      label: Stub path you hit
+      description: The path from the repo (e.g., stories/being-noname.md)
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
