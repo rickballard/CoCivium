@@ -6,6 +6,16 @@
 - **CC Declarations:** see the index
 
 
+<p align='center'>
+  <img src='assets/hero/hero.gif' alt='Globe animation'>
+</p>
+
+<p align='center'>
+  <img src='assets/hero/quote-960w.png'
+       srcset='assets/hero/quote-960w.png 1x, assets/hero/quote-960w@2x.png 2x'
+       alt='Quote' width='960'>
+</p>
+
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
@@ -165,6 +175,7 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 Anyone can help co-evolve how we self-govern digital society—within age-appropriate guardrails and clear consent. Start with [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md), then try a tiny contribution: fix a typo, start a post (PR), or ask a question.
 <!-- cocivium:all-ages:end -->
+
 
 
 
