@@ -64,3 +64,5 @@ It is not a constitution—it is a **first sketch** of CoCoCivium’s gravitatio
 
 May it fail, be tested, be reshaped—and still survive.
 
+
+

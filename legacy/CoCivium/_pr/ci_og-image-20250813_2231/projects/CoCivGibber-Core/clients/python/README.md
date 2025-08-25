@@ -7,3 +7,4 @@ This is a sketch to guide implementation.  Use a maintained Matrix SDK.  Require
 4) Maintain liveness pings and rotate session tokens.
 
 Security notes: store keys securely.  Log Merkle roots and hashes, not raw sensitive content.
+

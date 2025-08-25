@@ -27,3 +27,5 @@ If vendors ship equivalent orchestration with open hooks, or adoption < 5 teams 
 
 ## Notes
 Brand: “PromptQ (PQ)”.  License: AGPL/SSPL (TBD) with paid modules option.
+
+

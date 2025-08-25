@@ -1,19 +1,9 @@
-<div align="center">
-  <h1>CoCivium</h1>
-  <p><em>Home of a civic CoConstitution  
-  <p>(for AI-Enabled "Hybrid Society")</em></p>
-  <p>
-    <img src="./assets/hero/quote-960w.png"
-         alt="Government of the people, by the people, for the people" &mdash; Abraham Lincoln (1863)"
-         width="960" />
-  </p>
+### Start here
 
-  <p>
-    <a href="./docs/country-watchlist.md" title="See the democracy watchlist">
-      <img src="./assets/hero/hero.gif" alt="Rotating globe" width="420" />
-    </a>
-  </p>
-</div>
+- **New idea:** Open an issue
+- **Start a post:** Edit this file or add `/proposals/your-idea.md`
+- **Being Noname:** a bedtime story for kids who want to make a name for themselves. ([Read the story](stories/being-noname.md))
+- **CC Declarations:** see the index
 
 
 ## Fix The World.
@@ -167,5 +157,15 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Inspiration / Onboarding
-- **Being Noname** human-first onramp. *(placeholder)*
+- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 - **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
+
+<!-- cocivium:all-ages:start -->
+### Open to all ages (safety-first)
+
+Anyone can help co-evolve how we self-govern digital society—within age-appropriate guardrails and clear consent. Start with [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md), then try a tiny contribution: fix a typo, start a post (PR), or ask a question.
+<!-- cocivium:all-ages:end -->
+
+
+
+

@@ -17,3 +17,4 @@ Elian: “Then thank those who choose to *steward* it. And blame those who corru
 **Agreement:**  
 CoCoCivium’s builders are many and diverse. Transparency of *intent* matters more than visibility of names.
 
+

@@ -10,3 +10,4 @@ This folder contains thematic and technical insights that inform the design of C
 
 ## Status
 Living documents — updated as new patterns and case studies are identified.
+

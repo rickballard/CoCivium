@@ -33,3 +33,5 @@
 - [ ] Define first pass of symbol set (see /docs/symbols/GIBINDEX_TODO.md) and wire into headings.
 - [ ] Draft “Maxims” section from legacy quotables.
 - [ ] Replace chip-tile social image with fungal-scroll variant.
+
+

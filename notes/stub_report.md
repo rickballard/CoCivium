@@ -20,3 +20,4 @@
 | 7813 | insights\Insight_Substrate_Assumptions_c2_20250809.md |
 | 11592 | insights\unequal-equity-v5a.md |
 
+

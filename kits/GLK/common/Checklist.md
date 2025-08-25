@@ -5,3 +5,5 @@
 - [ ] Set objection window policy (e.g., 72 hours) and quorum.
 - [ ] Adopt `Guardrails.md` and store in repo/docs.
 - [ ] Enable Decision Log Linter (GitHub Action). Fix any failures.
+
+

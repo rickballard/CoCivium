@@ -7,3 +7,4 @@ Core artifacts for the CoCivGibber envelope and the CoCivAI Circle bus integrati
 - See also `/protocols/` for canonical JSON and `/governance/membership_policy.yaml` for roles.
 
 Status: v0.1.  Expect breaking changes.
+

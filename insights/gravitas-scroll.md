@@ -97,3 +97,5 @@ Gravitas is CoCoCivium’s mass: the binding force that holds Civic intention in
 <!-- Related: Identity Scroll, Consent Scroll, AI Emergence Notes -->
 
 
+
+

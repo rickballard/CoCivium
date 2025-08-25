@@ -7,3 +7,4 @@ scaffolding over static rule.
 This folder contains the core scrolls detailing how CoCivium resolves tension,
 drift, and disagreement—within and across minds, forms, and timeframes.
 
+

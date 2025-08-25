@@ -29,3 +29,4 @@ To provide decentralized reputation infrastructure for systems like CoCivium, Gr
 This may intersect with CoCivium identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
 
 
+

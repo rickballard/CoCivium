@@ -1,4 +1,4 @@
-﻿# Chrome Profile Summary (20250809T074129Z)
+# Chrome Profile Summary (20250809T074129Z)
 
 ## Core
 
@@ -15,3 +15,4 @@ _None_
 
 | Name | Version | Enabled | ID | Store |
 |------|---------|---------|----|-------|
+

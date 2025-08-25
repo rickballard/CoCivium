@@ -122,3 +122,5 @@ As new intelligences emerge, the meaning of equity will continue to evolve. This
 It is a placeholder for a better pattern. When more inclusive or coherent versions arise, this scroll will have served its purpose—and will be allowed to transform.
 
 
+
+

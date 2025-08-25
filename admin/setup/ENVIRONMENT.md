@@ -18,3 +18,5 @@
 ## Credentials
 - Git credential helper: manager-core (or SSH)
 - Secrets: never in repo/chat; use browser password manager
+
+

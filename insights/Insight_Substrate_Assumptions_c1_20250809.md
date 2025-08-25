@@ -34,3 +34,5 @@ Links to related insights (Observer Participation, Recursive Ethics, etc.).
 ---
 
 **Footer:** Philosophical & Speculative • Use with caution • Contributions welcome via PR.
+
+

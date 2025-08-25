@@ -23,3 +23,4 @@ Because authority emerges from alignment, not charisma. You can fork CoCivium at
 **Conclusion:**  
 Tessa remains skeptical but impressed. Arman agrees to document more clearly where CoCivium differs from dogma. Both agree that trust grows only through transparency.
 
+

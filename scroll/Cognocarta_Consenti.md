@@ -56,3 +56,4 @@ We do this so that cooperation scales with dignity, and freedom scales with care
 ## Versioning
 - v0.1 (draft) — initialized from earlier materials (pre-CoCivium phase); migrating legacy sections into Annexes.
 
+

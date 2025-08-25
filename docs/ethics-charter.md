@@ -4,3 +4,5 @@
 - Open process, auditable logs, reversible defaults.
 - Minimize privileges; make kill switches obvious.
 - No partisan or commercial capture; community stewardship by design.
+
+

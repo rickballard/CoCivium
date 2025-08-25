@@ -13,3 +13,4 @@ Intent documents are not fixed roadmaps. They are recurring calibration tools. T
 - Guardrails and refusal logic
 - Recursion planning and accountability models
 
+

@@ -8,3 +8,4 @@
 
 ## CoCivium Spirit
 A shorthand for the shared ethos behind civitude, focusing contributors on service, dignity, and antifragile collaboration across borders and agents.
+

@@ -9,3 +9,4 @@ This file logs speculative additions, structural proposals, or symbolic systems 
 
 To propose your own: submit a Pull Request or symbolic fragment to `/admin/`.
 
+

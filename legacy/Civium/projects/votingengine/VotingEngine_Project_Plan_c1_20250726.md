@@ -87,3 +87,4 @@ Footprint: ⊘
 Symbolic Gate: ΘΔΨ  
 Ref: /projects/voting_engine/VotingEngine_Project_Plan_c1_20250726.md
 
+

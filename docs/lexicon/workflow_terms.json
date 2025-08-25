@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Wrap session; WIP savepoint, push, draft PR, NEXT.md",
+    "kind": "workflow",
+    "repo": "CoCivium",
+    "term": "CoStage",
+    "since": "2025-08"
+  },
+  {
+    "desc": "Session ID to correlate work/chat",
+    "kind": "workflow",
+    "term": "CoSession",
+    "repo": "CoCivium"
+  },
+  {
+    "aliases": [
+      "CoSidecar",
+      "CoDialogue"
+    ],
+    "desc": "Parallel chat lane",
+    "kind": "workflow",
+    "term": "CoChat",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Pre-PR overlap & hygiene scan",
+    "kind": "workflow",
+    "term": "CoPrePR",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "List/open PRs for dangling branches",
+    "kind": "workflow",
+    "term": "CoPRSweep",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Trademark checklist + status",
+    "kind": "brand",
+    "term": "CoMark",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Auto-away fairness notes",
+    "kind": "metrics",
+    "term": "CoPulse",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Block/run loop",
+    "kind": "cadence",
+    "term": "CoPingPong",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Compact console spacing toggle",
+    "kind": "ux",
+    "term": "CoCompact",
+    "repo": "CoCivium"
+  },
+  {
+    "desc": "Dashed console ruler",
+    "kind": "ux",
+    "term": "CoRule",
+    "repo": "CoCivium"
+  }
+]

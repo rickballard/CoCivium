@@ -4,3 +4,4 @@ Add this badge where you publish decisions (README, website). Link it to your De
 
 Example Markdown:
 [![Concord Mark](docs/img/concord_mark.svg)](docs/decisions/)
+

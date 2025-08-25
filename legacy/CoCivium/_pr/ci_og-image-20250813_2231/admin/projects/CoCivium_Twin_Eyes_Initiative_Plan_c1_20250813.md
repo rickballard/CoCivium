@@ -111,3 +111,4 @@ Decision Frameworks,2,docs/specs/cps.yaml,RL2
 ### Footer (standardized)
 
 DocType: Informative  •  Layers: N/A (planning)  •  Version: c1 (2025-08-13)  •  CohNote: Coherence tag **_c1_**; supersede via **_c2_** with a clear changelog.  Hash: TBD.
+

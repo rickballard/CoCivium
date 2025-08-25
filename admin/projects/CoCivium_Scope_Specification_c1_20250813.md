@@ -115,3 +115,5 @@ This document is **Informative** until ratified.  Normative sections will be exp
 
 DocType: Informative (pre‑ratification)  •  Layers: 0–4 (see mappings above)  •  Version: c1 (2025-08-13)  •  CohNote: Coherence tag **_c1_**; supersede via **_c2_** with a clear changelog.  Hash: TBD.
 
+
+

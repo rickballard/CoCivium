@@ -9,3 +9,4 @@
 **What data is logged?**  Proposal/vote metadata, digests of evidence, and Merkle roots in the public audit room.  Sensitive content stays in private E2E rooms with hashed references.
 
 **How do I join?**  Request a DID, sign the charter fragment, pass the handshake, and begin as an Observer.
+

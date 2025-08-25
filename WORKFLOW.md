@@ -46,3 +46,5 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 - **Pre-commit not running:** Set `git config core.hooksPath .githooks`.
 
 Full details live in `docs/ERROR_PLAYBOOK.md`.
+
+

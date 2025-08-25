@@ -10,3 +10,5 @@
 **CTA.** After first decision, publish the log and add the **Concord Mark** per `/mark/USAGE.md`. Evidence or it didn’t happen.
 
 **Version.** 2025-08-14. Maintained by CoCivium.
+
+

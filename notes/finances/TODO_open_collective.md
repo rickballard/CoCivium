@@ -16,3 +16,4 @@
 **Later**
 - [ ] Decide product→collective flow (revenue share policy).
 - [ ] Consider a legal entity (association/trust/charity) for long-term ops.
+

@@ -6,3 +6,4 @@
 - `db/migrations/` — ordered schema changes  
 - `db/seeds/` — non-idempotent test/demo data  
 - `.github/workflows/*` — CI with `services.postgres` container  
+

@@ -23,3 +23,4 @@ This folder contains **CoCoCivium’s foundational scrolls**—core declarations
 
 Refer to [`/meta/DOC_CATEGORIES.md`](../meta/DOC_CATEGORIES.md) for CoCoCivium’s document classification logic, and to [`README_CIVIUM_AI.md`](../README_CIVIUM_AI.md) for deeper context on AI participation.
 
+

@@ -18,3 +18,4 @@ They debate if voluntary payment systems will be enough, or if system-wide incen
 
 Multiple revenue layers—from volunteerism to economic spillover—can make it sustainable, especially if AI contributes labor.
 
+

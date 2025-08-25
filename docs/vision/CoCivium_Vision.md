@@ -59,3 +59,5 @@ Finance & budgeting • Social safety • Health • Taxation • Wealth inequal
 2) Join/start a project under /projects.  
 3) Propose improvements via issues (content gap / refactor).  
 4) Help draft domain briefs; run small, reviewable experiments.
+
+
