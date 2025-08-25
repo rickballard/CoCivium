@@ -1,0 +1,27 @@
+name: readme-noname-check
+on:
+  pull_request:
+    paths:
+      - README.md
+      - insights/**
+      - .github/workflows/readme-noname-check.yml
+  push:
+    branches: [ main ]
+    paths:
+      - README.md
+      - insights/**
+      - .github/workflows/readme-noname-check.yml
+concurrency:
+  group: noname-check-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify link & target
+        run: |
+          set -euo pipefail
+          grep -q '(insights/Insight_Story_Being_Noname_c2_20250801.md)' README.md
+          test -f insights/Insight_Story_Being_Noname_c2_20250801.md
+          echo "Noname link & target exist ✅"
