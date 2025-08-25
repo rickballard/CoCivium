@@ -155,7 +155,7 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ## Inspiration / Onboarding
 - **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
-- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
+- [Being Noname](insights/Insight_Story_Being_Noname_c2_20250801.md) — a children's bedtime story about a determined child, who wants a name!
 
 <!-- cocivium:all-ages:start -->
 <sub>Anyone is welcome to help co-evolve digital societies, within age appropriate guardrails and clear consent if under legal age of consent.</sub>
