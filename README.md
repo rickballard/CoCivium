@@ -114,7 +114,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 ## Start here (quick links)
 - **New Idea** [Open an issue](../../issues/new?template=idea.yml).  When ready, open a **post** (pull request). Learn by doing.
 - Start a post [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
-- **CC Declarations [Index](./docs/cc/DECLARATIONS.md)
+- CC Declarations [Index](./docs/cc/DECLARATIONS.md)
 - Use GitHub directly, or via our workflow accelerator [RepoAccelerator].  
 - Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
   _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
