@@ -1,29 +1,14 @@
-# CC Declarations — Index
+# CC Declarations — Index _(v0.1)_
 
-> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
+- [D-01 Dignity & Agency](./declarations/D01_Dignity_Agency.md)
+- [D-02 Consent Before Coercion](./declarations/D02_Consent_Before_Coercion.md)
+- [D-03 Provenance & Accountability](./declarations/D03_Provenance_Accountability.md)
+- D-04 Reversibility & Redress _(queued)_
+- D-05 Safety & Minimization _(queued)_
+- D-06 Accessibility & Inclusion _(queued)_
+- D-07 Open Interfaces & Portability _(queued)_
+- D-08 Transparent Moderation & Appeals _(queued)_
+- D-09 Civic Data Charter _(queued)_
+- D-10 Agent Responsibilities _(queued)_
 
-## Purpose
-- What this is for
-- Who should use it
-- What it does **not** try to do
-
-## Scope & Interfaces
-- Inputs / responsibilities
-- Outputs / artifacts
-- Interfaces to other docs/processes
-
-## Draft v0 Outline
-- Key sections to be authored
-- TODOs with checkboxes
-  - [ ] Fill section 1
-  - [ ] Fill section 2
-  - [ ] Add references
-
-## How to Propose Changes
-- Open an Idea → PR
-- Review path and decision trace
-
----
-List declarations and link each as they exist.
-
-
+_“Queued” items carry headings in PRs and are open for contribution via issues/PRs._
