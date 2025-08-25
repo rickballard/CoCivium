@@ -167,8 +167,8 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Inspiration / Onboarding
-- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 - **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
+- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 
 <!-- cocivium:all-ages:start -->
 ### Open to all ages (safety-first)
