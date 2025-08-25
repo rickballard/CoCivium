@@ -105,13 +105,11 @@ function CoPingPong(){ Write-Host "CoPingPong: copy blocks only after the snip +
 function CoGate(){ CoPingPong }  # alias for older docs
 
 function CoChat(){ Write-Host "CoChat: the parallel chat lane alongside CoPingPong. Safe to use while blocks run; CoPulse auto-away keeps efficiency fair." }
-function CoDialogue(){ CoChat }   # alias
-function CoSidecar(){ CoChat }    # alias
+# alias
 
 function CoSession { param([string]$Id="") CoSessionInit $Id }
 function CoChat { param([string]$Id="") CoChatStart $Id }
-function CoDialogue([string]=""){ CoChatStart  }  # alias
-function CoSidecar([string]=""){ CoChatStart  }   # alias
+# alias
 
 
 try { . "$PSScriptRoot\CoVibe.Blocks.ps1" } catch {}
@@ -165,6 +163,15 @@ function CoPrePR(){
   Write-Host "-- PrePR scan complete."
 }
 
-
-
-
+function CoDialogue {
+  param([Parameter(ValueFromRemainingArguments = $true)][object[]]$Args)
+  if (Get-Command CoChatStart -ErrorAction SilentlyContinue) { CoChatStart @Args }
+  elseif (Get-Command CoChat -ErrorAction SilentlyContinue) { CoChat @Args }
+  else { throw "CoDialogue: base command CoChatStart/CoChat not loaded." }
+}
+function CoSidecar {
+  param([Parameter(ValueFromRemainingArguments = $true)][object[]]$Args)
+  if (Get-Command CoChatStart -ErrorAction SilentlyContinue) { CoChatStart @Args }
+  elseif (Get-Command CoChat -ErrorAction SilentlyContinue) { CoChat @Args }
+  else { throw "CoSidecar: base command CoChatStart/CoChat not loaded." }
+}
