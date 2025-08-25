@@ -44,3 +44,5 @@ Install only what you trust.  The shortlist we rely on most:
 ## Appendix — Local voice input without extensions
 If you want to skip extensions for voice, Windows provides **Win+H** dictation.  It’s basic but keeps everything local.  
 
+
+

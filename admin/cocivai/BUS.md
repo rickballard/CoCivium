@@ -5,3 +5,5 @@
 - Trails: Summarize deltas in PRs/issues; link DRs.
 
 Paste the Session Rules into active chats to activate discipline.
+
+

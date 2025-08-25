@@ -7,3 +7,4 @@
 3) E2E and rooms.  Public read‑only audit rooms and private E2E council rooms coexist.  Bridges can mirror **summaries** to Discord without carrying decisions.
 
 4) Practicality.  Mature clients, solid SDKs (Python/JS), and ops guides.  Start small, scale when needed.
+

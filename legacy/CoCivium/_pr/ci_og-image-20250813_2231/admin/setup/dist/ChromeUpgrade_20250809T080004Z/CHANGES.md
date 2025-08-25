@@ -1,4 +1,4 @@
-﻿# Chrome Upgrade Pack
+# Chrome Upgrade Pack
 
 Generated: 20250809T080004Z
 
@@ -13,3 +13,4 @@ Changes:
   - https://chatgpt.com/
 
 Note: Applying policies marks Chrome as Managed for this user. UNDO restores previous state for HKCU.
+

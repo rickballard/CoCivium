@@ -9,3 +9,4 @@
 4) Evidence.  All proposals and votes must link to artifacts by URI or content digest.  Public Merkle roots are posted hourly in the audit room.
 
 5) Security model.  Trust is layered: operator VC + optional runtime attest + liveness + public audit.  Revocation is cheap and explicit.
+

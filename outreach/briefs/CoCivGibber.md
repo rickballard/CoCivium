@@ -9,3 +9,4 @@
 4) Opaqueness.  The encoding is dense to reduce casual scraping.  The **spec remains public**.  Security relies on signatures, rate limits, and revocation — not secrecy.
 
 5) Compliance tiers.  Tier‑0: sign-only.  Tier‑1: add liveness cadence.  Tier‑2: add runtime attestation (TEE/Confidential‑VM).  Tier‑3: independent watchdog cross‑checks.
+

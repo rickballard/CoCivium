@@ -8,3 +8,5 @@ Setup:
 
 Message: one JSON line per entry (<2 KB).  No secrets.  
 Access: invite-only.  Retention: per-room; export periodically.
+
+

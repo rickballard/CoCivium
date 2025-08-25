@@ -22,3 +22,5 @@
 - Day 1–2: List build + permissions.  Draft visuals.  Dry‑run with 3 advisors.
 - Day 3: Publish Substack + repo kit.  Seed to Tier‑A.  Pitch 1–2 journalists.
 - Day 4–7: Run roundtables.  Capture quotes.  Ship follow‑up post with deltas.
+
+

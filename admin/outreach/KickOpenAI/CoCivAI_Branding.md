@@ -15,3 +15,5 @@
 **Placement.**
 - Forum/GitHub/Help: footer signature only.  
 - Medium: optional sidebar describing CoCivAI and longer‑term aims.
+
+

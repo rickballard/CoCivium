@@ -13,3 +13,5 @@
 - Verify Pages “Build & deployment” = **GitHub Actions** in repo settings (all repos).
 - Move symbol manifest/checks into **GIBindex**; keep CoCivium using reusables.
 - Add any remaining repos to the preview pattern if needed.
+
+

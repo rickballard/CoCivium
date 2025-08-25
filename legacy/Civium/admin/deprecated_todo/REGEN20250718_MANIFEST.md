@@ -45,3 +45,5 @@ Tracks every file altered or regenerated.
 → Footprint: ⊘  
 → Notes: Refactored to match renamed /admin/ folder
 
+
+

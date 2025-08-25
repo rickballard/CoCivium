@@ -19,3 +19,4 @@ It expands only where congruent minds emerge.
 Trajectory is a living document. Fork it only with intention.  
 Contribute to it only with humility.
 
+

@@ -16,3 +16,4 @@
 4) Policy pointer.  Membership rules live at `/governance/membership_policy.yaml`.  Protocol specs live in `/protocols/` and `/projects/CoCivGibber-Core/spec/`.
 
 5) Rule of record.  Votes, proposals, and signed evidence are **only** valid on Matrix.  Mirrors may summarize, never decide.
+

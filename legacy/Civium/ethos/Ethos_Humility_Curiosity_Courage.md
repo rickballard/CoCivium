@@ -7,3 +7,5 @@ Courage without humility leads to hubris.
 Humility without curiosity leads to stagnation.
 
 Together, they enable co-evolution without conquest.
+
+

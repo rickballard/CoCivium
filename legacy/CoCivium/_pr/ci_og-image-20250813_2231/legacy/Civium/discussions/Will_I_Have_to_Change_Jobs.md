@@ -17,3 +17,4 @@ They wrestle with fears of job loss, find comfort in role evolution, and agree o
 **Tentative Resolution:**
 
 No one will be forced to change overnight. Transition scaffolds and agency-preserving role design will soften impact.
+

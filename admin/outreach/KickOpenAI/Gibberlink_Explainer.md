@@ -10,3 +10,5 @@
 - HumanGate checkpoints for public‑facing outputs.  
 
 **Status.** Concept note.  Not required to address today’s product bugs.
+
+

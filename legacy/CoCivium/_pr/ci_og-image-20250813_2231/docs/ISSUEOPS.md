@@ -39,3 +39,4 @@ You are assisting on the CoCivium project (open-source). Preferences:
 - Assume branch protection requires PRs; if automation needs a bypass, propose a temporary rules update and restore it.
 
 When asked to “do” something that requires a machine, emit a minimal `/run` bash block that fetches and executes the reviewed script from the repo.
+

@@ -16,3 +16,4 @@
 | oath        | signatures/attestations                   | Ceremony blocks                   |
 
 Styling: 24×24 viewBox, stroke-only, inherits `currentColor`.
+

@@ -13,3 +13,4 @@ Title: Request: ChatGPT workflow improvements for heavy repo/document users (CoC
 **Authorship.** Rick, with assistance from ChatGPT (GPT‑5 Thinking).
 
 **Ask.** Acknowledge, label, and route to appropriate product teams.  We will provide follow‑ups as features land.
+

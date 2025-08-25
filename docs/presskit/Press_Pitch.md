@@ -9,3 +9,4 @@ What’s new: Moves beyond vibes and analogies (“mother AI”) to measurable g
 Assets: Open charter + FAQ, influencer landscape (analysis, not endorsements), demo adapter list, public RFC, roundtable calendar.
 
 Spokesperson: Rick Ballard (founder, CoCivium).  Availability: media Q&A and roundtables.
+

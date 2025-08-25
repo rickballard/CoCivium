@@ -73,3 +73,5 @@
 ---
 
 *Maintainer:* RickPublic & ChatGPT (GPT‑5).  *Location:* `/admin/Intersessional_Profile.md`.  
+
+

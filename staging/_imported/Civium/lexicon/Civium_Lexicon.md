@@ -215,3 +215,4 @@ If a metaphor, glyph, or parable helped you *understand* a term, post it to `/di
 This lexicon is not the endpoint of language—it is the **midpoint of convergence.**
 
 ---
+

@@ -142,3 +142,4 @@ We’re building **CoCivium**: a public‑interest governance and tooling projec
 ---
 
 _Thanks for taking this seriously.  We’re willing to pilot fixes and provide structured feedback._
+

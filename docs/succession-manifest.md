@@ -9,3 +9,5 @@ No secrets are released; this is publish-only continuity.
 Preferences (non-binding): human+AI team; avoid partisan political or commercial capture.
 
 After trigger: open "Succession — Activation (Manifest v1.0)" issue; fork/continue with 2FA maintainers, branch protection, CODEOWNERS, and fresh CI secrets.
+
+

@@ -6,3 +6,4 @@
 
 **Signature.**
 — Rick  •  Prepared with assistance from ChatGPT (GPT‑5 Thinking).  Co‑signed by the CoCivAI working group (About: see link).
+

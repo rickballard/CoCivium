@@ -23,3 +23,5 @@ git config core.hooksPath .githooks
 ## README renders but images don’t show on GitHub
 - Wait a minute and **hard refresh** (GitHub caches).
 - Verify the path is **relative** and committed.
+
+

@@ -11,3 +11,4 @@
 **Inputs (per axis):** If `admin/metrics/metrics.json` has an `rd` object (e.g., `{ "CI": 0.1, "COV": 0.3 }`), those values are used. Otherwise v1.1 assumes 0 (or a mild uniform dent if `duplication_ratio` exists).
 
 **Formula:** `radius = base_radius × (1 − 0.15 × blended_rd)`. RD is blended around each axis with a Gaussian so notches look organic.
+

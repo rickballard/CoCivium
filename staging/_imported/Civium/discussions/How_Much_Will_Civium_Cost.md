@@ -18,3 +18,4 @@ They discuss cost estimation, compute, legal scaffolding, and social infrastruct
 
 Cost is nontrivial but not unimaginable—especially if distributed fairly and offset by long-term systemic efficiencies.
 
+

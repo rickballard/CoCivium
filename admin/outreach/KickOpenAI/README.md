@@ -18,3 +18,5 @@
 **Optional additions for reach.**
 - Share a 10‑slide deck outline (`Deck/10slides_outline.md`).  
 - Add a short values‑forward insert derived from *Being Noname* to humanize the ask (`Posts/being_noname_insert.md`).
+
+

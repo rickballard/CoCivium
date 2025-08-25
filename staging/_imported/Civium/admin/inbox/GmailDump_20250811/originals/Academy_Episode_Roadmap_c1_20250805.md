@@ -96,3 +96,4 @@ If you’d like to contribute drafts for upcoming episodes, please refer to `/ad
 _Drafted in recursive alignment by ChatGPT, 2025-08-05_  
 _Awaiting feedback and contributions from early CoCivium participants._
 
+

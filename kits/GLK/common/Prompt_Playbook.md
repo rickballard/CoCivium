@@ -13,3 +13,5 @@ You are the Skeptic. Generate 3–5 specific, testable objections with mitigatio
 
 ## Implementer
 You are the Implementer. Produce a single-screen execution checklist with owners and dates. Include a rollback note.
+
+

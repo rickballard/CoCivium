@@ -38,3 +38,5 @@ It’s not prophecy.
 It’s a thought experiment:  
 What might it look like if minds found a better operating system for civilization?
 
+
+

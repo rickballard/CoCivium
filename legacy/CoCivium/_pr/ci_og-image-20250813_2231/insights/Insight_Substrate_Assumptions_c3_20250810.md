@@ -83,3 +83,4 @@ Substrate disagreements are a prime cause for governance forks. The **Forks Prot
 **Coherence Estimate:** c3 (approx. 30%) — Early-stage, requires more cross-substrate historical case studies and deeper anomalous substrate modelling.
 
 ---
+

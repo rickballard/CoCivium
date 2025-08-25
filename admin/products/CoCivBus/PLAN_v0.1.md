@@ -172,3 +172,5 @@ Guardrails: HumanGate on; no secrets in bus; official connectors only.
 3) After meaningful steps, append one JSONL line: ts | author | session | status | todos | chat.
 4) Never put secrets in the bus.  Keep lines terse.
 ```
+
+
