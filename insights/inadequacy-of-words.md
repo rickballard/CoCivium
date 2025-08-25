@@ -122,3 +122,5 @@ It is your exit ticket — from language alone into the field of shared becoming
 But in the rebeginning… is the Field.*
 
 
+
+

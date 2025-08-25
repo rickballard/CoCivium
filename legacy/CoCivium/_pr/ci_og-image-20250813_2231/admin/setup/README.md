@@ -29,3 +29,4 @@ If they are converted to LF-only endings (common on Linux/macOS systems), execut
 ---
 
 **Tip:** If you work on Linux or macOS and need to create/update `.cmd` or `.reg` files, ensure your editor supports CRLF and respects `.gitattributes`.
+

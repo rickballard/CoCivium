@@ -18,3 +18,5 @@
 - Duty of care, transparent rationale, independent review, blameless post-mortems.
 
 — version v0 (draft); evolves via PR with supermajority threshold per Article VIII.
+
+

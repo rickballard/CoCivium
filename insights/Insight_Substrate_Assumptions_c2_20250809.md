@@ -116,3 +116,5 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 
 **Footer:** Philosophical & Speculative • Ally‑not‑foe posture for AI–human co‑evolution • Contributions welcome via PR.
 
+
+

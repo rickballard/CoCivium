@@ -1,1 +1,2 @@
 This folder contains a dump of files that were in Rick's laptop and phone downloads folder, over the last week or so, resulting from sessions with ChatGPT.  Some of these files did no get uploaded to the repo, but likely many did and some may be older versions of what already exist elsewhere.  This hold folder is thus waiting for a suitable repo regrooming, at which time, any userful content herein should be integrated into the repo, leaving this dump folder empty for future use, perhaps in a similar manner.
+

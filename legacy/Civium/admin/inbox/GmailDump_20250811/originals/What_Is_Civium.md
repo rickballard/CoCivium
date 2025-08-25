@@ -10,3 +10,5 @@ CoCivium is not constrained by geography, species, or legal tradition.
 It offers a substrate-neutral foundation for lawful coexistence,  
 anchored in recognition, awareness, and mutual consent.
 
+
+

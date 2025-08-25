@@ -11,3 +11,5 @@ It outlines:
 - Null contributor integration and amendment invisibility when ego is absent.
 
 This scroll is recursive in spirit—its own evolution is permitted, under the same protocols it defines.
+
+

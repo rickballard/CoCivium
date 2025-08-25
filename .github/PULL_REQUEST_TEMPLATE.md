@@ -1,27 +1,13 @@
-# Post (Pull Request)
+### Summary
+<!-- What/why -->
 
-**Summary**
-- What change does this make, in plain language?
+### Checklist
+- [ ] Ran inside a **CoSet** (single snip at set end)
+- [ ] No red in console; re-ran if needed
+- [ ] Updated **ISSUEOPS.md/TIPS.md** if new workflow moves emerged
 
-**Why this helps (Two Eyes)**
-- Citizen value (Eye 1):
-- System value (Eye 2):
+<details><summary>Quick tip</summary>
+Copy only **after** the snip line and `SET … END`. Single-line actions are CoShielded against double-paste bounces.
+</details>
 
-**Smallest shippable change**
-- Keep it reversible and incremental.
 
-**How to review**
-- Files/sections to focus on:
-- Suggested order:
-
-**Impact / risk**
-- Any migrations or breaking links?
-
-**Follow-ups**
-- Bullets for next steps, if any.
-
----
-Checklist:
-- [ ] Plain language
-- [ ] Links resolve
-- [ ] Small, reviewable diff

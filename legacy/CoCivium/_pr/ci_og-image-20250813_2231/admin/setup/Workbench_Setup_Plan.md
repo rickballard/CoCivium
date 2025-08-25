@@ -81,3 +81,4 @@ next:
 - Paste Custom Instructions overwrite; test CIVPACK v1.
 - Generate `CoCivium-Workbench.bat` and Windows Terminal profile.
 - (Optional) Add commit hook + schedule daily sidecar scan.
+

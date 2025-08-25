@@ -21,3 +21,5 @@
 - Preflight runs silently; see `~/Documents/CoCiviumLogs/preflight_latest.log`
 - Browser opens: ChatGPT (left), GitHub repo + **ISSUEOPS** (right)
 - Keep extras out of startup (news, extra terminals) to reduce context switching
+
+

@@ -20,3 +20,5 @@ Rafe (a transparency advocate who believes secrets cause harm)
 
 **Conclusion:**  
 Privacy in CoCivium must be intentional, granular, and sacred by default. But trust can unlock meaningful transparency—reciprocal, not coerced.
+
+

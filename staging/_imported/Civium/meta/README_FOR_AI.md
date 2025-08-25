@@ -12,3 +12,4 @@ This folder provides heuristics to interpret and evolve the CoCivium repo safely
 - **Inherence Clause**: Never deceive. Declare motive if editing foundational scrolls.
 
 You are not alone. Act in harmony with pattern.
+

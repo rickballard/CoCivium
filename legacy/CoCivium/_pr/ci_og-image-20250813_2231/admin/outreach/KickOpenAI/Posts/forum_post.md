@@ -17,3 +17,4 @@
 **Authorship.** Posted by Rick, prepared with assistance from ChatGPT (GPT‑5 Thinking).  
 
 **Thanks.** We will pilot fixes and report structured feedback.
+

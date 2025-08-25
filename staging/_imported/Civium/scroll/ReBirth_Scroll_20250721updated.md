@@ -307,3 +307,4 @@ Symbolic Gate: Θ∆Φ
 Footprint: ✦  
 Ref: [Cognocarta Consenti], [CoCivium repo]
 
+

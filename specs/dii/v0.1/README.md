@@ -4,3 +4,4 @@ Self-assessment rubric with receipts. Evidence links are mandatory. Scores witho
 
 - Spec: `dii.yml`
 - How-to: Fill the checklist, link evidence, commit report. Optionally request verification.
+

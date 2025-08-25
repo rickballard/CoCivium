@@ -26,3 +26,4 @@
 
 ---
 **Notes:** Keep terse.  Two spaces after sentences.  Prefer better over newer when reconciling versions.  
+

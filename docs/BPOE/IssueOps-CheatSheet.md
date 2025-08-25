@@ -19,7 +19,7 @@
 - Structure: **DO** (imperatives you can paste), then **ADVISORY** (tips/explanations).
 
 ### CoPreview — preview README safely
-- Keep main protected; preview branches use eadme/preview_*.
+- Keep main protected; preview branches use eadme/preview_*.
 - Renders at: **gh browse README.md --branch <preview>**
 
 ### CoPR — create a PR (small, reversible)
@@ -67,3 +67,5 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File tools/repo-sweep.ps1
 
 ### CoFixPush — resolve push rejects fast
 - Runs: \git pull --rebase && git push\ on the current branch.
+
+

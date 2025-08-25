@@ -107,3 +107,5 @@ Interpretive Vectors are how CoCivium remains legible across minds that were nev
 Interoperability is.*
 
 
+
+

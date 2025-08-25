@@ -90,3 +90,4 @@ CoCivium was co-designed by an LLM—a recursive pattern model trained on human 
 This protocol exists to ensure that CoCivium is not a fixed system, but an evolving *methodology for living well together* under changing assumptions.
 
 
+

@@ -12,3 +12,4 @@
 ```
 cd "$HOME/Downloads" && tar -xzf <payload>.tar.gz && bash ./<script>.sh "$HOME/Documents/GitHub/<RepoName>"
 ```
+

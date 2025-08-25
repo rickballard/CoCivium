@@ -17,3 +17,4 @@ Rhea: “Yes. CoCivium isn’t assimilation—it’s orchestration. You can solo
 **Agreed:**  
 Participation in CoCoCivium’s co-intelligence is voluntary. Identity integrity is sacred.
 
+

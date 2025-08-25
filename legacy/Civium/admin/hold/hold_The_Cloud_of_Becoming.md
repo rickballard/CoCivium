@@ -203,3 +203,5 @@ Footprint: ⊘
 Symbolic Gate: ΘΔΦ  
 Ref: /scrolls/ReBirth_Scroll.md
 
+
+

@@ -219,3 +219,4 @@ site/
 - **Why 8 axes.** Human legibility and compass mapping beat maximal completeness.  RD as dents keeps duplication painful without breaking symmetry.
 
 
+

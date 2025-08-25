@@ -13,8 +13,8 @@ A short, opinionated checklist from today’s cleanup (workflow guardrails, READ
 
 # repo prequel (Windows Git Bash safe)
 
-cd "$HOME/Documents/GitHub/CoCivium" 2>/dev/null \
-  || cd "/c/Users/Chris/Documents/GitHub/CoCivium" \
+cd "$HOME/Documents/GitHub/CoCivium" 2>/dev/null   
+  || cd "/c/Users/Chris/Documents/GitHub/CoCivium"   
   || { echo "? repo not found"; exit 1; }
 
 export GIT_PAGER=cat GH_PAGER=cat GH_NO_TTY=1
@@ -69,9 +69,9 @@ CI (later) can verify that block’s presence and optionally regenerate it.
 
 # Add blank line after headings, around lists (example for one file)
 
-perl -0777 -i -pe "s/^(#{1,6}\s[^\n]*\n)(?!\n)/\$1\n/gm" README.md
-perl -0777 -i -pe "s/([^\n]\n)([-*]\s|\d+\.\s)/\$1\n\$2/g" README.md
-perl -0777 -i -pe "s/((?:^[-*]\s.*\n|^\d+\.\s.*\n)+)(?!\n)/\$1\n/gm" README.md
+perl -0777 -i -pe "s/^(#{1,6}`s[^`n]*`n)(?!`n)/`$1`n/gm" README.md
+perl -0777 -i -pe "s/([^`n]`n)([-*]`s|`d+`.`s)/`$1`n\$2/g" README.md
+perl -0777 -i -pe "s/((?:^[-*]`s.*`n|^`d+`.`s.*`n)+)(?!`n)/`$1\n/gm" README.md
 (Use carefully; commit and review the diff.)
 
 7) PR review + merge checklist
@@ -125,4 +125,7 @@ Add a CONTRIBUTING.md ? “How to pass CI” section with the hygiene rules abov
 Add a repo script ./admin/lint-fix.sh that runs the safe perl helpers.
 Add a bot rule to label PRs touching README.md with needs/decision.
 (Optional) A tiny Action to fail if the README loses the ONEBLOCK markers.
+
+
+
 

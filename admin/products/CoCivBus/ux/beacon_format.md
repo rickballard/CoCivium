@@ -8,3 +8,5 @@
   "chat_shared_link": ""
 }
 Notes: pointer only; no secrets; multiple chats can import same beacon.
+
+

@@ -8,3 +8,4 @@
 
 **Lifecycle.** `Ideation → Parked → Active → Done` (or `Killed`).  Keep one-page context in `ParkingCard*.md`.  
 
+

@@ -72,3 +72,4 @@ Final vote weight = `raw_vote × modifier score`, with upper and lower bounds de
 
 ## Tags  
 [codex] [voting] [meritocratic] [ai-assisted] [deliberation] [weighting]
+

@@ -96,3 +96,4 @@ All vetoes and overrides are appended to:
 
 [tags]: # (veto protocol ai-checks override safeguards model-integrity)
 
+
