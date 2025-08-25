@@ -6,6 +6,16 @@
 - **CC Declarations:** see the index
 
 
+<p align='center'>
+  <img src='assets/hero/hero.gif' alt='Globe animation'>
+</p>
+
+<p align='center'>
+  <img src='assets/hero/quote-960w.png'
+       srcset='assets/hero/quote-960w.png 1x, assets/hero/quote-960w@2x.png 2x'
+       alt='Quote' width='960'>
+</p>
+
 ## Fix The World.
 
 <img src="./assets/icons/broken-line.svg" alt="" width="20" height="20" />&nbsp;&nbsp; **WHY**  
@@ -81,7 +91,7 @@ If you can picture society working better, or if you can test ideas against evid
 ---
 
 # Cognocarta Consenti (CC)
-<img align="right" src="./assets/cc/crest-hold.gif" alt="Cognocarta Consenti crest" width="140">
+<img src='./assets/cc/crest-hold.gif' alt='Crest' width='45' height='50' />
 
 **Mission:**  
 Build a **living CoConstitution for digital society**, borderless, people-first, and **directly evolvable by anyone who cares**.
@@ -157,14 +167,15 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Inspiration / Onboarding
-- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 - **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
+- [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md) — a children's bedtime story about a determined child, who wants a name!
 
 <!-- cocivium:all-ages:start -->
 ### Open to all ages (safety-first)
 
 Anyone can help co-evolve how we self-govern digital society—within age-appropriate guardrails and clear consent. Start with [Being Noname](admin/outreach/KickOpenAI/Posts/being_noname_insert.md), then try a tiny contribution: fix a typo, start a post (PR), or ask a question.
 <!-- cocivium:all-ages:end -->
+
 
 
 
