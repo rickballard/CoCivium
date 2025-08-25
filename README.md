@@ -99,7 +99,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 - **Tools & patterns:** IssueOps checklists, templates, and AI helpers (CoMessage, CoPitch).
 - **Starter kits:** reuse-ready configs for projects, communities, and institutions.
 
-**Read next:** *(placeholders)*
+**Read next:** 
 [CC Preamble](./docs/cc/PREAMBLE.md) [CC Overview](./docs/cc/OVERVIEW.md) [Declarations Index](./docs/cc/DECLARATIONS.md)
 
 ---

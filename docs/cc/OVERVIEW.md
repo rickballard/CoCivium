@@ -1,29 +1,25 @@
-# CC Overview
+# CC Overview _(v0.1)_
 
-> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
+## What it is
+A modular framework for digital-era governance: **Declarations** (principles), **Protocols** (how we act), **Tools**
+(templates, checks). It is not a contract; it’s a civic operating system any community or org can adopt.
 
-## Purpose
-- What this is for
-- Who should use it
-- What it does **not** try to do
+## Structure
+- **Declarations** — rights/duties/authorities baseline.
+- **Protocols** — listening, deliberation, consent, appeals, transparency, safety.
+- **Tools** — checklists, templates, CI/guardrails (e.g., link hygiene, provenance checks).
 
-## Scope & Interfaces
-- Inputs / responsibilities
-- Outputs / artifacts
-- Interfaces to other docs/processes
+## Roles
+- **Stewards** keep the upstream coherent.
+- **Maintainers** curate modules and ensure tests/CI.
+- **Adopters** map CC to local law/process, publish variances.
+- **Observers** monitor outcomes and propose improvements.
 
-## Draft v0 Outline
-- Key sections to be authored
-- TODOs with checkboxes
-  - [ ] Fill section 1
-  - [ ] Fill section 2
-  - [ ] Add references
+## Versioning & Adoption
+- Semver-like tags: MAJOR.MINOR (breaking / additive).
+- Adopters cite the exact tag and any variances.
+- Change proposals require two-eyes review and public rationale.
 
-## How to Propose Changes
-- Open an Idea → PR
-- Review path and decision trace
-
----
-Components, lifecycle, and adoption.
-
-
+## Accountability
+- Every protocol names decision-makers, visibility, audit trail, and appeal windows.
+- Every tool ships evidence: inputs, outputs, and roll-back plan.
