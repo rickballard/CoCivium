@@ -1,4 +1,3 @@
-<!-- start-here:clean -->
 ### Start here
 
 - **New idea:** Open an issue
