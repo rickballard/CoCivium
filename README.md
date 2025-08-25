@@ -91,7 +91,7 @@ If you can picture society working better, or if you can test ideas against evid
 ---
 
 # Cognocarta Consenti (CC)
-<img align="right" src="./assets/cc/crest-hold.gif" alt="Cognocarta Consenti crest" width="140">
+<img src='./assets/cc/crest-hold.gif' alt='Crest' width='45' height='50' />
 
 **Mission:**  
 Build a **living CoConstitution for digital society**, borderless, people-first, and **directly evolvable by anyone who cares**.
