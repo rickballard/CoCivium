@@ -1,0 +1,2 @@
+- **Branding**: `CoBP-WaitGate` shows “<repo> says…”. Override with a custom message, or set `$env:CO_BRAND`.
+- **Popups**: we always say exactly which button to click (e.g., “press the green **Create pull request** button”), then verify.

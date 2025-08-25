@@ -1,3 +1,3 @@
-# Sensitive paths
-/README.md @rickballard
-
+# Docs and governance files require a codeowner review.
+docs/**    @rickballard @elias-handle
+README.md  @rickballard @elias-handle
