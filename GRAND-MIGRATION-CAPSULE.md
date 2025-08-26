@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# Grand Migration Capsule
+
+Purpose: running “inbox” and decisions during the migration. Keep entries tiny.
+=======
 # CONTEXT CAPSULE — CoAgent Kit (Workbench + BP) — v1
 _Last updated: 2025-08-26 01:54:58Z UTC_
 
@@ -72,3 +77,4 @@ This PR introduces:
 - ISSUEOPS.md Switchboard + Relaunch Fix
 '@
 ```
+>>>>>>> origin/main
