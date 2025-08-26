@@ -1,0 +1,22 @@
+name: Refresh README New strip
+on:
+  schedule: [{ cron: "17 3 * * *" }]
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README New block
+        shell: pwsh
+        run: pwsh -NoProfile -File scripts/update_readme_new.ps1
+      - name: Commit if changed
+        run: |
+          git config user.name  "civium-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "chore(readme): refresh New strip (CI)"
+            git push
+          fi
