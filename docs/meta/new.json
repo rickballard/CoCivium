@@ -2,24 +2,29 @@
   {
     "title": "Cognocarta Consenti hub",
     "links": [
-      {"label": "CC INDEX", "href": "docs/cc/INDEX.md"},
-      {"label": "Poetics",  "href": "docs/cc/00-Poetics/"},
-      {"label": "Scroll c9","href": "docs/cc/10-Scroll/"}
+      {
+        "label": "CC INDEX",
+        "href": "docs/cc/INDEX.md"
+      },
+      {
+        "label": "Poetics",
+        "href": "docs/cc/00-Poetics/"
+      },
+      {
+        "label": "Scroll",
+        "href": "docs/cc/10-Scroll/"
+      }
     ],
-    "added": "'@ + (Get-Date).ToString('yyyy-MM-dd') + @'"
+    "added": "2025-08-26"
   },
   {
     "title": "Advanced Contributor Backlog",
     "links": [
-      {"label": "ADVANCED.md", "href": "docs/backlog/ADVANCED.md"}
+      {
+        "label": "ADVANCED.md",
+        "href": "docs/backlog/ADVANCED.md"
+      }
     ],
-    "added": "'@ + (Get-Date).ToString('yyyy-MM-dd') + @'"
-  },
-  {
-    "title": "START HERE clean quick guide",
-    "links": [
-      {"label": "START-HERE.md", "href": "docs/START-HERE.md"}
-    ],
-    "added": "'@ + (Get-Date).ToString('yyyy-MM-dd') + @'"
+    "added": "2025-08-26"
   }
 ]

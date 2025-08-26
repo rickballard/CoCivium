@@ -10,20 +10,23 @@ $items = Get-Content -Raw $Manifest | ConvertFrom-Json
 $items = $items | Sort-Object { Get-Date $_.added } -Descending | Select-Object -First $MaxItems
 
 function Render-Line($it){
-  $added    = Get-Date $it.added
-  $age      = (New-TimeSpan -Start $added -End (Get-Date)).Days
+  $added = Get-Date $it.added
+  $age   = (New-TimeSpan -Start $added -End (Get-Date)).Days
   ${dateBits} = if($age -le $ShowDateDays){ " ($($added.ToString('yyyy-MM-dd')))" } else { "" }
-  $links = @(); foreach($l in $it.links){ $links += "[{0}]({1})" -f $l.label, $l.href }
-  $linksStr = $links -join " • "
-  return ("> :sparkles: **New**{0}: {1} → {2}" -f ${dateBits}, $it.title, $linksStr)
+  $links = $it.links | ForEach-Object { "[{0}]({1})" -f $_.label, $_.href }
+  $linksStr = [string]::Join(" • ", $links)
+  "> :sparkles: **New**{0}: {1} → {2}" -f ${dateBits}, $it.title, $linksStr
 }
 
-$lines = @(); foreach($it in $items){ $lines += (Render-Line $it) }
-$block = @("<-- NEWLIST:BEGIN -->","$($lines -join "`n")","<-- NEWLIST:END -->")
-$blockText = ($block -join "`n") -replace "<--","<!--"  # fix arrows if a copy/paste changed them
+$lines = $items | ForEach-Object { Render-Line $_ }
+$blockText = "<!-- NEWLIST:BEGIN -->`n$([string]::Join("`n", $lines))`n<!-- NEWLIST:END -->"
 
+# load README, strip any Git conflict markers anywhere
 $readme = Get-Content -Raw -LiteralPath $Readme
+$readme = [regex]::Replace($readme, '^(<<<<<<<.*|=======|>>>>>>>.*)\r?\n?', '',
+  [System.Text.RegularExpressions.RegexOptions]::Multiline)
 
+# insert/replace New block
 if($readme -match '<!-- NEWLIST:BEGIN -->.*?<!-- NEWLIST:END -->'){
   $readme = [regex]::Replace(
     $readme,
@@ -44,5 +47,6 @@ if($readme -match '<!-- NEWLIST:BEGIN -->.*?<!-- NEWLIST:END -->'){
   }
 }
 
+# normalize to LF and write as UTF-8 (no BOM)
 $readme = $readme -replace "`r`n","`n"
-Set-Content -LiteralPath $Readme -Value $readme -Encoding UTF8 -NoNewline
+[System.IO.File]::WriteAllText((Resolve-Path $Readme), $readme, [System.Text.UTF8Encoding]::new($false))
