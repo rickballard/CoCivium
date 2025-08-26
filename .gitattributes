@@ -10,4 +10,5 @@
 
 *.png       -text
 *.gif       -text
-*.jpg       -text
+*.jpg       -text*.md  text eol=lf
+*.ps1 text eol=lf
