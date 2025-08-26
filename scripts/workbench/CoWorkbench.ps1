@@ -39,3 +39,20 @@ Set-Alias CoCopy CoPong150 -Force
 
 Write-Host "CoWorkbench loaded. Cmds: Start-CoTranscript, Stop-CoTranscript, CoPong50/100/150/300/600"
 # ================== /CoWorkbench.ps1 ==================
+function Show-CoDay {
+  param([switch]$Web)
+  $root = (git rev-parse --show-toplevel) 2>$null
+  if(-not $root){ $root = (Resolve-Path .).Path }
+  $acb = Join-Path $root 'docs\backlog\ADVANCED.md'
+  $ops = Join-Path $root 'docs\ISSUEOPS.md'
+  if (Get-Command code -ErrorAction SilentlyContinue) {
+    code -r $acb; code -r $ops
+  } elseif ($Web) {
+    Start-Process "https://github.com/rickballard/CoCivium/blob/main/docs/backlog/ADVANCED.md"
+    Start-Process "https://github.com/rickballard/CoCivium/blob/main/docs/ISSUEOPS.md"
+  } else {
+    Start-Process $acb; Start-Process $ops
+  }
+}
+# Auto-pop on workbench start:
+Show-CoDay
