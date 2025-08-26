@@ -1,10 +1,19 @@
-# Start Here
+<!-- stub:off -->
 
-**What this repo is:** a small, sharp seed we can build on.
+# START HERE — quick guide (not a stub)
 
-**Do next (60s):**
-1. Skim the [Backlog](backlog/TODO.md) — pick “Now” or add one.
-2. Drop ideas as files in [/docs/ideas](ideas/README.md) (`scripts/new-idea.ps1 "Title"`).
-3. When making changes, keep PRs tiny. Use the checklist in the PR template.
+Welcome! This repo houses CoCivium's docs + ops.
 
-**Style:** prefer clarity over clever; small steps over big bangs.
+### Pick a path
+- **New here?** Read the top of [`README.md`](../README.md) for the 1-minute “what/why”.
+- **Want to contribute?** Start with [WORKFLOWS.md](WORKFLOWS.md) → idea → proposal → PR.
+- **How we work & write?** See [STYLE.md](STYLE.md) and [ISSUEOPS.md](ISSUEOPS.md).
+- **Terms you’ll see a lot**: [Lexicon](lexicon/WORKFLOW_TERMS.md) (short + human).
+
+### Where *not* to click yet
+We actively hide backlogs and experimental drafts so you don’t fall into stubs.
+If you land on one, use the “Back to START HERE” link and open an issue with a link.
+
+---
+
+_Last updated: {{Y-m-d}} • This page intentionally avoids stub links._
