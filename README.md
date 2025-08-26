@@ -19,8 +19,8 @@
 </p>
 
 <p align='center'>
-  <img src='assets/hero/quote-960w.png?v=0a34d6a'
-       srcset='assets/hero/quote-960w.png?v=0a34d6a 1x, assets/hero/quote-960w@2x.png?v=0a34d6a 2x'
+  <img src='assets/hero/quote-960w.png?v=d0217f8'
+       srcset='assets/hero/quote-960w.png?v=d0217f8 1x, assets/hero/quote-960w@2x.png?v=d0217f8 2x'
        alt='Quote' width='960'>
 </p>
 
