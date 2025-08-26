@@ -3,6 +3,11 @@
 > :sparkles: **New** (2025-08-26): Advanced Contributor Backlog → [ADVANCED.md](docs/backlog/ADVANCED.md)
 <!-- NEWLIST:END -->
 
+<!-- NEWLIST:BEGIN -->
+> :sparkles: **New** (2025-08-26): Cognocarta Consenti hub → [CC INDEX](docs/cc/INDEX.md) • [Poetics](docs/cc/00-Poetics/) • [Scroll](docs/cc/10-Scroll/)
+> :sparkles: **New** (2025-08-26): Advanced Contributor Backlog → [ADVANCED.md](docs/backlog/ADVANCED.md)
+<!-- NEWLIST:END -->
+
 > **Advanced contributors:** See the curated backlog → [docs/backlog/ADVANCED.md](docs/backlog/ADVANCED.md)
 
 
