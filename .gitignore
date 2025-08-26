@@ -28,3 +28,12 @@ README.md.bak.*
 
 
 /README.md.bak.*
+# local-only dumps
+staging/_incoming/
+staging/_imported/
+admin/inbox/
+admin/inbox/backchats/
+legacy/**/GmailDump_*/
+# huge sources (keep exported/optimized only)
+site/assets/cognocarta_scroll_og_src.png
+assets/img/consenti-scroll.png

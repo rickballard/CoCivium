@@ -1,0 +1,7 @@
+# CoAgent Kit brand → ConsoleColor mapping (PS7 names)
+CoCivium: Cyan
+GroupBuild: Green
+CoModules: Magenta
+CoStack: Yellow
+Cognocarta: Blue
+CoVibe: DarkCyan
