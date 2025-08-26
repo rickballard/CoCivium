@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+> **Advanced contributors:** See the curated backlog → [docs/backlog/ADVANCED.md](docs/backlog/ADVANCED.md)
+
+=======
+>>>>>>> origin/main
 > **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
 
 > **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
