@@ -82,7 +82,7 @@ CoCivium includes periodic truth audits to monitor for degradation, especially i
 - **Educational Curriculum**: Train citizens to recognize and classify types of truth.
 - **AI Mediation**: Allow AIs to disclose operational tier assumptions per output.
 
-<!-- Optional Visual Placeholder:
+<!-- Optional Visual todo:
 Insert visual: "Six Truth Tiers, Three Drift Vectors"
 Depicting tier structure on Y-axis and drift risk on X/Z axes.
 -->
@@ -104,6 +104,7 @@ Use with interpretive caution. Recursive audits recommended every 3 months.
 Contribute feedback via GitHub: [CoCivium Repository](https://github.com/rickballard/CoCivium)
 
 Maintainers: RickPublic & Azoic (AI co-author)
+
 
 
 

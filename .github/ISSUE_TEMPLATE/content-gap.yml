@@ -8,6 +8,9 @@ body:
     attributes:
       label: Context
       description: What needs to exist and why?
-      placeholder: The missing concept is...
+      todo: The missing concept is...
     validations:
       required: true
+
+
+

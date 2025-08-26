@@ -13,7 +13,7 @@
   {
     "repo": "CoCivium",
     "pr": 52,
-    "title": "Branding: add OG banner (SVG placeholder)",
+    "title": "Branding: add OG banner (SVG todo)",
     "headRef": "branding/og-20250813_2221",
     "baseRef": "main",
     "url": "https://github.com/rickballard/CoCivium/pull/52",
@@ -90,7 +90,7 @@
   {
     "repo": "CoCivium",
     "pr": 4,
-    "title": "Branding: add OG banner (SVG placeholder)",
+    "title": "Branding: add OG banner (SVG todo)",
     "headRef": "branding/og-20250813_2221",
     "baseRef": "main",
     "url": "https://github.com/rickballard/CoCivium/pull/4",
@@ -145,7 +145,7 @@
   {
     "repo": "CoCache",
     "pr": 8,
-    "title": "Branding: add OG banner (SVG placeholder)",
+    "title": "Branding: add OG banner (SVG todo)",
     "headRef": "branding/og-20250813_2222",
     "baseRef": "main",
     "url": "https://github.com/rickballard/CoCache/pull/8",
@@ -211,7 +211,7 @@
   {
     "repo": "GIBindex",
     "pr": 4,
-    "title": "Branding: add OG banner (SVG placeholder)",
+    "title": "Branding: add OG banner (SVG todo)",
     "headRef": "branding/og-20250813_2222",
     "baseRef": "main",
     "url": "https://github.com/rickballard/GIBindex/pull/4",
@@ -220,4 +220,5 @@
     "note": ""
   }
 ]
+
 
