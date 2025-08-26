@@ -1,6 +1,6 @@
 # CoCivium Workflow Lexicon (snapshot)
 
-- **CoStage** — wrap session: WIP savepoint, push, (draft) PR, NEXT.md.
+- **CoStage** — wrap session: work-in-progress savepoint, push, (draft) PR, NEXT.md.
 - **CoSession** — set a SID to correlate work/chat across teammates.
 - **CoChat / CoSidecar / CoDialogue** — parallel chat lane during work.
 - **CoPrePR** — preflight scan: overlaps vs main, dirty-tree, diffstat.
@@ -9,5 +9,6 @@
 - **CoPulse** — metrics auto-away & fairness notes.
 - **CoPingPong** — block/run cadence.
 - **CoCompact / CoRule** — console spacing & dashed rulers.
+
 
 

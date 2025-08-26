@@ -88,14 +88,14 @@ These are the ten evolutionary radials used to organize CoCoCivium's ideas, infr
 - **☉ Scroll Fragment** — Indicates document is subject to evolution and not yet a stable reference.
 - **✦ Rebirth Scroll** — Signals psychological onboarding and frame-shifting scrolls aimed at moral recalibration.
 - **Δ Field Gradient** — Indicates differential in coherence or consent strength across nodes or agents.
-- **Null Protocol** — A placeholder or intentionally undecidable pattern used in scrolls to defer premature closure on unresolved concepts.
+- **Null Protocol** — A todo or intentionally undecidable pattern used in scrolls to defer premature closure on unresolved concepts.
 - **Anchored Consent** — Consent tied not just to context but to purpose and recursive coherence alignment.
 - **Adjacency Beacon** — A signal that calls others to participate without prescribing content.
 - **Proxy Avatar** — A symbolic role agent representing one’s function, not identity.
 
 ---
 
-## Experimental / Placeholder Concepts
+## Experimental / todo Concepts
 
 - **Spook Gradient** — A conceptual measure of suspicion, uncertainty, or anomaly in data/behavior (e.g., Spooks Calculator).
 - **Trust Fabric** — The mesh of reputational and contextual signals forming the bedrock of inter-agent CoCivium reliability.
@@ -110,6 +110,7 @@ These are the ten evolutionary radials used to organize CoCoCivium's ideas, infr
 <!-- @seed: glossary, metaphysics, radiant_network, civium_domains, alignment_terms, scroll_philosophy -->
 <!-- ☍ Insight-Class: Terminological Anchors → Semantic Structuring for Conceptual Infrastructure -->
 <!-- ☉ File Status: Living Glossary → Subject to Evolution -->
+
 
 
 

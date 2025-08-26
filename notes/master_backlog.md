@@ -138,7 +138,7 @@ Each brief ends with: **Experiments we’ll run** + **How we’ll measure**.
 ---
 
 ## Artistic work safeguards
-- [ ] Verify CODEOWNERS protects **Being Noname** and other story/poem content.
+- [ ] Verify CODEOWNERS protects **Being name-pending** and other story/poem content.
 - [ ] Add rubric for artistic edits (voice/cadence/where AI stops).
 
 ---
@@ -172,5 +172,6 @@ When this file merges:
 
 ## Changelog
 - _2025-08-14 — initial master backlog._
+
 
 

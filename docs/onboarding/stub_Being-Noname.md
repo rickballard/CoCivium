@@ -1,4 +1,4 @@
-# stub: Being Noname
+# stub: Being name-pending
 
 > **This is a stub.** Human-first onramp; culture and practice.
 
@@ -17,5 +17,6 @@
 ---
 
 *Status: stub. Open an Idea Issue to help shape this page.*
+
 
 

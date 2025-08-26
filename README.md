@@ -96,7 +96,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 ---
 
 ## What we ship
-- **CC Declarations:** shared rights, duties, and authorities for digital public life. *(index placeholder)*
+- **CC Declarations:** shared rights, duties, and authorities for digital public life. *(index todo)*
 - **Protocols & guardrails:** practical rules for listening, deliberation, consent, appeals.
 - **Tools & patterns:** IssueOps checklists, templates, and AI helpers (CoMessage, CoPitch).
 - **Starter kits:** reuse-ready configs for projects, communities, and institutions.
@@ -148,7 +148,7 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Governance & continuity
-- **License:** [LICENSE](./LICENSE) *(placeholder)*
+- **License:** [LICENSE](./LICENSE) *(todo)*
 - **Governance:** [GOVERNANCE.md](./GOVERNANCE.md)
 - **Continuity:** [CONTINUITY.md](./CONTINUITY.md)
 - **Security:** [SECURITY.md](./SECURITY.md)
@@ -156,8 +156,8 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 ---
 
 ## Inspiration / Onboarding
-- **FAQ** Do I need to code?, Only 5 minutes? *(placeholder)*
-- [Being Noname](insights/Insight_Story_Being_Noname_c2_20250801.md) — a children's bedtime story about a determined child, who wants a name!
+- **FAQ** Do I need to code?, Only 5 minutes? *(todo)*
+- [Being name-pending](insights/Insight_Story_Being_Noname_c2_20250801.md) — a children's bedtime story about a determined child, who wants a name!
 
 <!-- cocivium:all-ages:start -->
 <sub>Anyone is welcome to help co-evolve digital societies, within age appropriate guardrails and clear consent if under legal age of consent.</sub>
@@ -169,5 +169,6 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 
-<!-- noname-touch: 2025-08-25T03:40:12 -->
+<!-- name-pending-touch: 2025-08-25T03:40:12 -->
+
 
