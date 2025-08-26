@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Cognocarta Consenti hub",
+    "links": [
+      {
+        "label": "CC INDEX",
+        "href": "docs/cc/INDEX.md"
+      },
+      {
+        "label": "Poetics",
+        "href": "docs/cc/00-Poetics/"
+      },
+      {
+        "label": "Scroll",
+        "href": "docs/cc/10-Scroll/"
+      }
+    ],
+    "added": "2025-08-26"
+  },
+  {
+    "title": "Advanced Contributor Backlog",
+    "links": [
+      {
+        "label": "ADVANCED.md",
+        "href": "docs/backlog/ADVANCED.md"
+      }
+    ],
+    "added": "2025-08-26"
+  }
+]
