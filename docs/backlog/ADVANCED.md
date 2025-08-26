@@ -1,0 +1,8 @@
+# Advanced Contributor Backlog
+
+_Last updated from Issues: 2025-08-26_
+
+**How to work from this list:** pick an item, read the issue, comment with intent, then open a PR.
+
+> No advanced tasks matched 	ype:task + level:advanced right now.
+> Add the label(s) on an Issue and this page will populate on next refresh.
