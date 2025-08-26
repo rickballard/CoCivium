@@ -37,3 +37,7 @@ legacy/**/GmailDump_*/
 # huge sources (keep exported/optimized only)
 site/assets/cognocarta_scroll_og_src.png
 assets/img/consenti-scroll.png
+# Local backups / temps
+*.bak
+*.bak.*
+__*.tmp

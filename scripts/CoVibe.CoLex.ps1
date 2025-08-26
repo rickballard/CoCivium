@@ -111,7 +111,7 @@ function CoSidecar(){ CoChat }    # alias
 function CoSession { param([string]$Id="") CoSessionInit $Id }
 function CoChat { param([string]$Id="") CoChatStart $Id }
 Set-Alias -Name CoDialogue -Value CoChatStart -Force  # alias
-function CoSidecar([string]=""){ CoChatStart  }   # alias
+function CoSidecar { param([string]$Message = "") CoChatStart $Message } # alias
 
 
 try { . "$PSScriptRoot\CoVibe.Blocks.ps1" } catch {}
@@ -164,6 +164,7 @@ function CoPrePR(){
   CoStep "diffstat vs main"; git diff --stat $base..HEAD
   Write-Host "-- PrePR scan complete."
 }
+
 
 
 

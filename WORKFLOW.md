@@ -38,7 +38,7 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 ## Common Tasks
 - **Add a new image:** put it under `assets/<area>/name.ext`, reference it with a relative path `assets/...` in Markdown/HTML.
 - **Recover from mojibake:** prefer `git show <good_commit>:README.md > README.md`, then run the smoke script.
-- **Placeholders:** It’s OK to land placeholder assets, but they must exist so the README renders and CI passes.
+- **Placeholders:** It’s OK to land todo assets, but they must exist so the README renders and CI passes.
 
 ## Error Playbook (short)
 - **Encoding failures:** Re-save as UTF‑8 (no BOM), normalize line endings to LF, and remove any `Ã`, `Â`, or `�` tokens.
@@ -46,5 +46,6 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 - **Pre-commit not running:** Set `git config core.hooksPath .githooks`.
 
 Full details live in `docs/ERROR_PLAYBOOK.md`.
+
 
 

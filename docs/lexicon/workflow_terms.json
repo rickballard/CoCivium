@@ -1,6 +1,6 @@
 [
   {
-    "desc": "Wrap session; WIP savepoint, push, draft PR, NEXT.md",
+    "desc": "Wrap session; work-in-progress savepoint, push, draft PR, NEXT.md",
     "kind": "workflow",
     "repo": "CoCivium",
     "term": "CoStage",
@@ -65,3 +65,4 @@
     "repo": "CoCivium"
   }
 ]
+

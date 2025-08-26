@@ -8,7 +8,7 @@ foreach($t in $targets){
   foreach($f in $files){
     $raw = Get-Content $f.FullName -Raw
     $bytes = [Text.Encoding]::UTF8.GetByteCount($raw)
-    $isStub = ($bytes -lt $MinBytes) -or ($raw -match '(?i)\b(TODO|TBD|WIP|stub|draft)\b')
+    $isStub = ($bytes -lt $MinBytes) -or ($raw -match '(?i)\b(TODO|TBD|work-in-progress|stub|draft)\b')
     if ($isStub) { $rows += [pscustomobject]@{ path=$f.FullName; bytes=$bytes } }
   }
 }
@@ -26,3 +26,4 @@ if ($rows.Count -eq 0) {
 }
 New-Item -ItemType Directory -Force notes | Out-Null
 Set-Content notes/stub_report.md ($lines -join "`r`n") -Encoding UTF8
+
