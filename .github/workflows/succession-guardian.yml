@@ -63,3 +63,4 @@ jobs:
               owner: context.repo.owner, repo: context.repo.repo,
               title, body, labels: ['succession','governance']
             });
+

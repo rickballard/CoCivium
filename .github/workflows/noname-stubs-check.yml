@@ -26,3 +26,4 @@ jobs:
           grep -q 'insights/Insight_Story_Being_Noname_c2_20250801.md' stories/being-noname.md
           grep -q 'insights/Insight_Story_Being_Noname_c2_20250801.md' insights/story-being-noname.md
           echo "Noname stubs OK ✅"
+
