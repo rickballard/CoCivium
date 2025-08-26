@@ -1,29 +1,10 @@
-# CC Preamble
+# Cognocarta Consenti — Preamble
 
-> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
+Civium favors **convergence over control**. CC is the consent-centered
+through-line: language, structures, and scrolls we can refine together.
 
-## Purpose
-- What this is for
-- Who should use it
-- What it does **not** try to do
+See:
+- Poetics (curated): [docs/cc/00-Poetics/](00-Poetics/)
+- Scroll (working text): [docs/cc/10-Scroll/](10-Scroll/)
 
-## Scope & Interfaces
-- Inputs / responsibilities
-- Outputs / artifacts
-- Interfaces to other docs/processes
-
-## Draft v0 Outline
-- Key sections to be authored
-- TODOs with checkboxes
-  - [ ] Fill section 1
-  - [ ] Fill section 2
-  - [ ] Add references
-
-## How to Propose Changes
-- Open an Idea → PR
-- Review path and decision trace
-
----
-Context & values that motivate the CC.
-
-
+_Last updated: 2025-08-26_
