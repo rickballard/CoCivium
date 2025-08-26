@@ -1,3 +1,9 @@
+# 👉 Start here: [docs/START-HERE.md](docs/START-HERE.md)
+
+# 👉 Start here: [docs/START-HERE.md](docs/START-HERE.md)
+
+# 👉 Start here: [docs/START-HERE.md](docs/START-HERE.md)
+
 <p align='center'>
   <img src='assets/hero/hero.gif' alt='Globe animation'>
 </p>
@@ -168,3 +174,8 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 <!-- noname-touch: 2025-08-25T03:40:12 -->
+
+
+
+
+
