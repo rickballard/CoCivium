@@ -19,8 +19,8 @@
 </p>
 
 <p align='center'>
-  <img src='assets/hero/quote-960w.png?v=9ab40d0'
-       srcset='assets/hero/quote-960w.png?v=9ab40d0 1x, assets/hero/quote-960w@2x.png?v=9ab40d0 2x'
+  <img src='assets/hero/quote-960w.png?v=fce34f2'
+       srcset='assets/hero/quote-960w.png?v=fce34f2 1x, assets/hero/quote-960w@2x.png?v=fce34f2 2x'
        alt='Quote' width='960'>
 </p>
 
@@ -184,5 +184,6 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 <!-- noname-touch: 2025-08-25T03:40:12 -->
+
 
 
