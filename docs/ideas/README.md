@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ideas → how to propose change (not a stub)
 
 **Use this when you have a spark** that isn’t a full proposal yet.
@@ -34,3 +35,10 @@ links: []
 ---
 
 [← START HERE](../START-HERE.md) • See also: [STYLE](../STYLE.md), [ISSUEOPS](../ISSUEOPS.md).
+=======
+# Idea Cards
+
+Each idea is a file here: `YYYYMMDD-HHMMZ-slug.md`.
+
+Use `_template.md` as a starting point. Keep it short; one clear “next step.”
+>>>>>>> origin/main
