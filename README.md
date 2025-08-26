@@ -1,3 +1,8 @@
+<!-- NEWLIST:BEGIN -->
+> :sparkles: **New** (2025-08-26): Cognocarta Consenti hub → [CC INDEX](docs/cc/INDEX.md) • [Poetics](docs/cc/00-Poetics/) • [Scroll](docs/cc/10-Scroll/)
+> :sparkles: **New** (2025-08-26): Advanced Contributor Backlog → [ADVANCED.md](docs/backlog/ADVANCED.md)
+<!-- NEWLIST:END -->
+
 > **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
 
 > **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
