@@ -1,0 +1,39 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Archives & exports
+*.zip
+*.tar.gz
+
+# Local notes
+*.local.md
+*.private.md
+
+# backups
+*.bak
+
+# Local protection backups (do not commit)
+.github/branch_protection_*.json
+.github/prr_*.json
+STDOUT.tmp
+STDERR.tmp
+
+README.md.bak.*
+
+__head.tmp
+__orig.tmp
+
+README.md.bak.*
+
+
+/README.md.bak.*
+# local-only dumps
+staging/_incoming/
+staging/_imported/
+admin/inbox/
+admin/inbox/backchats/
+legacy/**/GmailDump_*/
+# huge sources (keep exported/optimized only)
+site/assets/cognocarta_scroll_og_src.png
+assets/img/consenti-scroll.png
