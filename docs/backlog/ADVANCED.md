@@ -1,5 +1,7 @@
 # Advanced Contributor Backlog
 
+_Last updated from Issues: 2025-08-26_
+
 This page curates **open advanced tasks** pulled live from GitHub Issues.
 
 **How to work from this list:** pick an item, read the issue, comment with intent, then open a PR.
