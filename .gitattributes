@@ -1,14 +1,20 @@
-*           text=auto eol=lf
+# ----- Text normalization (targeted) -----
+* -text
 
-*.sh        text eol=lf
-*.ps1       text eol=lf
-*.yml       text eol=lf
-*.yaml      text eol=lf
-*.md        text eol=lf
-*.svg       text eol=lf
-*.json      text eol=lf
+# Force LF on key text types
+*.sh    text eol=lf
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+*.ps1   text eol=lf
+*.psm1  text eol=lf
 
-*.png       -text
-*.gif       -text
-*.jpg       -text*.md  text eol=lf
-*.ps1 text eol=lf
+# Binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
