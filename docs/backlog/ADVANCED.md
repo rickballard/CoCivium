@@ -12,7 +12,6 @@ _Last updated 2025-08-26._
   - Ensure each item renders with a single > callout and shows a date for <7 days.
   - CI refresh workflow in place (PR #268).
 
-<<<<<<< HEAD
 - [ ] **PR unblock sweep (docs/backlog + CC links)**
   - Close superseded PRs (#261–#263), keep active follow-ups (#267, #268).
   - Rebase any content PRs on main and merge.
@@ -46,11 +45,6 @@ otes.
 ---
 
 ## Live feed from Issues (auto-appended)
-=======
-> No advanced tasks matched `type:task + level:advanced` right now.
-> Add the label(s) on an Issue and this page will populate on next refresh.
-
->>>>>>> 4bce1e1 (docs(backlog): refresh live Issues feed (advanced tasks))
 <!-- LIVE:BEGIN -->
 _No labeled Issues matched 	ype:task + level:advanced right now._
 <!-- LIVE:END -->
