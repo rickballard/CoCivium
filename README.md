@@ -1,3 +1,7 @@
+> **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
+
+> **New:** Explore the Cognocarta Consenti hub: [docs/cc/INDEX.md](docs/cc/INDEX.md) • Poetics → [docs/cc/00-Poetics/](docs/cc/00-Poetics/) • Scroll c9 → [docs/cc/10-Scroll/](docs/cc/10-Scroll/)
+
 # 👉 Start here: [docs/START-HERE.md](docs/START-HERE.md)
 
 <p align='center'>
@@ -114,8 +118,8 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
 **Everything stays reversible**, small steps, merged often.
 
 ## Start here (quick links)
-- **New Idea** [Open an issue](../../issues/new?template=idea.yml).  When ready, open a **post** (pull request). Learn by doing.
-- Start a post [Edit this file](../../edit/main/README.md) or add `/proposals/your-idea.md`
+- **New Idea** [Open an issue](https://github.com/rickballard/CoCivium/issues/new?template=idea.yml).  When ready, open a **post** (pull request). Learn by doing.
+- Start a post [Edit this file](https://github.com/rickballard/CoCivium/edit/main/README.md) or add `/proposals/your-idea.md`
 - **CC Declarations [Index](./docs/cc/DECLARATIONS.md)
 - Use GitHub directly, or via our workflow accelerator [RepoAccelerator].  
 - Use [ChatGPT] (or your preferred AI) to discuss and then vibe-code a civic solution Pull Request (PR).  
