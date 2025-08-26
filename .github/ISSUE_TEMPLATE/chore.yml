@@ -9,6 +9,9 @@ body:
     attributes:
       label: Description
       description: What to change and why
-      placeholder: Short, actionable
+      todo: Short, actionable
     validations:
       required: true
+
+
+

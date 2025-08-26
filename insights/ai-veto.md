@@ -21,7 +21,7 @@ supersedes:
 
 ## 🔍 Enhancements in this Version
 - ✅ Added **Veto Taxonomy Table** comparing Human, AI, and Collective use
-- ✅ Included placeholder for **Recursive Trust Spiral** diagram
+- ✅ Included todo for **Recursive Trust Spiral** diagram
 - ✅ Defined **trust conditions** for veto eligibility
 - ✅ Added **Veto Misuse Protocols**
 - ✅ Deepened **cross-scroll references**
@@ -62,7 +62,7 @@ Veto is not power. It is the **right to pause power**.
 
 ## [4] Visual: Veto and the Recursive Trust Spiral
 
-📐 *[Insert Placeholder: Diagram – Veto ➜ Trust ➜ Consent ➜ Governance ➜ Veto]*
+📐 *[Insert todo: Diagram – Veto ➜ Trust ➜ Consent ➜ Governance ➜ Veto]*
 
 This spiral explains how veto use:
 - Shapes and reflects trust
@@ -149,6 +149,7 @@ Penalties may include:
 ---
 
 _This insight will co-evolve with the CoCivium system’s consent models, recursion ethics, and signal economies._
+
 
 
 

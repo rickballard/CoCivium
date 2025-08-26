@@ -9,6 +9,9 @@ body:
     attributes:
       label: Hi!
       description: One or two lines about you and what you care about.
-      placeholder: "Hi, I’m <name>. I care about <thing>."
+      todo: "Hi, I’m <name>. I care about <thing>."
     validations:
       required: true
+
+
+

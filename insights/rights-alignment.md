@@ -105,7 +105,7 @@ They are weakened by:
 
 ---
 
-## [7] Visual Placeholder
+## [7] Visual todo
 
 📊 Suggested: Rights Ladder chart overlaid with evolutionary spiral  
 Columns: Pattern Fidelity • Empathy • Interpretability  
@@ -137,6 +137,7 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 
 
 

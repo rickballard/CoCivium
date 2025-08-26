@@ -31,9 +31,9 @@
 - A **living document**: updated like good software—proposed, reviewed, improved **in the open**.
 
 **Read next:**
-- [CC Preamble](./docs/cc/PREAMBLE.md) *(placeholder)*
-- [CC Overview](./docs/cc/OVERVIEW.md) *(placeholder)*
-- [CC Declarations Index](./docs/cc/DECLARATIONS.md) *(placeholder)*
+- [CC Preamble](./docs/cc/PREAMBLE.md) *(todo)*
+- [CC Overview](./docs/cc/OVERVIEW.md) *(todo)*
+- [CC Declarations Index](./docs/cc/DECLARATIONS.md) *(todo)*
 
 ---
 
@@ -41,14 +41,14 @@
 
 **voice → draft → review → decision → action → accountability**
 
-Start with an [Idea Issue](../../issues/new?template=idea.yml) *(template link placeholder)* — or ask your AI to open one using our [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(placeholder)*. When ready, open a **post** (pull request). That’s it. The rest you’ll learn as you go.
+Start with an [Idea Issue](../../issues/new?template=idea.yml) *(template link todo)* — or ask your AI to open one using our [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(todo)*. When ready, open a **post** (pull request). That’s it. The rest you’ll learn as you go.
 
-*Details later:* see [Process Overview](./docs/process/OVERVIEW.md) *(placeholder)*.
+*Details later:* see [Process Overview](./docs/process/OVERVIEW.md) *(todo)*.
 
 
 ## Join in (no expertise needed)
 
-**Bring your AI.** Seed it with [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(placeholder)* and ask it to draft issues or posts with you.
+**Bring your AI.** Seed it with [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(todo)* and ask it to draft issues or posts with you.
 
 
 **2 minutes — Say hi**  
@@ -75,7 +75,7 @@ We design governance that sees with **two eyes**:
 
 Together they give us **depth perception**—humane and workable decisions.
 
-![Two Eyes Diagram](./assets/diagrams/two-eyes.png "Two Eyes: citizen + system co-vision") *(placeholder image)*
+![Two Eyes Diagram](./assets/diagrams/two-eyes.png "Two Eyes: citizen + system co-vision") *(todo image)*
 
 ---
 
@@ -84,25 +84,25 @@ Together they give us **depth perception**—humane and workable decisions.
 **Civility. Clarity. Curiosity. Consent. Credit.**  
 Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, attribute ideas.
 
-- [Code of Conduct](./CODE_OF_CONDUCT.md) *(placeholder)*
-- [Contribution Guide](./CONTRIBUTING.md) *(placeholder)*
-- [Maintainer Guide](./MAINTAINERS.md) *(placeholder)*
+- [Code of Conduct](./CODE_OF_CONDUCT.md) *(todo)*
+- [Contribution Guide](./CONTRIBUTING.md) *(todo)*
+- [Maintainer Guide](./MAINTAINERS.md) *(todo)*
 
 ---
 
 ## Start here (quick links)
 
-- 📣 **New Idea →** [Open an issue](../../issues/new/choose) *(placeholder)*
+- 📣 **New Idea →** [Open an issue](../../issues/new/choose) *(todo)*
 - ✍️ **Start a post →** [Edit this file](../../edit/main/README.md) or create `/proposals/your-idea.md`
-- 🧭 **CC Declarations →** [Index](./docs/cc/DECLARATIONS.md) *(placeholder)*
-- 🧰 **RepoAccelerator →** [Set up your AI](./admin/tools/repo-accelerator/README.md) *(placeholder)*
-- 🌐 **CoCivium.org →** https://CoCivium.org *(placeholder site)*
+- 🧭 **CC Declarations →** [Index](./docs/cc/DECLARATIONS.md) *(todo)*
+- 🧰 **RepoAccelerator →** [Set up your AI](./admin/tools/repo-accelerator/README.md) *(todo)*
+- 🌐 **CoCivium.org →** https://CoCivium.org *(todo site)*
 
 ---
 
 ## Governance & continuity
 
-- **License:** [LICENSE](./LICENSE) *(placeholder)*
+- **License:** [LICENSE](./LICENSE) *(todo)*
 - **Governance:** [GOVERNANCE.md](./GOVERNANCE.md) *(includes decision process & roles)*
 - **Stewardship & Continuity:** [CONTINUITY.md](./CONTINUITY.md) *(“if Rick gets hit by a bus” plan: key holders, backups, hand-off procedures)*
 - **Security & Safety:** [SECURITY.md](./SECURITY.md) *(vuln reporting, escalation paths)*
@@ -111,12 +111,13 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ## Inspiration / Onboarding for humans first
 
-- **Being Noname** — a gentle, human-centric onramp to CoCivium’s spirit and practice.  
-  → [Read the essay](./docs/onboarding/Being-Noname.md) *(placeholder)*
+- **Being name-pending** — a gentle, human-centric onramp to CoCivium’s spirit and practice.  
+  → [Read the essay](./docs/onboarding/Being-name-pending.md) *(todo)*
 
 - **FAQ** — short answers to common “Do I need to code?” and “What if I only have 5 minutes?” questions.  
-  → [Read the FAQ](./docs/FAQ.md) *(placeholder)*
+  → [Read the FAQ](./docs/FAQ.md) *(todo)*
 
 ---
+
 
 

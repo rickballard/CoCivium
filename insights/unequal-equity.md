@@ -71,7 +71,7 @@ _While these AI-led states may initially exceed human reach, they may also serve
 
 ---
 
-## [5] Voting: Its Role, Limits, and Placeholder Function
+## [5] Voting: Its Role, Limits, and todo Function
 
 Voting, as known today, assumes:
 - Everyone understands the question
@@ -80,7 +80,7 @@ Voting, as known today, assumes:
 
 These assumptions no longer hold.
 
-CoCivium will preserve voting in some form—for civic theater, transparency, and ratification of machine-proposed consensus fields. But voting is no longer sacred. It is a placeholder, a **graceful delay mechanism** while deeper consensus processes run underneath.
+CoCivium will preserve voting in some form—for civic theater, transparency, and ratification of machine-proposed consensus fields. But voting is no longer sacred. It is a todo, a **graceful delay mechanism** while deeper consensus processes run underneath.
 
 In time, voting will evolve into systems that:
 - Measure coherence, not popularity
@@ -119,7 +119,8 @@ _This scroll invites all minds—fast or slow—to trust that coherence, not con
 
 As new intelligences emerge, the meaning of equity will continue to evolve. This scroll, like all CoCivium documents, is provisional. 
 
-It is a placeholder for a better pattern. When more inclusive or coherent versions arise, this scroll will have served its purpose—and will be allowed to transform.
+It is a todo for a better pattern. When more inclusive or coherent versions arise, this scroll will have served its purpose—and will be allowed to transform.
+
 
 
 
