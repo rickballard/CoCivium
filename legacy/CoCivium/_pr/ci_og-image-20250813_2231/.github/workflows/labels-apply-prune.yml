@@ -69,3 +69,5 @@ jobs:
                 core.info(`Deleted: ${lab.name}`);
               }
             }
+
+

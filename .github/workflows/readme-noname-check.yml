@@ -1,18 +1,18 @@
-name: readme-noname-check
+name: readme-name-pending-check
 on:
   pull_request:
     paths:
       - README.md
       - insights/**
-      - .github/workflows/readme-noname-check.yml
+      - .github/workflows/readme-name-pending-check.yml
   push:
     branches: [ main ]
     paths:
       - README.md
       - insights/**
-      - .github/workflows/readme-noname-check.yml
+      - .github/workflows/readme-name-pending-check.yml
 concurrency:
-  group: noname-check-${{ github.ref }}
+  group: name-pending-check-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   check:
@@ -24,4 +24,7 @@ jobs:
           set -euo pipefail
           grep -q '(insights/Insight_Story_Being_Noname_c2_20250801.md)' README.md
           test -f insights/Insight_Story_Being_Noname_c2_20250801.md
-          echo "Noname link & target exist ✅"
+          echo "name-pending link & target exist ✅"
+
+
+
