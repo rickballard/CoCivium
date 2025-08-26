@@ -1,29 +1,10 @@
-# CC Overview
+# Cognocarta Consenti — Overview
 
-> _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
+Start here for human-friendly entry points:
 
-## Purpose
-- What this is for
-- Who should use it
-- What it does **not** try to do
+- **Poetics:** [docs/cc/00-Poetics/](00-Poetics/)
+- **Working scroll (latest cut):** [docs/cc/10-Scroll/](10-Scroll/)
 
-## Scope & Interfaces
-- Inputs / responsibilities
-- Outputs / artifacts
-- Interfaces to other docs/processes
+Provenance: raw imports live under [_imports/](./_imports/).
 
-## Draft v0 Outline
-- Key sections to be authored
-- TODOs with checkboxes
-  - [ ] Fill section 1
-  - [ ] Fill section 2
-  - [ ] Add references
-
-## How to Propose Changes
-- Open an Idea → PR
-- Review path and decision trace
-
----
-Components, lifecycle, and adoption.
-
-
+_Last updated: 2025-08-26_
