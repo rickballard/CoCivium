@@ -7,7 +7,9 @@ body:
     id: proposal
     attributes:
       label: Proposal
-      placeholder: Move X -> Y because...
+      todo: Move X -> Y because...
     validations:
       required: true
+
+
 

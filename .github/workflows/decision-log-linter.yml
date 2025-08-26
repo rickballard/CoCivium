@@ -16,3 +16,4 @@ jobs:
         run: |
           python3 tools/decision_log_linter.py $(git ls-files | grep -E "(decisions/|docs/decisions/).*(\.md)$" || echo kits/GLK/templates/Decision_Log.md)
 
+

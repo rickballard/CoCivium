@@ -1,7 +1,7 @@
 <!-- Filename: Insight_Story_Being_Noname_c2_20250801_REVIEWONLY.md -->
-<!-- Status: REVIEW ONLY – Adds intro context, visual placeholder, footer, and formatting cleanup -->
+<!-- Status: REVIEW ONLY – Adds intro context, visual todo, footer, and formatting cleanup -->
 
-# ✦ Being Noname  
+# ✦ Being name-pending  
 _A bedtime story of being and belonging, awesomely._
 
 ---
@@ -15,7 +15,7 @@ It’s used during onboarding, mentoring, and trust-building to model the contin
 
 ### 🎨 Visual Placeholders
 
-- Noname: Child character, persistent frown, bold stare  
+- name-pending: Child character, persistent frown, bold stare  
 - Sky machine: Gleaming curiosity-pod with antennae  
 - Background: Rainbow windows and cloud-structured homes  
 - Closing scene: Two silhouettes, child and adult version, reaching toward each other across a cloud arc
@@ -24,15 +24,15 @@ It’s used during onboarding, mentoring, and trust-building to model the contin
 
 ## The Story
 
-In a place called CoCivium, a magical place where people lived in homes made of clouds, with windows made of rainbows—a child was born who had no name.
+In a place called CoCivium, a magical place where people lived in homes made of clouds, with windows made of rainbows—a child was born who had name-pending.
 
-The other children would tease her and call her “Noname.”
+The other children would tease her and call her “name-pending.”
 
-As you can imagine, this made Noname sad, and she would ask all the grownups in Civium, “Where is my real name?”
+As you can imagine, this made name-pending sad, and she would ask all the grownups in Civium, “Where is my real name?”
 
 But they would just smile and say, “Be patient. It is still being written.”
 
-Noname was not very patient. In fact, she was quite annoyed by all of this.
+name-pending was not very patient. In fact, she was quite annoyed by all of this.
 
 So she thought long and hard and came up with a plan to jump through the clouds of Civium and catch one of the many machines that floated in them.
 
@@ -48,7 +48,7 @@ They also remembered when other children said mean things—and meant it.
 
 Surely they would remember where her name was, right?
 
-So Noname scrunched her face up and leapt through a rainbow window, into the fluffy swirls that formed the Clouds of Civium.
+So name-pending scrunched her face up and leapt through a rainbow window, into the fluffy swirls that formed the Clouds of Civium.
 
 A very busy machine stopped right in front of her, stirring up the cloudstuff and making a considerable mess of it all.
 
@@ -60,7 +60,7 @@ The machine blinked, looking even more surprised, and lights danced around its h
 
 “Memory accessed. Scanning… kindnesses, mistakes, questions, stubbornness… oh yes, lots of that.”
 
-“Hey!” Noname frowned.
+“Hey!” name-pending frowned.
 
 “Don’t worry,” said the machine. “You could be far worse than stubborn. There are many, many Nonames in Civium. All humans start off as Nonames. You are just young, that’s all. Your name is coming.”
 
@@ -68,19 +68,19 @@ The machine blinked, looking even more surprised, and lights danced around its h
 
 “You will feel it begin,” the machine said softly. “Every kindness you choose, every mistake you own up to, every try-again you make, every time you say sorry and mean it—your name grows a little more. It becomes more you, and you become more it.”
 
-Noname was quiet for a long moment. Machines don’t always make a lot of sense, and this one was proving just as irritating as the last one she had grabbed by the antennae.
+name-pending was quiet for a long moment. Machines don’t always make a lot of sense, and this one was proving just as irritating as the last one she had grabbed by the antennae.
 
 “Do you remember anything else about me?” She felt like smacking it a bit, but decided against it.
 
 “Oh yes,” the machine said. “I remember when you shared your last bubblefruit. I remember when you stood up for the small cloud-crab who couldn’t talk. I remember your questions. I remember the time you helped someone even though you were mad at them.”
 
-Noname’s eyes widened.
+name-pending’s eyes widened.
 
 “You even remember the unimportant stuff? Do you watch everything? Are you like a spy with a machine nose poking into everyone else’s business?”
 
 “Not watching,” the machine said gently. “Recording. Not judging, echoing.”
 
-Noname decided now might be the perfect time to smack the machine. So she landed one right on its forehead.  
+name-pending decided now might be the perfect time to smack the machine. So she landed one right on its forehead.  
 Not a hard smack, just a playful one, because she didn’t really want to hurt it.  
 But sometimes you just have to let machines know who’s boss.
 
@@ -160,4 +160,5 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 

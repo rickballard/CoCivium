@@ -13,8 +13,10 @@ LINK_CHARTER: https://github.com/rickballard/CoCivium/blob/main/scroll/Cognocart
 LINK_FAQ: https://github.com/rickballard/CoCivium/wiki/FAQ
 LINK_ROADMAP: https://github.com/rickballard/CoCivium/wiki/Roadmap
 LINK_ADAPTERS: https://github.com/rickballard/CoCivium/issues
-LINK_ROUNDTABLES: https://cal.com/placeholder/cocivium-roundtables
+LINK_ROUNDTABLES: https://cal.com/todo/cocivium-roundtables
 LINK_PRESS_KIT: https://github.com/rickballard/CoCivium/tree/main/docs/press
 PRESS_EMAIL: rick@example.com
 PRESS_SITE: https://CoCivium.cc
+
+
 
