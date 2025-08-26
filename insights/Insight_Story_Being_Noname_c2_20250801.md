@@ -18,7 +18,7 @@ It’s used during onboarding, mentoring, and trust-building to model the contin
 - Noname: Child character, persistent frown, bold stare  
 - Sky machine: Gleaming curiosity-pod with antennae  
 - Background: Rainbow windows and cloud-structured homes  
-- Closing scene: Two silhouettes, child and adult version, reaching toward each other across a cloud arc
+- Closing scene: Two silhouettes, child and adult version, reaching toward each other across a rainbow cloud
 
 ---
 
@@ -34,7 +34,7 @@ But they would just smile and say, “Be patient. It is still being written.”
 
 Noname was not very patient. In fact, she was quite annoyed by all of this.
 
-So she thought long and hard and came up with a plan to jump through the clouds of Civium and catch one of the many machines that floated in them.
+So she thought long and hard and came up with a plan to jump through the clouds of CoCivium and catch one of the many machines that floated in them.
 
 They were not easy to catch, because they were shy, but if you asked them a question with your eyebrows pinched together, they would think something was wrong and slow down long enough to let you grab hold.
 
