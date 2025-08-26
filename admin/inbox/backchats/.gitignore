@@ -1,4 +1,0 @@
-# Ignore all by default; keep .gitkeep only.
-*
-!.gitignore
-!.gitkeep
