@@ -39,3 +39,30 @@ Set-Alias CoCopy CoPong150 -Force
 
 Write-Host "CoWorkbench loaded. Cmds: Start-CoTranscript, Stop-CoTranscript, CoPong50/100/150/300/600"
 # ================== /CoWorkbench.ps1 ==================
+function __CoPongBlocks([int]$Count = 50){
+  $dir  = Join-Path $HOME "Downloads\CoCivium-Logs"
+  $last = Get-ChildItem $dir -Filter *.ps1log -ErrorAction SilentlyContinue |
+          Sort-Object LastWriteTime -Descending | Select-Object -First 1
+  if(-not $last){ Write-Warning "No transcript found. Run Start-CoTranscript first."; return }
+  $all = Get-Content -LiteralPath $last.FullName
+
+  $idxs = for($i=0;$i -lt $all.Length;$i++){
+    if($all[$i] -match '^\s*PS .+?>\s'){ $i }
+  }
+
+  if(-not $idxs){ Write-Warning "No prompt lines found."; return }
+  $start = [Math]::Max(0, $idxs.Count - $Count)
+  $fromIndex = $idxs[$start]
+  $slice = $all[$fromIndex..($all.Length-1)]
+
+  $text = @("PS CoPong >>>") + $slice + @("<<< CoPong PS") -join "`r`n"
+  $file = Join-Path $dir "copong_blocks_$(Get-Date -Format 'yyyyMMdd_HHmmss').txt"
+  $text | Set-Content -LiteralPath $file -Encoding UTF8
+  try { $text | Set-Clipboard } catch {}
+  Write-Host "✓ CoPongBlocks: copied last $Count command blocks. Saved: $file"
+}
+# wrappers: CoPongB50 / CoPongB150 / CoPongB300
+foreach($n in 50,150,300){
+  Set-Item -Path ("Function:\CoPongB{0}" -f $n) -Value ([ScriptBlock]::Create("param()`n __CoPongBlocks -Count $n")) -Force
+}
+
