@@ -1,14 +1,5 @@
 # 👉 Start here: [docs/START-HERE.md](docs/START-HERE.md)
 
-<!-- QUICK-NAV:BEGIN -->
-## Quick nav
-- [Start here](docs/START-HERE.md)
-- [Repo map](docs/REPO-MAP.md)
-- [Workflows](docs/WORKFLOWS.md)
-- [Ideas](docs/ideas/INDEX.md)
-<!-- QUICK-NAV:END -->
-
-
 <p align='center'>
   <img src='assets/hero/hero.gif' alt='Globe animation'>
 </p>
@@ -179,6 +170,4 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 <!-- noname-touch: 2025-08-25T03:40:12 -->
-
-
 
