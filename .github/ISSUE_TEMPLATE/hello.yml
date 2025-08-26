@@ -12,3 +12,4 @@ body:
       placeholder: "Hi, I’m <name>. I care about <thing>."
     validations:
       required: true
+

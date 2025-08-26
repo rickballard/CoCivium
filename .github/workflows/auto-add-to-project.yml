@@ -22,3 +22,4 @@ jobs:
           PROJECT_ID=$(gh api graphql -f query='query($login:String!,$number:Int!){ user(login:$login){ projectV2(number:$number){ id }}}' -f login="$OWNER" -F number="$PROJ_NUM" --jq '.data.user.projectV2.id')
           if [ "$EVENT" = "issues" ]; then CONTENT="$ISSUE_NODE"; else CONTENT="$PR_NODE"; fi
           gh api graphql -f query='mutation($project:ID!,$content:ID!){ addProjectV2ItemById(input:{projectId:$project, contentId:$content}){ item { id } } }' -F project="$PROJECT_ID" -F content="$CONTENT"
+
