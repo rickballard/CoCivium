@@ -105,12 +105,12 @@ function CoPingPong(){ Write-Host "CoPingPong: copy blocks only after the snip +
 function CoGate(){ CoPingPong }  # alias for older docs
 
 function CoChat(){ Write-Host "CoChat: the parallel chat lane alongside CoPingPong. Safe to use while blocks run; CoPulse auto-away keeps efficiency fair." }
-function CoDialogue(){ CoChat }   # alias
+Set-Alias -Name CoDialogue -Value CoChatStart -Force  # alias
 function CoSidecar(){ CoChat }    # alias
 
 function CoSession { param([string]$Id="") CoSessionInit $Id }
 function CoChat { param([string]$Id="") CoChatStart $Id }
-function CoDialogue([string]=""){ CoChatStart  }  # alias
+Set-Alias -Name CoDialogue -Value CoChatStart -Force  # alias
 function CoSidecar([string]=""){ CoChatStart  }   # alias
 
 
@@ -164,6 +164,7 @@ function CoPrePR(){
   CoStep "diffstat vs main"; git diff --stat $base..HEAD
   Write-Host "-- PrePR scan complete."
 }
+
 
 
 
