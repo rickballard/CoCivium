@@ -1,14 +1,5 @@
----
 name: PR Labeler
 on:
-  push:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
-  pull_request:
-    paths-ignore:
-      - 'legacy/**'
-      - 'staging/_imported/**'
   pull_request_target:
     types: [opened, synchronize, reopened]
 permissions:
@@ -20,6 +11,4 @@ jobs:
     steps:
       - uses: actions/labeler@v5
         with:
-          configuration-path: .github/labeler.yml
-
-
+          sync-labels: true

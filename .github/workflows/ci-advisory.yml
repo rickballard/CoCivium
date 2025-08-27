@@ -1,0 +1,25 @@
+name: CI Advisory
+on: { pull_request: {} }
+jobs:
+  codespell:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          check_filenames: true
+          skip: .git,dist,build,node_modules,.venv,.vscode
+  markdownlint:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+  yamllint:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: pipx install yamllint
+      - run: yamllint -f parsable .
