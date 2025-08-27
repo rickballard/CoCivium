@@ -12,3 +12,5 @@ One-liner.
 ## Rationale
 ## Sketch
 ## Next step
+**Two Minds:** [twominds/short-title.md](twominds/short-title.md)
+
