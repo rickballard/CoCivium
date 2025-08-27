@@ -1,20 +1,7 @@
-# ----- Text normalization (targeted) -----
-* -text
-
-# Force LF on key text types
-*.sh    text eol=lf
-*.py    text eol=lf
-*.yml   text eol=lf
-*.yaml  text eol=lf
-*.md    text eol=lf
-*.svg   text eol=lf
-*.ps1   text eol=lf
-*.psm1  text eol=lf
-
-# Binary
-*.png   binary
-*.jpg   binary
-*.jpeg  binary
-*.gif   binary
-*.ico   binary
-*.pdf   binary
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
