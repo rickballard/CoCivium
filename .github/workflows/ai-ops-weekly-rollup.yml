@@ -1,0 +1,61 @@
+name: ai-ops-weekly-rollup
+on:
+  schedule:
+    - cron: "0 14 * * F"  # Fridays 10:00 ET (14:00 UTC, adjust if DST shifts)
+  workflow_dispatch:
+jobs:
+  rollup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const perPage = 100;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', labels: 'ai-ops', per_page: perPage
+            });
+            const bySev = {critical:[], high:[], medium:[], low:[], none:[]};
+            const now = new Date();
+            for (const it of issues) {
+              const labs = it.labels.map(l=>l.name);
+              const sev = labs.find(l=>l.startsWith('ai-sev:')) || 'none';
+              const risk = labs.includes('ai-risk:existential') ? ' **🚨 existential**' : '';
+              const age = Math.floor((now - new Date(it.created_at))/86400000);
+              const row = `| #${it.number} | [${it.title}](${it.html_url}) | ${labs.join(', ')} | ${age}d |${risk}`;
+              if (sev.endsWith('critical')) bySev.critical.push(row);
+              else if (sev.endsWith('high')) bySev.high.push(row);
+              else if (sev.endsWith('medium')) bySev.medium.push(row);
+              else if (sev.endsWith('low')) bySev.low.push(row);
+              else bySev.none.push(row);
+            }
+            function section(title, rows){
+              return `\n### ${title}\n| Issue | Title | Labels | Age |\n|---:|---|---|---:|\n${rows.join("\\n") || "_None_"}\n`;
+            }
+            const today = new Date().toISOString().slice(0,10);
+            const body =
+`## AI Ops Weekly Rollup — ${today}
+
+This is an automated digest of open \`ai-ops\` issues.
+
+${section('Critical', bySev.critical)}
+${section('High', bySev.high)}
+${section('Medium', bySev.medium)}
+${section('Low', bySev.low)}
+${section('Unscoped', bySev.none)}
+
+> Tip: To prep an external report, run:
+> \`pwsh -NoProfile -File tools/Export-AIIncidentForOpenAI.ps1 -Kind product\`
+`;
+            const title = `AI Ops Weekly Rollup — ${today}`;
+            // Find existing rollup with same title; else create
+            const search = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${owner}/${repo} is:issue in:title "${title}"`
+            });
+            if (search.data.total_count > 0) {
+              const n = search.data.items[0].number;
+              await github.rest.issues.update({owner, repo, issue_number:n, body});
+            } else {
+              await github.rest.issues.create({owner, repo, title, body, labels:['ai-ops']});
+            }
+            core.summary.addHeading('AI Ops Weekly Rollup').addRaw(body).write();
