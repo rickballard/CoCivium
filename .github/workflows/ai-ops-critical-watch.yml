@@ -1,0 +1,90 @@
+name: ai-ops-critical-watch
+on:
+  schedule:     # runs every 6 hours; cooled down below to avoid spam
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+env:
+  CRITICAL_COUNT: "1"         # >= this count triggers alert
+  CRITICAL_AGE_DAYS: "2"      # ai-sev:high older than N days is critical
+  COOLDOWN_DAYS: "30"         # don't alert again within N days unless list changed
+  PING_USER: "rickballard"    # who to @mention
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const toDays = (ms)=>Math.floor(ms/86400000);
+            const THRESH = parseInt(process.env.CRITICAL_COUNT||"1",10);
+            const AGE    = parseInt(process.env.CRITICAL_AGE_DAYS||"2",10);
+            const COOLDN = parseInt(process.env.COOLDOWN_DAYS||"30",10);
+            const ping   = process.env.PING_USER || owner;
+
+            const aiIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: "open", labels: "ai-ops", per_page: 100
+            });
+
+            const now = Date.now();
+            const critical = aiIssues.filter(it => {
+              const labels = (it.labels||[]).map(l => l.name || l);
+              const sevCrit = labels.includes("ai-sev:critical") || labels.includes("ai-risk:existential");
+              const oldHigh = labels.includes("ai-sev:high") && toDays(now - new Date(it.created_at)) >= AGE;
+              return sevCrit || oldHigh;
+            });
+
+            const ALERT_TITLE = "AI Ops: CRITICAL attention needed";
+            const existingAlerts = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: "open", labels: "ai-ops-critical-alert", per_page: 100
+            });
+            const alert = existingAlerts.find(i => i.title === ALERT_TITLE);
+
+            const crypto = require("crypto");
+            const hash = (list)=>crypto.createHash("sha1")
+              .update(list.map(i=>i.number).sort((a,b)=>a-b).join(","))  // IDs only
+              .digest("hex").slice(0,8);
+
+            if (critical.length >= THRESH) {
+              const h = hash(critical);
+              const lines = critical
+                .sort((a,b)=> new Date(b.updated_at)-new Date(a.updated_at))
+                .map(i => `- #${i.number} — ${i.title} (updated ${i.updated_at.slice(0,10)}) ${i.html_url}`)
+                .join("\n");
+
+              let okToPost = true;
+              if (alert) {
+                const age = toDays(Date.now() - new Date(alert.updated_at));
+                const m = /hash=([0-9a-f]{8})/i.exec(alert.body||"");
+                if (age < COOLDN && m && m[1] === h) okToPost = false;
+              }
+              if (!okToPost) { core.info("Cooldown; unchanged list. Quiet."); return; }
+
+              const body = [
+                `@${ping} — **critical load detected** (count=${critical.length}, hash=${h})`,
+                "",
+                `Threshold: CRITICAL_COUNT>=${THRESH} or ai-sev:high older than ${AGE}d`,
+                "",
+                "### Items",
+                lines || "_none_",
+                "",
+                "_This alert throttles via COOLDOWN_DAYS to avoid spam._"
+              ].join("\n");
+
+              if (alert) {
+                await github.rest.issues.update({ owner, repo, issue_number: alert.number, body });
+              } else {
+                await github.rest.issues.create({
+                  owner, repo, title: ALERT_TITLE, body,
+                  labels: ["ai-ops","ai-ops-critical-alert"]
+                });
+              }
+              return;
+            }
+
+            if (alert) {
+              await github.rest.issues.update({ owner, repo, issue_number: alert.number, state: "closed" });
+            }
+            core.info("No critical load.");
