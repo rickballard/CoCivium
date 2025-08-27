@@ -14,3 +14,8 @@ body:
   - type: textarea
     id: context
     attributes: { label: Context, description: Why this blocked work or risks drift }
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Mitigation / Workaround
+      description: If known, add steps or link a comment labeled "mitigation"
