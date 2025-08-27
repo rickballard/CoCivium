@@ -1,5 +1,16 @@
-# Ideas Index
+# Idea Cards
 
-## Current ideas
-- [_template.md](./_template.md)
-- [README.md](./README.md)
+- [_template.md](ideas/_template.md)
+- [20250826-0407Z-ab-readme.md](ideas/20250826-0407Z-ab-readme.md)
+- [20250826-0407Z-ftw-game.md](ideas/20250826-0407Z-ftw-game.md)
+- [brand-poetry-canon.md](ideas/brand-poetry-canon.md)
+- [coagent-starter-course.md](ideas/coagent-starter-course.md)
+- [copong-tempfile-cap.md](ideas/copong-tempfile-cap.md)
+- [developer-onramp-tutorial.md](ideas/developer-onramp-tutorial.md)
+- [do-block-packaging.md](ideas/do-block-packaging.md)
+- [github-outreach-upgrade.md](ideas/github-outreach-upgrade.md)
+- [human-gating-notifications.md](ideas/human-gating-notifications.md)
+- [INDEX.md](ideas/INDEX.md)
+- [press-kit-free-use-images.md](ideas/press-kit-free-use-images.md)
+- [README.md](ideas/README.md)
+- [vision-communal-mindspace.md](ideas/vision-communal-mindspace.md)
