@@ -41,3 +41,5 @@ assets/img/consenti-scroll.png
 *.bak
 *.bak.*
 __*.tmp
+.reports/
+.cocivium.assist.json

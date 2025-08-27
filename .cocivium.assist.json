@@ -1,0 +1,8 @@
+{
+  "reply_mode": "short",
+  "timestamp_do_blocks": true,
+  "max_code_lines": 120,
+  "prefer_links_over_paste": true,
+  "timezone": "America/Toronto",
+  "policy_names": { "public_dir": "docs/policy", "ops_dir": "docs/ops/policy" }
+}

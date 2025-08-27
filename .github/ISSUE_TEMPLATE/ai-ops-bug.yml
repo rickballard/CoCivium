@@ -1,0 +1,21 @@
+name: AI Ops bug
+description: Problems with assistant DO blocks, leakage, latency, or CI analyzers
+labels: ["ai-ops","type:bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes: { label: What happened?, description: One paragraph }
+  - type: input
+    id: branch
+    attributes: { label: Branch/PR, placeholder: ops/bp-policy-v1 (#288) }
+  - type: textarea
+    id: repro
+    attributes: { label: Minimal repro, description: Paste the smallest DO block + outputs }
+  - type: textarea
+    id: context
+    attributes: { label: Context, description: Why this blocked work or risks drift }
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Mitigation / Workaround
+      description: If known, add steps or link a comment labeled "mitigation"

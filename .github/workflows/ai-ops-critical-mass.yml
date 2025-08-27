@@ -1,0 +1,31 @@
+name: ai-ops-critical-mass
+on:
+  schedule: [ { cron: "15 13 * * *" } ]  # 09:15 ET daily
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const all = await github.paginate(github.rest.issues.listForRepo,{owner,repo,state:'open',labels:'ai-ops',per_page:100});
+            const critical = all.filter(i => i.labels.some(l=>l.name==='ai-sev:critical' || l.name==='ai-risk:existential'));
+            const high = all.filter(i => i.labels.some(l=>l.name==='ai-sev:high'));
+            const THRESH_ALL = 10, THRESH_CRIT = 2, THRESH_HIGH = 5;
+            const hit = all.length >= THRESH_ALL || critical.length >= THRESH_CRIT || high.length >= THRESH_HIGH;
+            if (!hit) { console.log("No thresholds hit."); return; }
+            const today = new Date().toISOString().slice(0,10);
+            const title = `AI Ops — Critical Mass Reached ${today}`;
+            const body = [
+              `Open ai-ops: ${all.length}`,
+              `Critical/existential: ${critical.length}`,
+              `High: ${high.length}`,
+              "",
+              "Next actions:",
+              "1) Run **ai-ops-export-pack** workflow and download the artifact.",
+              "2) Attach latest repro capsules from `.reports/`.",
+              "3) Submit to OpenAI support (sanitized).",
+            ].join("\\n");
+            await github.rest.issues.create({owner,repo,title,body,labels:['ai-ops','priority:urgent']});

@@ -1,0 +1,19 @@
+name: policy-guard
+on:
+  pull_request:
+    paths: ["docs/policy/**/*.md", "docs/ops/policy/**/*.md"]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate front-matter
+        shell: bash
+        run: |
+          fail=0
+          for f in $(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -E '^docs/(ops/)?policy/.*\.md$' || true); do
+            sed -n '1,40p' "$f" | awk 'BEGIN{c=0} /^---/{c++} c==1{print} c==2{exit}' > fm.yaml || true
+            grep -q '^policy_kind:' fm.yaml || { echo "Missing policy_kind in $f"; fail=1; }
+            grep -q '^policy_id:'   fm.yaml || { echo "Missing policy_id in $f";   fail=1; }
+          done
+          exit $fail

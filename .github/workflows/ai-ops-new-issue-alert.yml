@@ -1,0 +1,42 @@
+name: ai-ops-new-issue-alert
+on:
+  issues:
+    types: [opened, labeled, reopened]
+jobs:
+  alert:
+    if: contains(github.event.issue.labels.*.name, 'ai-ops')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const number = issue.number;
+            const labels = issue.labels.map(l => l.name);
+            const hasCritical = labels.includes('ai-sev:critical') || labels.includes('ai-risk:existential');
+            const body = [
+              "### AI Ops triage checklist",
+              "- [ ] Confirm minimal repro attached (see `.reports/` capsule)",
+              "- [ ] Assign owner & severity label (`ai-sev:*`)",
+              "- [ ] Mitigation noted (workaround or rollback)",
+              "- [ ] Decide escalation (OpenAI export needed?)",
+              "",
+              `Labels: ${labels.join(', ') || '(none)'}`,
+            ].join("\\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo, issue_number: number, body
+            });
+            // ensure needs-triage
+            if (!labels.includes('needs-triage')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: number,
+                labels: ['needs-triage']
+              });
+            }
+            // urgency bump
+            if (hasCritical) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: number,
+                labels: ['priority:urgent']
+              }).catch(()=>{});
+            }
