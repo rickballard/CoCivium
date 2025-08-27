@@ -1,6 +1,10 @@
-post:
-- 'proposals/**'
 docs:
-- 'docs/**'
-
-
+  - '**/*.md'
+brand:
+  - 'assets/brand/**'
+hero:
+  - 'assets/hero/**'
+ci:
+  - '.github/workflows/**'
+ops:
+  - 'docs/ops/**'
