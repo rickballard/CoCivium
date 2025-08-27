@@ -14,23 +14,40 @@ jobs:
             const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner, repo, state: 'open', labels: 'ai-ops', per_page: 100
             });
+
             function red(s){ return (s||'').replace(/(sk-)[A-Za-z0-9]{20,}/g,'$1[REDACTED]'); }
+
             async function mitigations(num){
               const cs = await github.paginate(github.rest.issues.listComments,{owner,repo,issue_number:num,per_page:100});
-              // include comments that look like mitigation notes
               const chosen = cs.filter(c => /mitigation|workaround|rollback/i.test(c.body||''));
               return chosen.map(c => `- ${new Date(c.created_at).toISOString()} — @${c.user.login}: ${red(c.body).slice(0,2000)}`).join("\n") || "_None_";
             }
-            let out = `# AI Ops Export Pack (Sanitized)\nGenerated: ${new Date().toISOString()}\n\n`;
+
+            // Pull HAR / Request-ID hints from issue body if present (best-effort)
+            function pick(field, body){
+              const m = new RegExp(`^${field}\\s*:\\s*(.+)$`,'mi').exec(body||'');
+              return m ? m[1].trim() : '';
+            }
+
+            let out = `# AI Ops Support Packet (Sanitized)\nGenerated: ${new Date().toISOString()}\n\n`;
+            out += `> **What support usually needs:** HAR for UI issues, x-request-id for API issues, repro steps, env, and any mitigations.\n\n`;
+
             for (const it of issues) {
-              const sev = (it.labels.map(l=>l.name).find(n=>/^ai-sev:/.test(n))||'ai-sev:unknown').replace('ai-sev:','').toUpperCase();
-              const existential = it.labels.some(l=>l.name==='ai-risk:existential') ? ' (🚨 existential)' : '';
+              const labels = it.labels.map(l=>l.name);
+              const sev = (labels.find(n=>/^ai-sev:/.test(n))||'ai-sev:unknown').replace('ai-sev:','').toUpperCase();
+              const existential = labels.includes('ai-risk:existential') ? ' (🚨 existential)' : '';
               const age = Math.floor((Date.now()-new Date(it.created_at))/86400000);
-              out += `## HIC Record — #${it.number} — ${it.title}\n`;
+              const har = pick('HAR', it.body);
+              const reqid = pick('x-request-id', it.body) || pick('request-id', it.body);
+
+              out += `## Support Packet — #${it.number} — ${it.title}\n`;
               out += `**Severity:** ${sev}${existential}  |  **Age:** ${age}d  |  **URL:** ${it.html_url}\n\n`;
+              out += `**HAR:** ${har || "_attach .har file when submitting_"}\n`;
+              out += `**x-request-id (API):** ${reqid || "_include from failing API call_"}\n\n`;
+
               out += `### Summary\n${red(it.body)}\n\n`;
               out += `### Mitigations / Workarounds (from comments)\n${await mitigations(it.number)}\n\n`;
-              out += `### Environment & Repro (attach repro capsule if present)\n_Add latest .reports/ai-repro-*.txt_\n\n---\n\n`;
+              out += `### Environment & Repro (attach latest .reports/ai-repro-*.txt)\n_Add repro capsule and any screenshots_\n\n---\n\n`;
             }
             core.setOutput('report', out);
       - name: Write report
