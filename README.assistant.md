@@ -5,7 +5,7 @@
 **Purpose.**  Present the project’s spine and put the right docs one click away.  Keep it short and operational during migration.
 
 ## Fast Paths
-- **Constitution (CC) — polish first:** `docs/cc/` (or current location if different)
+- **Constitution (CC) — polish first: `docs/cc/`
 - **Onramps:** `docs/onramps/`
 - **BPOE / Playbooks:** `docs/BPOE/`
 - **Domains:** `domains/`
@@ -22,3 +22,4 @@
 **Footer**  
 [Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]  
 Draft; congruence TBD after human editorial pass.
+
