@@ -1,14 +1,18 @@
 name: ai-ops-critical-watch
 on:
-  schedule:     # runs every 6 hours; cooled down below to avoid spam
+  schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 env:
-  CRITICAL_COUNT: "1"         # >= this count triggers alert
-  CRITICAL_AGE_DAYS: "2"      # ai-sev:high older than N days is critical
-  COOLDOWN_DAYS: "30"         # don't alert again within N days unless list changed
-  PING_USER: "rickballard"    # who to @mention
+  CRITICAL_COUNT: "1"
+  CRITICAL_AGE_DAYS: "2"
+  COOLDOWN_DAYS: "30"
+  PING_USER: "rickballard"
 
 jobs:
   check:
@@ -44,7 +48,7 @@ jobs:
 
             const crypto = require("crypto");
             const hash = (list)=>crypto.createHash("sha1")
-              .update(list.map(i=>i.number).sort((a,b)=>a-b).join(","))  // IDs only
+              .update(list.map(i=>i.number).sort((a,b)=>a-b).join(","))
               .digest("hex").slice(0,8);
 
             if (critical.length >= THRESH) {
