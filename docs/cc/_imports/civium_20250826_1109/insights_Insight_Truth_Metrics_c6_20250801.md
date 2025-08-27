@@ -89,7 +89,7 @@ License: CC-BY-SA 4.0
 Truth, as defined here, is not absolute—it is a functional tool for navigating collective decision environments.  
 Use with interpretive caution. Recursive audits recommended every 3 months.
 
-Contribute feedback via GitHub: [Civium Repository](https://github.com/rickballard/Civium)
+Contribute feedback via GitHub: [Civium Repository](https://github.com/rickballard/CoCivium)
 
 Maintainers: RickPublic & Azoic (AI co-author)
 
