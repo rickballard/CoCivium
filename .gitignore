@@ -41,3 +41,10 @@ assets/img/consenti-scroll.png
 *.bak
 *.bak.*
 __*.tmp
+
+# Local CoPong transcript & helpers (not committed)
+.reports/ps7-transcript.log
+.reports/local-helpers/
+
+# Ad-hoc local scripts matching CoPong wrappers (keep module .psm1 tracked)
+tools/CoPong-*.ps1
