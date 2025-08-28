@@ -24,3 +24,4 @@ Purpose (plain language).
 
 ## Implementation Notes
 - Trails = issues/PRs + commits. HumanGate ON.
+
