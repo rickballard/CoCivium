@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "name": "Consent phrasing",
+      "pattern": "(?i)\\bconsent before coercion\\b",
+      "flags": "i",
+      "preferred": "consent not coercion",
+      "rationale": "“before” implies sequence; “not” is unambiguous.",
+      "added": "2025-08-28"
+    }
+  ],
+  "include_globs": ["**/*.md","**/*.mdx","**/*.txt","**/*.yml","**/*.yaml","**/*.htm","**/*.html","**/*.svg"],
+  "exclude_dirs": [".git",".github","node_modules","dist","build","target","venv",".venv","vendor","coverage"],
+  "poetic_paths": ["docs/poetry/","scroll/"],
+  "frontmatter_keys": {"poetic": true, "guard_exempt": ["nasties"]},
+  "inline_markers": {"ignore_line":"<!-- guard:ignore-line -->","ignore_start":"<!-- guard:ignore-start -->","ignore_end":"<!-- guard:ignore-end -->"}
+}
