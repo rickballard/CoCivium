@@ -1,42 +1,26 @@
-# IssueOps – quick cheat sheet
+# IssueOps — CoPing/CoPong & DO sets
 
-**Goal:** smallest useful change → visible, reviewable, reversible.
+**How we run instruction sets in issues/PRs:**
 
-## 1) Say hi (2 minutes)
-Open New issue → “Hello CoCivium”. One line about what you care about.
-- https://github.com/rickballard/CoCivium/issues/new/choose
+### Title line (outside code)
+`DO <i>/<n>, <SetName>; [yyyy-MM-dd HH:mm]; <brief>`  ← local time; no timezone.
 
-## 2) Share an idea (10 minutes)
-Use the **Idea** form. Describe the problem and one smallest useful change.
-- https://github.com/rickballard/CoCivium/issues/new?template=idea.yml
+### End-of-set demark
+Printed by the assistant/tooling after the last step:
+```
+[yyyy-MM-dd HH:mm] [END-SET] ✅ ----- End of DO Set (<SetName optional>) ----- ✅
+```
+Three blank lines before and after make it visible when skimming.
 
-## 3) Start a post (PR) (30–60 minutes)
-Draft under `/proposals/` using the stub template, then open a PR.
-- View template: https://github.com/rickballard/CoCivium/blob/main/proposals/stub_proposal-template.md
-- Edit template in-browser: https://github.com/rickballard/CoCivium/edit/main/proposals/stub_proposal-template.md
+### Handshake
+- **CoPing `<SetName>`** = proposing a set of steps.
+- **CoPong `<SetName> complete`** = all steps done.
+- **CoPong `<SetName> k/n`** = only k steps were executed (no chaining beyond k).
+- **No CoPong** = assume it was **not executed**.
 
-**Labeling:** PRs that touch `/proposals/**` are auto-labeled **post**.  
-Add **docs** for documentation changes.
-
-## Daily Workbench (one-click start)
-Use **CoCivium-Workbench.bat** (Desktop). It runs a silent preflight and opens:
-- ChatGPT
-- Repo home: https://github.com/rickballard/CoCivium
-- This cheat sheet: docs/ISSUEOPS.md
-
-Logs: `~/Documents/CoCiviumLogs/preflight_latest.log`
-
-## Common git one-liners
-- See what changed: `git status`
-- Stage everything: `git add -A`
-- Commit: `git commit -m "docs: <message>"`
-- Push: `git push`
-
-## Troubleshooting
-- “not a git repository” → you’re not in the repo. Run:
-  `Set-Location "C:`Users`Chris`Documents`GitHub`CoCivium"  
-- Windows wrote to System32 → always use absolute paths or `Set-Location` first.
-
-— end —
-
+### CoTip
+If the **CoCivium RepoAccelerator/CoAgent** is installed, typing **`???`** at a PS7 prompt and pressing Enter will:
+- copy the last 150 lines of the PS7 transcript to your clipboard, and
+- print the **End of DO Set** demark banner with spacing in the console.
+Paste that into the ChatGPT window to CoPong.
 
