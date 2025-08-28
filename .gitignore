@@ -43,3 +43,6 @@ assets/img/consenti-scroll.png
 __*.tmp
 
 .secrets/tmp/
+
+.reports/
+
