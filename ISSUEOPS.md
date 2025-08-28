@@ -1,3 +1,7 @@
+[**IssueOps Cheat Sheet**](ISSUEOPS_CHEATSHEET.md)
+
+[**IssueOps Cheat Sheet**](ISSUEOPS_CHEATSHEET.md)
+
 # CoAgent Kit (Workbench + BP)
 
 **Principles:** repo‑scoped, respectful‑by‑default, reversible.
