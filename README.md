@@ -136,6 +136,7 @@ CoCivium writes, tests, and ships the CC, policies, processes, and tools to keep
   _Starter prompt:_ Let's begin an ideas session and vibe-code pull requests for `github.com/rickballard/CoCivium`.
 - Partner through [GroupBuild] (protest organizer), [InSeed] (strategists), others TBA, to preserve **your good ideas**.  
 - Join [CoCivium chats].  
+- For those who still read manuals: **[User Guide](./USER_GUIDE.md)**.
 - Fork this repo to friendly-compete.  
 
 [ChatGPT]: https://chatgpt.com/
