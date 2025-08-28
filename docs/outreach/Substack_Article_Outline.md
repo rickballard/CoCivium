@@ -1,7 +1,7 @@
 # Draft Outline — Substack Feature
 Title candidates:
 - Care, But With Consent: A Field Guide for Building Human-Centered AI
-- Consent Before Coercion: An Open Charter for Builders, Researchers, and Policymakers
+- consent not coercion: An Open Charter for Builders, Researchers, and Policymakers
 - Beyond “Mother AI”: How to Align Power With Dignity
 
 1) Hook (75–120 words)

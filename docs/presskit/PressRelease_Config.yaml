@@ -1,5 +1,5 @@
 ---
-TITLE: Consent Before Coercion — CoCivium launches portable governance pack for agentic AI
+TITLE: consent not coercion — CoCivium launches portable governance pack for agentic AI
 DATE: 2025-08-21
 SUMMARY: CoCivium publishes a measurable, adoptable governance kit featuring explicit consent rules, pre-deployment agentic risk gates, and open incident reporting.
 LEDE: Today CoCivium announced an open, portable governance pack that any team can adopt before turning on agentic AI capabilities.
@@ -7,7 +7,7 @@ WHATS_NEW: Moves beyond analogies to measurable gates: deception resistance, shu
 WHY_IT_MATTERS: Agentic features are shipping faster than governance capacity. This pack gives builders and policymakers a practical baseline.
 HOW_IT_WORKS: The pack defines rights-and-consent objectives, capability-conditioned gates, and auditable workflows that slot next to existing safety methods.
 AVAILABILITY: Public RFC on GitHub and Substack. Roundtables next week across time zones.
-QUOTE_RICK: Consent before coercion. We can ship powerful AI and still preserve human dignity — but only if agency is baked in from the start.
+QUOTE_RICK: consent not coercion. We can ship powerful AI and still preserve human dignity — but only if agency is baked in from the start.
 QUOTE_ALLY: This is the sort of concrete, portable governance developers can actually implement.
 LINK_CHARTER: https://github.com/rickballard/CoCivium/blob/main/scroll/Cognocarta_Consenti.md
 LINK_FAQ: https://github.com/rickballard/CoCivium/wiki/FAQ

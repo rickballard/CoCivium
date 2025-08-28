@@ -41,7 +41,7 @@ This backlog replaces scattered TODOs/notes as we converge. New work should be a
 - [ ] **Decision Log** (plain-file → static viewer) MVP — proposals, objections, decisions, obligations, review dates.
 - [ ] **Consent Clinic** (advisory pilot): fixed-fee, 3-hour “governance tune-up”; checklist + template deliverable.
 - [ ] **Templates Pack**: reusable markdown templates (proposal, decision record, role charter, review meeting).
-- [ ] **Workshops** (2–3 hrs): “Consent before coercion” for teams; recording + slides.
+- [ ] **Workshops** (2–3 hrs): “consent not coercion” for teams; recording + slides.
 - [ ] **Annual field report** (pay-what-you-want PDF): “What worked in consentful governance this year”.
 
 ### Funding & Ops

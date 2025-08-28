@@ -7,7 +7,7 @@ We reject coercion as the default. We elevate pluralism and interoperability so 
 We steward shared commons, constrain authority (human or AI), and prefer evidence over authority, iteration over stagnation, and legibility over obscurity.  
 We do this so that cooperation scales with dignity, and freedom scales with care.
 
-> **Consent before coercion. Evidence before authority. Commons before enclosure.**
+> **consent not coercion. Evidence before authority. Commons before enclosure.**
 
 ## Article I — Consent
 - Participation is opt-in, granular, revocable.
