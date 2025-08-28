@@ -31,6 +31,7 @@ function Enable-CoPongTrigger {
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
+      try { Stop-Transcript | Out-Null } catch {}
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
