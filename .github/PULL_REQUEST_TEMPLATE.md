@@ -1,13 +1,5 @@
-### Summary
-<!-- What/why -->
-
-### Checklist
-- [ ] Ran inside a **CoSet** (single snip at set end)
-- [ ] No red in console; re-ran if needed
-- [ ] Updated **ISSUEOPS.md/TIPS.md** if new workflow moves emerged
-
-<details><summary>Quick tip</summary>
-Copy only **after** the snip line and `SET … END`. Single-line actions are CoShielded against double-paste bounces.
-</details>
-
-
+# PR Checklist (Ops/Product Integration)
+- [ ] If `???` trigger was enabled by tooling, it is **disabled on shutdown** (call `Disable-CoPongTrigger`).
+- [ ] Session gates cleared on exit (`REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`).
+- [ ] No profile writes for `???` (session-only).
+- [ ] For CoAgent: enabled only with CoCivium sentinel or `.coagent-allow-copong` present.
