@@ -1,4 +1,4 @@
-## Migration Sweep Report (2025-08-28 02:22)
+## Migration Sweep Report (2025-08-28 02:30)
 
 ### TODO/FIXME/PLACEHOLDER hits: 667
 - C:\Users\Chris\Documents\GitHub\CoCivium\CODE_OF_CONDUCT.md:17 — - TODOs with checkboxes
@@ -43,15 +43,27 @@
 - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Story_Noname_Publish.md:1 — # TODO: Publish Being Noname Globally
 - …(+627 more)
 
-### Suspect relative links: 12
+### Suspect relative links: 148
+- docs/drafts/README.next.md: 21
+- docs/cc/_imports/civium_20250826_1109/insights_README_Insight.md: 15
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md: 9
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md: 9
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md: 9
+- legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_Unified_Azoic_CoZoic_c10_20250806.md: 9
+- legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c8_20250806.md: 9
+- legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_CoZoicIntro_c10_20250806.md: 9
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md: 7
+- legacy/Civium/admin/inbox/GmailDump_20250811/originals/README_FirstImpression_c10_20250806.md: 7
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/insights/Insight_Substrate_Assumptions_c3_20250810.md: 3
 - admin/history/README_corrupt_20250823_232752.md: 2
-- discussions/What_is_Civium_really.md: 2
-- docs/cc/_imports/civium_20250826_1057/scroll_README_scroll.md: 2
-- admin/hold/hold_The_Cloud_of_Becoming.md: 1
-- assets/diagrams/README.md: 1
-- assets/sources/Preservation_Guide.md: 1
-- docs/_backlog/ADVANCED_INITIATIVES.md: 1
-- docs/BPOE/ISSUEOPS.md: 1
-- README.md: 1
+- mark/USAGE.md: 2
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/README.md: 2
+- legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/discussions/What_is_Civium_really.md: 2
+- legacy/Civium/README.md: 2
+- legacy/Civium/discussions/What_is_Civium_really.md: 2
+- insights/README.md: 2
+- insights/Insight_Substrate_Assumptions_c3_20250810.md: 2
+- docs/ideas/INDEX.md: 2
+- …(+21 files)
 
 ### Auto-stubbed files: 0
