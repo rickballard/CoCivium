@@ -1,6 +1,6 @@
-## Migration Sweep Report (2025-08-28 02:17)
+## Migration Sweep Report (2025-08-28 02:22)
 
-### TODO/FIXME/PLACEHOLDER hits: 626
+### TODO/FIXME/PLACEHOLDER hits: 667
 - C:\Users\Chris\Documents\GitHub\CoCivium\CODE_OF_CONDUCT.md:17 — - TODOs with checkboxes
 - C:\Users\Chris\Documents\GitHub\CoCivium\CONTINUITY.md:17 — - TODOs with checkboxes
 - C:\Users\Chris\Documents\GitHub\CoCivium\CONTRIBUTING.md:17 — - TODOs with checkboxes
@@ -41,10 +41,17 @@
 - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Stnexid_Civium_Rollup_20250802.md:19 — - [ ] Create `admin/TODO_Recursive_Revenue_Structures.md`
 - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Stnexid_Civium_Rollup_20250802.md:30 — - [ ] Reference all existing `/admin/TODO_*` files
 - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Story_Noname_Publish.md:1 — # TODO: Publish Being Noname Globally
-- …(+586 more)
+- …(+627 more)
 
-### Suspect relative links: 1
-- .github/pull_request_template.md: 1
+### Suspect relative links: 12
+- admin/history/README_corrupt_20250823_232752.md: 2
+- discussions/What_is_Civium_really.md: 2
+- docs/cc/_imports/civium_20250826_1057/scroll_README_scroll.md: 2
+- admin/hold/hold_The_Cloud_of_Becoming.md: 1
+- assets/diagrams/README.md: 1
+- assets/sources/Preservation_Guide.md: 1
+- docs/_backlog/ADVANCED_INITIATIVES.md: 1
+- docs/BPOE/ISSUEOPS.md: 1
+- README.md: 1
 
-### Auto-stubbed files: 1
-- .github\docs\ops\policy\NASTIES_BUCKET.md
+### Auto-stubbed files: 0
