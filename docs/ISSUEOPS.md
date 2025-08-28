@@ -29,3 +29,5 @@ Use the yellow planned-wait banner instead of silent sleeps.
 - Tools enable `???` **per session** and must disable it on shutdown (`Disable-CoPongTrigger`).
 - Session gates (`REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`) are cleared on exit; no profile writes.
 - CoAgent enables only with CoCivium sentinel or `.coagent-allow-copong`.
+
+**After you paste a CoPong in chat, the assistant will reply with `ACK CoPong - <SetName or (none)> @ <local time>` and the next action.**

@@ -59,3 +59,5 @@ version: 0.4
   - Clear session gates: unset `REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`.
   - Do **not** write profile entries for `???` (session-only, wash-away on PS exit).
 - CoAgent extra guardrail: enable only when a CoCivium sentinel exists **or** repo has `.coagent-allow-copong`.
+
+- **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong - <SetName or (none)> @ <local time>` with a 1-paragraph summary and the next action.
