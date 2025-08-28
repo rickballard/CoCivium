@@ -5,3 +5,5 @@ These files flag a repo as “CoCivium-aware” so product features (like the se
 - `README.assistant.md` (optional)
 
 **CoAgent extra guardrail:** If the above are absent, require repo-root opt-in file: `.coagent-allow-copong`.
+
+- **Phrasing**: use "consent not coercion". (Do **not** write "consent before coercion".)
