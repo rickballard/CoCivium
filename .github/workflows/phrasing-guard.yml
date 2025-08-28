@@ -20,12 +20,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Block 'consent not coercion'
+      - name: Block 'consent before coercion'
         run: |
           set -e
-          echo "Scanning for disallowed phrase…"
-          if grep -RIni --include='*.md' --include='*.mdx' --include='*.txt' --include='*.yml' --include='*.yaml' \
-                 --exclude-dir={.git,node_modules,dist,build,target,venv,.venv,vendor,coverage} \
-                 'consent not coercion' .; then
+          echo "Scanning docs for disallowed phrase…"
+          if grep -RIni \
+                --include='*.md' --include='*.mdx' --include='*.txt' --include='*.yml' --include='*.yaml' \
+                --exclude='docs/ops/policy/SENTINELS.md' \
+                --exclude-dir={.git,.github,node_modules,dist,build,target,venv,.venv,vendor,coverage} \
+                'consent before coercion' .; then
             echo "::error::Use 'consent not coercion' instead."; exit 1
           fi
