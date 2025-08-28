@@ -1,0 +1,2 @@
+## age public key placeholder
+Run locally: ge-keygen -o .secrets/agekey.txt then ge-keygen -y .secrets/agekey.txt > .secrets/age.pub and store the **private** key text in Bitwarden (coagent-age-key). Do **NOT** commit the private key.
