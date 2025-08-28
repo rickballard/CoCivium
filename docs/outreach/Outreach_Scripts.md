@@ -4,7 +4,7 @@
 Hi <Name> — we’re assembling a consent‑first governance pack for agentic AI (CoCivium).  It complements safety work: agency + auditability before deployment.  Would you skim the open charter and leave a comment?  <short link>  —Rick (Oakville, CA)
 
 ## Email — Practitioner/Founder
-Subject: Quick review? “Consent before coercion” governance pack for agentic AI
+Subject: Quick review? “consent not coercion” governance pack for agentic AI
 
 Hi <Name>,
 
