@@ -1,0 +1,26 @@
+{
+  "pack_name": "CoCivium_CoWrap_20250828_0604",
+  "generated_at": "20250828_0604",
+  "files": [
+    "00_README.md",
+    "01_Forward_Plan.md",
+    "02_CoEvolution.md",
+    "03_Sentinels_and_Policy_Nudges.md",
+    "04_Protected_Docs.md",
+    "05_Telemetry_Skeleton.md",
+    "06_History_Hygiene.md",
+    "07_CoPong_v0.4.4_Notes.md",
+    "08_Open_Questions.md",
+    "09_Backlog_Priorities.md",
+    "attached/CoCivium_RickPad_Supplemental.md",
+    "attached/CoWrap_Short_Checklist.md"
+  ],
+  "attached_included": [
+    "CoWrap_Short_Checklist.md",
+    "CoCivium_RickPad_Supplemental.md"
+  ],
+  "notes": [
+    "Default protected-docs path is age + Bitwarden (CoProtect); SOPS parity documented.",
+    "Forward Plan reflects P0\u2013P3 with owners and signals."
+  ]
+}
