@@ -20,8 +20,9 @@ jobs:
         run: |
           set -e
           echo "Scanning assets for disallowed phrase…"
-          if grep -RIni --include='*.html' --include='*.htm' --include='*.svg' \
-               --exclude-dir={.git,node_modules,dist,build,target,venv,.venv,vendor,coverage} \
+          if grep -RIni \
+               --include='*.html' --include='*.htm' --include='*.svg' \
+               --exclude-dir={.git,.github,node_modules,dist,build,target,venv,.venv,vendor,coverage} \
                'consent before coercion' .; then
             echo "::error::Use 'consent not coercion' instead."; exit 1
           fi
