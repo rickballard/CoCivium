@@ -187,3 +187,5 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 <!-- noname-touch: 2025-08-25T03:40:12 -->
 
 - **CC Hub:** [docs/cc/](docs/cc/)
+
+- **Docs Index (start here):** [docs/INDEX.md](docs/INDEX.md)
