@@ -2,7 +2,7 @@
 
 **Purpose.** Give newcomers a fast, accurate on-ramp and give contributors/stewards a single source of truth for how to engage.  Two spaces after periods.  US spelling (UK only for Dogs n Homes).  CLI-first for builders on Windows PowerShell 7.  Everything traceable via issues/PRs/commits.  HumanGate on by default.
 
-**Design principles.** Progressive disclosure • Consent before coercion • Minimum friction • Reversible decisions • Plain language • Document once, reuse everywhere.
+**Design principles.** Progressive disclosure • consent not coercion • Minimum friction • Reversible decisions • Plain language • Document once, reuse everywhere.
 
 ---
 
@@ -62,7 +62,7 @@
 
 **How to participate.** Pick the tile that matches you.  Citizens read and respond.  Builders ship tiny improvements.  Stewards keep the rails safe.  Educators run kid-friendly challenges.  Partners align funding and pilots.  Youth players explore ethics through play.
 
-**Safety & governance.** We follow the Cognocarta Consenti (consent before coercion), a Code of Conduct, and HumanGate (human review before merges).  All changes are traceable to issues/PRs/commits.
+**Safety & governance.** We follow the Cognocarta Consenti (consent not coercion), a Code of Conduct, and HumanGate (human review before merges).  All changes are traceable to issues/PRs/commits.
 
 **Where to ask for help.** Open a GitHub Discussion or Issue.  Join the read-only Matrix CoCivBus to observe progress.  Use templates.  Keep questions small.
 
@@ -188,7 +188,7 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 ## 3) Core Concepts
 
 ### 3.1 Cognocarta Consenti (CC)
-**At-a-glance.** A living scroll that encodes “consent before coercion” into practice.  Change proposals are transparent and reversible.
+**At-a-glance.** A living scroll that encodes “consent not coercion” into practice.  Change proposals are transparent and reversible.
 
 **Why it matters.** Governance must be changeable without chaos.  CC is the rulebook for edits to the rulebook.
 
