@@ -188,3 +188,14 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 
+
+## Quick links
+- [Ops Policy Index](docs/ops/policy/INDEX.md)
+- [IssueOps guide](docs/ISSUEOPS.md)
+- [RepoAccelerator overview](docs/REPOACCELERATOR.md)
+- [Security: Protected Plans](docs/security/README.md)
+- [Migration Plan](MIGRATION/PLAN.md)
+
+### CoPong quick how-to
+Type `???` at a PS7 prompt and press Enter (when RepoAccelerator/CoAgent is running in a CoCivium repo).
+It copies the last 150 transcript lines to your clipboard, prints the green demark, and you paste here to CoPong.
