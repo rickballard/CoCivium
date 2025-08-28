@@ -25,16 +25,19 @@ function Enable-CoPongTrigger {
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
       try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" }; Set-Clipboard -Value ($clean -join "`r`n") }
+      $clean = @()
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
+      $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
-      for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      if ($env:REPOACCEL_TELEM -eq "1") {
-        $dolog = ".reports\do-log-{0}.md" -f (Get-Date -Format "yyyyMMdd")
-        "[{0}] CoPong ??? fired{name} lines={count}" -f (Get-Date -Format "yyyy-MM-dd HH:mm") | Set-Content -Encoding UTF8 -NoNewline:$false -Path $dolog -Append:$true
-      }
-      [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine(); return
+      Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
+      for($i=0;$i -lt 2;$i++){ Write-Host "" }
+      try { [Console]::Beep(900,120) } catch {}
+      [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+      try { [Microsoft.PowerShell.PSConsoleReadLine]::InvokePrompt() } catch {}
+      return
     } else { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine() }
   }
   try { Register-EngineEvent -SourceIdentifier PowerShell.Exiting -Action { try { Set-PSReadLineOption -AddToHistoryHandler $null } catch {}; try { Set-PSReadLineKeyHandler -Key Enter -Function AcceptLine } catch {} } | Out-Null } catch {}
