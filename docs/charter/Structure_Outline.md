@@ -6,7 +6,7 @@
 Quotable introduction (1–3 short paragraphs).
 
 ## Maxims <span class="gib" data-gib="evidence" data-fallback="EVIDENCE"></span>
-- Consent before coercion. Evidence before authority. Commons before enclosure.
+- consent not coercion. Evidence before authority. Commons before enclosure.
 - (10–15 total, each one printable, tweetable, timeless.)
 
 ## Article I — Consent <span class="gib" data-gib="consent" data-fallback="CONSENT"></span>
