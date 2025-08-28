@@ -28,4 +28,4 @@ git switch -c docs/readme-typo-c1
 # edit
 git commit -am "docs: fix README typo (tiny)"
 git push -u origin HEAD
-gh pr create --title "docs: fix README typo (tiny)" --body "One-liner."
+gh pr create --title "docs: fix README typo (tiny)" --body "One-liner."`nChecks: `gh pr view --json statusCheckRollup --jq '.statusCheckRollup[] | "\(.name): \(.conclusion // .status)"'``
