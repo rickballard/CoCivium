@@ -23,10 +23,10 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path $PWD ".reports\ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }

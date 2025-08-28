@@ -1,6 +1,6 @@
 @{
   RootModule    = 'CoPong-EnterTrigger.psm1'
-  ModuleVersion = '0.4.2'
+  ModuleVersion = '0.4.4'
   GUID          = 'b4b0f6c1-8e1d-4b6e-9a16-7d3a3f2e1c04'
   Author        = 'CoCivium'
   CompanyName   = 'CoCivium'
