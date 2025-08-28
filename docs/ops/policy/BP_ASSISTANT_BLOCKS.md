@@ -52,3 +52,10 @@ version: 0.4
 ## Maintainer notes
 - Products must enable the trigger per-session (no profile writes) and disable it on shutdown.
 - Provide an explicit uninstall that removes any legacy profile lines, if users had added them before v0.4.
+
+## Integration Advisory — Product Shutdown
+- Products (RepoAccelerator/CoAgent) must **disable the session trigger on shutdown** and ensure no residue:
+  - Call `Disable-CoPongTrigger` during product exit/cleanup.
+  - Clear session gates: unset `REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`.
+  - Do **not** write profile entries for `???` (session-only, wash-away on PS exit).
+- CoAgent extra guardrail: enable only when a CoCivium sentinel exists **or** repo has `.coagent-allow-copong`.

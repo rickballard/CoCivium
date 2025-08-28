@@ -24,3 +24,8 @@ Paste that into the ChatGPT window to CoPong.
 
 ### Planned waits
 Use the yellow planned-wait banner instead of silent sleeps.
+
+### Integration Advisory — Product Shutdown
+- Tools enable `???` **per session** and must disable it on shutdown (`Disable-CoPongTrigger`).
+- Session gates (`REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`) are cleared on exit; no profile writes.
+- CoAgent enables only with CoCivium sentinel or `.coagent-allow-copong`.
