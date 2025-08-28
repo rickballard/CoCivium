@@ -1,3 +1,9 @@
+function Get-CoTranscriptPath {
+  param([string]$File = 'ps7-transcript.log')
+  $dir = if ($env:COCIVIUM_TRANSCRIPT_DIR) { $env:COCIVIUM_TRANSCRIPT_DIR } else { Join-Path $env:LOCALAPPDATA 'CoCivium\.reports' }
+  if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
+  Join-Path $dir $File
+}
 Set-StrictMode -Version Latest
 function Get-LocalStamp { param([string]$Format="yyyy-MM-dd HH:mm"); Get-Date -Format $Format }
 function Set-CoSetName { param([Parameter(Mandatory)][string]$Name) $env:COCIVIUM_SET_NAME=$Name }
@@ -48,10 +54,10 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
@@ -106,15 +112,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -129,7 +135,7 @@ function Enable-CoPongTrigger {
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
 _copong_started = $false
-try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; Set-StrictMode -Version Latest
+try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
 function Get-LocalStamp { param([string]$Format="yyyy-MM-dd HH:mm"); Get-Date -Format $Format }
 function Set-CoSetName { param([Parameter(Mandatory)][string]$Name) $env:COCIVIUM_SET_NAME=$Name }
 function Show-CoDelay { param([int]$Seconds) Write-Host ""; Write-Host ("[{0}] ? ----- Planned wait: {1}s (not stuck) -----" -f (Get-LocalStamp), $Seconds) -ForegroundColor Yellow; Write-Host "" }
@@ -154,15 +160,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -179,12 +185,12 @@ Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoS
 _copong_started = $true } catch {} } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -198,7 +204,7 @@ _copong_started = $true } catch {} } catch {}
   $script:__CoPongEnabled = $true
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
-_copong_started) { try { Stop-Transcript | Out-Null } catch {} }
+_copong_started) { if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} } }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -213,7 +219,7 @@ _copong_started) { try { Stop-Transcript | Out-Null } catch {} }
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
 _copong_started = $false
-try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; Set-StrictMode -Version Latest
+try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
 function Get-LocalStamp { param([string]$Format="yyyy-MM-dd HH:mm"); Get-Date -Format $Format }
 function Set-CoSetName { param([Parameter(Mandatory)][string]$Name) $env:COCIVIUM_SET_NAME=$Name }
 function Show-CoDelay { param([int]$Seconds) Write-Host ""; Write-Host ("[{0}] ? ----- Planned wait: {1}s (not stuck) -----" -f (Get-LocalStamp), $Seconds) -ForegroundColor Yellow; Write-Host "" }
@@ -238,10 +244,10 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
@@ -296,15 +302,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -319,7 +325,7 @@ function Enable-CoPongTrigger {
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
 _copong_started = $false
-try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; Set-StrictMode -Version Latest
+try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
 function Get-LocalStamp { param([string]$Format="yyyy-MM-dd HH:mm"); Get-Date -Format $Format }
 function Set-CoSetName { param([Parameter(Mandatory)][string]$Name) $env:COCIVIUM_SET_NAME=$Name }
 function Show-CoDelay { param([int]$Seconds) Write-Host ""; Write-Host ("[{0}] ? ----- Planned wait: {1}s (not stuck) -----" -f (Get-LocalStamp), $Seconds) -ForegroundColor Yellow; Write-Host "" }
@@ -344,15 +350,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -369,12 +375,12 @@ Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoS
 _copong_started = $true } catch {} } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -388,7 +394,7 @@ _copong_started = $true } catch {} } catch {}
   $script:__CoPongEnabled = $true
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
-_copong_started) { try { Stop-Transcript | Out-Null } catch {} }
+_copong_started) { if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} } }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -405,7 +411,7 @@ Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoS
 _copong_started = $true } catch {} } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
@@ -460,15 +466,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -483,7 +489,7 @@ function Enable-CoPongTrigger {
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
 _copong_started = $false
-try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; Set-StrictMode -Version Latest
+try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
 function Get-LocalStamp { param([string]$Format="yyyy-MM-dd HH:mm"); Get-Date -Format $Format }
 function Set-CoSetName { param([Parameter(Mandatory)][string]$Name) $env:COCIVIUM_SET_NAME=$Name }
 function Show-CoDelay { param([int]$Seconds) Write-Host ""; Write-Host ("[{0}] ? ----- Planned wait: {1}s (not stuck) -----" -f (Get-LocalStamp), $Seconds) -ForegroundColor Yellow; Write-Host "" }
@@ -508,15 +514,15 @@ function Enable-CoPongTrigger {
       if (-not (Test-CoContext)) { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine(); return }
       $count = 150; $path = Join-Path ( if($env:COCIVIUM_TRANSCRIPT_DIR){$env:COCIVIUM_TRANSCRIPT_DIR}else{Join-Path $env:LOCALAPPDATA "CoCivium\.reports"} ) "ps7-transcript.log"; $dir = Split-Path $path
       if (!(Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
-      try { Start-Transcript -Path $path -Append -ErrorAction SilentlyContinue | Out-Null } catch {}
+      try { $script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -533,12 +539,12 @@ Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoS
 _copong_started = $true } catch {} } catch {}
       $raw = Get-Content -Path $path -Tail $count -ErrorAction SilentlyContinue
       $clean = @()
-      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|Start-Transcript|Stop-Transcript|Host Application:" } | Where-Object { $_ -notmatch "^\?\?\?$" } }
+      if ($raw) { $clean = $raw | Where-Object { $_ -notmatch "^\*{5,}|$script:__copong_started = $false; try { Start-Transcript -Path $path -Append -ErrorAction Stop | Out-Null; $script:__copong_started = $true } catch {}
       if ($clean) { Set-Clipboard -Value ($clean -join "`r`n") }
       $copied = if ($clean) { $clean.Count } else { 0 }
       $set=$env:COCIVIUM_SET_NAME; $namePart = if ($set) { " ($set)" } else { "" }
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
-      try { Stop-Transcript | Out-Null } catch {}
+      if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
@@ -552,7 +558,7 @@ _copong_started = $true } catch {} } catch {}
   $script:__CoPongEnabled = $true
 }
 Export-ModuleMember -Function Enable-CoPongTrigger,Disable-CoPongTrigger,Set-CoSetName,Show-CoDelay
-_copong_started) { try { Stop-Transcript | Out-Null } catch {} }
+_copong_started) { if ($script:__copong_started) { try { Stop-Transcript | Out-Null } catch {} } }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       Write-Host ("[{0}] Copied {1} lines to clipboard — switch to chat and press Ctrl+V to paste." -f (Get-LocalStamp), $copied) -ForegroundColor Green
       for($i=0;$i -lt 2;$i++){ Write-Host "" }
