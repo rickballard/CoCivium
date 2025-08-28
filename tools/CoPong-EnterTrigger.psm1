@@ -30,6 +30,10 @@ function Enable-CoPongTrigger {
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
       Write-Host ("[{0}] [END-SET] " -f (Get-LocalStamp)) -NoNewline; Write-Host ("✅ ----- End of DO Set{0} ----- ✅" -f $namePart) -ForegroundColor Green
       for($i=0;$i -lt 3;$i++){ Write-Host "" }
+      if ($env:REPOACCEL_TELEM -eq "1") {
+        $dolog = ".reports\do-log-{0}.md" -f (Get-Date -Format "yyyyMMdd")
+        "[{0}] CoPong ??? fired{name} lines={count}" -f (Get-Date -Format "yyyy-MM-dd HH:mm") | Set-Content -Encoding UTF8 -NoNewline:$false -Path $dolog -Append:$true
+      }
       [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine(); return
     } else { [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine() }
   }
