@@ -3,9 +3,9 @@ Title: Request: ChatGPT workflow improvements for heavy repo/document users (CoC
 **Context.** We rely on ChatGPT Plus for a public‑interest project (CoCivium).  Multiple recurring blockers reduce throughput.  We’re filing here for developer visibility and searchability.  Official ticket filed via Help Center.
 
 **Short list.**
-- Help widget fallback; memory hygiene tools; artifact reliability with SHA‑256 + browser.  
-- Repo reading via GitHub OAuth; zip ingestion; line‑level citations.  
-- Projects/Workspaces; per‑project model pinning and deprecation timelines.  
+- Help widget fallback; memory hygiene tools; artifact reliability with SHA‑256 + browser.
+- Repo reading via GitHub OAuth; zip ingestion; line‑level citations.
+- Projects/Workspaces; per‑project model pinning and deprecation timelines.
 - Hide/show upload pane; transparent tool logs and “Stuck?” breaker.
 
 **Appendix.** See attached `CoCivium_OpenAI_Bugs_Appendix_2025-08-12.md` for repro and acceptance tests.

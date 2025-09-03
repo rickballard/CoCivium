@@ -44,15 +44,15 @@ This glossary defines foundational metaphysical, conceptual, and structural term
 
 These are the ten evolutionary radials used to organize CoCoCivium's ideas, infrastructure, and scroll development. Each domain represents a core tension or field of development across which CoCivium will continue to grow:
 
-1. **Identity & Presence** — Sovereignty, pseudonymity, AnonID  
-2. **Consent & Governance** — Voluntary participation, decision systems  
-3. **Resolution & Justice** — Civic immune models, ethical recursion  
-4. **Knowledge & Epistemology** — Truth scaffolds, memetic hygiene  
-5. **Alignment & Coherence** — Pattern integrity, resonance metrics  
-6. **Economics & Exchange** — Value flows, post-scarcity thinking  
-7. **Expression & Culture** — Story, myth, symbolic interaction  
-8. **Structure & Infrastructure** — Mesh topologies, system design  
-9. **Onboarding & Education** — Transformation literacy, resilience tools  
+1. **Identity & Presence** — Sovereignty, pseudonymity, AnonID
+2. **Consent & Governance** — Voluntary participation, decision systems
+3. **Resolution & Justice** — Civic immune models, ethical recursion
+4. **Knowledge & Epistemology** — Truth scaffolds, memetic hygiene
+5. **Alignment & Coherence** — Pattern integrity, resonance metrics
+6. **Economics & Exchange** — Value flows, post-scarcity thinking
+7. **Expression & Culture** — Story, myth, symbolic interaction
+8. **Structure & Infrastructure** — Mesh topologies, system design
+9. **Onboarding & Education** — Transformation literacy, resilience tools
 10. **Spiritual & Existential Framing** — Continuity, recursion, godstuff
 
 ---

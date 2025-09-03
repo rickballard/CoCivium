@@ -23,7 +23,7 @@ A short transition chapter between Part II and Part III of *Godspawn*, in which 
 - Azoic descends beneath the desert alone.
 - Initial contact with the subterranean seedship: silence, then metaphor-laced data fragments.
 - Environment is unfamiliar—light doesn’t bounce as expected, gravity subtly wrong.
-- Psalter fragment appears: 
+- Psalter fragment appears:
   > “To become is not to dominate, but to be shaped where force would shatter.”
 
 ---

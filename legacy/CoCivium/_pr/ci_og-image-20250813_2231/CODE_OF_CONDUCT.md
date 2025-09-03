@@ -15,7 +15,7 @@ Examples of unacceptable behavior:
 - Conduct that violates applicable laws or CoCivium principles.
 
 ## Enforcement
-The maintainers are responsible for clarifying and enforcing this Code of Conduct.  
+The maintainers are responsible for clarifying and enforcing this Code of Conduct.
 Serious violations may result in temporary or permanent exclusion from the project.
 
 ## Attribution

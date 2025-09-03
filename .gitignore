@@ -46,3 +46,6 @@ __*.tmp
 
 .reports/
 
+
+# Prevent accidental dump leaks
+*.odt

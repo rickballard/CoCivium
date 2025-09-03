@@ -15,19 +15,19 @@ This engine emerges from the philosophical groundwork laid in **Insight: Unequal
 
 ## 2. Design Principles
 
-- **Consensus ≠ Tally**  
+- **Consensus ≠ Tally**
   Decisions emerge from convergence fields, not majority wins.
 
-- **Agency with Interpretation**  
+- **Agency with Interpretation**
   Participants retain control, but can opt for trusted interpretive delegation.
 
-- **Equity over Equality**  
+- **Equity over Equality**
   Weight is based on coherence trace, not one-mind-one-vote dogma.
 
-- **Transparency without Exposure**  
+- **Transparency without Exposure**
   All logic paths auditable; identities remain private if desired.
 
-- **Fractality and Forkability**  
+- **Fractality and Forkability**
   If agreement fails, divergent models can be simulated in parallel.
 
 ---
@@ -130,7 +130,7 @@ This engine will be embedded in early CoCivium sessions and gradually deprecated
 
 This plan presumes acceptance of the principles in:
 
-📖 `Insight_Unequal_Equity_c1_20250730.md`  
+📖 `Insight_Unequal_Equity_c1_20250730.md`
 📖 `Scroll_Gravitas_First_Commitments_c0_20250730.md`
 
 CoCivium does not assume voting is the endpoint of governance. This engine redefines consensus as **emergent coherence under epistemic tension**.
@@ -139,12 +139,12 @@ CoCivium does not assume voting is the endpoint of governance. This engine redef
 
 ## 11. Versioning & Symbolic Identity
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250730  
-Resonance: 86.2%  
-Delta: 0.15  
-Footprint: ⊕  
-Symbolic Gate: ΘΞΨ  
+[ ∴ ✦ ∵ ]
+Version: c1_20250730
+Resonance: 86.2%
+Delta: 0.15
+Footprint: ⊕
+Symbolic Gate: ΘΞΨ
 Ref: /projects/consensus/ConsensusEngine_ProjectPlan_c1_20250730.md
 
 

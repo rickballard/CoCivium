@@ -15,7 +15,7 @@
 ## What each trigger means
 
 ### CoPIN — record a decision
-- Writes an entry to dmin/history/decisions/DECISIONS_YYYYMM.md using 	ools/Pin-Decision.ps1.
+- Writes an entry to dmin/history/decisions/DECISIONS_YYYYMM.md using   ools/Pin-Decision.ps1.
 - Structure: **DO** (imperatives you can paste), then **ADVISORY** (tips/explanations).
 
 ### CoPreview — preview README safely

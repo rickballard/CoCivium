@@ -55,9 +55,9 @@ Finance & budgeting • Social safety • Health • Taxation • Wealth inequal
 (See /domains for briefs and exemplars.)
 
 ## 8) How to participate
-1) Read **Consent** and **Resolution** primers.  
-2) Join/start a project under /projects.  
-3) Propose improvements via issues (content gap / refactor).  
+1) Read **Consent** and **Resolution** primers.
+2) Join/start a project under /projects.
+3) Propose improvements via issues (content gap / refactor).
 4) Help draft domain briefs; run small, reviewable experiments.
 
 

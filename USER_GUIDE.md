@@ -44,10 +44,10 @@
 **Above-the-fold.**  30-second Why/Who/How triad, a live “What exists today” box, and a minimal QS checklist.
 
 **QS checklist.**
-- Read the 30-second overview.  
-- Pick your path.  
-- Star the repo or join Discussions.  
-- Builders: install PS7 and GitHub CLI.  
+- Read the 30-second overview.
+- Pick your path.
+- Star the repo or join Discussions.
+- Builders: install PS7 and GitHub CLI.
 
 ---
 
@@ -77,18 +77,18 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Better civic decisions depend on informed, voluntary participation.  You are the heartbeat of legitimacy.
 
 **DO.**
-1. Read the one-minute idea in Start Here.  
-2. Skim the CC highlights.  
-3. Watch a 60-second demo clip.  
-4. Star the repo or drop a 👍 on a proposal.  
+1. Read the one-minute idea in Start Here.
+2. Skim the CC highlights.
+3. Watch a 60-second demo clip.
+4. Star the repo or drop a 👍 on a proposal.
 
 **VERIFY.** You can explain CoCivium in one paragraph to a friend.
 
 **Next actions.** Respond to an open question in Discussions.  Share a link with someone who cares about governance.
 
 **FAQ (short).**
-- *Is this political?*  It is pro-process, not partisan.  
-- *Is there a token?*  No.  Reputation is earned, not bought.  
+- *Is this political?*  It is pro-process, not partisan.
+- *Is there a token?*  No.  Reputation is earned, not bought.
 - *Do I need to code?*  No.  Writing and feedback are valuable.
 
 ### 2B) Contributor / Builder
@@ -97,17 +97,17 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Tiny, safe changes compounding over time build trust and capability.
 
 **DO.**
-1. Clone the repo.  Run the preflight (UTF-8, LF) and `git fetch --prune`.  
-2. Create a branch.  Fix one small thing (typo, broken link, clarity).  
-3. Commit with a conventional message.  Open a PR with labels (`docs`, `content`, `ci`).  
+1. Clone the repo.  Run the preflight (UTF-8, LF) and `git fetch --prune`.
+2. Create a branch.  Fix one small thing (typo, broken link, clarity).
+3. Commit with a conventional message.  Open a PR with labels (`docs`, `content`, `ci`).
 
 **VERIFY.** CI is green.  Your PR shows required checks.  You request review.
 
 **Next actions.** Pick a “good first issue.”  Learn the `Watch-Checks` helper.  Grab a docs polish card.
 
 **FAQ.**
-- *Windows friendly?*  Yes.  PS7 is first-class.  
-- *Direct commit to main?*  Default is branch + PR + squash.  
+- *Windows friendly?*  Yes.  PS7 is first-class.
+- *Direct commit to main?*  Default is branch + PR + squash.
 - *Style rules?*  Two spaces after periods.  US spelling (except Dogs n Homes).
 
 ### 2C) Steward / Operator
@@ -116,17 +116,17 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Safety rails create psychological safety for experimentation.
 
 **DO.**
-1. Enforce HumanGate and squash-merge policy.  
-2. Use labels consistently.  Triage weekly.  
-3. Tag releases using the machine-lowercase scheme (e.g., `cocivop-v0.1`).  
-4. Keep decision trails reconstructable from issues/PRs + commits.  
+1. Enforce HumanGate and squash-merge policy.
+2. Use labels consistently.  Triage weekly.
+3. Tag releases using the machine-lowercase scheme (e.g., `cocivop-v0.1`).
+4. Keep decision trails reconstructable from issues/PRs + commits.
 
 **VERIFY.** You can cut a release, revert it, and explain why in three sentences.
 
 **Next actions.** Rotate signing keys per plan.  Post a monthly health note.
 
 **FAQ.**
-- *When to hotfix main?*  Only for urgent breakage, with immediate post-hoc PR.  
+- *When to hotfix main?*  Only for urgent breakage, with immediate post-hoc PR.
 - *Delete branches?*  Yes, after squash merge.
 
 ### 2D) Educator / Parent
@@ -135,16 +135,16 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Early practice builds civic muscles and empathy.
 
 **DO.**
-1. Download an FTW challenge pack.  
-2. Review the privacy & classroom tips.  
-3. Run the 20-minute tutorial scenario.  
+1. Download an FTW challenge pack.
+2. Review the privacy & classroom tips.
+3. Run the 20-minute tutorial scenario.
 
 **VERIFY.** Learners complete the tutorial and write one reflection.
 
 **Next actions.** Issue printed badges.  Send anonymized feedback via the template.
 
 **FAQ.**
-- *Age range?*  Designed for ~10+, adjustable.  
+- *Age range?*  Designed for ~10+, adjustable.
 - *Religious overtones?*  Avoided.  Ethics, not dogma.
 
 ### 2E) Partner / Funder
@@ -153,16 +153,16 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Funding without alignment corrupts outcomes.  Alignment first.
 
 **DO.**
-1. Read the CivicFit Engine (CoFit) overview.  
-2. Review the Grant Use Policy and alignment checklist.  
-3. Open a “Partner Intake” issue using the template.  
+1. Read the CivicFit Engine (CoFit) overview.
+2. Review the Grant Use Policy and alignment checklist.
+3. Open a “Partner Intake” issue using the template.
 
 **VERIFY.** Your intent, scope, and guardrails are clear in writing.
 
 **Next actions.** Sponsor a constrained pilot with public metrics.
 
 **FAQ.**
-- *Equity ask?*  None.  This is a commons.  
+- *Equity ask?*  None.  This is a commons.
 - *Attribution?*  Institutional by default; explicit credit optional.
 
 ### 2F) Youth Player (FTW Game)
@@ -171,16 +171,16 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Why it matters.** Practicing choices in low-stakes settings builds wisdom.
 
 **DO.**
-1. Complete the tutorial.  Choose your path (constructive or mischievous).  
-2. Earn your first badge.  
-3. Share a reflection with a parent or mentor.  
+1. Complete the tutorial.  Choose your path (constructive or mischievous).
+2. Earn your first badge.
+3. Share a reflection with a parent or mentor.
 
 **VERIFY.** You can describe what changed based on your choices.
 
 **Next actions.** Try a harder dilemma.  Explore how your ideas map to real policy prototypes.
 
 **FAQ.**
-- *Scores?*  Visual badges and “congruence energy,” not numbers.  
+- *Scores?*  Visual badges and “congruence energy,” not numbers.
 - *Privacy?*  Minimal data.  Parental guidance encouraged.
 
 ---
@@ -278,17 +278,17 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 **Release scheme.** Machine-lowercase tags (`cc-v1`, `cocivop-v0.1`), with human aliases on the site.  Squash merges keep history tidy.
 
 **Roadmap.**
-- **0–3 months.** Guide v1 in repo.  FTW tutorial.  A/B switcher prototype.  Basic metrics badge.  
-- **3–6 months.** CoFit alpha.  Partner intake template live.  More classroom packs.  
-- **6–12 months.** Public pilots with published outcomes.  Auto-generated repo map and glossary.  
+- **0–3 months.** Guide v1 in repo.  FTW tutorial.  A/B switcher prototype.  Basic metrics badge.
+- **3–6 months.** CoFit alpha.  Partner intake template live.  More classroom packs.
+- **6–12 months.** Public pilots with published outcomes.  Auto-generated repo map and glossary.
 
 ---
 
 ## 9) Reference
 **FAQ (sample).**
-- *How do I start without coding?*  React in Discussions and help improve docs.  
-- *What if I disagree?*  Open a constructive issue with alternatives and trade-offs.  
-- *Can I use this in my town?*  Yes.  Forks welcome.  Share lessons back.  
+- *How do I start without coding?*  React in Discussions and help improve docs.
+- *What if I disagree?*  Open a constructive issue with alternatives and trade-offs.
+- *Can I use this in my town?*  Yes.  Forks welcome.  Share lessons back.
 
 **Glossary.** Backed by GIBindex with provenance for key terms.
 
@@ -310,9 +310,9 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 ---
 
 **Cross-links from root README (above-the-fold).**
-- Start Here → this guide’s Start Here section.  
-- Quickstart → Contributor / Builder track.  
-- Cognocarta Consenti → Core Concepts.  
-- Roadmap → Metrics & Roadmap.  
+- Start Here → this guide’s Start Here section.
+- Quickstart → Contributor / Builder track.
+- Cognocarta Consenti → Core Concepts.
+- Roadmap → Metrics & Roadmap.
 
 **Success criteria.** A newcomer reaches first meaningful action in ≤5 minutes.  A builder opens a first PR in ≤15 minutes.  A steward can run a safe release using only the guide.

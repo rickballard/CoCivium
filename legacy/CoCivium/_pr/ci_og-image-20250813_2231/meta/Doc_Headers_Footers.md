@@ -1,5 +1,5 @@
 # Doc Headers & Footers — CoCivium
-**Created:** 025-08-10  
+**Created:** 025-08-10
 **Purpose:** Define standard headers/footers for Markdown and ODT so readers get context fast and contributors preserve lineage.
 
 ## Header (Markdown)

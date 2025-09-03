@@ -40,5 +40,5 @@
 ---
 
 ## Status signals (are we co‑evolving?)
-**Leading:** small PRs; review latency ≤1 biz day; newcomer‑to‑green ≤15 min.  
+**Leading:** small PRs; review latency ≤1 biz day; newcomer‑to‑green ≤15 min.
 **Trailing:** low change‑failure; fewer “what broke?” pings; ≥80% sentinel warnings resolved ≤7 days.

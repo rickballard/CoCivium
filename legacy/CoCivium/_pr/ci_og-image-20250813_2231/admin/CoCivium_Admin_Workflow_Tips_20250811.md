@@ -1,6 +1,6 @@
 CoCivium Admin Workflow Tips — 2025-08-11 (EST 1:07)
 
-A short, opinionated checklist from today’s cleanup (workflow guardrails, README refresh, lint hygiene/fights, PR flow/hygiene).  Goal: fewer surprises, faster merges, cleaner history.  
+A short, opinionated checklist from today’s cleanup (workflow guardrails, README refresh, lint hygiene/fights, PR flow/hygiene).  Goal: fewer surprises, faster merges, cleaner history.
 
 1) Branch & PR Flow (keep it boring)
 

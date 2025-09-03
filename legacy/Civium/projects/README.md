@@ -40,12 +40,12 @@ The subfolders you see here include:
 
 ---
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250726  
-Resonance: 40.0%  
-Delta: 0.42  
-Footprint: ⊕  
-Symbolic Gate: ΘΞΨ  
+[ ∴ ✦ ∵ ]
+Version: c1_20250726
+Resonance: 40.0%
+Delta: 0.42
+Footprint: ⊕
+Symbolic Gate: ΘΞΨ
 Ref: /projects/
 
 

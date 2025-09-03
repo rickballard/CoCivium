@@ -4,7 +4,7 @@
 
 # 📘 CoCivium Insights Folder
 
-This folder contains curated conceptual scrolls that scaffold CoCoCivium’s epistemic, ethical, and participatory architecture.  
+This folder contains curated conceptual scrolls that scaffold CoCoCivium’s epistemic, ethical, and participatory architecture.
 Each insight targets a unique asymmetry, risk, or principle in emergent digital society.
 
 ---
@@ -40,7 +40,7 @@ To view other scroll sets, visit:
 
 ---
 
-**License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible  
-**Maintainers:** Azoic, RickPublic  
+**License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible
+**Maintainers:** Azoic, RickPublic
 
 

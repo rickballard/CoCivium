@@ -1,13 +1,13 @@
 <!-- Filename: README_academy.md -->
 # Academy Subproject
 
-**Purpose:**  
+**Purpose:**
 Mindnaught recognition, skill-onboarding, and contributor elevation framework for CoCivium knowledge developers.
 
-**Status:**  
+**Status:**
 Stubbed for future implementation and documentation. This subproject is aligned with CoCoCivium’s emergent architecture and ethical foundation.
 
-**Coherence Estimate:**  
+**Coherence Estimate:**
 TBD (stub phase)
 
 **Created:** 2025-07-26

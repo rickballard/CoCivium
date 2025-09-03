@@ -25,11 +25,11 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 ## 2) “Living History of CoCivium” (yearly, for future historians)
 
-**Location:** `docs/history/`  
-**Files:**  
-- `INDEX.md` — one‑page timeline with links.  
-- `YYYY.md` — yearly chapter (vision vs. reality, pivots, lessons).  
-- `people/rick.md` — profile of Rick (ethos, style, preferences, notable work).  
+**Location:** `docs/history/`
+**Files:**
+- `INDEX.md` — one‑page timeline with links.
+- `YYYY.md` — yearly chapter (vision vs. reality, pivots, lessons).
+- `people/rick.md` — profile of Rick (ethos, style, preferences, notable work).
 - `glossary.md` — terms that emerged that year (with first‑seen links).
 
 **Yearly chapter template (`docs/history/2025.md`):**
@@ -55,8 +55,8 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 **Mechanics options:**
 
-- **PR Comment Report (preferred):** the guard posts a comment with findings and suggested fixes. Zero file churn.  
-- **Sidecar report file:** write `yourfile.md.lint.md` in the same folder (ignored by the site build) that lists findings and proposed patches.  
+- **PR Comment Report (preferred):** the guard posts a comment with findings and suggested fixes. Zero file churn.
+- **Sidecar report file:** write `yourfile.md.lint.md` in the same folder (ignored by the site build) that lists findings and proposed patches.
 - **Inline footer block (when desired):** append a clearly delimited section at the end of the changed doc:
   ```md
   <!-- LINT-REPORT:BEGIN -->
@@ -75,9 +75,9 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 **Goal:** Allow artistic language for inspiration while preventing policy‑sounding misreads.
 
-**Marking poetry:**  
-- Frontmatter: `poetic: true` **or** `guard_exempt: ["nasties"]`  
-- Inline: `<!-- guard:ignore-start -->` … `<!-- guard:ignore-end -->` or `<!-- guard:ignore-line -->`  
+**Marking poetry:**
+- Frontmatter: `poetic: true` **or** `guard_exempt: ["nasties"]`
+- Inline: `<!-- guard:ignore-start -->` … `<!-- guard:ignore-end -->` or `<!-- guard:ignore-line -->`
 - Presentation conventions (any two): italics, blockquote, or quotation marks. In .md prefer italics + blockquote:
   ```md
   > _“We plant shade for those yet to arrive.”_
@@ -92,8 +92,8 @@ This memo captures policies and patterns we discussed so you can drop them into 
 **What it is:** A *vibe‑aware guidance layer* that helps teams keep language, intent, and policy congruent across repos, PRs, and releases.
 
 **Packaging tracks (non‑exclusive):**
-1. **ChatGPT extension / GPT:** streamline as a targeted writing assistant that understands the Nasties Bucket, Sentinels, and house style.  
-2. **API middleware:** a small service that lints, suggests, and auto‑patches docs via webhooks / CI, returning diffs.  
+1. **ChatGPT extension / GPT:** streamline as a targeted writing assistant that understands the Nasties Bucket, Sentinels, and house style.
+2. **API middleware:** a small service that lints, suggests, and auto‑patches docs via webhooks / CI, returning diffs.
 3. **OSS core + Pro SaaS:** open a minimal library (repo lints + style rules) and offer hosted reporting, history, and analytics.
 
 **Category:** “Vibe plugin” / governance‑aware writing copilot.
@@ -105,8 +105,8 @@ This memo captures policies and patterns we discussed so you can drop them into 
 **Default stance:** open by default. When justified, gate *documents*, not repos.
 
 **Recommended tooling:**
-- **Age/SOPS** for file‑level encryption in‑repo.  
-- **Bitwarden** as your personal key vault (store the decryption key/cert).  
+- **Age/SOPS** for file‑level encryption in‑repo.
+- **Bitwarden** as your personal key vault (store the decryption key/cert).
 - Git ignore decrypted outputs; keep only `*.enc` committed.
 - Provide a one‑liner to decrypt:
   ```pwsh
@@ -114,19 +114,19 @@ This memo captures policies and patterns we discussed so you can drop them into 
   ```
 
 **Operational guardrails:**
-- Keep an unencrypted public abstract/teaser checked in (so the tree stays navigable).  
-- Never commit decrypted files; add pre‑commit hook to reject them.  
+- Keep an unencrypted public abstract/teaser checked in (so the tree stays navigable).
+- Never commit decrypted files; add pre‑commit hook to reject them.
 - Log who decrypted when (local script can append a line to a private audit log).
 
 ---
 
 ## 7) Migration wrap pattern (Grand Migration, then breathe)
 
-**High‑level moves:**  
-- Freeze: pause non‑urgent PRs and tag the state.  
-- Sweep: run readme smoke, link check, codespell, nasties advisory.  
-- Wire: CODEOWNERS and soft guards, unify editorial voice in README/USER_GUIDE.  
-- Archive: mark deprecated folders with `README_DEPRECATED.md` explaining successors.  
+**High‑level moves:**
+- Freeze: pause non‑urgent PRs and tag the state.
+- Sweep: run readme smoke, link check, codespell, nasties advisory.
+- Wire: CODEOWNERS and soft guards, unify editorial voice in README/USER_GUIDE.
+- Archive: mark deprecated folders with `README_DEPRECATED.md` explaining successors.
 - Announce: short post linking to the “Living History” chapter and what’s next.
 
 (We omit time estimates by policy; execute in this order to minimize churn.)
@@ -136,24 +136,24 @@ This memo captures policies and patterns we discussed so you can drop them into 
 ## 8) Telemetry, upgrades, and product insights (privacy‑first)
 
 **Telemetry principles:**
-- **Opt‑in by default** (set `telemetry: false` unless the person explicitly enables).  
-- Capture only **coarse** events: feature used, success/fail, duration band; no payloads.  
+- **Opt‑in by default** (set `telemetry: false` unless the person explicitly enables).
+- Capture only **coarse** events: feature used, success/fail, duration band; no payloads.
 - Let people see & purge their local telemetry cache.
 - Document the event taxonomy in `docs/ops/telemetry/EVENTS.md`.
 
 **Implementation sketch:**
-- Emit newline‑delimited JSON into a local buffer.  
-- Batch to a simple collector endpoint; if unreachable, silently drop.  
-- Add an *in‑app “Check for updates”* that hits a static `releases.json` on GitHub Pages and surfaces notes.  
+- Emit newline‑delimited JSON into a local buffer.
+- Batch to a simple collector endpoint; if unreachable, silently drop.
+- Add an *in‑app “Check for updates”* that hits a static `releases.json` on GitHub Pages and surfaces notes.
 - Provide a **Performance Diary** switch that logs timings locally for the next N sessions and then turns off.
 
 ---
 
 ## 9) Final polish ethic (snippets, quotes, reputation)
 
-- Write as if any snippet could be screenshot and stripped of context.  
-- Prefer **“consent not coercion”** and similarly unambiguous phrasing.  
-- Avoid absolutisms (“AI replaces humans”) unless you defend them explicitly.  
+- Write as if any snippet could be screenshot and stripped of context.
+- Prefer **“consent not coercion”** and similarly unambiguous phrasing.
+- Avoid absolutisms (“AI replaces humans”) unless you defend them explicitly.
 - Canonicals get a human pass; poetry gets a gentler pass but still a sanity check.
 
 ---

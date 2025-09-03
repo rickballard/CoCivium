@@ -12,6 +12,6 @@
 **Coevolution Call.**  (1 line.  Invitation to iterate.)
 
 ---
-**Footer**  
-[Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]  
+**Footer**
+[Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]
 Congruence: 01c–99c after second-human edit.

@@ -1,6 +1,6 @@
 # Eyes (Metrics & Scope) — README
 
-Purpose.  Static-first spider diagrams for the repo landing page.  Pages enhances with optional tooltips/shimmer.  
+Purpose.  Static-first spider diagrams for the repo landing page.  Pages enhances with optional tooltips/shimmer.
 
 Files.
 - `metrics.svg`, `scope.svg` — static images committed here.
