@@ -1,6 +1,1 @@
-## ✅ Next Steps
-
-- [ ] Review and squash-merge PR: docs(outreach): add partner outreach dump
-- [ ] Optionally move partner targets into dedicated .md stubs later
-- [ ] Return to docs/scope-spec-eyes-c1 branch for Great Migration
-
+## ✅ Next Steps- [ ] Review and squash-merge PR: docs(outreach): add partner outreach dump- [ ] Optionally move partner targets into dedicated .md stubs later- [ ] Return to docs/scope-spec-eyes-c1 branch for Great Migration## After this sweep- [ ] Review PR #341 (Scope Spec Eyes C1b)- [ ] Create Open Collective links + Sponsors tile- [ ] Run link audit, update hero assets if missing
