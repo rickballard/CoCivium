@@ -1,0 +1,39 @@
+{
+  "repos": [
+    "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium",
+    "C:\\Users\\Chris\\Documents\\GitHub\\CoCache",
+    "C:\\Users\\Chris\\Documents\\GitHub\\CoModules",
+    "C:\\Users\\Chris\\Documents\\GitHub\\GIBindex",
+    "C:\\Users\\Chris\\Documents\\GitHub\\Civium"
+  ],
+  "maxHashBytes": 5242880,
+  "includeExtensions": [
+    ".md",
+    ".ps1",
+    ".yml",
+    ".yaml",
+    ".json",
+    ".toml",
+    ".ini",
+    ".cfg",
+    ".csv",
+    ".psm1",
+    ".sh",
+    ".bat",
+    ".txt",
+    ".cs",
+    ".ts",
+    ".js",
+    ".py",
+    ".svg",
+    ".png",
+    ".jpg",
+    ".gif",
+    ".ico",
+    ".html",
+    ".css"
+  ],
+  "excludePathRegex": "(^|/|\\\\)(\\.git|node_modules|dist|bin|obj|.venv|__pycache__|.cache)(/|\\\\)",
+  "makePR": true,
+  "branchName": "docs/coindex-v0"
+}

@@ -1,0 +1,3 @@
+# domains that vary in reliability
+medium.com
+reddit.com

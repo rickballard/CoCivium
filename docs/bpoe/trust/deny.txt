@@ -1,0 +1,2 @@
+# domains that usually violate policy or are risky
+pastebin.com

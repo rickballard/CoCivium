@@ -1,0 +1,26 @@
+name: Triage Guard
+on:
+  pull_request:
+    paths:
+      - 'intake/ideacards/**.md'
+      - '.github/workflows/triage-guard.yml'
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate triage & stream
+        shell: pwsh
+        run: |
+          $errs = 0
+          $files = Get-ChildItem 'intake/ideacards' -Recurse -Filter *.md -EA SilentlyContinue
+          foreach ($f in $files) {
+            $raw = Get-Content $f.FullName -Raw -EA SilentlyContinue
+            if (-not ($raw -match '^(?s)\A---\s*(.*?)\s---')) { continue }
+            $yaml = $Matches[1]
+            $tri  = if ($yaml -match '(?im)^\s*triage\s*:\s*(.+)$') { $Matches[1].Trim() } else { '' }
+            $strm = if ($yaml -match '(?im)^\s*stream\s*:\s*(.+)$') { $Matches[1].Trim() } else { '' }
+            if ([string]::IsNullOrWhiteSpace($tri) -or $tri -match '^(?i)untriaged$') { Write-Error "Untriaged: $($f.FullName)"; $errs++ }
+            if ([string]::IsNullOrWhiteSpace($strm) -or $strm -match '^(?i)TBD$')  { Write-Error "Stream TBD: $($f.FullName)"; $errs++ }
+          }
+          if ($errs -gt 0) { throw "Triage guard failed: $errs issue(s)." }

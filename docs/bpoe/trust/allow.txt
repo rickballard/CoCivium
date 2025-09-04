@@ -1,0 +1,7 @@
+# one domain per line (no scheme), comments start with '#'
+github.com
+learn.microsoft.com
+docs.microsoft.com
+pypi.org
+npmjs.com
+powershellgallery.com

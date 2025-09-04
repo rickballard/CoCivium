@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>DO Block Demo</title>
+<link rel='stylesheet' href='../assets/do-blocks.css'>
+<style>body{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; max-width:1000px; margin:2rem auto; padding:0 1rem}</style>
+</head>
+<body>
+  <h1>Scrollable DO Blocks (20-line default)</h1>
+
+  <div class='do' style='--do-lines:20'>
+    <div class='do-summary'>Does: Audit/repair intake map, ensure BPOE log exists</div>
+    <pre><code class='language-powershell'># paste your DO code here…
+# only ~20 lines will show; the rest scrolls vertically.
+# copy button sits at the bottom.
+# (this is a demo; in real docs you’ll render code fences)
+</code></pre>
+    <button class='copy-bottom' type='button'>Copy code</button>
+  </div>
+
+  <div class='do' style='--do-lines:20'>
+    <div class='do-summary'>CoPong: Example payload trimmed to 20 visible lines</div>
+    <pre><code class='language-json'>{
+  "type": "copong",
+  "session": "grand-migration",
+  "tasks": [
+    {"id": 1, "title": "Normalize intake"},
+    {"id": 2, "title": "Generate indexes"},
+    {"id": 3, "title": "Add CI guards"}
+    // …long list continues…
+  ]
+}
+</code></pre>
+    <button class='copy-bottom' type='button'>Copy code</button>
+  </div>
+
+  <script src='../assets/do-blocks.js'></script>
+</body>
+</html>

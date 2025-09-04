@@ -1,10 +1,5 @@
-*.ps1  text eol=lf
-*.psm1 text eol=lf
-*.psd1 text eol=lf
-*.sh   text eol=lf
-*.md   text eol=lf
-*.yml  text eol=lf
-*.yaml text eol=lf
-*.json text eol=lf
-*.ts   text eol=lf
-*.js   text eol=lf
+*.md    text=auto eol=lf working-tree-encoding=UTF-8
+*.txt   text=auto eol=lf working-tree-encoding=UTF-8
+*.yml   text=auto eol=lf working-tree-encoding=UTF-8
+*.yaml  text=auto eol=lf working-tree-encoding=UTF-8
+*.ps1   text=auto eol=lf working-tree-encoding=UTF-8

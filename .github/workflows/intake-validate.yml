@@ -1,0 +1,30 @@
+name: Intake Map Validate
+on:
+  pull_request:
+    paths:
+      - 'index/INTAKE_MAP_session_*'
+      - 'intake/**'
+      - '.github/workflows/intake-validate.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate intake map
+        shell: pwsh
+        run: |
+          $maps = Get-ChildItem 'index' -Filter 'INTAKE_MAP_session_*.tsv' -EA SilentlyContinue
+          if (-not $maps) { Write-Error 'No intake map found.'; exit 1 }
+          $errs = 0
+          foreach ($m in $maps) {
+            $lines = Get-Content $m.FullName
+            if (-not $lines -or $lines.Count -lt 2) { Write-Error "Map $($m.Name) has no rows"; $errs++; continue }
+            for ($i=1; $i -lt $lines.Count; $i++) {
+              $parts = $lines[$i] -split "`t"
+              if ($parts.Count -ne 4) { Write-Error "Bad columns ($($parts.Count)) in $($m.Name): line $i"; $errs++; continue }
+              $cat,$name,$from,$to = $parts
+              if (-not (Test-Path -Path $from)) { Write-Error "Missing 'from' path: $from"; $errs++ }
+              if (-not (Test-Path -Path $to))   { Write-Error "Missing 'to' path:   $to";   $errs++ }
+            }
+          }
+          if ($errs -gt 0) { throw "Validation failed with $errs error(s)." }

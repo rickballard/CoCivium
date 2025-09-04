@@ -33,3 +33,5 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 - **CoCache** (private scratchpad — this repo)
 
 
+
+- See **ISSUEOPS (Quick)** → `docs/ops/ISSUEOPS.md`
