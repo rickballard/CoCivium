@@ -6,3 +6,14 @@
    - Get a **second reviewer** to approve; then squash-merge.
    - Or temporarily lower “Required approving reviews”/**disable last-push approval** in Branch Protection (UI), squash-merge, **restore** the rule.
 4) Keep redirect stubs for moved docs to avoid link rot.
+
+---
+
+## 🔐 Rule: Ban Raw `.odt` Dumps in Commit History
+
+Avoid committing session output (`*.odt`, `*.log`, `*.bak`) unless:
+- Contents are fully reviewed, scrubbed, and markdown-extracted
+- They are part of a curated insights archive with clear rationale
+
+Add `*.odt` to `.gitignore` globally.
+Use `PS7TranscriptCleaner.ps1` before exporting logs.

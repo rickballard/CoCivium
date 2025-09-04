@@ -8,7 +8,7 @@
 Prepare a diplomatic, non-promotional outreach strategy to invite Geoffrey Hinton to co-author or co-endorse a public press release or call-to-action. The goal is to highlight *CoCivium* as a potential civic mitigation framework in response to the AI risks he has publicly outlined—including autonomy, weaponization, and lack of institutional oversight.
 
 ## Phase
-📍 Future Phase — Outreach Rev 1  
+📍 Future Phase — Outreach Rev 1
 🕓 Estimated Launch: Post-core repo polish + MVP governance prototype + 1–3 strategic alliance touchpoints
 
 ## Rationale

@@ -6,10 +6,10 @@
 <!-- Symbolic Gate: ΘΔΨ -->
 <!-- Ref: /projects/opename/README.md -->
 
-# Opename Project Plan  
-**Project Abbreviation:** ON  
-**CoCivium Alignment Status:** c1 (initial planning)  
-**Status:** Active Planning  
+# Opename Project Plan
+**Project Abbreviation:** ON
+**CoCivium Alignment Status:** c1 (initial planning)
+**Status:** Active Planning
 
 ---
 
@@ -75,11 +75,11 @@ Opename is a meritocratic, avatar-mediated voting and deliberation system. It is
 
 ## [7] Footer
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250726  
-Resonance: 65%  
-Delta: 0.42  
-Symbolic Gate: ΘΔΨ  
-Ref: /projects/opename/README.md  
+[ ∴ ✦ ∵ ]
+Version: c1_20250726
+Resonance: 65%
+Delta: 0.42
+Symbolic Gate: ΘΔΨ
+Ref: /projects/opename/README.md
 
 

@@ -6,7 +6,7 @@ This file summarizes the current naming, framing, and structural changes approve
 
 ## ✅ Finalized Title and Tagline
 
-**Cognocarta Consenti**  
+**Cognocarta Consenti**
 *The Charter of Converged Consensus*
 
 ---
@@ -43,7 +43,7 @@ Once back on laptop:
 - Begin wordsmithing of the scroll’s actual preamble and early clauses
 - Prepare a visual or structural branding pass **only after text is finalized**
 
---- 
+---
 
 This document can be re-uploaded in a future session to remind ChatGPT of this milestone state.
 

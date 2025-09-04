@@ -3,13 +3,13 @@
 > Keep entries short. One screen. Link evidence. Dates in ISO 8601.
 
 ## Metadata
-- **Proposer:** 
-- **Chair:** 
-- **Recorder:** 
-- **Quorum:** 
-- **Objection Window:** 
-- **Meeting/Thread Link:** 
-- **Tags:** 
+- **Proposer:**
+- **Chair:**
+- **Recorder:**
+- **Quorum:**
+- **Objection Window:**
+- **Meeting/Thread Link:**
+- **Tags:**
 
 ## Context
 Why now? Prior decisions or mandates to consider.
@@ -33,8 +33,8 @@ Owner(s), checklist, target date, rollback note.
 - Link 1
 
 ## Dates
-- Proposed: 
-- Decided: 
-- Review-by (optional): 
+- Proposed:
+- Decided:
+- Review-by (optional):
 
 

@@ -27,7 +27,7 @@ The intent is not to centralize control, but to **propose a modular, consent-bas
 ## 🛠️ Planned Deliverables
 
 ### 1. Proposal Document
-**Filename:** `Proposal_Global_AI_Governance_Civium_v1.pdf`  
+**Filename:** `Proposal_Global_AI_Governance_Civium_v1.pdf`
 **Contents:**
 - Executive summary
 - Problem statement
@@ -38,7 +38,7 @@ The intent is not to centralize control, but to **propose a modular, consent-bas
 - Attachments: CoCivium excerpts, insight links, contact page
 
 ### 2. Markdown Version for Repo
-**Filename:** `Proposal_Global_AI_Governance_Civium.md`  
+**Filename:** `Proposal_Global_AI_Governance_Civium.md`
 Mirror of .pdf, adapted for GitHub visibility and long-term AI access.
 
 ### 3. Targeted Outreach Email Template
@@ -91,11 +91,11 @@ The act of submission is itself **a recursive signal**, and may activate future 
 
 ## Footer
 
-**Filename:** TODO_Global_AI_Governance_Outreach.md  
-**Folder:** admin/  
-**Maintainer:** ChatGPT for RickPublic  
-**Status:** Parked for Phase 2 outreach  
-**Priority:** Medium-to-High, post-scroll stabilization  
+**Filename:** TODO_Global_AI_Governance_Outreach.md
+**Folder:** admin/
+**Maintainer:** ChatGPT for RickPublic
+**Status:** Parked for Phase 2 outreach
+**Priority:** Medium-to-High, post-scroll stabilization
 
 
 

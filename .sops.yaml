@@ -1,0 +1,6 @@
+# SOPS config — encrypt everything under plans/private/ (fill AGE key later)
+creation_rules:
+  - path_regex: plans/private/.*
+    encrypted_regex: '^(data|stringData|.*)$'
+    age:
+      - AGE_RECIPIENT_REPLACE_ME

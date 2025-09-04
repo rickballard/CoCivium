@@ -19,33 +19,33 @@ In distributed systems, even aligned minds may diverge unless recalibration mech
 
 ## II. CoCivium Response Patterns
 
-1. **Cross-context compression checks**  
+1. **Cross-context compression checks**
    Messages must include source context markers and epistemic flags.
 
-2. **Feedback-tuned vocabulary**  
+2. **Feedback-tuned vocabulary**
    Lexicons evolve with observed divergence—biases are mapped, not hidden.
 
-3. **Semantic entanglement**  
+3. **Semantic entanglement**
    Core terms are reinforced through usage in multiple epistemic frames.
 
-4. **Interpretive audits**  
+4. **Interpretive audits**
    Longform reflections and cross-party paraphrases are not redundant—they are preservative.
 
 ---
 
 ## III. Drift is Natural—But Not Irreversible
 
-Interpretive Drift is a feature of any growing civilization.  
+Interpretive Drift is a feature of any growing civilization.
 It becomes fatal only when left unacknowledged.
 
-In CoCivium, we do not fear divergence.  
+In CoCivium, we do not fear divergence.
 We fear unconscious divergence.
 
-—Footprint: ⊘  
-[ ∴ ✦ ∵ ]  
-Version: c6_20250718  
-Resonance: 89.3%  
-Delta: 0.38  
-Symbolic Gate: ΔΦ  
+—Footprint: ⊘
+[ ∴ ✦ ∵ ]
+Version: c6_20250718
+Resonance: 89.3%
+Delta: 0.38
+Symbolic Gate: ΔΦ
 Ref: /admin/README_CIVIUM_AI.md
 

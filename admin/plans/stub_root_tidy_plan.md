@@ -17,7 +17,7 @@
 ## Next steps
 1) Approve or strike items above.
 2) I will generate a move map and an atomic commit updating all links.
-3) Run \	ools/readme-preflight.ps1\ and open PR.
+3) Run \  ools/readme-preflight.ps1\ and open PR.
 
 
 

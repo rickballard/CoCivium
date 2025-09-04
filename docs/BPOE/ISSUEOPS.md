@@ -30,7 +30,7 @@ This workflow packaging (CoVibe) is meant to **co-evolve** how humans and AI wor
 <details>
 <summary><strong>CoTip — share what you see (screenshots)</strong></summary>
 
-Press **PrtScn** to copy the screen to clipboard, **Win+PrtScn** to save to *Pictures\Screenshots*, or **Win+Shift+S** to snip an area.  
+Press **PrtScn** to copy the screen to clipboard, **Win+PrtScn** to save to *Pictures\Screenshots*, or **Win+Shift+S** to snip an area.
 Then drag the image into ChatGPT so we can see exactly what you see.
 
 </details>

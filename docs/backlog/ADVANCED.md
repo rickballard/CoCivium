@@ -23,7 +23,7 @@ _Last updated 2025-08-26._
 ## Next (1–2 weeks)
 
 - [ ] **Backlog source-of-truth** → move curated list to docs/backlog/ADVANCED.yaml + renderer.
-  - Fields: priority (now/next/soon), rea, owner?, links, 
+  - Fields: priority (now/next/soon), rea, owner?, links,
 otes.
 
 - [ ] **Workbench polish & tests**
@@ -31,7 +31,7 @@ otes.
   - Add Pester tests; minimal usage doc under docs/tools/.
 
 - [ ] **Issue templates + labels + CODEOWNERS**
-  - Task, RFC/Design, Docs templates with rea:*, 	ype:*, level:*, priority:*.
+  - Task, RFC/Design, Docs templates with rea:*,   ype:*, level:*, priority:*.
 
 - [ ] **CI: SVG→PNG render**
   - Add Inkscape/rsvg-convert step so local Inkscape stays optional.
@@ -46,5 +46,5 @@ otes.
 
 ## Live feed from Issues (auto-appended)
 <!-- LIVE:BEGIN -->
-_No labeled Issues matched 	ype:task + level:advanced right now._
+_No labeled Issues matched   ype:task + level:advanced right now._
 <!-- LIVE:END -->

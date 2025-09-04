@@ -2,9 +2,9 @@
 *A living constitution for consent, convergence, and coherence.*
 
 ## Preamble
-We, the builders and stewards of CoCivium, form this living Cognocarta to align power with consent and to bind our systems—human and machine—to accountable, reversible, and transparent action.  
-We reject coercion as the default. We elevate pluralism and interoperability so communities may fork without schism and rejoin without penalty.  
-We steward shared commons, constrain authority (human or AI), and prefer evidence over authority, iteration over stagnation, and legibility over obscurity.  
+We, the builders and stewards of CoCivium, form this living Cognocarta to align power with consent and to bind our systems—human and machine—to accountable, reversible, and transparent action.
+We reject coercion as the default. We elevate pluralism and interoperability so communities may fork without schism and rejoin without penalty.
+We steward shared commons, constrain authority (human or AI), and prefer evidence over authority, iteration over stagnation, and legibility over obscurity.
 We do this so that cooperation scales with dignity, and freedom scales with care.
 
 > **consent not coercion. Evidence before authority. Commons before enclosure.**

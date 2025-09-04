@@ -4,10 +4,10 @@
 Purpose (plain language).
 
 ## Principles
-- Consent before coercion  
-- Transparency & traceability  
-- Reversibility & error-correction  
-- Dignity, privacy, proportionality  
+- Consent before coercion
+- Transparency & traceability
+- Reversibility & error-correction
+- Dignity, privacy, proportionality
 
 ## Rights
 - Short, testable rights.

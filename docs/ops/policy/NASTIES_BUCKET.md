@@ -2,7 +2,7 @@
 
 Catalog of phrases/symbols/constructions we actively **block** in canonical docs/assets.
 
-**Default:** block.  
+**Default:** block.
 **Allowed with explicit exemption:** clearly poetic/quoted passages or files marked exempt.
 
 ## Exemptions (surgical, use sparingly)

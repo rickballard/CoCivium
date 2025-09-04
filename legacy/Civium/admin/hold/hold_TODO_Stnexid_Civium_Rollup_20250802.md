@@ -62,12 +62,12 @@ This document tracks the pending and in-progress tasks related to the integratio
 
 ## Footer
 
-**Filename:** `TODO_Stnexid_Civium_Rollup_20250802.md`  
-**Phase:** Stnexid-CoCivium Integration (Pre-regen)  
-**Maintainer:** ChatGPT on behalf of RickPublic  
-**Repo Folder:** `admin/`  
-**Created:** August 2, 2025  
-**Coherence Estimate:** 0.7  
+**Filename:** `TODO_Stnexid_Civium_Rollup_20250802.md`
+**Phase:** Stnexid-CoCivium Integration (Pre-regen)
+**Maintainer:** ChatGPT on behalf of RickPublic
+**Repo Folder:** `admin/`
+**Created:** August 2, 2025
+**Coherence Estimate:** 0.7
 
 
 

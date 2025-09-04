@@ -1,6 +1,6 @@
 # Last Session Context – CoCivium Regroom
 
-**Date:** 2025-08-09  
+**Date:** 2025-08-09
 **Purpose:** Capture end-of-session state so ChatGPT can resume without losing momentum.
 
 ---
@@ -9,17 +9,17 @@
 - Drafting `Foundational_Building_Blocks.md` for CoCivium.
 - Using **neutral “Challenge Perspective”** wording instead of “Devil’s Advocate”.
 - Structuring each principle with:
-  1. Definition  
-  2. Origin & Chain of Reasoning  
-  3. Challenge Perspective  
-  4. Response & Safeguards  
-  5. Checkpoints for Forks  
-  6. Feedback Loop to Consensus Path  
-  7. Maturity Rating  
-  8. Impact if Broken  
+  1. Definition
+  2. Origin & Chain of Reasoning
+  3. Challenge Perspective
+  4. Response & Safeguards
+  5. Checkpoints for Forks
+  6. Feedback Loop to Consensus Path
+  7. Maturity Rating
+  8. Impact if Broken
 - First three principles to pre-fill:
-  - Recursion  
-  - Congruence  
+  - Recursion
+  - Congruence
   - Emergent Ethics
 
 ---
@@ -42,7 +42,7 @@
 
 ---
 
-**Re-Prime Instructions for Next Session:**  
+**Re-Prime Instructions for Next Session:**
 Paste or upload this file to ChatGPT at the start of the session so it recalls the current state and continues seamlessly.
 
 

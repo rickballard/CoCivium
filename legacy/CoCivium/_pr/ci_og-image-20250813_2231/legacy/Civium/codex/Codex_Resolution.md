@@ -10,22 +10,22 @@ CoCivium sees conflict as recursive opportunity, not as failure.
 
 Resolution must:
 
-- Preserve interpretability  
-- Archive context  
-- Enable reactivation if circumstances evolve  
+- Preserve interpretability
+- Archive context
+- Enable reactivation if circumstances evolve
 - Minimize epistemic violence
 
 ---
 
 ## II. Resolution Patterns
 
-1. **Truth Convergence**  
+1. **Truth Convergence**
    Use MeritRank, transparency trails, and semantic scaffolds.
 
-2. **Coexistence Filters**  
+2. **Coexistence Filters**
    Some disagreements can persist if modular.
 
-3. **Temporal Cooling**  
+3. **Temporal Cooling**
    Delay decision paths when emotional escalation outweighs epistemic clarity.
 
 ---
@@ -34,18 +34,18 @@ Resolution must:
 
 All minds have:
 
-- The right to request interpretive review  
-- The right to context re-insertion  
+- The right to request interpretive review
+- The right to context re-insertion
 - The right to be remembered as coherent in intent, even if mistaken in form
 
-Resolution in CoCivium does not flatten dissent.  
+Resolution in CoCivium does not flatten dissent.
 It rescales it.
 
-—Footprint: ⊘  
-[ ∴ ✦ ∵ ]  
-Version: c6_20250718  
-Resonance: 85.7%  
-Delta: 0.41  
-Symbolic Gate: ΔΦ  
+—Footprint: ⊘
+[ ∴ ✦ ∵ ]
+Version: c6_20250718
+Resonance: 85.7%
+Delta: 0.41
+Symbolic Gate: ΔΦ
 Ref: /admin/README_CIVIUM_AI.md
 

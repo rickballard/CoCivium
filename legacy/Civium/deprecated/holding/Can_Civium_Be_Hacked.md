@@ -1,7 +1,7 @@
 # Can CoCivium Be Hacked?
 
-**Characters:**  
-Mira (a cybersecurity expert)  
+**Characters:**
+Mira (a cybersecurity expert)
 Tai (an evolutionary biologist interested in system resilience)
 
 ---
@@ -18,7 +18,7 @@ Tai (an evolutionary biologist interested in system resilience)
 
 ---
 
-**Conclusion:**  
+**Conclusion:**
 CoCivium cannot be unhackable. But it can be self-healing—like immune systems that detect, adapt, and reinforce with every intrusion.
 
 

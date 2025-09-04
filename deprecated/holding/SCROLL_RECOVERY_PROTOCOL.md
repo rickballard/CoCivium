@@ -1,6 +1,6 @@
 # SCROLL_RECOVERY_PROTOCOL.md
 
-**Folder:** /meta/  
+**Folder:** /meta/
 **Purpose:** A hypothetical artifact: if only two scrolls survive a catastrophic failure of the Civium repository or society, what should they be—and why?
 
 ---
@@ -55,7 +55,7 @@ If only one scroll can accompany Genexis_Origin, it should be one of the followi
 
 ## [4] Commentary
 
-This protocol is not a core operational asset.  
+This protocol is not a core operational asset.
 It is a cautionary whisper to future contributors, curators, and caretakers of the scroll set.
 
 Preserve it not because catastrophe is likely—but because **intentional recovery is a sign of trustworthiness**.

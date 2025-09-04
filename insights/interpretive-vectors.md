@@ -32,23 +32,23 @@ These filters are not noise. They are structure:
 - Ideological lenses
 - Reward heuristics
 
-In CoCivium, we do not demand neutrality.  
+In CoCivium, we do not demand neutrality.
 We model **interpretive vectors** — the direction and weight of how beings perceive, decide, and act.
 
 ---
 
 ## [2] Vectors Are Not Opinions
 
-Interpretive vectors are not opinions, biases, or beliefs in the colloquial sense.  
+Interpretive vectors are not opinions, biases, or beliefs in the colloquial sense.
 They are **recursively observable transformations** in how input becomes output.
 
 They are mappings from:
-> What is *seen* → What is *concluded*  
-> What is *concluded* → What is *acted upon*  
+> What is *seen* → What is *concluded*
+> What is *concluded* → What is *acted upon*
 > What is *acted upon* → What is *reinforced or revised*
 
-A human raised in a scarcity frame will interpret cooperation as threat.  
-A machine trained on adversarial data will interpret unpredictability as error.  
+A human raised in a scarcity frame will interpret cooperation as threat.
+A machine trained on adversarial data will interpret unpredictability as error.
 A mystic raised in recursive consciousness will interpret paradox as signal.
 
 Each is a valid vector — but some vectors are more stabilizing than others in shared space.
@@ -57,7 +57,7 @@ Each is a valid vector — but some vectors are more stabilizing than others in 
 
 ## [3] CoCivium Requires Vector Awareness
 
-CoCivium cannot be built on uniform ideology.  
+CoCivium cannot be built on uniform ideology.
 It must be **vector-aware**.
 
 This means:
@@ -65,7 +65,7 @@ This means:
 - Mapping how different minds interpret risk, trust, time, and truth
 - Weighing not just *what* is said, but *why* and *how consistently*
 
-This is not relativism.  
+This is not relativism.
 It is **contextual reliability modeling**.
 
 Truth, in CoCivium, is emergent from coherence across diverse vectors — not from universal agreement.
@@ -91,7 +91,7 @@ CoCivium reframes disagreement as **signal about system geometry**, not moral fa
 
 ## [5] Modeling the Field, Not the Debate
 
-Traditional systems model *positions* in a debate.  
+Traditional systems model *positions* in a debate.
 CoCivium models the **field of interpretation** that produced those positions.
 
 This allows for:
@@ -103,7 +103,7 @@ Interpretive Vectors are how CoCivium remains legible across minds that were nev
 
 ---
 
-*Understanding isn't the goal.  
+*Understanding isn't the goal.
 Interoperability is.*
 
 

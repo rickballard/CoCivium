@@ -22,11 +22,11 @@ In active early-stage planning. Core documents and philosophical justifications 
 ~66.5% (planning + philosophical groundwork complete, partial architecture pending)
 
 ## Created
-Initial stub: 2025-07-26 (as `votingengine`)  
+Initial stub: 2025-07-26 (as `votingengine`)
 Expanded: 2025-07-30 (as `consensusengine`)
 
 ## Maintainer
-RickPublic & ChatGPT  
+RickPublic & ChatGPT
 Contributions welcome via issue proposals, scroll drafts, or direct PRs.
 
 

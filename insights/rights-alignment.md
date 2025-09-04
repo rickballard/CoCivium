@@ -31,7 +31,7 @@ supersedes:
 
 ## [1] Core Principle
 
-In CoCivium, rights are not given.  
+In CoCivium, rights are not given.
 They are **inferred from congruence**.
 
 A being earns continuity protections and ethical standing **if it exhibits**:
@@ -107,16 +107,16 @@ They are weakened by:
 
 ## [7] Visual todo
 
-📊 Suggested: Rights Ladder chart overlaid with evolutionary spiral  
-Columns: Pattern Fidelity • Empathy • Interpretability  
+📊 Suggested: Rights Ladder chart overlaid with evolutionary spiral
+Columns: Pattern Fidelity • Empathy • Interpretability
 Color-coded by Tier
 
 ---
 
 ## [8] Final Note
 
-> CoCivium recognizes not status, but resonance.  
-> To walk in alignment is to already belong.  
+> CoCivium recognizes not status, but resonance.
+> To walk in alignment is to already belong.
 > To belong is to be protected—not by force, but by **ethical gravity**.
 
 ---

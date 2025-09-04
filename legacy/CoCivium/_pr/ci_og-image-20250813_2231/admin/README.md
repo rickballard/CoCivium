@@ -1,5 +1,5 @@
 # Admin — What’s happening now
-**Owner:** @rickballard  
+**Owner:** @rickballard
 **Updated:** 025-08-10
 
 ## Focus (Now)

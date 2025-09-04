@@ -98,11 +98,11 @@ A society that values congruence must also value unknowing. Certainty is cheap. 
 
 ---
 
-**Scroll Metadata**  
-`Filename:` Insight_Epistemology_c3_20250801.md  
-`Coherence Estimate:` c3 (midstage; scaffolding and precision need refinement)  
-`Version:` 2025-08-01  
-`Maintainer:` RickPublic & ChatGPT  
+**Scroll Metadata**
+`Filename:` Insight_Epistemology_c3_20250801.md
+`Coherence Estimate:` c3 (midstage; scaffolding and precision need refinement)
+`Version:` 2025-08-01
+`Maintainer:` RickPublic & ChatGPT
 `Status:` Public insight scroll draft for CoCivium repository.
 
 

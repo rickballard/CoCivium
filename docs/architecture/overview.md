@@ -15,8 +15,8 @@ This repo organizes canonical content (what we stand behind) separately from dra
 1) Import draft → `staging/_imported/<repo>/...`
 2) Curate + canonicalize → move into the right top-level folder, add frontmatter
 3) Update indexes (section READMEs); delete or mark superseded drafts
-4) Keep the landing page clean; heavy/disorganized docs stay in `docs/` or   
-otes/  
+4) Keep the landing page clean; heavy/disorganized docs stay in `docs/` or
+otes/
 ## Frontmatter contract
 Every canonical doc should have:
 

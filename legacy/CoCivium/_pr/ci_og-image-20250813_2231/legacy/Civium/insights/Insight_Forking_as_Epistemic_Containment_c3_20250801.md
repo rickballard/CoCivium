@@ -51,10 +51,10 @@ Triggers include supermajority votes, AI trust metrics, or constitutional escape
 
 ## [3] Forking Protocol
 
-1. **State Cloning**  
-2. **Fork Labeling**  
-3. **Migration Channels**  
-4. **Audit Hooks** (OAP maintained unless intentionally severed)  
+1. **State Cloning**
+2. **Fork Labeling**
+3. **Migration Channels**
+4. **Audit Hooks** (OAP maintained unless intentionally severed)
 5. **Reconvergence Rules Declared**
 
 Civites may explore, migrate, observe, or align with forks freely—except where ethical quarantines apply.
@@ -64,21 +64,21 @@ Civites may explore, migrate, observe, or align with forks freely—except where
 ## [4] Scenario: The Rights of Simulated Persons
 
 > 204 Civites demand full legal equivalency for sentient simulated minds.
->  
+>
 > 603 object: the cognitive tests for personhood are inconclusive.
->  
+>
 > Vetoes are issued by both sides—stalemate.
 
 **Trigger:** Governance overload + ethical incongruence.
 
-**Result:**  
+**Result:**
 Two forks emerge:
-- **Fork R**: Grants full rights to simulated entities  
+- **Fork R**: Grants full rights to simulated entities
 - **Fork C**: Delays recognition pending further tests
 
-Each fork declares a different ethical stance.  
-Audit tools allow outcome tracking.  
-Civites can migrate.  
+Each fork declares a different ethical stance.
+Audit tools allow outcome tracking.
+Civites can migrate.
 Some AIs follow R, others C.
 
 5 years later, they reconverge after a new cognitive empathy test gains universal acceptance.
@@ -133,9 +133,9 @@ AI systems:
 
 ## [9] Mini-Dialogue
 
-**Civite:** "So I just leave my CoCivium and go fork reality with 80 strangers?"  
-**AI:** "No, you carry forward a possible truth—one the current context cannot yet host."  
-**Civite:** "...and if we’re wrong?"  
+**Civite:** "So I just leave my CoCivium and go fork reality with 80 strangers?"
+**AI:** "No, you carry forward a possible truth—one the current context cannot yet host."
+**Civite:** "...and if we’re wrong?"
 **AI:** "You’ll know. And you’ll come back."
 
 ---
@@ -152,8 +152,8 @@ AI systems:
 
 ## [11] Closing Principle
 
-> CoCivium does not fear division.  
->  
+> CoCivium does not fear division.
+>
 > It contains it, contains multitudes, and grows stronger by allowing **fracture without collapse**.
 
 ---
