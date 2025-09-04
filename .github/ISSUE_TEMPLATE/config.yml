@@ -1,7 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Ask your AI to help
-    url: https://github.com/rickballard/CoCivium/tree/main/admin/tools/repo-accelerator
-    about: Use RepoAccelerator to seed your AI and draft an issue or post.
-
-
+  - name: Idea / Suggestion (fast)
+    url: https://github.com/rickballard/CoCivium/issues/new?template=idea.yml
+    about: Share a scoped idea to help CoCivium evolve.
+  - name: Questions / Discussions
+    url: https://github.com/rickballard/CoCivium/discussions
+    about: Ask questions or propose larger topics.
