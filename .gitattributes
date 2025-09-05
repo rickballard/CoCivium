@@ -5,3 +5,7 @@
 *.jpg binary
 *.gif binary
 *.zip binary
+
+# Enforce LF — added 2025-09-04T23:20:03
+*.md text eol=lf
+*.ps1 text eol=lf
