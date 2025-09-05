@@ -1,0 +1,21 @@
+antifragile
+Auto-merge
+automerge
+co-evolution
+cocivai
+CoCivium
+coevolve
+CoNudge
+CoPong
+CoSnap
+hashable
+ignore-words = .codespell.words
+Markdownlint
+mermaid
+name-pending
+non-humans
+Noname
+nonhuman
+skip = *.png,*.jpg,*.jpeg,*.svg,*.ico,*.pdf,site/assets/**,_site/**
+steward
+Yamllint
