@@ -136,3 +136,14 @@
 - [ ] Commit with an informative message (tags: BPOE, CI, UX, Safety)
 - [ ] Link the section from any related README/template
 - [ ] If cross-repo, open issues/PRs to mirror the guidance
+
+## Workbench launcher & OE Status (stable pattern)
+
+- **Launcher runs a separate inner script via `-File`** (no `-EncodedCommand`, no inlined code).
+- **No background timers.** OE Status prints only on prompt render (never mid-typing).
+- **Multi-line DO blocks only**; start with a harmless echo line to avoid paste-merges.
+- **If the prompt ever shows `>>`**, it’s an open string/quote. Press **Ctrl+C** once.
+
+Files:
+- `scripts/workbench/Start-CoCiviumWorkbench.ps1` — spawns a new tab/window
+- `scripts/workbench/Workbench-Inner.ps1` — sets repo dir and prints one OE Status line
