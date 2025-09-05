@@ -1,4 +1,5 @@
 # BPOE / Workflow Record
+
 > Running log of material decisions, guardrails, and ops changes. Newest first.
 
 ## 2025-08-16 — Session wrap
@@ -13,7 +14,7 @@
 ## 2025-08-16 21:19 — Session checkpoint
 - Governance scaffolding committed (7f942dd): community objectives, ethics, PR safety gate, ops stubs, labels.
 - Safety gate active on PRs (blocks high-risk until safety-approved).
-- Next: add 	ests/smoke + sanity.yml; stage Matrix↔Discussions L4 policy (dry-run).
+- Next: add   ests/smoke + sanity.yml; stage Matrix↔Discussions L4 policy (dry-run).
 
 ### Fast start ritual (BPOE)
 
@@ -26,8 +27,8 @@
 
 <!-- BPOE:CoPingPong START -->
 ### CoPingPong — one way only (keep it simple)
-- **One command:** CoPong  
-  - Copies the last ~200 lines of transcript/history (auto-expands on errors/long tools), **focuses chat, pastes, and presses Enter**.  
+- **One command:** CoPong
+  - Copies the last ~200 lines of transcript/history (auto-expands on errors/long tools), **focuses chat, pastes, and presses Enter**.
   - Use CoPong -NoSend to copy only.
 - **Sizing heuristics:** base=200, min=120, max=600; adds +80 lines for big cmds (git|gh|npm|dotnet|pip|make|winget|choco), +120 if recent errors/stack traces.
 - **Long output:** at MaxChars clamp, CoPong truncates tail (or your CoPong.OneWay can fallback to PNG).
@@ -37,7 +38,7 @@
 
 <!-- BPOE:OEHeartbeat START -->
 ### OE Heartbeat (keep the agent on-policy)
-- Operator may send a single **.** heartbeat every ~20 minutes or when drift is suspected.  
+- Operator may send a single **.** heartbeat every ~20 minutes or when drift is suspected.
 - Upon heartbeat, the assistant must:
   1. Post **OE Status** (mode, constraints, verbosity).
   2. Re-affirm **BPOE guardrails** (no block leaks, concise default).
@@ -47,10 +48,10 @@
 
 <!-- BPOE:CoSnap START -->
 ### CoSnap (screenshots, opt-in)
-- CoSnap captures **active window** to ~/Downloads/CoCivium-Logs (PNG).  
-- CoSnapScroll -Pages N stitches PageUp frames vertically.  
+- CoSnap captures **active window** to ~/Downloads/CoCivium-Logs (PNG).
+- CoSnapScroll -Pages N stitches PageUp frames vertically.
 - CoSnap -Paste (or CoSnapScroll -Paste) copies image, focuses chat, pastes, sends.
-- **Privacy:** opt-in only, visible console message, local-only storage.  
+- **Privacy:** opt-in only, visible console message, local-only storage.
 - **Use when:** UI state matters (dialogs, disabled buttons, diffs) or JS paste is blocked.
 <!-- BPOE:CoSnap END -->
 
@@ -70,9 +71,9 @@
 
 <!-- BPOE:CoWrap START -->
 ### CoWrap checklist (end-of-session hygiene)
-- Land open doc-only PRs (enable --auto when policy requires).  
-- Verify main page reflects intended titles/redirects.  
-- Run git grep -n -I -i -- 'name-pending' -- 'docs/**/*.md' 'insights/**/*.md' to catch regressions.  
+- Land open doc-only PRs (enable --auto when policy requires).
+- Verify main page reflects intended titles/redirects.
+- Run git grep -n -I -i -- 'name-pending' -- 'docs/**/*.md' 'insights/**/*.md' to catch regressions.
 - Keep **BPOE** as source of truth; do not rely on assistant memory.
 <!-- BPOE:CoWrap END -->
 
