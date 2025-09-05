@@ -51,16 +51,16 @@ Start with an [Idea Issue](../../issues/new?template=idea.yml) *(template link t
 **Bring your AI.** Seed it with [RepoAccelerator](./admin/tools/repo-accelerator/README.md) *(todo)* and ask it to draft issues or posts with you.
 
 
-**2 minutes — Say hi**  
-Open **Issues → New** → title: “Hello CoCivium”. One line about what you care about—locally or online.  
+**2 minutes — Say hi**
+Open **Issues → New** → title: “Hello CoCivium”. One line about what you care about—locally or online.
 *Or ask your AI to open it for you using our template.*
 
-**10 minutes — Share an idea**  
-Open an **Idea Issue** with a clear problem and a smallest useful change.  
+**10 minutes — Share an idea**
+Open an **Idea Issue** with a clear problem and a smallest useful change.
 *Ask your AI to generate it from a paragraph of notes.*
 
-**30–60 minutes — Start a post (PR)**  
-Edit a page that needs love or add a note under `/proposals/`. Submit a **post**.  
+**30–60 minutes — Start a post (PR)**
+Edit a page that needs love or add a note under `/proposals/`. Submit a **post**.
 *Ask your AI to turn your issue into a PR and fill the template.*
 
 **Everything stays reversible.** Small steps, merged often.
@@ -81,7 +81,7 @@ Together they give us **depth perception**—humane and workable decisions.
 
 ## Ground rules (The CoCivium Pledge)
 
-**Civility. Clarity. Curiosity. Consent. Credit.**  
+**Civility. Clarity. Curiosity. Consent. Credit.**
 Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, attribute ideas.
 
 - [Code of Conduct](./CODE_OF_CONDUCT.md) *(todo)*
@@ -111,14 +111,11 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ## Inspiration / Onboarding for humans first
 
-- **Being Noname** — a gentle, human-centric onramp to CoCivium’s spirit and practice.  
+- **Being Noname** — a gentle, human-centric onramp to CoCivium’s spirit and practice.
   → [Read the essay](./docs/onboarding/Being-Noname.md) *(todo)*
 
-- **FAQ** — short answers to common “Do I need to code?” and “What if I only have 5 minutes?” questions.  
+- **FAQ** — short answers to common “Do I need to code?” and “What if I only have 5 minutes?” questions.
   → [Read the FAQ](./docs/FAQ.md) *(todo)*
 
 ---
-
-
-
 

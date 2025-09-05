@@ -13,4 +13,3 @@ jobs:
         shell: pwsh
         run: ./scripts/smoke.ps1 -Path README.md
 
-

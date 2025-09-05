@@ -32,3 +32,4 @@ Screenshots make “what I’m seeing” unambiguous and help when JS paste is b
 ## Risks
 - Flaky focus/paste -> mitigations: small delays, fallback to Explorer.
 - Sensitive content -> opt-in, visible indicator, local-only storage.
+

@@ -26,4 +26,3 @@ jobs:
         shell: pwsh
         run: pwsh tools/lint-gib-usage.ps1
 
-
