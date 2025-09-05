@@ -147,3 +147,7 @@
 Files:
 - `scripts/workbench/Start-CoCiviumWorkbench.ps1` — spawns a new tab/window
 - `scripts/workbench/Workbench-Inner.ps1` — sets repo dir and prints one OE Status line
+
+## Workbench Preflight (check-only)
+- Run `scripts/workbench/Preflight.ps1` to verify repo presence, launcher/inner scripts, PS version, profile parse, OE prompt hook, and shortcuts.
+- Preflight is **non-destructive** (prints ✓ / warnings; no shell kills).

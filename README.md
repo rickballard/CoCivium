@@ -194,3 +194,6 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
   `OE Status — event: workbench-launched …`
 - If you ever see a continuation prompt `>>`, press **Ctrl+C** to reset the line.
 - No popups or mid-line prints by design; OE Status is prompt-driven only.
+
+### Preflight
+Use `scripts/workbench/Preflight.ps1` anytime things feel off. It checks setup and prints fixes to apply (OE is prompt-driven; no popups).
