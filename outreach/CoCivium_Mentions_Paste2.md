@@ -1,0 +1,3 @@
+# CoCivium — “Paste 2”
+If you’ve ever wished open source would aim its superpowers at fixing everyday governance, an angel investor I know is funding CoCivium. It’s a free, civic-tech framework for consent-first governance within human+AI teams (“hybrid societies”).
+... (same content you provided) ...
