@@ -95,3 +95,59 @@
 
 **Policy (pre-launch)**
 - Keep **Minimal gating** and **enable admin bypass** until repos are launch-ready. Tighten after launch.
+
+## Operator UX guardrails (paste & exit behavior)
+
+- **Never terminate shells from inside the shell.** It looks like a crash and breaks operator trust.
+  - If a shell must be closed: instruct operator to use Task Manager, Run (Win+R) → `cmd.exe /c ...`, or the terminal UI — not an in-shell kill script.
+
+- **Always present commands as multi-line “DO blocks.”**  
+  Avoid single-line code blocks; start with a harmless line (e.g., `Write-Host "DO: …"`) so mouse-paste cannot merge/duplicate into one long, risky line.
+  - Rationale: PS7 often pastes multiple clipboard entries into a single prompt with no confirmation.
+
+- **OE Status cadence.**  
+  On workbench launch and every ~20 minutes, print a one-line OE Status (mode, pwsh version, working dir). Use a timer, not tight loops.
+
+
+## Always capture workflow wisdom on-repo
+
+- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to `docs/BPOE.md` (or a purpose doc it references) before we rely on it.
+- **DO blocks, not one-liners.** Every operational instruction published to humans is a multi-line DO block with a harmless first line.
+- **No in-shell kills.** If a process must exit, we instruct manual/GUI/TaskMgr steps; never script a kill from inside the target shell.
+- **Session hygiene.** On workbench launch and ~every 20 minutes, print an OE Status. If paste/render bloat appears, say so explicitly and shrink outputs.
+- **Backfill habit.** After each fix or failure, backfill the repo with: what we did, what failed, what we decided, what to try next.
+
+### Capture checklist (use after a “fix”)
+- [ ] Add/adjust a BPOE section or snippet
+- [ ] Commit with an informative message (tags: BPOE, CI, UX, Safety)
+- [ ] Link the section from any related README/template
+- [ ] If cross-repo, open issues/PRs to mirror the guidance
+
+## Always capture workflow wisdom on-repo
+
+- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to `docs/BPOE.md` (or a purpose doc it references) before we rely on it.
+- **DO blocks, not one-liners.** Every operational instruction published to humans is a multi-line DO block with a harmless first line.
+- **No in-shell kills.** If a process must exit, we instruct manual/GUI/TaskMgr steps; never script a kill from inside the target shell.
+- **Session hygiene.** On workbench launch and ~every 20 minutes, print an OE Status. If paste/render bloat appears, say so explicitly and shrink outputs.
+- **Backfill habit.** After each fix or failure, backfill the repo with: what we did, what failed, what we decided, what to try next.
+
+### Capture checklist (use after a “fix”)
+- [ ] Add/adjust a BPOE section or snippet
+- [ ] Commit with an informative message (tags: BPOE, CI, UX, Safety)
+- [ ] Link the section from any related README/template
+- [ ] If cross-repo, open issues/PRs to mirror the guidance
+
+## Workbench launcher & OE Status (stable pattern)
+
+- **Launcher runs a separate inner script via `-File`** (no `-EncodedCommand`, no inlined code).
+- **No background timers.** OE Status prints only on prompt render (never mid-typing).
+- **Multi-line DO blocks only**; start with a harmless echo line to avoid paste-merges.
+- **If the prompt ever shows `>>`**, it’s an open string/quote. Press **Ctrl+C** once.
+
+Files:
+- `scripts/workbench/Start-CoCiviumWorkbench.ps1` — spawns a new tab/window
+- `scripts/workbench/Workbench-Inner.ps1` — sets repo dir and prints one OE Status line
+
+## Workbench Preflight (check-only)
+- Run `scripts/workbench/Preflight.ps1` to verify repo presence, launcher/inner scripts, PS version, profile parse, OE prompt hook, and shortcuts.
+- Preflight is **non-destructive** (prints ✓ / warnings; no shell kills).

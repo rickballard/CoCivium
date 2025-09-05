@@ -1,3 +1,10 @@
-# CoCivium — “Paste 1”
-If you ever wished the open-source community would focus its vast powers toward fixing governments and civic institutions, you might like this: CoCivium is a civic-tech framework and toolset for consent-first governance, aimed primarily at Human+AI pairings (“hybrid societies”).
-... (same content you provided) ...
+# CoCivium Paste 1
+
+If you have wished the open-source community would aim its energy at
+everyday governance, you might like CoCivium. CoCivium is a free
+civic-tech framework and toolkit for consent-first governance, designed
+for human-AI teams.
+
+It couples a living CoConstitution with clear process specs and
+explainable decision logs, so choices are traceable, reversible, and
+portable across contexts.
