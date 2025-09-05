@@ -187,3 +187,6 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 <!-- noname-touch: 2025-08-25T03:40:12 -->
 
 - **CC Hub:** [docs/cc/](docs/cc/)
+
+> Legacy alias: [Being name-pending](insights/Insight_Story_Being_Noname_c2_20250801.md)
+
