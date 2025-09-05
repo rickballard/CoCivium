@@ -7,5 +7,3 @@ Curated, canonical documents for **Intent**.
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
 
-
-

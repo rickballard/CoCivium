@@ -16,5 +16,3 @@ In CoCivium, we do not consent once. We consent *again*, and again, and again—
 
 Let no system claim your Yes unless your soul is still saying it tomorrow.
 
-
-

@@ -77,3 +77,7 @@
 - Keep **BPOE** as source of truth; do not rely on assistant memory.
 <!-- BPOE:CoWrap END -->
 
+# Known Issues & CI/GitHub Policy (as of 2025-09-05)
+
+<…content…>
+

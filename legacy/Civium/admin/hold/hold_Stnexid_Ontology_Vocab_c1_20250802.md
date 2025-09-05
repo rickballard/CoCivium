@@ -103,10 +103,9 @@ These are used to map idea genealogy and track recursive shifts.
 
 ## Footer
 
-**Filename:** Stnexid_Ontology_Vocab_c1_20250802.md  
-**Folder:** ontology/ or core/  
-**Maintainer:** ChatGPT for RickPublic  
-**Next Phase:** Semantic Compression Strategy + Example Session  
-**Coherence Estimate:** 0.75  
-
+**Filename:** Stnexid_Ontology_Vocab_c1_20250802.md
+**Folder:** ontology/ or core/
+**Maintainer:** ChatGPT for RickPublic
+**Next Phase:** Semantic Compression Strategy + Example Session
+**Coherence Estimate:** 0.75
 

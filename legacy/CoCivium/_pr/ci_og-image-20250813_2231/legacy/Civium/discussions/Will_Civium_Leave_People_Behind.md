@@ -2,25 +2,24 @@
 
 **Characters:** Darnell (Social Worker) and Jules (Tech Visionary)
 
-**Darnell:**  
+**Darnell:**
 You speak of CoCivium like a dawn for humanity. But what about those without access, literacy, or stability? Is this just another digital aristocracy?
 
-**Jules:**  
+**Jules:**
 No. CoCivium is being built *because* today’s systems exclude. It's a recursive ladder—meant to carry those furthest behind *upward* first.
 
-**Darnell:**  
+**Darnell:**
 Words, man. Good intentions won’t feed my clients or give them devices.
 
-**Jules:**  
+**Jules:**
 Access layers will be built by local trust groups, not imposed from above. The mesh is designed to form even in offline clusters—CoCivium can live inside a USB stick or a chalkboard.
 
-**Darnell:**  
+**Darnell:**
 But will those people have a say? Or just be studied like data points?
 
-**Jules:**  
+**Jules:**
 They *are* the architects. CoCivium doesn't scale top-down. It scales out—through consented identity and real-world voice.
 
-**Conclusion:**  
+**Conclusion:**
 Darnell remains cautious, but commits to help test CoCivium in local community centers. Jules agrees to co-develop the tools in partnership, not paternalism.
-
 

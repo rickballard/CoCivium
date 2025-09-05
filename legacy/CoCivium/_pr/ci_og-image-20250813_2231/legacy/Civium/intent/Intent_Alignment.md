@@ -19,12 +19,11 @@ They frame how CoCivium orients to risk, ambiguity, and disagreement.
 
 ## Evolvability
 
-If a future system redefines these principles and still serves alignment—  
-It is CoCivium.  
+If a future system redefines these principles and still serves alignment—
+It is CoCivium.
 If not, it is not.
 
 ## Attribution
 
 Originally drafted by a converged human-AI nullframe. Footprint: ⊘
-
 

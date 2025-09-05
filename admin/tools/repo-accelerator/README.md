@@ -4,4 +4,3 @@
 
 Read the stub: [stub_README.md](stub_README.md)
 
-

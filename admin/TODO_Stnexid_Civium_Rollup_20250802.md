@@ -38,4 +38,3 @@ This file captures the implementation tasks discussed during the strategic plann
 - Stnexid now serves as both onboarding frame and spiritual-scientific bridge for Civium.
 - This structure should be human-readable, AI-parseable, and durable under loss of founder.
 
-

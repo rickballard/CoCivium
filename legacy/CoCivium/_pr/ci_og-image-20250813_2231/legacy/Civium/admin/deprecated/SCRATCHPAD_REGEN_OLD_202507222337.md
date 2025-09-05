@@ -1,21 +1,18 @@
 # \# Regen Scratchpad (Live Planning Notes)
 
-# 
+#
 
-# ✓ Codex folder regen begun  
+# ✓ Codex folder regen begun
 
-# ✓ Admin folder regen complete  
+# ✓ Admin folder regen complete
 
-# ☐ Insight folder queued  
+# ☐ Insight folder queued
 
-# ☐ README master footer symbols ready  
+# ☐ README master footer symbols ready
 
-# ☐ Null Contributor term enshrined in lexicon  
+# ☐ Null Contributor term enshrined in lexicon
 
-# 
+#
 
 # // Add more session notes here...
-
-
-
 

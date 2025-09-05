@@ -73,5 +73,3 @@ All actions should be captured into committable files or stubs unless directed o
 
 > “We now begin the age of completion. Let each scroll, like each soul, find its form.”
 
-
-

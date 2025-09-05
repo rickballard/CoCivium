@@ -6,4 +6,3 @@
 - Chip-tile image is temporary; replace with fungal-neural scroll art.
 - Keep harvesting all prior CoCivium scroll material before any rewrite.
 
-

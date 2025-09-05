@@ -19,4 +19,3 @@
 
 — version v0 (draft); evolves via PR with supermajority threshold per Article VIII.
 
-

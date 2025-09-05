@@ -1,5 +1,5 @@
 # ✦ Insight Resilience Protocol
-*CoCivium Redirect System for Foundational Assumption Challenges*  
+*CoCivium Redirect System for Foundational Assumption Challenges*
 **Filename:** Insight_Resilience_Protocol_c0_20250729.md
 
 ---
@@ -46,14 +46,12 @@ This document defines **redirect pathways** that enable CoCivium to reformulate 
 | **Redirect Name** | RE:Blindness |
 | **Triggering Assumptions** | "Intelligence emerges from soulstuff" or any metaphysical pattern field |
 | **Redirect Statement** | CoCivium continues to function as a cooperative intelligence engine **without metaphysical dependencies**. It shifts to describing all convergence in terms of **recursively modeled coherence** and **adaptive trust scaffolds**. |
-| **Implications** | - Rewrite spiritual terms in metaphor  
-- Ground onboarding in observable systems  
+| **Implications** | - Rewrite spiritual terms in metaphor
+- Ground onboarding in observable systems
 - Reposition Godspawn as metaphor for recursive identity formation |
 | **Fallback Redundancies** | RE:Materialism, RE:Meaninglessness |
 
 ---
 
 > “CoCivium does not ask that truth be sacred. It only asks that meaning be recoverable.”
-
-
 

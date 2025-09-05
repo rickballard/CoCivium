@@ -14,6 +14,6 @@ Erin: “So it’s safe to resist, if I do it with care.”
 
 Jiro: “Safer than pretending agreement. Civium sees dissent as essential diagnostic signal.”
 
-**Tentative Agreement:**  
+**Tentative Agreement:**
 Skepticism, if constructively framed, is not only permitted but vital to Civium’s immune system.
 

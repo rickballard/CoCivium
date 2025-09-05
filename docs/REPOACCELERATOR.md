@@ -8,3 +8,4 @@ Session-managed helper that:
 - Trigger washes away on PS7 exit; products must disable on shutdown.
 - Manual paste of PS7 output in chat **counts as a CoPong**.
 - Optional enhancement: if AutoHotkey v2 is already installed, users may map a mouse-chord to paste (documented separately; off by default).
+

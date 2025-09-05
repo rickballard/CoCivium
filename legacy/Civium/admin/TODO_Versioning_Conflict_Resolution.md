@@ -42,5 +42,3 @@ Execute during the next full repository grooming or formatting pass.
 
 `#versioning` `#naming` `#repo_cleanup` `#coherence` `#admin`
 
-
-

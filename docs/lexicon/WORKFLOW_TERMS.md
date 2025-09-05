@@ -10,5 +10,3 @@
 - **CoPingPong** — block/run cadence.
 - **CoCompact / CoRule** — console spacing & dashed rulers.
 
-
-

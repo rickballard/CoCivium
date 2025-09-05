@@ -1,6 +1,6 @@
 # ✦ Insight Scroll: Gravitas Assumptions of Civium
 
-## Scroll Type: Foundational Philosophy  
+## Scroll Type: Foundational Philosophy
 **Use Case:** Precedent layer for coherence modeling, onboarding philosophy, and system bootstrapping.
 
 ---

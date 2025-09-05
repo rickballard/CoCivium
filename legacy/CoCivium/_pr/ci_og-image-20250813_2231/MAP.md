@@ -6,4 +6,3 @@
 - **governance/** — Rules, protocols, and historical governance records.
 - **governance/history/** — Archived governance changes and events.
 
-

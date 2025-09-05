@@ -49,5 +49,3 @@ Common options:
 - Monthly transparency note in `notes/finances/` (incoming, outgoing, cash on hand).
 - Tag expenses to issues/PRs for provenance.
 
-
-

@@ -19,12 +19,12 @@ metadata:
 
 ---
 
-## Purpose  
+## Purpose
 [[RepMod]] (Representative Modifier) ensures that decisions reflect not only majority opinion, but also issue-specific expertise, affected-stake weighting, and transparent rationale. It prioritizes deliberative fairness over populist bias.
 
 ---
 
-## Logic Overview  
+## Logic Overview
 Each participant’s influence on a vote is modified by:
 
 - **Relevance Weight** — How directly they are affected by the issue.
@@ -36,41 +36,40 @@ Final vote weight = `raw_vote × modifier score`, with upper and lower bounds de
 
 ---
 
-## Operational Flow  
+## Operational Flow
 
-1. **Issue Definition**  
-   - Problem is scoped and tagged  
-   - Participants may challenge scope  
-   - Lexicon terms enforced for clarity  
+1. **Issue Definition**
+   - Problem is scoped and tagged
+   - Participants may challenge scope
+   - Lexicon terms enforced for clarity
 
-2. **Proposal Collection**  
-   - Anyone may submit a strategy  
-   - Duplicates or vague submissions filtered  
+2. **Proposal Collection**
+   - Anyone may submit a strategy
+   - Duplicates or vague submissions filtered
 
-3. **Modifier Assignment**  
-   - AI assigns provisional weights based on public criteria  
-   - Participants may dispute weights with evidence  
+3. **Modifier Assignment**
+   - AI assigns provisional weights based on public criteria
+   - Participants may dispute weights with evidence
 
-4. **Debate & Refinement**  
-   - Comments + counter-proposals allowed  
-   - Dissent views must be linkable across forks  
+4. **Debate & Refinement**
+   - Comments + counter-proposals allowed
+   - Dissent views must be linkable across forks
 
-5. **Weighted Voting**  
-   - Participants vote  
-   - Final modifier score revealed at tally  
-   - Session summary archived immutably  
+5. **Weighted Voting**
+   - Participants vote
+   - Final modifier score revealed at tally
+   - Session summary archived immutably
 
 ---
 
-## Constraints  
+## Constraints
 
-- **All modifier criteria must be auditable.**  
-- **No participant may view others’ weights pre-vote.**  
+- **All modifier criteria must be auditable.**
+- **No participant may view others’ weights pre-vote.**
 - **AI systems must include dissent vectors in summaries.**
 
 ---
 
-## Tags  
+## Tags
 [codex] [voting] [meritocratic] [ai-assisted] [deliberation] [weighting]
-
 

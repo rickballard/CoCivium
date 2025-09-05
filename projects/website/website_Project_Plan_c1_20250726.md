@@ -1,10 +1,10 @@
 <!-- Filename: website_Project_Plan_c1_20250726.md -->
 
-# 📄 Civium Website — Project Plan  
-Version: c1_20250726  
-Resonance: 62%  
-Delta: 0.21  
-Ref: /projects/website/README.md  
+# 📄 Civium Website — Project Plan
+Version: c1_20250726
+Resonance: 62%
+Delta: 0.21
+Ref: /projects/website/README.md
 
 ---
 
@@ -76,11 +76,11 @@ The Civium website serves as the primary public-facing information hub for visit
 
 ---
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250726  
-Resonance: 62%  
-Delta: 0.21  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΦ  
+[ ∴ ✦ ∵ ]
+Version: c1_20250726
+Resonance: 62%
+Delta: 0.21
+Footprint: ⊘
+Symbolic Gate: ΘΔΦ
 Ref: /projects/website/
 

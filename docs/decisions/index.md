@@ -4,4 +4,3 @@ This is the index for published decisions. Start by copying **kits/GLK/templates
 
 - _No decisions published yet._
 
-

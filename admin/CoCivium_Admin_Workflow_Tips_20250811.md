@@ -1,6 +1,6 @@
 CoCivium Admin Workflow Tips — 2025-08-11 (EST 1:07)
 
-A short, opinionated checklist from today’s cleanup (workflow guardrails, README refresh, lint hygiene/fights, PR flow/hygiene).  Goal: fewer surprises, faster merges, cleaner history.  
+A short, opinionated checklist from today’s cleanup (workflow guardrails, README refresh, lint hygiene/fights, PR flow/hygiene).  Goal: fewer surprises, faster merges, cleaner history.
 
 1) Branch & PR Flow (keep it boring)
 
@@ -13,8 +13,8 @@ A short, opinionated checklist from today’s cleanup (workflow guardrails, READ
 
 # repo prequel (Windows Git Bash safe)
 
-cd "$HOME/Documents/GitHub/CoCivium" 2>/dev/null   
-  || cd "/c/Users/Chris/Documents/GitHub/CoCivium"   
+cd "$HOME/Documents/GitHub/CoCivium" 2>/dev/null
+  || cd "/c/Users/Chris/Documents/GitHub/CoCivium"
   || { echo "? repo not found"; exit 1; }
 
 export GIT_PAGER=cat GH_PAGER=cat GH_NO_TTY=1
@@ -125,7 +125,4 @@ Add a CONTRIBUTING.md ? “How to pass CI” section with the hygiene rules abov
 Add a repo script ./admin/lint-fix.sh that runs the safe perl helpers.
 Add a bot rule to label PRs touching README.md with needs/decision.
 (Optional) A tiny Action to fail if the README loses the ONEBLOCK markers.
-
-
-
 

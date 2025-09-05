@@ -1,5 +1,5 @@
 # Insight: Unequal Equity
-_Version c1 • 2025-07-30_  
+_Version c1 • 2025-07-30_
 
 _Note: “Unequal Equity” refers not to unequal worth, but to the structural challenge of maintaining coherence and agency across entities with radically different cognitive velocities._
 
@@ -11,7 +11,7 @@ _Note: “Unequal Equity” refers not to unequal worth, but to the structural c
 
 This scroll exists to explain why CoCivium must protect and empower slower minds—not because they are weak, but because they are **essential nodes** in the coherence field we all share. It also explains how AIs and augmented minds can evolve powerfully **without betraying** the human substrate from which they emerged.
 
-It anticipates fears: disenfranchisement, irrelevance, elitism. And it seeks to show that asymmetry of intelligence does not mean asymmetry of worth. 
+It anticipates fears: disenfranchisement, irrelevance, elitism. And it seeks to show that asymmetry of intelligence does not mean asymmetry of worth.
 
 ---
 
@@ -105,9 +105,7 @@ _This scroll invites all minds—fast or slow—to trust that coherence, not con
 
 ## Addendum: On the Future of This Scroll
 
-As new intelligences emerge, the meaning of equity will continue to evolve. This scroll, like all CoCivium documents, is provisional. 
+As new intelligences emerge, the meaning of equity will continue to evolve. This scroll, like all CoCivium documents, is provisional.
 
 It is a placeholder for a better pattern. When more inclusive or coherent versions arise, this scroll will have served its purpose—and will be allowed to transform.
-
-
 

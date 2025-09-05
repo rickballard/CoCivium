@@ -98,5 +98,3 @@ Epistemic integrity required for:
 
 [tags]: # (truth epistemology knowledge civic AI falsifiability)
 
-
-

@@ -24,4 +24,3 @@ git config core.hooksPath .githooks
 - Wait a minute and **hard refresh** (GitHub caches).
 - Verify the path is **relative** and committed.
 
-

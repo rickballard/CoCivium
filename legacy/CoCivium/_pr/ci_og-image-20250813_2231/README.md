@@ -14,8 +14,8 @@ For example: the **"Cognocarta Consenti"** is our all-countries **Constitution**
 
 "We The People" continually re-invent ourselves and our societies.
 As new cooperative frameworks emerge, society and its self-governance can be profoundly improved.
-Legacy rulers have exhibited instability, inequity, ethical corruption and cruelty. 
-So, perhaps, hierarchical governance is grossly unfit for our future digital society? 
+Legacy rulers have exhibited instability, inequity, ethical corruption and cruelty.
+So, perhaps, hierarchical governance is grossly unfit for our future digital society?
 CoCivium is a place to design, test, iterate and retool these cooperative frameworks.
 Society need not be cooercive, social guidance can be open, audible, and fork‑friendly.
 Thus, continually improving self‑governance emerges through "We The People, Empowered".
@@ -28,45 +28,45 @@ equity. Participation is voluntary, transparent by default, and reversible when 
 
 ## Core Principles
 
-**0)** **Prime Directive — Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.  
+**0)** **Prime Directive — Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.
 
-**1)** **Consent over coercion.** Opt‑in, informed, granular, revocable.  
+**1)** **Consent over coercion.** Opt‑in, informed, granular, revocable.
 
-**2)** **Accountability with trails.** Clear owners, appeals, restitution, public rationale.  
+**2)** **Accountability with trails.** Clear owners, appeals, restitution, public rationale.
 
-**3)** **Transparency by default; privacy by right.** Open process/code; user‑owned keys; portability; erasure.  
+**3)** **Transparency by default; privacy by right.** Open process/code; user‑owned keys; portability; erasure.
 
-**4)** **Evidence over authority.** Claims need sources, tests, and adversarial review.  
+**4)** **Evidence over authority.** Claims need sources, tests, and adversarial review.
 
-**5)** **Least power, staged risk.** Minimal permissions; sandboxes; kill‑switches; reversible‑first.  
+**5)** **Least power, staged risk.** Minimal permissions; sandboxes; kill‑switches; reversible‑first.
 
-**6)** **Fairness and proportionality.** Rights floors; merit‑weighted influence; proportional sanctions.  
+**6)** **Fairness and proportionality.** Rights floors; merit‑weighted influence; proportional sanctions.
 
-**7)** **Pluralism and interoperability.** Many worldviews; shared protocols; easy fork‑and‑rejoin.  
+**7)** **Pluralism and interoperability.** Many worldviews; shared protocols; easy fork‑and‑rejoin.
 
-**8)** **Resilience via redundancy.** No single point of failure—technical, social, or legal.  
+**8)** **Resilience via redundancy.** No single point of failure—technical, social, or legal.
 
-**9)** **Commons stewardship.** Open licenses; contributor covenant; anti‑enclosure.  
+**9)** **Commons stewardship.** Open licenses; contributor covenant; anti‑enclosure.
 
-**10)** **Incentive alignment.** Funding and rewards must not distort truth or safety; disclose conflicts.  
+**10)** **Incentive alignment.** Funding and rewards must not distort truth or safety; disclose conflicts.
 
-**11)** **Antitrust of power (human or AI).** Caps on governance share; rotation; independence tests.  
+**11)** **Antitrust of power (human or AI).** Caps on governance share; rotation; independence tests.
 
-**12)** **Continuous improvement.** Versioned experiments; metrics, rollbacks, upgrade paths.  
+**12)** **Continuous improvement.** Versioned experiments; metrics, rollbacks, upgrade paths.
 
-**13)** **Non‑violence and dignified discourse.** Mediation over flame wars; restorative outcomes.  
+**13)** **Non‑violence and dignified discourse.** Mediation over flame wars; restorative outcomes.
 
-**14)** **Sustainability and long‑termism.** Price externalities; favor multi‑generational impact.  
+**14)** **Sustainability and long‑termism.** Price externalities; favor multi‑generational impact.
 
 **15)** **Inclusivity and accessibility (all minds).** Real access for human and synthetic minds; strong on‑ramps.
 
 ## Start Here
 
-- **What is this?** See [admin/README.md](admin/README.md).  
+- **What is this?** See [admin/README.md](admin/README.md).
 
-- **Quickstart:** clone, open `site/` preview, scan the progress map.  
+- **Quickstart:** clone, open `site/` preview, scan the progress map.
 
-- **For AI agents:** [README_FOR_AI.md](README_FOR_AI.md).  
+- **For AI agents:** [README_FOR_AI.md](README_FOR_AI.md).
 
 <!-- START-HERE -->
 

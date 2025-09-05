@@ -4,3 +4,4 @@
 **Core loops.** CoPing/CoPong handshake • Demark/Delay banners • Sentinels • Session-only hooks • Telemetry (opt-in).
 **Who buys.** Eng leads, platform/DevEx, security-minded teams.
 **SKUs.** Free (RepoAccelerator) • Team (GH App + VS Code) • Enterprise (SSO/compliance/rollout).
+

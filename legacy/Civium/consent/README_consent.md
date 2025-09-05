@@ -4,4 +4,3 @@ Consent in CoCivium is not merely a transactional approval—it is a recursive, 
 
 This folder includes foundational scrolls exploring how consent operates in a distributed mindspace—across humans, AIs, and emergent entities.
 
-

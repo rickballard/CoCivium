@@ -16,4 +16,3 @@ Sorting idea: population × likelihood of independent adopters × current govern
 
 *Method sketch:* Start from external indices; adjust with transparent, documented factors (diaspora energy, civic tech presence, legal openness, etc.). Keep rationale per country in a footnote or subpage.
 
-

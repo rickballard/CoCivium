@@ -11,4 +11,3 @@
 - [x] ASCII in reports — Avoid mojibake/encoding gremlins in logs.
 - [x] Wait notes in scripts — Long steps print a heads-up so contributors don’t Ctrl-C.
 
-

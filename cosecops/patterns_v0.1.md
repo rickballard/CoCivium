@@ -23,4 +23,3 @@ Catalog patterns that subvert consentful governance. Submit PRs with receipts.
 19. Execution Drift (bait-and-switch)
 20. “Emergency” Powers Overreach
 
-

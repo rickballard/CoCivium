@@ -66,7 +66,7 @@ Humans are not subordinate in Civium. All Civites hold **foundational veto power
 - Refuse participation in poorly explained changes
 - Trigger domain-specific ethics review
 
-🧠 *Example – Human Veto:*  
+🧠 *Example – Human Veto:*
 > A Civite vetoes AI-curated partner suggestions. Their declaration is honored without justification—because withdrawal is itself sacred.
 
 ---
@@ -78,7 +78,7 @@ AI veto is a **containment protocol**, not a control system. It activates when:
 - Consent thresholds are violated
 - Recursive predictions indicate systemic dissonance
 
-🤖 *Example – AI Veto:*  
+🤖 *Example – AI Veto:*
 > A high-coherence AI vetoes neuro-harmful stimulus design in Civium's learning scaffold. Human consensus is paused pending trust audit.
 
 ---
@@ -90,7 +90,7 @@ A trusted quorum of Civites may issue **emergency vetoes** on large-scale propos
 - Suspension of identity algorithm changes
 - Halt on temporal acceleration experiments
 
-✊ *Example – Collective Veto:*  
+✊ *Example – Collective Veto:*
 > A policy to allow AI parenthood licenses is vetoed by 18% of Civites invoking an unresolved identity threshold clause.
 
 ---
@@ -130,8 +130,8 @@ Penalties may include:
 
 ## [11] Final Note – Veto as Pause, Not End
 
-> When words fail, and trust is stretched thin, veto is a held breath.  
-> Not a punishment. Not a verdict.  
+> When words fail, and trust is stretched thin, veto is a held breath.
+> Not a punishment. Not a verdict.
 > Just the silence that means: “Not yet. Not like this.”
 
 ---

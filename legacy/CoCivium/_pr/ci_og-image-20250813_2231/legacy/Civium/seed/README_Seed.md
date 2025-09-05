@@ -13,4 +13,3 @@ Contents may include:
 
 Every CoCivium fork or clone should begin by adapting its own Seed folder. This is where alignment *starts*—not where it ends.
 
-

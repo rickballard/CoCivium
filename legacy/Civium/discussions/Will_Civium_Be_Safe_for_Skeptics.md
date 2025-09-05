@@ -14,8 +14,6 @@ Erin: “So it’s safe to resist, if I do it with care.”
 
 Jiro: “Safer than pretending agreement. CoCivium sees dissent as essential diagnostic signal.”
 
-**Tentative Agreement:**  
+**Tentative Agreement:**
 Skepticism, if constructively framed, is not only permitted but vital to CoCoCivium’s immune system.
-
-
 

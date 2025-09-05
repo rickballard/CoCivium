@@ -27,4 +27,3 @@
 - Median time idea→Discussion ≤ 48h.
 - Zero unresolved credible abuse/impersonation reports > 72h.
 
-

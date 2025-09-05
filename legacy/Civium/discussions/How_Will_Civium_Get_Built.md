@@ -18,5 +18,3 @@ They explore architectural staging, use of testbeds, and bootstrapping through m
 
 CoCivium will be built in stages, likely starting with interoperable micro-nets and civic sandboxes supported by aligned communities.
 
-
-

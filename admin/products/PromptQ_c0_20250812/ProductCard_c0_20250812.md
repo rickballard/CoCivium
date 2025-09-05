@@ -18,14 +18,13 @@ Reduce friction, dead time, and duplication.  Provide auditable, rate-limit-awar
 - GitHub MCP/MCP Server integration (TBD)
 
 ## Exit criteria (ship MVP)
-1) End-to-end route to 2 providers with fallback.  
-2) Web board shows queued/processing/done with replay.  
-3) JSONL audit persisted and exportable.  
+1) End-to-end route to 2 providers with fallback.
+2) Web board shows queued/processing/done with replay.
+3) JSONL audit persisted and exportable.
 
 ## Kill criteria
 If vendors ship equivalent orchestration with open hooks, or adoption < 5 teams in 60 days.
 
 ## Notes
 Brand: “PromptQ (PQ)”.  License: AGPL/SSPL (TBD) with paid modules option.
-
 

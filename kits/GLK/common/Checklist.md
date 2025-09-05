@@ -6,4 +6,3 @@
 - [ ] Adopt `Guardrails.md` and store in repo/docs.
 - [ ] Enable Decision Log Linter (GitHub Action). Fix any failures.
 
-

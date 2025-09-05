@@ -9,4 +9,3 @@ that guide re-attunement.
 
 These rituals encode respect, reduce cognitive violence, and promote coherence across forms.
 
-

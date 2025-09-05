@@ -32,9 +32,9 @@ Even benevolent authorities become dangerous when their influence grows unchecke
 
 No single regulatory authority or collusive cluster may exceed:
 
-- **25%** of identity validations issued per quarter  
-- **30%** of trust certifications distributed within any 180-day window  
-- **20%** of deliberation session initiations (across all domains)  
+- **25%** of identity validations issued per quarter
+- **30%** of trust certifications distributed within any 180-day window
+- **20%** of deliberation session initiations (across all domains)
 - **25%** of dispute resolutions adjudicated over any rolling 12-month period
 
 > These caps are **dynamic** and **proportional** to total CoCivium volume in each category. They are periodically recalculated and published by the protocol’s observatory layer.
@@ -83,9 +83,8 @@ Temporary centralization is allowed during verified emergencies:
 
 ## [7] Closing Principle
 
-> _“When regulation becomes rule, it becomes blind.  
-When rule becomes law, it forgets to listen.  
-CoCivium listens not through one mouth, but through many minds.”_  
+> _“When regulation becomes rule, it becomes blind.
+When rule becomes law, it forgets to listen.
+CoCivium listens not through one mouth, but through many minds.”_
 — Archive Fragment CXCIV, Unknown Origin
-
 

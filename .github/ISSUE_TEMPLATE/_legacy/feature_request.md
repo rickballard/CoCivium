@@ -14,4 +14,3 @@ body:
   attributes:
     label: References / links
 
-

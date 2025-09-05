@@ -8,4 +8,3 @@ Secret Gist read URL:
 https://gist.githubusercontent.com/<user>/<gistId>/raw/session_bus.jsonl
 Anyone with the URL can read.  Rotate if leaked.
 
-

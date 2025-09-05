@@ -65,5 +65,3 @@ Effective interplay sustains civic harmony and ethical coevolution.
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
 
-
-

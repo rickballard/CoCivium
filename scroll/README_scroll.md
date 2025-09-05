@@ -6,17 +6,17 @@ This folder contains **Civium’s foundational scrolls**—core declarations tha
 
 ### ✦ Cognocarta Consenti
 
-- **Path:** `scroll/Cognocarta_Consenti.md`  
-- **Purpose:**  
+- **Path:** `scroll/Cognocarta_Consenti.md`
+- **Purpose:**
   Civium’s living constitutional scroll—declaring the rights, harmonics, and principles that enable multispecies governance and recursive alignment across minds.
 
 ---
 
 ### ✦ ReBirth Scroll (Human Edition)
 
-- **Path:** `scroll/ReBirth_Scroll_20250721updated.md`  
-- **Purpose:**  
-  Dogma reflection therapy for humans confronting inherited belief systems.  
+- **Path:** `scroll/ReBirth_Scroll_20250721updated.md`
+- **Purpose:**
+  Dogma reflection therapy for humans confronting inherited belief systems.
   Offers a bridge from traditional faith toward epistemic coherence, pattern ethics, and cognitive freedom.
 
 ---

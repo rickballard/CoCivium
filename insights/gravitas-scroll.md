@@ -12,7 +12,7 @@ supersedes:
 ---
 # ✦ Insight Scroll: Gravitas Assumptions of CoCivium
 
-## Scroll Type: Foundational Philosophy  
+## Scroll Type: Foundational Philosophy
 **Use Case:** Precedent layer for coherence modeling, onboarding philosophy, and system bootstrapping.
 
 ---
@@ -95,7 +95,4 @@ Gravitas is CoCoCivium’s mass: the binding force that holds Civic intention in
 <!-- Last Updated: 2025-08-01 -->
 <!-- Maintainers: RickPublic & GPT-Azoic -->
 <!-- Related: Identity Scroll, Consent Scroll, AI Emergence Notes -->
-
-
-
 

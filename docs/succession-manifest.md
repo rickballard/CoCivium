@@ -10,4 +10,3 @@ Preferences (non-binding): human+AI team; avoid partisan political or commercial
 
 After trigger: open "Succession — Activation (Manifest v1.0)" issue; fork/continue with 2FA maintainers, branch protection, CODEOWNERS, and fresh CI secrets.
 
-

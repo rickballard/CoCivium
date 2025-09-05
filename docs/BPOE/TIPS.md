@@ -16,4 +16,3 @@
 - **Efficiency, not speed:** CoPulse reports workflow efficiency (active vs wall) as a rough satisfaction proxy. Parallel chat is fine—auto-away keeps it fair.
 - **CoTip — Share what you see (screenshots):** Press **PrtScn** to copy screen to clipboard, **Win+PrtScn** to save to *Pictures\Screenshots*, or **Win+Shift+S** to snip an area. Then drag the latest image into ChatGPT so we can see exactly what you see.
 
-

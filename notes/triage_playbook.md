@@ -6,4 +6,3 @@
 4) **Index**: add a bullet into the section README.
 5) **Retire**: delete/supersede the draft(s) from \staging/_imported\.
 
-

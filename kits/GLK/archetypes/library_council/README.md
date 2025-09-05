@@ -20,4 +20,3 @@ Adopt `/kits/GLK/common/Guardrails.md`. Add sector policy hooks here.
 ## Receipts
 Publish agendas, minutes, and execution confirmations in a stable location (repo/docs, wiki, or website) and link them from the log.
 
-

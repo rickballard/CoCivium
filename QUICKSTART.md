@@ -26,3 +26,4 @@ $env:CO_BP_PROBE_SEC = '6'  # fewer git probes; default is 4
 CoBP-Health
 CoBP-Deflate    # add -KillRunning and/or -Hard if needed
 ```
+

@@ -12,4 +12,3 @@
 
 **Formula:** `radius = base_radius × (1 − 0.15 × blended_rd)`. RD is blended around each axis with a Gaussian so notches look organic.
 
-

@@ -17,8 +17,8 @@ Quotable introduction (1–3 short paragraphs).
 …
 
 ## Annexes (Companion Documents)
-A. Concordia — conflict resolution  
-B. Operandi — process & workflows  
-C. Custodia — security & privacy playbooks  
+A. Concordia — conflict resolution
+B. Operandi — process & workflows
+C. Custodia — security & privacy playbooks
 D. Commons — funding & IP stewardship
 

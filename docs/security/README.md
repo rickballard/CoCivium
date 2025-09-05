@@ -18,3 +18,4 @@ We keep code and operational policies open. Some plans (pricing, partner decks, 
 - `age.exe` on PATH, Bitwarden CLI `bw.exe`, and `BW_SESSION` unlocked.
 
 _We can later add Git smudge/clean filters or SOPS if needed._
+

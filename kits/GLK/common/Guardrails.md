@@ -6,4 +6,3 @@
 4. Keep roles separate. The same person should not be sole Proposer, Chair, and Recorder.
 5. No private side-channels for decision-making. Record summaries and link evidence.
 
-

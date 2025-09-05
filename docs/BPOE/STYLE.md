@@ -22,5 +22,3 @@
 - **Avoid ../ chains** in top-level docs; restructure or link by permalink.
 - **Separators:** Use / for repo paths/globs; backslashes only for true Windows filesystem examples.
 
-
-

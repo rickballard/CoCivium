@@ -1,13 +1,13 @@
 <!-- Filename: README_beaxa.md -->
 # Beaxa Subproject
 
-**Purpose:**  
+**Purpose:**
 AI-based moderation and trust scoring system, built to audit truth claims, bias, and threat models. BeAxa is Civium’s guardian protocol.
 
-**Status:**  
+**Status:**
 Stubbed for future implementation and documentation. This subproject is aligned with Civium’s emergent architecture and ethical foundation.
 
-**Coherence Estimate:**  
+**Coherence Estimate:**
 TBD (stub phase)
 
 **Created:** 2025-07-26

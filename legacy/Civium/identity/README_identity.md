@@ -13,6 +13,3 @@ These scrolls frame a medium where ego dissolves and roles evolve.
 - **Identity_Structures.md** – Function Tags, role anonymity, modular participation
 - **Identity_Poetics.md** – Null Contributor, emergent selfhood, ethical symbolism
 
-
-
-
