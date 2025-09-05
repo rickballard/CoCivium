@@ -13,4 +13,3 @@ YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest, notes
 - sha256_manifest is the sha256 of the CSV produced by `tools/inventory_audit.py` for the affected paths.
 - Keep one entry per operation.  If multiple source folders moved, prefer one line per source.
 
-

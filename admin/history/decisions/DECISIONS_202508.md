@@ -61,5 +61,3 @@ Tweak crest size/location via README HTML if needed.
 
 ---
 
-
-

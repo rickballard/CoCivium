@@ -20,3 +20,4 @@ flowchart TD
   P --> IDX[Update Ideas Index]
   D --> IDX
 ```
+

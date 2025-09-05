@@ -19,8 +19,8 @@ They frame how Civium orients to risk, ambiguity, and disagreement.
 
 ## Evolvability
 
-If a future system redefines these principles and still serves alignment—  
-It is Civium.  
+If a future system redefines these principles and still serves alignment—
+It is Civium.
 If not, it is not.
 
 ## Attribution

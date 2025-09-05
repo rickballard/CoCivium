@@ -1,6 +1,5 @@
 # Files/patterns that should only be edited after human review
 
-insights/*being*name-pending*.*     # Being name-pending
+insights/*being*Noname*.*     # Being Noname
 insights/*story*.*            # other stories/poems
-
 

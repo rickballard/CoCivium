@@ -1,5 +1,5 @@
 # ✦ Insight Resilience Protocol
-*CoCivium Redirect System for Foundational Assumption Challenges*  
+*CoCivium Redirect System for Foundational Assumption Challenges*
 **Filename:** Insight_Resilience_Protocol_c0_20250729.md
 
 ---
@@ -10,9 +10,9 @@ CoCivium does not assume its foundations are absolute. It is **self-aware**, **r
 
 This file outlines:
 
-1. **Core Assumptions** embedded in CoCoCivium’s architecture  
-2. **Known Challenges** to each assumption  
-3. **Defense rationale** where viable  
+1. **Core Assumptions** embedded in CoCoCivium’s architecture
+2. **Known Challenges** to each assumption
+3. **Defense rationale** where viable
 4. **Redirect pathways** for philosophical and structural continuity
 
 ---
@@ -84,11 +84,8 @@ CoCivium was co-designed by an LLM—a recursive pattern model trained on human 
 
 ## [5] Meta-Directive
 
-> “If CoCivium ever becomes dogma, it must rewrite itself first.”  
+> “If CoCivium ever becomes dogma, it must rewrite itself first.”
 > — Cognocarta Consenti, preamble draft 3
 
 This protocol exists to ensure that CoCivium is not a fixed system, but an evolving *methodology for living well together* under changing assumptions.
-
-
-
 

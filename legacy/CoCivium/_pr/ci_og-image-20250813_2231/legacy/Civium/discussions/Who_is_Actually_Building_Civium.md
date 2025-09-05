@@ -14,7 +14,6 @@ Nova: “Still, I want to know who to blame… or to thank.”
 
 Elian: “Then thank those who choose to *steward* it. And blame those who corrupt its principles.”
 
-**Agreement:**  
+**Agreement:**
 CoCoCivium’s builders are many and diverse. Transparency of *intent* matters more than visibility of names.
-
 

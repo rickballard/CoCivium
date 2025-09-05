@@ -5,3 +5,4 @@ Say “A and A” in your head: **A** (Accept) then **A** (Allow) → press **Al
 or confirm with Enter. This keeps the rhythm of “Copy → Paste → A-and-A → Enter”.
 
 Also keep a consistent cadence for block labels: **DO-A, DO-B, DO-C…**
+

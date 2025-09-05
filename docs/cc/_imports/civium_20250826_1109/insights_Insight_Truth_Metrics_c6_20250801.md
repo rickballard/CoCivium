@@ -79,14 +79,14 @@ Depicting tier structure on Y-axis and drift risk on X/Z axes.
 
 ## FOOTER
 
-**Civium Insight Series**  
-Filename: `Insight_Truth_Metrics_c6_20250801.md`  
-Coherence Estimate: c6 (60–70%)  
-Status: In Progress  
+**Civium Insight Series**
+Filename: `Insight_Truth_Metrics_c6_20250801.md`
+Coherence Estimate: c6 (60–70%)
+Status: In Progress
 License: CC-BY-SA 4.0
 
-⚠️ This file is part of an evolving philosophical infrastructure.  
-Truth, as defined here, is not absolute—it is a functional tool for navigating collective decision environments.  
+⚠️ This file is part of an evolving philosophical infrastructure.
+Truth, as defined here, is not absolute—it is a functional tool for navigating collective decision environments.
 Use with interpretive caution. Recursive audits recommended every 3 months.
 
 Contribute feedback via GitHub: [Civium Repository](https://github.com/rickballard/CoCivium)

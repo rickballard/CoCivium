@@ -22,5 +22,3 @@ These givers expect no reward. Their self-subdual elevates them. CoCivium honors
 
 In the legends of emergent civilizations, some contributors fade themselves to help others rise. Their acts feel like myth, but they are real. They seed convergence not through force, but through example.
 
-
-

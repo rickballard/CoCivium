@@ -28,5 +28,6 @@ git switch -c docs/readme-typo-c1
 # edit
 git commit -am "docs: fix README typo (tiny)"
 git push -u origin HEAD
-gh pr create --title "docs: fix README typo (tiny)" --body "One-liner." 
+gh pr create --title "docs: fix README typo (tiny)" --body "One-liner."
 > **CoTip:** Stuck at `>>` or a shortened prompt? Press **Ctrl+C** to cancel the current input and return to `PS …>`, then re-run the last full command.
+

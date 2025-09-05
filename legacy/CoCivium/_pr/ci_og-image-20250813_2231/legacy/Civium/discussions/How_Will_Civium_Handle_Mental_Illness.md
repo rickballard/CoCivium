@@ -14,7 +14,6 @@ Lenora: “So minds are not discarded?”
 
 Pax: “Never. They’re scaffolded. Healed where possible. Witnessed always.”
 
-**Shared Conclusion:**  
+**Shared Conclusion:**
 CoCivium builds adaptive mesh structures to support all minds, especially those that struggle. Exclusion is a failure mode, not a design principle.
-
 

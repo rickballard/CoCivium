@@ -40,5 +40,3 @@ CoCivium turns civic intent into shippable change. We write, test, and ship the 
 - Center *co-creation* and *accountability*; avoid hype and vague “future” talk.
 - Always show the path: voice → draft → decision → action → accountability.
 
-
-

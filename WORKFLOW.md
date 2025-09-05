@@ -47,5 +47,3 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 
 Full details live in `docs/ERROR_PLAYBOOK.md`.
 
-
-
