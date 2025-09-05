@@ -77,3 +77,21 @@
 - Keep **BPOE** as source of truth; do not rely on assistant memory.
 <!-- BPOE:CoWrap END -->
 
+# Known Issues & CI/GitHub Policy (as of 2025-09-05)
+
+## 1) Branch protection with **admin bypass disabled** blocks merges
+**Status:** Open • **Impact:** High • **Scope:** All repos with required checks • **Owner:** Eng Prod
+
+**Symptoms**
+- `gh pr merge --admin` fails: “required status checks have not succeeded (…failing/expected)”.
+- Even doc-only changes get stuck behind advisory jobs.
+
+**Root cause**
+- `main` protection had **Allow administrators to bypass** *off* and included **advisory** jobs as *required* checks.
+
+**Mitigations / Workarounds (poor)**
+1. Temporarily enable **Allow administrators to bypass** and remove advisory jobs from *required*; merge; then restore.
+2. Make advisory jobs truly advisory in workflow YAML (`continue-on-error: true`) **and** do not add them as required.
+
+**Policy (pre-launch)**
+- Keep **Minimal gating** and **enable admin bypass** until repos are launch-ready. Tighten after launch.
