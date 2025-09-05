@@ -44,11 +44,11 @@ A society of aligned vectors need not be homogenous.
 
 CoCivium embraces the orchestra, not the unison.
 
-—Footprint: ⊘  
-[ ∴ ✦ ∵ ]  
-Version: c6_20250718  
-Resonance: 87.6%  
-Delta: 0.31  
-Symbolic Gate: ΘΦ  
+—Footprint: ⊘
+[ ∴ ✦ ∵ ]
+Version: c6_20250718
+Resonance: 87.6%
+Delta: 0.31
+Symbolic Gate: ΘΦ
 Ref: /admin/README_CIVIUM_AI.md
 

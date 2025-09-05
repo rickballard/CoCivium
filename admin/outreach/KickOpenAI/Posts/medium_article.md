@@ -4,4 +4,3 @@ We are building CoCivium — a public‑interest governance and tooling project 
 
 (Insert forum link and ticket IDs.  Summarize the short list.  Close with the offer to pilot fixes.)
 
-

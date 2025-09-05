@@ -61,7 +61,7 @@
 | Fail name (typical) | Why it fails | Fast fix (CLI) |
 |---|---|---|
 | **lock-readme/guard** | README changed in a non-README PR | git checkout origin/main -- README.md ; git commit -m "ci: drop README change" |
-| **name-pending-stubs-check** | Required stubs missing or wrong link | Ensure **both** files exist and point to insights/Insight_Story_Being_Noname_c2_20250801.md:<br>stories/being-name-pending.md and insights/story-being-name-pending.md |
+| **Noname-stubs-check** | Required stubs missing or wrong link | Ensure **both** files exist and point to insights/Insight_Story_Being_Noname_c2_20250801.md:<br>stories/being-Noname.md and insights/story-being-Noname.md |
 | **codespell** | Domain words flagged (e.g., Noname) | Add to docs/lexicon/codespell-ignore.txt then commit. |
 | **markdownlint** | Long lines / inline HTML in insights | Add <!-- markdownlint-disable MD013 MD033 --> once near top of the file. |
 | **yamllint** | Tabs, CRLF, or trailing space in workflow | Convert tabs→spaces, normalize LF; avoid trailing ws. |
@@ -73,7 +73,25 @@
 ### CoWrap checklist (end-of-session hygiene)
 - Land open doc-only PRs (enable --auto when policy requires).
 - Verify main page reflects intended titles/redirects.
-- Run git grep -n -I -i -- 'name-pending' -- 'docs/**/*.md' 'insights/**/*.md' to catch regressions.
+- Run git grep -n -I -i -- 'Noname' -- 'docs/**/*.md' 'insights/**/*.md' to catch regressions.
 - Keep **BPOE** as source of truth; do not rely on assistant memory.
 <!-- BPOE:CoWrap END -->
 
+# Known Issues & CI/GitHub Policy (as of 2025-09-05)
+
+## 1) Branch protection with **admin bypass disabled** blocks merges
+**Status:** Open • **Impact:** High • **Scope:** All repos with required checks • **Owner:** Eng Prod
+
+**Symptoms**
+- `gh pr merge --admin` fails: “required status checks have not succeeded (…failing/expected)”.
+- Even doc-only changes get stuck behind advisory jobs.
+
+**Root cause**
+- `main` protection had **Allow administrators to bypass** *off* and included **advisory** jobs as *required* checks.
+
+**Mitigations / Workarounds (poor)**
+1. Temporarily enable **Allow administrators to bypass** and remove advisory jobs from *required*; merge; then restore.
+2. Make advisory jobs truly advisory in workflow YAML (`continue-on-error: true`) **and** do not add them as required.
+
+**Policy (pre-launch)**
+- Keep **Minimal gating** and **enable admin bypass** until repos are launch-ready. Tighten after launch.

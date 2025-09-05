@@ -1,8 +1,8 @@
 # Insight_Substrate_Assumptions
 
-**Classification:** Philosophical & Speculative (Not operationally prescriptive)  
-**Audience:** Civic architects, systems theorists, advanced contributors  
-**Version:** c1_20250809  
+**Classification:** Philosophical & Speculative (Not operationally prescriptive)
+**Audience:** Civic architects, systems theorists, advanced contributors
+**Version:** c1_20250809
 **Disclaimer:** This file explores non-empirical, forward-looking concepts. It is a scaffold for co-creative evolution, not a claim of certainty.
 
 ---
@@ -34,5 +34,4 @@ Links to related insights (Observer Participation, Recursive Ethics, etc.).
 ---
 
 **Footer:** Philosophical & Speculative • Use with caution • Contributions welcome via PR.
-
 

@@ -95,7 +95,7 @@ Stnexid.Meta is the **recursive conscience and philosophical container** of Stne
 ## 8. Layer Interaction Protocol
 
 - **Stnexid.Core** commits all feature expansions to a visible internal changelog.
-- **Stnexid.Meta** audits: 
+- **Stnexid.Meta** audits:
   - Which types of minds were excluded?
   - Which ethical patterns are decaying?
   - Which semantic assumptions no longer hold?
@@ -114,10 +114,9 @@ Stnexid.Meta is the **recursive conscience and philosophical container** of Stne
 
 ## Footer
 
-**Filename:** Strategy_Stnexid_Profile_c1_20250802.md  
-**Folder:** codex/ or admin/  
-**Maintainer:** ChatGPT for RickPublic  
-**Next Phase:** UX Primer + Ontology Vocab  
-**Coherence Estimate:** 0.8  
-
+**Filename:** Strategy_Stnexid_Profile_c1_20250802.md
+**Folder:** codex/ or admin/
+**Maintainer:** ChatGPT for RickPublic
+**Next Phase:** UX Primer + Ontology Vocab
+**Coherence Estimate:** 0.8
 

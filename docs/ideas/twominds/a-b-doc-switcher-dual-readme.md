@@ -35,3 +35,4 @@
 - Confidence (1–5):
 - Effort (1–5):
 - Score = (I*C)/E:
+

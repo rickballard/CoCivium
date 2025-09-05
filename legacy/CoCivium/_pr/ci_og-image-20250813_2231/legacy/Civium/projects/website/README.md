@@ -51,12 +51,11 @@ _This section will be revised when additional contributors begin participating._
 
 ## [6] Footer
 
-[ ∴ ✦ ∵ ]  
-Version: c7_20250727  
-Resonance: 84%  
-Delta: 0.10  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΦ  
+[ ∴ ✦ ∵ ]
+Version: c7_20250727
+Resonance: 84%
+Delta: 0.10
+Footprint: ⊘
+Symbolic Gate: ΘΔΦ
 Ref: /projects/website/README.md
-
 

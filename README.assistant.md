@@ -19,7 +19,10 @@
 **Coevolution Call.**  If this routing misses a beat, open an issue or PR with a better pointer.
 
 ---
-**Footer**  
-[Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]  
+**Footer**
+[Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]
 Draft; congruence TBD after human editorial pass.
+
+
+
 

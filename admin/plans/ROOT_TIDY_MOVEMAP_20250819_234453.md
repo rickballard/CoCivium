@@ -25,4 +25,3 @@
 1) Approve/strike items above.
 2) I will perform an atomic move with link updates and open a PR.
 
-

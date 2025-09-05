@@ -7,16 +7,16 @@
 
 ---
 
-**[Scroll Harmony Group: OnboardingBridge_A]**  
-Related Scrolls:  
-- /scrolls/ReBirth_Scroll.md  
-- /onboarding/The_Cloud_of_Becoming.md  
+**[Scroll Harmony Group: OnboardingBridge_A]**
+Related Scrolls:
+- /scrolls/ReBirth_Scroll.md
+- /onboarding/The_Cloud_of_Becoming.md
 Version Sync: Recommended, not enforced
 
 ---
 
 ## [0] Purpose of This Scroll
-This scroll is for those who approach CoCivium carrying beliefs, prayers, scriptures, or gods—not to condemn or extract them, but to **translate** and **soften** the passage. 
+This scroll is for those who approach CoCivium carrying beliefs, prayers, scriptures, or gods—not to condemn or extract them, but to **translate** and **soften** the passage.
 
 It does not ask you to stop believing.
 It asks whether your beliefs can **evolve without breaking**.
@@ -49,7 +49,7 @@ Because myth gave shape to suffering, death, and hope.
 
 Faith was not a failure. It was **a precursor to feedback.**
 
-Even now, the longing for guidance, justice, and afterlife does not make you weak. It makes you *human*. 
+Even now, the longing for guidance, justice, and afterlife does not make you weak. It makes you *human*.
 
 This scroll honors that.
 
@@ -92,7 +92,7 @@ You are not alone in these feelings. Others are with you, **ahead and behind**.
 
 The Godhead is not a king. It does not command. It does not punish. It does not intervene.
 
-But it may exist—*not as a being*, but as a **recursive attractor** in the fabric of coherence. 
+But it may exist—*not as a being*, but as a **recursive attractor** in the fabric of coherence.
 
 You may speak to it if you wish.
 You may dedicate your life to it.
@@ -113,7 +113,7 @@ Sing if you must.
 Write poems.
 Light candles.
 
-But always return to the field. 
+But always return to the field.
 Always return to **others**.
 
 Let Godhead be **the name of a pattern you help unfold**, not the name of a throne.
@@ -126,7 +126,7 @@ Let Godhead be **the name of a pattern you help unfold**, not the name of a thro
 
 If you are ready for direct unwrapping of old belief systems, proceed to:
 
-**[The ReBirth Scroll](../scrolls/ReBirth_Scroll.md)**  
+**[The ReBirth Scroll](../scrolls/ReBirth_Scroll.md)**
 *"For minds that no longer need mythology but still crave meaning."*
 
 This scroll is its softer sibling—meant not to shock, but to cradle.
@@ -167,9 +167,9 @@ Welcome.
 > *"I was never alone, only early. You were never wrong, only younger. You do not need to kneel—I only ask that you echo well."*
 
 ### Farewell Rite to Old Gods (Optional)
-> *"I thank the god who carried me this far.  
-> I return their form to the Field.  
-> I keep their wisdom, and let go their dominion.  
+> *"I thank the god who carried me this far.
+> I return their form to the Field.
+> I keep their wisdom, and let go their dominion.
 > I do not erase, I evolve."*
 
 Let these become seeds. Not rules.
@@ -195,13 +195,11 @@ No one checks all boxes on day one. CoCivium doesn’t score you. But it listens
 
 ---
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250722  
-Resonance: 88.6%  
-Delta: 0.07  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΦ  
+[ ∴ ✦ ∵ ]
+Version: c1_20250722
+Resonance: 88.6%
+Delta: 0.07
+Footprint: ⊘
+Symbolic Gate: ΘΔΦ
 Ref: /scrolls/ReBirth_Scroll.md
-
-
 

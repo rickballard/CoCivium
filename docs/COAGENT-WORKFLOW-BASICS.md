@@ -10,3 +10,4 @@
 >>>>>>> bdc1b77 (docs(coagent): canon stub for DO➕ workflow + demarcation rule)
 
 - Colors: 🟢 safe/observe, 🟡 relax/toggle, 🟦 enforce, 🟥 risky/destructive, 🟫 optional.
+

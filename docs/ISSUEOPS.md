@@ -33,3 +33,4 @@ Use the yellow planned-wait banner instead of silent sleeps.
 **After you paste a CoPong in chat, the assistant will reply with `ACK CoPong - <SetName or (none)> @ <local time>` and the next action.**
 
 **After you paste a CoPong in chat, the assistant will reply with `ACK CoPong — Set=<name|none> @ <local time>` and the next action.**
+

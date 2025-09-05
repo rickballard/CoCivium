@@ -6,4 +6,3 @@ Use this folder for vector diagrams (`.svg`) and, optionally, raster previews (`
 - Embed in Markdown with a relative path, e.g.:
   `![Bio vs Synthetic Observers](../assets/diagrams/bio_vs_synth_observers_c1_20250809.svg)`
 
-

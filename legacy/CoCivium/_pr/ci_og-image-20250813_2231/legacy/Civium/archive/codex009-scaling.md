@@ -100,4 +100,3 @@ Each phase produces intermediate logs and rationale annotations.
 
 [tags]: # (scaling forking decentralization nested-localism repmod CoCivium)
 
-

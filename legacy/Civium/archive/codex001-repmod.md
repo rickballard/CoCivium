@@ -88,5 +88,3 @@ Weights are assigned and published **alongside each vote**, not hidden in back-e
 
 **[codex] [voting-system] [meritocratic] [reputation] [adaptive-governance]**
 
-
-

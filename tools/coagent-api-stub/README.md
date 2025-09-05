@@ -5,3 +5,4 @@ POST /v1/policy/sentinel-scan -> {found, files}
 POST /v1/telemetry/event      -> {ok}
 
 Note: This is a design stub for the ChatGPT Actions path; no code shipped yet.
+

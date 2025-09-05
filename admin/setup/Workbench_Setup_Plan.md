@@ -82,4 +82,3 @@ next:
 - Generate `CoCivium-Workbench.bat` and Windows Terminal profile.
 - (Optional) Add commit hook + schedule daily sidecar scan.
 
-

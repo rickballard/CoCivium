@@ -6,4 +6,3 @@ While `/intent/` describes *why* CoCivium exists, `/ethos/` expresses *how* we r
 
 These scrolls serve as both mirror and tuning fork—amplifying the resonance CoCivium seeks to foster among biological, synthetic, and anomalous minds.
 
-
