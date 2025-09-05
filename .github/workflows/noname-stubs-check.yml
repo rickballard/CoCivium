@@ -1,31 +1,20 @@
 name: name-pending-stubs-check
 on:
   pull_request:
-    paths:
-      - README.md
-      - insights/**.md
-      - stories/**.md
-      - .github/workflows/name-pending-stubs-check.yml
-  push:
     branches: [ main ]
-    paths:
-      - README.md
-      - insights/**.md
-      - stories/**.md
-      - .github/workflows/name-pending-stubs-check.yml
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Verify stubs exist and point to canonical
+        shell: bash
         run: |
           set -euo pipefail
           test -f stories/being-name-pending.md
           test -f insights/story-being-name-pending.md
-          grep -q 'insights/Insight_Story_Being_Noname_c2_20250801.md' stories/being-name-pending.md
-          grep -q 'insights/Insight_Story_Being_Noname_c2_20250801.md' insights/story-being-name-pending.md
+          grep -q "insights/Insight_Story_Being_Noname_c2_20250801.md" stories/being-name-pending.md
+          grep -q "insights/Insight_Story_Being_Noname_c2_20250801.md" insights/story-being-name-pending.md
           echo "name-pending stubs OK ✅"
-
-
+          exit 0
 
