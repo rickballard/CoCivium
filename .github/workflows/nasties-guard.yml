@@ -31,3 +31,4 @@ jobs:
       - name: Run nasties guard
         run: python tools/nasties_guard.py
   continue-on-error: true
+

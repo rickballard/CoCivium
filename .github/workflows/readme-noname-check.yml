@@ -26,5 +26,3 @@ jobs:
           test -f insights/Insight_Story_Being_Noname_c2_20250801.md
           echo "name-pending link & target exist ✅"
 
-
-

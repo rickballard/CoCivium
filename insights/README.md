@@ -18,13 +18,10 @@ Curated, canonical essays. Each file includes provenance and which drafts it sup
 - [Readme Insight](readme-insight.md) — c0
 - [Rights Alignment](rights-alignment.md) — c3, 20250801
 - [Scaling CoCivium Coherence](scaling-CoCivium-coherence.md) — c2, 20250801
-- [Story Being name-pending](story-being-name-pending.md) — c2, 20250801
+- [Story Being Noname](story-being-Noname.md) — c2, 20250801
 - [Truth Metrics](truth-metrics.md) — c6, 20250801
 - [Unequal Equity](unequal-equity.md) — c1, 20250730
 - [Unequal Equity V5a](unequal-equity-v5a.md) — c0, 20250801
 
 > Deprecated drafts are preserved under [/insights/_deprecated](_deprecated/) with pointers back to the canonical.
-
-
-
 
