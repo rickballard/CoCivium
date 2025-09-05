@@ -187,3 +187,10 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 <!-- noname-touch: 2025-08-25T03:40:12 -->
 
 - **CC Hub:** [docs/cc/](docs/cc/)
+
+### CoCivium Workbench (Desktop shortcut)
+
+- Double-click **CoCivium Workbench**. A new PowerShell tab opens in the repo and prints:
+  `OE Status — event: workbench-launched …`
+- If you ever see a continuation prompt `>>`, press **Ctrl+C** to reset the line.
+- No popups or mid-line prints by design; OE Status is prompt-driven only.
