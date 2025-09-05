@@ -108,3 +108,17 @@
 - **OE Status cadence.**  
   On workbench launch and every ~20 minutes, print a one-line OE Status (mode, pwsh version, working dir). Use a timer, not tight loops.
 
+
+## Always capture workflow wisdom on-repo
+
+- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to `docs/BPOE.md` (or a purpose doc it references) before we rely on it.
+- **DO blocks, not one-liners.** Every operational instruction published to humans is a multi-line DO block with a harmless first line.
+- **No in-shell kills.** If a process must exit, we instruct manual/GUI/TaskMgr steps; never script a kill from inside the target shell.
+- **Session hygiene.** On workbench launch and ~every 20 minutes, print an OE Status. If paste/render bloat appears, say so explicitly and shrink outputs.
+- **Backfill habit.** After each fix or failure, backfill the repo with: what we did, what failed, what we decided, what to try next.
+
+### Capture checklist (use after a “fix”)
+- [ ] Add/adjust a BPOE section or snippet
+- [ ] Commit with an informative message (tags: BPOE, CI, UX, Safety)
+- [ ] Link the section from any related README/template
+- [ ] If cross-repo, open issues/PRs to mirror the guidance
