@@ -111,13 +111,14 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ## Inspiration / Onboarding for humans first
 
-- **Being name-pending** — a gentle, human-centric onramp to CoCivium’s spirit and practice.  
-  → [Read the essay](./docs/onboarding/Being-name-pending.md) *(todo)*
+- **Being Noname** — a gentle, human-centric onramp to CoCivium’s spirit and practice.  
+  → [Read the essay](./docs/onboarding/Being-Noname.md) *(todo)*
 
 - **FAQ** — short answers to common “Do I need to code?” and “What if I only have 5 minutes?” questions.  
   → [Read the FAQ](./docs/FAQ.md) *(todo)*
 
 ---
+
 
 
 
