@@ -1,11 +1,21 @@
+# actions/labeler@v5 schema: each label maps to an ARRAY of rule objects.
+# See: https://github.com/actions/labeler
 docs:
-  - '**/*.md'
-brand:
-  - 'assets/brand/**'
-hero:
-  - 'assets/hero/**'
-ci:
-  - '.github/workflows/**'
-ops:
-  - 'docs/ops/**'
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.md','docs/**','insights/**','stories/**']
 
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ['.github/**']
+
+brand:
+  - changed-files:
+      - any-glob-to-any-file: ['brand/**','assets/brand/**']
+
+hero:
+  - changed-files:
+      - any-glob-to-any-file: ['docs/onboarding/**']
+
+ops:
+  - changed-files:
+      - any-glob-to-any-file: ['admin/**','tools/**']
