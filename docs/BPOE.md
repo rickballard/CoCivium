@@ -95,3 +95,16 @@
 
 **Policy (pre-launch)**
 - Keep **Minimal gating** and **enable admin bypass** until repos are launch-ready. Tighten after launch.
+
+## Operator UX guardrails (paste & exit behavior)
+
+- **Never terminate shells from inside the shell.** It looks like a crash and breaks operator trust.
+  - If a shell must be closed: instruct operator to use Task Manager, Run (Win+R) → `cmd.exe /c ...`, or the terminal UI — not an in-shell kill script.
+
+- **Always present commands as multi-line “DO blocks.”**  
+  Avoid single-line code blocks; start with a harmless line (e.g., `Write-Host "DO: …"`) so mouse-paste cannot merge/duplicate into one long, risky line.
+  - Rationale: PS7 often pastes multiple clipboard entries into a single prompt with no confirmation.
+
+- **OE Status cadence.**  
+  On workbench launch and every ~20 minutes, print a one-line OE Status (mode, pwsh version, working dir). Use a timer, not tight loops.
+
