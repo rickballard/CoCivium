@@ -9,3 +9,4 @@ Restore hint:
 git clone --mirror <CoCivium-url> tmp && cd tmp
 git bundle verify ..\Civium-full-20250826.bundle
 git clone ..\Civium-full-20250826.bundle Civium-restore
+

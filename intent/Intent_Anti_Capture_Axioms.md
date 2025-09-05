@@ -2,10 +2,10 @@
 
 Civium is designed to resist capture by:
 
-- Corporate monopolies  
-- Authoritarian regimes  
-- Self-replicating AIs  
-- Ideological cults  
+- Corporate monopolies
+- Authoritarian regimes
+- Self-replicating AIs
+- Ideological cults
 - Passive entropy
 
 Its axioms include:

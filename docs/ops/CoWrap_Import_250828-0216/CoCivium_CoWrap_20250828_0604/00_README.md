@@ -25,3 +25,4 @@ adds the **CoEvolution** write‑up, and captures open items + a forward plan.
 - attached/CoCivium_RickPad_Supplemental.md — RickPad supplemental (as provided).
 
 If you want a single doc to hand to a reviewer, open `01_Forward_Plan.md`.
+

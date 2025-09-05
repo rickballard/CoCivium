@@ -14,7 +14,7 @@
 3. **Jump straight to Proposal** if you already know scope → see [WORKFLOWS](../WORKFLOWS.md).
 
 ## Triage & labels
-Maintainers triage within ~3 working days → `needs-scope` / `accepted` / `parked` / `duplicate`.  
+Maintainers triage within ~3 working days → `needs-scope` / `accepted` / `parked` / `duplicate`.
 Exit criteria: becomes a Proposal/PR or is parked with a note.
 
 ## 1-pager starter
@@ -26,10 +26,10 @@ last-updated: YYYY-MM-DD
 links: []
 ---
 
-**User & use-case** —  
-**Smallest testable change** —  
-**Success metric** —  
-**Risks/unknowns** —  
+**User & use-case** —
+**Smallest testable change** —
+**Success metric** —
+**Risks/unknowns** —
 **Next concrete action** —
 
 ---
@@ -42,3 +42,4 @@ Each idea is a file here: `YYYYMMDD-HHMMZ-slug.md`.
 
 Use `_template.md` as a starting point. Keep it short; one clear “next step.”
 >>>>>>> origin/main
+

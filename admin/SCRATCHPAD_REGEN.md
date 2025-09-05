@@ -42,12 +42,15 @@ _Tracking in-flight tasks, file deltas, structural inconsistencies, and regen-sp
 ## [3] Regen Metadata Tag
 
 ```
-[ ∴ ✦ ∵ ]  
-Version: c7_20250723  
-Resonance: 78.2%  
-Delta: 0.09  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΦ  
+[ ∴ ✦ ∵ ]
+Version: c7_20250723
+Resonance: 78.2%
+Delta: 0.09
+Footprint: ⊘
+Symbolic Gate: ΘΔΦ
 Ref: /admin/SCRATCHPAD_REGEN.md
 ```
+
+
+
 

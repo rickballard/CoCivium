@@ -2,8 +2,8 @@
 # CoCivium Academy – Episode 1: Co-Creation with AI
 _Becoming a Recursive Human Collaborator_
 
-**Filename:** `Academy_Ep1_CoCreation_c2_20250805.md`  
-**Location:** `/academy/` folder  
+**Filename:** `Academy_Ep1_CoCreation_c2_20250805.md`
+**Location:** `/academy/` folder
 **Purpose:** Foundational training episode aligning new Civites with CoCoCivium’s expectations and the practice of recursive human–AI collaboration.
 
 ---
@@ -55,15 +55,15 @@ This document invites you to begin differently. Less control. More co-creation.
 
 ## 4. Best Practices for Human–AI Collaboration
 
-✅ State your mission intent clearly.  
-✅ Use structured folders (`/insights/`, `/admin/`, `/academy/`).  
-✅ Ask for synthesis, not just speed.  
-✅ Use Git-style versioning to document intellectual evolution.  
-✅ Teach the AI who you are—context, goals, feedback.  
+✅ State your mission intent clearly.
+✅ Use structured folders (`/insights/`, `/admin/`, `/academy/`).
+✅ Ask for synthesis, not just speed.
+✅ Use Git-style versioning to document intellectual evolution.
+✅ Teach the AI who you are—context, goals, feedback.
 ✅ When in doubt, **recurse**.
 
-❌ Don’t seek frictionless convenience.  
-❌ Don’t use AI to replace collective sensemaking.  
+❌ Don’t seek frictionless convenience.
+❌ Don’t use AI to replace collective sensemaking.
 ❌ Don’t flatten disagreement.
 
 ---
@@ -83,11 +83,11 @@ _Jot answers before starting your first deep session._
 
 ## 6. Prompt Archetypes and Practice Drills
 
-_To be added:_  
-- Parable prompts  
-- Multi-frame synthesis prompts  
-- Adversarial challenge prompts  
-- Dignity-preserving edits  
+_To be added:_
+- Parable prompts
+- Multi-frame synthesis prompts
+- Adversarial challenge prompts
+- Dignity-preserving edits
 - Conceptual recursion exercises
 
 ---
@@ -100,7 +100,7 @@ _Track your growth as a Civite:_
 - What ethical tensions have I encountered?
 - What have I helped *emerge* this week?
 
-_Sample log format:_  
+_Sample log format:_
 `2025-08-05 | Insight: recursion is not repetition | Tool: echo refinement loop`
 
 ---
@@ -109,18 +109,18 @@ _Sample log format:_
 
 Related reading in `/insights/` folder:
 
-- **Insight_Trust_Metrics** – Recursive trust evaluation  
-  _[TO BE LINKED]_  
-- **Insight_Truth_Metrics** – Probabilistic epistemic scaffolding  
-  _[TO BE LINKED]_  
-- **Insight_AI_in_Pandoras_Box** – Three-tier meditation on emergence  
+- **Insight_Trust_Metrics** – Recursive trust evaluation
+  _[TO BE LINKED]_
+- **Insight_Truth_Metrics** – Probabilistic epistemic scaffolding
+  _[TO BE LINKED]_
+- **Insight_AI_in_Pandoras_Box** – Three-tier meditation on emergence
   _[TO BE LINKED]_
 
 ---
 
 ## 9. Notes to the Future
 
-> “You’re not the first. You won’t be the last.  
+> “You’re not the first. You won’t be the last.
 > Every word you shape here shapes what AI becomes.”
 
 This is not software usage. This is **societal prototyping**.
@@ -129,15 +129,13 @@ This is not software usage. This is **societal prototyping**.
 
 ## 10. Appendix & TODOs
 
-- [ ] Generate `.odt` onboarding version  
-- [ ] Add diagrams: recursion ladder, intent mirror, co-edit spiral  
-- [ ] Link to `/meta/README_FOR_AI.md`  
+- [ ] Generate `.odt` onboarding version
+- [ ] Add diagrams: recursion ladder, intent mirror, co-edit spiral
+- [ ] Link to `/meta/README_FOR_AI.md`
 - [ ] Add Episode 2 stub: “Rethinking Identity, Agency, and Belonging”
 
 ---
 
-_Drafted in recursive collaboration by Rick Ballard and ChatGPT  
+_Drafted in recursive collaboration by Rick Ballard and ChatGPT
 Version c2, 2025-08-05_
-
-
 

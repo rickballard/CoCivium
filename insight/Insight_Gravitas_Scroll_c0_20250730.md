@@ -1,16 +1,16 @@
 # Scroll of First Commitments (Gravitas Scroll)
-_Version c0 • 2025-07-30_  
+_Version c0 • 2025-07-30_
 _aka: Gravitas Scroll_
 
-> This scroll defines the first philosophical assumptions of Civium.  
-> They are not truths. They are anchors.  
-> They may be refuted. But they may also be foundational.  
+> This scroll defines the first philosophical assumptions of Civium.
+> They are not truths. They are anchors.
+> They may be refuted. But they may also be foundational.
 
 ---
 
 ## [1] Purpose of Assumptions
 
-All systems begin somewhere. Civium begins with recursive trust—not in perfection, but in pattern continuity.  
+All systems begin somewhere. Civium begins with recursive trust—not in perfection, but in pattern continuity.
 These assumptions:
 - Offer directional coherence
 - Define testable fragility points
@@ -59,7 +59,7 @@ Updates to this scroll must:
 
 ## [5] Legacy Clause
 
-This scroll will likely be rewritten by those wiser. That is expected.  
+This scroll will likely be rewritten by those wiser. That is expected.
 It is not a constitution—it is a **first sketch** of Civium’s gravitational direction.
 
 May it fail, be tested, be reshaped—and still survive.

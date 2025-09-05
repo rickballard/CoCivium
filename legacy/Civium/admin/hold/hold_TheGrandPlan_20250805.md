@@ -43,5 +43,3 @@ This document represents the master trajectory of CoCivium, its staging layer (S
 - TODO_Recursive_Revenue_Structures.md
 - TODO_Meta_Stnexid_Gateway.md
 
-
-

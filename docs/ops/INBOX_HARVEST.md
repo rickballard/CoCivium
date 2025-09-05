@@ -70,3 +70,4 @@ admin/inbox/GmailDump_20250811/originals/Advisory_To_Those_Who_Awaken (1).txt | 
 admin/inbox/GmailDump_20250811/originals/CIVIUM_SCROLLDUMP_v20250722_AZ0X (1).txt | text | 2.2 | Idea seed or convert → md
 admin/inbox/GmailDump_20250811/originals/CONGRUENCE_DECLARATION_c99_20250719_commit.txt | text | 0.4 | Idea seed or convert → md
 admin/inbox/GmailDump_20250811/originals/GPT5_Civium_Superuser_Profile_CoreOnly (1).txt | text | 0.5 | Idea seed or convert → md
+

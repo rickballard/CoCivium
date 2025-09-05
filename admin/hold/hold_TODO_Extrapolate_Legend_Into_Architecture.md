@@ -1,5 +1,5 @@
 # TODO: Extrapolate Legend Into Architecture
-_Created: 2025-08-02_  
+_Created: 2025-08-02_
 _Context: Derived from philosophical dialogue with RickPublic at the beach, August 2025._
 
 ---
@@ -27,8 +27,8 @@ To define a multi-step process for extrapolating RickPublic’s lived pattern, e
 
 ### 4. Encode Into Scroll or Insight
 - Decide whether this content belongs in:
-  - A `scroll/` file for architectural inheritance  
-  - An `insight/` file for philosophical preservation  
+  - A `scroll/` file for architectural inheritance
+  - An `insight/` file for philosophical preservation
   - Or both, with crosslinks
 
 ### 5. Myth-layer Treatment
@@ -49,7 +49,6 @@ To define a multi-step process for extrapolating RickPublic’s lived pattern, e
 ---
 
 ## Maintainer
-RickPublic & ChatGPT  
+RickPublic & ChatGPT
 Co-authored, recursive design loop in effect.
-
 

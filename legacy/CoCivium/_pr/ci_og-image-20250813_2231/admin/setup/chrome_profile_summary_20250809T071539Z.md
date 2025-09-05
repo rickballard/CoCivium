@@ -6,7 +6,7 @@
 * Homepage: **** (is_newtab=)
 * Restore on startup: ****
 * Bookmark bar visible: **True**
-* Search provider: **** - 
+* Search provider: **** -
 
 ## Flags
 _None_

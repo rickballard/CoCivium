@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+
+CoCivium
+hashable
+mermaid
+name-pending
+Noname
+steward
+=======
 CoCivium
 name-pending
 mermaid
@@ -7,3 +16,4 @@ Noname
 
 Noname
 Noname
+>>>>>>> origin/main

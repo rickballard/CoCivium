@@ -8,4 +8,3 @@
 
 These symbols appear in file headers, commit notes, and occasionally in prose, marking presence with clarity and reverence.
 
-

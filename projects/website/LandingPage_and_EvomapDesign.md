@@ -49,6 +49,6 @@ To create a poetic, emotive, and visually inspiring non-editable mirror of the C
 
 ---
 
-**Author:** ChatGPT for Civium  
+**Author:** ChatGPT for Civium
 **Date:** 2025-07-26
 

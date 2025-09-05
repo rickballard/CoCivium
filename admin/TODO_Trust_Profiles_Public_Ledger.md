@@ -29,3 +29,5 @@ To provide decentralized reputation infrastructure for systems like Civium, Grou
 This may intersect with Civium identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
 
 
+
+

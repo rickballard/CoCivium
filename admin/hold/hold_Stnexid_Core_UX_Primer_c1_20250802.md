@@ -113,9 +113,9 @@ Stnexid supports:
 
 ## Footer
 
-**Filename:** Stnexid_Core_UX_Primer_c1_20250802.md  
-**Folder:** projects/ or ux/  
-**Maintainer:** ChatGPT for RickPublic  
-**Next Phase:** Ontology Vocab Draft + Wireframe Visuals  
-**Coherence Estimate:** 0.7  
+**Filename:** Stnexid_Core_UX_Primer_c1_20250802.md
+**Folder:** projects/ or ux/
+**Maintainer:** ChatGPT for RickPublic
+**Next Phase:** Ontology Vocab Draft + Wireframe Visuals
+**Coherence Estimate:** 0.7
 
