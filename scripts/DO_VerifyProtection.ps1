@@ -1,57 +1,35 @@
 param(
   [string]$Branch = 'main',
   [string[]]$RequiredContexts = @('safety-gate/gate','readme-smoke/check'),
-  [switch]$RequireAdminBypass = $true
+  [switch]$RequireAdminBypass
 )
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 $prot = gh api repos/:owner/:repo/branches/$Branch/protection -H "Accept: application/vnd.github+json" | ConvertFrom-Json
 
-$okAdmin = -not $prot.enforce_admins.enabled
-$rx = @()
-foreach ($c in $RequiredContexts) {
-  if ((@($prot.required_status_checks.contexts + ($prot.required_status_checks.checks | ForEach-Object { param(
-  [string]$Branch = 'main',
-  [string[]]$RequiredContexts = @('safety-gate/gate','readme-smoke/check'),
-  [switch]$RequireAdminBypass = $true
-)
-Set-StrictMode -Version Latest
-$ErrorActionPreference = 'Stop'
+$got = @()
+if ($prot.required_status_checks.contexts) { $got += $prot.required_status_checks.contexts }
+if ($prot.required_status_checks.checks)   { $got += ($prot.required_status_checks.checks | ForEach-Object { $_.context }) }
+$got = $got | Where-Object { $_ } | Sort-Object -Unique
 
-$prot = gh api repos/:owner/:repo/branches/$Branch/protection -H "Accept: application/vnd.github+json" | ConvertFrom-Json
-
-$okAdmin = -not $prot.enforce_admins.enabled
-$rx = @()
+$missing = @()
 foreach ($c in $RequiredContexts) {
-  if ($prot.required_status_checks.contexts -notcontains $c) { $rx += $c }
+  if ($got -notcontains $c) { $missing += $c }
 }
+
+$okAdmin = -not $prot.enforce_admins.enabled
 
 if ($RequireAdminBypass -and -not $okAdmin) {
-  Write-Error "Admin bypass is OFF (enforce_admins=true)."
+  Write-Error "Admin bypass OFF (enforce_admins=true)."
 }
-if ($rx) {
-  Write-Error ("Missing required checks: " + ($rx -join ', '))
+if ($missing) {
+  Write-Error ("Missing required checks: " + ($missing -join ', '))
 }
-if (($RequireAdminBypass -and $okAdmin) -and -not $rx) {
-  Write-Host "✓ Protections OK: admin bypass ON; required checks present."
+
+if ((-not $missing) -and (-not $RequireAdminBypass -or $okAdmin)) {
+  Write-Host ("✓ Protections OK: [" + ($got -join ', ') + "] — admin bypass " + ($(if($okAdmin){'ON'}else{'OFF'})))
   exit 0
 } else {
   exit 1
 }
-.context })) -notcontains $c)) { $rx += $c }
-}
-
-if ($RequireAdminBypass -and -not $okAdmin) {
-  Write-Error "Admin bypass is OFF (enforce_admins=true)."
-}
-if ($rx) {
-  Write-Error ("Missing required checks: " + ($rx -join ', '))
-}
-if (($RequireAdminBypass -and $okAdmin) -and -not $rx) {
-  Write-Host "✓ Protections OK: admin bypass ON; required checks present."
-  exit 0
-} else {
-  exit 1
-}
-
