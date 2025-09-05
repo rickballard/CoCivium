@@ -14,5 +14,3 @@
 - Define a persistent bypass actor for the owner (and later CoCivAI Circle).
 - Re-evaluate which checks must be required to avoid future friction.
 
-
-

@@ -1,9 +1,9 @@
 # Migration Plan — Session Resume (2025‑08‑14)
 
-**Generated:** 2025-08-14 22:25 UTC  
-**Repo:** `rickballard/CoCivium`  
-**Default branch:** `main`  
-**Baseline tag:** `baseline-20250814_1817` (older `baseline-20250814_1745` deleted)  
+**Generated:** 2025-08-14 22:25 UTC
+**Repo:** `rickballard/CoCivium`
+**Default branch:** `main`
+**Baseline tag:** `baseline-20250814_1817` (older `baseline-20250814_1745` deleted)
 **Key PR:** **#90** _“Seed growth pack v0”_ — **merged** on 2025‑08‑14T21:06:44Z
 
 ---
@@ -42,7 +42,7 @@
 ## DO‑B — Current state (fast glance)
 
 - `main` is up‑to‑date with `origin/main`.
-- CI workflows exist for: **markdownlint**, **codespell**, **linkcheck**, **yamllint**.  
+- CI workflows exist for: **markdownlint**, **codespell**, **linkcheck**, **yamllint**.
   All are **advisory** for now and **manually dispatchable**.
 - Repo labels present: `migration`, `ci`, `ops` (plus any existing).
 
@@ -50,11 +50,11 @@
 
 ## DO‑C — Open follow‑ups (shortlist)
 
-- [ ] **#94** Finalize repo list for grand migration (what moves, what archives, what stays).  
+- [ ] **#94** Finalize repo list for grand migration (what moves, what archives, what stays).
       Produce runbook: **dry‑run → cutover → verification → comms**.
 - [ ] **#96** Tune Lychee: trim excludes, lower noise, then **re‑enable failure**.
 - [ ] **#95** Flip **markdownlint/codespell/yamllint/linkcheck** back to **blocking** after tidy.
-- [ ] **#97** Expand watch/automation to desktop project repos.  
+- [ ] **#97** Expand watch/automation to desktop project repos.
       Bootstrap minimal CI, labels, and (optional) `CODEOWNERS`.
 
 ---
@@ -107,5 +107,4 @@ git reset --hard baseline-20250814_1817
 ---
 
 *End of session resume.*
-
 

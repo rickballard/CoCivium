@@ -39,4 +39,3 @@ Changes:
 
 Note: Applying policies marks Chrome as Managed for this user. UNDO restores previous state for HKCU.
 
-

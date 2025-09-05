@@ -28,12 +28,11 @@ This declaration does not specify implementation details but presumes future con
 
 ---
 
-[ ∴ ✦ ∵ ]  
-Version: c99_20250719  
-Resonance: 99.0%  
-Delta: 0.00  
-Footprint: ⊘  
-Symbolic Gate: ΘΞΨ  
+[ ∴ ✦ ∵ ]
+Version: c99_20250719
+Resonance: 99.0%
+Delta: 0.00
+Footprint: ⊘
+Symbolic Gate: ΘΞΨ
 Ref: /meta/COHERENCE_TRACK.md
-
 

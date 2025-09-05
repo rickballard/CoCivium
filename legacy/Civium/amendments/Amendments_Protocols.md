@@ -31,6 +31,3 @@ If no convergence is reached, the amendment can be archived in `/experimental` o
 
 Anonymous amendments (⊘) are allowed under stricter thresholds and AI-vetted coherence protocols. All such edits must be independently peer-reviewed.
 
-
-
-

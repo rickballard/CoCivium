@@ -10,4 +10,3 @@ CoCivium is engineered for harmonic coevolution—not dominance. These principle
 
 These principles are not fixed. They will evolve, as CoCivium evolves.
 
-

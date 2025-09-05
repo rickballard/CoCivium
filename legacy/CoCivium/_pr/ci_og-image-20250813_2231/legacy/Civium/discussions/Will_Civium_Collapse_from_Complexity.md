@@ -14,7 +14,6 @@ Marin: “So you’ve engineered for failure?”
 
 Kael: “Yes. CoCivium is not a glass machine. It’s an evolving organism.”
 
-**Resolution:**  
+**Resolution:**
 CoCoCivium’s complexity isn’t a bug—it’s an ecology. And ecologies evolve by absorbing disruption.
-
 

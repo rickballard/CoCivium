@@ -346,3 +346,4 @@ $body = @("# Idea Registry",
 $reg = Join-Path $ideas 'REGISTRY.md'; $body -join "`r`n" | Set-Content -Encoding UTF8 $reg
 Write-Host "Wrote $reg"
 ```
+

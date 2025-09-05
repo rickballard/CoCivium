@@ -71,9 +71,9 @@ Civium must scale like a fungal network: robust, anti-fragile, organically adapt
 
 ---
 
-_Created: 2025-08-01  
-Filename: Insight_Scaling_Civium_Coherence_c2_20250801.md  
-Scroll Status: Partial Draft  
-Maintainer: RickPublic & ChatGPT  
+_Created: 2025-08-01
+Filename: Insight_Scaling_Civium_Coherence_c2_20250801.md
+Scroll Status: Partial Draft
+Maintainer: RickPublic & ChatGPT
 Use: Insight folder in Civium repo_
 

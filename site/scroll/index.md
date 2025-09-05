@@ -4,7 +4,7 @@ title: Cognocarta Consenti
 permalink: /scroll/
 ---
 
-> This is the canonical public view of the Cognocarta Consenti (civitude-first).  
+> This is the canonical public view of the Cognocarta Consenti (civitude-first).
 > For now, we’re preserving legacy text before restructuring.
 
 **Read the full Markdown:** [scroll/Cognocarta_Consenti.md](/scroll/Cognocarta_Consenti.md)

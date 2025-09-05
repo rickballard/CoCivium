@@ -7,4 +7,3 @@
 
 **See also:** [IssueOps Cheat Sheet](./IssueOps-CheatSheet.md)
 
-

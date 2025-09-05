@@ -13,4 +13,3 @@ Rules:
 
 - Academy: [docs/academy/BP_OE_WF.md](../academy/BP_OE_WF.md)
 
-

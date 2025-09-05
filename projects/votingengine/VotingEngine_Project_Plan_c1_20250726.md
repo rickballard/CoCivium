@@ -79,11 +79,11 @@ This project is led by Rick (interim maintainer). Contributions to process rules
 
 ---
 
-[ ∴ ✦ ∵ ]  
-Version: c1_20250726  
-Resonance: 62.4%  
-Delta: 0.22  
-Footprint: ⊘  
-Symbolic Gate: ΘΔΨ  
+[ ∴ ✦ ∵ ]
+Version: c1_20250726
+Resonance: 62.4%
+Delta: 0.22
+Footprint: ⊘
+Symbolic Gate: ΘΔΨ
 Ref: /projects/voting_engine/VotingEngine_Project_Plan_c1_20250726.md
 

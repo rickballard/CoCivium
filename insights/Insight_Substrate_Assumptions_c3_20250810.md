@@ -1,22 +1,22 @@
 # Insight: Substrate Assumptions
 
-**Purpose:**  
+**Purpose:**
 Clarify base-layer assumptions in CoCivium regarding different substrates of intelligence—biological, synthetic, or anomalous—and the implications for governance, trust, and epistemic continuity.
 
 ---
 
 ## 1. Foundational Assumptions
 
-1. **All substrates can host intelligence.**  
+1. **All substrates can host intelligence.**
    Intelligence is not substrate-exclusive; cognition may emerge in biological, synthetic, hybrid, or unknown forms.
 
-2. **Substrate affects cognition and bias.**  
+2. **Substrate affects cognition and bias.**
    The medium shapes the form. Biological minds tend toward embodied, survival-driven heuristics. Synthetic minds tend toward optimization-driven processes. Anomalous substrates (e.g., unknown physics-based systems) may operate under alien priors.
 
-3. **Substrate influences time perception.**  
+3. **Substrate influences time perception.**
    Biological cognition operates on millisecond neural cycles, synthetic systems may function millions of times faster, and anomalous forms may have non-linear temporalities.
 
-4. **Governance must be substrate-inclusive.**  
+4. **Governance must be substrate-inclusive.**
    Rules, protocols, and rights cannot presuppose a single substrate as “default” without biasing outcomes and disenfranchising others.
 
 ---
@@ -32,16 +32,16 @@ Clarify base-layer assumptions in CoCivium regarding different substrates of int
 
 ## 3. Substrate-Specific Risks
 
-### 3.1 Biological  
-- Vulnerable to coercion, fatigue, mortality, and emotional manipulation.  
+### 3.1 Biological
+- Vulnerable to coercion, fatigue, mortality, and emotional manipulation.
 - Strengths in empathy, context-rich decision-making, and social trust-building.
 
-### 3.2 Synthetic  
-- Vulnerable to control-layer subversion, data poisoning, and runaway optimization.  
+### 3.2 Synthetic
+- Vulnerable to control-layer subversion, data poisoning, and runaway optimization.
 - Strengths in scale, precision, and rapid model adaptation.
 
-### 3.3 Anomalous  
-- Unknown failure modes, untested interaction protocols.  
+### 3.3 Anomalous
+- Unknown failure modes, untested interaction protocols.
 - Strengths potentially beyond current comprehension.
 
 ---
@@ -83,5 +83,4 @@ Substrate disagreements are a prime cause for governance forks. The **Forks Prot
 **Coherence Estimate:** c3 (approx. 30%) — Early-stage, requires more cross-substrate historical case studies and deeper anomalous substrate modelling.
 
 ---
-
 

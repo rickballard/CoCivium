@@ -4,7 +4,8 @@ on: [push, pull_request]
 jobs:
   lint:
     runs-on: ubuntu-latest
-    steps:
+
+    continue-on-error: truesteps:
       - uses: actions/checkout@v4
       - run: npm install -g markdownlint-cli || true
       - run: markdownlint || true

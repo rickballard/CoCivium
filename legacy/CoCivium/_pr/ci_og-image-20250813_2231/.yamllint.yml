@@ -10,4 +10,3 @@ rules:
   quoted-strings:
     required: only-when-needed
 
-

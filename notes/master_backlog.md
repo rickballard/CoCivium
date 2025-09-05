@@ -19,7 +19,7 @@ This backlog replaces scattered TODOs/notes as we converge. New work should be a
 - [ ] **Consenti landing polish** (`scroll/Cognocarta_Consenti.md`): add mermaid decision diagram + “Adopt this charter” snippet.
 - [ ] **Create `docs/sources/`** with `annotated-bibliography.md` (seed 10 credible references) and `comparable-initiatives.md`.
 - [ ] **Domains: draft first 3 briefs** (`domains/finance.md`, `domains/identity_privacy.md`, `domains/public_records.md`) with “practices / risks / experiments / measures”.
-- [ ] **Open Collective setup** (see `docs/funding/OPEN_COLLECTIVE.md`): choose fiscal host, create **cocivium**, test $1 donation.  
+- [ ] **Open Collective setup** (see `docs/funding/OPEN_COLLECTIVE.md`): choose fiscal host, create **cocivium**, test $1 donation.
       _When live_: switch `.github/FUNDING.yml` → `open_collective: cocivium`, remove temporary DogsnHomes callouts/badge.
 - [ ] **Monthly transparency note scaffold**: create `notes/finances/2025-08.md` (inflow / outflow / cash on hand).
 - [ ] **Stub hygiene**: run `scripts/stubscan.ps1` → bring any canonical doc < 500 bytes to minimum content (≥4 concrete ideas or 150–300 words).
@@ -172,6 +172,4 @@ When this file merges:
 
 ## Changelog
 - _2025-08-14 — initial master backlog._
-
-
 

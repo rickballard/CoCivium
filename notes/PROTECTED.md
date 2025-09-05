@@ -3,4 +3,3 @@
 insights/*being*name-pending*.*     # Being name-pending
 insights/*story*.*            # other stories/poems
 
-

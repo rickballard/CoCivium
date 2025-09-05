@@ -9,3 +9,4 @@
 - [ ] If any confidential docs are justified, encrypt with SOPS; store keys in Bitwarden.
 - [ ] Stand up telemetry skeleton (opt‑in, coarse events, local buffer, releases.json check).
 - [ ] Run final‑polish pass on canonicals for screenshot‑safe snippets & quotes.
+

@@ -46,5 +46,3 @@ This codex defines the scope, limitations, and safeguards for AI veto authority 
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
 
-
-

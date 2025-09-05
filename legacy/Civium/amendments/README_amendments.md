@@ -12,4 +12,3 @@ It outlines:
 
 This scroll is recursive in spirit—its own evolution is permitted, under the same protocols it defines.
 
-
