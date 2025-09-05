@@ -5,3 +5,6 @@
 **Guardrails.** HumanGate on.  Status-only bus.  Official connectors only.
 **Links.** dmin/products/CoCivBus/PLAN_v0.1.md, SPEC_v0.1.md, ACTION_openapi.yaml.
 
+
+
+

@@ -8,3 +8,6 @@
 6) **ExecutionPolicy.** Use `pwsh -ExecutionPolicy Bypass` process-scoped for unsigned local fixers (no persistent policy changes).
 7) **Buried backlogs.** Use `docs/_backlog/` for advanced/internal indexes; don’t link from README until ready.
 
+
+
+

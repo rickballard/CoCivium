@@ -10,3 +10,6 @@ One-screen objective: state purpose, who it's for, what to do next.  Everything 
 
 Below the fold: value proposition, glossary, links to CoCivium provenance, and contribution guidelines.
 
+
+
+
