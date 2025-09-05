@@ -2,3 +2,4 @@
 
 Canonical now lives under /insights.
 
+
