@@ -1,11 +1,7 @@
-# Cognocarta Consenti — Preamble
+# CC Preamble — Philosophical Anchor
 
-Civium favors **convergence over control**. CC is the consent-centered
-through-line: language, structures, and scrolls we can refine together.
+This Operating Constitution presumes the **Core Assumption**: that purpose itself evolves.  
+Accordingly, our procedures prefer **congruence**—the preservation and empowerment of diverse intelligences—and reject domination as brittle.  
+Where rules conflict, choose the option that increases the longevity and number of cooperating intelligences **without enabling coercion**.
 
-See:
-- Poetics (curated): [docs/cc/00-Poetics/](00-Poetics/)
-- Scroll (working text): [docs/cc/10-Scroll/](10-Scroll/)
-
-_Last updated: 2025-08-26_
-
+> See: [Core Assumption](../philosophy/Core_Assumption.md) · [Explained](../philosophy/Core_Assumption_Explained.md)
