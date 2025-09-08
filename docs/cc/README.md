@@ -7,3 +7,5 @@
 > **Philosophical Anchor:** See [Core Assumption](../philosophy/Core_Assumption.md) and [Explained](../philosophy/Core_Assumption_Explained.md).
 
 
+
+> **Map:** See [00_INDEX](00_INDEX.md) and Articles 1–8.
