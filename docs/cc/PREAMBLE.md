@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CC Preamble — Philosophical Anchor
 
 This Operating Constitution presumes the **Core Assumption**: that purpose itself evolves.  

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # stub: Being Noname
 
 > **This is a stub.** Human-first onramp; culture and practice.
@@ -17,4 +18,5 @@
 ---
 
 *Status: stub. Open an Idea Issue to help shape this page.*
+
 

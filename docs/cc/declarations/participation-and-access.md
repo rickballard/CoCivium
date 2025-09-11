@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Participation & Access (draft)
 
 > Status: stub. Purpose: capture intent, smallest useful change, and review signals.
@@ -13,4 +14,5 @@
 
 ## Prior art / references
 - …
+
 

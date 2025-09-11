@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Brand Status (living log)
 | Mark        | Status     | Classes | Geography | First use | Notes |
 |-------------|------------|---------|-----------|-----------|-------|
@@ -8,4 +9,5 @@
 | CoPulse     | watch      | 9,42    |           |           | Metrics |
 
 *Statuses:* plan: search → file ITU → published → SOU → registered.
+
 

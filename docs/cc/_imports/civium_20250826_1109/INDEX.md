@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium → CoCivium: seed + insights (staging)
 Pulled: 2025-08-26T11:09:14.5149112-04:00
 
@@ -19,5 +20,6 @@ Pulled: 2025-08-26T11:09:14.5149112-04:00
 - insights\README_Insight.md
 - seed\Genexis_Origin.md
 - seed\README_Seed.md
+
 
 

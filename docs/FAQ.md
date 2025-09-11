@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium FAQ
 
 > _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
@@ -25,4 +26,5 @@
 
 ---
 Quick answers to common questions.
+
 
