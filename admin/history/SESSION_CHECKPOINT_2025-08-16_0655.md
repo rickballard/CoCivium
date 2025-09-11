@@ -3,6 +3,8 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Session Checkpoint — 2025-08-16_0655
 
 **Repos:** CoCivium / GIBindex / CoCache / CoCivium  
@@ -18,6 +20,8 @@
 - Merge CoCivium PR #116 when mergeable.
 - Move symbol manifest/checks into **GIBindex**; expose as reusable action.
 - Keep CoCache as sidecar (session notes + CI snapshots).
+
+
 
 
 

@@ -3,6 +3,8 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 ---
 id: "ideacard-coparser"
 title: "IdeaCard_CoParser"
@@ -17,6 +19,8 @@ created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
 > Attachment captured from zip. See: `../attachments/session_250904/IdeaCard_CoParser.odt`
+
+
 
 
 

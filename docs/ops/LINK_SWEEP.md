@@ -3,6 +3,8 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Link Sweep Plan (stub)
 Targets:
 - Convert absolute GitHub links from CoCivium → CoCivium.
@@ -11,6 +13,8 @@ Targets:
 
 Verification:
 - lychee/linkcheck runs locally on PR; CI non-blocking for now.
+
+
 
 
 

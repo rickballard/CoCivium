@@ -8,3 +8,16 @@
 *.bat text eol=crlf
 *.sh  text eol=lf
 
+
+
+*.md text eol=lf
+*.markdown text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.rst text eol=lf
+*.adoc text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+

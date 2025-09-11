@@ -3,6 +3,8 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Chat Bloat & CoWrap Workarounds
 
 **Problem**: long sessions become sluggish/blocked; copy timing causes partial pastes; PS7 stalls lead to ambiguous state.
@@ -23,6 +25,8 @@
 - DIV-007 collapsed/ready-to-copy UI.
 - DIV-008 guardrails in envelope.
 - DIV-006 CI/branch-protection hygiene so tiny PRs can merge.
+
+
 
 
 
