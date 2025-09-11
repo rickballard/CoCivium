@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # BPOE Preferences (v1)
 
 - Code blocks SHOULD show a clear end-marker in long DO blocks to reduce mid-render pastes.
@@ -22,3 +23,4 @@
 - DO blocks are numbered & timestamped in a header comment; `# END DO` footer must appear after a final Set-Location $HOME.
 
 - Default ~20 visible lines with vertical scrollbar for DO/CoPong code; copy button at bottom.
+

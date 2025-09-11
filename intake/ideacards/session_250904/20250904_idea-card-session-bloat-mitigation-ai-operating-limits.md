@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 id: "idea-card-session-bloat-mitigation-ai-operating-limits"
 title: "Idea Card: Session Bloat Mitigation & AI Operating Limits"
@@ -44,5 +45,6 @@ ChatGPT performance degraded during extended CoCivium sessions due to session bl
 ## Status
 ✅ Approved for idea card export  
 🗂 Target: `docs/bpoe/SESSION-BLOAT.md`
+
 
 

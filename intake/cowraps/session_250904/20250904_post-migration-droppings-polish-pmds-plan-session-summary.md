@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 session: "Grand Migration Cleanup"
 date: 2025-09-04
@@ -182,3 +183,4 @@ git status -sb
 - Small, topical PRs.  Prefix **PMDS:**, squash, delete branch.  
 - Every IdeaCard lists its chat provenance.  
 - Use `RESTRUCTURE-MAP.md` to plan moves before doing them, then record the commit hash under **Applied**.
+

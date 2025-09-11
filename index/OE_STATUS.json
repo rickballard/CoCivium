@@ -1,0 +1,18 @@
+{
+  "ts": "2025-09-04T14:20:17.1991557-04:00",
+  "metrics": {
+    "md_files": 11,
+    "stage_mb": 0.17,
+    "md_lines": 343.0,
+    "cw": 2,
+    "map_exists": true,
+    "bpoe_errors": 0,
+    "ic": 9
+  },
+  "session": "250904",
+  "status": {
+    "efficiency": 56,
+    "session_bloat": 44,
+    "trust": "OK"
+  }
+}

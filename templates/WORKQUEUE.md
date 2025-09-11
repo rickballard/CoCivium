@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Work Queue (per project)
 
 ## Project Code: [e.g., CoC]
@@ -7,4 +12,9 @@
 
 ## Notes
 - Keep items small. Promote to public repos when stable.
+
+
+
+
+
 

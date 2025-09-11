@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 [📒 ISSUEOPS](./shared/docs/ISSUEOPS.md) · [🧪 Smoke Test](./shared/tools/CoStack-SmokeTest.ps1)
 
 # CoCache
@@ -35,3 +36,4 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 
 
 - See **ISSUEOPS (Quick)** → `docs/ops/ISSUEOPS.md`
+

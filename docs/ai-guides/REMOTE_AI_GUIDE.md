@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium Remote AI Guide (v0)
 Use this when *your* AI is helping a user in CoCivium repos.
 
@@ -21,3 +22,4 @@ Use this when *your* AI is helping a user in CoCivium repos.
 ## Don’ts
 - Don’t create per-user files in the repo.
 - Don’t use ChatGPT/assistant schedulers. All background status is published by CI into `/index`.
+

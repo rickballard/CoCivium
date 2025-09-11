@@ -3,3 +3,8 @@
 *.yml   text=auto eol=lf working-tree-encoding=UTF-8
 *.yaml  text=auto eol=lf working-tree-encoding=UTF-8
 *.ps1   text=auto eol=lf working-tree-encoding=UTF-8
+* text=auto
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.sh  text eol=lf
+

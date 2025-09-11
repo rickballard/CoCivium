@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 id: "idea-card-silent-fail-diagnostics-file-visibility-checker"
 title: "Idea Card: Silent Fail Diagnostics & File Visibility Checker"
@@ -41,5 +42,6 @@ During recent CoCivium work, a file placed under `docs/outreach/partners/` appea
 ## Status
 ✅ Approved  
 🗂 Repo placement: `CoCivium/docs/ideas/diagnostics`
+
 
 

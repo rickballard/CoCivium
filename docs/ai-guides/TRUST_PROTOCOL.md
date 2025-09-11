@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Trust Protocol (v0)
 **Input:** Markdown files under `intake/*/session_<yyMMdd>`.  
 **Policy:** `docs/bpoe/trust/allow.txt`, `warn.txt`, `deny.txt`.  
@@ -12,3 +17,8 @@
 **Output (ephemeral, not committed):**
 - A summary level (OK/WARN/DENY) and a small list of flagged links with reasons.
 - If WARN/DENY, present a “Why?” toggle that shows the domain and policy source (warn/deny/unknown).
+
+
+
+
+
