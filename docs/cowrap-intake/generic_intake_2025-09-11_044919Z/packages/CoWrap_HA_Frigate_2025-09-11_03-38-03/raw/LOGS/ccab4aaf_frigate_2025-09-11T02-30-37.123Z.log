@@ -1,0 +1,1000 @@
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 02:24:13.301209975  [INFO] Starting NGINX...
+2025-09-11 02:24:13.380285423  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 02:24:14.872436144  [INFO] Preparing Frigate...
+2025-09-11 02:24:18.353293254  [INFO] Starting Frigate...
+2025-09-11 02:24:18.354710785  [INFO] Preparing new go2rtc config...
+2025-09-11 02:24:18.542503646  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 02:24:18.706492666  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 02:24:20.209642664  [INFO] Starting go2rtc...
+2025-09-11 02:24:20.492238300  22:24:20.491 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 02:24:20.492440500  22:24:20.492 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 02:24:20.494811368  22:24:20.494 INF [rtsp] listen addr=:8554
+2025-09-11 02:24:20.494834238  22:24:20.494 INF [api] listen addr=:1984
+2025-09-11 02:24:20.496896610  22:24:20.496 INF [webrtc] listen addr=:8555
+2025-09-11 02:24:23.290183891  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 02:24:25.269021258  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:24:25.269034813    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:24:25.270619046  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:24:25.270633694    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:24:25.271064335  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:24:25.271072575    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:24:25.271158389  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:24:25.271163203    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:24:28.165034160  2025/09/10 22:24:28 [error] 229#229: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:24:28.165102511  2025/09/10 22:24:28 [error] 229#229: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 02:24:28.661589790  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 02:24:30.360286478  127.0.0.1 - - [10/Sep/2025:22:24:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:24:32.864084327  [2025-09-10 22:24:32] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 02:24:32.941952961  [2025-09-10 22:24:32] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 02:24:33.288986032  2025/09/10 22:24:33 [error] 230#230: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:24:33.289043179  2025/09/10 22:24:33 [error] 230#230: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:24:35.582915057  [2025-09-10 22:24:35] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 02:24:35.760045726  [2025-09-10 22:24:35] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 02:24:35.764058122  [2025-09-10 22:24:35] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 02:24:36.162716768  [2025-09-10 22:24:36] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 02:24:36.167329005  [2025-09-10 22:24:36] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 02:24:36.218868119  [2025-09-10 22:24:36] frigate.app                    INFO    : Recording process started: 446
+2025-09-11 02:24:36.224611449  [2025-09-10 22:24:36] frigate.app                    INFO    : Review process started: 448
+2025-09-11 02:24:36.241218855  [2025-09-10 22:24:36] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 02:24:36.308111007  [2025-09-10 22:24:36] detector.coral                 INFO    : Starting detection process: 471
+2025-09-11 02:24:36.330814144  [2025-09-10 22:24:36] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:24:36.334649172  [2025-09-10 22:24:36] detector.cpu1                  INFO    : Starting detection process: 474
+2025-09-11 02:24:36.341562315  [2025-09-10 22:24:36] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 02:24:36.382788973  [2025-09-10 22:24:36] frigate.app                    INFO    : Output process started: 493
+2025-09-11 02:24:36.407651240  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:24:36.543361309  [2025-09-10 22:24:36] frigate.app                    INFO    : Camera processor started for driveway: 548
+2025-09-11 02:24:36.621478680  [2025-09-10 22:24:36] frigate.app                    INFO    : Camera processor started for front: 550
+2025-09-11 02:24:36.710548812  [2025-09-10 22:24:36] frigate.app                    INFO    : Camera processor started for front_rental: 559
+2025-09-11 02:24:36.745830089  [2025-09-10 22:24:36] frigate.app                    INFO    : Camera processor started for back_yard: 571
+2025-09-11 02:24:36.815275791  [2025-09-10 22:24:36] frigate.app                    INFO    : Capture process started for driveway: 597
+2025-09-11 02:24:36.858074090  [2025-09-10 22:24:36] frigate.app                    INFO    : Capture process started for front: 605
+2025-09-11 02:24:36.963253598  [2025-09-10 22:24:36] frigate.app                    INFO    : Capture process started for front_rental: 621
+2025-09-11 02:24:37.144276090  [2025-09-10 22:24:37] frigate.app                    INFO    : Capture process started for back_yard: 631
+2025-09-11 02:24:38.642548258  [2025-09-10 22:24:38] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 02:24:39.260294626  2025/09/10 22:24:39 [error] 231#231: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:24:39.260319199  2025/09/10 22:24:39 [error] 231#231: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:24:39.723190172  [2025-09-10 22:24:39] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:24:39.764002764  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:24:43.077886536  [2025-09-10 22:24:43] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 02:24:55.620653822  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:24:55.621053094  Fatal Python error: Aborted
+2025-09-11 02:24:55.621057186  
+2025-09-11 02:24:55.621061612  Thread 0x0000007fbdc3f4c0 (most recent call first):
+2025-09-11 02:24:55.621073871    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:24:55.621088352    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:24:55.621094056    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:24:55.621171851    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:24:55.621177703    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:24:55.621181906    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:24:55.621282979    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:24:55.621289201    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:24:55.621351274    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:24:55.621421791    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:24:55.621427235    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:24:55.621431624    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:24:55.621435532    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:24:55.621440087    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:24:55.621444328    File "/opt/frigate/frigate/object_detection/base.py", line 163 in __init__
+2025-09-11 02:24:55.621448272    File "/opt/frigate/frigate/app.py", line 391 in start_detectors
+2025-09-11 02:24:55.621451883    File "/opt/frigate/frigate/app.py", line 648 in start
+2025-09-11 02:24:55.621455642    File "/opt/frigate/frigate/__main__.py", line 104 in main
+2025-09-11 02:24:55.621459513    File "/opt/frigate/frigate/__main__.py", line 108 in <module>
+2025-09-11 02:24:55.621462846    File "<frozen runpy>", line 88 in _run_code
+2025-09-11 02:24:55.621466438    File "<frozen runpy>", line 198 in _run_module_as_main
+2025-09-11 02:24:55.622586216  
+2025-09-11 02:24:55.662419009  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:24:58.620731766  [2025-09-10 22:24:58] frigate.watchdog               INFO    : Detection appears to have stopped. Exiting Frigate...
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 02:24:58.838606685  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 02:24:58.849086750  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 02:24:59.108819118  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 02:24:59.260715934  [2025-09-10 22:24:59] frigate.app                    INFO    : Stopping...
+2025-09-11 02:24:59.276767851  [2025-09-10 22:24:59] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-11 02:24:59.278949833  [2025-09-10 22:24:59] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-11 02:24:59.285301598  [2025-09-10 22:24:59] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-11 02:24:59.293994767  [2025-09-10 22:24:59] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-11 02:24:59.302194223  [2025-09-10 22:24:59] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-11 02:24:59.313838214  [2025-09-10 22:24:59] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-11 02:24:59.316933736  [2025-09-10 22:24:59] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-11 02:24:59.321624343  [2025-09-10 22:24:59] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-11 02:24:59.356629222  [2025-09-10 22:24:59] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:24:59.356642277  [2025-09-10 22:24:59] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:24:59.399035884  [2025-09-10 22:24:59] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-11 02:24:59.757632768  [2025-09-10 22:24:59] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-11 02:25:00.228626257  [2025-09-10 22:25:00] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:00.230679315  [2025-09-10 22:25:00] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:00.370550480  [2025-09-10 22:25:00] frigate.app                    INFO    : Waiting for capture process for front to stop
+2025-09-11 02:25:00.473880866  [2025-09-10 22:25:00] watchdog.front                 INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:00.479201481  [2025-09-10 22:25:00] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:00.559865690  [2025-09-10 22:25:00] watchdog.front                 INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:00.568235587  [2025-09-10 22:25:00] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:00.728646428  [2025-09-10 22:25:00] frigate.app                    INFO    : Waiting for capture process for front_rental to stop
+2025-09-11 02:25:01.003392397  [2025-09-10 22:25:00] watchdog.front_rental          INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:01.008888860  [2025-09-10 22:25:01] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:01.121276299  [2025-09-10 22:25:01] watchdog.front_rental          INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:01.124966997  [2025-09-10 22:25:01] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:01.317753185  [2025-09-10 22:25:01] frigate.app                    INFO    : Waiting for capture process for back_yard to stop
+2025-09-11 02:25:01.508635628  [2025-09-10 22:25:01] watchdog.back_yard             INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:01.511422397  [2025-09-10 22:25:01] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:01.681521798  [2025-09-10 22:25:01] watchdog.back_yard             INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:25:01.688194279  [2025-09-10 22:25:01] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:25:01.852779161  [2025-09-10 22:25:01] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-11 02:25:02.761114977  [2025-09-10 22:25:02] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-11 02:25:02.765033523  [2025-09-10 22:25:02] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-11 02:25:02.829909699  [2025-09-10 22:25:02] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-11 02:25:03.336315577  [2025-09-10 22:25:03] frigate.app                    INFO    : Waiting for process for front to stop
+2025-09-11 02:25:03.445046077  [2025-09-10 22:25:03] frigate.video                  INFO    : front: emptying frame queue
+2025-09-11 02:25:03.447448685  [2025-09-10 22:25:03] frigate.video                  INFO    : front: exiting subprocess
+2025-09-11 02:25:03.486969562  [2025-09-10 22:25:03] frigate.app                    INFO    : Closing frame queue for front
+2025-09-11 02:25:03.990193827  [2025-09-10 22:25:03] frigate.app                    INFO    : Waiting for process for front_rental to stop
+2025-09-11 02:25:04.806810118  [2025-09-10 22:25:04] frigate.video                  INFO    : front_rental: emptying frame queue
+2025-09-11 02:25:04.808525016  [2025-09-10 22:25:04] frigate.video                  INFO    : front_rental: exiting subprocess
+2025-09-11 02:25:04.849769160  [2025-09-10 22:25:04] frigate.app                    INFO    : Closing frame queue for front_rental
+2025-09-11 02:25:05.352774966  [2025-09-10 22:25:05] frigate.app                    INFO    : Waiting for process for back_yard to stop
+2025-09-11 02:25:05.508223018  [2025-09-10 22:25:05] frigate.video                  INFO    : back_yard: emptying frame queue
+2025-09-11 02:25:05.509566200  [2025-09-10 22:25:05] frigate.video                  INFO    : back_yard: exiting subprocess
+2025-09-11 02:25:05.539825768  [2025-09-10 22:25:05] frigate.app                    INFO    : Closing frame queue for back_yard
+2025-09-11 02:25:06.044234383  [2025-09-10 22:25:06] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-11 02:25:06.425935584  [2025-09-10 22:25:06] detector.cpu1                  INFO    : Exited detection process...
+2025-09-11 02:25:06.473545030  [2025-09-10 22:25:06] root                           INFO    : Detection process has exited...
+2025-09-11 02:25:06.975802977  [2025-09-10 22:25:06] frigate.app                    INFO    : Detection queue closed
+2025-09-11 02:25:07.478858429  [2025-09-10 22:25:07] frigate.app                    INFO    : Detected frames queue closed
+2025-09-11 02:25:07.980307056  [2025-09-10 22:25:07] frigate.app                    INFO    : Timeline queue closed
+2025-09-11 02:25:08.703196430  [2025-09-10 22:25:08] frigate.output.output          INFO    : exiting output process...
+2025-09-11 02:25:12.062527944  [2025-09-10 22:25:12] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-11 02:25:12.395442496  [2025-09-10 22:25:12] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-11 02:25:12.445499271  [2025-09-10 22:25:12] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 02:25:12.548279555  [2025-09-10 22:25:12] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-11 02:25:13.089354445  [2025-09-10 22:25:13] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-11 02:25:13.366709702  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-11 02:25:13.382347811  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 02:25:13.406892198  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 02:25:19.846226856  [INFO] Starting NGINX...
+2025-09-11 02:25:19.925772268  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 02:25:21.143609612  [INFO] Preparing Frigate...
+2025-09-11 02:25:23.955225870  [INFO] Preparing new go2rtc config...
+2025-09-11 02:25:24.010287987  [INFO] Starting Frigate...
+2025-09-11 02:25:24.158088203  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 02:25:24.388899588  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 02:25:26.074033828  [INFO] Starting go2rtc...
+2025-09-11 02:25:26.393608933  22:25:26.393 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 02:25:26.393674284  22:25:26.393 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 02:25:26.395599252  22:25:26.395 INF [api] listen addr=:1984
+2025-09-11 02:25:26.397125134  22:25:26.396 INF [rtsp] listen addr=:8554
+2025-09-11 02:25:26.399255487  22:25:26.398 INF [webrtc] listen addr=:8555
+2025-09-11 02:25:29.839340499  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 02:25:30.930685210  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 02:25:31.934210222  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:25:31.934224703    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:25:31.934440440  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:25:31.934449625    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:25:31.935115559  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:25:31.935127947    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:25:31.935251186  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:25:31.935256908    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:25:32.671643568  127.0.0.1 - - [10/Sep/2025:22:25:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:25:34.575627460  2025/09/10 22:25:34 [error] 227#227: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:25:34.575694570  2025/09/10 22:25:34 [error] 227#227: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:25:39.551834643  [2025-09-10 22:25:39] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 02:25:39.657971684  [2025-09-10 22:25:39] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 02:25:39.682438924  2025/09/10 22:25:39 [error] 226#226: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:25:39.686467523  2025/09/10 22:25:39 [error] 226#226: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:25:42.366095947  [2025-09-10 22:25:42] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 02:25:42.544611890  [2025-09-10 22:25:42] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 02:25:42.546896370  [2025-09-10 22:25:42] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 02:25:42.978760894  [2025-09-10 22:25:42] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 02:25:42.984464873  [2025-09-10 22:25:42] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 02:25:43.015280210  [2025-09-10 22:25:43] frigate.app                    INFO    : Recording process started: 448
+2025-09-11 02:25:43.053417887  [2025-09-10 22:25:43] frigate.app                    INFO    : Review process started: 450
+2025-09-11 02:25:43.073993340  [2025-09-10 22:25:43] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 02:25:43.144250591  [2025-09-10 22:25:43] detector.coral                 INFO    : Starting detection process: 473
+2025-09-11 02:25:43.156011043  [2025-09-10 22:25:43] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:25:43.171785465  [2025-09-10 22:25:43] detector.cpu1                  INFO    : Starting detection process: 476
+2025-09-11 02:25:43.175321739  [2025-09-10 22:25:43] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 02:25:43.224283106  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:25:43.227054596  [2025-09-10 22:25:43] frigate.app                    INFO    : Output process started: 496
+2025-09-11 02:25:43.388708987  [2025-09-10 22:25:43] frigate.app                    INFO    : Camera processor started for driveway: 536
+2025-09-11 02:25:43.483899841  [2025-09-10 22:25:43] frigate.app                    INFO    : Camera processor started for front: 547
+2025-09-11 02:25:43.617457072  [2025-09-10 22:25:43] frigate.app                    INFO    : Camera processor started for front_rental: 571
+2025-09-11 02:25:43.652273601  [2025-09-10 22:25:43] frigate.app                    INFO    : Camera processor started for back_yard: 579
+2025-09-11 02:25:43.784348524  [2025-09-10 22:25:43] frigate.app                    INFO    : Capture process started for driveway: 590
+2025-09-11 02:25:43.927387763  [2025-09-10 22:25:43] frigate.app                    INFO    : Capture process started for front: 601
+2025-09-11 02:25:44.156349010  [2025-09-10 22:25:44] frigate.app                    INFO    : Capture process started for front_rental: 623
+2025-09-11 02:25:44.368827033  [2025-09-10 22:25:44] frigate.app                    INFO    : Capture process started for back_yard: 634
+2025-09-11 02:25:45.236315906  2025/09/10 22:25:45 [error] 228#228: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:25:45.236351035  2025/09/10 22:25:45 [error] 228#228: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:25:46.700295809  [2025-09-10 22:25:46] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:25:46.781343121  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:25:46.811166197  [2025-09-10 22:25:46] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 02:25:49.464302908  [2025-09-10 22:25:49] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 02:26:00.738052841  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:26:00.741049735  Fatal Python error: Aborted
+2025-09-11 02:26:00.741057050  
+2025-09-11 02:26:00.741061290  Thread 0x0000007fa75434c0 (most recent call first):
+2025-09-11 02:26:00.741077568    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:26:00.741090531    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:26:00.741095716    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:26:00.741188621    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:26:00.741194603    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:26:00.741198492    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:26:00.741305101    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:26:00.741310934    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:26:00.741370970    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:26:00.741376155    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:26:00.741380581    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:26:00.741384433    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:26:00.741388192    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:26:00.741392433    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:26:00.741396359    File "/opt/frigate/frigate/object_detection/base.py", line 163 in __init__
+2025-09-11 02:26:00.741457487    File "/opt/frigate/frigate/app.py", line 391 in start_detectors
+2025-09-11 02:26:00.741462247    File "/opt/frigate/frigate/app.py", line 648 in start
+2025-09-11 02:26:00.741465802    File "/opt/frigate/frigate/__main__.py", line 104 in main
+2025-09-11 02:26:00.741470209    File "/opt/frigate/frigate/__main__.py", line 108 in <module>
+2025-09-11 02:26:00.741473209    File "<frozen runpy>", line 88 in _run_code
+2025-09-11 02:26:00.741476561    File "<frozen runpy>", line 198 in _run_module_as_main
+2025-09-11 02:26:00.741478339  
+2025-09-11 02:26:00.788731234  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:26:04.911344433  172.30.32.2 - - [10/Sep/2025:22:26:04 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:05.438824030  172.30.32.2 - - [10/Sep/2025:22:26:05 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:05.644252955  172.30.32.2 - - [10/Sep/2025:22:26:05 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:05.660615606  172.30.32.2 - - [10/Sep/2025:22:26:05 -0400] "GET /api/config HTTP/1.1" 200 26400 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:05.746236003  172.30.32.2 - - [10/Sep/2025:22:26:05 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:06.379357143  172.30.32.2 - - [10/Sep/2025:22:26:06 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 355 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:06.728916262  172.30.32.2 - - [10/Sep/2025:22:26:06 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 23120 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:06.805700326  172.30.32.2 - - [10/Sep/2025:22:26:06 -0400] "GET /api/front/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 27266 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:06.945103247  [2025-09-10 22:26:06] frigate.watchdog               INFO    : Detection appears to be stuck. Restarting detection process...
+2025-09-11 02:26:07.028941026  [2025-09-10 22:26:06] detector.coral                 INFO    : Starting detection process: 774
+2025-09-11 02:26:07.047668878  [2025-09-10 22:26:07] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:26:07.124863472  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/back_yard/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 25466 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.133480031  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 52724 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.139396580  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front_rental/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 19068 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.426948035  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front_rental/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.481553267  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557564508 HTTP/1.1" 200 23320 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.543590653  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/back_yard/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 15440 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.658332413  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.813185834  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557563461 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.855975357  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557565024 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.960296848  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557564727 HTTP/1.1" 200 15606 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:07.987663778  172.30.32.2 - - [10/Sep/2025:22:26:07 -0400] "GET /api/front/latest.webp?height=243&cache=1757557563461 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.035243221  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front/latest.webp?height=243&cache=1757557565266 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.107165422  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557565459 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.260931639  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front/latest.webp?height=243&cache=1757557565649 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.303905659  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557565718 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.490113665  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front/latest.webp?height=243&cache=1757557565869 HTTP/1.1" 200 14058 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.691930298  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front/latest.webp?height=243&cache=1757557566099 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.728974936  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557566107 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:08.909990807  172.30.32.2 - - [10/Sep/2025:22:26:08 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557566334 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.095758895  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front/latest.webp?height=243&cache=1757557566489 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.432526709  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front/latest.webp?height=243&cache=1757557566709 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.463841036  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557566723 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.684234635  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front/latest.webp?height=243&cache=1757557567035 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.780679388  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557567062 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.908568465  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front/latest.webp?height=243&cache=1757557567317 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:09.971818700  172.30.32.2 - - [10/Sep/2025:22:26:09 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557567378 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:10.316413531  172.30.32.2 - - [10/Sep/2025:22:26:10 -0400] "GET /api/front/latest.webp?height=243&cache=1757557567711 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:10.429733482  172.30.32.2 - - [10/Sep/2025:22:26:10 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557567805 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:10.459893328  [2025-09-10 22:26:10] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:26:10.636254129  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:26:10.749902260  172.30.32.2 - - [10/Sep/2025:22:26:10 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557568067 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:10.805771397  172.30.32.2 - - [10/Sep/2025:22:26:10 -0400] "GET /api/front/latest.webp?height=243&cache=1757557568117 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.279947406  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /api/front/latest.webp?height=243&cache=1757557568616 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.333644894  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557568376 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.563319301  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /api/front/latest.webp?height=243&cache=1757557568904 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.632299014  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /live/jsmpeg/front HTTP/1.1" 101 4 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.632319754  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557568938 HTTP/1.1" 200 8920 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:11.635741234  172.30.32.2 - - [10/Sep/2025:22:26:11 -0400] "GET /live/jsmpeg/front_rental HTTP/1.1" 101 4 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:12.168300245  172.30.32.2 - - [10/Sep/2025:22:26:12 -0400] "GET /api/front/latest.webp?height=243&cache=1757557569466 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:12.222679611  172.30.32.2 - - [10/Sep/2025:22:26:12 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557569466 HTTP/1.1" 200 8982 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:12.952837881  172.30.32.2 - - [10/Sep/2025:22:26:12 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 115098 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:12.952866214  172.30.32.2 - - [10/Sep/2025:22:26:12 -0400] "GET /live/jsmpeg/back_yard HTTP/1.1" 101 128264 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:22.710869273  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:26:22.724221716  Fatal Python error: Aborted
+2025-09-11 02:26:22.724230272  
+2025-09-11 02:26:22.724235846  Thread 0x0000007f027cf1a0 (most recent call first):
+2025-09-11 02:26:22.724321048    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:26:22.724325863    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:26:22.724329011    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:26:22.724332214    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:26:22.724335214    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:26:22.724338122    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:26:22.724341270    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:26:22.724344399    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:26:22.724347473    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:26:22.724350492    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:26:22.724353492    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:26:22.724356492    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:26:22.724359232    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:26:22.724362473    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:26:22.724365103    File "/opt/frigate/frigate/watchdog.py", line 33 in run
+2025-09-11 02:26:22.724368066    File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+2025-09-11 02:26:22.724370843    File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+2025-09-11 02:26:22.724372177  
+2025-09-11 02:26:22.745590376  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:26:27.173337088  [2025-09-10 22:26:27] frigate.watchdog               INFO    : Detection appears to be stuck. Restarting detection process...
+2025-09-11 02:26:27.298017848  [2025-09-10 22:26:27] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-11 02:26:28.485839120  [2025-09-10 22:26:28] root                           INFO    : Detection process has exited...
+2025-09-11 02:26:29.340471521  [2025-09-10 22:26:29] detector.coral                 INFO    : Starting detection process: 809
+2025-09-11 02:26:29.384991866  [2025-09-10 22:26:29] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:26:30.091830284  172.30.32.2 - - [10/Sep/2025:22:26:30 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 02:26:43.902847290  172.30.32.2 - - [10/Sep/2025:22:26:43 -0400] "GET /ws HTTP/1.1" 101 18533 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:26:47.471345212  [INFO] Service Frigate exited with code 256 (by signal 9)
+2025-09-11 02:26:48.171820789  127.0.0.1 - - [10/Sep/2025:22:26:48 -0400] "" 400 0 "-" "-" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 02:26:54.840652481  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 02:27:05.011362188  exit with signal: terminated
+s6-supervise nginx: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate-log successfully stopped
+s6-supervise go2rtc: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 02:27:24.618177940  [INFO] Starting NGINX...
+2025-09-11 02:27:24.708938713  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 02:27:26.384325707  [INFO] Preparing Frigate...
+2025-09-11 02:27:30.232839354  [INFO] Preparing new go2rtc config...
+2025-09-11 02:27:30.233705451  [INFO] Starting Frigate...
+2025-09-11 02:27:30.426665247  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 02:27:30.593467242  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 02:27:32.217227509  [INFO] Starting go2rtc...
+2025-09-11 02:27:32.496274878  22:27:32.495 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 02:27:32.496506226  22:27:32.496 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 02:27:32.500410938  22:27:32.498 INF [api] listen addr=:1984
+2025-09-11 02:27:32.500426327  22:27:32.498 INF [rtsp] listen addr=:8554
+2025-09-11 02:27:32.502198223  22:27:32.501 INF [webrtc] listen addr=:8555
+2025-09-11 02:27:34.195791354  2025/09/10 22:27:34 [error] 217#217: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:27:34.195809779  2025/09/10 22:27:34 [error] 217#217: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 02:27:34.614754206  [INFO] Starting certsync...
+2025-09-11 02:27:34.621393057  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 02:27:36.465206794  127.0.0.1 - - [10/Sep/2025:22:27:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:27:37.620318911  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:27:37.620333948    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:27:37.621092139  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:27:37.621102232    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:27:37.621824627  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:27:37.621835979    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:27:37.622215935  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:27:37.622224194    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:27:37.916879764  2025/09/10 22:27:37 [error] 218#218: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:27:37.916949096  2025/09/10 22:27:37 [error] 218#218: *4 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:27:37.917251795  172.30.32.2 - - [10/Sep/2025:22:27:37 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:27:39.320977199  2025/09/10 22:27:39 [error] 219#219: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:27:39.321043605  2025/09/10 22:27:39 [error] 219#219: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:27:44.016574255  2025/09/10 22:27:44 [error] 220#220: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:27:44.016639865  2025/09/10 22:27:44 [error] 220#220: *8 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:27:44.016951933  172.30.32.2 - - [10/Sep/2025:22:27:44 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:27:44.446985229  2025/09/10 22:27:44 [error] 217#217: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:27:44.447004228  2025/09/10 22:27:44 [error] 217#217: *10 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:27:45.102525551  [2025-09-10 22:27:45] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 02:27:45.195968425  [2025-09-10 22:27:45] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 02:27:48.097931716  [2025-09-10 22:27:48] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 02:27:48.284714727  [2025-09-10 22:27:48] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 02:27:48.287289387  [2025-09-10 22:27:48] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 02:27:48.760608288  [2025-09-10 22:27:48] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 02:27:48.767711354  [2025-09-10 22:27:48] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 02:27:48.818423502  [2025-09-10 22:27:48] frigate.app                    INFO    : Recording process started: 446
+2025-09-11 02:27:48.848704919  [2025-09-10 22:27:48] frigate.app                    INFO    : Review process started: 449
+2025-09-11 02:27:48.879451699  [2025-09-10 22:27:48] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 02:27:48.957540554  [2025-09-10 22:27:48] detector.coral                 INFO    : Starting detection process: 471
+2025-09-11 02:27:48.985172386  [2025-09-10 22:27:48] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:27:48.994139143  [2025-09-10 22:27:48] detector.cpu1                  INFO    : Starting detection process: 474
+2025-09-11 02:27:48.997340330  [2025-09-10 22:27:48] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 02:27:49.080300862  [2025-09-10 22:27:49] frigate.app                    INFO    : Output process started: 493
+2025-09-11 02:27:49.124118052  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:27:49.282152490  [2025-09-10 22:27:49] frigate.app                    INFO    : Camera processor started for driveway: 519
+2025-09-11 02:27:49.286803653  [2025-09-10 22:27:49] frigate.app                    INFO    : Camera processor started for front: 521
+2025-09-11 02:27:49.324273968  [2025-09-10 22:27:49] frigate.app                    INFO    : Camera processor started for front_rental: 523
+2025-09-11 02:27:49.434323286  [2025-09-10 22:27:49] frigate.app                    INFO    : Camera processor started for back_yard: 543
+2025-09-11 02:27:49.596282602  [2025-09-10 22:27:49] frigate.app                    INFO    : Capture process started for driveway: 563
+2025-09-11 02:27:49.686991949  [2025-09-10 22:27:49] frigate.app                    INFO    : Capture process started for front: 585
+2025-09-11 02:27:49.780763114  [2025-09-10 22:27:49] frigate.app                    INFO    : Capture process started for front_rental: 623
+2025-09-11 02:27:49.833333435  2025/09/10 22:27:49 [error] 217#217: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:27:49.833360471  2025/09/10 22:27:49 [error] 217#217: *12 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:27:49.914798844  [2025-09-10 22:27:49] frigate.app                    INFO    : Capture process started for back_yard: 640
+2025-09-11 02:27:49.967709918  2025/09/10 22:27:49 [error] 217#217: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:27:49.967728455  2025/09/10 22:27:49 [error] 217#217: *14 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:27:49.967738547  172.30.32.2 - - [10/Sep/2025:22:27:49 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:27:50.973647705  [2025-09-10 22:27:50] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 02:27:52.518265165  [2025-09-10 22:27:52] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:27:52.524246527  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:27:55.721586277  2025/09/10 22:27:55 [error] 217#217: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:27:55.721618036  2025/09/10 22:27:55 [error] 217#217: *16 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:27:55.982988959  2025/09/10 22:27:55 [error] 217#217: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:27:55.991862662  2025/09/10 22:27:55 [error] 217#217: *18 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:27:56.012649480  172.30.32.2 - - [10/Sep/2025:22:27:55 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:27:56.474003044  [2025-09-10 22:27:56] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 02:28:07.995512507  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:28:07.999646864  172.30.32.2 - - [10/Sep/2025:22:28:07 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:07.997000519  Fatal Python error: Aborted
+2025-09-11 02:28:07.997013686  
+2025-09-11 02:28:07.997018037  Thread 0x0000007f90d904c0 (most recent call first):
+2025-09-11 02:28:07.997023111    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:28:07.997027704    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:28:08.006734670    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:28:08.006763540    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:28:08.006850243    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:28:08.006856150    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:28:08.006945074    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:28:08.006950722    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:28:08.006954704    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:28:08.006958500    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:28:08.006962352    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:28:08.006966074    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:28:08.006969555    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:28:08.006973741    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:28:08.006978981    File "/opt/frigate/frigate/object_detection/base.py", line 163 in __init__
+2025-09-11 02:28:08.006982518    File "/opt/frigate/frigate/app.py", line 391 in start_detectors
+2025-09-11 02:28:08.009373311    File "/opt/frigate/frigate/app.py", line 648 in start
+2025-09-11 02:28:08.009386533    File "/opt/frigate/frigate/__main__.py", line 104 in main
+2025-09-11 02:28:08.009457328    File "/opt/frigate/frigate/__main__.py", line 108 in <module>
+2025-09-11 02:28:08.009462217    File "<frozen runpy>", line 88 in _run_code
+2025-09-11 02:28:08.009466662    File "<frozen runpy>", line 198 in _run_module_as_main
+2025-09-11 02:28:08.009468421  
+2025-09-11 02:28:08.012276263  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:28:08.924460214  172.30.32.2 - - [10/Sep/2025:22:28:08 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:09.135471427  172.30.32.2 - - [10/Sep/2025:22:28:09 -0400] "GET /api/config HTTP/1.1" 200 26400 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:09.367272680  172.30.32.2 - - [10/Sep/2025:22:28:09 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:09.873629281  172.30.32.2 - - [10/Sep/2025:22:28:09 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 355 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.174695610  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 24554 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.328249862  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 12826 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.328313213  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front_rental/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 18194 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.504510678  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/back_yard/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 19892 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.573478889  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.600776356  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 3654 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.795790690  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front_rental/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 8728 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.831333981  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/back_yard/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 11586 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.944378248  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front/latest.webp?height=243&cache=1757557687928 HTTP/1.1" 200 12980 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:10.969520881  172.30.32.2 - - [10/Sep/2025:22:28:10 -0400] "GET /api/front/latest.webp?height=243&cache=1757557687263 HTTP/1.1" 200 12980 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:11.016237596  172.30.32.2 - - [10/Sep/2025:22:28:11 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557687262 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:11.037793067  [2025-09-10 22:28:10] frigate.watchdog               INFO    : Detection appears to have stopped. Exiting Frigate...
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 02:28:11.236909442  172.30.32.2 - - [10/Sep/2025:22:28:11 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557688347 HTTP/1.1" 200 12242 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:11.282076702  172.30.32.2 - - [10/Sep/2025:22:28:11 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557687263 HTTP/1.1" 200 8728 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 02:28:11.371545272  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+2025-09-11 02:28:11.407150452  172.30.32.2 - - [10/Sep/2025:22:28:11 -0400] "GET /api/front/latest.webp?height=243&cache=1757557688602 HTTP/1.1" 200 12980 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:11.440387226  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 02:28:11.761858694  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 02:28:11.934617383  [2025-09-10 22:28:11] frigate.app                    INFO    : Stopping...
+2025-09-11 02:28:11.958409798  [2025-09-10 22:28:11] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-11 02:28:11.970157563  [2025-09-10 22:28:11] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-11 02:28:11.985239958  [2025-09-10 22:28:11] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-11 02:28:11.997330662  [2025-09-10 22:28:11] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-11 02:28:12.003685592  [2025-09-10 22:28:11] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-11 02:28:12.012326743  [2025-09-10 22:28:11] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-11 02:28:12.018977854  [2025-09-10 22:28:11] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-11 02:28:12.025291488  [2025-09-10 22:28:12] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-11 02:28:12.105035037  [2025-09-10 22:28:12] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-11 02:28:12.108453665  [2025-09-10 22:28:12] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:12.115562286  [2025-09-10 22:28:12] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:12.156919165  [2025-09-10 22:28:12] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-11 02:28:13.275932765  [2025-09-10 22:28:13] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:13.278877660  [2025-09-10 22:28:13] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:13.457925539  [2025-09-10 22:28:13] frigate.app                    INFO    : Waiting for capture process for front to stop
+2025-09-11 02:28:13.629994962  [2025-09-10 22:28:13] watchdog.front                 INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:13.646124821  [2025-09-10 22:28:13] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:13.851195244  [2025-09-10 22:28:13] watchdog.front                 INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:13.854119603  [2025-09-10 22:28:13] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:14.084361659  [2025-09-10 22:28:14] frigate.app                    INFO    : Waiting for capture process for front_rental to stop
+2025-09-11 02:28:14.300547081  [2025-09-10 22:28:14] watchdog.front_rental          INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:14.305203947  [2025-09-10 22:28:14] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:14.394375485  [2025-09-10 22:28:14] watchdog.front_rental          INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:14.398738745  [2025-09-10 22:28:14] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:14.567830570  [2025-09-10 22:28:14] frigate.app                    INFO    : Waiting for capture process for back_yard to stop
+2025-09-11 02:28:14.662274594  [2025-09-10 22:28:14] watchdog.back_yard             INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:14.673320001  [2025-09-10 22:28:14] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:14.803797326  [2025-09-10 22:28:14] watchdog.back_yard             INFO    : Terminating the existing ffmpeg process...
+2025-09-11 02:28:14.805379781  [2025-09-10 22:28:14] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 02:28:14.913765219  [2025-09-10 22:28:14] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-11 02:28:15.535137978  [2025-09-10 22:28:15] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-11 02:28:15.541318004  [2025-09-10 22:28:15] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-11 02:28:15.600512787  [2025-09-10 22:28:15] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-11 02:28:16.113789012  [2025-09-10 22:28:16] frigate.app                    INFO    : Waiting for process for front to stop
+2025-09-11 02:28:16.177544625  [2025-09-10 22:28:16] frigate.video                  INFO    : front: emptying frame queue
+2025-09-11 02:28:16.181949125  [2025-09-10 22:28:16] frigate.video                  INFO    : front: exiting subprocess
+2025-09-11 02:28:16.220433405  [2025-09-10 22:28:16] frigate.app                    INFO    : Closing frame queue for front
+2025-09-11 02:28:16.726017592  [2025-09-10 22:28:16] frigate.app                    INFO    : Waiting for process for front_rental to stop
+2025-09-11 02:28:17.473258903  [2025-09-10 22:28:17] frigate.video                  INFO    : front_rental: emptying frame queue
+2025-09-11 02:28:17.475346349  [2025-09-10 22:28:17] frigate.video                  INFO    : front_rental: exiting subprocess
+2025-09-11 02:28:17.503824093  [2025-09-10 22:28:17] frigate.app                    INFO    : Closing frame queue for front_rental
+2025-09-11 02:28:18.005509679  [2025-09-10 22:28:18] frigate.app                    INFO    : Waiting for process for back_yard to stop
+2025-09-11 02:28:18.626860901  [2025-09-10 22:28:18] frigate.video                  INFO    : back_yard: emptying frame queue
+2025-09-11 02:28:18.628286340  [2025-09-10 22:28:18] frigate.video                  INFO    : back_yard: exiting subprocess
+2025-09-11 02:28:18.659096656  [2025-09-10 22:28:18] frigate.app                    INFO    : Closing frame queue for back_yard
+2025-09-11 02:28:19.161069348  [2025-09-10 22:28:19] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-11 02:28:20.162699994  [2025-09-10 22:28:20] detector.cpu1                  INFO    : Exited detection process...
+2025-09-11 02:28:20.212856762  [2025-09-10 22:28:20] root                           INFO    : Detection process has exited...
+2025-09-11 02:28:20.714285833  [2025-09-10 22:28:20] frigate.app                    INFO    : Detection queue closed
+2025-09-11 02:28:21.216979180  [2025-09-10 22:28:21] frigate.app                    INFO    : Detected frames queue closed
+2025-09-11 02:28:21.718452047  [2025-09-10 22:28:21] frigate.app                    INFO    : Timeline queue closed
+2025-09-11 02:28:23.021346184  [2025-09-10 22:28:23] frigate.output.output          INFO    : exiting output process...
+2025-09-11 02:28:25.547791123  [2025-09-10 22:28:25] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-11 02:28:26.166500315  [2025-09-10 22:28:26] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-11 02:28:26.214669728  [2025-09-10 22:28:26] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 02:28:26.342695853  [2025-09-10 22:28:26] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-11 02:28:26.569100566  [2025-09-10 22:28:26] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-11 02:28:26.863202289  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-11 02:28:26.875073608  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 02:28:26.898063092  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 02:28:33.159671997  [INFO] Starting NGINX...
+2025-09-11 02:28:33.244045061  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 02:28:34.463604114  [INFO] Preparing Frigate...
+2025-09-11 02:28:37.282761608  [INFO] Preparing new go2rtc config...
+2025-09-11 02:28:37.282946642  [INFO] Starting Frigate...
+2025-09-11 02:28:37.508664162  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 02:28:37.714113986  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 02:28:39.437136851  [INFO] Starting go2rtc...
+2025-09-11 02:28:39.770008551  22:28:39.769 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 02:28:39.770025625  22:28:39.769 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 02:28:39.772238625  22:28:39.771 INF [rtsp] listen addr=:8554
+2025-09-11 02:28:39.772251569  22:28:39.771 INF [api] listen addr=:1984
+2025-09-11 02:28:39.775081799  22:28:39.774 INF [webrtc] listen addr=:8555
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 02:28:42.869593847  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 02:28:42.927284506  2025/09/10 22:28:42 [error] 217#217: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:28:42.927315283  2025/09/10 22:28:42 [error] 217#217: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:28:43.152927749  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 02:28:44.742240362  127.0.0.1 - - [10/Sep/2025:22:28:44 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:28:45.430567825  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:28:45.430581696    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:28:45.430769544  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:28:45.430774692    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:28:45.431087298  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:28:45.431094965    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:28:45.431220463  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:28:45.431225277    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:28:46.962217536  2025/09/10 22:28:46 [error] 218#218: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:28:46.962287813  2025/09/10 22:28:46 [error] 218#218: *4 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:28:46.962512512  172.30.32.2 - - [10/Sep/2025:22:28:46 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:48.041523944  2025/09/10 22:28:48 [error] 219#219: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:28:48.041582869  2025/09/10 22:28:48 [error] 219#219: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:28:52.927118315  2025/09/10 22:28:52 [error] 244#244: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:28:52.927200369  2025/09/10 22:28:52 [error] 244#244: *8 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:28:52.928097409  172.30.32.2 - - [10/Sep/2025:22:28:52 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:28:53.160283728  [2025-09-10 22:28:53] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 02:28:53.176774413  2025/09/10 22:28:53 [error] 217#217: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:28:53.176843727  2025/09/10 22:28:53 [error] 217#217: *10 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:28:53.242630121  [2025-09-10 22:28:53] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 02:28:55.942602498  [2025-09-10 22:28:55] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 02:28:56.120736170  [2025-09-10 22:28:56] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 02:28:56.122896226  [2025-09-10 22:28:56] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 02:28:56.519471335  [2025-09-10 22:28:56] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 02:28:56.524725765  [2025-09-10 22:28:56] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 02:28:56.556096756  [2025-09-10 22:28:56] frigate.app                    INFO    : Recording process started: 446
+2025-09-11 02:28:56.580612325  [2025-09-10 22:28:56] frigate.app                    INFO    : Review process started: 449
+2025-09-11 02:28:56.599028368  [2025-09-10 22:28:56] frigate.app                    INFO    : go2rtc process pid: 127
+2025-09-11 02:28:56.672440948  [2025-09-10 22:28:56] detector.coral                 INFO    : Starting detection process: 471
+2025-09-11 02:28:56.694089769  [2025-09-10 22:28:56] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:28:56.698143553  [2025-09-10 22:28:56] detector.cpu1                  INFO    : Starting detection process: 474
+2025-09-11 02:28:56.702094079  [2025-09-10 22:28:56] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 02:28:56.738910182  [2025-09-10 22:28:56] frigate.app                    INFO    : Output process started: 494
+2025-09-11 02:28:56.740501711  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:28:56.874023503  [2025-09-10 22:28:56] frigate.app                    INFO    : Camera processor started for driveway: 519
+2025-09-11 02:28:56.936306715  [2025-09-10 22:28:56] frigate.app                    INFO    : Camera processor started for front: 529
+2025-09-11 02:28:57.259082398  [2025-09-10 22:28:56] frigate.app                    INFO    : Camera processor started for front_rental: 547
+2025-09-11 02:28:57.313996475  [2025-09-10 22:28:57] frigate.app                    INFO    : Camera processor started for back_yard: 585
+2025-09-11 02:28:57.438308458  [2025-09-10 22:28:57] frigate.app                    INFO    : Capture process started for driveway: 597
+2025-09-11 02:28:57.593998748  [2025-09-10 22:28:57] frigate.app                    INFO    : Capture process started for front: 605
+2025-09-11 02:28:57.728670224  [2025-09-10 22:28:57] frigate.app                    INFO    : Capture process started for front_rental: 612
+2025-09-11 02:28:57.938641526  [2025-09-10 22:28:57] frigate.app                    INFO    : Capture process started for back_yard: 635
+2025-09-11 02:28:58.820400292  2025/09/10 22:28:58 [error] 217#217: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:28:58.828269863  2025/09/10 22:28:58 [error] 217#217: *12 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:28:58.992341882  2025/09/10 22:28:58 [error] 217#217: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:28:58.992364548  2025/09/10 22:28:58 [error] 217#217: *14 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:28:59.012329398  172.30.32.2 - - [10/Sep/2025:22:28:58 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:00.077703001  [2025-09-10 22:29:00] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:29:00.194511814  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:29:00.712301644  [2025-09-10 22:29:00] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 02:29:02.918265752  [2025-09-10 22:29:02] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 02:29:12.293833394  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:29:12.296628569  Fatal Python error: Aborted
+2025-09-11 02:29:12.296636143  
+2025-09-11 02:29:12.296639865  Thread 0x0000007f966624c0 (most recent call first):
+2025-09-11 02:29:12.296656161    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:29:12.296669550    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:29:12.296674402    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:29:12.296775122    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:29:12.296780344    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:29:12.296783918    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:29:12.296885602    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:29:12.296892565    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:29:12.296952582    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:29:12.296957878    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:29:12.296961989    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:29:12.296965637    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:29:12.296969026    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:29:12.296972897    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:29:12.296976471    File "/opt/frigate/frigate/object_detection/base.py", line 163 in __init__
+2025-09-11 02:29:12.297037988    File "/opt/frigate/frigate/app.py", line 391 in start_detectors
+2025-09-11 02:29:12.297042766    File "/opt/frigate/frigate/app.py", line 648 in start
+2025-09-11 02:29:12.297046210    File "/opt/frigate/frigate/__main__.py", line 104 in main
+2025-09-11 02:29:12.297050192    File "/opt/frigate/frigate/__main__.py", line 108 in <module>
+2025-09-11 02:29:12.297053043    File "<frozen runpy>", line 88 in _run_code
+2025-09-11 02:29:12.297056191    File "<frozen runpy>", line 198 in _run_module_as_main
+2025-09-11 02:29:12.297506388  
+2025-09-11 02:29:12.374793310  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:29:20.852628836  [2025-09-10 22:29:20] frigate.watchdog               INFO    : Detection appears to be stuck. Restarting detection process...
+2025-09-11 02:29:20.932712860  [2025-09-10 22:29:20] detector.coral                 INFO    : Starting detection process: 766
+2025-09-11 02:29:20.968020155  [2025-09-10 22:29:20] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:29:24.787695844  [2025-09-10 22:29:24] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:29:25.021844332  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:29:36.893718033  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:29:36.895568817  Fatal Python error: Aborted
+2025-09-11 02:29:36.895577594  
+2025-09-11 02:29:36.895737647  Thread 0x0000007ef57af1a0 (most recent call first):
+2025-09-11 02:29:36.904888938    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:29:36.904902567    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:29:36.904905882    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:29:36.904909160    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:29:36.904912141    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:29:36.904914956    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:29:36.904917863    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:29:36.904920752    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:29:36.904923641    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:29:36.904926437    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:29:36.904929270    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:29:36.904932048    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:29:36.904934622    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:29:36.904937678    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:29:36.904940159    File "/opt/frigate/frigate/watchdog.py", line 33 in run
+2025-09-11 02:29:36.904942974    File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+2025-09-11 02:29:36.904945752    File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+2025-09-11 02:29:36.904947011  
+2025-09-11 02:29:36.916080879  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+2025-09-11 02:29:40.876514379  [2025-09-10 22:29:40] frigate.watchdog               INFO    : Detection appears to be stuck. Restarting detection process...
+2025-09-11 02:29:41.085115872  [2025-09-10 22:29:41] detector.coral                 INFO    : Starting detection process: 820
+2025-09-11 02:29:41.103521453  [2025-09-10 22:29:41] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 02:29:42.337250229  172.30.32.2 - - [10/Sep/2025:22:29:42 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/hassio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:42.734035056  172.30.32.2 - - [10/Sep/2025:22:29:42 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:42.945061286  172.30.32.2 - - [10/Sep/2025:22:29:42 -0400] "GET /api/config HTTP/1.1" 200 26400 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:43.005978842  172.30.32.2 - - [10/Sep/2025:22:29:43 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.244486018  172.30.32.2 - - [10/Sep/2025:22:29:44 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 355 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.972384659  172.30.32.2 - - [10/Sep/2025:22:29:44 -0400] "GET /api/back_yard/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 29644 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.973605935  172.30.32.2 - - [10/Sep/2025:22:29:44 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 54758 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.978190192  172.30.32.2 - - [10/Sep/2025:22:29:44 -0400] "GET /api/front_rental/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 18368 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.979821720  172.30.32.2 - - [10/Sep/2025:22:29:44 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 23504 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:44.999061898  [2025-09-10 22:29:44] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 02:29:45.051970551  172.30.32.2 - - [10/Sep/2025:22:29:45 -0400] "GET /api/front/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:45.160491347  172.30.32.2 - - [10/Sep/2025:22:29:45 -0400] "GET /api/front/latest.webp?height=360&store=1&cache=1757557200 HTTP/1.1" 200 3654 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:45.291718615  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 02:29:46.370443111  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/front_rental/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 8684 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.370467481  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/front/latest.webp?height=243&cache=1757557782937 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.402708664  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/back_yard/latest.webp?height=243&store=1&cache=1757557200 HTTP/1.1" 200 14940 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.421367463  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557782882 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.434126527  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557780644 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.844227909  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557784014 HTTP/1.1" 200 14940 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.872800616  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557784014 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.916572458  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/front_rental/latest.webp?height=243&cache=1757557780644 HTTP/1.1" 200 8684 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:46.998819657  172.30.32.2 - - [10/Sep/2025:22:29:46 -0400] "GET /api/front/latest.webp?height=243&cache=1757557783960 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.027426827  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557780644 HTTP/1.1" 200 14940 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.167580279  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557784447 HTTP/1.1" 200 14940 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.169396563  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557784480 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.311452669  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/front/latest.webp?height=243&cache=1757557784597 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.568846086  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557784788 HTTP/1.1" 200 14940 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.582890722  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/front/latest.webp?height=243&cache=1757557784912 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:47.603837797  172.30.32.2 - - [10/Sep/2025:22:29:47 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557784788 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:48.006734262  172.30.32.2 - - [10/Sep/2025:22:29:48 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557785199 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:48.045192434  172.30.32.2 - - [10/Sep/2025:22:29:48 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557785162 HTTP/1.1" 200 11000 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:48.062029967  172.30.32.2 - - [10/Sep/2025:22:29:48 -0400] "GET /api/front/latest.webp?height=243&cache=1757557785177 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:49.494605469  172.30.32.2 - - [10/Sep/2025:22:29:49 -0400] "GET /api/front/latest.webp?height=243&cache=1757557785676 HTTP/1.1" 200 2472 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:49.507728787  172.30.32.2 - - [10/Sep/2025:22:29:49 -0400] "GET /api/back_yard/latest.webp?height=243&cache=1757557785676 HTTP/1.1" 200 11000 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:49.507743435  172.30.32.2 - - [10/Sep/2025:22:29:49 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757557785676 HTTP/1.1" 200 23490 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:49.753315272  127.0.0.1 - - [10/Sep/2025:22:29:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:29:52.823788691  172.30.32.2 - - [10/Sep/2025:22:29:52 -0400] "GET /ws HTTP/1.1" 101 6400 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:29:57.266123622  [INFO] Service Frigate exited with code 256 (by signal 9)
+2025-09-11 02:29:57.438223613  F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback]
+2025-09-11 02:29:57.525210658  Fatal Python error: Aborted
+2025-09-11 02:29:57.525223565  
+2025-09-11 02:29:57.581992263  Thread 0x0000007ef57af1a0 (most recent call first):
+2025-09-11 02:29:57.582060522    File "/usr/local/lib/python3.11/dist-packages/tflite_runtime/interpreter.py", line 953 in invoke
+2025-09-11 02:29:57.582065373    File "/opt/frigate/frigate/detectors/plugins/edgetpu_tfl.py", line 70 in detect_raw
+2025-09-11 02:29:57.582105762    File "/opt/frigate/frigate/object_detection/base.py", line 86 in detect_raw
+2025-09-11 02:29:57.582110002    File "/opt/frigate/frigate/object_detection/base.py", line 136 in run_detector
+2025-09-11 02:29:57.582113243    File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+2025-09-11 02:29:57.582135909    File "/opt/frigate/frigate/util/process.py", line 41 in run_wrapper
+2025-09-11 02:29:57.582162353    File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+2025-09-11 02:29:57.582185186    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 71 in _launch
+2025-09-11 02:29:57.582202797    File "/usr/lib/python3.11/multiprocessing/popen_fork.py", line 19 in __init__
+2025-09-11 02:29:57.582219445    File "/usr/lib/python3.11/multiprocessing/context.py", line 281 in _Popen
+2025-09-11 02:29:57.582512347    File "/usr/lib/python3.11/multiprocessing/context.py", line 224 in _Popen
+2025-09-11 02:29:57.582521384    File "/usr/lib/python3.11/multiprocessing/process.py", line 121 in start
+2025-09-11 02:29:57.582524236    File "/opt/frigate/frigate/util/process.py", line 30 in start
+2025-09-11 02:29:57.582527514    File "/opt/frigate/frigate/object_detection/base.py", line 195 in start_or_restart
+2025-09-11 02:29:57.582530162    File "/opt/frigate/frigate/watchdog.py", line 33 in run
+s6-rc: info: service legacy-services: stopping
+2025-09-11 02:29:57.582575865    File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+2025-09-11 02:29:57.582578902    File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+2025-09-11 02:29:57.583446517  
+2025-09-11 02:29:57.592285962  Extension modules: psutil._psutil_linux, psutil._psutil_posix, pysqlite3._sqlite3, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend, charset_normalizer.md, requests.packages.charset_normalizer.md, requests.packages.chardet.md, PIL._imaging, markupsafe._speedups, regex._regex, setproctitle._setproctitle, zmq.backend.cython._zmq, rapidfuzz.distance._initialize_cpp, rapidfuzz.distance.metrics_cpp, rapidfuzz.fuzz_cpp, rapidfuzz.process_cpp_impl, rapidfuzz.utils_cpp, Levenshtein.levenshtein_cpp, pyclipper._pyclipper, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg.cython_blas, scipy.linalg._matfuncs_expm, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._highs.cython.src._highs_wrapper, scipy.optimize._highs._highs_wrapper, scipy.optimize._highs.cython.src._highs_constants, scipy.optimize._highs._highs_constants, scipy.linalg._interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.integrate._lsoda, scipy.interpolate._fitpack, scipy.interpolate._dfitpack, scipy.interpolate._bspl, scipy.interpolate._ppoly, scipy.interpolate.interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy._lib._uarray._uarray, scipy.stats._ansari_swilk_statistics, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._mvn, scipy.stats._rcont.rcont, scipy.stats._unuran.unuran_wrapper, scipy.ndimage._nd_image, _ni_label, scipy.ndimage._ni_label, yaml._yaml, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, lxml._elementpath, lxml.etree, lxml.builder, ciso8601, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing (total: 172)
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-supervise go2rtc-healthcheck: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-rc: info: service nginx successfully stopped
+2025-09-11 02:30:10.067143662  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 02:30:10.381752123  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 02:30:11.008087594  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 02:30:17.860502593  [INFO] Starting NGINX...
+2025-09-11 02:30:17.930397976  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 02:30:18.913372645  [INFO] Preparing Frigate...
+2025-09-11 02:30:22.696450928  [INFO] Preparing new go2rtc config...
+2025-09-11 02:30:22.700262660  [INFO] Starting Frigate...
+2025-09-11 02:30:22.920976363  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 02:30:23.133402205  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 02:30:25.126447882  [INFO] Starting go2rtc...
+2025-09-11 02:30:25.405909061  22:30:25.405 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 02:30:25.405970079  22:30:25.405 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 02:30:25.408609534  22:30:25.408 INF [rtsp] listen addr=:8554
+2025-09-11 02:30:25.408630479  22:30:25.408 INF [api] listen addr=:1984
+2025-09-11 02:30:25.411341526  22:30:25.411 INF [webrtc] listen addr=:8555
+2025-09-11 02:30:27.861792968  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 02:30:30.442178895  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:30:30.442195265    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:30:30.442432816  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 02:30:30.442441557    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 02:30:30.442829087  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:30:30.442840421    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 02:30:30.443304024  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 02:30:30.443317135    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 02:30:32.293005789  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 02:30:32.834095872  2025/09/10 22:30:32 [error] 231#231: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:30:32.834120187  2025/09/10 22:30:32 [error] 231#231: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:30:33.970659682  2025/09/10 22:30:33 [error] 232#232: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 02:30:33.970722959  2025/09/10 22:30:33 [error] 232#232: *3 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 02:30:33.971232302  172.30.32.2 - - [10/Sep/2025:22:30:33 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 02:30:34.362514326  127.0.0.1 - - [10/Sep/2025:22:30:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 02:30:37.934767505  2025/09/10 22:30:37 [error] 233#233: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 02:30:37.934839596  2025/09/10 22:30:37 [error] 233#233: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 02:30:38.551614519  [2025-09-10 22:30:38] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 02:30:38.626068232  [2025-09-10 22:30:38] frigate.util.config            INFO    : frigate config does not need migration...

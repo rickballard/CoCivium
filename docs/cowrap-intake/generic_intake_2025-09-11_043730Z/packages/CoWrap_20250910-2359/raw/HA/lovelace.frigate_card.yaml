@@ -1,0 +1,8 @@
+# Add this to a dashboard (Lovelace YAML mode) — assumes rigate-card HACS install.
+type: custom:frigate-card
+cameras:
+  - camera_entity: camera.front
+    title: Front
+  - camera_entity: camera.back
+    title: Back
+view_default: live

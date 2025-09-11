@@ -1,0 +1,108 @@
+# Browser Mod popups (open on motion, close 15s after motion ends)
+- id: popup_driveway_motion
+  alias: "Popup: Driveway motion"
+  mode: restart
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.driveway_motion_hold
+      to: "on"
+  action:
+    - service: browser_mod.popup
+      data:
+        title: "Driveway motion"
+        browser_id: all
+        dismissable: true
+        size: wide
+        content:
+          type: picture-glance
+          title: Driveway
+          camera_image: camera.driveway_fluent
+          camera_view: live
+          entities: []
+    - wait_for_trigger:
+        - platform: state
+          entity_id: binary_sensor.driveway_motion_hold
+          to: "off"
+    - delay: "00:00:15"
+    - service: browser_mod.close_popup
+
+- id: popup_front_motion
+  alias: "Popup: Front motion"
+  mode: restart
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.front_motion_hold
+      to: "on"
+  action:
+    - service: browser_mod.popup
+      data:
+        title: "Front motion"
+        browser_id: all
+        dismissable: true
+        size: wide
+        content:
+          type: picture-glance
+          title: Front
+          camera_image: camera.front_fluent
+          camera_view: live
+          entities: []
+    - wait_for_trigger:
+        - platform: state
+          entity_id: binary_sensor.front_motion_hold
+          to: "off"
+    - delay: "00:00:15"
+    - service: browser_mod.close_popup
+
+- id: popup_front_rental_motion
+  alias: "Popup: Front Rental motion"
+  mode: restart
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.front_rental_motion_hold
+      to: "on"
+  action:
+    - service: browser_mod.popup
+      data:
+        title: "Front Rental motion"
+        browser_id: all
+        dismissable: true
+        size: wide
+        content:
+          type: picture-glance
+          title: Front Rental
+          camera_image: camera.front_rental_fluent
+          camera_view: live
+          entities: []
+    - wait_for_trigger:
+        - platform: state
+          entity_id: binary_sensor.front_rental_motion_hold
+          to: "off"
+    - delay: "00:00:15"
+    - service: browser_mod.close_popup
+
+- id: popup_back_yard_motion
+  alias: "Popup: Back Yard motion"
+  mode: restart
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.back_yard_motion_hold
+      to: "on"
+  action:
+    - service: browser_mod.popup
+      data:
+        title: "Back Yard motion"
+        browser_id: all
+        dismissable: true
+        size: wide
+        content:
+          type: picture-glance
+          title: Back Yard
+          camera_image: camera.back_yard_fluent
+          camera_view: live
+          entities: []
+    - wait_for_trigger:
+        - platform: state
+          entity_id: binary_sensor.back_yard_motion_hold
+          to: "off"
+    - delay: "00:00:15"
+    - service: browser_mod.close_popup

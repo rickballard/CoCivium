@@ -1,0 +1,1000 @@
+2025-09-10 18:30:57.832369864  [2025-09-10 14:30:57] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 18:30:58.335395926  [2025-09-10 14:30:58] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 18:30:58.830089632  [2025-09-10 14:30:58] frigate.output.output          INFO    : exiting output process...
+2025-09-10 18:30:59.325692731  [2025-09-10 14:30:59] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 18:30:59.441505458  [2025-09-10 14:30:59] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 18:30:59.484588275  [2025-09-10 14:30:59] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 18:30:59.603260169  [2025-09-10 14:30:59] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 18:31:00.346297386  [2025-09-10 14:31:00] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 18:31:00.576780013  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 18:31:00.585861097  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 18:31:00.604042876  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-10 18:31:06.131677004  [INFO] Starting NGINX...
+2025-09-10 18:31:06.219642552  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 18:31:07.531068104  [INFO] Preparing Frigate...
+2025-09-10 18:31:11.352037453  [INFO] Starting Frigate...
+2025-09-10 18:31:11.356761418  [INFO] Preparing new go2rtc config...
+2025-09-10 18:31:11.543318448  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 18:31:11.729000181  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 18:31:13.356920950  [INFO] Starting go2rtc...
+2025-09-10 18:31:13.647134255  14:31:13.646 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 18:31:13.647815816  14:31:13.647 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 18:31:13.649427896  14:31:13.649 INF [api] listen addr=:1984
+2025-09-10 18:31:13.653500262  14:31:13.653 INF [rtsp] listen addr=:8554
+2025-09-10 18:31:13.656816884  14:31:13.655 INF [webrtc] listen addr=:8555
+2025-09-10 18:31:16.108234182  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 18:31:18.260436981  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:31:18.260451036    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:31:18.262043395  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:31:18.262055061    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:31:18.263087282  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:31:18.263097467    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:31:18.263921618  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:31:18.263929581    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:31:25.011832534  [2025-09-10 14:31:25] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 18:31:25.045022123  [2025-09-10 14:31:25] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 18:31:27.291473017  [2025-09-10 14:31:27] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 18:31:27.385374561  [2025-09-10 14:31:27] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 18:31:27.387548334  [2025-09-10 14:31:27] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 18:31:27.420243471  [2025-09-10 14:31:27] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 18:31:27.424142970  [2025-09-10 14:31:27] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 18:31:27.454236267  [2025-09-10 14:31:27] frigate.app                    INFO    : Recording process started: 283
+2025-09-10 18:31:27.477256458  [2025-09-10 14:31:27] frigate.app                    INFO    : Review process started: 286
+2025-09-10 18:31:27.505319239  [2025-09-10 14:31:27] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 18:31:27.584351844  [2025-09-10 14:31:27] frigate.app                    INFO    : Embedding process started: 311
+2025-09-10 18:31:27.613923817  [2025-09-10 14:31:27] detector.cpu1                  INFO    : Starting detection process: 308
+2025-09-10 18:31:27.618374344  [2025-09-10 14:31:27] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 18:31:27.634256393  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 18:31:27.717799060  [2025-09-10 14:31:27] frigate.app                    INFO    : Output process started: 334
+2025-09-10 18:31:28.725461645  [2025-09-10 14:31:28] frigate.app                    INFO    : Camera processor started for driveway: 374
+2025-09-10 18:31:28.799735841  [2025-09-10 14:31:28] frigate.app                    INFO    : Capture process started for driveway: 381
+2025-09-10 18:31:29.399772306  [2025-09-10 14:31:29] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+s6-rc: info: service legacy-services successfully started
+2025-09-10 18:31:32.180775006  [INFO] Starting certsync...
+2025-09-10 18:31:32.284653032  [2025-09-10 14:31:32] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 18:31:37.360287381  127.0.0.1 - - [10/Sep/2025:14:31:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:31:41.695904123  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 18:32:27.355767311  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+2025-09-10 18:32:27.365020806  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 18:32:27.525886709  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 18:32:27.719007345  [2025-09-10 14:32:27] frigate.app                    INFO    : Stopping...
+2025-09-10 18:32:27.733146083  [2025-09-10 14:32:27] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 18:32:27.737220952  [2025-09-10 14:32:27] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 18:32:27.741125842  [2025-09-10 14:32:27] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 18:32:27.745755534  [2025-09-10 14:32:27] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 18:32:27.750834366  [2025-09-10 14:32:27] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 18:32:27.756037862  [2025-09-10 14:32:27] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 18:32:27.757795607  [2025-09-10 14:32:27] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 18:32:27.761157100  [2025-09-10 14:32:27] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 18:32:27.790006268  [2025-09-10 14:32:27] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 18:32:27.796801049  [2025-09-10 14:32:27] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 18:32:27.858317370  [2025-09-10 14:32:27] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 18:32:28.565581503  [2025-09-10 14:32:28] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 18:32:28.568383377  [2025-09-10 14:32:28] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 18:32:28.957385751  [2025-09-10 14:32:28] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 18:32:28.958874705  [2025-09-10 14:32:28] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 18:32:29.002148143  [2025-09-10 14:32:29] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 18:32:29.504638710  [2025-09-10 14:32:29] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 18:32:29.953966987  [2025-09-10 14:32:29] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 18:32:29.991706861  [2025-09-10 14:32:29] root                           INFO    : Detection process has exited...
+2025-09-10 18:32:30.493916919  [2025-09-10 14:32:30] frigate.app                    INFO    : Detection queue closed
+2025-09-10 18:32:30.995428342  [2025-09-10 14:32:30] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 18:32:31.497851437  [2025-09-10 14:32:31] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 18:32:32.480519505  [2025-09-10 14:32:32] frigate.output.output          INFO    : exiting output process...
+2025-09-10 18:32:32.560249565  [2025-09-10 14:32:32] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 18:32:32.841763220  [2025-09-10 14:32:32] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 18:32:32.880115417  [2025-09-10 14:32:32] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 18:32:32.943086417  [2025-09-10 14:32:32] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 18:32:33.612887031  [2025-09-10 14:32:33] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 18:32:33.887159303  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 18:32:33.903020954  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 18:32:33.925171192  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-10 18:32:39.333630234  [INFO] Starting NGINX...
+2025-09-10 18:32:39.425566554  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 18:32:40.580281670  [INFO] Preparing Frigate...
+2025-09-10 18:32:44.710925439  [INFO] Preparing new go2rtc config...
+2025-09-10 18:32:44.712483336  [INFO] Starting Frigate...
+2025-09-10 18:32:44.958655483  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 18:32:45.207684689  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 18:32:46.899961675  [INFO] Starting go2rtc...
+2025-09-10 18:32:47.159712039  14:32:47.159 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 18:32:47.159767260  14:32:47.159 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 18:32:47.163121828  14:32:47.162 INF [rtsp] listen addr=:8554
+2025-09-10 18:32:47.163136828  14:32:47.162 INF [api] listen addr=:1984
+2025-09-10 18:32:47.165362935  14:32:47.164 INF [webrtc] listen addr=:8555
+2025-09-10 18:32:49.334062790  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 18:32:51.861138756  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:32:51.861152515    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:32:51.862845669  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:32:51.862855891    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:32:51.863905613  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:32:51.863921983    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:32:51.864798893  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:32:51.864808448    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 18:32:57.006963908  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 18:32:58.773998948  127.0.0.1 - - [10/Sep/2025:14:32:58 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:32:59.279097985  2025/09/10 14:32:59 [error] 238#238: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:32:59.279432998  2025/09/10 14:32:59 [error] 238#238: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:32:59.402505335  [2025-09-10 14:32:59] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 18:32:59.439350271  [2025-09-10 14:32:59] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 18:33:01.793698012  [2025-09-10 14:33:01] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 18:33:01.880822657  [2025-09-10 14:33:01] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 18:33:01.882406517  [2025-09-10 14:33:01] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 18:33:01.910631592  [2025-09-10 14:33:01] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 18:33:01.915681315  [2025-09-10 14:33:01] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 18:33:01.962341720  [2025-09-10 14:33:01] frigate.app                    INFO    : Recording process started: 448
+2025-09-10 18:33:01.971439812  [2025-09-10 14:33:01] frigate.app                    INFO    : Review process started: 451
+2025-09-10 18:33:01.986703033  [2025-09-10 14:33:01] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 18:33:02.043830079  [2025-09-10 14:33:02] detector.cpu1                  INFO    : Starting detection process: 473
+2025-09-10 18:33:02.074522406  [2025-09-10 14:33:02] frigate.app                    INFO    : Embedding process started: 476
+2025-09-10 18:33:02.084679017  [2025-09-10 14:33:02] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 18:33:02.108656652  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 18:33:02.148436628  [2025-09-10 14:33:02] frigate.app                    INFO    : Output process started: 499
+2025-09-10 18:33:03.018135337  [2025-09-10 14:33:03] frigate.app                    INFO    : Camera processor started for driveway: 530
+2025-09-10 18:33:03.139277083  [2025-09-10 14:33:03] frigate.app                    INFO    : Capture process started for driveway: 540
+2025-09-10 18:33:03.724385488  [2025-09-10 14:33:03] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 18:33:06.255707585  [2025-09-10 14:33:05] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 18:33:14.932272644  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 18:33:36.142735446  172.30.32.2 - - [10/Sep/2025:14:33:36 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:36.750772256  172.30.32.2 - - [10/Sep/2025:14:33:36 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:36.771152776  172.30.32.2 - - [10/Sep/2025:14:33:36 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:36.833595222  172.30.32.2 - - [10/Sep/2025:14:33:36 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:37.158237431  172.30.32.2 - - [10/Sep/2025:14:33:37 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:37.289384896  172.30.32.2 - - [10/Sep/2025:14:33:37 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757529000 HTTP/1.1" 200 18452 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:37.363729330  172.30.32.2 - - [10/Sep/2025:14:33:37 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757529000 HTTP/1.1" 200 53728 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:37.419580599  172.30.32.2 - - [10/Sep/2025:14:33:37 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529215471 HTTP/1.1" 200 18452 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:33:41.125359854  172.30.32.2 - - [10/Sep/2025:14:33:41 -0400] "GET /ws HTTP/1.1" 101 2046 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 18:33:46.973981521  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 18:33:46.981699048  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 18:33:47.098893976  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 18:33:47.234752642  [2025-09-10 14:33:47] frigate.app                    INFO    : Stopping...
+2025-09-10 18:33:47.244802832  [2025-09-10 14:33:47] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 18:33:47.248353027  [2025-09-10 14:33:47] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 18:33:47.254108072  [2025-09-10 14:33:47] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 18:33:47.258804747  [2025-09-10 14:33:47] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 18:33:47.262863359  [2025-09-10 14:33:47] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 18:33:47.267224502  [2025-09-10 14:33:47] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 18:33:47.270300003  [2025-09-10 14:33:47] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 18:33:47.271707811  [2025-09-10 14:33:47] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 18:33:47.333880599  [2025-09-10 14:33:47] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 18:33:47.336842231  [2025-09-10 14:33:47] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 18:33:47.343247653  [2025-09-10 14:33:47] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 18:33:47.661784383  [2025-09-10 14:33:47] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 18:33:48.104666710  [2025-09-10 14:33:48] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 18:33:48.339744833  [2025-09-10 14:33:48] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 18:33:48.341104345  [2025-09-10 14:33:48] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 18:33:48.390788636  [2025-09-10 14:33:48] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 18:33:48.892814309  [2025-09-10 14:33:48] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 18:33:49.519428039  [2025-09-10 14:33:49] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 18:33:49.560537467  [2025-09-10 14:33:49] root                           INFO    : Detection process has exited...
+2025-09-10 18:33:50.062095133  [2025-09-10 14:33:50] frigate.app                    INFO    : Detection queue closed
+2025-09-10 18:33:50.564229143  [2025-09-10 14:33:50] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 18:33:51.066553335  [2025-09-10 14:33:51] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 18:33:51.712995237  [2025-09-10 14:33:51] frigate.output.output          INFO    : exiting output process...
+2025-09-10 18:33:51.990018666  [2025-09-10 14:33:51] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 18:33:52.352362583  [2025-09-10 14:33:52] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 18:33:52.407082637  [2025-09-10 14:33:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 18:33:52.851124697  [2025-09-10 14:33:52] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 18:33:53.007871011  [2025-09-10 14:33:53] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 18:33:53.292792320  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 18:33:53.307391466  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 18:33:53.349125568  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 18:33:58.932080259  [INFO] Starting NGINX...
+2025-09-10 18:33:59.026098426  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 18:34:00.271812569  [INFO] Preparing Frigate...
+2025-09-10 18:34:04.244733949  [INFO] Preparing new go2rtc config...
+2025-09-10 18:34:04.245861559  [INFO] Starting Frigate...
+2025-09-10 18:34:04.413593521  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 18:34:04.574807749  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 18:34:06.048791761  [INFO] Starting go2rtc...
+2025-09-10 18:34:06.323013656  14:34:06.322 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 18:34:06.323076544  14:34:06.322 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 18:34:06.327366226  14:34:06.326 INF [api] listen addr=:1984
+2025-09-10 18:34:06.328645759  14:34:06.328 INF [rtsp] listen addr=:8554
+2025-09-10 18:34:06.332101308  14:34:06.331 INF [webrtc] listen addr=:8555
+2025-09-10 18:34:08.921234066  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 18:34:11.476944445  [INFO] Starting certsync...
+2025-09-10 18:34:11.490709107  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:34:11.490734144    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:34:11.491450668  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:34:11.491464520    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:34:11.491898808  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:34:11.491907567    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:34:11.494135064  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:34:11.494148453    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service legacy-services successfully started
+2025-09-10 18:34:13.272298921  127.0.0.1 - - [10/Sep/2025:14:34:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:34:13.727606155  2025/09/10 14:34:13 [error] 228#228: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:34:13.727797985  2025/09/10 14:34:13 [error] 228#228: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:34:18.841694669  2025/09/10 14:34:18 [error] 229#229: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:34:18.841907461  2025/09/10 14:34:18 [error] 229#229: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:34:19.040477242  [2025-09-10 14:34:19] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 18:34:19.082829803  [2025-09-10 14:34:19] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 18:34:21.663098518  [2025-09-10 14:34:21] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 18:34:21.753061844  [2025-09-10 14:34:21] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 18:34:21.754783295  [2025-09-10 14:34:21] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 18:34:21.786321512  [2025-09-10 14:34:21] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 18:34:21.792036800  [2025-09-10 14:34:21] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 18:34:21.841973764  [2025-09-10 14:34:21] frigate.app                    INFO    : Recording process started: 448
+2025-09-10 18:34:21.847032266  [2025-09-10 14:34:21] frigate.app                    INFO    : Review process started: 451
+2025-09-10 18:34:21.868960876  [2025-09-10 14:34:21] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 18:34:21.930245879  [2025-09-10 14:34:21] detector.cpu1                  INFO    : Starting detection process: 473
+2025-09-10 18:34:21.939927429  [2025-09-10 14:34:21] frigate.app                    INFO    : Embedding process started: 476
+2025-09-10 18:34:21.972892547  [2025-09-10 14:34:21] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 18:34:22.001231450  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 18:34:22.047564275  [2025-09-10 14:34:22] frigate.app                    INFO    : Output process started: 499
+2025-09-10 18:34:22.651243712  [2025-09-10 14:34:22] frigate.app                    INFO    : Camera processor started for driveway: 520
+2025-09-10 18:34:22.720197116  [2025-09-10 14:34:22] frigate.app                    INFO    : Capture process started for driveway: 537
+2025-09-10 18:34:23.483177816  [2025-09-10 14:34:23] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 18:34:24.402695314  2025/09/10 14:34:24 [error] 230#230: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:34:24.402779590  2025/09/10 14:34:24 [error] 230#230: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:34:26.623755747  [2025-09-10 14:34:26] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 18:34:33.106577845  172.30.32.2 - - [10/Sep/2025:14:34:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:34:34.780835776  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 18:35:13.744582821  127.0.0.1 - - [10/Sep/2025:14:35:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:36:14.200598843  127.0.0.1 - - [10/Sep/2025:14:36:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:36:33.115047339  172.30.32.2 - - [10/Sep/2025:14:36:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:36:41.949160337  [2025-09-10 14:36:41] frigate.comms.mqtt             ERROR   : MQTT disconnected
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 18:36:46.943841799  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 18:36:46.977658205  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 18:36:47.158809755  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 18:36:47.329178951  [2025-09-10 14:36:47] frigate.app                    INFO    : Stopping...
+2025-09-10 18:36:47.365585295  [2025-09-10 14:36:47] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 18:36:47.373632751  [2025-09-10 14:36:47] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 18:36:47.377456001  [2025-09-10 14:36:47] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 18:36:47.382971537  [2025-09-10 14:36:47] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 18:36:47.393296787  [2025-09-10 14:36:47] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 18:36:47.409467346  [2025-09-10 14:36:47] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 18:36:47.424074208  [2025-09-10 14:36:47] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 18:36:47.433180517  [2025-09-10 14:36:47] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 18:36:47.436072375  [2025-09-10 14:36:47] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 18:36:47.437803086  [2025-09-10 14:36:47] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 18:36:47.474889456  [2025-09-10 14:36:47] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 18:36:48.079920818  [2025-09-10 14:36:48] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 18:36:48.341769905  [2025-09-10 14:36:48] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 18:36:49.072985052  [2025-09-10 14:36:49] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 18:36:49.074971407  [2025-09-10 14:36:49] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 18:36:49.125465438  [2025-09-10 14:36:49] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 18:36:49.628226914  [2025-09-10 14:36:49] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 18:36:50.067835426  [2025-09-10 14:36:50] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 18:36:50.113368097  [2025-09-10 14:36:50] root                           INFO    : Detection process has exited...
+2025-09-10 18:36:50.615940227  [2025-09-10 14:36:50] frigate.app                    INFO    : Detection queue closed
+2025-09-10 18:36:51.118445284  [2025-09-10 14:36:51] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 18:36:51.620009026  [2025-09-10 14:36:51] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 18:36:52.614705748  [2025-09-10 14:36:52] frigate.output.output          INFO    : exiting output process...
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 18:36:58.773171615  [INFO] Starting NGINX...
+2025-09-10 18:36:59.130905423  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 18:37:00.142080140  [INFO] Preparing Frigate...
+2025-09-10 18:37:03.916259690  [INFO] Preparing new go2rtc config...
+2025-09-10 18:37:03.920254437  [INFO] Starting Frigate...
+2025-09-10 18:37:04.096665710  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 18:37:04.264796846  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 18:37:05.810128180  [INFO] Starting go2rtc...
+2025-09-10 18:37:06.081007856  14:37:06.080 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 18:37:06.088830483  14:37:06.088 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 18:37:06.090756562  14:37:06.090 INF [rtsp] listen addr=:8554
+2025-09-10 18:37:06.090818690  14:37:06.090 INF [api] listen addr=:1984
+2025-09-10 18:37:06.093284686  14:37:06.093 INF [webrtc] listen addr=:8555
+2025-09-10 18:37:08.765796604  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 18:37:10.141088527  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 18:37:11.268045412  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:37:11.268067041    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:37:11.268517478  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 18:37:11.268526404    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:37:11.268835769  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:37:11.268842269    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 18:37:11.269001285  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 18:37:11.269008248    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 18:37:11.946376435  127.0.0.1 - - [10/Sep/2025:14:37:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:37:13.678976863  2025/09/10 14:37:13 [error] 228#228: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:37:13.679542724  2025/09/10 14:37:13 [error] 228#228: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:37:18.731209124  [2025-09-10 14:37:18] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 18:37:18.771311577  [2025-09-10 14:37:18] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 18:37:18.797867148  2025/09/10 14:37:18 [error] 229#229: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 18:37:18.797932277  2025/09/10 14:37:18 [error] 229#229: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 18:37:21.089385079  [2025-09-10 14:37:21] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 18:37:21.177096028  [2025-09-10 14:37:21] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 18:37:21.178759074  [2025-09-10 14:37:21] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 18:37:21.206606234  [2025-09-10 14:37:21] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 18:37:21.211460004  [2025-09-10 14:37:21] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 18:37:21.257126235  [2025-09-10 14:37:21] frigate.app                    INFO    : Recording process started: 449
+2025-09-10 18:37:21.263668458  [2025-09-10 14:37:21] frigate.app                    INFO    : Review process started: 452
+2025-09-10 18:37:21.281904280  [2025-09-10 14:37:21] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 18:37:21.339447218  [2025-09-10 14:37:21] detector.cpu1                  INFO    : Starting detection process: 474
+2025-09-10 18:37:21.381003462  [2025-09-10 14:37:21] frigate.app                    INFO    : Embedding process started: 477
+2025-09-10 18:37:21.397405297  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 18:37:21.397920529  [2025-09-10 14:37:21] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 18:37:21.486013749  [2025-09-10 14:37:21] frigate.app                    INFO    : Output process started: 500
+2025-09-10 18:37:22.387769520  [2025-09-10 14:37:22] frigate.app                    INFO    : Camera processor started for driveway: 531
+2025-09-10 18:37:22.495631962  [2025-09-10 14:37:22] frigate.app                    INFO    : Capture process started for driveway: 538
+2025-09-10 18:37:23.058876734  [2025-09-10 14:37:23] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 18:37:25.382801755  [2025-09-10 14:37:25] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 18:37:34.742577344  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 18:37:42.476050627  172.30.32.2 - - [10/Sep/2025:14:37:42 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:42.800496393  172.30.32.2 - - [10/Sep/2025:14:37:42 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:42.805239017  172.30.32.2 - - [10/Sep/2025:14:37:42 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:42.905274433  172.30.32.2 - - [10/Sep/2025:14:37:42 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.093050342  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.265797170  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757529000 HTTP/1.1" 200 21102 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.448760808  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757529000 HTTP/1.1" 200 57026 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.491711848  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529461215 HTTP/1.1" 200 21208 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.522369038  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529461545 HTTP/1.1" 200 21208 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:43.675110497  172.30.32.2 - - [10/Sep/2025:14:37:43 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529461808 HTTP/1.1" 200 21208 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:44.139698657  172.30.32.2 - - [10/Sep/2025:14:37:44 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529462164 HTTP/1.1" 200 21148 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:44.185568296  172.30.32.2 - - [10/Sep/2025:14:37:44 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529462291 HTTP/1.1" 200 21148 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:47.317825380  172.30.32.2 - - [10/Sep/2025:14:37:47 -0400] "GET /ws HTTP/1.1" 101 2044 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:37:47.321294248  172.30.32.2 - - [10/Sep/2025:14:37:47 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 166238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:38:12.605554028  127.0.0.1 - - [10/Sep/2025:14:38:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:38:33.129740609  172.30.32.2 - - [10/Sep/2025:14:38:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:39:13.084192078  127.0.0.1 - - [10/Sep/2025:14:39:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:40:13.545223617  127.0.0.1 - - [10/Sep/2025:14:40:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:40:33.136927587  172.30.32.2 - - [10/Sep/2025:14:40:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:41:13.928126482  127.0.0.1 - - [10/Sep/2025:14:41:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:42:14.344270868  127.0.0.1 - - [10/Sep/2025:14:42:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:42:33.143507311  172.30.32.2 - - [10/Sep/2025:14:42:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:43:14.852316287  127.0.0.1 - - [10/Sep/2025:14:43:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:44:04.001676961  172.30.32.2 - - [10/Sep/2025:14:44:03 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:04.520618473  172.30.32.2 - - [10/Sep/2025:14:44:04 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:04.544284973  172.30.32.2 - - [10/Sep/2025:14:44:04 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:04.582412487  172.30.32.2 - - [10/Sep/2025:14:44:04 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:04.627344396  172.30.32.2 - - [10/Sep/2025:14:44:04 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:04.832256023  172.30.32.2 - - [10/Sep/2025:14:44:04 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.018240558  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757529600 HTTP/1.1" 200 24514 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.035582565  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757529600 HTTP/1.1" 200 62704 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.204817418  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529843037 HTTP/1.1" 200 24614 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.237487240  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529843314 HTTP/1.1" 200 24614 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.624930791  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529843723 HTTP/1.1" 200 24662 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:05.983303389  172.30.32.2 - - [10/Sep/2025:14:44:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529844111 HTTP/1.1" 200 24572 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:06.341881892  172.30.32.2 - - [10/Sep/2025:14:44:06 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529844477 HTTP/1.1" 200 24492 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:06.735549198  172.30.32.2 - - [10/Sep/2025:14:44:06 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529844824 HTTP/1.1" 200 24526 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:07.107427030  172.30.32.2 - - [10/Sep/2025:14:44:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529845213 HTTP/1.1" 200 24620 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:07.307209610  172.30.32.2 - - [10/Sep/2025:14:44:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529845437 HTTP/1.1" 200 24546 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:44:15.368261909  127.0.0.1 - - [10/Sep/2025:14:44:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:44:33.149659158  172.30.32.2 - - [10/Sep/2025:14:44:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:45:07.479454359  172.30.32.2 - - [10/Sep/2025:14:45:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529905593 HTTP/1.1" 200 25048 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:45:15.881210037  127.0.0.1 - - [10/Sep/2025:14:45:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:46:07.642878671  172.30.32.2 - - [10/Sep/2025:14:46:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757529965768 HTTP/1.1" 200 24946 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:46:16.381391795  127.0.0.1 - - [10/Sep/2025:14:46:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:46:33.162109011  172.30.32.2 - - [10/Sep/2025:14:46:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:47:07.833848123  172.30.32.2 - - [10/Sep/2025:14:47:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530025932 HTTP/1.1" 200 25178 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:47:16.880360539  127.0.0.1 - - [10/Sep/2025:14:47:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:47:55.202775247  172.30.32.2 - - [10/Sep/2025:14:47:55 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 12976256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:48:17.356286497  127.0.0.1 - - [10/Sep/2025:14:48:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:48:33.169205090  172.30.32.2 - - [10/Sep/2025:14:48:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:49:17.838029006  127.0.0.1 - - [10/Sep/2025:14:49:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:50:18.234162176  127.0.0.1 - - [10/Sep/2025:14:50:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:50:33.175113924  172.30.32.2 - - [10/Sep/2025:14:50:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:51:18.701091130  127.0.0.1 - - [10/Sep/2025:14:51:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:52:19.192381666  127.0.0.1 - - [10/Sep/2025:14:52:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:52:26.776092047  172.30.32.2 - - [10/Sep/2025:14:52:26 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:26.825277525  172.30.32.2 - - [10/Sep/2025:14:52:26 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:26.832377264  172.30.32.2 - - [10/Sep/2025:14:52:26 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:26.948930668  172.30.32.2 - - [10/Sep/2025:14:52:26 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530344759 HTTP/1.1" 200 19270 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:27.143304501  172.30.32.2 - - [10/Sep/2025:14:52:27 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530345213 HTTP/1.1" 200 19216 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:27.371330104  172.30.32.2 - - [10/Sep/2025:14:52:27 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530345413 HTTP/1.1" 200 18892 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:27.408244379  172.30.32.2 - - [10/Sep/2025:14:52:27 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530345453 HTTP/1.1" 200 18892 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:52:33.184330806  172.30.32.2 - - [10/Sep/2025:14:52:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:53:19.570241665  127.0.0.1 - - [10/Sep/2025:14:53:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:53:27.617580400  172.30.32.2 - - [10/Sep/2025:14:53:27 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530405677 HTTP/1.1" 200 18952 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:54:20.004266835  127.0.0.1 - - [10/Sep/2025:14:54:20 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:54:27.790522737  172.30.32.2 - - [10/Sep/2025:14:54:27 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757530465880 HTTP/1.1" 200 18978 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:54:33.191532136  172.30.32.2 - - [10/Sep/2025:14:54:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:55:19.226548020  172.30.32.2 - - [10/Sep/2025:14:55:19 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 8533812 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 18:55:20.411098342  127.0.0.1 - - [10/Sep/2025:14:55:20 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:56:20.873439844  127.0.0.1 - - [10/Sep/2025:14:56:20 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:56:33.197998673  172.30.32.2 - - [10/Sep/2025:14:56:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:57:21.230030161  127.0.0.1 - - [10/Sep/2025:14:57:21 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:58:21.725068173  127.0.0.1 - - [10/Sep/2025:14:58:21 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 18:58:33.208470481  172.30.32.2 - - [10/Sep/2025:14:58:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 18:59:22.145457386  127.0.0.1 - - [10/Sep/2025:14:59:22 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:00:22.603894649  127.0.0.1 - - [10/Sep/2025:15:00:22 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:00:33.214623741  172.30.32.2 - - [10/Sep/2025:15:00:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:01:23.092431213  127.0.0.1 - - [10/Sep/2025:15:01:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:02:23.461795277  127.0.0.1 - - [10/Sep/2025:15:02:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:02:33.222464614  172.30.32.2 - - [10/Sep/2025:15:02:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:03:23.935570959  127.0.0.1 - - [10/Sep/2025:15:03:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:04:24.412261936  127.0.0.1 - - [10/Sep/2025:15:04:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:04:33.234381516  172.30.32.2 - - [10/Sep/2025:15:04:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:05:24.796716463  127.0.0.1 - - [10/Sep/2025:15:05:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:06:25.388333371  127.0.0.1 - - [10/Sep/2025:15:06:25 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:06:33.240509982  172.30.32.2 - - [10/Sep/2025:15:06:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:07:26.033181770  127.0.0.1 - - [10/Sep/2025:15:07:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:08:26.488819904  127.0.0.1 - - [10/Sep/2025:15:08:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:08:33.248456164  172.30.32.2 - - [10/Sep/2025:15:08:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:09:26.930963240  127.0.0.1 - - [10/Sep/2025:15:09:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:10:27.397467597  127.0.0.1 - - [10/Sep/2025:15:10:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:10:33.255170802  172.30.32.2 - - [10/Sep/2025:15:10:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:11:27.870381490  127.0.0.1 - - [10/Sep/2025:15:11:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:12:28.444288011  127.0.0.1 - - [10/Sep/2025:15:12:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:12:33.262140918  172.30.32.2 - - [10/Sep/2025:15:12:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:13:28.873592570  127.0.0.1 - - [10/Sep/2025:15:13:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:14:29.334082118  127.0.0.1 - - [10/Sep/2025:15:14:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:14:33.271149882  172.30.32.2 - - [10/Sep/2025:15:14:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:15:29.705205087  127.0.0.1 - - [10/Sep/2025:15:15:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:16:30.136047051  127.0.0.1 - - [10/Sep/2025:15:16:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:16:33.278519287  172.30.32.2 - - [10/Sep/2025:15:16:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:17:30.566242547  127.0.0.1 - - [10/Sep/2025:15:17:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:18:30.999535411  127.0.0.1 - - [10/Sep/2025:15:18:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:18:33.286458050  172.30.32.2 - - [10/Sep/2025:15:18:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:19:31.433419641  127.0.0.1 - - [10/Sep/2025:15:19:31 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:20:31.806702489  127.0.0.1 - - [10/Sep/2025:15:20:31 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:20:33.293082154  172.30.32.2 - - [10/Sep/2025:15:20:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:21:32.157106274  127.0.0.1 - - [10/Sep/2025:15:21:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:22:32.469073414  127.0.0.1 - - [10/Sep/2025:15:22:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:22:33.299758523  172.30.32.2 - - [10/Sep/2025:15:22:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:23:32.884525420  127.0.0.1 - - [10/Sep/2025:15:23:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:24:33.309519564  172.30.32.2 - - [10/Sep/2025:15:24:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:24:33.326605193  127.0.0.1 - - [10/Sep/2025:15:24:33 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:25:33.738152067  127.0.0.1 - - [10/Sep/2025:15:25:33 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:26:33.317068208  172.30.32.2 - - [10/Sep/2025:15:26:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:26:34.068893089  127.0.0.1 - - [10/Sep/2025:15:26:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:27:34.569714748  127.0.0.1 - - [10/Sep/2025:15:27:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:28:33.323505022  172.30.32.2 - - [10/Sep/2025:15:28:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:28:34.916310936  127.0.0.1 - - [10/Sep/2025:15:28:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:29:35.356052975  127.0.0.1 - - [10/Sep/2025:15:29:35 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:30:33.334738877  172.30.32.2 - - [10/Sep/2025:15:30:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:30:35.752260311  127.0.0.1 - - [10/Sep/2025:15:30:35 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:31:36.209537291  127.0.0.1 - - [10/Sep/2025:15:31:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:32:33.341262146  172.30.32.2 - - [10/Sep/2025:15:32:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:32:36.694618082  127.0.0.1 - - [10/Sep/2025:15:32:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:33:37.159059562  127.0.0.1 - - [10/Sep/2025:15:33:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:34:33.350311466  172.30.32.2 - - [10/Sep/2025:15:34:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:34:37.569559484  127.0.0.1 - - [10/Sep/2025:15:34:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:35:37.967133577  127.0.0.1 - - [10/Sep/2025:15:35:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:36:33.355867074  172.30.32.2 - - [10/Sep/2025:15:36:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:36:38.372273924  127.0.0.1 - - [10/Sep/2025:15:36:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:37:38.808877081  127.0.0.1 - - [10/Sep/2025:15:37:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:38:33.362691461  172.30.32.2 - - [10/Sep/2025:15:38:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:38:39.208207293  127.0.0.1 - - [10/Sep/2025:15:38:39 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:39:39.689525084  127.0.0.1 - - [10/Sep/2025:15:39:39 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:40:33.369872504  172.30.32.2 - - [10/Sep/2025:15:40:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:40:40.116272432  127.0.0.1 - - [10/Sep/2025:15:40:40 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:41:40.537303871  127.0.0.1 - - [10/Sep/2025:15:41:40 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:42:33.376773398  172.30.32.2 - - [10/Sep/2025:15:42:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:42:40.985424203  127.0.0.1 - - [10/Sep/2025:15:42:40 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:43:41.404670537  127.0.0.1 - - [10/Sep/2025:15:43:41 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:44:33.385720259  172.30.32.2 - - [10/Sep/2025:15:44:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:44:41.761500620  127.0.0.1 - - [10/Sep/2025:15:44:41 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:45:42.223779390  127.0.0.1 - - [10/Sep/2025:15:45:42 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:46:33.392248768  172.30.32.2 - - [10/Sep/2025:15:46:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:46:42.632301901  127.0.0.1 - - [10/Sep/2025:15:46:42 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:47:43.061840159  127.0.0.1 - - [10/Sep/2025:15:47:43 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:48:33.397538702  172.30.32.2 - - [10/Sep/2025:15:48:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:48:43.504266714  127.0.0.1 - - [10/Sep/2025:15:48:43 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:49:43.968573438  127.0.0.1 - - [10/Sep/2025:15:49:43 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:50:33.406082046  172.30.32.2 - - [10/Sep/2025:15:50:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:50:44.482461537  127.0.0.1 - - [10/Sep/2025:15:50:44 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:51:45.126682118  127.0.0.1 - - [10/Sep/2025:15:51:45 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:52:33.413250243  172.30.32.2 - - [10/Sep/2025:15:52:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:52:45.922450258  127.0.0.1 - - [10/Sep/2025:15:52:45 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:53:46.381566747  127.0.0.1 - - [10/Sep/2025:15:53:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:54:33.421695957  172.30.32.2 - - [10/Sep/2025:15:54:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:54:46.924310412  127.0.0.1 - - [10/Sep/2025:15:54:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:55:47.429544217  127.0.0.1 - - [10/Sep/2025:15:55:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:56:33.428622687  172.30.32.2 - - [10/Sep/2025:15:56:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:56:47.868277008  127.0.0.1 - - [10/Sep/2025:15:56:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:57:48.355438630  127.0.0.1 - - [10/Sep/2025:15:57:48 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:58:33.436230554  172.30.32.2 - - [10/Sep/2025:15:58:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 19:58:48.785355948  127.0.0.1 - - [10/Sep/2025:15:58:48 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 19:59:49.283181521  127.0.0.1 - - [10/Sep/2025:15:59:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:00:33.446898438  172.30.32.2 - - [10/Sep/2025:16:00:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:00:49.627104327  127.0.0.1 - - [10/Sep/2025:16:00:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:01:50.028286727  127.0.0.1 - - [10/Sep/2025:16:01:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:02:33.453091199  172.30.32.2 - - [10/Sep/2025:16:02:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:02:50.430256665  127.0.0.1 - - [10/Sep/2025:16:02:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:03:50.777069779  127.0.0.1 - - [10/Sep/2025:16:03:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:04:33.460750685  172.30.32.2 - - [10/Sep/2025:16:04:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:04:51.132314863  127.0.0.1 - - [10/Sep/2025:16:04:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:05:51.516296242  127.0.0.1 - - [10/Sep/2025:16:05:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:06:33.470864708  172.30.32.2 - - [10/Sep/2025:16:06:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:06:51.867705376  127.0.0.1 - - [10/Sep/2025:16:06:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:07:52.341459434  127.0.0.1 - - [10/Sep/2025:16:07:52 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:08:33.477096736  172.30.32.2 - - [10/Sep/2025:16:08:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:08:52.716751299  127.0.0.1 - - [10/Sep/2025:16:08:52 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:09:53.131061029  127.0.0.1 - - [10/Sep/2025:16:09:53 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:10:33.483650844  172.30.32.2 - - [10/Sep/2025:16:10:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:10:53.616282619  127.0.0.1 - - [10/Sep/2025:16:10:53 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:11:54.053770630  127.0.0.1 - - [10/Sep/2025:16:11:54 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:12:33.514775339  172.30.32.2 - - [10/Sep/2025:16:12:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:12:54.487942701  127.0.0.1 - - [10/Sep/2025:16:12:54 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:13:54.953670470  127.0.0.1 - - [10/Sep/2025:16:13:54 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:14:33.524737076  172.30.32.2 - - [10/Sep/2025:16:14:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:14:55.424281365  127.0.0.1 - - [10/Sep/2025:16:14:55 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:15:55.867386492  127.0.0.1 - - [10/Sep/2025:16:15:55 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:16:33.537947579  172.30.32.2 - - [10/Sep/2025:16:16:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:16:56.437917554  127.0.0.1 - - [10/Sep/2025:16:16:56 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:17:57.001963030  127.0.0.1 - - [10/Sep/2025:16:17:57 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:18:33.543289155  172.30.32.2 - - [10/Sep/2025:16:18:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:18:57.646327284  127.0.0.1 - - [10/Sep/2025:16:18:57 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:19:58.281758423  127.0.0.1 - - [10/Sep/2025:16:19:58 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:20:33.548719640  172.30.32.2 - - [10/Sep/2025:16:20:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:20:58.744808518  127.0.0.1 - - [10/Sep/2025:16:20:58 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:21:59.285742909  127.0.0.1 - - [10/Sep/2025:16:21:59 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:22:33.558644218  172.30.32.2 - - [10/Sep/2025:16:22:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:22:59.644919819  127.0.0.1 - - [10/Sep/2025:16:22:59 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:24:00.076307170  127.0.0.1 - - [10/Sep/2025:16:24:00 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:24:33.563843094  172.30.32.2 - - [10/Sep/2025:16:24:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:25:00.489043131  127.0.0.1 - - [10/Sep/2025:16:25:00 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:26:01.031621263  127.0.0.1 - - [10/Sep/2025:16:26:01 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:26:33.570917973  172.30.32.2 - - [10/Sep/2025:16:26:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:27:01.498549507  127.0.0.1 - - [10/Sep/2025:16:27:01 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:28:01.912300195  127.0.0.1 - - [10/Sep/2025:16:28:01 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:28:33.581007011  172.30.32.2 - - [10/Sep/2025:16:28:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:29:02.391788002  127.0.0.1 - - [10/Sep/2025:16:29:02 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:30:02.928284337  127.0.0.1 - - [10/Sep/2025:16:30:02 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:30:33.589450199  172.30.32.2 - - [10/Sep/2025:16:30:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:31:03.511166262  127.0.0.1 - - [10/Sep/2025:16:31:03 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:32:03.899192272  127.0.0.1 - - [10/Sep/2025:16:32:03 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:32:33.597893930  172.30.32.2 - - [10/Sep/2025:16:32:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:33:04.472565144  127.0.0.1 - - [10/Sep/2025:16:33:04 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:34:04.920504529  127.0.0.1 - - [10/Sep/2025:16:34:04 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:34:33.608257372  172.30.32.2 - - [10/Sep/2025:16:34:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:35:05.420640074  127.0.0.1 - - [10/Sep/2025:16:35:05 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:36:05.885158790  127.0.0.1 - - [10/Sep/2025:16:36:05 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:36:33.617468636  172.30.32.2 - - [10/Sep/2025:16:36:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:37:06.460325241  127.0.0.1 - - [10/Sep/2025:16:37:06 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:38:06.913101726  127.0.0.1 - - [10/Sep/2025:16:38:06 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:38:33.624777552  172.30.32.2 - - [10/Sep/2025:16:38:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:39:07.372244841  127.0.0.1 - - [10/Sep/2025:16:39:07 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:40:07.960954866  127.0.0.1 - - [10/Sep/2025:16:40:07 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:40:33.632386915  172.30.32.2 - - [10/Sep/2025:16:40:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:41:08.380329750  127.0.0.1 - - [10/Sep/2025:16:41:08 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:42:08.750763531  127.0.0.1 - - [10/Sep/2025:16:42:08 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:42:33.639281193  172.30.32.2 - - [10/Sep/2025:16:42:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:43:09.171509391  127.0.0.1 - - [10/Sep/2025:16:43:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:44:09.665312120  127.0.0.1 - - [10/Sep/2025:16:44:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:44:33.646651968  172.30.32.2 - - [10/Sep/2025:16:44:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:45:10.107205031  127.0.0.1 - - [10/Sep/2025:16:45:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:46:10.420245289  127.0.0.1 - - [10/Sep/2025:16:46:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:46:33.654842498  172.30.32.2 - - [10/Sep/2025:16:46:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:47:10.823066824  127.0.0.1 - - [10/Sep/2025:16:47:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:48:11.227809709  127.0.0.1 - - [10/Sep/2025:16:48:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:48:33.662438137  172.30.32.2 - - [10/Sep/2025:16:48:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:49:11.769224346  127.0.0.1 - - [10/Sep/2025:16:49:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:50:12.231692640  127.0.0.1 - - [10/Sep/2025:16:50:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:50:33.672985396  172.30.32.2 - - [10/Sep/2025:16:50:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:51:12.674356850  127.0.0.1 - - [10/Sep/2025:16:51:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:52:13.205042030  127.0.0.1 - - [10/Sep/2025:16:52:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:52:33.681309657  172.30.32.2 - - [10/Sep/2025:16:52:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:53:13.793171618  127.0.0.1 - - [10/Sep/2025:16:53:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:54:14.356466616  127.0.0.1 - - [10/Sep/2025:16:54:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:54:33.687076938  172.30.32.2 - - [10/Sep/2025:16:54:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:55:15.092308014  127.0.0.1 - - [10/Sep/2025:16:55:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:56:15.584285270  127.0.0.1 - - [10/Sep/2025:16:56:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:56:33.693303260  172.30.32.2 - - [10/Sep/2025:16:56:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:57:16.040775009  127.0.0.1 - - [10/Sep/2025:16:57:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:58:16.399636819  127.0.0.1 - - [10/Sep/2025:16:58:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:58:33.702983175  172.30.32.2 - - [10/Sep/2025:16:58:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:59:16.888342608  127.0.0.1 - - [10/Sep/2025:16:59:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:00:17.312702761  127.0.0.1 - - [10/Sep/2025:17:00:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:00:33.709672287  172.30.32.2 - - [10/Sep/2025:17:00:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:01:17.816136172  127.0.0.1 - - [10/Sep/2025:17:01:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:02:18.296277539  127.0.0.1 - - [10/Sep/2025:17:02:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:02:33.717240080  172.30.32.2 - - [10/Sep/2025:17:02:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:03:18.912285941  127.0.0.1 - - [10/Sep/2025:17:03:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:04:19.306988238  127.0.0.1 - - [10/Sep/2025:17:04:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:04:33.727012372  172.30.32.2 - - [10/Sep/2025:17:04:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:05:19.757310474  127.0.0.1 - - [10/Sep/2025:17:05:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:06:03.369680571  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.394830144  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.395996718  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.481373856  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538361195 HTTP/1.1" 200 23276 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.213995155  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538361685 HTTP/1.1" 200 23294 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.355523329  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362293 HTTP/1.1" 200 23294 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.703661796  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362632 HTTP/1.1" 200 22962 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.042630794  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362986 HTTP/1.1" 200 22962 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.342583657  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 111886 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.349118981  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /ws HTTP/1.1" 101 1447048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.383698722  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538363315 HTTP/1.1" 200 23038 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:20.130113578  127.0.0.1 - - [10/Sep/2025:17:06:20 -0400] "" 400 0 "-" "-" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 21:06:33.446168635  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 21:06:33.461922870  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 21:06:33.610942225  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 21:06:33.836498495  [2025-09-10 17:06:33] frigate.app                    INFO    : Stopping...
+2025-09-10 21:06:33.847473861  [2025-09-10 17:06:33] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 21:06:33.852840092  [2025-09-10 17:06:33] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 21:06:33.865514764  [2025-09-10 17:06:33] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 21:06:33.882543572  [2025-09-10 17:06:33] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 21:06:33.890947644  [2025-09-10 17:06:33] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 21:06:33.899256700  [2025-09-10 17:06:33] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 21:06:33.902299133  [2025-09-10 17:06:33] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 21:06:33.905640377  [2025-09-10 17:06:33] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 21:06:33.923509506  [2025-09-10 17:06:33] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 21:06:33.926201112  [2025-09-10 17:06:33] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 21:06:34.086094223  [2025-09-10 17:06:34] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 21:06:34.100998582  [2025-09-10 17:06:34] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 21:06:34.194071182  [2025-09-10 17:06:34] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 21:06:34.196282277  [2025-09-10 17:06:34] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 21:06:34.241926045  [2025-09-10 17:06:34] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 21:06:34.548839413  [2025-09-10 17:06:34] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 21:06:34.743845382  [2025-09-10 17:06:34] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 21:06:35.180006153  [2025-09-10 17:06:35] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 21:06:35.219590905  [2025-09-10 17:06:35] root                           INFO    : Detection process has exited...
+2025-09-10 21:06:35.721795365  [2025-09-10 17:06:35] frigate.app                    INFO    : Detection queue closed
+2025-09-10 21:06:36.223542497  [2025-09-10 17:06:36] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 21:06:36.725396572  [2025-09-10 17:06:36] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 21:06:37.392652854  [2025-09-10 17:06:37] frigate.output.output          INFO    : exiting output process...
+2025-09-10 21:06:38.460464679  [2025-09-10 17:06:38] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 21:06:39.030880806  [2025-09-10 17:06:39] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 21:06:39.066442287  [2025-09-10 17:06:39] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:06:39.334851548  [2025-09-10 17:06:39] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 21:06:40.022620317  [2025-09-10 17:06:40] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 21:06:40.227763789  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 21:06:40.235531057  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 21:06:40.250505896  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 21:06:45.990794078  [INFO] Starting NGINX...
+2025-09-10 21:06:46.083731158  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 21:06:47.310567325  [INFO] Preparing Frigate...
+2025-09-10 21:06:49.935519158  [INFO] Preparing new go2rtc config...
+2025-09-10 21:06:50.060340347  [INFO] Starting Frigate...
+2025-09-10 21:06:50.144812910  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 21:06:50.353174806  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 21:06:52.146827999  [INFO] Starting go2rtc...
+2025-09-10 21:06:52.490409418  17:06:52.489 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 21:06:52.490479065  17:06:52.490 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 21:06:52.492948526  17:06:52.492 INF [rtsp] listen addr=:8554
+2025-09-10 21:06:52.493011210  17:06:52.492 INF [api] listen addr=:1984
+2025-09-10 21:06:52.495395580  17:06:52.495 INF [webrtc] listen addr=:8555
+2025-09-10 21:06:55.987185000  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 21:06:57.552124492  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:06:57.552138566    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:06:57.553699282  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:06:57.553711560    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:06:57.553716634  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:06:57.553727634    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:06:57.553732782  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:06:57.553815614    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:07:05.017666773  [2025-09-10 17:07:05] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 21:07:05.063842046  [2025-09-10 17:07:05] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 21:07:05.948748218  2025/09/10 17:07:05 [error] 249#249: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 21:07:05.948772940  2025/09/10 17:07:05 [error] 249#249: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 21:07:06.426563357  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 21:07:07.882930780  [2025-09-10 17:07:07] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 21:07:07.993248171  [2025-09-10 17:07:07] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 21:07:07.995088012  [2025-09-10 17:07:07] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 21:07:08.024876136  [2025-09-10 17:07:08] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 21:07:08.030978317  [2025-09-10 17:07:08] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 21:07:08.075922146  [2025-09-10 17:07:08] frigate.app                    INFO    : Recording process started: 443
+2025-09-10 21:07:08.085113445  [2025-09-10 17:07:08] frigate.app                    INFO    : Review process started: 445
+2025-09-10 21:07:08.109329230  [2025-09-10 17:07:08] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 21:07:08.212134591  [2025-09-10 17:07:08] frigate.app                    INFO    : Embedding process started: 472
+2025-09-10 21:07:08.229129879  [2025-09-10 17:07:08] detector.cpu1                  INFO    : Starting detection process: 468
+2025-09-10 21:07:08.237384323  [2025-09-10 17:07:08] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 21:07:08.286550418  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 21:07:08.309188136  [2025-09-10 17:07:08] frigate.app                    INFO    : Output process started: 499
+2025-09-10 21:07:08.696391070  127.0.0.1 - - [10/Sep/2025:17:07:08 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:07:09.190688556  [2025-09-10 17:07:09] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:09.228978582  [2025-09-10 17:07:09] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:09.276330909  [2025-09-10 17:07:09] frigate.app                    INFO    : Camera processor started for driveway: 537
+2025-09-10 21:07:09.326499396  [2025-09-10 17:07:09] frigate.app                    INFO    : Capture process started for driveway: 539
+2025-09-10 21:07:09.767271447  [2025-09-10 17:07:09] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 21:07:10.358726862  [2025-09-10 17:07:10] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:10.418211739  [2025-09-10 17:07:10] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:12.192146113  [2025-09-10 17:07:12] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 21:07:12.447280828  [2025-09-10 17:07:12] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:12.451700407  [2025-09-10 17:07:12] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:16.470647309  [2025-09-10 17:07:16] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:16.473903999  [2025-09-10 17:07:16] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:21.647689110  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 21:07:25.164730621  [2025-09-10 17:07:25] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:25.188612502  [2025-09-10 17:07:25] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:41.218985073  [2025-09-10 17:07:41] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:41.223584241  [2025-09-10 17:07:41] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:08:09.189799978  127.0.0.1 - - [10/Sep/2025:17:08:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:08:13.236290757  [2025-09-10 17:08:13] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:08:13.241013848  [2025-09-10 17:08:13] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:08:33.764040434  172.30.32.2 - - [10/Sep/2025:17:08:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:09:09.617764597  127.0.0.1 - - [10/Sep/2025:17:09:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:09:17.248486690  [2025-09-10 17:09:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:09:17.250161682  [2025-09-10 17:09:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:10:09.991130885  127.0.0.1 - - [10/Sep/2025:17:10:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:10:33.781428513  172.30.32.2 - - [10/Sep/2025:17:10:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:11:10.496275736  127.0.0.1 - - [10/Sep/2025:17:11:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:11:17.255249175  [2025-09-10 17:11:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:11:17.260041207  [2025-09-10 17:11:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:12:10.923940101  127.0.0.1 - - [10/Sep/2025:17:12:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:12:33.789308817  172.30.32.2 - - [10/Sep/2025:17:12:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:13:11.350662358  127.0.0.1 - - [10/Sep/2025:17:13:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:13:17.960785586  [2025-09-10 17:13:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:13:17.966479821  [2025-09-10 17:13:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:14:11.765386961  127.0.0.1 - - [10/Sep/2025:17:14:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:14:33.797603270  172.30.32.2 - - [10/Sep/2025:17:14:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:14:38.769716959  172.30.32.2 - - [10/Sep/2025:17:14:38 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:38.990558631  172.30.32.2 - - [10/Sep/2025:17:14:38 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.030446479  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.100705586  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.242465273  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.393790273  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757538600 HTTP/1.1" 200 23352 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.424973680  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757538600 HTTP/1.1" 200 63224 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.564712891  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877459 HTTP/1.1" 200 23324 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.591805163  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877183 HTTP/1.1" 200 23324 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:40.002540128  172.30.32.2 - - [10/Sep/2025:17:14:40 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877829 HTTP/1.1" 200 22990 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:40.031170444  172.30.32.2 - - [10/Sep/2025:17:14:40 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877915 HTTP/1.1" 200 22990 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:50.728254988  172.30.32.2 - - [10/Sep/2025:17:14:50 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 740004 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:50.728272543  172.30.32.2 - - [10/Sep/2025:17:14:50 -0400] "GET /ws HTTP/1.1" 101 24970 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"

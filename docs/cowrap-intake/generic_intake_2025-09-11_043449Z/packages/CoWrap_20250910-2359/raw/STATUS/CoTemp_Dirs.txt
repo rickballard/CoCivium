@@ -1,0 +1,8 @@
+PATH                   EXIST LATEST
+inbox                  True  2025-09-10 20:59:47Z  NOTE_PROFILE_POLICY.md
+outbox                 True  
+notes                  True  2025-09-10 22:40:10Z  note_20250910-224010.json
+logs                   True  2025-09-10 22:40:10Z  ensure-backchannel.log
+panels                 True  2025-09-09 21:53:36Z  16520.json
+coticker\inbox         True  2025-09-10 22:40:10Z  evt_f55e4fc9.json
+coticker\processed     True  

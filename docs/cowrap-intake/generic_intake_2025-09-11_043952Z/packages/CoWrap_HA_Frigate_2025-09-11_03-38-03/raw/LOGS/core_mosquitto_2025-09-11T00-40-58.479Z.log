@@ -1,0 +1,1000 @@
+2025-09-09 19:03:56: Client frigate disconnected, not authorised.
+2025-09-09 19:03:57: New connection from 172.30.33.3:34211 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:03:57: Client frigate disconnected, not authorised.
+2025-09-09 19:04:00: New connection from 172.30.33.3:52161 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:00: Client frigate disconnected, not authorised.
+2025-09-09 19:04:04: New connection from 172.30.33.3:59875 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:04: Client frigate disconnected, not authorised.
+2025-09-09 19:04:12: New connection from 172.30.33.3:40767 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:12: Client frigate disconnected, not authorised.
+2025-09-09 19:04:51: New connection from 172.30.33.3:43341 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:51: Client frigate disconnected, not authorised.
+2025-09-09 19:04:52: New connection from 172.30.33.3:59715 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:52: Client frigate disconnected, not authorised.
+2025-09-09 19:04:55: New connection from 172.30.33.3:38129 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:55: Client frigate disconnected, not authorised.
+2025-09-09 19:04:59: New connection from 172.30.33.3:44377 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:04:59: Client frigate disconnected, not authorised.
+2025-09-09 19:05:07: New connection from 172.30.33.3:48335 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:05:07: Client frigate disconnected, not authorised.
+2025-09-09 19:05:23: New connection from 172.30.33.3:46095 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:05:23: Client frigate disconnected, not authorised.
+2025-09-09 19:05:53: New connection from 172.30.33.3:60417 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:05:53: Client frigate disconnected, not authorised.
+2025-09-09 19:05:55: New connection from 172.30.33.3:59481 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:05:55: Client frigate disconnected, not authorised.
+2025-09-09 19:05:57: New connection from 172.30.33.3:39371 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:05:57: Client frigate disconnected, not authorised.
+2025-09-09 19:06:01: New connection from 172.30.33.3:60671 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:01: Client frigate disconnected, not authorised.
+2025-09-09 19:06:09: New connection from 172.30.33.3:59997 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:09: Client frigate disconnected, not authorised.
+2025-09-09 19:06:50: New connection from 172.30.33.3:41383 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:50: Client frigate disconnected, not authorised.
+2025-09-09 19:06:51: New connection from 172.30.33.3:58493 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:51: Client frigate disconnected, not authorised.
+2025-09-09 19:06:54: New connection from 172.30.33.3:43167 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:54: Client frigate disconnected, not authorised.
+2025-09-09 19:06:58: New connection from 172.30.33.3:38409 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:06:58: Client frigate disconnected, not authorised.
+2025-09-09 19:07:06: New connection from 172.30.33.3:50609 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:07:06: Client frigate disconnected, not authorised.
+2025-09-09 19:07:46: New connection from 172.30.33.3:54739 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:07:46: Client frigate disconnected, not authorised.
+2025-09-09 19:07:47: New connection from 172.30.33.3:59921 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:07:47: Client frigate disconnected, not authorised.
+2025-09-09 19:07:49: New connection from 172.30.33.3:40859 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:07:49: Client frigate disconnected, not authorised.
+2025-09-09 19:07:53: New connection from 172.30.33.3:54261 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:07:53: Client frigate disconnected, not authorised.
+2025-09-09 19:08:01: New connection from 172.30.33.3:53173 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:08:01: Client frigate disconnected, not authorised.
+2025-09-09 19:08:17: New connection from 172.30.33.3:55393 on port 1883.
+error: received null username or password for unpwd check
+2025-09-09 19:08:17: Client frigate disconnected, not authorised.
+2025-09-09 19:29:32: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 19:40:00: New connection from 172.30.33.3:39943 on port 1883.
+2025-09-09 19:40:01: New client connected from 172.30.33.3:39943 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 19:43:21: Client frigate disconnected.
+2025-09-09 19:43:47: New connection from 172.30.33.3:55783 on port 1883.
+2025-09-09 19:43:47: New client connected from 172.30.33.3:55783 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 19:59:33: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 20:29:34: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 20:29:47: Client frigate disconnected.
+2025-09-09 20:30:17: New connection from 172.30.33.3:59795 on port 1883.
+2025-09-09 20:30:17: New client connected from 172.30.33.3:59795 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 20:34:26: Client frigate closed its connection.
+2025-09-09 20:34:54: New connection from 172.30.33.3:43175 on port 1883.
+2025-09-09 20:34:54: New client connected from 172.30.33.3:43175 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 20:35:23: Client frigate disconnected.
+2025-09-09 20:35:56: New connection from 172.30.33.3:36975 on port 1883.
+2025-09-09 20:35:56: New client connected from 172.30.33.3:36975 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 20:59:35: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 21:29:36: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 21:46:32: Client frigate disconnected.
+2025-09-09 21:47:01: New connection from 172.30.33.3:56773 on port 1883.
+2025-09-09 21:47:01: New client connected from 172.30.33.3:56773 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 21:59:37: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 22:01:41: Client frigate disconnected.
+2025-09-09 22:02:16: New connection from 172.30.33.3:45831 on port 1883.
+time="2025-09-09T22:02:22-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/authentication\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time="2025-09-09T22:02:23-04:00" level=error msg="Post \"http://127.0.0.1:80/authentication\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+2025-09-09 22:02:16: Bad socket read/write on client frigate: Unknown error.
+2025-09-09 22:02:26: New connection from 172.30.33.3:48983 on port 1883.
+2025-09-09 22:02:30: New client connected from 172.30.33.3:48983 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:02:59: Client frigate disconnected.
+2025-09-09 22:03:29: New connection from 172.30.33.3:59971 on port 1883.
+2025-09-09 22:03:29: New client connected from 172.30.33.3:59971 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:05:08: Client frigate closed its connection.
+2025-09-09 22:05:36: New connection from 172.30.33.3:33405 on port 1883.
+2025-09-09 22:05:36: New client connected from 172.30.33.3:33405 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:06:10: Client frigate disconnected.
+2025-09-09 22:06:50: New connection from 172.30.33.3:43867 on port 1883.
+2025-09-09 22:06:50: New client connected from 172.30.33.3:43867 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:29:38: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 22:56:11: Client frigate closed its connection.
+2025-09-09 22:56:38: New connection from 172.30.33.3:35969 on port 1883.
+2025-09-09 22:56:38: New client connected from 172.30.33.3:35969 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:59:04: Client frigate closed its connection.
+2025-09-09 22:59:34: New connection from 172.30.33.3:46359 on port 1883.
+2025-09-09 22:59:34: New client connected from 172.30.33.3:46359 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 22:59:39: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 23:00:12: Client frigate disconnected.
+2025-09-09 23:00:45: New connection from 172.30.33.3:56839 on port 1883.
+2025-09-09 23:00:45: New client connected from 172.30.33.3:56839 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 23:02:21: Client frigate disconnected.
+2025-09-09 23:02:53: New connection from 172.30.33.3:34599 on port 1883.
+2025-09-09 23:02:54: New client connected from 172.30.33.3:34599 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 23:21:57: Client frigate closed its connection.
+2025-09-09 23:22:25: New connection from 172.30.33.3:59499 on port 1883.
+2025-09-09 23:22:25: New client connected from 172.30.33.3:59499 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 23:29:40: Saving in-memory database to /data//mosquitto.db.
+2025-09-09 23:37:27: Client frigate closed its connection.
+2025-09-09 23:37:58: New connection from 172.30.33.3:56205 on port 1883.
+2025-09-09 23:37:58: Bad socket read/write on client frigate: Unknown error.
+time="2025-09-09T23:38:04-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/authentication\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time="2025-09-09T23:38:04-04:00" level=error msg="Post \"http://127.0.0.1:80/authentication\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+2025-09-09 23:38:06: New connection from 172.30.33.3:40625 on port 1883.
+2025-09-09 23:38:06: New client connected from 172.30.33.3:40625 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 23:39:12: Client frigate disconnected.
+2025-09-09 23:39:45: New connection from 172.30.33.3:46159 on port 1883.
+2025-09-09 23:39:45: New client connected from 172.30.33.3:46159 as frigate (p2, c1, k60, u'frigate').
+2025-09-09 23:40:36: Client frigate closed its connection.
+2025-09-09 23:50:40: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-09 23:51:02: New connection from 172.30.32.1:32999 on port 1883.
+2025-09-09 23:51:03: New client connected from 172.30.32.1:32999 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-09 23:56:32: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+time="2025-09-09T23:56:39-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+2025-09-09 23:57:13: New connection from 172.30.32.1:34635 on port 1883.
+2025-09-09 23:57:13: New client connected from 172.30.32.1:34635 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-09 23:59:41: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 00:01:44: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:02:02: New connection from 172.30.32.1:55249 on port 1883.
+2025-09-10 00:02:02: New client connected from 172.30.32.1:55249 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+time="2025-09-10T00:07:47-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time="2025-09-10T00:07:58-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/acl\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time="2025-09-10T00:07:59-04:00" level=error msg="Post \"http://127.0.0.1:80/superuser\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+2025-09-10 00:07:32: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:09:45: New connection from 172.30.32.1:39823 on port 1883.
+2025-09-10 00:09:45: New client connected from 172.30.32.1:39823 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-10 00:13:14: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:15:27: New connection from 172.30.32.1:37251 on port 1883.
+2025-09-10 00:15:31: New client connected from 172.30.32.1:37251 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-10 00:19:30: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:21:20: New connection from 172.30.32.1:59601 on port 1883.
+2025-09-10 00:21:20: New client connected from 172.30.32.1:59601 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-10 00:22:56: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:23:52: New connection from 172.30.32.1:33933 on port 1883.
+2025-09-10 00:23:52: New client connected from 172.30.32.1:33933 as 5dZjIM5UgjvjI2TP18BzY0 (p2, c1, k60, u'homeassistant').
+2025-09-10 00:27:24: Client 5dZjIM5UgjvjI2TP18BzY0 has exceeded timeout, disconnecting.
+2025-09-10 00:29:42: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 00:59:43: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 01:29:44: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 01:54:19: New connection from 172.30.33.3:33689 on port 1883.
+2025-09-10 01:54:19: New client connected from 172.30.33.3:33689 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 01:59:45: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 02:29:46: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 02:59:47: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 03:29:48: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 03:59:49: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 04:29:50: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 04:59:51: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 05:29:52: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 05:59:53: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 06:29:54: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 06:59:55: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 07:29:56: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 07:59:57: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 08:29:58: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 08:59:59: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 09:30:00: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 10:00:01: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 10:30:02: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 11:00:03: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 11:30:04: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 12:00:05: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 12:30:06: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 13:00:07: Saving in-memory database to /data//mosquitto.db.
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[13:06:55] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+[13:06:56] INFO: [32mStarting NGINX for authentication handling...[0m
+s6-rc: info: service legacy-services successfully started
+[13:06:56] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 13:06:56: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 13:06:56: mosquitto version 2.0.22 starting
+2025-09-10 13:06:56: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 13:06:56: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 13:06:56:  ├── Username/password checking enabled.
+2025-09-10 13:06:56:  ├── TLS-PSK checking enabled.
+2025-09-10 13:06:56:  └── Extended authentication not enabled.
+2025-09-10 13:06:56: Opening ipv4 listen socket on port 1883.
+2025-09-10 13:06:56: Opening ipv6 listen socket on port 1883.
+2025-09-10 13:06:56: Opening websockets listen socket on port 1884.
+2025-09-10 13:06:56: mosquitto version 2.0.22 running
+2025-09-10 13:06:57: New connection from ::1:42206 on port 1883.
+2025-09-10 13:06:57: Client <unknown> disconnected due to protocol error.
+[13:06:58] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[13:06:59] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 13:08:07: New connection from 172.30.32.1:47801 on port 1883.
+2025-09-10 13:08:07: New client connected from 172.30.32.1:47801 as 6gKaBGn5FerMK7zvmoNVSS (p2, c1, k60, u'homeassistant').
+2025-09-10 13:08:49: New connection from 172.30.33.3:35017 on port 1883.
+2025-09-10 13:08:49: New client connected from 172.30.33.3:35017 as frigate (p2, c1, k60, u'frigate').
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[13:10:34] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+[13:10:35] INFO: [32mStarting NGINX for authentication handling...[0m
+s6-rc: info: service legacy-services successfully started
+[13:10:35] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 13:10:35: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 13:10:35: mosquitto version 2.0.22 starting
+2025-09-10 13:10:35: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 13:10:35: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 13:10:35:  ├── Username/password checking enabled.
+2025-09-10 13:10:35:  ├── TLS-PSK checking enabled.
+2025-09-10 13:10:35:  └── Extended authentication not enabled.
+2025-09-10 13:10:35: Opening ipv4 listen socket on port 1883.
+2025-09-10 13:10:35: Opening ipv6 listen socket on port 1883.
+2025-09-10 13:10:35: Opening websockets listen socket on port 1884.
+2025-09-10 13:10:35: mosquitto version 2.0.22 running
+2025-09-10 13:10:36: New connection from ::1:43104 on port 1883.
+2025-09-10 13:10:36: Client <unknown> disconnected due to protocol error.
+[13:10:37] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[13:10:39] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 13:11:43: New connection from 172.30.32.1:57133 on port 1883.
+2025-09-10 13:11:43: New client connected from 172.30.32.1:57133 as 6XkzqF3HkCjoe7YBVIFc07 (p2, c1, k60, u'homeassistant').
+2025-09-10 13:12:25: New connection from 172.30.33.3:60841 on port 1883.
+2025-09-10 13:12:25: New client connected from 172.30.33.3:60841 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 13:29:41: Client frigate disconnected.
+2025-09-10 13:30:08: New connection from 172.30.33.3:60765 on port 1883.
+2025-09-10 13:30:08: New client connected from 172.30.33.3:60765 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 13:38:13: Client frigate disconnected.
+2025-09-10 13:38:41: New connection from 172.30.33.3:59127 on port 1883.
+2025-09-10 13:38:41: New client connected from 172.30.33.3:59127 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 13:40:36: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 13:51:32: Client frigate disconnected.
+2025-09-10 13:51:58: New connection from 172.30.33.3:42147 on port 1883.
+2025-09-10 13:51:58: New client connected from 172.30.33.3:42147 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 13:59:18: Client frigate disconnected.
+2025-09-10 13:59:44: New connection from 172.30.33.3:33581 on port 1883.
+2025-09-10 13:59:44: New client connected from 172.30.33.3:33581 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 14:10:09: Client frigate disconnected.
+2025-09-10 14:10:37: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 14:10:39: New connection from 172.30.33.3:39559 on port 1883.
+2025-09-10 14:10:39: New client connected from 172.30.33.3:39559 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 14:22:25: Client frigate disconnected.
+2025-09-10 14:22:54: New connection from 172.30.33.3:36651 on port 1883.
+2025-09-10 14:22:54: New client connected from 172.30.33.3:36651 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 14:30:59: Client frigate disconnected.
+2025-09-10 14:31:27: New connection from 172.30.33.3:33317 on port 1883.
+2025-09-10 14:31:27: New client connected from 172.30.33.3:33317 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 14:32:32: Client frigate disconnected.
+2025-09-10 14:33:02: New connection from 172.30.33.3:33895 on port 1883.
+2025-09-10 14:33:02: New client connected from 172.30.33.3:33895 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 14:33:52: Client frigate disconnected.
+2025-09-10 14:34:21: New connection from 172.30.33.3:38315 on port 1883.
+2025-09-10 14:34:22: New client connected from 172.30.33.3:38315 as frigate (p2, c1, k60, u'frigate').
+s6-rc: info: service legacy-services: stopping
+2025-09-10 14:36:41: mosquitto version 2.0.22 terminating
+time="2025-09-10T14:36:41-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T14:36:41-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/acl\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T14:36:41-04:00" level=error msg="Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T14:36:41-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+2025-09-10 14:36:41: Saving in-memory database to /data//mosquitto.db.
+time="2025-09-10T14:36:41-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/acl\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T14:36:41-04:00" level=error msg="Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+[18:36:41] INFO: [32mService restart after closing[0m
+[18:36:42] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[14:36:49] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+[14:36:51] INFO: [32mStarting NGINX for authentication handling...[0m
+s6-rc: info: service legacy-services successfully started
+[14:36:51] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 14:36:51: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 14:36:51: mosquitto version 2.0.22 starting
+2025-09-10 14:36:51: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 14:36:51: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 14:36:51:  ├── Username/password checking enabled.
+2025-09-10 14:36:51:  ├── TLS-PSK checking enabled.
+2025-09-10 14:36:51:  └── Extended authentication not enabled.
+2025-09-10 14:36:51: Opening ipv4 listen socket on port 1883.
+2025-09-10 14:36:51: Opening ipv6 listen socket on port 1883.
+2025-09-10 14:36:51: Opening websockets listen socket on port 1884.
+2025-09-10 14:36:51: mosquitto version 2.0.22 running
+2025-09-10 14:36:52: New connection from 172.30.32.1:60619 on port 1883.
+2025-09-10 14:36:52: New client connected from 172.30.32.1:60619 as 6XkzqF3HkCjoe7YBVIFc07 (p2, c1, k60, u'homeassistant').
+2025-09-10 14:36:52: New connection from ::1:40780 on port 1883.
+2025-09-10 14:36:52: Client <unknown> disconnected due to protocol error.
+[14:36:53] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[14:36:54] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 14:37:21: New connection from 172.30.33.3:51511 on port 1883.
+2025-09-10 14:37:21: New client connected from 172.30.33.3:51511 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 15:06:52: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 15:36:53: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 16:06:54: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 16:36:55: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 17:06:39: Client frigate disconnected.
+2025-09-10 17:06:56: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 17:07:08: New connection from 172.30.33.3:40135 on port 1883.
+2025-09-10 17:07:08: Client frigate disconnected, not authorised.
+2025-09-10 17:07:10: New connection from 172.30.33.3:51321 on port 1883.
+2025-09-10 17:07:10: Client frigate disconnected, not authorised.
+2025-09-10 17:07:12: New connection from 172.30.33.3:53269 on port 1883.
+2025-09-10 17:07:12: Client frigate disconnected, not authorised.
+2025-09-10 17:07:16: New connection from 172.30.33.3:57915 on port 1883.
+2025-09-10 17:07:16: Client frigate disconnected, not authorised.
+2025-09-10 17:07:24: New connection from 172.30.33.3:42835 on port 1883.
+2025-09-10 17:07:24: Client frigate disconnected, not authorised.
+2025-09-10 17:07:41: New connection from 172.30.33.3:43375 on port 1883.
+2025-09-10 17:07:41: Client frigate disconnected, not authorised.
+2025-09-10 17:08:13: New connection from 172.30.33.3:58361 on port 1883.
+2025-09-10 17:08:13: Client frigate disconnected, not authorised.
+2025-09-10 17:09:17: New connection from 172.30.33.3:46149 on port 1883.
+2025-09-10 17:09:17: Client frigate disconnected, not authorised.
+2025-09-10 17:11:17: New connection from 172.30.33.3:42537 on port 1883.
+2025-09-10 17:11:17: Client frigate disconnected, not authorised.
+2025-09-10 17:13:17: New connection from 172.30.33.3:42697 on port 1883.
+2025-09-10 17:13:17: Client frigate disconnected, not authorised.
+2025-09-10 17:15:17: New connection from 172.30.33.3:40173 on port 1883.
+2025-09-10 17:15:17: Client frigate disconnected, not authorised.
+2025-09-10 17:17:17: New connection from 172.30.33.3:54271 on port 1883.
+2025-09-10 17:17:17: Client frigate disconnected, not authorised.
+2025-09-10 17:19:17: New connection from 172.30.33.3:46885 on port 1883.
+2025-09-10 17:19:17: Client frigate disconnected, not authorised.
+2025-09-10 17:21:18: New connection from 172.30.33.3:47439 on port 1883.
+2025-09-10 17:21:18: Client frigate disconnected, not authorised.
+2025-09-10 17:23:18: New connection from 172.30.33.3:55041 on port 1883.
+2025-09-10 17:23:18: Client frigate disconnected, not authorised.
+2025-09-10 17:25:18: New connection from 172.30.33.3:50923 on port 1883.
+2025-09-10 17:25:18: Client frigate disconnected, not authorised.
+2025-09-10 17:27:19: New connection from 172.30.33.3:33129 on port 1883.
+2025-09-10 17:27:19: Client frigate disconnected, not authorised.
+2025-09-10 17:29:19: New connection from 172.30.33.3:33735 on port 1883.
+2025-09-10 17:29:19: Client frigate disconnected, not authorised.
+2025-09-10 17:30:04: Client 6XkzqF3HkCjoe7YBVIFc07 closed its connection.
+2025-09-10 17:30:47: New connection from 172.30.32.1:35131 on port 1883.
+2025-09-10 17:30:47: New client connected from 172.30.32.1:35131 as 78eei5t2vtnaWuhs4qHAeA (p2, c1, k60, u'homeassistant').
+2025-09-10 17:31:19: New connection from 172.30.33.3:44583 on port 1883.
+2025-09-10 17:31:19: Client frigate disconnected, not authorised.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 17:32:11: mosquitto version 2.0.22 terminating
+time="2025-09-10T17:32:11-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T17:32:11-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/acl\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T17:32:11-04:00" level=error msg="Post \"http://127.0.0.1:80/superuser\": dial tcp 127.0.0.1:80: connect: connection refused"
+2025-09-10 17:32:11: Saving in-memory database to /data//mosquitto.db.
+[21:32:11] INFO: [32mService restart after closing[0m
+[21:32:11] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[17:32:21] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+s6-rc: info: service legacy-services successfully started
+[17:32:23] INFO: [32mStarting NGINX for authentication handling...[0m
+[17:32:23] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 17:32:23: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 17:32:23: mosquitto version 2.0.22 starting
+2025-09-10 17:32:23: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 17:32:23: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 17:32:23:  ├── Username/password checking enabled.
+2025-09-10 17:32:23:  ├── TLS-PSK checking enabled.
+2025-09-10 17:32:23:  └── Extended authentication not enabled.
+2025-09-10 17:32:23: Opening ipv4 listen socket on port 1883.
+2025-09-10 17:32:23: Opening ipv6 listen socket on port 1883.
+2025-09-10 17:32:23: Opening websockets listen socket on port 1884.
+2025-09-10 17:32:23: mosquitto version 2.0.22 running
+2025-09-10 17:32:24: New connection from ::1:42614 on port 1883.
+2025-09-10 17:32:24: Client <unknown> disconnected due to protocol error.
+[17:32:26] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[17:32:27] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 17:32:40: New connection from 172.30.33.3:54867 on port 1883.
+2025-09-10 17:32:40: Client frigate disconnected, not authorised.
+2025-09-10 17:32:42: New connection from 172.30.33.3:39219 on port 1883.
+2025-09-10 17:32:42: Client frigate disconnected, not authorised.
+2025-09-10 17:32:44: New connection from 172.30.33.3:40777 on port 1883.
+2025-09-10 17:32:44: Client frigate disconnected, not authorised.
+2025-09-10 17:32:49: New connection from 172.30.33.3:58937 on port 1883.
+2025-09-10 17:32:49: Client frigate disconnected, not authorised.
+2025-09-10 17:32:58: New connection from 172.30.33.3:48555 on port 1883.
+2025-09-10 17:32:58: Client frigate disconnected, not authorised.
+2025-09-10 17:33:14: New connection from 172.30.33.3:54985 on port 1883.
+2025-09-10 17:33:14: Client frigate disconnected, not authorised.
+2025-09-10 17:33:46: New connection from 172.30.33.3:40363 on port 1883.
+2025-09-10 17:33:46: Client frigate disconnected, not authorised.
+2025-09-10 17:34:04: New connection from 172.30.32.1:53727 on port 1883.
+2025-09-10 17:34:04: New client connected from 172.30.32.1:53727 as 1XP92YhBaSfDlgkB0Jdz43 (p2, c1, k60, u'homeassistant').
+2025-09-10 17:34:50: New connection from 172.30.33.3:43683 on port 1883.
+2025-09-10 17:34:50: Client frigate disconnected, not authorised.
+2025-09-10 17:36:50: New connection from 172.30.33.3:36451 on port 1883.
+2025-09-10 17:36:50: Client frigate disconnected, not authorised.
+2025-09-10 17:38:50: New connection from 172.30.33.3:54181 on port 1883.
+2025-09-10 17:38:50: Client frigate disconnected, not authorised.
+2025-09-10 17:40:51: New connection from 172.30.33.3:41303 on port 1883.
+2025-09-10 17:40:51: Client frigate disconnected, not authorised.
+2025-09-10 17:42:51: New connection from 172.30.33.3:46287 on port 1883.
+2025-09-10 17:42:51: Client frigate disconnected, not authorised.
+2025-09-10 17:44:51: New connection from 172.30.33.3:60629 on port 1883.
+2025-09-10 17:44:51: Client frigate disconnected, not authorised.
+2025-09-10 17:46:48: Client 1XP92YhBaSfDlgkB0Jdz43 closed its connection.
+2025-09-10 17:46:51: New connection from 172.30.33.3:59441 on port 1883.
+2025-09-10 17:46:51: Client frigate disconnected, not authorised.
+2025-09-10 17:47:23: New connection from 172.30.32.1:50031 on port 1883.
+2025-09-10 17:47:23: New client connected from 172.30.32.1:50031 as 5R7LsBt1dNgZ4dkeZCaQAM (p2, c1, k60, u'homeassistant').
+2025-09-10 17:48:51: New connection from 172.30.33.3:33855 on port 1883.
+2025-09-10 17:48:51: Client frigate disconnected, not authorised.
+2025-09-10 17:50:51: New connection from 172.30.33.3:47081 on port 1883.
+2025-09-10 17:50:51: Client frigate disconnected, not authorised.
+2025-09-10 17:52:52: New connection from 172.30.33.3:41015 on port 1883.
+2025-09-10 17:52:52: Client frigate disconnected, not authorised.
+2025-09-10 17:54:52: New connection from 172.30.33.3:46671 on port 1883.
+2025-09-10 17:54:52: Client frigate disconnected, not authorised.
+2025-09-10 17:56:52: New connection from 172.30.33.3:32839 on port 1883.
+2025-09-10 17:56:52: Client frigate disconnected, not authorised.
+2025-09-10 17:58:52: New connection from 172.30.33.3:44067 on port 1883.
+2025-09-10 17:58:52: Client frigate disconnected, not authorised.
+2025-09-10 18:00:52: New connection from 172.30.33.3:36071 on port 1883.
+2025-09-10 18:00:52: Client frigate disconnected, not authorised.
+2025-09-10 18:02:25: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 18:02:52: New connection from 172.30.33.3:59629 on port 1883.
+2025-09-10 18:02:52: Client frigate disconnected, not authorised.
+2025-09-10 18:04:46: Client 5R7LsBt1dNgZ4dkeZCaQAM closed its connection.
+2025-09-10 18:04:53: New connection from 172.30.33.3:51007 on port 1883.
+2025-09-10 18:04:53: Client frigate disconnected, not authorised.
+2025-09-10 18:05:21: New connection from 172.30.32.1:52691 on port 1883.
+2025-09-10 18:05:21: New client connected from 172.30.32.1:52691 as 2RllsrVQ1tQgDRasN6WwMM (p2, c1, k60, u'homeassistant').
+2025-09-10 18:06:53: New connection from 172.30.33.3:59357 on port 1883.
+2025-09-10 18:06:53: Client frigate disconnected, not authorised.
+2025-09-10 18:08:53: New connection from 172.30.33.3:55423 on port 1883.
+2025-09-10 18:08:53: Client frigate disconnected, not authorised.
+2025-09-10 18:10:54: New connection from 172.30.33.3:58863 on port 1883.
+2025-09-10 18:10:54: Client frigate disconnected, not authorised.
+2025-09-10 18:12:54: New connection from 172.30.33.3:50725 on port 1883.
+2025-09-10 18:12:54: Client frigate disconnected, not authorised.
+2025-09-10 18:14:54: New connection from 172.30.33.3:34953 on port 1883.
+2025-09-10 18:14:54: Client frigate disconnected, not authorised.
+2025-09-10 18:16:55: New connection from 172.30.33.3:57889 on port 1883.
+2025-09-10 18:16:55: Client frigate disconnected, not authorised.
+2025-09-10 18:18:55: New connection from 172.30.33.3:32817 on port 1883.
+2025-09-10 18:18:55: Client frigate disconnected, not authorised.
+2025-09-10 18:20:55: New connection from 172.30.33.3:33537 on port 1883.
+2025-09-10 18:20:55: Client frigate disconnected, not authorised.
+2025-09-10 18:22:56: New connection from 172.30.33.3:43485 on port 1883.
+2025-09-10 18:22:56: Client frigate disconnected, not authorised.
+2025-09-10 18:24:56: New connection from 172.30.33.3:38385 on port 1883.
+2025-09-10 18:24:56: Client frigate disconnected, not authorised.
+2025-09-10 18:26:56: New connection from 172.30.33.3:37025 on port 1883.
+2025-09-10 18:26:56: Client frigate disconnected, not authorised.
+2025-09-10 18:28:57: New connection from 172.30.33.3:43917 on port 1883.
+2025-09-10 18:28:57: Client frigate disconnected, not authorised.
+2025-09-10 18:30:57: New connection from 172.30.33.3:36051 on port 1883.
+2025-09-10 18:30:57: Client frigate disconnected, not authorised.
+2025-09-10 18:32:26: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 18:32:57: New connection from 172.30.33.3:50681 on port 1883.
+2025-09-10 18:32:57: Client frigate disconnected, not authorised.
+2025-09-10 18:34:57: New connection from 172.30.33.3:56619 on port 1883.
+2025-09-10 18:34:57: Client frigate disconnected, not authorised.
+2025-09-10 18:36:57: New connection from 172.30.33.3:42551 on port 1883.
+2025-09-10 18:36:57: Client frigate disconnected, not authorised.
+2025-09-10 18:39:22: New connection from 172.30.33.3:57341 on port 1883.
+2025-09-10 18:39:22: Client frigate disconnected, not authorised.
+2025-09-10 18:39:25: New connection from 172.30.33.3:55967 on port 1883.
+2025-09-10 18:39:25: Client frigate disconnected, not authorised.
+2025-09-10 18:39:27: New connection from 172.30.33.3:59489 on port 1883.
+2025-09-10 18:39:27: Client frigate disconnected, not authorised.
+2025-09-10 18:39:32: New connection from 172.30.33.3:49109 on port 1883.
+2025-09-10 18:39:32: Client frigate disconnected, not authorised.
+2025-09-10 18:39:40: New connection from 172.30.33.3:56479 on port 1883.
+2025-09-10 18:39:40: Client frigate disconnected, not authorised.
+2025-09-10 18:39:56: New connection from 172.30.33.3:48767 on port 1883.
+2025-09-10 18:39:56: Client frigate disconnected, not authorised.
+2025-09-10 18:40:28: New connection from 172.30.33.3:43593 on port 1883.
+2025-09-10 18:40:28: Client frigate disconnected, not authorised.
+2025-09-10 18:41:32: New connection from 172.30.33.3:42617 on port 1883.
+2025-09-10 18:41:32: Client frigate disconnected, not authorised.
+2025-09-10 18:43:32: New connection from 172.30.33.3:55341 on port 1883.
+2025-09-10 18:43:32: Client frigate disconnected, not authorised.
+2025-09-10 18:45:32: New connection from 172.30.33.3:35513 on port 1883.
+2025-09-10 18:45:32: Client frigate disconnected, not authorised.
+2025-09-10 18:47:33: New connection from 172.30.33.3:49801 on port 1883.
+2025-09-10 18:47:33: Client frigate disconnected, not authorised.
+2025-09-10 18:49:33: New connection from 172.30.33.3:39999 on port 1883.
+2025-09-10 18:49:33: Client frigate disconnected, not authorised.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 18:51:24: mosquitto version 2.0.22 terminating
+time="2025-09-10T18:51:24-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": read tcp 127.0.0.1:50210->127.0.0.1:80: read: connection reset by peer"
+2025-09-10 18:51:24: Saving in-memory database to /data//mosquitto.db.
+time="2025-09-10T18:51:24-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/acl\": dial tcp 127.0.0.1:80: connect: connection refused"
+time="2025-09-10T18:51:24-04:00" level=error msg="Post \"http://127.0.0.1:80/superuser\": read tcp 127.0.0.1:50210->127.0.0.1:80: read: connection reset by peer"
+[22:51:24] INFO: [32mService restart after closing[0m
+[22:51:24] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[18:51:34] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+s6-rc: info: service legacy-services successfully started
+[18:51:36] INFO: [32mStarting NGINX for authentication handling...[0m
+[18:51:37] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 18:51:37: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 18:51:37: mosquitto version 2.0.22 starting
+2025-09-10 18:51:37: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 18:51:37: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 18:51:37:  ├── Username/password checking enabled.
+2025-09-10 18:51:37:  ├── TLS-PSK checking enabled.
+2025-09-10 18:51:37:  └── Extended authentication not enabled.
+2025-09-10 18:51:37: Opening ipv4 listen socket on port 1883.
+2025-09-10 18:51:37: Opening ipv6 listen socket on port 1883.
+2025-09-10 18:51:37: Opening websockets listen socket on port 1884.
+2025-09-10 18:51:37: mosquitto version 2.0.22 running
+2025-09-10 18:51:37: New connection from ::1:59010 on port 1883.
+2025-09-10 18:51:37: Client <unknown> disconnected due to protocol error.
+[18:51:39] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[18:51:40] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 18:51:56: New connection from 172.30.33.3:51589 on port 1883.
+2025-09-10 18:51:56: Client frigate disconnected, not authorised.
+2025-09-10 18:51:59: New connection from 172.30.33.3:48595 on port 1883.
+2025-09-10 18:51:59: Client frigate disconnected, not authorised.
+2025-09-10 18:52:01: New connection from 172.30.33.3:37385 on port 1883.
+2025-09-10 18:52:01: Client frigate disconnected, not authorised.
+2025-09-10 18:52:07: New connection from 172.30.33.3:42719 on port 1883.
+2025-09-10 18:52:07: Client frigate disconnected, not authorised.
+2025-09-10 18:52:15: New connection from 172.30.33.3:38391 on port 1883.
+2025-09-10 18:52:15: Client frigate disconnected, not authorised.
+2025-09-10 18:52:31: New connection from 172.30.33.3:43827 on port 1883.
+2025-09-10 18:52:31: Client frigate disconnected, not authorised.
+2025-09-10 18:53:03: New connection from 172.30.33.3:39099 on port 1883.
+2025-09-10 18:53:03: Client frigate disconnected, not authorised.
+2025-09-10 18:54:07: New connection from 172.30.33.3:36093 on port 1883.
+2025-09-10 18:54:07: Client frigate disconnected, not authorised.
+2025-09-10 18:56:07: New connection from 172.30.33.3:41051 on port 1883.
+2025-09-10 18:56:07: Client frigate disconnected, not authorised.
+2025-09-10 18:58:07: New connection from 172.30.33.3:35033 on port 1883.
+2025-09-10 18:58:07: Client frigate disconnected, not authorised.
+2025-09-10 19:00:08: New connection from 172.30.33.3:54681 on port 1883.
+2025-09-10 19:00:08: Client frigate disconnected, not authorised.
+2025-09-10 19:02:08: New connection from 172.30.33.3:55419 on port 1883.
+2025-09-10 19:02:08: Client frigate disconnected, not authorised.
+2025-09-10 19:04:08: New connection from 172.30.33.3:56147 on port 1883.
+2025-09-10 19:04:08: Client frigate disconnected, not authorised.
+2025-09-10 19:06:08: New connection from 172.30.33.3:40087 on port 1883.
+2025-09-10 19:06:08: Client frigate disconnected, not authorised.
+2025-09-10 19:08:08: New connection from 172.30.33.3:54923 on port 1883.
+2025-09-10 19:08:08: Client frigate disconnected, not authorised.
+2025-09-10 19:10:08: New connection from 172.30.33.3:40001 on port 1883.
+2025-09-10 19:10:08: Client frigate disconnected, not authorised.
+2025-09-10 19:10:52: New connection from 172.30.33.3:40839 on port 1883.
+2025-09-10 19:10:52: Client frigate disconnected, not authorised.
+2025-09-10 19:10:55: New connection from 172.30.33.3:47601 on port 1883.
+2025-09-10 19:10:55: Client frigate disconnected, not authorised.
+2025-09-10 19:11:06: New connection from 172.30.33.3:51065 on port 1883.
+2025-09-10 19:11:06: Client frigate disconnected, not authorised.
+2025-09-10 19:11:10: New connection from 172.30.33.3:33983 on port 1883.
+2025-09-10 19:11:10: Client frigate disconnected, not authorised.
+2025-09-10 19:11:18: New connection from 172.30.33.3:51939 on port 1883.
+2025-09-10 19:11:18: Client frigate disconnected, not authorised.
+2025-09-10 19:11:34: New connection from 172.30.33.3:43337 on port 1883.
+2025-09-10 19:11:34: Client frigate disconnected, not authorised.
+2025-09-10 19:12:07: New connection from 172.30.33.3:39017 on port 1883.
+2025-09-10 19:12:07: Client frigate disconnected, not authorised.
+2025-09-10 19:12:40: New connection from 172.30.33.3:58883 on port 1883.
+2025-09-10 19:12:40: Client frigate disconnected, not authorised.
+2025-09-10 19:12:42: New connection from 172.30.33.3:53837 on port 1883.
+2025-09-10 19:12:42: Client frigate disconnected, not authorised.
+2025-09-10 19:12:44: New connection from 172.30.33.3:53663 on port 1883.
+2025-09-10 19:12:44: Client frigate disconnected, not authorised.
+2025-09-10 19:12:49: New connection from 172.30.33.3:42341 on port 1883.
+2025-09-10 19:12:49: Client frigate disconnected, not authorised.
+2025-09-10 19:12:57: New connection from 172.30.33.3:41881 on port 1883.
+2025-09-10 19:12:57: Client frigate disconnected, not authorised.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 19:13:09: mosquitto version 2.0.22 terminating
+2025-09-10 19:13:09: Saving in-memory database to /data//mosquitto.db.
+[23:13:09] INFO: [32mService restart after closing[0m
+[23:13:09] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[19:13:17] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+[19:13:19] INFO: [32mStarting NGINX for authentication handling...[0m
+s6-rc: info: service legacy-services successfully started
+[19:13:19] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 19:13:19: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 19:13:19: mosquitto version 2.0.22 starting
+2025-09-10 19:13:19: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 19:13:19: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 19:13:19:  ├── Username/password checking enabled.
+2025-09-10 19:13:19:  ├── TLS-PSK checking enabled.
+2025-09-10 19:13:19:  └── Extended authentication not enabled.
+2025-09-10 19:13:19: Opening ipv4 listen socket on port 1883.
+2025-09-10 19:13:19: Opening ipv6 listen socket on port 1883.
+2025-09-10 19:13:19: Opening websockets listen socket on port 1884.
+2025-09-10 19:13:19: mosquitto version 2.0.22 running
+2025-09-10 19:13:20: New connection from ::1:43562 on port 1883.
+2025-09-10 19:13:20: Client <unknown> disconnected due to protocol error.
+[19:13:22] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[19:13:23] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 19:14:10: New connection from 172.30.33.3:48317 on port 1883.
+2025-09-10 19:14:10: Client frigate disconnected, not authorised.
+2025-09-10 19:14:15: New connection from 172.30.33.3:37245 on port 1883.
+2025-09-10 19:14:15: Client frigate disconnected, not authorised.
+2025-09-10 19:14:19: New connection from 172.30.33.3:33559 on port 1883.
+2025-09-10 19:14:19: Client frigate disconnected, not authorised.
+2025-09-10 19:14:24: New connection from 172.30.33.3:38645 on port 1883.
+2025-09-10 19:14:24: Client frigate disconnected, not authorised.
+2025-09-10 19:14:33: New connection from 172.30.33.3:35055 on port 1883.
+2025-09-10 19:14:33: Client frigate disconnected, not authorised.
+2025-09-10 19:14:49: New connection from 172.30.33.3:58165 on port 1883.
+2025-09-10 19:14:49: Client frigate disconnected, not authorised.
+2025-09-10 19:15:21: New connection from 172.30.33.3:54877 on port 1883.
+2025-09-10 19:15:21: Client frigate disconnected, not authorised.
+2025-09-10 19:16:25: New connection from 172.30.33.3:35829 on port 1883.
+2025-09-10 19:16:25: Client frigate disconnected, not authorised.
+2025-09-10 19:18:25: New connection from 172.30.33.3:54253 on port 1883.
+2025-09-10 19:18:25: Client frigate disconnected, not authorised.
+2025-09-10 19:20:25: New connection from 172.30.33.3:59443 on port 1883.
+2025-09-10 19:20:25: Client frigate disconnected, not authorised.
+2025-09-10 19:22:25: New connection from 172.30.33.3:39093 on port 1883.
+2025-09-10 19:22:25: Client frigate disconnected, not authorised.
+2025-09-10 19:24:25: New connection from 172.30.33.3:43383 on port 1883.
+2025-09-10 19:24:25: Client frigate disconnected, not authorised.
+2025-09-10 19:26:25: New connection from 172.30.33.3:40403 on port 1883.
+2025-09-10 19:26:25: Client frigate disconnected, not authorised.
+2025-09-10 19:28:26: New connection from 172.30.33.3:43465 on port 1883.
+2025-09-10 19:28:26: Client frigate disconnected, not authorised.
+2025-09-10 19:30:27: New connection from 172.30.33.3:55155 on port 1883.
+2025-09-10 19:30:27: Client frigate disconnected, not authorised.
+2025-09-10 19:32:27: New connection from 172.30.33.3:58383 on port 1883.
+2025-09-10 19:32:27: Client frigate disconnected, not authorised.
+2025-09-10 19:33:38: New connection from 172.30.33.3:49973 on port 1883.
+2025-09-10 19:33:38: Client frigate disconnected, not authorised.
+2025-09-10 19:33:41: New connection from 172.30.33.3:48865 on port 1883.
+2025-09-10 19:33:41: Client frigate disconnected, not authorised.
+2025-09-10 19:33:46: New connection from 172.30.33.3:47837 on port 1883.
+2025-09-10 19:33:46: Client frigate disconnected, not authorised.
+2025-09-10 19:33:50: New connection from 172.30.33.3:44679 on port 1883.
+2025-09-10 19:33:50: Client frigate disconnected, not authorised.
+2025-09-10 19:33:59: New connection from 172.30.33.3:58783 on port 1883.
+2025-09-10 19:33:59: Client frigate disconnected, not authorised.
+2025-09-10 19:34:15: New connection from 172.30.33.3:40535 on port 1883.
+2025-09-10 19:34:15: Client frigate disconnected, not authorised.
+2025-09-10 19:34:47: New connection from 172.30.33.3:59073 on port 1883.
+2025-09-10 19:34:47: Client frigate disconnected, not authorised.
+2025-09-10 19:35:51: New connection from 172.30.33.3:39015 on port 1883.
+2025-09-10 19:35:51: Client frigate disconnected, not authorised.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 19:36:51: mosquitto version 2.0.22 terminating
+2025-09-10 19:36:51: Saving in-memory database to /data//mosquitto.db.
+[23:36:51] INFO: [32mService restart after closing[0m
+[23:36:51] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[19:37:00] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+[19:37:02] INFO: [32mStarting NGINX for authentication handling...[0m
+s6-rc: info: service legacy-services successfully started
+[19:37:02] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 19:37:02: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 19:37:02: mosquitto version 2.0.22 starting
+2025-09-10 19:37:02: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 19:37:02: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 19:37:02:  ├── Username/password checking enabled.
+2025-09-10 19:37:02:  ├── TLS-PSK checking enabled.
+2025-09-10 19:37:02:  └── Extended authentication not enabled.
+2025-09-10 19:37:02: Opening ipv4 listen socket on port 1883.
+2025-09-10 19:37:02: Opening ipv6 listen socket on port 1883.
+2025-09-10 19:37:02: Opening websockets listen socket on port 1884.
+2025-09-10 19:37:02: mosquitto version 2.0.22 running
+2025-09-10 19:37:03: New connection from ::1:39566 on port 1883.
+2025-09-10 19:37:03: Client <unknown> disconnected due to protocol error.
+[19:37:04] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[19:37:05] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 19:37:35: New connection from 172.30.33.3:49283 on port 1883.
+2025-09-10 19:37:35: Client frigate disconnected, not authorised.
+2025-09-10 19:37:39: New connection from 172.30.33.3:36881 on port 1883.
+2025-09-10 19:37:39: Client frigate disconnected, not authorised.
+2025-09-10 19:37:47: New connection from 172.30.33.3:54529 on port 1883.
+2025-09-10 19:37:47: Client frigate disconnected, not authorised.
+2025-09-10 19:38:26: New connection from 172.30.33.3:35235 on port 1883.
+2025-09-10 19:38:26: Client frigate disconnected, not authorised.
+2025-09-10 19:38:35: New connection from 172.30.33.3:49643 on port 1883.
+2025-09-10 19:38:35: Client frigate disconnected, not authorised.
+2025-09-10 19:38:51: New connection from 172.30.33.3:38661 on port 1883.
+2025-09-10 19:38:51: Client frigate disconnected, not authorised.
+2025-09-10 19:39:23: New connection from 172.30.33.3:39433 on port 1883.
+2025-09-10 19:39:23: Client frigate disconnected, not authorised.
+2025-09-10 19:40:27: New connection from 172.30.33.3:58181 on port 1883.
+2025-09-10 19:40:27: Client frigate disconnected, not authorised.
+2025-09-10 19:42:27: New connection from 172.30.33.3:60389 on port 1883.
+2025-09-10 19:42:27: Client frigate disconnected, not authorised.
+2025-09-10 19:44:27: New connection from 172.30.33.3:51119 on port 1883.
+2025-09-10 19:44:27: Client frigate disconnected, not authorised.
+2025-09-10 19:46:28: New connection from 172.30.33.3:46977 on port 1883.
+2025-09-10 19:46:28: Client frigate disconnected, not authorised.
+2025-09-10 19:48:28: New connection from 172.30.33.3:42927 on port 1883.
+2025-09-10 19:48:28: Client frigate disconnected, not authorised.
+2025-09-10 19:50:28: New connection from 172.30.33.3:44135 on port 1883.
+2025-09-10 19:50:28: Client frigate disconnected, not authorised.
+2025-09-10 19:52:28: New connection from 172.30.33.3:43957 on port 1883.
+2025-09-10 19:52:28: Client frigate disconnected, not authorised.
+2025-09-10 19:54:28: New connection from 172.30.33.3:56471 on port 1883.
+2025-09-10 19:54:28: Client frigate disconnected, not authorised.
+2025-09-10 19:56:28: New connection from 172.30.33.3:48837 on port 1883.
+2025-09-10 19:56:28: Client frigate disconnected, not authorised.
+2025-09-10 19:57:05: New connection from 172.30.33.3:47621 on port 1883.
+2025-09-10 19:57:05: Client frigate disconnected, not authorised.
+2025-09-10 19:57:07: New connection from 172.30.33.3:32957 on port 1883.
+2025-09-10 19:57:07: Client frigate disconnected, not authorised.
+2025-09-10 19:57:10: New connection from 172.30.33.3:35581 on port 1883.
+2025-09-10 19:57:10: Client frigate disconnected, not authorised.
+2025-09-10 19:57:18: New connection from 172.30.33.3:34227 on port 1883.
+2025-09-10 19:57:19: Client frigate disconnected, not authorised.
+2025-09-10 19:57:27: New connection from 172.30.33.3:55761 on port 1883.
+2025-09-10 19:57:27: Client frigate disconnected, not authorised.
+2025-09-10 19:57:43: New connection from 172.30.33.3:43953 on port 1883.
+2025-09-10 19:57:43: Client frigate disconnected, not authorised.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 19:57:51: mosquitto version 2.0.22 terminating
+2025-09-10 19:57:51: Saving in-memory database to /data//mosquitto.db.
+[23:57:52] INFO: [32mService restart after closing[0m
+[23:57:52] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[19:58:02] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+s6-rc: info: service legacy-services successfully started
+[19:58:03] INFO: [32mStarting NGINX for authentication handling...[0m
+[19:58:04] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 19:58:04: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 19:58:04: mosquitto version 2.0.22 starting
+2025-09-10 19:58:04: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 19:58:04: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 19:58:04:  ├── Username/password checking enabled.
+2025-09-10 19:58:04:  ├── TLS-PSK checking enabled.
+2025-09-10 19:58:04:  └── Extended authentication not enabled.
+2025-09-10 19:58:04: Opening ipv4 listen socket on port 1883.
+2025-09-10 19:58:04: Opening ipv6 listen socket on port 1883.
+2025-09-10 19:58:04: Opening websockets listen socket on port 1884.
+2025-09-10 19:58:04: mosquitto version 2.0.22 running
+2025-09-10 19:58:05: New connection from ::1:46102 on port 1883.
+2025-09-10 19:58:05: Client <unknown> disconnected due to protocol error.
+[19:58:06] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[19:58:07] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 19:58:21: New connection from 172.30.33.3:33865 on port 1883.
+2025-09-10 19:58:21: Client frigate disconnected, not authorised.
+2025-09-10 19:58:24: New connection from 172.30.33.3:58751 on port 1883.
+2025-09-10 19:58:24: Client frigate disconnected, not authorised.
+2025-09-10 19:58:36: New connection from 172.30.33.3:43805 on port 1883.
+2025-09-10 19:58:36: Client frigate disconnected, not authorised.
+2025-09-10 19:58:40: New connection from 172.30.33.3:58041 on port 1883.
+2025-09-10 19:58:40: Client frigate disconnected, not authorised.
+2025-09-10 19:58:48: New connection from 172.30.33.3:46547 on port 1883.
+2025-09-10 19:58:48: Client frigate disconnected, not authorised.
+2025-09-10 19:59:04: New connection from 172.30.33.3:54983 on port 1883.
+2025-09-10 19:59:05: Client frigate disconnected, not authorised.
+2025-09-10 19:59:37: New connection from 172.30.33.3:46811 on port 1883.
+2025-09-10 19:59:37: Client frigate disconnected, not authorised.
+2025-09-10 20:00:41: New connection from 172.30.33.3:45125 on port 1883.
+2025-09-10 20:00:41: Client frigate disconnected, not authorised.
+2025-09-10 20:02:41: New connection from 172.30.33.3:34251 on port 1883.
+2025-09-10 20:02:41: Client frigate disconnected, not authorised.
+2025-09-10 20:04:41: New connection from 172.30.33.3:57465 on port 1883.
+2025-09-10 20:04:41: Client frigate disconnected, not authorised.
+2025-09-10 20:06:42: New connection from 172.30.33.3:45779 on port 1883.
+2025-09-10 20:06:42: Client frigate disconnected, not authorised.
+2025-09-10 20:08:42: New connection from 172.30.33.3:58425 on port 1883.
+2025-09-10 20:08:42: Client frigate disconnected, not authorised.
+2025-09-10 20:10:42: New connection from 172.30.33.3:53661 on port 1883.
+2025-09-10 20:10:42: Client frigate disconnected, not authorised.
+2025-09-10 20:12:43: New connection from 172.30.33.3:47243 on port 1883.
+2025-09-10 20:12:43: Client frigate disconnected, not authorised.
+2025-09-10 20:14:43: New connection from 172.30.33.3:55033 on port 1883.
+2025-09-10 20:14:43: Client frigate disconnected, not authorised.
+2025-09-10 20:16:43: New connection from 172.30.33.3:60311 on port 1883.
+2025-09-10 20:16:43: Client frigate disconnected, not authorised.
+2025-09-10 20:18:44: New connection from 172.30.33.3:36121 on port 1883.
+2025-09-10 20:18:44: Client frigate disconnected, not authorised.
+2025-09-10 20:20:44: New connection from 172.30.33.3:43293 on port 1883.
+2025-09-10 20:20:44: Client frigate disconnected, not authorised.
+2025-09-10 20:22:44: New connection from 172.30.33.3:55565 on port 1883.
+2025-09-10 20:22:44: Client frigate disconnected, not authorised.
+2025-09-10 20:24:45: New connection from 172.30.33.3:54647 on port 1883.
+2025-09-10 20:24:45: Client frigate disconnected, not authorised.
+2025-09-10 20:26:45: New connection from 172.30.33.3:59047 on port 1883.
+2025-09-10 20:26:45: Client frigate disconnected, not authorised.
+2025-09-10 20:28:05: Saving in-memory database to /data//mosquitto.db.
+2025-09-10 20:28:45: New connection from 172.30.33.3:57755 on port 1883.
+2025-09-10 20:28:45: Client frigate disconnected, not authorised.
+2025-09-10 20:30:46: New connection from 172.30.33.3:56709 on port 1883.
+2025-09-10 20:30:46: Client frigate disconnected, not authorised.
+2025-09-10 20:32:59: New connection from 172.30.33.3:36779 on port 1883.
+2025-09-10 20:32:59: New client connected from 172.30.33.3:36779 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 20:34:03: Client frigate closed its connection.
+2025-09-10 20:34:31: New connection from 172.30.33.3:59533 on port 1883.
+2025-09-10 20:34:31: New client connected from 172.30.33.3:59533 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 20:35:27: Client frigate closed its connection.
+2025-09-10 20:36:43: New connection from 172.30.33.3:34353 on port 1883.
+2025-09-10 20:36:43: New client connected from 172.30.33.3:34353 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 20:37:28: Client frigate closed its connection.
+s6-rc: info: service legacy-services: stopping
+2025-09-10 20:37:36: mosquitto version 2.0.22 terminating
+2025-09-10 20:37:36: Saving in-memory database to /data//mosquitto.db.
+[00:37:37] INFO: [32mService restart after closing[0m
+[00:37:37] INFO: [32mService restart after closing[0m
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+cont-init: info: running /etc/cont-init.d/mosquitto.sh
+[20:37:44] INFO: [32mSSL is not enabled[0m
+cont-init: info: /etc/cont-init.d/mosquitto.sh exited 0
+cont-init: info: running /etc/cont-init.d/nginx.sh
+cont-init: info: /etc/cont-init.d/nginx.sh exited 0
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service legacy-services: starting
+services-up: info: copying legacy longrun mosquitto (no readiness notification)
+services-up: info: copying legacy longrun nginx (no readiness notification)
+s6-rc: info: service legacy-services successfully started
+[20:37:47] INFO: [32mStarting NGINX for authentication handling...[0m
+[20:37:47] INFO: [32mStarting mosquitto MQTT broker...[0m
+2025-09-10 20:37:47: Warning: Mosquitto should not be run as root/administrator.
+2025-09-10 20:37:47: mosquitto version 2.0.22 starting
+2025-09-10 20:37:47: Config loaded from /etc/mosquitto/mosquitto.conf.
+2025-09-10 20:37:47: Loading plugin: /usr/share/mosquitto/go-auth.so
+2025-09-10 20:37:47:  ├── Username/password checking enabled.
+2025-09-10 20:37:47:  ├── TLS-PSK checking enabled.
+2025-09-10 20:37:47:  └── Extended authentication not enabled.
+2025-09-10 20:37:47: Opening ipv4 listen socket on port 1883.
+2025-09-10 20:37:47: Opening ipv6 listen socket on port 1883.
+2025-09-10 20:37:47: Opening websockets listen socket on port 1884.
+2025-09-10 20:37:47: mosquitto version 2.0.22 running
+2025-09-10 20:37:48: New connection from ::1:56514 on port 1883.
+2025-09-10 20:37:48: Client <unknown> disconnected due to protocol error.
+[20:37:50] INFO: [32mSuccessfully send discovery information to Home Assistant.[0m
+[20:37:51] INFO: [32mSuccessfully send service information to the Supervisor.[0m
+2025-09-10 20:38:06: New connection from 172.30.33.3:40135 on port 1883.
+2025-09-10 20:38:06: New client connected from 172.30.33.3:40135 as frigate (p2, c1, k60, u'frigate').
+time="2025-09-10T20:38:43-04:00" level=error msg="http request error: Post \"http://127.0.0.1:80/superuser\": EOF"
+2025-09-10 20:38:47: Client frigate closed its connection.
+2025-09-10 20:39:16: New connection from 172.30.33.3:42129 on port 1883.
+2025-09-10 20:39:16: New client connected from 172.30.33.3:42129 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 20:39:45: Client frigate closed its connection.
+2025-09-10 20:40:14: New connection from 172.30.33.3:49343 on port 1883.
+2025-09-10 20:40:14: New client connected from 172.30.33.3:49343 as frigate (p2, c1, k60, u'frigate').
+2025-09-10 20:41:11: Client frigate closed its connection.

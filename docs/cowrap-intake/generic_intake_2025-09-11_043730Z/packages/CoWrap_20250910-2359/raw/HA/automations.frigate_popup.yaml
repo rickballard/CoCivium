@@ -1,0 +1,36 @@
+# Place (or merge) into your Home Assistant automations.
+# Requires Browser Mod integration and a rigate integration publishing events.
+
+# Popup on motion start (autoclose after 15s)
+alias: 'Frigate: Popup Camera on Motion'
+id: frigate_popup_on_motion
+mode: single
+trigger:
+  - platform: mqtt
+    topic: frigate/events
+    value_template: '{{ value_json["type"] }}'
+    payload: start
+condition: []
+action:
+  - variables:
+      cam: '{{ trigger.payload_json["after"]["camera"] | default("camera") }}'
+      ent: 'camera.{{ trigger.payload_json["after"]["camera"] | default("front") }}'
+  - service: browser_mod.popup
+    data:
+      title: '{{ cam | title }} — motion'
+      autoclose: 15
+      content:
+        type: picture-entity
+        entity: '{{ ent }}'
+
+# (Optional) Popup close on motion end (fallback if you don't use autoclose)
+alias: 'Frigate: Close Popup on Motion End'
+id: frigate_close_popup_on_end
+mode: single
+trigger:
+  - platform: mqtt
+    topic: frigate/events
+    value_template: '{{ value_json["type"] }}'
+    payload: end
+action:
+  - service: browser_mod.close_popup
