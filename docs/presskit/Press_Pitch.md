@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Press Pitch (one-pager)
 
 Angle: A “consent‑before‑coercion” coalition for agentic AI — portable governance that preserves dignity and agency while raising safety bars.
@@ -14,6 +15,7 @@ What’s new: Moves beyond vibes and analogies (“mother AI”) to measurable g
 Assets: Open charter + FAQ, influencer landscape (analysis, not endorsements), demo adapter list, public RFC, roundtable calendar.
 
 Spokesperson: Rick Ballard (founder, CoCivium).  Availability: media Q&A and roundtables.
+
 
 
 

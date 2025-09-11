@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCards — Batch 6 (51–54)
 
 **Theme:** Government recovery & reform using CoCivium primitives.
@@ -9,4 +10,5 @@
 - 54 CiviContracts — policy‑as‑code with civic tests
 
 Imported from the ongoing CoCivium Idea Scratchpad session.
+
 

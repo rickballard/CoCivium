@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Can I Opt Out Later?
 
 **Characters:**
@@ -25,6 +26,7 @@ Ama (a social cohesion researcher)
 
 **Conclusion:**
 Exit must be possible. But total un-being may not be. CoCivium honors the right to depart, but not the ability to pretend one never shaped the field.
+
 
 
 

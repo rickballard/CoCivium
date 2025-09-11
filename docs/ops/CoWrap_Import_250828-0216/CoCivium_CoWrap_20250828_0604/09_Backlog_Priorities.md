@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Backlog & Priorities (P0–P3)
 
 **P0 (Now)**
@@ -21,6 +22,7 @@
 **P3**
 - GitHub App + VS Code extension (policy sync, dashboards).
 - CoAgent packaging decision + prototype.
+
 
 
 

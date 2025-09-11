@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Document Lead (Brand Pattern v2 — Skeleton)
 
 > *Beauty.*  (1–4 lines.  Gentle image/feeling, human perspective.)
@@ -20,6 +21,7 @@
 **Footer**
 [Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]
 Congruence: 01c–99c after second-human edit.
+
 
 
 

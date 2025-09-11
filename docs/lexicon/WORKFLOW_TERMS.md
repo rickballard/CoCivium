@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Workflow Lexicon (snapshot)
 
 - **CoStage** — wrap session: work-in-progress savepoint, push, (draft) PR, NEXT.md.
@@ -14,6 +15,7 @@
 - **CoPulse** — metrics auto-away & fairness notes.
 - **CoPingPong** — block/run cadence.
 - **CoCompact / CoRule** — console spacing & dashed rulers.
+
 
 
 

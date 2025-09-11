@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Contributing
 
 > _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
@@ -35,6 +36,7 @@ How to propose and land changes.
 ## Wording & ethics quick check
 Before merging, glance at our **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)**.
 Poetry/quotation exemptions are allowed—see that file for how to mark them.
+
 
 
 

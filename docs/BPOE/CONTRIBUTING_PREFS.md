@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoVibe: Repo Preferences (edit as checkboxes)
 - [x] PRs required on main — All changes land via PRs; direct pushes blocked.
 - [x] 1 review minimum — Require 1 approving review to merge.
@@ -16,6 +17,7 @@
 - [x] Normalize LF — Consistent line endings on text files.
 - [x] ASCII in reports — Avoid mojibake/encoding gremlins in logs.
 - [x] Wait notes in scripts — Long steps print a heads-up so contributors don’t Ctrl-C.
+
 
 
 

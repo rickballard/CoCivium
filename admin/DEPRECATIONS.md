@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Deprecations
 
 ## Manual Multi-Block Paste Instructions
@@ -15,6 +16,7 @@ Deprecated in favor of **one-shot scripts** (.sh/.cmd) to avoid terminal paste g
 
 ## CoCivium Repository
 Marked legacy; do not plan net-new work. Only mine for content to port into CoCivium.
+
 
 
 

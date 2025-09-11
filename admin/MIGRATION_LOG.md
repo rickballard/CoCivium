@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # MIGRATION_LOG
 Definition: Each entry logs a *move or copy* between CoCivium and CoCivium trees, or within CoCivium during grooming.
 
@@ -18,6 +19,7 @@ YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest, notes
 - Use *moves* for relocation; never delete without an earlier move to `admin/hold` or `deprecated/holding`.
 - sha256_manifest is the sha256 of the CSV produced by `tools/inventory_audit.py` for the affected paths.
 - Keep one entry per operation.  If multiple source folders moved, prefer one line per source.
+
 
 
 
