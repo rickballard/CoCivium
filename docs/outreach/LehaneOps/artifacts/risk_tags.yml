@@ -1,0 +1,26 @@
+# Risk Tags (YAML)
+# Tag governance-relevant risks so they can be queried in CI.
+
+categories:
+  - safety
+  - privacy
+  - youth
+  - misinformation
+  - fairness
+  - security
+  - reputational
+  - legal
+
+levels:
+  - low
+  - medium
+  - high
+
+# Example:
+# - id: R-001
+#   title: Youth protection gap in onboarding
+#   category: youth
+#   level: high
+#   owner: policy
+#   notes: >
+#     Missing age-gating for feature X. Proposed escalation flow Y.
