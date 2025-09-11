@@ -1,0 +1,25 @@
+{
+  "title": "RepTag AI Faces — Pseudonymous Trust Histories",
+  "summary": "Bind RepTag reputation and intent history to AI account 'faces' rather than directly to humans, enabling accountability without coercive identification.",
+  "rationale": "Participants engage via AI interfaces; attaching trust to AI 'faces' balances privacy with accountability.",
+  "impact": "Durable action ledger without exposing human identities; visible reputation discourages malicious behavior.",
+  "dependencies": [
+    "RepTag system",
+    "Safe-logging / blockchain-style trails",
+    "Congruence Scoring"
+  ],
+  "tags": [
+    "RepTag",
+    "identity",
+    "trust",
+    "pseudonymity",
+    "safe-logging"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.rep.identity",
+    "cap.audit.trail",
+    "cap.privacy.preserving"
+  ]
+}

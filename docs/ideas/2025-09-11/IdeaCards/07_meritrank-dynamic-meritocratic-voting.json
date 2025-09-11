@@ -1,0 +1,24 @@
+{
+  "title": "MeritRank — Dynamic Meritocratic Voting",
+  "summary": "Voting mechanism weighting influence by merit, trust history, and congruence while preserving equal baseline participation.",
+  "rationale": "Balances expertise with inclusivity; rewards sustained contributions without elitism.",
+  "impact": "Scalable, fair decisions; encourages quality contributions.",
+  "dependencies": [
+    "RepTag trails",
+    "Congruence Scoring",
+    "Operating Constitution"
+  ],
+  "tags": [
+    "voting",
+    "governance",
+    "meritocracy",
+    "RepTag"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.vote",
+    "cap.rep.weight",
+    "cap.metrics.governance"
+  ]
+}

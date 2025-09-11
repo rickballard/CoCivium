@@ -1,0 +1,24 @@
+{
+  "title": "Deprogramming Playbooks — Self-Guided Contrastive Learning",
+  "summary": "Guides that contrast propagandized narratives with verified materials for self-directed deprogramming.",
+  "rationale": "Contrastive learning exposes manipulation without coercion.",
+  "impact": "Empowers cognitive autonomy and resilience.",
+  "dependencies": [
+    "AntiCensor Archive",
+    "CiviProof",
+    "Anonymous Access Layer"
+  ],
+  "tags": [
+    "deprogramming",
+    "contrastive-learning",
+    "education",
+    "anti-propaganda"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.education.contrastive",
+    "cap.gov.resilience",
+    "cap.feed.guides"
+  ]
+}

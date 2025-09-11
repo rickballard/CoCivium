@@ -1,0 +1,24 @@
+{
+  "title": "CoSafe Analyzer — Organizational Policy & Process Risk",
+  "summary": "Service scanning org policies/workflows to find misalignments vs. Civium congruence standards.",
+  "rationale": "Provides actionable diagnostics for adoption.",
+  "impact": "Expands influence into institutions; trust via evidence.",
+  "dependencies": [
+    "Congruence Scoring",
+    "Risk Tracker",
+    "Standards Body"
+  ],
+  "tags": [
+    "risk",
+    "policy",
+    "analyzer",
+    "adoption"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.risk.analyze",
+    "cap.gov.audit",
+    "cap.adoption"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Null Contributor — Protected Silent Role",
+  "summary": "Formal role for participants who observe and learn without proposing or voting.",
+  "rationale": "Inclusion without pressure; presence matters for trust trails.",
+  "impact": "Expands inclusivity and creates richer trust histories.",
+  "dependencies": [
+    "RepTag trails",
+    "MeritRank system"
+  ],
+  "tags": [
+    "roles",
+    "null",
+    "onboarding",
+    "governance"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.roles",
+    "cap.onboarding",
+    "cap.rep.observe"
+  ]
+}

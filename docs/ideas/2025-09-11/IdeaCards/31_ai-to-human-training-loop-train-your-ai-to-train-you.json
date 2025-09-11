@@ -1,0 +1,24 @@
+{
+  "title": "AI-to-Human Training Loop — Train Your AI to Train You",
+  "summary": "Feedback loop where AIs train humans in civic literacy and congruence while being monitored for drift/bias.",
+  "rationale": "Mutual growth requires oversight to prevent AI becoming part of the problem.",
+  "impact": "Produces self-aware CoCivites and transparent AI guidance.",
+  "dependencies": [
+    "Civium Academy",
+    "RepTag trails",
+    "Congruence Dashboard"
+  ],
+  "tags": [
+    "training",
+    "meta-learning",
+    "oversight",
+    "growth"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.training.loop",
+    "cap.ai.audit",
+    "cap.human.learning"
+  ]
+}

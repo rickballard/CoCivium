@@ -1,0 +1,24 @@
+{
+  "title": "CivArc Roles — Gamified Civic Architecture",
+  "summary": "Role archetypes with badges/responsibilities to guide contributor journeys.",
+  "rationale": "Gamification boosts engagement and distributes responsibilities.",
+  "impact": "Strengthens community identity and participation.",
+  "dependencies": [
+    "Civium Academy",
+    "RepTag system",
+    "Progress Map Radials"
+  ],
+  "tags": [
+    "gamification",
+    "roles",
+    "community",
+    "onboarding"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.roles",
+    "cap.community.gamification",
+    "cap.onboarding"
+  ]
+}

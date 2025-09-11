@@ -1,0 +1,24 @@
+{
+  "title": "Congruence Dashboard — Session Bloat and Workflow Integrity",
+  "summary": "Dashboard that tracks session health (bloat, drift, redundancy) and congruence scores; nudges CoWrap when risks emerge.",
+  "rationale": "Automated detection prevents derailment and keeps workflows efficient.",
+  "impact": "Improves UX, reduces wasted time, embeds culture of session hygiene.",
+  "dependencies": [
+    "BPOE logging",
+    "CoWrap workflow",
+    "Congruence Scoring"
+  ],
+  "tags": [
+    "workflow",
+    "bloat",
+    "dashboard",
+    "congruence"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.session.monitor",
+    "cap.health.dashboard",
+    "cap.gov.nudge"
+  ]
+}

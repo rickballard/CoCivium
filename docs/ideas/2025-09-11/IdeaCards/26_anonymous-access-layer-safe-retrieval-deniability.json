@@ -1,0 +1,24 @@
+{
+  "title": "Anonymous Access Layer — Safe Retrieval & Deniability",
+  "summary": "Privacy-preserving gateways (relays/mixnets/mirrors/steganography) plus deniable storage.",
+  "rationale": "Access must not endanger users; anonymity is non-negotiable.",
+  "impact": "Expands global reach under repression without increasing risk.",
+  "dependencies": [
+    "AntiCensor Archive",
+    "CiviProof",
+    "Toolshop certifications"
+  ],
+  "tags": [
+    "privacy",
+    "anonymity",
+    "access",
+    "safety"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.network.relay",
+    "cap.mirror.broker",
+    "cap.storage.deniable"
+  ]
+}
