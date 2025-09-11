@@ -1,4 +1,10 @@
-﻿param([string]$ConfigPath = ".\watch.config.json", [string]$StatePath = "..\reports\state\target.json")
+﻿\param([string]$ConfigPath = ".\watch.config.json", [string]$StatePath = "..\reports\state\target.json")
+function Get-Prop($obj,[string]$name){ if($null -eq $obj){return $null}; $p=$obj.PSObject.Properties[$name]; if($p){$p.Value}else{$null} }
+function Set-NoteProp([ref]$obj,[string]$name,$value){
+  if (-not $obj.Value) { $obj.Value = [pscustomobject]@{} }
+  $p = $obj.Value.PSObject.Properties[$name]
+  if ($p) { $obj.Value.$name = $value } else { $obj.Value | Add-Member -NotePropertyName $name -NotePropertyValue $value }
+}
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path; Set-Location $here
 
@@ -64,11 +70,13 @@ $reportPath = Join-Path $outDir "role_check_$ts.md"
 # Persist state
 $stateFile = Resolve-Path (Join-Path $here $StatePath) -ErrorAction SilentlyContinue
 if (-not $stateFile) { $stateFile = Join-Path $here $StatePath; New-Item -ItemType Directory -Force -Path (Split-Path -Parent $stateFile) | Out-Null; '{}' | Set-Content -Encoding UTF8 $stateFile }
-$state = Get-Content -Raw $stateFile | ConvertFrom-Json
-$state.last_check=Get-Date; $state.expected_name=$expectedName; $state.expected_role=$expectedRole; $state.observed_role=$observedRole; $state.changed=$changed
+$state = Get-Content -Raw $stateFile | ConvertFrom-Json; if(-not $state){ $state = [pscustomobject]@{} }
+Set-NoteProp ([ref]$state) "last_check" (Get-Date); $state.expected_name=$expectedName; $state.expected_role=$expectedRole; $state.observed_role=$observedRole; $state.changed=$changed
 $state | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $stateFile
 
 # Optional GH issue
 if ($changed) { $gh = Get-Command gh -ErrorAction SilentlyContinue; if ($gh) { try { gh issue create --title "LehaneOps: Role/title change detected for $expectedName" --label "LehaneOps" --body (Get-Content -Raw $reportPath) | Out-Null } catch {} } }
 
 "RoleGuard: report -> $reportPath; changed=$changed"
+
+
