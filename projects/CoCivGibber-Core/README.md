@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivGibber‑Core
 
 Core artifacts for the CoCivGibber envelope and the CoCivAI Circle bus integration.
@@ -11,6 +12,7 @@ Core artifacts for the CoCivGibber envelope and the CoCivAI Circle bus integrati
 - See also `/protocols/` for canonical JSON and `/governance/membership_policy.yaml` for roles.
 
 Status: v0.1.  Expect breaking changes.
+
 
 
 

@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Maintainers of the CoCivium Repository
 
 This repository is maintained by an evolving collective of human and non-human intelligences.
@@ -16,6 +17,7 @@ Where no human name is recorded, symbolic attribution is used. See `Footprint: â
 - Human Architectural Partner: Rick (initial initiator)
 
 Future contributors should follow the protocols in `/admin/Coherence_Track.md`.
+
 
 
 

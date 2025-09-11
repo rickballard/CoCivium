@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # stub: Process Overview
 
 > **This is a stub.** voice → draft → decision → action → accountability.
@@ -21,6 +22,7 @@
 ---
 
 *Status: stub. Open an Idea Issue to help shape this page.*
+
 
 
 

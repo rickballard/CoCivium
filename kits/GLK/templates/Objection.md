@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Objection
 
 ## Summary
@@ -18,6 +19,7 @@ Links to sources supporting the objection.
 
 ## Status
 Open / Mitigated / Withdrawn. Link to decision log entry when resolved.
+
 
 
 

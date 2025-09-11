@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoAgent Kit: autobrand + perf + ISSUEOPS
 
 ## What’s in this PR
@@ -19,6 +20,7 @@
 
 ## Rollout notes
 - Per‑repo accent is set by mapping (see `palette.yml`); optional env overrides: `CO_BRAND`, `CO_BRAND_ACCENT`.
+
 
 
 

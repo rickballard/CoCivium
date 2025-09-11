@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # {{TITLE}}
 **For immediate release — {{DATE}}**
 
@@ -35,6 +36,7 @@
 - Site: {{PRESS_SITE}}
 
 *About CoCivium.*  CoCivium is a consent-first governance pack for agentic AI.  It complements existing safety work by making human agency and auditability non-negotiable.
+
 
 
 

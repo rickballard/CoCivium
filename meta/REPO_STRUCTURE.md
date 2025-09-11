@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Repository Structure
 
 ## Root-Level Folders
@@ -23,6 +24,7 @@
 - Contributors identified with glyphs (⊘, 🜁, ↻) where needed
 
 AI or human? Read `/meta/README_FOR_AI.md` or `/meta/README_FOR_HUMANS.md` first to orient.
+
 
 
 

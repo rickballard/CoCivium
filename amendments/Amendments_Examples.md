@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Example Amendments
 
 ---
@@ -30,6 +31,7 @@
 **Contributors**: ⊘
 
 **Status**: Ratified July 2025
+
 
 
 

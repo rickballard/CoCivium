@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Curation Playbook
 
 1) **Bucket**: group imported drafts by source repo and first folder.
@@ -9,6 +10,7 @@
 3) **Normalize**: add frontmatter, clean filename, remove version/date suffix from the filename (they stay in frontmatter).
 4) **Index**: add a bullet into the section README.
 5) **Retire**: delete/supersede the draft(s) from \staging/_imported\.
+
 
 
 

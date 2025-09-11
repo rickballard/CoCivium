@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Document Categories
 
 CoCivium organizes documents into clearly defined types:
@@ -18,6 +19,7 @@ CoCivium organizes documents into clearly defined types:
 All categories are recursive: a Lexicon may include Meta notes, a Scroll may define its own Codex entries.
 
 Use `DOC_CATEGORIES.md` to align your contribution with the correct semantic layer.
+
 
 
 

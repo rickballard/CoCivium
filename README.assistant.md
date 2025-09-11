@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium — Assistant README (Draft, switch-ready)
 
 > *We tune toward each other in small signals.*  (Beauty.)
@@ -27,6 +28,7 @@
 **Footer**
 [Contributors; Source; Provenance; Housekeeping; Flags; CoQuote]
 Draft; congruence TBD after human editorial pass.
+
 
 
 
