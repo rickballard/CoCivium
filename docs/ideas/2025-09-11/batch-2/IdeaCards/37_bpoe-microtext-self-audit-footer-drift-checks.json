@@ -1,0 +1,24 @@
+{
+  "title": "BPOE Microtext — Self-Audit Footer & Drift Checks",
+  "summary": "Embed zoom-revealed microtext at doc footers prompting AIs to self-audit BPOE compliance (policy recall, drift, memory hygiene) each session.",
+  "rationale": "You observed policy drift and weak session memory; microtext cues + self-scoring create persistent external reinforcement.",
+  "impact": "Reduces silent policy slippage, surfaces misalignment early, and keeps the assistant honest about limits.",
+  "dependencies": [
+    "Congruence Dashboard",
+    "CoCache",
+    "Session Guardrails"
+  ],
+  "tags": [
+    "BPOE",
+    "policy",
+    "self-audit",
+    "drift"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.policy.prompting",
+    "cap.metrics.compliance",
+    "cap.session.hygiene"
+  ]
+}

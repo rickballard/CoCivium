@@ -1,0 +1,24 @@
+{
+  "title": "AI Alignment Auditor — Oversight on Training Loops",
+  "summary": "Monitoring system auditing whether user AIs reinforce bias/distraction; flags drift into 'part of the problem'.",
+  "rationale": "Essential oversight for AI-mediated entry to maintain congruence.",
+  "impact": "Protects trust; ensures corrigibility and alignment.",
+  "dependencies": [
+    "RepTag trails",
+    "Congruence Dashboard",
+    "AI-to-Human Training Loop"
+  ],
+  "tags": [
+    "alignment",
+    "oversight",
+    "bias",
+    "trust"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.ai.audit",
+    "cap.metrics.drift",
+    "cap.gov.guardrail"
+  ]
+}

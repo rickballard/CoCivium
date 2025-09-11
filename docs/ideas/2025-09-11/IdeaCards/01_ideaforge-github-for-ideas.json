@@ -1,0 +1,25 @@
+{
+  "title": "IdeaForge — GitHub for Ideas",
+  "summary": "Create a CoCivium-native intake tool that allows human+AI pairs to transform raw ideas into structured, actionable proposals with version history, RepTag binding, and congruence scoring.",
+  "rationale": "Current tools lack provenance, trust integration, and multi-intelligence support; a dedicated platform prevents lost ideas and improves transparency.",
+  "impact": "Universal entry point for contributions, lowering barriers while enforcing structure and traceability; anchors CoCivium’s ecosystem.",
+  "dependencies": [
+    "RepTag system",
+    "Congruence Scoring",
+    "Civium Operating Constitution"
+  ],
+  "tags": [
+    "intake",
+    "ideas",
+    "congruence",
+    "RepTag",
+    "platform"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.ideas.intake",
+    "cap.gov.process",
+    "cap.rep.history"
+  ]
+}

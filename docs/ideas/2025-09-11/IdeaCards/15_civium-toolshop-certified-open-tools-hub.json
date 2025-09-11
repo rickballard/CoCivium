@@ -1,0 +1,24 @@
+{
+  "title": "Civium Toolshop — Certified Open Tools Hub",
+  "summary": "Catalog of open, free, unencumbered tools with certification badges based on evidence.",
+  "rationale": "Participants need trusted non-captured tools; steers adoption toward healthy ecosystems.",
+  "impact": "Trusted 'app store' for civic tools; increases adoption and reduces obsolescence risk.",
+  "dependencies": [
+    "Congruence scoring pipeline",
+    "Standards Body registry",
+    "Civium Academy"
+  ],
+  "tags": [
+    "tools",
+    "certification",
+    "ecosystem",
+    "openness"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.tools.catalog",
+    "cap.certification",
+    "cap.gov.evidence"
+  ]
+}

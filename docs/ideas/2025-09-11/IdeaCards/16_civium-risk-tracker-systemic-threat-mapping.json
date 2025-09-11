@@ -1,0 +1,24 @@
+{
+  "title": "Civium Risk Tracker — Systemic Threat Mapping",
+  "summary": "Continuously log/analyze risks with probabilities, impacts, and mitigation strategies.",
+  "rationale": "Blind spots accumulate without structure; public risk builds resilience.",
+  "impact": "Improves foresight and crisis response; fuels Devil’s Advocate AI.",
+  "dependencies": [
+    "Devil’s Advocate AI",
+    "Congruence Dashboard",
+    "Operating Constitution"
+  ],
+  "tags": [
+    "risk",
+    "resilience",
+    "transparency",
+    "security"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.risk.map",
+    "cap.gov.resilience",
+    "cap.gov.transparency"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Civium Hall of Fame — IdeaCards Showcase",
+  "summary": "Public Hall highlighting most impactful/creative IdeaCards as cultural/engagement artifact.",
+  "rationale": "Curation surfaces best ideas and creates lore.",
+  "impact": "Encourages quality and strengthens brand association.",
+  "dependencies": [
+    "IdeaForge intake",
+    "RepTag trails",
+    "Civium Academy"
+  ],
+  "tags": [
+    "hall-of-fame",
+    "culture",
+    "branding",
+    "engagement"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.cards.curate",
+    "cap.gov.history",
+    "cap.branding"
+  ]
+}
