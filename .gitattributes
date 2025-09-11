@@ -6,3 +6,8 @@
 
 # Enforce LF — 2025-09-04T23:54:31
 *.md  text eol=lf
+
+* text=auto
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.sh  text eol=lf
