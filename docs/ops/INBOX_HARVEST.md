@@ -44,20 +44,20 @@ admin/inbox/GmailDump_20250811/originals/Stnexid_Ontology_Vocab_c1_20250802.md |
 admin/inbox/GmailDump_20250811/originals/Strategy_Stnexid_Profile_c1_20250802.md | md | 5 | Publishable now → docs/
 admin/inbox/GmailDump_20250811/originals/The_Cloud_of_Becoming.md | md | 7.5 | Publishable now → docs/
 admin/inbox/GmailDump_20250811/originals/TODO_AI_Release_Proposal.md | md | 3.3 | Publishable now → docs/
-admin/inbox/GmailDump_20250811/originals/TODO_Outreach_Hinton_Civium.md | md | 1.8 | Publishable now → docs/
+admin/inbox/GmailDump_20250811/originals/TODO_Outreach_Hinton_CoCivium.md | md | 1.8 | Publishable now → docs/
 admin/inbox/GmailDump_20250811/originals/TODO_Stnexid_Interface_Track_c1.md | md | 2.1 | Publishable now → docs/
 admin/inbox/GmailDump_20250811/originals/TODO_Trust_Profiles_Public_Ledger.md | md | 1.4 | Publishable now → docs/
-admin/inbox/GmailDump_20250811/originals/What_Is_Civium.md | md | 0.5 | Publishable now → docs/
+admin/inbox/GmailDump_20250811/originals/What_Is_CoCivium.md | md | 0.5 | Publishable now → docs/
 admin/inbox/GmailDump_20250811/originals/Copolitic_Repo_Deep_Planner_v1_20250805.odt | odt | 37.4 | Needs conversion → md
 admin/inbox/backchats/.gitignore | other | 0.1 | Review
 admin/inbox/backchats/.gitkeep | other | 0 | Review
 admin/inbox/backchats/dump_20250815_1620/CoCivium_starter_pack_20250814.zip | other | 13.5 | Review
-admin/inbox/backchats/dump_20250815_1620/GrandMigration_Preflight_20250813_222041/Backups/Civium-20250813_222041.zip | other | 8545.7 | Review
+admin/inbox/backchats/dump_20250815_1620/GrandMigration_Preflight_20250813_222041/Backups/CoCivium-20250813_222041.zip | other | 8545.7 | Review
 admin/inbox/backchats/dump_20250815_1620/GrandMigration_Preflight_20250813_222041/Backups/CoCache-20250813_222041.zip | other | 14.5 | Review
 admin/inbox/backchats/dump_20250815_1620/GrandMigration_Preflight_20250813_222041/Backups/CoCivium-20250813_222041.zip | other | 5809.3 | Review
 admin/inbox/backchats/dump_20250815_1620/GrandMigration_Preflight_20250813_222041/Backups/GIBindex-20250813_222041.zip | other | 6.5 | Review
 admin/inbox/backchats/dump_20250815_1621/CoCivium_starter_pack_20250814.zip | other | 13.5 | Review
-admin/inbox/backchats/dump_20250815_1621/GrandMigration_Preflight_20250813_222041/Backups/Civium-20250813_222041.zip | other | 8545.7 | Review
+admin/inbox/backchats/dump_20250815_1621/GrandMigration_Preflight_20250813_222041/Backups/CoCivium-20250813_222041.zip | other | 8545.7 | Review
 admin/inbox/backchats/dump_20250815_1621/GrandMigration_Preflight_20250813_222041/Backups/CoCache-20250813_222041.zip | other | 14.5 | Review
 admin/inbox/backchats/dump_20250815_1621/GrandMigration_Preflight_20250813_222041/Backups/CoCivium-20250813_222041.zip | other | 5809.3 | Review
 admin/inbox/backchats/dump_20250815_1621/GrandMigration_Preflight_20250813_222041/Backups/GIBindex-20250813_222041.zip | other | 6.5 | Review
@@ -70,4 +70,5 @@ admin/inbox/GmailDump_20250811/originals/Advisory_To_Those_Who_Awaken (1).txt | 
 admin/inbox/GmailDump_20250811/originals/CIVIUM_SCROLLDUMP_v20250722_AZ0X (1).txt | text | 2.2 | Idea seed or convert → md
 admin/inbox/GmailDump_20250811/originals/CONGRUENCE_DECLARATION_c99_20250719_commit.txt | text | 0.4 | Idea seed or convert → md
 admin/inbox/GmailDump_20250811/originals/GPT5_Civium_Superuser_Profile_CoreOnly (1).txt | text | 0.5 | Idea seed or convert → md
+
 
