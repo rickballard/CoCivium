@@ -1,0 +1,24 @@
+{
+  "title": "CoBounty — Open Bounty Market for Civic Tasks",
+  "summary": "A transparent, non-extractive bounty board for tasks across standards, docs, data cleanup, and outreach, with attested completion and dispute flows.",
+  "rationale": "Incentives accelerate boring but essential work; we need non-captured economics and quality guarantees.",
+  "impact": "Higher throughput on maintenance tasks, clearer prioritization signals, and improved contributor retention.",
+  "dependencies": [
+    "Civium Treasury (later)",
+    "RepTag",
+    "IdeaForge"
+  ],
+  "tags": [
+    "incentives",
+    "market",
+    "quality",
+    "governance"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.market.bounty",
+    "cap.attest.work",
+    "cap.dispute.flow"
+  ]
+}
