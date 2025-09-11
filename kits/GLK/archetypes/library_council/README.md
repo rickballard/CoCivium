@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Public Library Council Governance Launch Kit — v0
 
 **Use-case.** Program approvals, policy updates, modest budgets. Public records friendly; evidence mostly URLs.
@@ -19,4 +23,8 @@ Adopt `/kits/GLK/common/Guardrails.md`. Add sector policy hooks here.
 
 ## Receipts
 Publish agendas, minutes, and execution confirmations in a stable location (repo/docs, wiki, or website) and link them from the log.
+
+
+
+
 

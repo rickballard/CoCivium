@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Cognocarta Consenti (CC) — v1 working draft
 
 ## Preamble
@@ -25,5 +29,9 @@ Purpose (plain language).
 
 ## Implementation Notes
 - Trails = issues/PRs + commits. HumanGate ON.
+
+
+
+
 
 

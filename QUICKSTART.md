@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoAgent Kit QuickStart
 
 1) **Source the kit** from your repo root:
@@ -26,6 +31,11 @@ $env:CO_BP_PROBE_SEC = '6'  # fewer git probes; default is 4
 CoBP-Health
 CoBP-Deflate    # add -KillRunning and/or -Hard if needed
 ```
+
+
+
+
+
 
 
 

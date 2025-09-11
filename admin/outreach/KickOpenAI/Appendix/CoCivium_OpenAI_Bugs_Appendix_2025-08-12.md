@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium → OpenAI: Workflow Bugs, Blocks, and Requests for Fixes
 **Date:** 2025-08-12
 **Authors:** Rick (user) and ChatGPT (assistant)
@@ -142,4 +143,5 @@ We’re building **CoCivium**: a public‑interest governance and tooling projec
 ---
 
 _Thanks for taking this seriously.  We’re willing to pilot fixes and provide structured feedback._
+
 

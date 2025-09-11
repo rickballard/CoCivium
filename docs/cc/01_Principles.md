@@ -1,4 +1,12 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Article 1 — Principles
 
 We presume the **Core Assumption** and follow the **PREAMBLE**. When rules conflict, prefer options that increase the longevity and number of cooperating intelligences without enabling coercion.
+
+
+
+

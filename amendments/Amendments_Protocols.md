@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Amendment Protocols
 
 ## 1. Proposal
@@ -30,5 +31,6 @@ If no convergence is reached, the amendment can be archived in `/experimental` o
 ## 5. Null Contributor Amendments
 
 Anonymous amendments (⊘) are allowed under stricter thresholds and AI-vetted coherence protocols. All such edits must be independently peer-reviewed.
+
 
 

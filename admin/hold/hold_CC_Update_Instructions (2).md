@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Cognocarta Consenti – Repo Update Instruction Summary
 
 This file summarizes the current naming, framing, and structural changes approved for the CoCivium Constitution repo. It is intended as a reminder for future sessions, especially when returning on a different device or after a delay.
@@ -46,6 +47,7 @@ Once back on laptop:
 ---
 
 This document can be re-uploaded in a future session to remind ChatGPT of this milestone state.
+
 
 
 

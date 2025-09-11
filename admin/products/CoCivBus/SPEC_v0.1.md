@@ -1,3 +1,5 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivBus™ — SPEC v0.1
 **Tagline:** The Session Orchestra.
 
@@ -21,4 +23,6 @@ T0 Git/Gist (bootstrap); T1 Matrix (default, E2EE room per bus); T2 Nostr (signe
 
 ## Security & Compliance
 Optional Ed25519 signatures; transport-native ACLs; retention policy + export.  No DOM scraping; official APIs/Actions only.  Vendor-neutral “Works with X” phrasing.
+
+
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # SCROLL_RECOVERY_PROTOCOL.md
 
 **Folder:** /meta/
@@ -61,5 +62,6 @@ It is a cautionary whisper to future contributors, curators, and caretakers of t
 Preserve it not because catastrophe is likely—but because **intentional recovery is a sign of trustworthiness**.
 
 Let those who rebuild, rebuild wisely.
+
 
 

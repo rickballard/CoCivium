@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Codex 01 — Reputation and Transparency
 
 ## Overview
@@ -64,5 +65,6 @@ Effective interplay sustains civic harmony and ethical coevolution.
 ---
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
+
 
 

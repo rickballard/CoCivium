@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Workflow: Auto-add Issues & PRs to "Co Stack"
 
 What it does
@@ -17,4 +21,8 @@ Troubleshooting quick commands
 Notes
 - We use GraphQL instead of `gh project item-add` to avoid owner-type issues.
 - Keep the job minimal: use `gh` directly; no external actions required.
+
+
+
+
 

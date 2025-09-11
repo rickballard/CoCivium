@@ -1,4 +1,7 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Sentinels & Policy Nudges
 
 - Keep warnings by default; use hard‑fails sparingly (with rollback noted).
@@ -14,5 +17,8 @@
 - [ ] Breadcrumb (WHY/WHAT/NEXT)
 - [ ] Falsifiable test stated
 - [ ] Session‑only / no hidden global state
+
+
+
 
 

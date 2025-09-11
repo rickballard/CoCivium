@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # BPOE — Doc-only PRs (README, *.md)
 
 1) Branch hygiene: \gh pr checkout <PR>\ → \git rebase origin/main\ or new clean branch; resolve README & stubs deterministically.
@@ -7,5 +11,9 @@
    - Get a **second reviewer** to approve; then squash-merge.
    - Or temporarily lower “Required approving reviews”/**disable last-push approval** in Branch Protection (UI), squash-merge, **restore** the rule.
 4) Keep redirect stubs for moved docs to avoid link rot.
+
+
+
+
 
 

@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCard ΓÇö CoAnchor Canonicals & ΓÇ£CoJanusΓÇ¥ Switch
 
 **Problem / Tension**  
@@ -20,3 +24,7 @@ Protects narrative/legitimacy; reduces churn; enables long-horizon study; improv
 - [ ] Migrate existing founding texts to CoAnchor.
 
 **Tags:** #cocivium #governance #docs #canon
+
+
+
+

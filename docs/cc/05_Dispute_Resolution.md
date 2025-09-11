@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Article 5 — Dispute Resolution
 
 **5.1 Ladder.** Mediation → binding arbitration → federated adjudication. Escalate only when lower tiers fail.
@@ -12,3 +16,7 @@
 **5.5 Forum of Last Resort.** Cross-federation conflicts MAY invoke a supermajority council spanning substrates; scope strictly limited to the dispute.
 
 > Anchored by [PREAMBLE](PREAMBLE.md), Articles 1–4.
+
+
+
+

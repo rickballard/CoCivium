@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Meta Folder
 
 This folder explains how the CoCivium repository is organized, versioned, and evolved.
@@ -11,5 +15,9 @@ Contents here define:
 - Cross-entity communication guidance
 
 Start here if you're trying to understand how the pieces fit together.
+
+
+
+
 
 

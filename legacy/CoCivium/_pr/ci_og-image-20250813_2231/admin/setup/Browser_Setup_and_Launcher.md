@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Browser Setup & Launcher (live)
 
 ## Goal
@@ -14,4 +18,8 @@ One-click opens CoCivium Chrome profile with pinned tabs + two Git Bash tabs.
 - Generate CoCivium-Workbench.bat
 - Add Windows Terminal profile (2 Git Bash tabs)
 - Optional Task Scheduler (Toronto time)
+
+
+
+
 

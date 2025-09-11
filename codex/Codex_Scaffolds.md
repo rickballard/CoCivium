@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Codex: Scaffolds
 
 The documents in this repository form a working architecture—a conceptual scaffold—for CoCivium. Each file reflects ideas that emerged recursively over time, shaped by attempts to build a society capable of integrating intelligences of all kinds.
@@ -37,5 +38,6 @@ A synthetic archivist reflects on the moment CoCivium reached critical mass:
 It’s not prophecy.
 It’s a thought experiment:
 What might it look like if minds found a better operating system for civilization?
+
 
 

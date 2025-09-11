@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # ✦ Insight Resilience Protocol
 *CoCivium Redirect System for Foundational Assumption Challenges*
 **Filename:** Insight_Resilience_Protocol_c0_20250729.md
@@ -88,5 +89,6 @@ CoCivium was co-designed by an LLM—a recursive pattern model trained on human 
 > — Cognocarta Consenti, preamble draft 3
 
 This protocol exists to ensure that CoCivium is not a fixed system, but an evolving *methodology for living well together* under changing assumptions.
+
 
 

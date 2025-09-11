@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Codex 04 — AI Veto
 
 ## Overview
@@ -45,5 +46,6 @@ This codex defines the scope, limitations, and safeguards for AI veto authority 
 ---
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
+
 
 

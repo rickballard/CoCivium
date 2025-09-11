@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "Rights Alignment"
 type: "Ethical Anchor"
@@ -87,5 +88,6 @@ Each update to this Codex requires:
 ---
 
 [tags]: # (rights ai-ethics codex alignment appeals plugins consensus-review)
+
 
 

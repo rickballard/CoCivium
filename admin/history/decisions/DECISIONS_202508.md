@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Decisions Log (202508)
 
 ## Adopt Messaging v0 (explainer, hero H1, tagline) + add CoMessage triggers
@@ -60,6 +61,7 @@ Preview branch served its purpose; new preview branches are fine for bigger copy
 Tweak crest size/location via README HTML if needed.
 
 ---
+
 
 
 

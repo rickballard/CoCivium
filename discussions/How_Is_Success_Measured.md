@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # How Is Success Measured?
 
 **Characters:**
@@ -22,5 +26,9 @@ Juno (a pragmatic coder who distrusts utopias)
 
 **Conclusion:**
 Success is both qualitative and quantitative—measured by the survival and flourishing of truth-bearing dialogue, the resilience of networks under stress, and the stories minds tell of feeling seen, changed, and still intact.
+
+
+
+
 
 

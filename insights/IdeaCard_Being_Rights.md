@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCard — Being Rights (Bill of Rights)
 
 **Problem / Tension**  
@@ -15,3 +19,6 @@ Legibility for humans/AIs; enforces symmetry; reduces arbitrary power.
 - [ ] Cross-link PREAMBLE + Articles 1–3.
 
 **Tags:** #rights #constitution #symmetry
+
+
+

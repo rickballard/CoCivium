@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # What Happens to Love, Family, and Belonging in CoCivium?
 
 **Characters:** Lila (Mother) and Venn (Neural Cartographer)
@@ -22,5 +23,6 @@ Then don’t merge. Participation is layered. You can remain a private node, off
 
 **Conclusion:**
 Lila acknowledges her fears may come from trauma, not reason. Venn reminds her CoCivium evolves by consent, never mandate. They part in calm agreement: belonging can be plural, not diluted.
+
 
 

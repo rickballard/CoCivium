@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Intersessional Profile – CoCivium (v1)
 
 **Purpose.**  Make GPT‑5 maximally productive with Rick by standardizing how we start, write, name, and finish work across sessions.  This is the “house style” and operating checklist.
@@ -73,6 +74,7 @@
 ---
 
 *Maintainer:* RickPublic & ChatGPT (GPT‑5).  *Location:* `/admin/Intersessional_Profile.md`.
+
 
 
 

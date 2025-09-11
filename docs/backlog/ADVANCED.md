@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Advanced Contributor Backlog (curated)
 
 _Last updated 2025-08-26._
@@ -48,4 +49,5 @@ otes.
 <!-- LIVE:BEGIN -->
 _No labeled Issues matched   ype:task + level:advanced right now._
 <!-- LIVE:END -->
+
 

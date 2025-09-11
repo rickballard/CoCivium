@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Admin — What’s happening now
 **Owner:** @rickballard
 **Updated:** 025-08-10
@@ -12,4 +16,8 @@
 
 ## Later
 - Interactive progress map (Phase B), per-axis RD dents.
+
+
+
+
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium Progress Map (Spider Web) — Plan
 
 **Path:** `CoCivium/admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md`
@@ -217,6 +218,7 @@ site/
 - **Why CI ≈ “Godstuff congruence.”** Until we formalize an Ethical Alignment Score, CI (coherence/resonance to the stated vision and recursive ethics) is the least-bad proxy.  The east radial will later multiply CI × EAS.
 
 - **Why 8 axes.** Human legibility and compass mapping beat maximal completeness.  RD as dents keeps duplication painful without breaking symmetry.
+
 
 
 

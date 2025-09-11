@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Ethos
 
 Curated, canonical documents for **Ethos**.
@@ -6,4 +10,8 @@ Curated, canonical documents for **Ethos**.
 
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
+
+
+
+
 

@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Workbench
 
 Minimal daily launcher:
@@ -6,4 +11,9 @@ Minimal daily launcher:
 - No stray consoles
 
 Edit `Start-Workbench.ps1` to tweak tabs.
+
+
+
+
+
 

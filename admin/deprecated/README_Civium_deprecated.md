@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ## CoCivium: A Beginning
 
 The scattered people—the Broken—swam up to the shoreline with wounds beyond counting. They had been a people for eons. Just surviving had carried them far, but they were here mostly due to chance and wild fortune. Now they lay on their backs, prostrate, suffering the loss of homes and dreams that might have been, heart-wounds they could not name.
@@ -104,6 +105,7 @@ We are not building a monument—we are composing a resonance. You’re part of 
 ---
 
 *"In every scattered shard, the whole whispers."*
+
 
 
 

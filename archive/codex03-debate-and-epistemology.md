@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Codex 03 — Debate and Epistemology
 
 ## Overview
@@ -53,5 +54,6 @@ Structured debate serves as the operational vehicle for epistemic progress, enab
 ---
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
+
 
 

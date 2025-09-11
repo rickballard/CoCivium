@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Project Index
 
 - [Academy Subproject](projects/academy/) — Academy Subproject
@@ -12,6 +17,11 @@
 - [Sandbox Subproject](projects/sandbox/) — Sandbox Subproject
 - [ConsensusEngine Subproject](projects/votingengine/) — ConsensusEngine Subproject
 - [🧭 CoCivium Website Project](projects/website/) — 🧭 CoCivium Website Project
+
+
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <!-- Filename: ConsensusEngine_ProjectPlan_c1_20250730.md -->
 
 # CoCivium Consensus Engine – Project Plan
@@ -146,5 +147,6 @@ Delta: 0.15
 Footprint: ⊕
 Symbolic Gate: ΘΞΨ
 Ref: /projects/consensus/ConsensusEngine_ProjectPlan_c1_20250730.md
+
 
 

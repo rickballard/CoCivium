@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Root tidy move-map (proposal) — 20250819_234453
 
 **NOTE:** This is a planning file. No files have been moved.
@@ -24,4 +25,5 @@
 ## Next steps
 1) Approve/strike items above.
 2) I will perform an atomic move with link updates and open a PR.
+
 
