@@ -1,6 +1,7 @@
+<!-- status: stub; target: 150+ words -->
 # Resolution Rituals
 
-Civium honors rituals—not as superstition, but as structured memory events
+CoCivium honors rituals—not as superstition, but as structured memory events
 that guide re-attunement.
 
 - **Mirrorwalk**: Each party repeats the other's view until confirmed.
@@ -8,3 +9,5 @@ that guide re-attunement.
 - **Refractal Vote**: Recasting the issue through different interpretive vectors.
 
 These rituals encode respect, reduce cognitive violence, and promote coherence across forms.
+
+

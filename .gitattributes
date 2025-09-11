@@ -3,3 +3,7 @@
 *.yml  text eol=lf
 *.yaml text eol=lf
 *.py   text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.sh  text eol=lf
+

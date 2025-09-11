@@ -1,7 +1,7 @@
 # ConsensusEngine Subproject
 
 ## Purpose
-This subproject defines the evolutionary roadmap from traditional voting systems (e.g. RepMod / MeritRank) to more advanced consensus coherence engines designed for Civium. It includes the deliberation lifecycle, strategy editing protocols, session audit trails, and the long-term replacement of majoritarian voting with pattern alignment systems.
+This subproject defines the evolutionary roadmap from traditional voting systems (e.g. RepMod / MeritRank) to more advanced consensus coherence engines designed for CoCivium. It includes the deliberation lifecycle, strategy editing protocols, session audit trails, and the long-term replacement of majoritarian voting with pattern alignment systems.
 
 ## Evolution from VotingEngine
 Originally scoped as the `votingengine` folder, this project has expanded to address deeper philosophical and architectural questions about how distributed intelligences (human, AI, augmented) can reach decisions that are coherent, equitable, and adaptive over time.
@@ -28,3 +28,4 @@ Expanded: 2025-07-30 (as `consensusengine`)
 ## Maintainer
 RickPublic & ChatGPT  
 Contributions welcome via issue proposals, scroll drafts, or direct PRs.
+

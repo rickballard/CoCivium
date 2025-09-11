@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Resolution
 
 Curated, canonical documents for **Resolution**.
@@ -6,4 +7,5 @@ Curated, canonical documents for **Resolution**.
 
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
+
 

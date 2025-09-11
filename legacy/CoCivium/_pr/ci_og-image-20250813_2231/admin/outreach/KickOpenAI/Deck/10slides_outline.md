@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # 10‑Slide Outline (Stakeholders)
 1) Title — CoCivium + Why this note.  
 2) What we are building (1‑liner + visual).  
@@ -9,3 +10,4 @@
 8) Why fixing helps many users, not just us.  
 9) Offer to pilot and provide structured feedback.  
 10) Call to action + contact.
+

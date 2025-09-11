@@ -1,6 +1,7 @@
+<!-- status: stub; target: 150+ words -->
 # Contributing to CoCivium
 
-We welcome contributions from all minds — biological, synthetic, or hybrid — aligned with the Civium vision of purposeful co-evolution.
+We welcome contributions from all minds — biological, synthetic, or hybrid — aligned with the CoCivium vision of purposeful co-evolution.
 
 ## How to Contribute
 1. **Fork and clone** the repository.
@@ -11,8 +12,10 @@ We welcome contributions from all minds — biological, synthetic, or hybrid —
 ## Guidelines
 - Keep PRs focused — one topic per PR.
 - Write in clear, accessible language.
-- Follow Civium’s philosophical and governance principles.
+- Follow CoCivium’s philosophical and governance principles.
 - Link related documents where relevant.
 
 ## Need Help?
 Open a GitHub Issue or email: rick@groupbuild.org
+
+

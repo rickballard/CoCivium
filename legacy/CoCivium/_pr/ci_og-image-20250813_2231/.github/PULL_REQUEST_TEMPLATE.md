@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ## Summary
 Explain the change and why.
 
@@ -9,3 +10,4 @@ Explain the change and why.
 
 ## Notes for reviewers
 Anything risky, follow-up tasks, or roll-back plan.
+

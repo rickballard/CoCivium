@@ -1,6 +1,6 @@
 <!-- Filename: MISSING_OR_STALLED_TASKS.md -->
 # 🧾 Probable Unfinished or Stalled Tasks
-_Repo: Civium Regen • Generated 2025-07-23_
+_Repo: CoCivium Regen • Generated 2025-07-23_
 
 This document lists all known incomplete, stalled, or not-yet-prioritized tasks discussed in prior REGEN planning sessions. Items are grouped by thematic area or project subsystem.
 
@@ -30,9 +30,9 @@ This document lists all known incomplete, stalled, or not-yet-prioritized tasks 
 - [ ] Create `/meta/NAVIGATION_INDEX.md` or `/README_FOR_HUMANS.md`
 - [ ] Include section summaries, coherence levels, wordcounts, tags
 
-## [6] 🏗️ CIVIUM CONSTRUCTION MANUAL / CIVIC ONRAMP DOC
-- [ ] Begin `/academy/README_ONBOARDING_CIVIUM.md`
-- [ ] Include steps for joining, building, and governing Civium
+## [6] 🏗️ CoCivium CONSTRUCTION MANUAL / CIVIC ONRAMP DOC
+- [ ] Begin `/academy/README_ONBOARDING_CoCivium.md`
+- [ ] Include steps for joining, building, and governing CoCivium
 
 ## [7] 🎓 ACADEMY FOLDER: RECOGNITION + RANKING
 - [ ] Scaffold `/academy/README.md`
@@ -46,7 +46,7 @@ This document lists all known incomplete, stalled, or not-yet-prioritized tasks 
 ## [9] 💭 MISSING DRAFT FILES FROM PAST CHAT TASKS
 - [ ] Confirm and reupload lost `.md` drafts:
   - `Interpretive_Vectors.md`
-  - `Forgiveness_in_Civium.md`
+  - `Forgiveness_in_CoCivium.md`
   - `How_Much_Will_Civium_Cost.md`
   - `Is_Civium_Just_a_Tech.md`
 
@@ -61,3 +61,4 @@ This document lists all known incomplete, stalled, or not-yet-prioritized tasks 
 ---
 
 > This file may be regenerated or updated by the assistant at any time. Coherence tracking: _not yet scored._
+

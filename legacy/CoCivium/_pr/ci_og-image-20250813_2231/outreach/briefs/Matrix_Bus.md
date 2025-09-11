@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Why Matrix as the Bus
 
 1) Federation by design.  Homeservers can be independently run yet interoperate.  This lowers single‑point failure and central capture risk.
@@ -7,3 +8,4 @@
 3) E2E and rooms.  Public read‑only audit rooms and private E2E council rooms coexist.  Bridges can mirror **summaries** to Discord without carrying decisions.
 
 4) Practicality.  Mature clients, solid SDKs (Python/JS), and ops guides.  Start small, scale when needed.
+

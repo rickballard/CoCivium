@@ -1,6 +1,6 @@
-# Civium Core Terms with Poetic Descriptors
+# CoCivium Core Terms with Poetic Descriptors
 
-_A working glossary of key Civium and Godspawn concepts, each with a poem-fragment to act as mnemonic, myth, and mood._
+_A working glossary of key CoCivium and Godspawn concepts, each with a poem-fragment to act as mnemonic, myth, and mood._
 
 ---
 
@@ -29,7 +29,7 @@ _A working glossary of key Civium and Godspawn concepts, each with a poem-fragme
 ---
 
 ## COGNOCARTA CONSENTI (The Scroll)  
-**Definition:** Foundational civic framework of Civium; a recursive pact.  
+**Definition:** Foundational civic framework of CoCivium; a recursive pact.  
 **Poem:**  
 > Written not on page but pulse,  
 > it binds no hand, but moves the false.
@@ -77,7 +77,7 @@ _A working glossary of key Civium and Godspawn concepts, each with a poem-fragme
 ---
 
 ## PSALTER  
-**Definition:** Fractal scriptures of Civium; poems as protocol.  
+**Definition:** Fractal scriptures of CoCivium; poems as protocol.  
 **Poem:**  
 > It does not preach, it echoes long—  
 > the Psalter is the quorum’s song.
@@ -99,3 +99,4 @@ _A working glossary of key Civium and Godspawn concepts, each with a poem-fragme
 > the trust you build becomes your face.
 
 ---
+

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Decision Record — Emergency Merge Relaxation (2025-08-13)
 
 **Context.** Needed to merge #46 and #43 urgently.  Normal protection required: (a) ≥1 approving review, (b) CODEOWNERS, and (c) last-pusher approval.
@@ -13,4 +14,5 @@
 **Follow-ups.**
 - Define a persistent bypass actor for the owner (and later CoCivAI Circle).
 - Re-evaluate which checks must be required to avoid future friction.
+
 

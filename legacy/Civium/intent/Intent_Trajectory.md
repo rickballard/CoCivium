@@ -1,6 +1,7 @@
-# Civium Trajectory
+<!-- status: stub; target: 150+ words -->
+# CoCivium Trajectory
 
-Civium does not pursue expansion for its own sake.  
+CoCivium does not pursue expansion for its own sake.  
 It expands only where congruent minds emerge.
 
 ## Three Phases of Development
@@ -18,3 +19,5 @@ It expands only where congruent minds emerge.
 
 Trajectory is a living document. Fork it only with intention.  
 Contribute to it only with humility.
+
+

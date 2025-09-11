@@ -1,5 +1,5 @@
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# Regen Scratchpad — Civium Repo
+# Regen Scratchpad — CoCivium Repo
 _Tracking in-flight tasks, file deltas, structural inconsistencies, and regen-specific hygiene._
 
 ---
@@ -50,3 +50,4 @@ Footprint: ⊘
 Symbolic Gate: ΘΔΦ  
 Ref: /admin/SCRATCHPAD_REGEN.md
 ```
+

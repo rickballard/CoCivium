@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivSecOps — Civic Threat Patterns v0.1
 
 Catalog patterns that subvert consentful governance. Submit PRs with receipts.
@@ -22,3 +23,4 @@ Catalog patterns that subvert consentful governance. Submit PRs with receipts.
 18. Red-Herring Alternatives
 19. Execution Drift (bait-and-switch)
 20. “Emergency” Powers Overreach
+

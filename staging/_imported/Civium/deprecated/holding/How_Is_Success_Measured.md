@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # How Is Success Measured?
 
 **Characters:**  
@@ -6,7 +7,7 @@ Juno (a pragmatic coder who distrusts utopias)
 
 ---
 
-**Marla:** "Any serious system needs benchmarks. What are Civium's?"
+**Marla:** "Any serious system needs benchmarks. What are CoCivium's?"
 
 **Juno:** "Define success. Is it daily engagement? Or not imploding?"
 
@@ -16,9 +17,10 @@ Juno (a pragmatic coder who distrusts utopias)
 
 **Marla:** "You want user analytics. I want cultural metrics."
 
-**Juno:** "Civium needs both. Show me graphs. Then show me poems."
+**Juno:** "CoCivium needs both. Show me graphs. Then show me poems."
 
 ---
 
 **Conclusion:**  
 Success is both qualitative and quantitative—measured by the survival and flourishing of truth-bearing dialogue, the resilience of networks under stress, and the stories minds tell of feeling seen, changed, and still intact.
+

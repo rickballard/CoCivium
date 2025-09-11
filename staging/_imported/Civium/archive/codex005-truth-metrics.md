@@ -16,7 +16,7 @@ metadata:
 
 # Codex005: Truth Metrics
 
-Outlines how [[Civium]] systems assess, weight, and evolve their relationship to “truth” across knowledge domains and social consensus.
+Outlines how [[CoCivium]] systems assess, weight, and evolve their relationship to “truth” across knowledge domains and social consensus.
 
 ---
 
@@ -93,4 +93,5 @@ Models may query:
 
 ---
 
-[tags]: # (truth evaluation scoring epistemology civium AI consensus post-fact age)
+[tags]: # (truth evaluation scoring epistemology CoCivium AI consensus post-fact age)
+

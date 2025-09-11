@@ -9,7 +9,7 @@
 - `tools/dedupe_against_repo.py` — optional script to compare this dump against the repo tree and annotate duplicates across the repo.
 
 **Recommended commit path.**
-Place this whole folder at `admin/inbox/GmailDump_20250811/` in the Civium repo, commit, and push.  Do not rename internal files before commit, to keep the manifest valid.  
+Place this whole folder at `admin/inbox/GmailDump_20250811/` in the CoCivium repo, commit, and push.  Do not rename internal files before commit, to keep the manifest valid.  
 
 **Integrity check.**
 To verify on your machine:
@@ -23,3 +23,4 @@ python tools/dedupe_against_repo.py --verify-only admin/inbox/GmailDump_20250811
 2) Triage text-bearing files for incorporation into `insights/`, `scrolls/`, or `admin/` as appropriate.  
 3) For binaries (images, PDFs), link from relevant docs or move into `assets/` with provenance notes.  
 4) Leave this inbox snapshot immutable.  Derivatives should reference the source path and SHA-256.
+

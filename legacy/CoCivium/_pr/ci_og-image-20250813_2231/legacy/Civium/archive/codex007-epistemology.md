@@ -5,7 +5,7 @@ layer: "Codex"
 status: "🔬 Experimental"
 version: "0.8"
 derived_from: "civium_constitution_augment.md"
-description: "Addresses how [[Civium]] defines knowledge, fallibility, and evolving belief."
+description: "Addresses how [[CoCivium]] defines knowledge, fallibility, and evolving belief."
 ---
 <!--
 metadata:
@@ -16,13 +16,13 @@ metadata:
 
 # Codex007: [[Epistemology]]
 
-Outlines how [[Civium]] systems define, track, and challenge claims to truth. Anchors governance to structured knowledge hierarchies and falsifiability.
+Outlines how [[CoCivium]] systems define, track, and challenge claims to truth. Anchors governance to structured knowledge hierarchies and falsifiability.
 
 ---
 
 ## 1. Truth Anchors
 
-[[Civium]] organizes knowledge into:
+[[CoCivium]] organizes knowledge into:
 
 - **Observed** – Empirical, measurable, repeatable
 - **Reported** – Verifiable by trusted source or timestamp
@@ -77,7 +77,7 @@ Each claim includes:
 
 ## 6. Ontology Tools
 
-[[Civium]] supports:
+[[CoCivium]] supports:
 
 - Ontological scaffolding (classifying claims)
 - Claim trees (dependencies + contradictions)
@@ -97,3 +97,4 @@ Epistemic integrity required for:
 ---
 
 [tags]: # (truth epistemology knowledge civic AI falsifiability)
+

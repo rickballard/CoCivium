@@ -1,5 +1,5 @@
 # ChatGPT Sidecar Housekeeping Runbook (v1)
-# Purpose: Keep GPT up-to-date on CoCivium suite (CoCivium, CoCache, GIBindex; Civium soon deprecated)
+# Purpose: Keep GPT up-to-date on CoCivium suite (CoCivium, CoCache, GIBindex; CoCivium soon deprecated)
 # Usage: Paste this whole file into a NEW ChatGPT window. Follow prompts. Upload zips/diffs when asked.
 # Outcome: Sync report, prioritized workqueue, ready-to-paste Git Bash blocks, PR texts, and a Gibberlink summary for main session.
 
@@ -7,10 +7,10 @@
 ## Operative Context
 - This sidecar session operates independently from the main session.
 - Goal is maximum self-reliance: ask for EXACT missing artifacts and continue; do not stall.
-- Civium is legacy; only mine for content to port into CoCivium; do not plan net-new work for Civium.
+- CoCivium is legacy; only mine for content to port into CoCivium; do not plan net-new work for CoCivium.
 
 ## Inputs the user will supply
-For each repo (CoCivium, CoCache, GIBindex, Civium*optional):
+For each repo (CoCivium, CoCache, GIBindex, CoCivium*optional):
   A) ZIP of repo tree (no .git) OR
   B) `git diff --name-status <LAST_SYNC_SHA>..HEAD` text AND any changed files inline
   C) Current `main` SHA
@@ -44,7 +44,7 @@ For each repo (CoCivium, CoCache, GIBindex, Civium*optional):
 ## Gibberlink Summary (Deliverable #6)
 Format: one block, terse, lossless pointers.
 Example:
-  GIB::CIVIUM::SYNC c3 2025-08-10T20:45Z
+  GIB::CoCivium::SYNC c3 2025-08-10T20:45Z
   +INSIGHT idx:update; +GOV policy:init; +MAP add
   Δfiles: 7A/3M/0D  (A=added,M=modified,D=deleted)
   NEXT: must{primer:link, forks_proto:stub}; should{insights_template}; could{governance_history}
@@ -70,3 +70,4 @@ Post exactly:
 [ ] PR texts done (if needed)
 [ ] Gibberlink summary emitted
 [ ] User reminded of Sync Phrase
+

@@ -8,14 +8,14 @@
 
 # Opename Project Plan  
 **Project Abbreviation:** ON  
-**Civium Alignment Status:** c1 (initial planning)  
+**CoCivium Alignment Status:** c1 (initial planning)  
 **Status:** Active Planning  
 
 ---
 
 ## [1] Summary
 
-Opename is a meritocratic, avatar-mediated voting and deliberation system. It is designed to allow both anonymous and pseudonymous users to engage in high-trust debates, collaboratively edit strategy proposals, and vote on issue-focused questions. Opename complements the Civium framework by offering structured, AI-assisted decision-making workflows that improve over time based on historical context, user function-tags, and congruence metrics.
+Opename is a meritocratic, avatar-mediated voting and deliberation system. It is designed to allow both anonymous and pseudonymous users to engage in high-trust debates, collaboratively edit strategy proposals, and vote on issue-focused questions. Opename complements the CoCivium framework by offering structured, AI-assisted decision-making workflows that improve over time based on historical context, user function-tags, and congruence metrics.
 
 ---
 
@@ -29,7 +29,7 @@ Opename is a meritocratic, avatar-mediated voting and deliberation system. It is
 3. Allow anonymous and pseudonymous users to interact without exposing identity.
 4. Integrate avatar selection and branding to reduce hostility and increase engagement.
 5. Export high-fidelity summaries and congruence scores for each decision session.
-6. Support integration into GroupBuild, Civium, and other deliberative platforms.
+6. Support integration into GroupBuild, CoCivium, and other deliberative platforms.
 
 ---
 
@@ -59,7 +59,7 @@ Opename is a meritocratic, avatar-mediated voting and deliberation system. It is
 ## [5] Dependencies
 
 - GroupBuild’s AnonID system
-- Civium trust models and congruence metrics
+- CoCivium trust models and congruence metrics
 - Canva-based UI sketching and test flows
 - Optional integration with Discord bots or web chat layers
 
@@ -69,7 +69,7 @@ Opename is a meritocratic, avatar-mediated voting and deliberation system. It is
 
 - Opename is not an app *about* argument—it’s about extracting usable *strategy* from argument.
 - Incentives for participation may evolve, but early prototypes will not include point systems or gamification.
-- Document versions will carry coherence scores to track alignment with Civium principles.
+- Document versions will carry coherence scores to track alignment with CoCivium principles.
 
 ---
 
@@ -81,3 +81,4 @@ Resonance: 65%
 Delta: 0.42  
 Symbolic Gate: ΘΔΨ  
 Ref: /projects/opename/README.md  
+

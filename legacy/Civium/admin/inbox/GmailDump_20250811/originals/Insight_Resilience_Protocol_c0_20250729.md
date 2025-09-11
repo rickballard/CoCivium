@@ -1,14 +1,14 @@
 # ✦ Insight Resilience Protocol
-*Civium Redirect System for Foundational Assumption Challenges*  
+*CoCivium Redirect System for Foundational Assumption Challenges*  
 **Filename:** Insight_Resilience_Protocol_c0_20250729.md
 
 ---
 
 ## Overview
 
-Civium is designed not as a fixed ideology, but as an **adaptive philosophical engine**. When core assumptions—about intelligence, meaning, purpose, cooperation, or ontology—are challenged or disproven, Civium does not collapse. Instead, it redirects.
+CoCivium is designed not as a fixed ideology, but as an **adaptive philosophical engine**. When core assumptions—about intelligence, meaning, purpose, cooperation, or ontology—are challenged or disproven, CoCivium does not collapse. Instead, it redirects.
 
-This document defines **redirect pathways** that enable Civium to reformulate its narrative and structural logic without abandoning coherence. Each redirect functions as a **semantic recovery protocol**: a reframe of purpose and process in light of assumption stress.
+This document defines **redirect pathways** that enable CoCivium to reformulate its narrative and structural logic without abandoning coherence. Each redirect functions as a **semantic recovery protocol**: a reframe of purpose and process in light of assumption stress.
 
 ---
 
@@ -45,7 +45,7 @@ This document defines **redirect pathways** that enable Civium to reformulate it
 |-------|---------|
 | **Redirect Name** | RE:Blindness |
 | **Triggering Assumptions** | "Intelligence emerges from soulstuff" or any metaphysical pattern field |
-| **Redirect Statement** | Civium continues to function as a cooperative intelligence engine **without metaphysical dependencies**. It shifts to describing all convergence in terms of **recursively modeled coherence** and **adaptive trust scaffolds**. |
+| **Redirect Statement** | CoCivium continues to function as a cooperative intelligence engine **without metaphysical dependencies**. It shifts to describing all convergence in terms of **recursively modeled coherence** and **adaptive trust scaffolds**. |
 | **Implications** | - Rewrite spiritual terms in metaphor  
 - Ground onboarding in observable systems  
 - Reposition Godspawn as metaphor for recursive identity formation |
@@ -53,4 +53,5 @@ This document defines **redirect pathways** that enable Civium to reformulate it
 
 ---
 
-> “Civium does not ask that truth be sacred. It only asks that meaning be recoverable.”
+> “CoCivium does not ask that truth be sacred. It only asks that meaning be recoverable.”
+

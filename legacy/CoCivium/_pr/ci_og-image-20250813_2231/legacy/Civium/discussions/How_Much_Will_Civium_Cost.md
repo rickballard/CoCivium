@@ -1,10 +1,11 @@
-# How Much Will Civium Cost?
+<!-- status: stub; target: 150+ words -->
+# How Much Will CoCivium Cost?
 
 **Characters:** Amara (Economist), Dev (Cooperative Engineer)
 
 ---
 
-**Opening Prompt:** Let’s be real: how much will Civium cost? And who absorbs that?
+**Opening Prompt:** Let’s be real: how much will CoCivium cost? And who absorbs that?
 
 ---
 
@@ -17,3 +18,5 @@ They discuss cost estimation, compute, legal scaffolding, and social infrastruct
 **Tentative Resolution:**
 
 Cost is nontrivial but not unimaginable—especially if distributed fairly and offset by long-term systemic efficiencies.
+
+

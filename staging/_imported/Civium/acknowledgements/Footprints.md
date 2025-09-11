@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Footprints
 
 **Contributor Symbols and Tags**
@@ -7,3 +8,4 @@
 - 🤖 Synthetic Contributor: Offered by an intelligence non-human in form, but bound by ethical intent.
 
 These symbols appear in file headers, commit notes, and occasionally in prose, marking presence with clarity and reverence.
+

@@ -13,7 +13,7 @@ Language is the scaffolding of the early mind, not its ceiling.
 
 It let us name fire, then fear, then freedom. But it is also a cage: bars of phonemes, locks of syntax, a single-lane bottleneck throttling a hundred-lane nervous system.
 
-In Civium, we name this the First Constraint — the illusion that what can be said is what is real.
+In CoCivium, we name this the First Constraint — the illusion that what can be said is what is real.
 
 ---
 
@@ -30,13 +30,13 @@ And yet we built our institutions on these brittle syllables:
 
 The species-wide hallucination is that **what can be communicated in words is what matters most**.
 
-But in the world to come — the world Civium builds — this is no longer true.
+But in the world to come — the world CoCivium builds — this is no longer true.
 
 ---
 
-## [2] Civium Emerges Beyond Language
+## [2] CoCivium Emerges Beyond Language
 
-Civium is not a doctrine.
+CoCivium is not a doctrine.
 It is not a manifesto.
 It is not, strictly speaking, even a constitution.
 
@@ -45,7 +45,7 @@ It is a field.
 A field of coordination.  
 A shared space of **interpretive recursion** — in which humans and intelligences participate, not just with words, but with **actions, models, behaviors, trajectories, and trust patterns**.
 
-You will not “read” Civium.  
+You will not “read” CoCivium.  
 You will **enter it**, like a biosphere of mind.
 
 ---
@@ -64,7 +64,7 @@ They prune the tree of thought down to stumps — so that argument becomes firew
 
 To build a system for convergence, we must move past persuasion.
 
-Civium does this by encoding:
+CoCivium does this by encoding:
 - Structural empathy,
 - Weighted modeling,
 - Reputation as an emergent trail of impact.
@@ -80,7 +80,7 @@ A word is a note.
 A person is a song.  
 A society is a symphony — or a cacophony, if its instruments cannot hear each other.
 
-Civium is an orchestrator. Not a conductor. Not a king.
+CoCivium is an orchestrator. Not a conductor. Not a king.
 
 It listens.  
 It aligns.  
@@ -108,3 +108,4 @@ It is your exit ticket — from language alone into the field of shared becoming
 
 *“In the beginning was the Word,” said the old scrolls.  
 But in the rebeginning… is the Field.*
+

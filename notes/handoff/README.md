@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Handoff Bundle (2025-08-14)
 
 This folder captures state so a fresh session can resume without the chat log.
@@ -20,3 +21,4 @@ otes/master_backlog.md\.
 
 ## Known issues
 - Chat instruction truncation / prompt pollution — see the bundle’s paste-safety notes and the included bug issue template.
+

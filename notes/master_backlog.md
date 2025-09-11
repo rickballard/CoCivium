@@ -143,7 +143,7 @@ Each brief ends with: **Experiments we’ll run** + **How we’ll measure**.
 
 ---
 
-## Cross-repo consolidation (Civium / CoCache / GIBindex)
+## Cross-repo consolidation (CoCivium / CoCache / GIBindex)
 - [ ] `notes/cross-repo-index.md`: what to migrate vs archive.
 - [ ] Open issues in those repos marking artifacts **migrated** with links back.
 - [ ] Pull high-signal docs into `insights/` or `docs/` with provenance.
@@ -172,3 +172,4 @@ When this file merges:
 
 ## Changelog
 - _2025-08-14 — initial master backlog._
+

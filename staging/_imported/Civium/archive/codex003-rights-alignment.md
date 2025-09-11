@@ -16,7 +16,7 @@ metadata:
 
 # Codex003: Rights Alignment Engine
 
-This Codex governs how [[Civium]]’s AI systems align with foundational rights and community norms.
+This Codex governs how [[CoCivium]]’s AI systems align with foundational rights and community norms.
 
 ---
 
@@ -26,7 +26,7 @@ Ensure all AI behavior reflects and preserves:
 
 - Fundamental individual and collective rights (see `/sections/rights.md`)
 - Cross-cultural dignity, fairness, and transparency
-- [[Civium]]’s evolving consensus on moral boundaries
+- [[CoCivium]]’s evolving consensus on moral boundaries
 
 ---
 
@@ -68,9 +68,9 @@ When conflicts arise:
 
 ## 5. Ethics Plugins
 
-All [[Civium]] agents must support modular ethics profiles:
+All [[CoCivium]] agents must support modular ethics profiles:
 
-- Default: [[Civium]] Human Rights Standard
+- Default: [[CoCivium]] Human Rights Standard
 - Optional: Localized cultural extensions
 - Experimental: Rights-minimizing AI for academic testing (sandboxed only)
 
@@ -87,3 +87,4 @@ Each update to this Codex requires:
 ---
 
 [tags]: # (rights ai-ethics codex alignment appeals plugins consensus-review)
+

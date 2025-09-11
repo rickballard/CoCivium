@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # HOA / Co-op Board Governance Launch Kit — v0
 
 **Use-case.** Maintenance decisions, dues, bylaws. Expect disputes; emphasize appeals and receipts.
@@ -19,3 +20,4 @@ Adopt `/kits/GLK/common/Guardrails.md`. Add sector policy hooks here.
 
 ## Receipts
 Publish agendas, minutes, and execution confirmations in a stable location (repo/docs, wiki, or website) and link them from the log.
+

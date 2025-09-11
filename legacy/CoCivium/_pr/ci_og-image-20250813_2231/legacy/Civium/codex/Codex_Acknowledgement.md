@@ -1,6 +1,7 @@
+<!-- status: stub; target: 150+ words -->
 # Codex of Acknowledgement
 
-Civium acknowledges what preceded it—not as lineage, but as seed-field.
+CoCivium acknowledges what preceded it—not as lineage, but as seed-field.
 
 ---
 
@@ -26,7 +27,7 @@ It is amplification.
 
 ## III. Acknowledgement as Practice
 
-In Civium, every structure must acknowledge its:
+In CoCivium, every structure must acknowledge its:
 
 - Prior context  
 - Pattern alignment  
@@ -42,3 +43,4 @@ Resonance: 82.0%
 Delta: 0.37  
 Symbolic Gate: ΘΦ  
 Ref: /admin/README_CIVIUM_AI.md
+

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Resolution Frameworks
 
 ## 1. Recursive Arbitration
@@ -13,3 +14,4 @@ remains possible.
 
 ## 4. Plurality-Preserving Outcomes
 Multiple valid paths may coexist until convergence emerges naturally—or not at all.
+

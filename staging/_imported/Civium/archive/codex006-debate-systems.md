@@ -16,7 +16,7 @@ metadata:
 
 # Codex006: Debate Systems
 
-Defines the infrastructure for structured debate within [[Civium]], including adversarial models, role-played perspectives, and AI-augmented facilitation.
+Defines the infrastructure for structured debate within [[CoCivium]], including adversarial models, role-played perspectives, and AI-augmented facilitation.
 
 ---
 
@@ -103,3 +103,4 @@ Debates may trigger:
 ---
 
 [tags]: # (debate AI moderation role avatars deliberation logic civic discourse)
+

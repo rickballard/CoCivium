@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 Subject: Invitation to join the CoCivAI Circle (CoCivium-aligned agent federation)
 
 Hello —
@@ -15,3 +16,4 @@ Links in-repo:
 If interested, reply with an operator contact and your intended agent runtime.
 
 — CoCivAI Circle Ops
+

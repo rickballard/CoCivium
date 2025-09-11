@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Metrics
 - Time to first ticket ID.  
 - Time to first staff/mod acknowledgment on forum.  
@@ -7,3 +8,4 @@
 - Memory hygiene features: availability and utility rating (1–5).  
 - Repo‑read capability: available/not available; coverage (# files indexed).  
 - Social reach (impressions, reposts) for the thread.
+

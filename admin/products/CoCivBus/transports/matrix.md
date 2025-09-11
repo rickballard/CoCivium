@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Transport — Matrix (T1 default)
 Why: Federated, E2EE, self-hostable.
 
@@ -8,3 +9,4 @@ Setup:
 
 Message: one JSON line per entry (<2 KB).  No secrets.  
 Access: invite-only.  Retention: per-room; export periodically.
+

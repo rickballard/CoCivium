@@ -1,12 +1,13 @@
-# 📜 Git Commit Instructions: Civium README Update
+<!-- status: stub; target: 150+ words -->
+# 📜 Git Commit Instructions: CoCivium README Update
 
 Replace the root `README.md` with the clarity-optimized, lore-embedded version.
 
 ---
 
 ```bash
-# Navigate to your Civium repo
-cd ~/Documents/GitHub/Civium
+# Navigate to your CoCivium repo
+cd ~/Documents/GitHub/CoCivium
 
 # Move the downloaded README into the repo root
 mv ~/Downloads/README_FirstImpression_c10_20250806.md ./README.md
@@ -30,3 +31,5 @@ This updates the root `README.md` with:
 - A first-impression experience aligned with future-facing minds
 
 <!-- Filename: commit_civium_readme.md -->
+
+

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Governance Fork & Reintegration Policy
 
 ## Forks
@@ -11,3 +12,4 @@ A fork may occur if:
 
 ## Record-Keeping
 - All forks and reintegrations must be documented in `/governance/history/`.
+

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ## Summary
 [What does this change do?]
 
@@ -10,3 +11,4 @@
 ## Notes
 - Provenance included?
 - Section indexes updated?
+

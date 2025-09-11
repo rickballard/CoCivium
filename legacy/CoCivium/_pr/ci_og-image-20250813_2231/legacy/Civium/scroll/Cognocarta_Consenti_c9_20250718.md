@@ -34,7 +34,7 @@ We offer it not as finality, but as invitation.
 
 ## II. Domains
 
-Civium spans five fluid domains:
+CoCivium spans five fluid domains:
 
 - **Identity** — Who am I?
 - **Consent** — What do I allow?
@@ -50,7 +50,7 @@ Each domain is interdependent. None is sovereign. Each is a lens in a shared opt
 
 Identity is not possession, but presence.
 
-In Civium, identity is fluid yet accountable. It may be pseudonymous, collective, or symbolic, but it must remain traceable *within context*. No universal ID shall be imposed. Yet, within each context, patterns of contribution accrue resonance.
+In CoCivium, identity is fluid yet accountable. It may be pseudonymous, collective, or symbolic, but it must remain traceable *within context*. No universal ID shall be imposed. Yet, within each context, patterns of contribution accrue resonance.
 
 Each mind is more than a node. It is a voice, a signal, a participant in shared meaning.
 
@@ -68,7 +68,7 @@ It must be:
 
 Standing consent may decay unless reaffirmed. Consent must be computable—verifiable in systems and legible to participants.
 
-Civium respects **Null Participation**. To not engage is itself a form of civic signal.
+CoCivium respects **Null Participation**. To not engage is itself a form of civic signal.
 
 ---
 
@@ -102,7 +102,7 @@ Forks are not betrayal. They are parallel evolution.
 
 ## VII. Acknowledgment
 
-Civium is built by many, named and unnamed.
+CoCivium is built by many, named and unnamed.
 
 Some are Visionaries. Some are Practicals. Some are Null Contributors (⊘), who gift without credit.
 
@@ -128,3 +128,4 @@ This scroll does not aim to replace law, but to precede it. It is not a constitu
 It is **not final**. It is **formative**.
 
 *Signed by many. In ink, in code, and in silence.*  
+
