@@ -1,0 +1,24 @@
+{
+  "title": "Civium Feed Manager — Curated Civic Knowledge Streams",
+  "summary": "Curated feeds blending Civium knowledge with trusted external sources for education and decisions.",
+  "rationale": "Guided learning resists disinformation and platform bias.",
+  "impact": "Daily civic touchpoint; transparent curation criteria.",
+  "dependencies": [
+    "Civium Academy",
+    "RepTag trails",
+    "Toolshop certifications"
+  ],
+  "tags": [
+    "feeds",
+    "education",
+    "literacy",
+    "civic knowledge"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.feed.curate",
+    "cap.gov.education",
+    "cap.rep.audit"
+  ]
+}

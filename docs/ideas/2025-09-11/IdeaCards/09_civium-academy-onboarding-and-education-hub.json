@@ -1,0 +1,24 @@
+{
+  "title": "Civium Academy — Onboarding and Education Hub",
+  "summary": "Structured academy to train human+AI pairs in Civium governance, tools, and philosophy.",
+  "rationale": "Formal education lowers barriers and grows competent civic architects.",
+  "impact": "Accelerates adoption and builds skilled contributors; showcases mission.",
+  "dependencies": [
+    "IdeaForge intake",
+    "Progress Map Radials",
+    "Operating Constitution"
+  ],
+  "tags": [
+    "education",
+    "academy",
+    "training",
+    "onboarding"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.education",
+    "cap.onboarding",
+    "cap.training"
+  ]
+}

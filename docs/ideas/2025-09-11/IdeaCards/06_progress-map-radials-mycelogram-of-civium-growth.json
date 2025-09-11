@@ -1,0 +1,24 @@
+{
+  "title": "Progress Map Radials — Mycelogram of Civium Growth",
+  "summary": "Interactive radial diagrams tracking progress across domains, visualized like fungal networks/starfield 'eyes'.",
+  "rationale": "Linear roadmaps miss systemic growth; radials convey organic expansion.",
+  "impact": "Makes progress visible; highlights gaps; doubles as educational/marketing asset.",
+  "dependencies": [
+    "Metrics pipeline",
+    "IdeaForge proposals",
+    "Repo status feeds"
+  ],
+  "tags": [
+    "visualization",
+    "progress",
+    "radials",
+    "mycelogram"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.metrics.visual",
+    "cap.repo.progress",
+    "cap.gov.education"
+  ]
+}

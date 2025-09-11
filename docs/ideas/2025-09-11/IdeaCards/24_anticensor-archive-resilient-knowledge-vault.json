@@ -1,0 +1,27 @@
+{
+  "title": "AntiCensor Archive — Resilient Knowledge Vault",
+  "summary": "Censorship-resistant, compressed archive of at-risk assets, fully indexed, certified, and anonymously accessible.",
+  "rationale": "Preserves contested truths against erasure/manipulation.",
+  "impact": "Safeguards collective memory; supports evidence-based discourse.",
+  "dependencies": [
+    "CiviProof attestations",
+    "Anonymous Access Layer",
+    "Standards Body",
+    "RepTag trails"
+  ],
+  "tags": [
+    "archive",
+    "anti-censorship",
+    "provenance",
+    "privacy",
+    "education"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.archive.persist",
+    "cap.index.crossref",
+    "cap.crypto.verify",
+    "cap.privacy.access"
+  ]
+}

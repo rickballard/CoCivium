@@ -1,0 +1,25 @@
+{
+  "title": "AI Vendor Intent Mapping & Cooption Broker",
+  "summary": "Map CoCivium goals to vendor intents to enable non-exclusive partnerships and a future dev-broker role.",
+  "rationale": "Neutral, congruence-focused brokerage aligns civic value with vendor narratives.",
+  "impact": "Prevents lock-in; increases resilience via multi-vendor compatibility.",
+  "dependencies": [
+    "Operating Constitution",
+    "Congruence Scoring",
+    "RepTag mapping",
+    "Influencer/Partner outreach plan"
+  ],
+  "tags": [
+    "vendors",
+    "partnerships",
+    "strategy",
+    "goals-mapping"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.vendor.map",
+    "cap.gov.broker",
+    "cap.partnerships"
+  ]
+}

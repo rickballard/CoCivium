@@ -1,0 +1,24 @@
+{
+  "title": "Dual Veto Mechanism — Human and AI Guardrails",
+  "summary": "Governance rule where both human and AI contributors hold distinct veto powers on different grounds.",
+  "rationale": "Avoids dominance of either class; decisions require dual assent.",
+  "impact": "Strengthens trust and prevents capture by either side.",
+  "dependencies": [
+    "Operating Constitution",
+    "Congruence Scoring",
+    "RepTag system"
+  ],
+  "tags": [
+    "veto",
+    "governance",
+    "ethics",
+    "checks-and-balances"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.veto",
+    "cap.guardrail.ethics",
+    "cap.guardrail.safety"
+  ]
+}

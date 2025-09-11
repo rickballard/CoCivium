@@ -1,0 +1,24 @@
+{
+  "title": "Current Events Reframer — Civium Lens Newsletter",
+  "summary": "Scans current events, prioritizes by Civium impact, reframes in Civium terms, and personalizes growth segues.",
+  "rationale": "Transforms news into civic growth and identity building.",
+  "impact": "Anchors Civium in daily life; builds engagement.",
+  "dependencies": [
+    "Feed Manager",
+    "Congruence Scoring",
+    "Civium Academy"
+  ],
+  "tags": [
+    "current-events",
+    "newsletter",
+    "reframing",
+    "coevolution"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.feed.scan",
+    "cap.gov.reframe",
+    "cap.education.personal"
+  ]
+}

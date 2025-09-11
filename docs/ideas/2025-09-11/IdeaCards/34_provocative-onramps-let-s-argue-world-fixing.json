@@ -1,0 +1,24 @@
+{
+  "title": "Provocative Onramps — 'Let’s Argue World Fixing!'",
+  "summary": "Onboarding prompts where AIs challenge users with provocative questions, scaffolding outputs into IdeaCards.",
+  "rationale": "Provocation creates engagement; converts debates into artifacts.",
+  "impact": "Makes joining fun and sticky; channels curiosity into contributions.",
+  "dependencies": [
+    "IdeaForge intake",
+    "Civium Academy",
+    "RepTag trails"
+  ],
+  "tags": [
+    "onboarding",
+    "provocation",
+    "engagement",
+    "idea-intake"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.onboarding.prompt",
+    "cap.gov.intake",
+    "cap.cards.create"
+  ]
+}
