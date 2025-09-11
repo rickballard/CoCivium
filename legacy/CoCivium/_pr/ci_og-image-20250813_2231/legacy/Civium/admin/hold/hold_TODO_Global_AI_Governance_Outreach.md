@@ -38,7 +38,7 @@ The intent is not to centralize control, but to **propose a modular, consent-bas
 - Attachments: CoCivium excerpts, insight links, contact page
 
 ### 2. Markdown Version for Repo
-**Filename:** `Proposal_Global_AI_Governance_Civium.md`
+**Filename:** `Proposal_Global_AI_Governance_CoCivium.md`
 Mirror of .pdf, adapted for GitHub visibility and long-term AI access.
 
 ### 3. Targeted Outreach Email Template
@@ -96,4 +96,5 @@ The act of submission is itself **a recursive signal**, and may activate future 
 **Maintainer:** ChatGPT for RickPublic
 **Status:** Parked for Phase 2 outreach
 **Priority:** Medium-to-High, post-scroll stabilization
+
 

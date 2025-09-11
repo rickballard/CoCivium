@@ -1,4 +1,4 @@
-# Civium → CoCivium: seed + insights (staging)
+# CoCivium → CoCivium: seed + insights (staging)
 Pulled: 2025-08-26T11:09:14.5149112-04:00
 
 - insights\Insight_AI_in_Pandoras_Box_c6_20250723.md
@@ -19,4 +19,5 @@ Pulled: 2025-08-26T11:09:14.5149112-04:00
 - insights\README_Insight.md
 - seed\Genexis_Origin.md
 - seed\README_Seed.md
+
 
