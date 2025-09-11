@@ -1,0 +1,24 @@
+{
+  "title": "RepoLens — Visual Navigator for Docs & Standards",
+  "summary": "Interactive map of the repo showing clusters (ideas, standards, tools) with backlinks and health badges; supports search by tags and capability handles.",
+  "rationale": "Large repos become opaque; a visual lens lowers cognitive load and speeds onboarding.",
+  "impact": "Makes the repo explorable for newcomers and auditors; encourages cleanup and coherence.",
+  "dependencies": [
+    "CivIndex",
+    "Standards Body",
+    "IdeaForge"
+  ],
+  "tags": [
+    "visualization",
+    "repo",
+    "navigation",
+    "tags"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.repo.map",
+    "cap.tags.search",
+    "cap.health.badges"
+  ]
+}
