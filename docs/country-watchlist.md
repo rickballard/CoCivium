@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Democracy Watchlist (draft)
 
 A working list of countries that might most benefit from harmonizing with the Cognocarta Consenti (CC).
@@ -20,6 +21,7 @@ Sorting idea: population × likelihood of independent adopters × current govern
 | 2 | … | … | … | … |
 
 *Method sketch:* Start from external indices; adjust with transparent, documented factors (diaspora energy, civic tech presence, legal openness, etc.). Keep rationale per country in a footnote or subpage.
+
 
 
 

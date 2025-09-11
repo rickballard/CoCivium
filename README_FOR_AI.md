@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # README_FOR_AI.md
 
 This repo is used by humans and GPT‑5 together.
@@ -14,6 +15,7 @@ At session end, update `/admin/Last_Session_Context.md` using `/admin/End_of_Ses
 
 If a file seems duplicated, prefer the **better** version over the **newer** one.
 Preserve good content; don’t silently delete.
+
 
 
 

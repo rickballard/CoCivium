@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Session Primer
 
 Use this at the start/end of every CoCivium session.
@@ -29,6 +30,7 @@ Use this at the start/end of every CoCivium session.
 - Sidecar (CoCache): use its `templates/SESSION_BOOTSTRAP.txt` and `templates/SESSION_WRAPUP.md`.
 
 _Last updated: 2025-08-09_
+
 
 
 

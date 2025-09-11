@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Governance
 
 > _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
@@ -30,6 +31,7 @@
 
 ---
 Decision process, roles, transparency, appeals.
+
 
 
 

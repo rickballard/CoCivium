@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCard ΓÇö CoStasis: Repo All-Smokes & Health
 
 **Problem / Tension**  
@@ -23,6 +24,7 @@ Early detection; resilience; evolutionary pressure toward maintainability.
 - [ ] Triage dashboard + auto-file issues.
 
 **Tags:** #reliability #ops #ci #smoketests
+
 
 
 

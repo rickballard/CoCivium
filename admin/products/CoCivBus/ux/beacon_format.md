@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Beacon Format v0.1
 {
   "type": "cocivbus/beacon",
@@ -13,6 +14,7 @@
   "chat_shared_link": ""
 }
 Notes: pointer only; no secrets; multiple chats can import same beacon.
+
 
 
 

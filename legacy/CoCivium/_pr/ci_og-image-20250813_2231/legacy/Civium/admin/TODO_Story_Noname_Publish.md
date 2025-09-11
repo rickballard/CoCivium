@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # TODO: Publish Being Noname Globally
 
 **Task:** Package and publish *Being Noname* as a free children's story for the global parent/child bedtime market.
@@ -14,6 +15,7 @@
 - [ ] License under CC-BY-SA or CoCivium Free Story License
 - [ ] Share on parenting forums, Substack, GroupBuild, etc.
 - [ ] Include `README.md` for developers/parents
+
 
 
 

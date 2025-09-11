@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CLI Guardrails (PowerShell)
 
 **Always re-orient PS7 before any new instruction set.** Use:
@@ -25,6 +26,7 @@ See `scripts/enter.ps1` for the repo-scoped mutex and `-Force` pattern.
 ''|Out-Null
 ```
 - Also end one-liners with `;`.
+
 
 
 
