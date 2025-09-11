@@ -1,4 +1,4 @@
-﻿\param([string]$ConfigPath = ".\watch.config.json", [string]$StatePath = "..\reports\state\target.json")
+﻿param([string]$ConfigPath = ".\watch.config.json", [string]$StatePath = "..\reports\state\target.json")
 function Get-Prop($obj,[string]$name){ if($null -eq $obj){return $null}; $p=$obj.PSObject.Properties[$name]; if($p){$p.Value}else{$null} }
 function Set-NoteProp([ref]$obj,[string]$name,$value){
   if (-not $obj.Value) { $obj.Value = [pscustomobject]@{} }
@@ -78,5 +78,6 @@ $state | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $stateFile
 if ($changed) { $gh = Get-Command gh -ErrorAction SilentlyContinue; if ($gh) { try { gh issue create --title "LehaneOps: Role/title change detected for $expectedName" --label "LehaneOps" --body (Get-Content -Raw $reportPath) | Out-Null } catch {} } }
 
 "RoleGuard: report -> $reportPath; changed=$changed"
+
 
 
