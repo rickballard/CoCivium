@@ -1,0 +1,10 @@
+{
+  "batch": "2025-09-11/batch-5",
+  "count": 4,
+  "files": [
+    "47_copath-safe-shared-planning-with-pseudonymous-accounts.json",
+    "48_civium-labs-sandboxed-field-trials-and-ab-guarded-rollouts.json",
+    "49_cobounty-open-bounty-market-for-civic-tasks.json",
+    "50_civiguard-red-team-drills-and-incident-snapshots.json"
+  ]
+}

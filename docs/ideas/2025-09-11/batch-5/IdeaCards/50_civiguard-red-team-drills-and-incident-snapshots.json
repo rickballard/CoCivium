@@ -1,0 +1,24 @@
+{
+  "title": "CiviGuard — Red-Team Drills & Incident Snapshots",
+  "summary": "Recurring adversarial exercises (technical, process, narrative) with capture of minimal, privacy-preserving incident snapshots and public postmortems.",
+  "rationale": "‘Practice the breach’ keeps us honest, strengthens culture, and generates artifacts for community learning.",
+  "impact": "Fewer blind spots, faster incident response, and a healthier safety posture across products and protectorates.",
+  "dependencies": [
+    "Devil’s Advocate AI",
+    "Risk Tracker",
+    "Crisis Snapshotter"
+  ],
+  "tags": [
+    "security",
+    "red-team",
+    "safety",
+    "process"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.redteam.run",
+    "cap.incident.snapshot",
+    "cap.postmortem.publish"
+  ]
+}

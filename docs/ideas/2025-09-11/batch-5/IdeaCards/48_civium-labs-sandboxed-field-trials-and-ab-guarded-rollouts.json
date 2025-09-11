@@ -1,0 +1,24 @@
+{
+  "title": "Civium Labs — Sandboxed Field Trials & A/B Guarded Rollouts",
+  "summary": "A program/process for running tightly sandboxed experiments (policies, tools, UX) with pre-registered success metrics and rollback, surfaced on CoIndex.",
+  "rationale": "We need disciplined experimentation that’s visible, reversible, and auditable across protectorates and product surfaces.",
+  "impact": "Faster iteration with bounded risk and clearer evidence for scale-up decisions.",
+  "dependencies": [
+    "CoIndex",
+    "Risk Tracker",
+    "CoPulse"
+  ],
+  "tags": [
+    "experimentation",
+    "rollout",
+    "metrics",
+    "governance"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.rollout.ab",
+    "cap.metrics.kpi",
+    "cap.gov.audit"
+  ]
+}
