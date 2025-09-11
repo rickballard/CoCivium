@@ -1,10 +1,10 @@
 # Outreach Plan (LehaneOps)
 
 ## Objective
-Secure a 20‑min scope call for a 6‑week **Governance Ops Kit** pro bono pilot.
+> Secure a 20‑min scope call for a 6‑week **Governance Ops Kit** pro bono pilot.
 
 ## Primary CTA
-One short email/LinkedIn DM with a single ask: **“20‑min scope lock”**.
+> One short email/LinkedIn DM with a single ask: **“20‑min scope lock”**.
 
 ## Letter (≤180 words)
 ```
@@ -25,14 +25,15 @@ If useful, could we schedule a 20‑min call next week to pick KPI and scope?
 ```
 
 ## One‑Pager outline
-- Problem → Pilot → KPI (one graphic).
-- Artifacts screenshots: decision log, dissent flow, governance gate badge.
-- Timeline (6 weeks) and weekly comms (written updates).
-- IP/Legal footnote (assignable or permissive license).
+> - Problem → Pilot → KPI (one graphic).
+> - Artifacts screenshots: decision log, dissent flow, governance gate badge.
+> - Timeline (6 weeks) and weekly comms (written updates).
+> - IP/Legal footnote (assignable or permissive license).
 
 ## KPIs (choose 3)
-- time‑to‑decision; % decisions with traceability; dissent logged/answered; review cycle time; partner conversion %.
+> - time‑to‑decision; % decisions with traceability; dissent logged/answered; review cycle time; partner conversion %.
 
 ## Pre‑launch verification
-- Confirm role/title unchanged, current priorities, pressure points.
-- Confirm watcher report flagged any new developments.
+> - Confirm role/title unchanged, current priorities, pressure points.
+> - Confirm watcher report flagged any new developments.
+
