@@ -1,0 +1,24 @@
+{
+  "title": "CoGuard Rails — Template Guardrails for Protectorates",
+  "summary": "Pluggable ethics/safety/privacy guardrail templates that local Protectorates can adopt, customize, and certify against.",
+  "rationale": "Federation needs consistent minima without central micromanagement.",
+  "impact": "Improves safety and trust while respecting local autonomy.",
+  "dependencies": [
+    "Civium Protectorates",
+    "Operating Constitution",
+    "Risk Tracker"
+  ],
+  "tags": [
+    "guardrails",
+    "ethics",
+    "privacy",
+    "federation"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.guardrails.templates",
+    "cap.certify.minima",
+    "cap.gov.fedkit"
+  ]
+}
