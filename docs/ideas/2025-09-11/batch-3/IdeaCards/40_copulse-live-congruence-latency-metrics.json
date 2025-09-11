@@ -1,0 +1,24 @@
+{
+  "title": "CoPulse — Live Congruence & Latency Metrics",
+  "summary": "Lightweight metrics collectors surfacing session latency, heartbeat health, congruence drift, and bloat in real time for users and maintainers.",
+  "rationale": "Visibility is the first step to control; CoPulse makes invisible degradation obvious and fixable.",
+  "impact": "Reduces frustration, speeds incident response, and feeds dashboards/guardrails.",
+  "dependencies": [
+    "Congruence Dashboard",
+    "BPOE logging",
+    "Session Monitor"
+  ],
+  "tags": [
+    "metrics",
+    "latency",
+    "heartbeat",
+    "congruence"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.metrics.collect",
+    "cap.session.telemetry",
+    "cap.alerts.nudge"
+  ]
+}

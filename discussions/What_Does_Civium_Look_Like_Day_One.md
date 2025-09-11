@@ -1,4 +1,4 @@
-# What Does Civium Look Like Day One?
+# What Does CoCivium Look Like Day One?
 
 **Characters:**
 Naresh (a city planner, likes to imagine futures)
@@ -22,4 +22,5 @@ Dez (a community organizer with low trust in tech)
 
 **Conclusion:**
 Day one looks small, human, and humble. Not a constitution, but a campfire. A live prototype that asks you for your Function, not your allegiance.
+
 

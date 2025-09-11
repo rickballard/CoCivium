@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Article 4 — Consent Protocols
 
 **4.1 Prime Rule.** Consent-before-coercion.

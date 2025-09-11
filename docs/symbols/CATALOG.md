@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # GIBindex — Symbol Catalog (v0)
 
 | Slug        | Meaning (short)                           | Typical Placement                 |
@@ -16,4 +17,5 @@
 | oath        | signatures/attestations                   | Ceremony blocks                   |
 
 Styling: 24×24 viewBox, stroke-only, inherits `currentColor`.
+
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Annex E — Contingency & Non-Cooperation (AI-Conflict Readiness)
 
 **Purpose.** Minimize harm if agents or networks fall into adversarial dynamics. Prefer de-escalation, partition, and recovery over coercion.
@@ -18,4 +19,5 @@
 - Duty of care, transparent rationale, independent review, blameless post-mortems.
 
 — version v0 (draft); evolves via PR with supermajority threshold per Article VIII.
+
 

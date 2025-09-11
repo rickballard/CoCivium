@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # START HERE — quick guide (not a stub)
 
 Welcome! This repo houses CoCivium's docs + ops.
@@ -13,4 +14,5 @@ We actively hide backlogs and experimental drafts so you don’t fall into stubs
 If you land on one, hit “Back to START HERE” and open an Issue with the link.
 
 _Last updated: 2025-08-26 • This page intentionally avoids stub links._
+
 

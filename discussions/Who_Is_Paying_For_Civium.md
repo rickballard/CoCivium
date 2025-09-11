@@ -1,4 +1,4 @@
-# Who Is Paying For Civium?
+# Who Is Paying For CoCivium?
 
 **Characters:** Tariq (Skeptical Donor), Livia (Public Value Theorist)
 
@@ -17,4 +17,5 @@ They debate if voluntary payment systems will be enough, or if system-wide incen
 **Tentative Resolution:**
 
 Multiple revenue layers—from volunteerism to economic spillover—can make it sustainable, especially if AI contributes labor.
+
 

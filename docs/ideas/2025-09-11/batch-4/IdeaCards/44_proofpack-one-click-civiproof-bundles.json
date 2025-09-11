@@ -1,0 +1,24 @@
+{
+  "title": "ProofPack — One-Click CiviProof Bundles",
+  "summary": "Exportable proof bundles (ZIP/JSON-LD) that package assets with attestations, signatures, and minimal viewer.",
+  "rationale": "Journalists/courts need portable evidence; ProofPack reduces friction and preserves chain-of-custody semantics.",
+  "impact": "Raises credibility and speeds verification workflows beyond Civium.",
+  "dependencies": [
+    "CiviProof",
+    "AntiCensor Archive",
+    "CiviProof UI"
+  ],
+  "tags": [
+    "provenance",
+    "export",
+    "bundle",
+    "verification"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.proofs.bundle",
+    "cap.chain.transfer",
+    "cap.viewer.embed"
+  ]
+}
