@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Risk Register
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
@@ -12,6 +13,7 @@
 | Private data leakage | Low | High | Redact aggressively; review before posting |
 | Off‑topic derail | Medium | Medium | Restate scope; link to appendix; avoid debate |
 | Account rate limits | Low | Medium | Stagger posts; keep messages short; avoid attachments >5MB |
+
 
 
 

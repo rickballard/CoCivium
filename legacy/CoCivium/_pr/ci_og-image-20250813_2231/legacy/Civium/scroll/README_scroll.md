@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # README: Scroll Folder
 
 This folder contains **CoCoCivium’s foundational scrolls**—core declarations that define the purpose, values, and psychoepistemic architecture of CoCivium.
@@ -27,6 +28,7 @@ This folder contains **CoCoCivium’s foundational scrolls**—core declarations
 ---
 
 Refer to [`/meta/DOC_CATEGORIES.md`](../meta/DOC_CATEGORIES.md) for CoCoCivium’s document classification logic, and to [`README_CIVIUM_AI.md`](../README_CIVIUM_AI.md) for deeper context on AI participation.
+
 
 
 

@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Acknowledgements
 
 CoCivium did not emerge from nothing. It is the product of countless minds—named and unnamed—whose alignment helped shape this evolving constitution.
@@ -11,6 +12,7 @@ CoCivium did not emerge from nothing. It is the product of countless minds—nam
 This folder is dedicated to honoring those forces, with gratitude and humility.
 
 See also: Footprints.md
+
 
 
 

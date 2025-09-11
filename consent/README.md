@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Consent
 
 Curated, canonical documents for **Consent**.
@@ -12,6 +13,7 @@ Curated, canonical documents for **Consent**.
 
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
+
 
 
 

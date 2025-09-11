@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Amendment Process (draft)
 
 > Status: stub. Purpose: capture intent, smallest useful change, and review signals.
@@ -18,6 +19,7 @@
 
 ## Prior art / references
 - …
+
 
 
 

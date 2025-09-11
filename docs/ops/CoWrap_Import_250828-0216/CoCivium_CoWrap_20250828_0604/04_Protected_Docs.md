@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Protected Docs — Default & Alternative
 
 ## Default: age + Bitwarden (CoProtect)
@@ -21,6 +22,7 @@
 - CI: ensure SOPS files validate and decrypt locally in PR checks.
 
 **Decision:** Default is **age + Bitwarden** (now). Reconsider if dependency on SOPS tooling is desired org‑wide.
+
 
 
 

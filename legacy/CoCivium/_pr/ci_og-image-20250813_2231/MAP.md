@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Repository Map
 
 - **foundations/** — Core philosophical, structural, and architectural docs.
@@ -10,6 +11,7 @@
 - **admin/** — Meta-documents, planning, and operational guides.
 - **governance/** — Rules, protocols, and historical governance records.
 - **governance/history/** — Archived governance changes and events.
+
 
 
 

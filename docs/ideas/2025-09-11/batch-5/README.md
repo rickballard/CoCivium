@@ -2,6 +2,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCards — Batch 5 (47–50)
 
 This batch contains four IdeaCards intended for intake under `docs/ideas/2025-09-11/batch-5/`.
@@ -14,6 +15,7 @@ This batch contains four IdeaCards intended for intake under `docs/ideas/2025-09
 **Notes**
 - Sensitivity: public unless flagged later.
 - See `manifest.json` for file list.
+
 
 
 

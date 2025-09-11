@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoChat (the chat lane)
 
 - What it is: a friendly side conversation while CoPingPong runs.
@@ -11,6 +12,7 @@
 - When to use: ask quick questions, narrate decisions, drop links/screens.
 - Copy discipline: never copy a DO block until you see the snip and `SET ... END`.
 - Help: run `CoChat` for a one-line reminder.
+
 
 
 

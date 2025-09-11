@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Sentinels & Gating
 These files flag a repo as “CoCivium-aware” so product features (like the session-only `???` trigger) may enable:
 - `docs/ops/policy/BP_ASSISTANT_BLOCKS.md`
@@ -14,6 +15,7 @@ These files flag a repo as “CoCivium-aware” so product features (like the se
 - **Phrasing**: use "consent not coercion". (Do **not** write "consent before coercion".)
 
 - **Reference:** [Nasties Bucket](./NASTIES_BUCKET.md)
+
 
 
 

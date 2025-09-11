@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Troubleshooting
 
 **Symptom:** Ctrl+C feels “different” or prompt looks stuck.
@@ -29,6 +30,7 @@ Slow‑probe guard will also skip heavy checks for a few prompts if a probe >150
 ```powershell
 . scripts/CoVibe.BP.ps1
 ```
+
 
 
 

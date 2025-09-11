@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Altruism and Sacral Tone
 
 CoCivium recognizes altruism as a form of **structural recursion**.
@@ -12,6 +13,7 @@ We use a **sacral tone**, not to invoke religion, but to signal reverence for **
 
 Nothing in CoCivium is sacred.
 But everything in CoCivium is treated as if it might become so, in time.
+
 
 
 

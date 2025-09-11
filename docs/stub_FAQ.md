@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # stub: FAQ
 
 > **This is a stub.** Short answers to “Do I need to code?” etc.
@@ -23,6 +24,7 @@
 ---
 
 *Status: stub. Open an Idea Issue to help shape this page.*
+
 
 
 

@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Outreach Phase (P-1)
 
 Purpose: make non-technical readers comfortable landing on the repo; draw them deeper without tripping on jargon.
@@ -14,6 +15,7 @@ Artifacts:
 
 Exit criteria:
 - 3+ non-technical reviewers report “clear enough to explore more”.
+
 
 
 
