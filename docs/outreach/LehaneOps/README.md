@@ -1,18 +1,18 @@
 # Project LehaneOps
 
-**Target:** Chris Lehane (VP Global Policy, OpenAI)  
-**Objective:** Secure a 20‑min scoping call to launch a 6‑week pro‑bono **Governance Ops Kit** pilot for OpenAI’s Policy/Safety function.
+> **Target:** Chris Lehane (VP Global Policy, OpenAI)  
+> **Objective:** Secure a 20‑min scoping call to launch a 6‑week pro‑bono **Governance Ops Kit** pilot for OpenAI’s Policy/Safety function.
 
 > This package is a **shelved outreach kit**. Use the DO blocks below to install it into the `CoCivium` repo when you’re ready, run the watcher, and later generate the outreach email & one‑pager.
 
----
+> ---
 
 ## Contents
-- `plans/01_precursor.md` — readiness checklist (InSeed.com, LinkedIn, PoC community, artifacts).  
-- `plans/02_outreach.md` — outreach letter + 1‑pager draft + timeline & KPIs.  
-- `artifacts/` — Governance Ops Kit (decision log template, risk tags, CI gate stub).  
-- `watchers/` — Lehane watcher (sources config, runner, report generator, scheduler setup).  
-- `reports/LehaneWatch.md` — rolling digest updated by the watcher.  
+> - `plans/01_precursor.md` — readiness checklist (InSeed.com, LinkedIn, PoC community, artifacts).  
+> - `plans/02_outreach.md` — outreach letter + 1‑pager draft + timeline & KPIs.  
+> - `artifacts/` — Governance Ops Kit (decision log template, risk tags, CI gate stub).  
+> - `watchers/` — Lehane watcher (sources config, runner, report generator, scheduler setup).  
+> - `reports/LehaneWatch.md` — rolling digest updated by the watcher.  
 
 ## DO Blocks (ONEBLOCK, copy‑paste in PowerShell 7)
 > These assume your working repo is `C:\Users\Chris\Documents\GitHub\CoCivium` and you downloaded `Project-LehaneOps.zip` to `~/Downloads`.
@@ -89,9 +89,10 @@ git commit -m "LehaneOps: prelaunch verification snapshot" | Out-Null
 "If ✅, proceed to outreach: see plans/02_outreach.md"
 ```
 
----
+> ---
 
 ## Notes
-- The watcher is **best‑effort** and respectful: minimal frequency, public sources only, and you control it via `watch.config.json`.
-- Nothing runs until you execute DO‑2 to schedule it.
-- You can disable the task via **Task Scheduler** or `Unregister-ScheduledTask -TaskName LehaneWatcher -Confirm:$false`.
+> - The watcher is **best‑effort** and respectful: minimal frequency, public sources only, and you control it via `watch.config.json`.
+> - Nothing runs until you execute DO‑2 to schedule it.
+> - You can disable the task via **Task Scheduler** or `Unregister-ScheduledTask -TaskName LehaneWatcher -Confirm:$false`.
+
