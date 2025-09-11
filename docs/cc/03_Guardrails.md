@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Article 3 — Guardrails
 
 **3.1 No Kings.** No single actor or substrate may exercise unilateral, unreviewable authority.

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Contributing (Quick Start)
 
 - **All changes land via Pull Request to `main`.** No direct pushes.
@@ -12,4 +13,5 @@
 3. Open a PR; fill the template and link related docs
 4. Wait for review/CI; address feedback
 5. Maintainer **squash-merges** and deletes the branch
+
 
