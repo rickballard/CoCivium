@@ -1,0 +1,24 @@
+{
+  "title": "CoVibe Preferences — Personalization without Capture",
+  "summary": "Preference profiles that tune tone, depth, and pacing for each human+AI pair while remaining portable, transparent, and non-addictive.",
+  "rationale": "Personalization is needed for engagement but must avoid dark patterns and lock-in.",
+  "impact": "Improves satisfaction and learning while keeping agency and portability with the user.",
+  "dependencies": [
+    "Civium Academy",
+    "RepTag trails",
+    "Feed Manager"
+  ],
+  "tags": [
+    "preferences",
+    "personalization",
+    "ethics",
+    "portability"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.prefs.profile",
+    "cap.prefs.portable",
+    "cap.ui.tuning"
+  ]
+}

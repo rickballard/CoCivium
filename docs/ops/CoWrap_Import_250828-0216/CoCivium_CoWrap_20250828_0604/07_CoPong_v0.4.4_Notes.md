@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoPong v0.4.4 Notes (Transcript & Tests)
 
 - Transcript path moves to `%LOCALAPPDATA%\CoCivium\.reports` (override via `COCIVIUM_TRANSCRIPT_DIR`).
@@ -8,4 +9,5 @@
 **To add**
 - Pester tests: import on PS5/PS7; clipboard flow; lock‑free behavior.
 - Confirm no repo‑local `.reports/ps7-transcript.log` usage remains.
+
 

@@ -1,6 +1,6 @@
 # Codex of Amendment
 
-Civium is designed to evolve.
+CoCivium is designed to evolve.
 
 Amendments are not exceptions—they are rituals of alignment realignment.
 
@@ -49,4 +49,5 @@ Resonance: 84.1%
 Delta: 0.33
 Symbolic Gate: ΘΔ
 Ref: /admin/README_CIVIUM_AI.md
+
 

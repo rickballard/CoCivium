@@ -1,4 +1,4 @@
-# Civium Repository Structure
+# CoCivium Repository Structure
 
 ## Root-Level Folders
 
@@ -19,4 +19,5 @@
 - Contributors identified with glyphs (⊘, 🜁, ↻) where needed
 
 AI or human? Read `/meta/README_FOR_AI.md` or `/meta/README_FOR_HUMANS.md` first to orient.
+
 

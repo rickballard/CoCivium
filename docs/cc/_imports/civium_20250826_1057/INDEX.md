@@ -1,4 +1,5 @@
-# Civium → CoCivium CC import (staging)
+<!-- status: stub; target: 150+ words -->
+# CoCivium → CoCivium CC import (staging)
 Pulled: 2025-08-26T10:57:58.3356218-04:00
 
 - admin\hold\hold_CC_Update_Instructions (2).md
@@ -15,4 +16,6 @@ Pulled: 2025-08-26T10:57:58.3356218-04:00
 - scroll\Cognocarta_Consenti_c9_20250718.md
 - scroll\README_scroll.md
 - scroll\ReBirth_Scroll_20250721updated.md
+
+
 

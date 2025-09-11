@@ -11,7 +11,8 @@
 - [Outreach Subproject](projects/outreach/) — Outreach Subproject
 - [Sandbox Subproject](projects/sandbox/) — Sandbox Subproject
 - [ConsensusEngine Subproject](projects/votingengine/) — ConsensusEngine Subproject
-- [🧭 Civium Website Project](projects/website/) — 🧭 Civium Website Project
+- [🧭 CoCivium Website Project](projects/website/) — 🧭 CoCivium Website Project
+
 
 
 
