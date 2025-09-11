@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoLex — CoVibe Workflow Lexicon
 
 Use these single words in issues/PRs/chat to trigger standard actions (humans & bots):
@@ -34,4 +35,5 @@ Press **PrtScn** to copy the screen to clipboard, **Win+PrtScn** to save to *Pic
 Then drag the image into ChatGPT so we can see exactly what you see.
 
 </details>
+
 

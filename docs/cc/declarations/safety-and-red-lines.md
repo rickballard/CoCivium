@@ -1,4 +1,7 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Safety & Red Lines (draft)
 
 > Status: stub. Purpose: capture intent, smallest useful change, and review signals.
@@ -14,5 +17,8 @@
 
 ## Prior art / references
 - …
+
+
+
 
 

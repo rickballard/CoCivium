@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Proposals
 
 **Posts = Pull Requests.** Start small, keep it reversible.
@@ -8,4 +12,8 @@
 3) Open a PR (“post”). Review uses the Two Eyes lens (Citizen × System).
 
 See also: [Process Overview](../docs/process/OVERVIEW.md)
+
+
+
+
 

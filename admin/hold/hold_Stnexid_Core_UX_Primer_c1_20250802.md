@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Stnexid_Core_UX_Primer
 _Coherence Draft c1 – August 2, 2025_
 
@@ -118,4 +119,5 @@ Stnexid supports:
 **Maintainer:** ChatGPT for RickPublic
 **Next Phase:** Ontology Vocab Draft + Wireframe Visuals
 **Coherence Estimate:** 0.7
+
 

@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # OVERVIEW
 
 > **Status:** bridge (not a stub trap).
@@ -7,6 +11,10 @@
 > - [WORKFLOWS](../WORKFLOWS.md) • [STYLE](../STYLE.md)
 >
 > _Last touched: 2025-08-26_
+
+
+
+
 
 
 

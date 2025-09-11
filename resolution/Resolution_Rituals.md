@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Resolution Rituals
 
 CoCivium honors rituals—not as superstition, but as structured memory events
@@ -8,5 +12,9 @@ that guide re-attunement.
 - **Refractal Vote**: Recasting the issue through different interpretive vectors.
 
 These rituals encode respect, reduce cognitive violence, and promote coherence across forms.
+
+
+
+
 
 

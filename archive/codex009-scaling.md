@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "[[Scaling]] Ethically"
 type: "Strategy"
@@ -99,5 +100,6 @@ Each phase produces intermediate logs and rationale annotations.
 ---
 
 [tags]: # (scaling forking decentralization nested-localism repmod CoCivium)
+
 
 

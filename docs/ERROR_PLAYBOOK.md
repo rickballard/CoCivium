@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Error Playbook
 
 ## Mojibake (Ã, Â, �) shows up
@@ -24,5 +28,9 @@ git config core.hooksPath .githooks
 ## README renders but images don’t show on GitHub
 - Wait a minute and **hard refresh** (GitHub caches).
 - Verify the path is **relative** and committed.
+
+
+
+
 
 

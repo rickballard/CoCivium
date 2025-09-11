@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "Epistemic Ethics"
 type: "Philosophical"
@@ -97,5 +98,6 @@ Epistemic integrity required for:
 ---
 
 [tags]: # (truth epistemology knowledge civic AI falsifiability)
+
 
 

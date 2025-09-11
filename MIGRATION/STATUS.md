@@ -1,3 +1,6 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Migration Status
 
 - **Release**: https://github.com/rickballard/CoCivium/releases/tag/migration-20250908-0133
@@ -25,4 +28,7 @@
 1) Cross-repo wiring pass: link CoModules and GIBindex pages to CoCivium canonicals.
 2) IdeaCards triage: integrate real cards into your pipeline.
 3) (Optional) Re-tighten GIBindex/main protections after seeding.
+
+
+
 

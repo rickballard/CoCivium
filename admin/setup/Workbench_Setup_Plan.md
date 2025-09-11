@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium One-Click Workbench — Setup Plan (v0.1, 2025-08-09)
 
 ## Outcomes
@@ -81,4 +82,5 @@ next:
 - Paste Custom Instructions overwrite; test CIVPACK v1.
 - Generate `CoCivium-Workbench.bat` and Windows Terminal profile.
 - (Optional) Add commit hook + schedule daily sidecar scan.
+
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Browser Setup & Launcher (Chrome, Windows)
 
 **Goal.**  Isolate a clean Chrome profile (“CoCivium”) with the right extensions and startup tabs so our sessions are repeatable and fast.
@@ -43,6 +44,7 @@ Install only what you trust.  The shortlist we rely on most:
 
 ## Appendix — Local voice input without extensions
 If you want to skip extensions for voice, Windows provides **Win+H** dictation.  It’s basic but keeps everything local.
+
 
 
 

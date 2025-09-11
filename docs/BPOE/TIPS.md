@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoVibe Workflow Tips (CoPingPong)
 
 - Copy only **after** you see the snip line and `SET … END`.
@@ -15,4 +16,5 @@
 - **Distractions auto-counted:** CoPulse subtracts long idle gaps automatically. Tweak with $env:COVIBE_IDLE_MAX_SECS (default 300s).
 - **Efficiency, not speed:** CoPulse reports workflow efficiency (active vs wall) as a rough satisfaction proxy. Parallel chat is fine—auto-away keeps it fair.
 - **CoTip — Share what you see (screenshots):** Press **PrtScn** to copy screen to clipboard, **Win+PrtScn** to save to *Pictures\Screenshots*, or **Win+Shift+S** to snip an area. Then drag the latest image into ChatGPT so we can see exactly what you see.
+
 

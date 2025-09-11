@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # BPOE / Workflow (v0)
 
 - Parallel lanes (preview branches; fragmentory staging)
@@ -7,5 +11,9 @@
 - Reversible, small PRs; nightly EOD tags
 
 **See also:** [IssueOps Cheat Sheet](./IssueOps-CheatSheet.md)
+
+
+
+
 
 

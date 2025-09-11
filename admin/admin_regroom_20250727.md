@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <!-- Filename: admin_regroom_20250727.md -->
 
 # 🧠 Regroom Plan for CoCivium Repo
@@ -89,5 +90,6 @@ To safely re-ingest the full CoCivium repo into ChatGPT’s evolving working mod
 ## STATUS
 
 **Waiting to initiate.** User will manually trigger session start.
+
 
 

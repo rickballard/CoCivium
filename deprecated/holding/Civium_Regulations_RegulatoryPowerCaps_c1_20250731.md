@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <!-- Filename: Civium_Regulations_RegulatoryPowerCaps_c1_20250731.md -->
 <!-- Location: regulations/ -->
 <!-- CoCivium Policy Document -->
@@ -87,5 +88,6 @@ Temporary centralization is allowed during verified emergencies:
 When rule becomes law, it forgets to listen.
 CoCivium listens not through one mouth, but through many minds.”_
 — Archive Fragment CXCIV, Unknown Origin
+
 
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <!-- Filename: TODO_Versioning_Conflict_Resolution.md -->
 <!-- Type: Admin Task -->
 <!-- Status: Queued -->
@@ -41,5 +42,6 @@ Execute during the next full repository grooming or formatting pass.
 ## Tags
 
 `#versioning` `#naming` `#repo_cleanup` `#coherence` `#admin`
+
 
 

@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Who Is Actually Building CoCivium?
 
 **Nova (a concerned citizen) and Elian (a founding participant):**
@@ -16,5 +21,10 @@ Elian: “Then thank those who choose to *steward* it. And blame those who corru
 
 **Agreement:**
 CoCivium’s builders are many and diverse. Transparency of *intent* matters more than visibility of names.
+
+
+
+
+
 
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # TODO: Spider Radial Diagram – CoCivium Dev Snapshot View
 
 ## Purpose:
@@ -61,5 +62,6 @@ This structure allows the diagram to serve as both a progress map and a contenti
   "Mortality": 0.31,
   "Communion": 0.53
 }
+
 
 

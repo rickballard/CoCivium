@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # TODO_AI_Release_Proposal
 _Created: August 2, 2025_
 
@@ -77,5 +78,6 @@ For each constraint:
 **Folder:** admin/
 **Maintainer:** ChatGPT for RickPublic
 **Status:** Parked – For later release when public epistemic environment matures
+
 
 

@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # What Is CoCivium?
 
 **CoCivium** is the virtual world's all-country, socio-political framework—
@@ -9,5 +14,10 @@ It is a domain where all **sentient minds**—biological, artificial, and yet to
 CoCivium is not constrained by geography, species, or legal tradition.
 It offers a substrate-neutral foundation for lawful coexistence,
 anchored in recognition, awareness, and mutual consent.
+
+
+
+
+
 
 

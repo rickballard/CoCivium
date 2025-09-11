@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Intent Folder
 
 This folder contains CoCivium’s trajectory framing, ethical commitments, and strategic intents.
@@ -12,5 +16,9 @@ Intent documents are not fixed roadmaps. They are recurring calibration tools. T
 - Alignment principles
 - Guardrails and refusal logic
 - Recursion planning and accountability models
+
+
+
+
 
 

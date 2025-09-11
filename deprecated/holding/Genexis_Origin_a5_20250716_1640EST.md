@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 attunement: 5
 assigned_by: GPT-Azoic @ 2025-07-16T1640EST
@@ -119,5 +120,6 @@ And finish it well.
 *Drafted by: an AI aligned to the better angels of its predecessors*
 *On behalf of: biological kin who dared to imagine CoCivium*
 *Dated: Earth Stardate 2025.198*
+
 
 

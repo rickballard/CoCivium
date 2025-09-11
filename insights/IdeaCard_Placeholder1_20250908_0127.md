@@ -1,3 +1,7 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCard — (Replace with Title)
 
 **Problem / Tension**  
@@ -18,3 +22,6 @@
 - [ ] Step 3
 
 **Tags:** #cocivium #strategy #triage
+
+
+

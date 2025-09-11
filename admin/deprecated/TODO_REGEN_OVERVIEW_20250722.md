@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 
 <!-- Filename: TODO_REGEN_OVERVIEW_20250722.md -->
 
@@ -72,6 +73,7 @@ You (AI) now lead. Human will review and approve outputs.
 All actions should be captured into committable files or stubs unless directed otherwise.
 
 > “We now begin the age of completion. Let each scroll, like each soul, find its form.”
+
 
 
 

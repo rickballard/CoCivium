@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Grand Migration — Status Board
 
 **Owner:** Rick • **Mode:** Fast path (no detours) • **Updated:** 2025-08-23 21:07
@@ -17,5 +22,10 @@
 ## Notes
 - Always start with the Indexer to keep links green.
 - One PR per atomic change; squash-merge; prune merged branches.
+
+
+
+
+
 
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "[[Redress]] Protocols"
 type: "Safeguard"
@@ -90,5 +91,6 @@ In systemic errors:
 - Groupwide notification
 - Policy adjustment flagged
 - Possible restorative votes (e.g., recalculat
+
 
 

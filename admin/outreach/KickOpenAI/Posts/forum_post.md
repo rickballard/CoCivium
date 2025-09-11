@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks
 
 **Summary.** We use ChatGPT Plus daily to build CoCivium (public‑interest governance tooling).  We’ve hit recurring workflow blockers that materially slow repo grooming, document production, and long‑running sessions.  We’ve documented **repro steps, impact, and acceptance tests** in the attached appendix.  Requesting an internal escalation and visible next steps.
@@ -17,4 +18,5 @@
 **Authorship.** Posted by Rick, prepared with assistance from ChatGPT (GPT‑5 Thinking).
 
 **Thanks.** We will pilot fixes and report structured feedback.
+
 

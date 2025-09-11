@@ -1,4 +1,8 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Brand/Terms
 
 ## Civitude
@@ -9,5 +13,9 @@
 
 ## CoCivium Spirit
 A shorthand for the shared ethos behind civitude, focusing contributors on service, dignity, and antifragile collaboration across borders and agents.
+
+
+
+
 
 

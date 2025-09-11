@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Codex 05 — Truth Metrics
 
 ## Overview
@@ -44,5 +45,6 @@ This codex outlines standards, metrics, and protocols for evaluating truth claim
 ---
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
+
 
 
