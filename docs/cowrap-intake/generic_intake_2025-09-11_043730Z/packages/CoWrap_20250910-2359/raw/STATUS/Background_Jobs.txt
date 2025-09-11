@@ -1,0 +1,2 @@
+ Get-Job | Select-Object Id,Name,State,HasMoreData,PSBeginTime,Command 
+

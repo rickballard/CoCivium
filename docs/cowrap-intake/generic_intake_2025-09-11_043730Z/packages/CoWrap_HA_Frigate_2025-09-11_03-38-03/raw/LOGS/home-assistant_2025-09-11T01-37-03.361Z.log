@@ -1,0 +1,1000 @@
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:35:59.306 ERROR (MainThread) [homeassistant.components.ipp.coordinator] [31m2025-09-10 21:35:59.306 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Unexpected error fetching ipp data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/ipp/coordinator.py", line 53, in _async_update_data
+    return await self.ipp.printer()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 224, in printer
+    response_data = await self.execute(
+                    ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 193, in execute
+    response = await self._request(data=message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 121, in _request
+    response = await self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:35:59.436 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:35:59.436 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.139:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:35:59.437 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:35:59.437 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Driveway data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:01.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:01.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:02.554 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:36:02.554 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.132:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:36:02.556 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:36:02.556 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Front data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:02.642 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:36:02.642 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.133:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:36:02.643 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:36:02.643 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Back Yard data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:07.817 ERROR (MainThread) [homeassistant.components.homeassistant] [31m2025-09-10 21:36:07.817 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Invalid config for 'lovelace' at configuration.yaml, line 16: Url path needs to contain a hyphen (-) for dictionary value 'lovelace->dashboards', got {'home_plus_cameras': {'mode': 'yaml', 'title': 'Home + Cameras', 'icon': 'mdi:cctv', 'show_in_sidebar': True, 'filename': 'dashboards/home_control_plus_cameras.yaml'}}[0m[0m
+[31m2025-09-10 21:36:07.819 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [31m2025-09-10 21:36:07.819 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [546709249120] Error during service call to homeassistant.restart: The system cannot restart because the configuration is not valid: Invalid config for 'lovelace' at configuration.yaml, line 16: Url path needs to contain a hyphen (-) for dictionary value 'lovelace->dashboards', got {'home_plus_cameras': {'mode': 'yaml', 'title': 'Home + Cameras', 'icon': 'mdi:cctv', 'show_in_sidebar': True, 'filename': 'dashboards/home_control_plus_cameras.yaml'}}[0m[0m
+[31m2025-09-10 21:36:11.520 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:11.520 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:13.560 ERROR (MainThread) [homeassistant.components.hassio.coordinator] [31m2025-09-10 21:36:13.560 ERROR (MainThread) [homeassistant.components.hassio.coordinator] Unexpected error fetching hassio data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/coordinator.py", line 319, in _async_update_data
+    await self.force_data_refresh(is_first_update)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/coordinator.py", line 434, in force_data_refresh
+    results = await asyncio.gather(*updates.values())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 61, in _wrapper
+    data = await funct(*argv, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 295, in send_command
+    response = await self.websession.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:21.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:21.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:31.518 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:31.518 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:41.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:41.519 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:51.518 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:36:51.518 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:59.261 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:36:59.261 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.137:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:36:59.262 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:36:59.262 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Front Rental data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:59.300 ERROR (MainThread) [homeassistant.components.ipp.coordinator] [31m2025-09-10 21:36:59.300 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Unexpected error fetching ipp data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/ipp/coordinator.py", line 53, in _async_update_data
+    return await self.ipp.printer()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 224, in printer
+    response_data = await self.execute(
+                    ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 193, in execute
+    response = await self._request(data=message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pyipp/ipp.py", line 121, in _request
+    response = await self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:36:59.436 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:36:59.436 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.139:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:36:59.436 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:36:59.436 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Driveway data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:37:01.522 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] [31m2025-09-10 21:37:01.522 ERROR (MainThread) [homeassistant.components.braviatv.coordinator] Unexpected error fetching braviatv data
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/braviatv/coordinator.py", line 139, in _async_update_data
+    await self.client.connect(psk=self.pin)
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 87, in connect
+    system_info = await self.get_system_info()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 310, in get_system_info
+    resp = await self.send_rest_req(SERVICE_SYSTEM, "getSystemInformation")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 263, in send_rest_req
+    resp = await self.send_req(
+           ^^^^^^^^^^^^^^^^^^^^
+        url=url, data=data, headers=headers, json=True, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/pybravia/client.py", line 165, in send_req
+    response = await self._session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url, json=data, headers=headers, timeout=timeout, auth=self._auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:37:02.554 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:37:02.554 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.132:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:37:02.555 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:37:02.555 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Front data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m
+[31m2025-09-10 21:37:02.641 ERROR (MainThread) [reolink_aio.api] [31m2025-09-10 21:37:02.641 ERROR (MainThread) [reolink_aio.api] Host 192.168.4.133:443: RuntimeError "Session is closed" occurred, traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+[0m[0m
+[31m2025-09-10 21:37:02.642 ERROR (MainThread) [homeassistant.components.reolink] [31m2025-09-10 21:37:02.642 ERROR (MainThread) [homeassistant.components.reolink] Unexpected error fetching reolink.Back Yard data
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 392, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 293, in _async_update_data
+    return await self.update_method()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 144, in async_device_config_update
+    await host.update_states()
+  File "/usr/src/homeassistant/homeassistant/components/reolink/host.py", line 508, in update_states
+    await self._api.get_states(cmd_list=self.update_cmd, wake=wake)
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 2294, in get_states
+    json_data = await self.send(body, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5786, in send_chunk
+    await self._login_open_port()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1450, in _login_open_port
+    await self.login()
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 1282, in login
+    json_data = await self.send(body, param, expected_response_type="json")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5997, in send_chunk
+    return await self.send(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5717, in send
+    return await self.send_chunk(body, param, expected_response_type, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 6000, in send_chunk
+    raise err
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 5851, in send_chunk
+    response = await self._aiohttp_session.post(url=self._url, json=filtered_body, params=param, allow_redirects=False, timeout=self._timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 527, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed[0m[0m

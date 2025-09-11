@@ -1,0 +1,61 @@
+# Canonical Frigate config for HA add-on (drop into /addon_configs/ccab4aaf_frigate/config.yml)
+mqtt:
+  host: core-mosquitto
+  user: frigate
+  password: Frigate2025
+
+detectors:
+  coral:
+    type: edgetpu
+    device: usb
+  cpu1:
+    type: cpu
+
+cameras:
+  driveway:
+    ffmpeg:
+      input_args: "-rtsp_transport tcp"
+      inputs:
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.139:554/h264Preview_01_sub"
+          roles: [detect]
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.139:554/h264Preview_01_main"
+          roles: [record]
+    detect: {width: 640, height: 360, fps: 5}
+    snapshots: {enabled: true}
+    record: {enabled: true, retain: {days: 33, mode: motion}}
+
+  front:
+    ffmpeg:
+      input_args: "-rtsp_transport tcp"
+      inputs:
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.132:554/h264Preview_01_sub"
+          roles: [detect]
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.132:554/h264Preview_01_main"
+          roles: [record]
+    detect: {width: 640, height: 360, fps: 5}
+    snapshots: {enabled: true}
+    record: {enabled: true, retain: {days: 33, mode: motion}}
+
+  front_rental:
+    ffmpeg:
+      input_args: "-rtsp_transport tcp"
+      inputs:
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.137:554/h264Preview_01_sub"
+          roles: [detect]
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.137:554/h264Preview_01_main"
+          roles: [record]
+    detect: {width: 640, height: 360, fps: 5}
+    snapshots: {enabled: true}
+    record: {enabled: true, retain: {days: 33, mode: motion}}
+
+  back_yard:
+    ffmpeg:
+      input_args: "-rtsp_transport tcp"
+      inputs:
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.133:554/h264Preview_01_sub"
+          roles: [detect]
+        - path: "rtsp://admin:ReoRick2025..@192.168.4.133:554/h264Preview_01_main"
+          roles: [record]
+    detect: {width: 640, height: 360, fps: 5}
+    snapshots: {enabled: true}
+    record: {enabled: true, retain: {days: 33, mode: motion}}
