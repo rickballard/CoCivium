@@ -1,4 +1,4 @@
-﻿param([string[]]$Paths)
+param([string[]]$Paths)
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 
 function Apply-One([string]$file){

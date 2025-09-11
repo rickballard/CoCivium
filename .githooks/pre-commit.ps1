@@ -1,4 +1,4 @@
-﻿# PowerShell pre-commit: repo-wide BPOE for staged Markdown
+# PowerShell pre-commit: repo-wide BPOE for staged Markdown
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $root = Split-Path -Parent $PSScriptRoot
 Push-Location $root

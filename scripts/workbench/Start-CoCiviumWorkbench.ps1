@@ -1,4 +1,4 @@
-﻿[CmdletBinding()] param([switch]$DryRun)
+[CmdletBinding()] param([switch]$DryRun)
 Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
 $repo  = Join-Path $HOME "Documents\GitHub\CoCivium"
 $inner = Join-Path $repo "scripts\workbench\Workbench-Inner.ps1"

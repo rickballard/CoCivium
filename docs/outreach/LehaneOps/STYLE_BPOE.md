@@ -1,4 +1,4 @@
-﻿# BPOE: CLEAR SEPARATION OF ADVICE VS DO
+# BPOE: CLEAR SEPARATION OF ADVICE VS DO
 
 RULES
 - All non-DO guidance must be in a Markdown callout (lines start with "> ").
