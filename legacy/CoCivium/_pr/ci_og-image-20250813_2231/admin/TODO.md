@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Admin TODO (Prioritized)
 - [ ] Enforce headers/footers across all markdown.
 - [ ] Deduplicate/redirect conflicting docs.
@@ -8,5 +9,6 @@
 - [ ] Monitor metrics (CI/Coverage/OFS/LSH/DTI).
 
 # ci: register on main 20250810T191652Z
+
 
 

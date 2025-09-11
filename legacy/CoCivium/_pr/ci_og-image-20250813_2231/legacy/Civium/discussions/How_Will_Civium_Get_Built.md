@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # How Will CoCivium Get Built?
 
 **Characters:** Petra (Urban Systems Architect), Jalen (Digital Pragmatist)
@@ -19,6 +20,7 @@ They explore architectural staging, use of testbeds, and bootstrapping through m
 **Tentative Resolution:**
 
 CoCivium will be built in stages, likely starting with interoperable micro-nets and civic sandboxes supported by aligned communities.
+
 
 
 

@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Products
 
 **Purpose.** This area holds **potentially commercial** spin-offs and tools derived from CoCivium projects (bundles, SDKs, hosted services, UI apps).  
@@ -11,5 +12,6 @@
 - [PromptQ_c0_20250812](PromptQ_c0_20250812/) — prompt orchestration layer (Parked; revisit 2025-09-15).
 
 - [PromptQ_c0_20250812](PromptQ_c0_20250812/) — prompt orchestration layer (Parked; revisit 2025-09-15).
+
 
 

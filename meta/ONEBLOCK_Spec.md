@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # ONEBLOCK Spec
 **Definition:** A downloadable `.tar.gz` or `.sh` payload plus a single Git Bash line that installs/updates files and commits/pushes. Idempotent. Windows Git Bash–safe. Includes sidecar commit messages. Defaults are non-destructive.
 
@@ -14,5 +15,6 @@
 ```
 cd "$HOME/Downloads" && tar -xzf <payload>.tar.gz && bash ./<script>.sh "$HOME/Documents/GitHub/<RepoName>"
 ```
+
 
 

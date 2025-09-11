@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # DB Init — PostgreSQL — Parking Card (_c0_) — 2025-08-12
 
 **Status:** Parked (Maybe).  **Owner:** Rick.  **Repo:** CoCivium.  **Reason:** Overload / deprioritized.  **Revisit by:** 2025-09-15.
@@ -18,5 +19,6 @@ Low.  Only blocks DB-dependent modules.
 
 ## Links
 – Add issues/PRs here when revived.
+
 
 

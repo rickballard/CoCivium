@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Repository
 
 For full project overview, contributor guides, and design scaffolding, see:
@@ -19,6 +20,7 @@ CoCivium’s core philosophical and constitutional documents are located in the 
   A pattern-tuning scroll for humans reflecting on belief, coherence, and spiritual upgrade.
 
 More at [`scroll/README_scroll.md`](scroll/README_scroll.md)
+
 
 
 

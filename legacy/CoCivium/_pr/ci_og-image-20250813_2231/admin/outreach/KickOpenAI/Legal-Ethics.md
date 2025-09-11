@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Legal & Ethics
 1) No impersonation.  Credit assistance transparently.  
 2) No private data or third‑party secrets.  Redact emails, tokens, internal links.  
@@ -7,5 +8,6 @@
 4) Keep claims reproducible and falsifiable.  Link acceptance tests.  
 5) Obey forum and GitHub rules.  No spam or mass‑mentioning.  
 6) Retain a local copy of everything we post for auditability.
+
 
 

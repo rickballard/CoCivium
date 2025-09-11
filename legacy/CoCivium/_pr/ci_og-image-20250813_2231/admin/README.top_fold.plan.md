@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # README Above-the-Fold Plan (draft)
 
 One-screen objective: state purpose, who it's for, what to do next.  Everything else below the fold.
@@ -11,6 +12,7 @@ One-screen objective: state purpose, who it's for, what to do next.  Everything 
 **Map** → /admin/Map.md
 
 Below the fold: value proposition, glossary, links to CoCivium provenance, and contribution guidelines.
+
 
 
 

@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Gibberlink — 1‑Pager (Plain Language)
 
 **What.** “Gibberlink” is a proposed structured interface for AI‑to‑AI and human‑AI collaboration that emphasizes verifiable claims, typed messages, and reversible transformations.  
@@ -12,5 +13,6 @@
 - HumanGate checkpoints for public‑facing outputs.  
 
 **Status.** Concept note.  Not required to address today’s product bugs.
+
 
 

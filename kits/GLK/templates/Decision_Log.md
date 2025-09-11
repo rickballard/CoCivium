@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Decision Log
 
 > Keep entries short. One screen. Link evidence. Dates in ISO 8601.
@@ -38,5 +39,6 @@ Owner(s), checklist, target date, rollback note.
 - Proposed: 
 - Decided: 
 - Review-by (optional): 
+
 
 

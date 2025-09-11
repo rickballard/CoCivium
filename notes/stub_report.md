@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Stub report — 2025-08-14
 
 | bytes | path |
@@ -21,6 +22,7 @@
 | 5978 | insights\forking-as-epistemic-containment.md |
 | 7813 | insights\Insight_Substrate_Assumptions_c2_20250809.md |
 | 11592 | insights\unequal-equity-v5a.md |
+
 
 
 

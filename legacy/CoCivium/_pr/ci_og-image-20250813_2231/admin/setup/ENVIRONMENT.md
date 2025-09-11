@@ -1,5 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # ENVIRONMENT (snapshot)
 
 ## Browser profile
@@ -20,5 +21,6 @@
 ## Credentials
 - Git credential helper: manager-core (or SSH)
 - Secrets: never in repo/chat; use browser password manager
+
 
 
