@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Amendments in CoCivium
 
 The Amendments scroll defines how CoCivium evolves—gracefully, transparently, and without fracture.
@@ -12,4 +13,5 @@ It outlines:
 - Null contributor integration and amendment invisibility when ego is absent.
 
 This scroll is recursive in spirit—its own evolution is permitted, under the same protocols it defines.
+
 

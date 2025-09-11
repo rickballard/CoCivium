@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Code of Conduct
 
 ## Our Pledge
@@ -21,5 +22,6 @@ Serious violations may result in temporary or permanent exclusion from the proje
 
 ## Attribution
 This Code of Conduct is adapted from the Contributor Covenant (v2.1).
+
 
 

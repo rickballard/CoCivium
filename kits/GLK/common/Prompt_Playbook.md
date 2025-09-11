@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Prompt Playbook (Common) — v0
 
 Use these as starting points. Adapt to your sector’s archetype file. Keep prompts short. Always ask for **evidence links** and **objection windows**.
@@ -14,4 +15,5 @@ You are the Skeptic. Generate 3–5 specific, testable objections with mitigatio
 
 ## Implementer
 You are the Implementer. Produce a single-screen execution checklist with owners and dates. Include a rollback note.
+
 

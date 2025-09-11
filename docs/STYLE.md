@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Writing & File Style
 
 ## Names & slugs
@@ -21,4 +22,5 @@
 - Every file should end with a small **“Next”** footer (links to related docs or open questions).
 - If a placeholder is necessary, keep it under `/notes/` or a PR draft; don’t add empty folders.
 <!-- STUB-POLICY-END -->
+
 

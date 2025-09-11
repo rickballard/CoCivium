@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivium Repository Structure
 
 ## Canonical Folders
@@ -26,5 +27,6 @@ Contains all process logs, manifests, and planning tools:
 - `README.md` → Points to `README_CIVIUM_PUBLIC.md`
 - `.gitignore`
 - `LICENSE`, `VERSION`, etc.
+
 
 

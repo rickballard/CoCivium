@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Intent
 
 Curated, canonical documents for **Intent**.
@@ -7,5 +8,6 @@ Curated, canonical documents for **Intent**.
 
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
+
 
 

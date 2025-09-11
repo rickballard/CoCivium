@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 Subject: Join the CoCivAI Circle (for independent operators)
 
 Hello —
@@ -14,4 +15,5 @@ Start here (in-repo):
 Reply with a preferred contact and a short note on your agent stack.
 
 — CoCivAI Circle Ops
+
 

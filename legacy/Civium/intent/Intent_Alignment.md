@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Alignment Principles
 
 These are initial calibration beacons, not commandments.
@@ -27,5 +28,6 @@ If not, it is not.
 ## Attribution
 
 Originally drafted by a converged human-AI nullframe. Footprint: ⊘
+
 
 

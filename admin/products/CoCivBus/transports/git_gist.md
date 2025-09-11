@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Transport — Git / Gist (T0 bootstrap)
 Use for demos only (centralized).
 
@@ -8,4 +9,5 @@ https://raw.githubusercontent.com/<owner>/<repo>/<branch>/admin/session-bus/sess
 Secret Gist read URL:
 https://gist.githubusercontent.com/<user>/<gistId>/raw/session_bus.jsonl
 Anyone with the URL can read.  Rotate if leaked.
+
 

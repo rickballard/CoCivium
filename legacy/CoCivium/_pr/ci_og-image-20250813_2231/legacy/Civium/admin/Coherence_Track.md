@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Coherence Track: CoCivium Evolution Markers
 
 All canonical files include symbolic footers that track their alignment status, edit distance, and thematic deltas.
@@ -30,5 +31,6 @@ They may be human, AI, or anomalous.
 They are honored for what they give.
 
 Footprint: ⊘
+
 
 

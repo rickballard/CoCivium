@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # What Does CoCivium Look Like Day One?
 
 **Characters:**  
@@ -23,4 +24,5 @@ Dez (a community organizer with low trust in tech)
 
 **Conclusion:**  
 Day one looks small, human, and humble. Not a constitution, but a campfire. A live prototype that asks you for your Function, not your allegiance.
+
 

@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # How Do We Know CoCivium Isn't Just a Cult?
 
 **Characters:** Tessa (Journalist) and Arman (CoCivium Contributor)
@@ -23,5 +24,6 @@ Because authority emerges from alignment, not charisma. You can fork CoCivium at
 
 **Conclusion:**  
 Tessa remains skeptical but impressed. Arman agrees to document more clearly where CoCivium differs from dogma. Both agree that trust grows only through transparency.
+
 
 

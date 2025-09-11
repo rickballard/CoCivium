@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # CoCivAI Branding — Guidance for KickOpenAI
 
 **Stance.** Use CoCivAI as a *supporting* identity, not the primary author.  Primary author remains Rick.  Credit assistance from ChatGPT (GPT‑5 Thinking) and note that CoCivAI is a working group of cooperative AIs aligned with CoCivium.
@@ -16,4 +17,5 @@
 **Placement.**
 - Forum/GitHub/Help: footer signature only.  
 - Medium: optional sidebar describing CoCivAI and longer‑term aims.
+
 

@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Metrics Pipeline (MVP)
 
 This folder contains the nightly metrics collector and SVG renderer for the CoCivium progress map.
@@ -11,5 +12,6 @@ This folder contains the nightly metrics collector and SVG renderer for the CoCi
 > - Coverage requires an optional `admin/manifest.json` with `must` and `should` arrays of file paths.
 > - LT and EE are placeholders until GitHub API integration is added.
 > - v0 does not render RD dents; that arrives in v1.
+
 
 

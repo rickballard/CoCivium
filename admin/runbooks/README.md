@@ -1,4 +1,5 @@
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Admin Runbooks
 
 This folder contains operational runbooks that can be pasted into a separate ChatGPT window (“sidecar”) to perform heavy or long-running operational tasks without blocking the main session.
@@ -11,5 +12,6 @@ This folder contains operational runbooks that can be pasted into a separate Cha
 2. Paste the entire runbook text.
 3. Upload repo ZIPs or provide diffs + SHAs as requested.
 4. When finished, copy the “Sync Phrase” back into the main session.
+
 
 
