@@ -1,0 +1,24 @@
+{
+  "title": "Crisis Registry & Auto‑Sunset — Emergency Powers Audit",
+  "summary": "Central registry for extraordinary directives with default auto‑sunset, periodic re‑justification prompts, and citizen/legislative diff logs.",
+  "rationale": "Emergency tools are necessary but sticky; auto‑renewal demands evidence, keeping powers proportional, time‑bound, and reviewable.",
+  "impact": "Prevents 'temporary' authorities from becoming permanent; improves cross‑branch oversight and public legitimacy.",
+  "dependencies": [
+    "Civium Standards Body",
+    "CiviProof",
+    "Devil’s Advocate AI"
+  ],
+  "tags": [
+    "rule-of-law",
+    "emergency",
+    "oversight",
+    "audit"
+  ],
+  "capability_handles": [
+    "cap.registry.crisis",
+    "cap.sunset.auto",
+    "cap.diff.legitimation"
+  ],
+  "source_session": "CoCivium Idea Scratchpad",
+  "sensitivity": "public"
+}
