@@ -1,0 +1,21 @@
+﻿name: Seed Tag Guard
+on:
+  push:
+    tags:
+      - "lehaneops-*"
+      - "seed-*"
+jobs:
+  check-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Ensure tag is annotated and on main
+        run: |
+          set -e
+          TAG="${GITHUB_REF#refs/tags/}"
+          [ "$(git cat-file -t "$TAG")" = "tag" ] || { echo "✗ not annotated"; exit 1; }
+          git fetch origin main --depth=1
+          SHA=$(git rev-parse "$TAG^{commit}")
+          git branch -r --contains "$SHA" | grep -q "origin/main" || { echo "✗ not on origin/main"; exit 1; }
+          echo "✓ $TAG ok"
