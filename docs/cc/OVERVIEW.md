@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Cognocarta Consenti — Overview
 
 Start here for human-friendly entry points:
@@ -15,11 +9,5 @@ Start here for human-friendly entry points:
 Provenance: raw imports live under [_imports/](./_imports/).
 
 _Last updated: 2025-08-26_
-
-
-
-
-
-
 
 

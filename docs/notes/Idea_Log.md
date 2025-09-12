@@ -1,9 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Idea Log (running)
 
 - The CC should be long and quotable; Annexes hold details; quotes should stay stable (separate Maxims).
@@ -11,10 +6,5 @@
 - Symbols can be live-linked (online) and degrade to text (print/offline).
 - Chip-tile image is temporary; replace with fungal-neural scroll art.
 - Keep harvesting all prior CoCivium scroll material before any rewrite.
-
-
-
-
-
 
 

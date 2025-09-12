@@ -23,9 +23,3 @@ Its axioms include:
 These axioms are operational safeguards—not abstract ideals.
 
 
-
-
-
-
-
-

@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # Will CoCivium Leave People Behind?
 
 **Characters:** Darnell (Social Worker) and Jules (Tech Visionary)
@@ -23,6 +22,5 @@ They *are* the architects. CoCivium doesn't scale top-down. It scales out—thro
 
 **Conclusion:**
 Darnell remains cautious, but commits to help test CoCivium in local community centers. Jules agrees to co-develop the tools in partnership, not paternalism.
-
 
 

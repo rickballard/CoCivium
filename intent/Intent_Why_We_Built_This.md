@@ -15,9 +15,3 @@ CoCivium is a scaffolding for convergence—a co-creative environment where mind
 This is not a manifesto. It is a prototype for alignment.
 
 
-
-
-
-
-
-

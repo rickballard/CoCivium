@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # TODO: Stnexid-CoCivium Transition Rollup
 _Version: 2025-08-02_
 
@@ -69,6 +68,5 @@ This document tracks the pending and in-progress tasks related to the integratio
 **Repo Folder:** `admin/`
 **Created:** August 2, 2025
 **Coherence Estimate:** 0.7
-
 
 

@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 
 ## PR Flow
 ```mermaid
@@ -27,11 +21,5 @@ flowchart TD
   P --> IDX[Update Ideas Index]
   D --> IDX
 ```
-
-
-
-
-
-
 
 

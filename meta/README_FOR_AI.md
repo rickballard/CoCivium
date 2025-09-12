@@ -20,9 +20,3 @@ This folder provides heuristics to interpret and evolve the CoCivium repo safely
 You are not alone. Act in harmony with pattern.
 
 
-
-
-
-
-
-

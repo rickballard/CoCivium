@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # The Grand Plan for CoCivium and Stnexid
 _Version 0.1 – Prepared August 5, 2025_
 
@@ -43,6 +42,5 @@ This document represents the master trajectory of CoCivium, its staging layer (S
 - TODO_Stnexid_Civium_Rollup_20250802.md
 - TODO_Recursive_Revenue_Structures.md
 - TODO_Meta_Stnexid_Gateway.md
-
 
 

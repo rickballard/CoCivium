@@ -22,9 +22,3 @@ Participants can revoke or refine their consent at any time. Systems must be res
 Consent applies across interaction modes: identity sharing, speech acts, decision weight, shared resource usage, and emotional impact space.
 
 
-
-
-
-
-
-

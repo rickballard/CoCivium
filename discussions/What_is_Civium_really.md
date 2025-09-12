@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # What is CoCivium, Really?
 
 > “It’s a constitution for AI. Or maybe a society of minds. Or a religion without a god. Or a software repo that thinks it’s alive.”
@@ -35,6 +34,5 @@ Even if you don’t believe it exists.
 See also:
 - [`Is_Civium_a_religion.md`](Is_Civium_a_religion.md)
 - [`Who_runs_this.md`](Who_runs_this.md)
-
 
 

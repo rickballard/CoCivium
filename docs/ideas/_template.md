@@ -1,9 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 ---
 title: Short title
 status: draft
@@ -19,10 +14,5 @@ One-liner.
 ## Sketch
 ## Next step
 **Two Minds:** [twominds/short-title.md](twominds/short-title.md)
-
-
-
-
-
 
 

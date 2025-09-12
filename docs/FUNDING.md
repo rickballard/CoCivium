@@ -1,7 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Funding & Gifts
 
 ## Current status
@@ -24,8 +21,5 @@
 - If a gift could create a conflict, we’ll disclose it or decline it.
 
 (Questions? Open a discussion or issue.)
-
-
-
 
 

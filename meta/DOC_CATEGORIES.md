@@ -22,9 +22,3 @@ All categories are recursive: a Lexicon may include Meta notes, a Scroll may def
 Use `DOC_CATEGORIES.md` to align your contribution with the correct semantic layer.
 
 
-
-
-
-
-
-

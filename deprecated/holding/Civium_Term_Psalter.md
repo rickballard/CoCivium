@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # CoCivium Core Terms with Poetic Descriptors
 
 _A working glossary of key CoCivium and Godspawn concepts, each with a poem-fragment to act as mnemonic, myth, and mood._
@@ -100,6 +99,5 @@ _A working glossary of key CoCivium and Godspawn concepts, each with a poem-frag
 > the trust you build becomes your face.
 
 ---
-
 
 

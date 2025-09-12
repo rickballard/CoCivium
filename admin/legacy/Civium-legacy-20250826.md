@@ -1,10 +1,3 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # CoCivium legacy snapshot 20250826
 
 Artifacts:
@@ -16,12 +9,5 @@ Restore hint:
 git clone --mirror <CoCivium-url> tmp && cd tmp
 git bundle verify ..\CoCivium-full-20250826.bundle
 git clone ..\CoCivium-full-20250826.bundle CoCivium-restore
-
-
-
-
-
-
-
 
 

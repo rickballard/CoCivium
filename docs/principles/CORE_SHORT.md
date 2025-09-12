@@ -1,9 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Core Principles — Short Read
 
 1) consent not coercion.
@@ -13,10 +8,5 @@
 5) Federated, interoperable implementations.
 
 See the longform principles for depth and objections handling.
-
-
-
-
-
 
 

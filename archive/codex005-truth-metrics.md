@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 ---
 title: "Truth Metrics"
 type: "Measurement"
@@ -95,6 +94,5 @@ Models may query:
 ---
 
 [tags]: # (truth evaluation scoring epistemology CoCivium AI consensus post-fact age)
-
 
 
