@@ -1,3 +1,4 @@
 # Sensitive paths
 /README.md @rickballard
 /docs/ops/policy/*   @rickballard
+grand-migration-advice/**  @rickballard
