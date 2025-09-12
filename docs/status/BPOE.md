@@ -61,3 +61,11 @@
 <details><summary>Open gm/* PRs</summary>
 - [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
 </details>
+- [2025-09-12T20:29:55.9176197Z] Nightly refresh queued
+
+
+- **GM PR bloat:** OK: 1 open gm/* PR — _as of 
+
+<details><summary>Open gm/* PRs</summary>
+- [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
+</details>
