@@ -1,0 +1,8 @@
+# DO NOT COMMIT raw contacts or exports
+workflows/input/*
+!workflows/input/.gitkeep
+workflows/output/contacts_master.csv
+workflows/output/*.html
+*.pst
+*.vcf
+*.sqlite
