@@ -33,3 +33,6 @@
 
 ### BPOE Runtime Addendum (2025-09-12)
 - **Heartbeat is dot-source-safe**: state kept in Global:__BPOE_* with guarded lookups; no blank PS7 lines during long ops.
+
+### BPOE Runtime Addendum (2025-09-12)
+- **No blank waits**: heartbeat made dot-source-safe (global __BPOE_* + guarded lookups); helpers MUST use it for long ops.
