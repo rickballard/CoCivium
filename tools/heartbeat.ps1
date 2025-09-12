@@ -1,24 +1,42 @@
 ﻿Set-StrictMode -Version Latest
-$script:HB_ID = 'BPOE.Heartbeat'
-function Start-Heartbeat([string]$Msg='working'){
-  if ($script:HBTimer) { return }
+$global:__BPOE_HB_ID = '__BPOE_Heartbeat'
+
+function Start-Heartbeat([string]$Msg='working') {
+  if (-not (Get-Variable __BPOE_HBTimer -Scope Global -ErrorAction SilentlyContinue)) {
+    Set-Variable __BPOE_HBTimer -Scope Global -Value $null
+  }
+  if (-not (Get-Variable __BPOE_HBSub   -Scope Global -ErrorAction SilentlyContinue)) {
+    Set-Variable __BPOE_HBSub   -Scope Global -Value $null
+  }
+  if ($global:__BPOE_HBTimer) { return }
   if ($Msg) { Write-Host -NoNewline "$Msg " }
-  $script:HBTimer = [System.Timers.Timer]::new(1000); $script:HBTimer.AutoReset = $true
-  Register-ObjectEvent -InputObject $script:HBTimer -EventName Elapsed -SourceIdentifier $script:HB_ID -Action { Write-Host -NoNewline '.' } | Out-Null
-  $script:HBTimer.Start()
+
+  $global:__BPOE_HBTimer = [System.Timers.Timer]::new(1000)
+  $global:__BPOE_HBTimer.AutoReset = $true
+
+  Unregister-Event -SourceIdentifier $global:__BPOE_HB_ID -ErrorAction SilentlyContinue | Out-Null
+  $global:__BPOE_HBSub = Register-ObjectEvent -InputObject $global:__BPOE_HBTimer -EventName Elapsed `
+    -SourceIdentifier $global:__BPOE_HB_ID -Action { [Console]::Write('.') }
+
+  $global:__BPOE_HBTimer.Start()
 }
-function Stop-Heartbeat(){
-  if (-not $script:HBTimer) { return }
+
+function Stop-Heartbeat() {
+  if (-not (Get-Variable __BPOE_HBTimer -Scope Global -ErrorAction SilentlyContinue)) { return }
+  if (-not $global:__BPOE_HBTimer) { return }
   try {
-    $script:HBTimer.Stop()
-    Unregister-Event -SourceIdentifier $script:HB_ID -ErrorAction SilentlyContinue
-    Get-Job -Name $script:HB_ID -ErrorAction SilentlyContinue | Remove-Job -Force -ErrorAction SilentlyContinue
+    $global:__BPOE_HBTimer.Stop()
+    if ($global:__BPOE_HBSub) { Unregister-Event -SubscriptionId $global:__BPOE_HBSub.Id -ErrorAction SilentlyContinue | Out-Null }
+    Unregister-Event -SourceIdentifier $global:__BPOE_HB_ID -ErrorAction SilentlyContinue | Out-Null
   } finally {
-    $script:HBTimer.Dispose(); $script:HBTimer = $null
-    Write-Host ''  # newline after dots
+    $global:__BPOE_HBTimer.Dispose()
+    $global:__BPOE_HBTimer = $null
+    $global:__BPOE_HBSub   = $null
+    Write-Host ''
   }
 }
-function Invoke-WithHeartbeat([string]$Msg,[scriptblock]$Block){
+
+function Invoke-WithHeartbeat([string]$Msg, [scriptblock]$Block) {
   Start-Heartbeat $Msg
   try { & $Block } finally { Stop-Heartbeat }
 }
