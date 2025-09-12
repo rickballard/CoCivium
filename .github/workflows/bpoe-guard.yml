@@ -1,0 +1,15 @@
+﻿name: BPOE Guard
+on:
+  push:
+    paths: ["tools/**","docs/BPOE/**"]
+  pull_request:
+    paths: ["tools/**","docs/BPOE/**"]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: BPOE validator
+        shell: pwsh
+        run: ./tools/validate-bpoe.ps1
