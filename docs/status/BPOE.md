@@ -48,3 +48,10 @@
 </details>
 
 > _[2025-09-12]_ BPOE auto-breadcrumb workflow active: every merged PR writes a status breadcrumb.
+
+
+- **GM PR bloat:** OK: 1 open gm/* PR — _as of 
+
+<details><summary>Open gm/* PRs</summary>
+- [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
+</details>
