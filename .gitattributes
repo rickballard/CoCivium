@@ -1,13 +1,26 @@
-* text=auto eol=lf
+﻿* text=auto eol=lf
 *.ps1 text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
 *.md text eol=lf
 
-# Enforce LF — 2025-09-04T23:54:31
+# Enforce LF â€” 2025-09-04T23:54:31
 *.md  text eol=lf
 
 * text=auto
 *.ps1 text eol=crlf
 *.bat text eol=crlf
 *.sh  text eol=lf
+
+# --- BPOE: baseline EOL normalization (keep repo LF) ---
+* text=auto eol=lf
+
+# Windows scripts that need CRLF at checkout (repo stays LF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell: keep repo normalized to LF
+*.ps1  text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
+# --- /BPOE ---
