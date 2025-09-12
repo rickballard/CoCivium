@@ -1,0 +1,22 @@
+Subject: Digital constitutionalism in practice — quick advisory request (CoCivium)
+
+Hi David Kaye,
+
+Your work on freedom of expression has shaped our approach at CoCivium.
+
+Quick context: we are operationalizing due-process + appeals inside protocols
+(code + institutions, not just words).
+
+Could we book 30 minutes to sanity-check our Cognocarta Consenti
+(rights, remedies, jurisdiction-aware routing) and our anti-gaming metrics
+(congruence, remedy-rate, legitimacy signals)?
+
+Influence: you'd directly shape the appeals module and a near-term pilot; timing is flexible.
+Our specific ask: 30-min advisory; sanity check on remedy-rights alignment with international norms.
+
+We will share a 2-pager in advance.
+
+Ref: https://news.law.uci.edu/2025/09/04/uc-irvine-law-professor-david-kaye-testifies-house-judiciary-committee-eu-tech-laws-free-speech-innovation/
+
+Best,
+Rick
