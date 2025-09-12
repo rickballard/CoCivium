@@ -128,7 +128,9 @@ Rick
 
   $safeAff = if ($aff) { $aff } else { '' }
   if ($safeAff.Length -gt 40) { $safeAff = $safeAff.Substring(0,40) }
-  $fname = ("{0} — {1}.txt" -f ($name -replace '[\\/:*?""<>|]', '-'), $safeAff).Trim()
+  $baseLeft  = _ToAsciiFileName($name)
+  $baseRight = _ToAsciiFileName($safeAff)
+  $fname     = ("{0} - {1}.txt" -f $baseLeft, $baseRight).Trim()
   "Subject: $subject`r`n`r`n$body" | Set-Content -Path (Join-Path $stage $fname) -Encoding UTF8
 }
 
@@ -139,3 +141,4 @@ Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip -Force
 Write-Host "[OK] Wrote:"
 Write-Host " - $firstLines"
 Write-Host " - $zip"
+
