@@ -1,4 +1,4 @@
-﻿# Informal Partnership Synergy Report  
+# Informal Partnership Synergy Report  
 **Between: Shad Sharma (Koso) & Rick (CoCivium ecosystem)**
 
 > **Explore CoCivium first:** See the project’s main overview here → [Root README](../../README.md)
@@ -70,3 +70,11 @@ I’ll adapt to whatever timing makes sense for you.
 ---
 
 
+
+---
+
+### More to explore in CoCivium
+- **Root README** → [../../README.md](../../README.md)
+- **Documentation index** → [../../docs/](../../docs/)
+- **BPOE / Status** → [../../docs/status/BPOE.md](../../docs/status/BPOE.md)
+- **Partners: Start Here** → [START-HERE.md](START-HERE.md)
