@@ -30,3 +30,6 @@
 - **Deterministic seed tags**: move tags with git tag -fa ... && git push -f origin <tag>; CI guards that tags are annotated and on origin/main.
 - **Seed-mode branch protection**: remove rules; treat HTTP 404 as success. Use 	ools/bp-unprotect.ps1 (GH API wrapper).
 - **Line-endings**: repo LF; CRLF only for .bat/.cmd; run git add --renormalize . after .gitattributes changes.
+
+### BPOE Runtime Addendum (2025-09-12)
+- **Heartbeat is dot-source-safe**: state kept in Global:__BPOE_* with guarded lookups; no blank PS7 lines during long ops.
