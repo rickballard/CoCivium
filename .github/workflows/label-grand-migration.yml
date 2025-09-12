@@ -1,0 +1,17 @@
+﻿name: Label Grand Migration Drops
+on:
+  pull_request:
+    paths:
+      - "grand-migration-advice/**"
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            grand-migration
+            docs
