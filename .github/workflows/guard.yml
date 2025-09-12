@@ -1,5 +1,9 @@
 ﻿name: Guard
-on: [push, pull_request]
+on:
+  push:
+    paths: [.gitattributes, tools/validate-gitattributes.ps1]
+  pull_request:
+    paths: [.gitattributes, tools/validate-gitattributes.ps1]
 jobs:
   validate:
     runs-on: ubuntu-latest
