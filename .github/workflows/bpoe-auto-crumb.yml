@@ -1,0 +1,71 @@
+﻿name: BPOE Auto Breadcrumb
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  crumb:
+    if: ${{ github.event.pull_request.merged == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Build breadcrumb from PR context
+        id: build
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const number   = pr.number;
+            const title    = pr.title || "";
+            const mergedBy = pr.merged_by ? pr.merged_by.login : "unknown";
+            const labels   = (pr.labels || []).map(l=>l.name).join(", ") || "none";
+            const author   = pr.user ? pr.user.login : "unknown";
+            const body     = pr.body || "";
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: number,
+              per_page: 100
+            });
+            const changed = files.map(f=>`- ${f.filename} (${f.status})`).join("\n") || "- (no file list)";
+            const dt = new Date().toISOString().slice(0,10);
+            const slug = (title.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60)) || `pr-${number}`;
+            const relPath = `docs/status/breadcrumbs/${dt}_pr-${number}-${slug}.md`;
+            const content = `# Breadcrumb — PR #${number}: ${title}
+
+**Merged:** ${dt}
+**Author:** ${author}
+**Merged by:** ${mergedBy}
+**Labels:** ${labels}
+
+**PR body (excerpt)**
+
+${body}
+
+**Changed files**
+${changed}
+
+**Pointers**
+- PR: #${number}
+- Root README → ../../README.md
+- BPOE Status → ../BPOE.md
+`;
+            const fs = require("fs"); const path = require("path");
+            fs.mkdirSync(path.dirname(relPath), { recursive: true });
+            fs.writeFileSync(relPath, content, "utf8");
+            core.setOutput("crumb_path", relPath);
+
+      - name: Commit breadcrumb
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "BPOE: auto breadcrumb for PR #${{ github.event.pull_request.number }}"
+          file_pattern: docs/status/breadcrumbs/*.md
