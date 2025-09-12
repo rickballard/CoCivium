@@ -1,14 +1,13 @@
-﻿# BPOE-PwshBounce
+﻿param(
+  [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
+  [string]$CsvPath
+)
+
+# BPOE-PwshBounce (must appear AFTER param so PS5 stays happy)
 if ($PSVersionTable.PSVersion.Major -lt 7) {
   $cmd = Get-Command pwsh -ErrorAction SilentlyContinue
   if ($cmd) { & $cmd.Source -NoProfile -File $PSCommandPath @args; exit $LASTEXITCODE }
 }
-
-[CmdletBinding()]
-param(
-  [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
-  [string]$CsvPath
-)
 
 $ErrorActionPreference = 'Stop'
 
