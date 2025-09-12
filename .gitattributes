@@ -12,15 +12,41 @@
 *.bat text eol=crlf
 *.sh  text eol=lf
 
-# --- BPOE: baseline EOL normalization (keep repo LF) ---
-* text=auto eol=lf
+# --- BPOE: filetype normalization ---
+# repo default: text normalized to LF
+*           text=auto eol=lf
 
-# Windows scripts that need CRLF at checkout (repo stays LF)
-*.bat text eol=crlf
-*.cmd text eol=crlf
+# windows launchers get CRLF at checkout (repo stays LF)
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
 
-# PowerShell: keep repo normalized to LF
-*.ps1  text eol=lf
-*.psm1 text eol=lf
-*.psd1 text eol=lf
+# powershell & scripts stay LF
+*.ps1       text eol=lf
+*.psm1      text eol=lf
+*.psd1      text eol=lf
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.zsh       text eol=lf
+
+# yaml, json, md, svg are text (guard against accidental CRLFs)
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.md        text eol=lf
+*.svg       text eol=lf
+
+# binaries (no diff/merge; never EOL-touched)
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.pdf       binary
+*.zip       binary
+*.gz        binary
+*.mp3       binary
+*.wav       binary
+*.mp4       binary
+*.mov       binary
 # --- /BPOE ---
