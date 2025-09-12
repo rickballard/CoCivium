@@ -11,3 +11,9 @@
 
 
 
+- **GM PR bloat:** OK: 1 open gm/* PR — _as of 2025-09-12 01:41:24Z_
+
+<details><summary>Open gm/* PRs</summary>
+- #385 gm/CoCivium.clean-20250911-172359 (2025-09-11T21:26:21Z)
+</details>
+
