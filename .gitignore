@@ -57,3 +57,7 @@ Thumbs.db
 *.bak
 
 .bp-*.json
+
+docs/status/HEALTH.json
+
+docs/status/bpoe-log.ndjson
