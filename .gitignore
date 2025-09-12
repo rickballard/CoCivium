@@ -64,3 +64,6 @@ docs/outreach/LehaneOps/reports/logs/*.json
 docs/outreach/LehaneOps/reports/role-guard/*.md
 
 !outreach/projects/outreach-stage-seed/templates/outreach_emails_wave0_top6.zip
+
+docs/status/HEALTH.json
+docs/status/bpoe-log.ndjson
