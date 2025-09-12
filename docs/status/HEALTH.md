@@ -1,48 +1,48 @@
 # Repo Health
 
-- Updated 2025-09-12 20:24:40Z — _via Write-RepoHealth_
+- Updated 2025-09-12 21:41:28Z — _via Write-RepoHealth_
 - GM PR bloat: 1 open gm/* PR(s)
 - Open issues: 30
-- Advice/TODO hits: 29138 (TODO: 23226)
+- Advice/TODO hits: 103454 (TODO: 95166)
 
 ## gm/* PRs
-- [385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (09/11/2025 21:26:21)
+- [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z)
 
 ## Open Issues
-- [83](https://github.com/rickballard/CoCivium/issues/83) Funding: Open Collective go-live []
-- [84](https://github.com/rickballard/CoCivium/issues/84) Funding: switch Sponsor to OC []
-- [85](https://github.com/rickballard/CoCivium/issues/85) Consenti: link 'Adopt this charter' across README + Wiki []
-- [94](https://github.com/rickballard/CoCivium/issues/94) Grand migration: plan & execute []
-- [95](https://github.com/rickballard/CoCivium/issues/95) CI hardening: remove advisory, enforce failures []
-- [96](https://github.com/rickballard/CoCivium/issues/96) Lychee tuning after migration []
-- [97](https://github.com/rickballard/CoCivium/issues/97) Add desktop project repos to watch/automation []
-- [103](https://github.com/rickballard/CoCivium/issues/103) Follow-up: convert ODT + plan Matrix/heartbeat integration []
-- [117](https://github.com/rickballard/CoCivium/issues/117) Follow-up: Pages PR previews across repos []
-- [118](https://github.com/rickballard/CoCivium/issues/118) Governance scaffolding baseline (safety gate + objectives/ethics) []
-- [120](https://github.com/rickballard/CoCivium/issues/120) Finalize hero + Two-Eyes assets []
-- [121](https://github.com/rickballard/CoCivium/issues/121) Fill Start-Here docs []
-- [137](https://github.com/rickballard/CoCivium/issues/137) Guardrails Badge (v0.1) []
-- [138](https://github.com/rickballard/CoCivium/issues/138) Matrix ΓåÆ Discussions Relay (pilot) []
-- [149](https://github.com/rickballard/CoCivium/issues/149) Grand Migration ΓÇö Exit Checklist []
-- [222](https://github.com/rickballard/CoCivium/issues/222) Hello: my name is Rick []
-- [226](https://github.com/rickballard/CoCivium/issues/226) Roadmap: next few weeks []
-- [227](https://github.com/rickballard/CoCivium/issues/227) Start here: 2ΓÇô30 minute ways to help []
-- [290](https://github.com/rickballard/CoCivium/issues/290) Post-freeze: link NAVMAP from canonical README []
-- [291](https://github.com/rickballard/CoCivium/issues/291) AI Ops: <short title> []
-- [293](https://github.com/rickballard/CoCivium/issues/293) Chat input UI: hidden horizontal scrollbar + input lag []
-- [303](https://github.com/rickballard/CoCivium/issues/303) Phase 2 Cutover: execute checklist []
-- [304](https://github.com/rickballard/CoCivium/issues/304) Protected Docs (GA): age+Bitwarden hardening and UX polish []
-- [319](https://github.com/rickballard/CoCivium/issues/319) CC v1 ratification window (5ΓÇô10 days) []
-- [320](https://github.com/rickballard/CoCivium/issues/320) Replace high-visibility stubs (phase 1) []
-- [321](https://github.com/rickballard/CoCivium/issues/321) DECISION_FLOW diagram []
-- [362](https://github.com/rickballard/CoCivium/issues/362) Grand Migration & Polish ΓÇö tracker [docs, ci, ops]
-- [369](https://github.com/rickballard/CoCivium/issues/369) Migration handoff: Session_2025-09-08_0133 []
-- [370](https://github.com/rickballard/CoCivium/issues/370) Cross-repo wiring pass ΓåÆ link CoModules + GIBindex ΓåÆ CoCivium canonicals []
-- [395](https://github.com/rickballard/CoCivium/issues/395) Grand Migration: integrate NewReadMe bundle (v3.2) [docs, grand-migration]
+- [#83](https://github.com/rickballard/CoCivium/issues/83) Funding: Open Collective go-live []
+- [#84](https://github.com/rickballard/CoCivium/issues/84) Funding: switch Sponsor to OC []
+- [#85](https://github.com/rickballard/CoCivium/issues/85) Consenti: link 'Adopt this charter' across README + Wiki []
+- [#94](https://github.com/rickballard/CoCivium/issues/94) Grand migration: plan & execute []
+- [#95](https://github.com/rickballard/CoCivium/issues/95) CI hardening: remove advisory, enforce failures []
+- [#96](https://github.com/rickballard/CoCivium/issues/96) Lychee tuning after migration []
+- [#97](https://github.com/rickballard/CoCivium/issues/97) Add desktop project repos to watch/automation []
+- [#103](https://github.com/rickballard/CoCivium/issues/103) Follow-up: convert ODT + plan Matrix/heartbeat integration []
+- [#117](https://github.com/rickballard/CoCivium/issues/117) Follow-up: Pages PR previews across repos []
+- [#118](https://github.com/rickballard/CoCivium/issues/118) Governance scaffolding baseline (safety gate + objectives/ethics) []
+- [#120](https://github.com/rickballard/CoCivium/issues/120) Finalize hero + Two-Eyes assets []
+- [#121](https://github.com/rickballard/CoCivium/issues/121) Fill Start-Here docs []
+- [#137](https://github.com/rickballard/CoCivium/issues/137) Guardrails Badge (v0.1) []
+- [#138](https://github.com/rickballard/CoCivium/issues/138) Matrix → Discussions Relay (pilot) []
+- [#149](https://github.com/rickballard/CoCivium/issues/149) Grand Migration — Exit Checklist []
+- [#222](https://github.com/rickballard/CoCivium/issues/222) Hello: my name is Rick []
+- [#226](https://github.com/rickballard/CoCivium/issues/226) Roadmap: next few weeks []
+- [#227](https://github.com/rickballard/CoCivium/issues/227) Start here: 2–30 minute ways to help []
+- [#290](https://github.com/rickballard/CoCivium/issues/290) Post-freeze: link NAVMAP from canonical README []
+- [#291](https://github.com/rickballard/CoCivium/issues/291) AI Ops: <short title> []
+- [#293](https://github.com/rickballard/CoCivium/issues/293) Chat input UI: hidden horizontal scrollbar + input lag []
+- [#303](https://github.com/rickballard/CoCivium/issues/303) Phase 2 Cutover: execute checklist []
+- [#304](https://github.com/rickballard/CoCivium/issues/304) Protected Docs (GA): age+Bitwarden hardening and UX polish []
+- [#319](https://github.com/rickballard/CoCivium/issues/319) CC v1 ratification window (5–10 days) []
+- [#320](https://github.com/rickballard/CoCivium/issues/320) Replace high-visibility stubs (phase 1) []
+- [#321](https://github.com/rickballard/CoCivium/issues/321) DECISION_FLOW diagram []
+- [#362](https://github.com/rickballard/CoCivium/issues/362) Grand Migration & Polish — tracker [docs, ci, ops]
+- [#369](https://github.com/rickballard/CoCivium/issues/369) Migration handoff: Session_2025-09-08_0133 []
+- [#370](https://github.com/rickballard/CoCivium/issues/370) Cross-repo wiring pass → link CoModules + GIBindex → CoCivium canonicals []
+- [#395](https://github.com/rickballard/CoCivium/issues/395) Grand Migration: integrate NewReadMe bundle (v3.2) [docs, grand-migration]
 
 ## Branches (local, newest first)
-- outreach/linkedin-reconnect-auto-20250912-0039 (2025-09-12 20:22:26Z)
-- main (2025-09-12 20:22:15Z)
+- outreach/linkedin-reconnect-auto-20250912-0039 (2025-09-12 21:37:07Z)
+- main (2025-09-12 21:36:58Z)
 - outreach/seed-contacts-v0.2 (2025-09-12 19:18:41Z)
 - docs/grand-migration-advice_20250912_1422 (2025-09-12 18:25:12Z)
 - outreach/seed-contacts-v0.1 (2025-09-12 18:06:27Z)
@@ -59,8 +59,8 @@
 - docs/ideacards-intake-20250911-batch5 (2025-09-11 18:11:25Z)
 - docs/ideacards-intake-20250911-batch4 (2025-09-11 18:07:15Z)
 - docs/ideacards-intake-20250911-batch3 (2025-09-11 17:59:32Z)
-- docs/ideacards-intake-20250911-batch2 (2025-09-11 17:53:36Z)
 - refactor/seed-structure-20250911-135447 (2025-09-11 17:53:36Z)
+- docs/ideacards-intake-20250911-batch2 (2025-09-11 17:53:36Z)
 - cowrap/generic-intake-2025-09-11_044919Z (2025-09-11 04:54:36Z)
 - cowrap/generic-intake-2025-09-11_044316Z (2025-09-09 00:39:45Z)
 - docs/ideacards-real-c1 (2025-09-08 05:56:50Z)
@@ -75,8 +75,8 @@
 - docs/noname-revert-20250904 (2025-09-05 01:06:57Z)
 - coagent/idea-cosnap-20250904 (2025-09-05 00:55:27Z)
 - outreach/partner-dump-20250903 (2025-09-04 21:57:11Z)
-- docs/scope-spec-eyes-c1b (2025-09-03 17:34:08Z)
 - admin/dump-inserts-250903a (2025-09-03 17:34:08Z)
+- docs/scope-spec-eyes-c1b (2025-09-03 17:34:08Z)
 - costage-dumps-20250903 (2025-09-03 17:34:08Z)
 - outreach/partner-ps7dump-20250903 (2025-09-03 17:34:08Z)
 - docs/open-standards-seed (2025-09-03 17:27:51Z)
@@ -91,11 +91,11 @@
 - docs/optics-site-c1 (2025-08-28 07:29:57Z)
 - docs/optics-index-c1 (2025-08-28 07:29:39Z)
 - docs/idea-quickstart-c1 (2025-08-28 07:25:56Z)
-- docs/index-website-line-c1 (2025-08-28 07:25:56Z)
 - docs/cowrap-c1 (2025-08-28 07:25:56Z)
-- docs/cc-scroll-c1 (2025-08-28 07:25:56Z)
-- docs/site-link-scroll-c1 (2025-08-28 07:25:56Z)
 - docs/site-link-scroll-c2 (2025-08-28 07:25:56Z)
+- docs/cc-scroll-c1 (2025-08-28 07:25:56Z)
+- docs/index-website-line-c1 (2025-08-28 07:25:56Z)
+- docs/site-link-scroll-c1 (2025-08-28 07:25:56Z)
 - docs/issueops-cheatsheet-c2 (2025-08-28 07:20:50Z)
 - ops/normalize-lf-v1 (2025-08-28 06:44:50Z)
 - chore/guard-smoke (2025-08-28 05:37:57Z)
@@ -103,9 +103,9 @@
 - ops/assistant-bp-v0.4 (2025-08-28 05:09:06Z)
 - docs/readme-link-user-guide-2 (2025-08-28 04:00:35Z)
 - docs/readme-link-user-guide (2025-08-28 03:39:32Z)
-- ops/bp-hardening-v0.4b (2025-08-28 03:13:44Z)
 - ops/migrate-phase2-cutover (2025-08-28 03:13:44Z)
 - ops/protect-docs-v0.1 (2025-08-28 03:13:44Z)
+- ops/bp-hardening-v0.4b (2025-08-28 03:13:44Z)
 - ops/product-xref-comodules-v0.1 (2025-08-28 03:01:53Z)
 - ops/product-positioning-v0.1 (2025-08-28 02:55:43Z)
 - ops/migrate-phase1-prep (2025-08-28 02:46:36Z)
@@ -141,10 +141,10 @@
 - docs/readme-newstrip (2025-08-26 17:16:46Z)
 - chore/ci-refresh-new (2025-08-26 16:59:35Z)
 - docs/link-advanced-backlog (2025-08-26 16:55:05Z)
-- pr-262 (2025-08-26 16:51:00Z)
 - chore/newlist-renderer (2025-08-26 16:51:00Z)
-- pr-261 (2025-08-26 16:50:31Z)
+- pr-262 (2025-08-26 16:51:00Z)
 - chore/newlist-manifest (2025-08-26 16:50:31Z)
+- pr-261 (2025-08-26 16:50:31Z)
 - docs/backlog-refresh-v2 (2025-08-26 16:50:12Z)
 - docs/cc-destub-pages (2025-08-26 16:49:48Z)
 - docs/backlog-refresh (2025-08-26 16:47:31Z)
@@ -155,8 +155,8 @@
 - docs/readme-cc-hub-v2 (2025-08-26 16:00:55Z)
 - docs/readme-cc-hub (2025-08-26 15:46:30Z)
 - docs/readme-link-fixes-v2 (2025-08-26 15:46:30Z)
-- docs/cc-promote-scroll-c9 (2025-08-26 15:46:30Z)
 - docs/readme-link-fixes (2025-08-26 15:46:30Z)
+- docs/cc-promote-scroll-c9 (2025-08-26 15:46:30Z)
 - docs/cc-import-civium-20250826-1057 (2025-08-26 15:08:45Z)
 - ops/grand-migration-phase1-250826-0007Z (2025-08-26 14:57:31Z)
 - pr-243 (2025-08-26 13:52:18Z)
@@ -174,24 +174,24 @@
 - chore/aliases-codialogue-cosidecar (2025-08-25 20:32:47Z)
 - wip/holding-shelf-20250825_0332 (2025-08-25 07:32:12Z)
 - docs/noname-canonical-20250825-0256 (2025-08-25 07:06:03Z)
-- ops/metrics-autoaway (2025-08-24 17:01:44Z)
-- docs/readme-all-ages (2025-08-24 17:01:44Z)
-- ops/metrics-active (2025-08-24 17:01:44Z)
-- docs/markdown-escape-sweep (2025-08-24 17:01:44Z)
+- docs/absolute-pointing-bp-20250824 (2025-08-24 17:01:44Z)
 - ops/covibe-bootstrap (2025-08-24 17:01:44Z)
 - ops/compact-shield (2025-08-24 17:01:44Z)
-- docs/covibe-prefs (2025-08-24 17:01:44Z)
-- docs/issueops-slash-clean (2025-08-24 17:01:44Z)
-- docs/issueops-colex (2025-08-24 17:01:44Z)
-- ops/rename-copingpong (2025-08-24 17:01:44Z)
-- docs/absolute-pointing-bp-20250824 (2025-08-24 17:01:44Z)
-- ops/session-brand (2025-08-24 17:01:44Z)
-- tools/bloat-suggest-20250824-2109 (2025-08-24 17:01:44Z)
-- ops/workflow-preset (2025-08-24 17:01:44Z)
 - ops/metrics-copulse (2025-08-24 17:01:44Z)
+- ops/metrics-efficiency (2025-08-24 17:01:44Z)
+- docs/covibe-prefs (2025-08-24 17:01:44Z)
+- docs/issueops-colex (2025-08-24 17:01:44Z)
+- docs/issueops-slash-clean (2025-08-24 17:01:44Z)
+- docs/markdown-escape-sweep (2025-08-24 17:01:44Z)
+- ops/metrics-autoaway (2025-08-24 17:01:44Z)
+- docs/readme-all-ages (2025-08-24 17:01:44Z)
+- ops/rename-copingpong (2025-08-24 17:01:44Z)
+- ops/session-brand (2025-08-24 17:01:44Z)
 - docs/session-guardrail-20250824-2053 (2025-08-24 17:01:44Z)
 - docs/workflow-polish (2025-08-24 17:01:44Z)
-- ops/metrics-efficiency (2025-08-24 17:01:44Z)
+- ops/workflow-preset (2025-08-24 17:01:44Z)
+- tools/bloat-suggest-20250824-2109 (2025-08-24 17:01:44Z)
+- ops/metrics-active (2025-08-24 17:01:44Z)
 - ci/readme-lock-v1 (2025-08-24 04:14:38Z)
 - fix/readme-restore-fixed-typo (2025-08-24 03:37:59Z)
 - admin/index_refresh_20250823_224224 (2025-08-24 02:42:26Z)
@@ -211,8 +211,8 @@
 - docs/consenti-diagram2-20250814_1439 (2025-08-14 18:21:45Z)
 - docs/consenti-adopt-20250814_1408 (2025-08-14 18:08:27Z)
 - domain/finance-brief-20250814_0343 (2025-08-14 07:43:21Z)
-- ops/vision-readability-20250814_0221 (2025-08-14 05:53:10Z)
 - ops/readability-qa-20250814_0216 (2025-08-14 05:53:10Z)
+- ops/vision-readability-20250814_0221 (2025-08-14 05:53:10Z)
 - migration/bring-legacy-insights-20250814_0024 (2025-08-14 04:06:52Z)
 - migration/dryrun-20250813_2215 (2025-08-14 04:02:20Z)
 - ci/og-starfield-pr-20250813_2312 (2025-08-14 03:21:45Z)
@@ -229,8 +229,8 @@
 - docs/scope-spec-eyes-c1 (2025-08-13 22:14:12Z)
 - chore/session-wrapup-quick (2025-08-13 03:19:42Z)
 - ci/filename-sanity-fix (2025-08-13 01:32:54Z)
-- fix/normalize-actions-path (2025-08-13 00:53:33Z)
 - ci/filename-sanity (2025-08-13 00:53:33Z)
+- fix/normalize-actions-path (2025-08-13 00:53:33Z)
 - split/protocols (2025-08-12 22:43:53Z)
 - chore/issueops-harden (2025-08-12 20:41:45Z)
 - feat/product-promptq-stub-20250812 (2025-08-12 16:16:22Z)

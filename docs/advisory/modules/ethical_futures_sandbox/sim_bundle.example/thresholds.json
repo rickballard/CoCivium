@@ -1,0 +1,4 @@
+{
+  "harm_incidence_max": 0.02,
+  "appeal_latency_p95_max_days": 14
+}

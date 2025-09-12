@@ -1,0 +1,11 @@
+
+name: drift-watch
+on:
+  schedule: [{cron: '0 */12 * * *'}]
+  workflow_dispatch:
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "TODO: compare canonical intent vs usage; open RFC if thresholds exceeded"

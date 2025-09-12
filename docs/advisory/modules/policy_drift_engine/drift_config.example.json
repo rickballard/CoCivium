@@ -1,0 +1,6 @@
+{
+  "tau_semantic": 0.25,
+  "tau_repro": 0.9,
+  "min_windows": 2,
+  "alert_label": "drift-alert"
+}
