@@ -21,3 +21,12 @@
 - **Branch protection (seed-mode)**: remove rules; treat 404 as success. Use 	ools/bp-unprotect.ps1 (safe GH API wrapper).
 - **.gitattributes**: repo LF; CRLF only for .bat/.cmd; explicit inary globs; run git add --renormalize . after changes.
 - **Never paste YAML/.gitattributes into the shell**: create files then commit.
+
+## BPOE Runtime Mandates (2025-09-12)
+
+- **CoTemps-first**: never paste long DO blocks; scripts live in 	ools/, thin wrappers live in %USERPROFILE%\CoTemps\CoCivium\.
+- **No blank waits**: all long ops must show a visible heartbeat (one dot/sec). Implemented via 	ools/heartbeat.ps1; used by admin helpers.
+- **Admin seeding**: gh pr merge --admin --squash, then hard-sync local to origin/main.
+- **Deterministic seed tags**: move tags with git tag -fa ... && git push -f origin <tag>; CI guards that tags are annotated and on origin/main.
+- **Seed-mode branch protection**: remove rules; treat HTTP 404 as success. Use 	ools/bp-unprotect.ps1 (GH API wrapper).
+- **Line-endings**: repo LF; CRLF only for .bat/.cmd; run git add --renormalize . after .gitattributes changes.
