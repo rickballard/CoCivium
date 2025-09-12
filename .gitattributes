@@ -25,3 +25,4 @@
 *.psd1 text eol=lf
 # --- /BPOE ---
 docs/status/*.md text eol=lf
+docs/**/*.md text eol=lf
