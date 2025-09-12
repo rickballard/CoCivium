@@ -1,4 +1,12 @@
-﻿param(
+﻿function _ToAsciiFileName([string]$s){
+  $t = $s -replace '[^\u0000-\u007F]', '-'        # non-ASCII -> -
+  $t = $t -replace '[\\/:*?"<>|\r\n]', '-'        # Windows-invalid
+  $t = $t -replace '\s+', ' '                     # collapse spaces
+  $t = $t -replace '^\s+|\s+$',''                 # trim
+  $t = $t -replace '-{2,}','-'                    # collapse ---
+  return $t
+}
+param(
   [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
   [string]$CsvPath
 )
@@ -130,6 +138,8 @@ Rick
   if ($safeAff.Length -gt 40) { $safeAff = $safeAff.Substring(0,40) }
   $baseLeft  = _ToAsciiFileName($name)
   $baseRight = _ToAsciiFileName($safeAff)
+  $baseLeft  = _ToAsciiFileName($name)
+  $baseRight = _ToAsciiFileName($safeAff)
   $fname     = ("{0} - {1}.txt" -f $baseLeft, $baseRight).Trim()
   "Subject: $subject`r`n`r`n$body" | Set-Content -Path (Join-Path $stage $fname) -Encoding UTF8
 }
@@ -141,4 +151,5 @@ Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip -Force
 Write-Host "[OK] Wrote:"
 Write-Host " - $firstLines"
 Write-Host " - $zip"
+
 
