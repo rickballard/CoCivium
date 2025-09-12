@@ -1,0 +1,14 @@
+{
+  "scenarios": [
+    {
+      "name": "base",
+      "desc": "status quo"
+    },
+    {
+      "name": "optimistic"
+    },
+    {
+      "name": "adverse"
+    }
+  ]
+}
