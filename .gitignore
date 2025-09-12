@@ -60,3 +60,5 @@ Thumbs.db
 
 docs/outreach/projects/
 scripts/outreach/
+docs/outreach/LehaneOps/reports/logs/*.json
+docs/outreach/LehaneOps/reports/role-guard/*.md
