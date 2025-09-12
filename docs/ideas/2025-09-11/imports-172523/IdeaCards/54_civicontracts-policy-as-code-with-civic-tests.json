@@ -1,0 +1,26 @@
+{
+  "title": "CiviContracts — Policy‑as‑Code with Civic Tests",
+  "summary": "Encode policies as testable contracts with unit/impact tests, datasets, and red‑team scenarios; publish green/red dashboards and machine‑readable change logs.",
+  "rationale": "Turning prose into executable checks catches regressions, democratizes review, and aligns agencies on expected outcomes.",
+  "impact": "Fewer unintended consequences; faster compliance rollouts; easier handoffs during transitions.",
+  "dependencies": [
+    "Civium Toolshop",
+    "CoPulse",
+    "CiviProof",
+    "Devil’s Advocate AI"
+  ],
+  "tags": [
+    "policy",
+    "testing",
+    "transparency",
+    "automation"
+  ],
+  "capability_handles": [
+    "cap.policy.code",
+    "cap.tests.unit",
+    "cap.tests.impact",
+    "cap.changelog.machine"
+  ],
+  "source_session": "CoCivium Idea Scratchpad",
+  "sensitivity": "public"
+}

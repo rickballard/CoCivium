@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
 $repo = Join-Path $HOME "Documents\GitHub\CoCivium"
 Set-Location -LiteralPath $repo
 try {

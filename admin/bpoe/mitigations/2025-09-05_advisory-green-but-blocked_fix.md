@@ -1,3 +1,8 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Advisory checks green, PR still BLOCKED (mergeability cache) — cookbook
 
 **Symptom:** PR shows `mergeStateStatus=BLOCKED` even though the _required_ checks are green.  
@@ -23,3 +28,8 @@ CI:
 5) Re-assert protections using `checks` (not `contexts`)
 
 _This doc is part of BPOE “Known Issues & Mitigations”._
+
+
+
+
+

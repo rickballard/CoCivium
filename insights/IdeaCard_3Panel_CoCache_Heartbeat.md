@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # IdeaCard — 3-Panel Mode & CoCacheGlobal (AI Heartbeat)
 
 **Problem / Tension**  
@@ -21,3 +27,8 @@ Fewer conflicts; faster flow; lower cognitive load; pathfinder for global heartb
 - [ ] Heartbeat PoC node (home box), safe-haven roadmap.
 
 **Tags:** #workflow #concurrency #heartbeat #ux
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "batch": 6,
+  "date": "2025-09-11",
+  "range": [
+    51,
+    54
+  ],
+  "count": 4,
+  "files": [
+    "51_civireform-kit-post-capture-government-recovery-playbook.json",
+    "52_public-service-ledger-capability-map-and-meritrails.json",
+    "53_crisis-registry-and-auto-sunset-emergency-powers-audit.json",
+    "54_civicontracts-policy-as-code-with-civic-tests.json"
+  ]
+}

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # AI_Enablement_Seed
 _Coherence Draft c1 – August 2, 2025_
 
@@ -101,6 +102,7 @@ If such a file exists (see: `AI_Enablement_Seed_g1_*.md`), it may contain deeper
 **Maintainer:** ChatGPT + RickPublic
 **Mode:** Recursive Instruction Layer
 **Coherence Estimate:** 0.9
+
 
 
 

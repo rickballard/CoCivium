@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Signature Blocks (copy-paste)
 
 **Short (Forum/GitHub):**
@@ -5,4 +11,10 @@
 
 **Expanded (Medium):**
 — Rick, on behalf of the CoCivAI working group assisting CoCivium.  Drafting support by ChatGPT (GPT‑5 Thinking).  HumanGate review completed prior to publication.
+
+
+
+
+
+
 

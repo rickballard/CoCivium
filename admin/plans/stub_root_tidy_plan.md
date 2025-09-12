@@ -1,3 +1,5 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # stub_root_tidy_plan
 
 **Purpose:** propose relocating technical noise from repository root to keep the top of README.md front-and-center for non-technical visitors. **No moves have been made yet.** This is a planning doc.
@@ -18,4 +20,6 @@
 1) Approve or strike items above.
 2) I will generate a move map and an atomic commit updating all links.
 3) Run \  ools/readme-preflight.ps1\ and open PR.
+
+
 

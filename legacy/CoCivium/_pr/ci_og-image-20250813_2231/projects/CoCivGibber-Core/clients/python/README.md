@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Minimal Python Client (sketch)
 
 This is a sketch to guide implementation.  Use a maintained Matrix SDK.  Required behaviors:
@@ -7,4 +13,10 @@ This is a sketch to guide implementation.  Use a maintained Matrix SDK.  Require
 4) Maintain liveness pings and rotate session tokens.
 
 Security notes: store keys securely.  Log Merkle roots and hashes, not raw sensitive content.
+
+
+
+
+
+
 

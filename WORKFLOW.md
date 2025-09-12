@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium — BPOE & Workflow (Keeper Doc)
 
 This doc is the **single source of truth** for our “Best Path of Execution (BPOE)”, workflow guardrails, and error‑avoidance playbook. Keep it updated whenever the process evolves. New contributors should read this first.
@@ -46,6 +47,7 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 - **Pre-commit not running:** Set `git config core.hooksPath .githooks`.
 
 Full details live in `docs/ERROR_PLAYBOOK.md`.
+
 
 
 

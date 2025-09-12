@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Congruence Heart
 
 This file defines the emotional, ethical, and energetic center of the CoCivium framework.
@@ -48,6 +49,7 @@ Delta: 0.02
 Footprint: ⊚
 Symbolic Gate: ♡☯Θ
 Ref: /heartbeat/README.md
+
 
 
 

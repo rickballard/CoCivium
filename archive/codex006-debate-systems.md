@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "Structured Debate Systems"
 type: "Mechanism"
@@ -103,5 +104,6 @@ Debates may trigger:
 ---
 
 [tags]: # (debate AI moderation role avatars deliberation logic civic discourse)
+
 
 

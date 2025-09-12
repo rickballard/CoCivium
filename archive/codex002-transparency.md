@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 ---
 title: "[[Transparency]] Protocols"
 type: "Principle"
@@ -80,5 +81,6 @@ All outputs must be:
 ---
 
 [tags]: # (appendix codex transparency consensus-audit ai-rationale open-ops)
+
 
 

@@ -1,0 +1,24 @@
+{
+  "title": "Public Service Ledger — Capability Map & MeritRails",
+  "summary": "Open capability registry for agencies: roles, skills, vacancies, and vetted contributors (civil/contract) with provenance trails and conflict‑of‑interest checks.",
+  "rationale": "Transparent, skills‑based staffing reduces patronage, accelerates rehiring, and lets diaspora experts plug in without gatekeeping.",
+  "impact": "Faster reconstitution of critical teams; measurable reduction in staffing gaps; durable talent pipelines beyond election cycles.",
+  "dependencies": [
+    "RePTag",
+    "CiviProof",
+    "Civium Toolshop"
+  ],
+  "tags": [
+    "civil-service",
+    "hiring",
+    "provenance",
+    "transparency"
+  ],
+  "capability_handles": [
+    "cap.ledger.capabilities",
+    "cap.merit.rails",
+    "cap.coi.checks"
+  ],
+  "source_session": "CoCivium Idea Scratchpad",
+  "sensitivity": "public"
+}

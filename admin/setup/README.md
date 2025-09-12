@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Setup Folder
 
 This folder contains scripts, registry files, and other distribution artifacts used for setting up or upgrading local environments.
@@ -29,4 +30,5 @@ If they are converted to LF-only endings (common on Linux/macOS systems), execut
 ---
 
 **Tip:** If you work on Linux or macOS and need to create/update `.cmd` or `.reg` files, ensure your editor supports CRLF and respects `.gitattributes`.
+
 
