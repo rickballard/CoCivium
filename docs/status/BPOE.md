@@ -45,3 +45,10 @@
 <details><summary>Open gm/* PRs</summary>
 - [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
 </details>
+
+
+- **GM PR bloat:** OK: 1 open gm/* PR — _as of 2025-09-12 03:29:37Z_
+
+<details><summary>Open gm/* PRs</summary>
+- [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
+</details>
