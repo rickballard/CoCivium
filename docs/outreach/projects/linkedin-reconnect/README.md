@@ -1,8 +1,5 @@
-git add scripts/outreach/contacts docs/outreach/projects/linkedIn-reconnect
+# LinkedIn Reconnect — Outreach Project
 
-git commit -m "docs+scripts(outreach): add LinkedIn reconnect project + contact tools"
-
-git push
-
-
-
+**Status:** Planned • **Owner:** Rick • **Created:** 2025-09-12
+**Goal:** Reconnect with prior colleagues, share CoCivium/GroupBuild, invite involvement.
+Folders: workflows/, data-schemas/, assets/, scripts/outreach/contacts/.
