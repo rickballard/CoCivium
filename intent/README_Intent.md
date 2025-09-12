@@ -20,9 +20,3 @@ Intent documents are not fixed roadmaps. They are recurring calibration tools. T
 - Recursion planning and accountability models
 
 
-
-
-
-
-
-

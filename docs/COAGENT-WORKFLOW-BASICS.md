@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # CoAgent Workflow Basics (DO➕ Canon)
 
 - DO headers live **outside** code blocks:
@@ -17,11 +11,5 @@
 >>>>>>> bdc1b77 (docs(coagent): canon stub for DO➕ workflow + demarcation rule)
 
 - Colors: 🟢 safe/observe, 🟡 relax/toggle, 🟦 enforce, 🟥 risky/destructive, 🟫 optional.
-
-
-
-
-
-
 
 

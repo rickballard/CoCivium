@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # Codex 02 — Rights and Redress
 
 ## Overview
@@ -59,6 +58,5 @@ This codex defines the principles that align individual and collective rights wi
 ---
 
 *This codex document is subject to iterative refinement as CoCivium evolves.*
-
 
 

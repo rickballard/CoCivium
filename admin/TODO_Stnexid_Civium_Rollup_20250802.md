@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # TODO: Stnexid-CoCivium Task Rollup
 _August 2, 2025_
 
@@ -38,7 +37,6 @@ This file captures the implementation tasks discussed during the strategic plann
 ## Notes
 - Stnexid now serves as both onboarding frame and spiritual-scientific bridge for CoCivium.
 - This structure should be human-readable, AI-parseable, and durable under loss of founder.
-
 
 
 

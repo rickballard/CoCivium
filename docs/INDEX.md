@@ -1,9 +1,3 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # CoCivium Docs (Master Index)
 
 **Welcome.** This repo is the source of truth for the public site and developer/docs pipelines.
@@ -21,9 +15,3 @@
 - Glossary
 
 > This index lives in-repo so website & GitHub stay in sync.
-
-
-
-
-
-

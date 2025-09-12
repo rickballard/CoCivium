@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # Should I Trust CoCivium With My Privacy?
 
 **Characters:** Priya (Privacy Advocate) and Eliot (Systems Engineer)
@@ -29,6 +28,5 @@ Exactly. CoCivium isn’t a black box. It reflects us—and protects us—by ref
 
 **Conclusion:**
 Priya isn't ready to fully trust CoCivium, but she agrees to begin exploring small, low-stakes integrations. Eliot assures her every gateway requires active trust and revocability.
-
 
 

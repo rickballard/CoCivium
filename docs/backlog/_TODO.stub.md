@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Backlog (stub parked)
 
 We keep the *live* backlog in GitHub Issues. Use labels:
@@ -13,11 +7,5 @@ We keep the *live* backlog in GitHub Issues. Use labels:
 - \good first issue\ for newcomers
 
 See: https://github.com/rickballard/CoCivium/issues
-
-
-
-
-
-
 
 

@@ -1,10 +1,3 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # What If I Never Want to Merge?
 
 **Between Silas (a radical individualist) and Rhea (a CoCivium interface designer):**
@@ -23,12 +16,5 @@ Rhea: “Yes. CoCivium isn’t assimilation—it’s orchestration. You can solo
 
 **Agreed:**
 Participation in CoCivium’s co-intelligence is voluntary. Identity integrity is sacred.
-
-
-
-
-
-
-
 
 

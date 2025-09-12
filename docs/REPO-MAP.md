@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Repo Map
 
 ```mermaid
@@ -41,11 +35,5 @@ flowchart TD
   classDef dir fill:#eef,stroke:#99c;
   classDef ext fill:#efe,stroke:#7a7;
 ```
-
-
-
-
-
-
 
 

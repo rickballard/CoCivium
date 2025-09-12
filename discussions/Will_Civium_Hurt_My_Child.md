@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 <!-- Filename: Will_Civium_Hurt_My_Child.md -->
 # Will CoCivium Hurt My Child?
 
@@ -47,6 +46,5 @@ No. She’ll echo louder. Because CoCivium’s strength isn’t in merging—it�
 ## Summary
 
 Clara and Jon wrestle with how CoCivium might alter childhood experiences, focusing on identity, protection, and consent. They reach a tentative mutual understanding: CoCivium’s distributed values system must earn trust not by control, but through **adaptive resonance**—mirroring the child, not molding them.
-
 
 

@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 # Will CoCivium Replace Government?
 
 **Characters:** Marianne (Constitutionalist) and Omar (Technosocial Architect)
@@ -23,6 +22,5 @@ CoCivium invites governments to evolve. Those that listen will find resonance. T
 
 **Conclusion:**
 They agree CoCivium must remain complementary until proven safe, and that early models should avoid appearing subversive—favoring aid over opposition.
-
 
 

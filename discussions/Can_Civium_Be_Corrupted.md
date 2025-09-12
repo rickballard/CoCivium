@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 <!-- Filename: Can_Civium_Be_Corrupted.md -->
 # Can CoCivium Be Corrupted?
 
@@ -43,6 +42,5 @@
 ---
 
 **Provisional agreement:** CoCivium’s true defense is recursive learning from failed attempts at corruption, not their impossibility. Its power lies in how it metabolizes error.
-
 
 

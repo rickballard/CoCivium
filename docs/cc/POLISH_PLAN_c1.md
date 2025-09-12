@@ -1,10 +1,4 @@
 <!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # CC Polish Plan (c1)
 > *Beauty.* We tune CC to be coherent, legible, and brand-consistent.
 
@@ -19,11 +13,5 @@ Track concrete edits to bring CC up to Brand Pattern v2 and NAV map.
 
 ---
 _Draft; congruence TBD after second-human edit._
-
-
-
-
-
-
 
 

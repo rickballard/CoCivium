@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 <!-- Filename: TODO_Outreach_Hinton_CoCivium.md -->
 <!-- Location: /admin/ or /outreach/ if available -->
 <!-- Created: 2025-07-25 01:04 UTC -->
@@ -29,6 +28,5 @@ Hinton has expressed serious concern about profit-driven AI acceleration and lac
 
 ## Notes
 This phase may yield limited results initially, but should be reusable across multiple timeframes—before and after Rick’s active role in the project concludes. Redos are acceptable. Tone should remain respectful, rational, and future-focused.
-
 
 

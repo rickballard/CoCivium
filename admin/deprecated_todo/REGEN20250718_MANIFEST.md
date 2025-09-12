@@ -1,10 +1,3 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
 # Regen Manifest: REGEN20250718
 
 Tracks every file altered or regenerated.
@@ -51,13 +44,6 @@ Tracks every file altered or regenerated.
 [✔] README_git.md → Replaced by README_admin.md
 → Footprint: ⊘
 → Notes: Refactored to match renamed /admin/ folder
-
-
-
-
-
-
-
 
 
 

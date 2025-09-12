@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 <!-- Filename: TODO_Trust_Profiles_Public_Ledger.md -->
 <!-- Location: /admin/ -->
 <!-- Created: 2025-07-25 01:12 UTC -->
@@ -28,7 +27,6 @@ To provide decentralized reputation infrastructure for systems like CoCivium, Gr
 
 ## Notes
 This may intersect with CoCivium identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
-
 
 
 

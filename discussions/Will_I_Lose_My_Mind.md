@@ -1,4 +1,3 @@
-<!-- status: stub; target: 150+ words -->
 <!-- Filename: Will_I_Lose_My_Mind.md -->
 # Will I Lose My Mind?
 
@@ -45,6 +44,5 @@
 ---
 
 **Provisional agreement:** CoCivium doesn’t demand mind-loss; it invites intermind resonance. Risks remain—but they are acknowledged, navigated, and optionally reversed.
-
 
 
