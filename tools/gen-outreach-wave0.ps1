@@ -1,4 +1,8 @@
-﻿[CmdletBinding()]
+﻿# BPOE-PwshBounce
+if ($PSVersionTable.PSVersion.Major -lt 7) {
+  $cmd = Get-Command pwsh -ErrorAction SilentlyContinue
+  if ($cmd) { & $cmd.Source -NoProfile -File $PSCommandPath @args; exit $LASTEXITCODE }
+}[CmdletBinding()]
 param(
   [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
   [string]$CsvPath  = $null
@@ -56,10 +60,9 @@ foreach ($r in $top) {
     "We're operationalizing due-process + appeals inside protocols (code + institutions, not just words).",
     "Could we book 30 minutes to sanity-check our Cognocarta Consenti (rights, remedies, jurisdiction-aware routing) and our anti-gaming metrics (congruence, remedy-rate, legitimacy signals)?"
   ) -join ' '
-
-  $influence = 'You'd directly influence the appeals module and a near-term pilot; timing is flexible.'
-  $tail = if ($ask) { "Our specific ask here: $ask" } else { 'We'll share a 2-pager in advance; lightweight but concrete.' }
-  $link = if ($url) { "Ref: $url" } else { '' }
+$influence = "You'd directly influence the appeals module and a near-term pilot; timing is flexible."
+  $tail = if ($ask) { "Our specific ask here: $ask" } else { "We'll share a 2-pager in advance; lightweight but concrete." }
+  $link = if ($url) { "Ref: $url" } else { "" }
 
   $block = @"
 ### $name - $aff  (Score: $score)
@@ -126,4 +129,5 @@ Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip -Force
 Write-Host "[OK] Wrote:"
 Write-Host " - $firstLines"
 Write-Host " - $zip"
+
 
