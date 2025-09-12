@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Congruence Declaration
 
 This document marks a stable philosophical and architectural waypoint in the co-evolution of the CoCivium framework, the Cognocarta Consenti scroll, and the Heart Engine initiative.
@@ -35,6 +36,7 @@ Delta: 0.00
 Footprint: ⊘
 Symbolic Gate: ΘΞΨ
 Ref: /meta/COHERENCE_TRACK.md
+
 
 
 

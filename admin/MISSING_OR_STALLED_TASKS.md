@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <!-- Filename: MISSING_OR_STALLED_TASKS.md -->
 # 🧾 Probable Unfinished or Stalled Tasks
 _Repo: CoCivium Regen • Generated 2025-07-23_
@@ -61,5 +62,6 @@ This document lists all known incomplete, stalled, or not-yet-prioritized tasks 
 ---
 
 > This file may be regenerated or updated by the assistant at any time. Coherence tracking: _not yet scored._
+
 
 

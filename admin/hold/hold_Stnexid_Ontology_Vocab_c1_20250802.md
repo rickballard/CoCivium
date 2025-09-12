@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Stnexid_Ontology_Vocab
 _Coherence Draft c1 – August 2, 2025_
 
@@ -108,4 +109,5 @@ These are used to map idea genealogy and track recursive shifts.
 **Maintainer:** ChatGPT for RickPublic
 **Next Phase:** Semantic Compression Strategy + Example Session
 **Coherence Estimate:** 0.75
+
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium — Messaging v0 (launch phase)
 
 ## One-sentence explainer (primary)
@@ -39,4 +40,5 @@ CoCivium turns civic intent into shippable change. We write, test, and ship the 
 - Plain language first; name the outcome, not the mechanism.
 - Center *co-creation* and *accountability*; avoid hype and vague “future” talk.
 - Always show the path: voice → draft → decision → action → accountability.
+
 

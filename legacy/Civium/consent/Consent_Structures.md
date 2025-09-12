@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Consent Structures
 
 ## 1. Recursive Consent
@@ -14,4 +20,10 @@ Participants can revoke or refine their consent at any time. Systems must be res
 
 ## 5. Modal Consent
 Consent applies across interaction modes: identity sharing, speech acts, decision weight, shared resource usage, and emotional impact space.
+
+
+
+
+
+
 

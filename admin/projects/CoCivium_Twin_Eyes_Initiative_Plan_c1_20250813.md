@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)
 
 **Purpose.** Deliver a scope specification and twin spider‑web diagrams that convey process health (left eye) and scope progress (right eye).  Improve onboarding and outreach while keeping GitHub‑rendered fallbacks safe.
@@ -111,4 +112,5 @@ Decision Frameworks,2,docs/specs/cps.yaml,RL2
 ### Footer (standardized)
 
 DocType: Informative  •  Layers: N/A (planning)  •  Version: c1 (2025-08-13)  •  CohNote: Coherence tag **_c1_**; supersede via **_c2_** with a clear changelog.  Hash: TBD.
+
 

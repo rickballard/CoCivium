@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Path & Separator Style
 
 - Use **forward slashes** (`/`) for repo paths, URLs, and globs: e.g. `/proposals/**`.
@@ -21,4 +22,5 @@
 - **Images:** prefer relative repo paths. For cross-repo permanence, use SHA-pinned raw URLs.
 - **Avoid ../ chains** in top-level docs; restructure or link by permalink.
 - **Separators:** Use / for repo paths/globs; backslashes only for true Windows filesystem examples.
+
 

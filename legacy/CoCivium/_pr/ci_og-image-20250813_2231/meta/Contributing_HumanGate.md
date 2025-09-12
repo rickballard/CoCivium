@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Contributing — HumanGate Policy
 **Default:** Passive approval is acceptable after the window for non-critical changes. Explicit approval is required for critical-core.
 
@@ -7,4 +13,10 @@
 **Decision Trail**
 - Link PRs to issues/RFCs.
 - Include a short "why" in PR template.
+
+
+
+
+
+
 

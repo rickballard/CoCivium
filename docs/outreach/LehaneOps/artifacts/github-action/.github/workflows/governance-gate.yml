@@ -1,0 +1,17 @@
+name: governance-gate
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-governance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify governance artifacts present
+        run: |
+          set -e
+          test -f docs/outreach/LehaneOps/artifacts/decision_log.md
+          test -f docs/outreach/LehaneOps/artifacts/risk_tags.yml
+          echo "Governance artifacts present ✅"

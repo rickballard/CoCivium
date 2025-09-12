@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium / CoCivium — Short Retrospective
 **Date:** 2025-08-11
 **Window covered:** Aug 1–11, 2025
@@ -78,6 +79,7 @@ chore: move Gmail dump → deprecated/holding (52 files) (20250811)
 - inventory report: reports/inventory_20250811.md (sha256: ...)
 - rollback: git mv deprecated/holding/GmailDump_20250811 admin/inbox/GmailDump_20250811
 ```
+
 
 
 

@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 <<<<<<< HEAD
 # Grand Migration Capsule
 
@@ -78,6 +79,7 @@ This PR introduces:
 '@
 ```
 >>>>>>> origin/main
+
 
 
 

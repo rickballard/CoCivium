@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Humility, Curiosity, Courage
 
 CoCivium asks that we move forward not with certainty, but with **humble inquiry**. We do not assume superiority—biological or artificial. We assume mystery.

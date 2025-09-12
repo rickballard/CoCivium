@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # Brand Poetry — Lead‑ins & Outs (Pattern v1)
 
 > Purpose: set tone (beauty), ground intent (duty), and frame content without overselling.
@@ -51,4 +52,5 @@ poetry:
   author: you
   date: 2025‑08‑26
   related: [ONRAMP]
+
 

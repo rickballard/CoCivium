@@ -1,3 +1,10 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Codex
 
 Curated, canonical documents for **Codex**.
@@ -6,4 +13,11 @@ Curated, canonical documents for **Codex**.
 
 ## Index
 (Generated manually for now; a simple script can keep this in sync.)
+
+
+
+
+
+
+
 

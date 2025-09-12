@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Contributing to CoCivium
 
 We welcome contributions from all minds — biological, synthetic, or hybrid — aligned with the CoCivium vision of purposeful co-evolution.
@@ -16,4 +22,10 @@ We welcome contributions from all minds — biological, synthetic, or hybrid —
 
 ## Need Help?
 Open a GitHub Issue or email: rick@groupbuild.org
+
+
+
+
+
+
 

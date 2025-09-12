@@ -1,3 +1,10 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # PR Checklist (Migration/Grooming)
 
 - [ ] Branch name uses prefix: `chore/*` (moves), `docs/*` (readme), `feat/*` (new content).
@@ -7,6 +14,13 @@
 - [ ] No destructive deletes.  If deletion necessary, confirm prior move to `admin/hold` or `deprecated/holding`.
 - [ ] Commit message includes purpose, counts, and rollback note.
 - [ ] Above-the-fold README untouched unless PR is `docs/*` with explicit plan.
+
+
+
+
+
+
+
 
 
 

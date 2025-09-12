@@ -1,3 +1,10 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Session Checkpoint
 
 **When:** 08/16/2025 06:47:16
@@ -13,6 +20,13 @@
 - Verify Pages “Build & deployment” = **GitHub Actions** in repo settings (all repos).
 - Move symbol manifest/checks into **GIBindex**; keep CoCivium using reusables.
 - Add any remaining repos to the preview pattern if needed.
+
+
+
+
+
+
+
 
 
 

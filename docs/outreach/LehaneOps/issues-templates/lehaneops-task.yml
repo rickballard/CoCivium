@@ -1,0 +1,17 @@
+name: LehaneOps Task
+description: Track a LehaneOps preparation or outreach task
+title: "[LehaneOps] <short title>"
+labels: ["LehaneOps"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Readiness gates
+      options:
+        - label: Precursor checklist relevant
+        - label: Watcher up-to-date
+        - label: Prelaunch verification in last 7 days

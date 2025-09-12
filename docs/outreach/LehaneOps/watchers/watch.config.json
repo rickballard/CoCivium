@@ -1,0 +1,70 @@
+{
+    "enabled":  true,
+    "interval_hours":  6,
+    "targets":  [
+                    {
+                        "name":  "Chris Lehane",
+                        "role_expectation":  "VP, Global Policy",
+                        "keywords":  [
+                                         "OpenAI policy",
+                                         "OpenAI safety",
+                                         "youth safety",
+                                         "privacy",
+                                         "misinformation",
+                                         "global policy",
+                                         "regulation",
+                                         "public affairs",
+                                         "transparency report"
+                                     ]
+                    }
+                ],
+    "sources":  [
+                    {
+                        "name":  "OpenAI Blog",
+                        "type":  "rss",
+                        "url":  "https://openai.com/blog/rss.xml"
+                    },
+                    {
+                        "name":  "OpenAI Press",
+                        "type":  "rss",
+                        "url":  "https://openai.com/press/rss.xml"
+                    },
+                    {
+                        "name":  "News (Bing query)",
+                        "type":  "rss",
+                        "url":  "https://www.bing.com/news/search?q=Chris+Lehane+OpenAI\u0026format=rss"
+                    },
+                    {
+                        "name":  "News (Bing query 2)",
+                        "type":  "rss",
+                        "url":  "https://www.bing.com/news/search?q=OpenAI+policy+team\u0026format=rss"
+                    }
+                ],
+    "output":  {
+                   "report_markdown":  "../reports/LehaneWatch.md",
+                   "raw_json_dir":  "../reports/logs"
+               },
+    "role_check_feeds":  [
+                             "https://www.bing.com/news/search?q=Chris+Lehane+OpenAI\u0026format=rss",
+                             "https://www.bing.com/news/search?q=OpenAI+global+policy+head\u0026format=rss"
+                         ],
+    "role_patterns":  [
+                          "vp",
+                          "head",
+                          "chief",
+                          "lead",
+                          "policy",
+                          "public policy",
+                          "global policy"
+                      ],
+    "fallback_contacts":  [
+                              {
+                                  "value":  "policy@openai.com",
+                                  "type":  "email"
+                              },
+                              {
+                                  "value":  "press@openai.com",
+                                  "type":  "email"
+                              }
+                          ]
+}

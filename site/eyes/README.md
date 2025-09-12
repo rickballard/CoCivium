@@ -1,3 +1,9 @@
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Eyes (Metrics & Scope) — README
 
 Purpose.  Static-first spider diagrams for the repo landing page.  Pages enhances with optional tooltips/shimmer.
@@ -13,4 +19,10 @@ Curation rules.
 
 Build notes.
 - Keep fonts to system sans-serif.  No remote assets.  SVGs must render in GitHub without JS.
+
+
+
+
+
+
 

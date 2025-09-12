@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium Best Practices: Operating Environment & Workflow (v1.0)
 
 **Who:** any contributor/editor.  **Why:** get productive fast, avoid foot-guns.
@@ -45,4 +46,5 @@ gh pr create --fill
 - [ ] OE snapshot exists in this PR if tools changed.
 - [ ] CI snapshot captured or CI passing.
 - [ ] BackChats sweep reviewed for TODO/DO lines.
+
 

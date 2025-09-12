@@ -1,3 +1,4 @@
+<!-- status: stub; target: 150+ words -->
 # CoCivium IssueOps Cheat Sheet (v0)
 
 > **Above the fold — quick triggers (type these in chat)**
@@ -67,4 +68,5 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File tools/repo-sweep.ps1
 
 ### CoFixPush — resolve push rejects fast
 - Runs: \git pull --rebase && git push\ on the current branch.
+
 
