@@ -62,3 +62,5 @@ docs/outreach/projects/
 scripts/outreach/
 docs/outreach/LehaneOps/reports/logs/*.json
 docs/outreach/LehaneOps/reports/role-guard/*.md
+
+!outreach/projects/outreach-stage-seed/templates/outreach_emails_wave0_top6.zip
