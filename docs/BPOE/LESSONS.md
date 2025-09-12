@@ -11,3 +11,13 @@
 - After merging, hard-sync locals: `git fetch origin --prune && git reset --hard origin/main`.
 - For `gh api` probes that may 404, use the PS 5/7-safe wrapper (`tools/gh-safe.ps1`) instead of relying on `$PSNativeCommandUseErrorActionPreference`.
 - Move seed tags deterministically: `git tag -a <tag> -m "..." -f && git push -f origin <tag>`.
+
+## BPOE Mandates (2025-09-12)
+
+- **CoTemps-first & programmatic**: never ask for manual steps when we can script them. Canonical logic lives in-repo under 	ools/; wrappers live in CoTemps.
+- **No blank waits**: any long operation must show a heartbeat (one dot per second). Implemented via 	ools/heartbeat.ps1; used by admin helpers.
+- **Admin seeding**: use gh pr merge --admin --squash; then hard-sync local to origin/main.
+- **Deterministic seed tags**: git tag -fa <tag> -m "<msg>" && git push -f origin <tag>. CI guard ensures annotated & points-at origin/main.
+- **Branch protection (seed-mode)**: remove rules; treat 404 as success. Use 	ools/bp-unprotect.ps1 (safe GH API wrapper).
+- **.gitattributes**: repo LF; CRLF only for .bat/.cmd; explicit inary globs; run git add --renormalize . after changes.
+- **Never paste YAML/.gitattributes into the shell**: create files then commit.
