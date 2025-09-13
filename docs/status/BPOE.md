@@ -95,3 +95,4 @@
 - [2025-09-12T21:42:32.6420612Z] Nightly refresh queued
 - [2025-09-13T17:42:57.6022929Z] UX: standardize 5 blank lines between CoPing/CoPong blocks in PS7 transcripts.
 - [2025-09-13T19:11:09.3221111Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
+- [2025-09-13T19:19:19.2425413Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
