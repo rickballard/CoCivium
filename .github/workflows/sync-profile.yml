@@ -1,0 +1,111 @@
+﻿name: Sync public profile to sites
+on:
+  push:
+    paths:
+      - "docs/public-profile.md"
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CoCivium
+        uses: actions/checkout@v4
+
+      - name: Prepare bio HTML (fallback to <pre> if pandoc missing)
+        id: build
+        shell: bash
+        run: |
+          BIO_MD="docs/public-profile.md"
+          BIO_HTML="bio.html"
+
+          if command -v pandoc >/dev/null 2>&1; then
+            pandoc "$BIO_MD" -f gfm -t html5 -s --metadata title="Rick Ball — Public Profile" -o "$BIO_HTML"
+          else
+            {
+              echo "<!doctype html><meta charset='utf-8'><title>Rick Ball — Public Profile</title>"
+              echo "<pre>"
+              sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' "$BIO_MD"
+              echo "</pre>"
+            } > "$BIO_HTML"
+          fi
+
+          echo "html_path=$BIO_HTML" >> "$GITHUB_OUTPUT"
+
+      - name: Wrap with site chrome
+        id: wrap
+        shell: bash
+        run: |
+          WRAP='<!doctype html>
+          <html lang="en"><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>Rick Ball — Public Profile</title>
+          <style>
+            :root{--w:900px}
+            body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;line-height:1.6;margin:0}
+            header{padding:24px 16px;border-bottom:1px solid #eee;background:#fafafa}
+            main{max-width:var(--w);margin:24px auto;padding:0 16px}
+            pre{white-space:pre-wrap}
+            .links a{margin-right:12px}
+            .footer{max-width:var(--w);margin:32px auto 56px;padding:0 16px;color:#666}
+          </style>
+          <header>
+            <div class="links">
+              <a href="https://rickpublic.substack.com/">Substack</a>
+              <a href="https://www.linkedin.com/in/richardballard/">LinkedIn</a>
+              <a href="https://dogsnhomes.org.uk/">Dogs n Homes</a>
+              <a href="http://InSeed.com/">InSeed</a>
+            </div>
+          </header>
+          <main>
+          %%BIO%%
+          </main>
+          <div class="footer">© Rick Ball</div>
+          </html>'
+          BIO_HTML="$(cat "${{ steps.build.outputs.html_path }}")"
+          printf "%s" "${WRAP/%%BIO%%/$BIO_HTML}" > site_index.html
+
+      - name: Push to InSeed, CoCivium-website, GroupBuild-website
+        env:
+          GH_TOKEN: ${{ secrets.GH_SYNC_PAT }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for REPO in InSeed CoCivium-website GroupBuild-website; do
+            rm -rf out && mkdir out
+            gh repo clone rickballard/$REPO out -- -q
+            cp site_index.html out/index.html
+            mkdir -p out/.github/workflows
+            if [ ! -f out/.github/workflows/pages.yml ]; then
+              cat > out/.github/workflows/pages.yml <<'YAML'
+              name: Deploy Pages
+              on:
+                push:
+                  branches: [ main ]
+              permissions:
+                contents: read
+                pages: write
+                id-token: write
+              jobs:
+                deploy:
+                  runs-on: ubuntu-latest
+                  steps:
+                    - uses: actions/checkout@v4
+                    - uses: actions/configure-pages@v5
+                    - uses: actions/upload-pages-artifact@v3
+                      with:
+                        path: .
+                    - uses: actions/deploy-pages@v4
+              YAML
+            fi
+            cd out
+            git config user.name "github-actions"
+            git config user.email "github-actions@users.noreply.github.com"
+            git add -A
+            if git commit -m "chore: sync public profile from CoCivium"; then
+              git push
+            fi
+            cd ..
+          done
