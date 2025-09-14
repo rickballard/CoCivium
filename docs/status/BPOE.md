@@ -96,3 +96,14 @@
 <details><summary>Open gm/* PRs</summary>
 - [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; <1 d ago)
 </details>
+- [2025-09-13T17:42:57.6047644Z] UX: standardize 5 blank lines between CoPing/CoPong blocks in PS7 transcripts.
+- [2025-09-13T19:11:09.3316488Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
+- [2025-09-13T19:19:19.2610182Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
+- [2025-09-14T00:46:43.4418736Z] CoTemp messages: use top-level 'inbox\\*.json' with keys: kind,to,session,tag,ts,summary,details.
+
+
+- **GM PR bloat:** OK: 1 open gm/* PR — _as of 
+
+<details><summary>Open gm/* PRs</summary>
+- [#385](https://github.com/rickballard/CoCivium/pull/385) gm/CoCivium.clean-20250911-172359 (2025-09-12 01:26:21Z; 2 d ago)
+</details>
