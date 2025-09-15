@@ -1,20 +1,12 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- Light, non-blocking reminder -->
-- [ ] I skimmed the **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)** and avoided listed items (or clearly marked a poetic/quoted exemption).
+## Why
+(Problem / context)
 
+## What
+(Small, reversible change; link issues/ADRs)
 
+## How to verify
+(steps / screenshots)
 
-
-
-
-
-
-
-
-
+## Ops
+- [ ] Update \docs/ops/OPERATING_LOG.md\ if meaningful
+- [ ] Rollback plan noted if risky

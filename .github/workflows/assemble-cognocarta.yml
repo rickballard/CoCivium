@@ -1,0 +1,56 @@
+name: Assemble Cognocarta + Publish
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/cc/**'
+      - '.github/workflows/assemble-cognocarta.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build simple site
+        run: |
+          python - <<'PY'
+          import os, re, datetime
+          parts = 'docs/cc/parts'
+          out_md = 'docs/cc/scroll.md'
+          out_html = 'docs/site/index.html'
+          css = 'body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:24px;background:#0b0b12;color:#e6e6f0} .halo{display:inline-block;padding:12px 20px;border-radius:999px;box-shadow:0 0 24px 8px rgba(255,255,255,.35)} .header{text-align:center;margin:24px 0} .main{max-width:980px;margin:0 auto;line-height:1.6} h1,h2,h3{color:#fff}'
+          def md2html(m):
+              html = re.sub(r'(?m)^### (.*)$', r'<h3>\1</h3>', m)
+              html = re.sub(r'(?m)^## (.*)$', r'<h2>\1</h2>', html)
+              html = re.sub(r'(?m)^# (.*)$', r'<h1>\1</h1>', html)
+              html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html)
+              html = re.sub(r'\*(.*?)\*', r'<em>\1</em>', html)
+              html = re.sub(r'`([^`]+)`', r'<code>\1</code>', html)
+              html = re.sub(r'(?m)^- (.*)$', r'<li>\1</li>', html)
+              html = re.sub(r'(?s)<li>(.*?)</li>', r'<ul><li>\1</li></ul>', html)
+              html = '<p>' + re.sub(r'\n\n+', '</p><p>', html) + '</p>'
+              return html
+          os.makedirs('docs/cc', exist_ok=True); os.makedirs('docs/site', exist_ok=True)
+          parts_list = sorted(os.listdir(parts)) if os.path.isdir(parts) else []
+          md = "# Cognocarta Consenti (Auto‑Assembled)\n\n" + ''.join((open(os.path.join(parts, n), 'r', encoding='utf-8').read() + "\n\n") for n in parts_list)
+          open(out_md, 'w', encoding='utf-8').write(md)
+          body = md2html(md)
+          html = f"<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Cognocarta — CoCivium</title><style>{css}</style></head><body><section class='header'><div class='halo'>CoConstitution • Cognocarta</div></section><main class='main'>{body}</main><footer>Auto‑assembled {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M')}Z — Source of truth: CoCivium repo</footer></body></html>"
+          open(out_html, 'w', encoding='utf-8').write(html)
+          PY
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/site
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
