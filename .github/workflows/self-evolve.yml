@@ -1,0 +1,8 @@
+name: self-evolve
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 4 * * *"
+jobs:
+  call:
+    uses: rickballard/CoCache/.github/workflows/bpoe-self-evolve.yml@main
