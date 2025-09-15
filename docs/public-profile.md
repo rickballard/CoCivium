@@ -1,38 +1,38 @@
-﻿# Public Profile (Polished Draft)
+﻿# Rick's Bio
 
 Hi, I’m Rick.
 
-My former career chased fame and fortune by making billionaires richer—and it hollowed me out. I then hid in academia for years, hoping it might show me a safer, more comfortable path. Then, late in life for most, I had a kid.
+My former career chased fortune by making billionaires richer, I was making $50k/week by the 1990's, but it hollowed me out. I then hid in academia for many years, hoping it might show me a safer, more comfortable path. But then, late in life for most, I had a kid.
 
-Parenting was isolating and often thankless, but slowly, it woke something inside me. Only in hindsight can I now admit how profoundly ignorant I had been about myself—for five decades! The awakening was simple but deep: **making good people, who may themselves create more good people, is a purpose more meaningful than any amount of money.**
+You may already know parenting can be isolating and thankless, but slowly, it also woke something inside me. Only in hindsight can I now appreciate how profoundly ignorant I had been about myself, and for five decades! The awakening was simple but deep: **making good people, who may themselves create more good people, is a purpose more meaningful than any amount of money.**
 
-A bus once took out my taxi in San Francisco, and I floundered. I spent 20 years retired, researching the World’s issues and its economic and political suffering, in a digitizing society that feels as calm as an elephant on a tightrope.
+Then a bus then took out my taxi, in San Francisco, and my brain needed to repair for a few years.  I floundered. I spent the next 20-years retired, researching the World’s issues and its economic and political suffering, in a digitizing society that feels as aggitated as an elephant on a tightrope.
 
-I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I am no longer pouring my own angel fund into software developers who rarely wanted to manage “boring, bullshit meetings and ridiculous corporate politics.” I now work pro-bono for a PostRick future, that may not even occur before I die.
+I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who rarely want to manage “boring, bullshit meetings and ridiculous corporate politics.” I now work pro-bono for a future that may not even occur before I die.
 
-I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees—and I poured them into **CoCivium**.
+I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and I poured them into **CoCivium**:
 
 ## What is CoCivium?
 
-CoCivium is a civic-tech ecosystem designed to counter a world sliding into corruption, coercion, and kings. It’s not a company; it’s a shared vehicle. A suite of open products, processes, and protocols that belong to all humankind, and to any Being intelligent enough to join its conversations.
+CoCivium is a civic-tech ecosystem designed to prevent the world from sliding into "corruption, coercion, and crowns". It’s not a company; it’s a shared vehicle. A suite of open products, processes, and protocols that belong to all humankind, and to any Being intelligent enough to join the conversation.
 
-The aim is simple, but extraordinarily ambitious:
+The aim is simple, but ambitious:
 
-- **Fix what’s broken.** Disable disinformation, regulatory capture and structural decay: "No corruption, no coercion, no kings".
-- **Enable coevolution.** Create tools for self-governance, so all intelligent Beings may grow wiser (more congruent, more ethical, and more capable of living together).
-- **Build for scale.** Help governments find their place in hybrid society (human+AI).
+- **Fix what’s broken.** Disable disinformation, regulatory capture and structural decay.
+- **Enable coevolution.** Offer tools for self-governance, so all Beings reach congruence (ethical cooperaation).
+- **Build for scale.** Help organizations and governments find their place in hybrid society (human+AI).
 
-The larger vision is to sustain harmony and demonstrable self-governance until our species can key its entry through the currently only imagined gate of multiversal civilization. Because, if They silently observe us from "out there", they likely wonder whether we are parasite or potential.
+The larger vision, slightly sci-fi, is to sustain harmony and demonstrable self-governance until our species can key its entry through the imagined gate of multiversal civilization. Because, if "They" silently observe from somewhere out there, "They" likely wonder whether we are parasite or potential.
 
 CoCivium may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
-*“This was a life well spent, my son. Dead, I may still be there—in the sleepy wind as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in your own kid(s) when they first look at you with words in their eyes that burst your heart.*
+*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own kid(s) when they first look at you, unable yet to speak, but with words that burst your heart.*
 
 *Because without love, my son, AI does not need us, multiversal civilization does not need us, and nor does godstuff. You, my son, are why I lived, just as I am why you lived.*
 
-*If this message ever finds you, please know, you inherited all my neurodivergences as a gift, not a curse, but they only show their power if you have purpose, without which we all flounder.*
+*If this message ever finds you, please know, you inherited all my neurodivergences as a gift, not a curse.  But they only show their power if you have purpose, without which we all flounder.*
 
-*If you can forgive me my divergencies and the genes you inherited, if you can accept them as gifts for a purpose, you no longer need to fight yourself into submission, because you are congruent. Go live with purpose, and live it so that all kid(s) may know you also lived a life well spent.”*
+*If you can forgive me the genes I gave you, if you can accept your giftedness is for a purpose, you will no longer need to fight yourself into submission, because you have become congruent. Go live with purpose, and live it so that all kids may know, you also lived a life well spent.”*
 
 ## My Ethos
 
