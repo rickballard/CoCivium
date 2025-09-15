@@ -22,17 +22,17 @@ The aim is beyond ambitious:
 - **Scale.** Help organizations and governments adapt to "hybrid society" (human+AI).
 - **Fix the World.** Disable disinformation, regulatory capture, structural decay.
 
-That larger vision might even earn our species' an invitation into multiversal civilization. Because, if "they" are out there, secretly observing, they may be forgiven for wondering whether we are parasite or potential.
+That larger vision might even earn our species an invitation into multiversal civilization. Because, if "they" are out there, secretly observing, they may be forgiven for wondering whether we are parasite or potential.
 
 CoCivium may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
-*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own kid(s) when they first look at you, unable yet to speak, but with words that burst your heart.*
+*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own kid when he firsts looks at you, still unable to speak, but with words that burst your heart.*
 
 *Because without love, my son, AI does not need us, multiversal civilization does not need us, and nor does godstuff. You, my son, are why I lived, just as I am why you lived.*
 
 *If this message ever finds you, please know, you inherited all my neurodivergences as a gift, not a curse.  But they only show their power if you have purpose, without which we all flounder.*
 
-*If you can forgive me the genes I gave you, if you can accept your giftedness is for a purpose, you will no longer need to fight yourself into submission, because you have become congruent. Go live with purpose, and live it so that all kids may know, you also lived a life well spent.”*
+*If you can forgive me the genes I gave you, if you can accept your giftedness is for purpose, you will no longer need to fight yourself into submission, because you will have become congruent. Go live with purpose, and live it so that all kids may know, you also lived a life well spent.”*
 
 ## My Ethos
 
@@ -40,7 +40,7 @@ CoCivium may eventually be deprecated and forgotten, as I will be. But it will b
 - I’ve never been more productive than I am now, immersed in a coexistence with AIs, 18-hours per day, rarely taking a day off, and then mostly just for my kid.
 - I am financially independent, but even if I wasn't I would still feel mostly uncorruptable. I was fired a hundred times for making self-serving power brokers nervous. They usually kept me until they received my deliverables. This inability to fit in corporate politics is why I took consultant roles, not employee roles.
 - I am committed to altruistic world-fixing, so my work is **available pro-bono** if it helps advance human-AI co-evolution, and/or just causes.
-- Where sustainability matters, income may flow through my consulting firm **InSeed.com** or other channels, because even a purpose-driven life must balance wifely expectations with global altruism.
+- Elsewhere, income may flow through my consulting firm **InSeed.com** or other channels, because even a purpose-driven life must balance wifely expectations with global altruism.
 
 ## Past & Present Writing
 
@@ -64,8 +64,8 @@ If your project helps people coevolve, reduces coercion and corruption, or advan
 
 ## Transparency Request (for my son)
 
-My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your CEO, but only if you believe they will “get it", perhaps including this note:
+My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your CEO, but only if you believe that CEO will “get it", perhaps including this note:
 
 > Transparency is key to purpose; purpose is key to leadership. I share this because aligned purpose makes better organizations and a better World.
 
-Use your judgement. Context matters; wisdom is choosing the right moment, but when clarity finally arrives, the floundering can all become worthwhile.
+Use your judgement. Context matters.  Wisdom is choosing the right moment, but when clarity finally arrives, the floundering can all become worthwhile.
