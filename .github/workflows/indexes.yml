@@ -1,0 +1,63 @@
+name: Refresh HUMAN/AI Indexes
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - 'README.md'
+      - '.github/workflows/indexes.yml'
+  schedule:
+    - cron: '33 * * * *'
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate indexes
+        shell: bash
+        run: |
+          set -e
+          python - <<'PY'
+          import os, re, json, datetime, subprocess
+          # HUMAN-INDEX
+          quick=[]
+          if os.path.exists('README.md'): quick.append('* [README](../../README.md)')
+          if os.path.exists('docs/cc/scroll.md'): quick.append('* [Cognocarta (scroll)](../cc/scroll.md)')
+          if os.path.exists('docs/site/index.html'): quick.append('* [Public Site](../site/index.html)')
+          since=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).strftime('%Y-%m-%d')
+          try:
+              log=subprocess.check_output(['git','log',f'--since={since}','--pretty=format:* %ad — %s (%h)','--date=short'], text=True).strip()
+          except Exception:
+              log='* (unable to read log)'
+          md=['# HUMAN-INDEX','','## Quick Links']+quick+['','## Recent Changes (last 7 days)',log if log else '* (none)','']
+          os.makedirs('docs/hubs', exist_ok=True)
+          open('docs/hubs/HUMAN-INDEX.md','w',encoding='utf-8').write('\n'.join(md)+'\n')
+          # AI-INDEX
+          items=[]
+          for root,_,files in os.walk('.'):
+            if '.git' in root: continue
+            for name in files:
+              if not re.search(r'\.(md|txt|json|yml|yaml)$',name): continue
+              p=os.path.join(root,name)
+              try:
+                if os.path.getsize(p)>256*1024: continue
+                with open(p,'r',encoding='utf-8',errors='ignore') as f: body=f.read()
+              except Exception: continue
+              title=(body.splitlines()[0].lstrip('# ').strip() if body.splitlines() else name)
+              rel=os.path.normpath(p)
+              if rel.startswith('./'): rel=rel[2:]
+              items.append({'path':rel,'title':title,'size_bytes':os.path.getsize(p),'summary':(body[:400]+'…' if len(body)>400 else body),'tags':[]})
+          payload={'generated':datetime.datetime.utcnow().isoformat()+'Z','count':len(items),'items':items}
+          open('docs/hubs/AI-INDEX.json','w',encoding='utf-8').write(json.dumps(payload,ensure_ascii=False,indent=2))
+          PY
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/hubs/HUMAN-INDEX.md docs/hubs/AI-INDEX.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "docs(hubs): refresh HUMAN/AI indexes [CI]"
+            git push
+          fi
