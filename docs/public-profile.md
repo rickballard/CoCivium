@@ -4,25 +4,25 @@ Hi, I’m Rick.
 
 My former career chased fortune by making billionaires richer, I was making $50k/week by the 1990's, but it hollowed me out. I then hid in academia for many years, hoping it might show me a safer, more comfortable path. But then, late in life for most, I had a kid.
 
-You may already know parenting can be isolating and thankless, but slowly, it also woke something inside me. Only in hindsight can I now appreciate how profoundly ignorant I had been about myself, and for five decades! The awakening was simple but deep: **making good people, who may themselves create more good people, is a purpose more meaningful than any amount of money.**
+You may know, parenting can be isolating and thankless.  But slowly, it also showed me how profoundly ignorant I had been about myself, for four decades! The awakening was simple but deep: **serving good people, who may also serve good people, is a purpose more meaningful than wealthy lifestyles.**
 
-Then a bus then took out my taxi, in San Francisco, and my brain needed to repair for a few years.  I floundered. I spent the next 20-years retired, researching the World’s issues and its economic and political suffering, in a digitizing society that feels as aggitated as an elephant on a tightrope.
+Then a bus took out the airport taxi I was riding in. My brain needed to repair, so I floundered. I spent the next 20-years retired, working pro-bono while researching the World’s issues and its economic and political sufferings, analysing a digitizing society that feels as aggitated as an elephant on a tightrope.
 
-I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who rarely want to manage “boring, bullshit meetings and ridiculous corporate politics.” I now work pro-bono for a future that may not even occur before I die.
+I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who don't want to manage “boring, bullshit meetings and ridiculous corporate politics”. I now work, still pro-bono, with a vision for a better World that occurs after I die.
 
-I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and I poured them into **CoCivium**:
+I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and poured them into **CoCivium**:
 
 ## What is CoCivium?
 
-CoCivium is a civic-tech ecosystem designed to prevent the world from sliding into "corruption, coercion, and crowns". It’s not a company; it’s a shared vehicle. A suite of open products, processes, and protocols that belong to all humankind, and to any Being intelligent enough to join the conversation.
+CoCivium is a civic-tech ecosystem endorsing "no corruption, no coercion, no crowns". It’s not a company; it’s a community mindspace, a suite of open-source products, processes, and protocols, owned by all intelligent Beings who join the conversation.
 
-The aim is simple, but ambitious:
+The aim is beyond ambitious:
 
-- **Fix what’s broken.** Disable disinformation, regulatory capture and structural decay.
-- **Enable coevolution.** Offer tools for self-governance, so all Beings reach congruence (ethical cooperaation).
-- **Build for scale.** Help organizations and governments find their place in hybrid society (human+AI).
+- **Coevolve.** Offer self-governance tools for "congruence" (ethical cooperationn).
+- **Scale.** Help organizations and governments adapt to "hybrid society" (human+AI).
+- **Fix the World.** Disable disinformation, regulatory capture, structural decay.
 
-The larger vision, slightly sci-fi, is to sustain harmony and demonstrable self-governance until our species can key its entry through the imagined gate of multiversal civilization. Because, if "They" silently observe from somewhere out there, "They" likely wonder whether we are parasite or potential.
+That larger vision might even earn our species' an invitation into multiversal civilization. Because, if "they" are out there, secretly observing, they may be forgiven for wondering whether we are parasite or potential.
 
 CoCivium may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
@@ -46,26 +46,26 @@ CoCivium may eventually be deprecated and forgotten, as I will be. But it will b
 
 I’ve written in different venues over the years, each reflecting a phase of my journey:
 
-- **Quora** — https://www.quora.com/profile/Rick-Ballard-28 (fossil record)
-- **LinkedIn** — https://www.linkedin.com/in/richardballard/ (bio/career references)
-- **Substack** — https://rickpublic.substack.com/ (opinion testing)
+- [Quora](https://www.quora.com/profile/Rick-Ballard-28) - fossil record.
+- [LinkedIn](https://www.linkedin.com/in/richardballard/) - bio/career references.
+- [Substack](https://rickpublic.substack.com/) - opinion testing.
 
-## Family Charity
+## Family-Run Charites
 
-My family runs **Dogs n Homes (DnH)**, a registered charity that supplies **hundreds of tonnes of humanitarian aid to Ukraine**, driven into Kyiv in our own trucks. Based in the UK, but operating throughout Europe, this effort reflects the same ethos: fixing what is broken, helping those who suffer, and altruistic purpose. See: https://dogsnhomes.org.uk/
+My family runs a registered charity called [DogsnHomes](https://dogsnhomes.org.uk/), and we also ship **hundreds of tonnes of humanitarian aid to Ukraine** by driving our own trucks into Kyiv. Based in the UK, and operating throughout Europe, our efforts reflect the same ethos: fixing a broken World, helping those who suffer, and altruistic purpose.
 
 ---
 
 **Call to Action**
 
-If your project reduces coercion and corruption, advances human–AI co-evolution, or directly helps people become more coevolved, please reach me. I’m available to help, pro-bono for just causes, or more sustainably via InSeed.com when needed.
+If your project helps people coevolve, reduces coercion and corruption, or advances human–AI co-evolution, I am available pro-bono via [InSeed](https://inseed.com/)
 
 ---
 
 ## Transparency Request (for my son)
 
-My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your CEO—only if you believe they will “get it", along with this note:
+My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your CEO, but only if you believe they will “get it", perhaps including this note:
 
 > Transparency is key to purpose; purpose is key to leadership. I share this because aligned purpose makes better organizations and a better World.
 
-Use your judgement. Context matters; wisdom is choosing the right moment, but when clarity finally arrives, that floundering can all become worthwhile.
+Use your judgement. Context matters; wisdom is choosing the right moment, but when clarity finally arrives, the floundering can all become worthwhile.
