@@ -1,0 +1,20 @@
+﻿{
+    "theme_color":  "#0b0d12",
+    "name":  "CoCivium",
+    "display":  "standalone",
+    "short_name":  "CoCivium",
+    "background_color":  "#0b0d12",
+    "start_url":  "/",
+    "icons":  [
+                  {
+                      "type":  "image/png",
+                      "sizes":  "192x192",
+                      "src":  "/assets/icons/favicon-192.png"
+                  },
+                  {
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "/assets/icons/favicon-512.png"
+                  }
+              ]
+}
