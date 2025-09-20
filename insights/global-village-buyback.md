@@ -4,7 +4,7 @@ slug: "global-village-buyback"
 created: "2025-09-20"
 status: "draft"
 canonical_repo: "https://github.com/rickballard/CoCivium/blob/docs/insight-global-village-buyback-20250920/insights/global-village-buyback.md"
-hero_image: "insights/images/hero_global_village_buyback.jpg"
+hero_image: "insights/images/hero_global_village_buyback.png"
 audio_path: "insights/audio/come_together_theme.mp3"   # placeholder; see audio/README_LICENSE.md
 tags: ["CoCivium", "community", "governance", "mindshare", "CME"]
 ---
@@ -100,3 +100,4 @@ This article is one step in that mission: an invitation to enter the next villag
 ---
 
 *If you are reading this on Substack, consider subscribing, sharing, and joining the dialogue. CoCivium thrives not on consumption but on participation.*
+
