@@ -13,7 +13,7 @@ tags: ["CoCivium", "community", "governance", "mindshare", "CME"]
 ### How CoCivium bypasses the Buyback Effect
 
 🖼️ *Hero Image:* A dreamlike, old-world village—evoking timeless belonging and communal roots.  
-🎵 *Soundtrack suggestion:* [Play the song](audio/come_together_theme.mp3) as you read. Nostalgia opens the door to deeper resonance.
+🎵 *Soundtrack suggestion:* [Play the song]https://music.apple.com/us/song/come-together/1441164430 as you read. Nostalgia opens the door to deeper resonance.
 
 ---
 
