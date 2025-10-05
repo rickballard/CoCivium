@@ -1,3 +1,4 @@
+---
 name: pages
 on:
   push:
@@ -21,13 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
       - name: Prep artifact (site-human → artifact)
         run: |
           mkdir _site
           cp -R site-human/* _site/ || true
+          # Ensure an index exists so Pages won’t 404
           if [ ! -f "_site/index.html" ]; then
-            echo "<!doctype html><title>CoCivium</title><h1>CoCivium</h1>" > _site/index.html
+            cat > _site/index.html <<'HTML'
+<!doctype html><meta charset="utf-8">
+<title>CoCivium</title>
+<h1>CoCivium</h1>
+<p>Site scaffold online. See <a href="/assets/cc-scroll.html">Cognocarta Consenti — Megascroll</a>.</p>
+HTML
           fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
