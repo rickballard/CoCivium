@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    if: ${{ hashFiles('scripts/Build-CCMegascroll.ps1') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,3 +37,4 @@ jobs:
           path: |
             frameworks/CC-Scroll.megascroll.md
             site-human/assets/cc-scroll.html
+
