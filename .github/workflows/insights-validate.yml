@@ -1,0 +1,33 @@
+name: insights-validate
+on:
+  pull_request:
+    paths:
+      - "insights/**/*.md"
+      - "scripts/Validate-FrontMatter.ps1"
+      - ".github/workflows/insights-validate.yml"
+  push:
+    branches: [ main ]
+    paths:
+      - "insights/**/*.md"
+      - "scripts/Validate-FrontMatter.ps1"
+      - ".github/workflows/insights-validate.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          version: "7.4.x"
+      - name: Validate insight front-matter
+        shell: pwsh
+        run: |
+          Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+          if (-not (Test-Path 'scripts/Validate-FrontMatter.ps1')) {
+            Write-Error "scripts/Validate-FrontMatter.ps1 missing"
+          }
+          ./scripts/Validate-FrontMatter.ps1
