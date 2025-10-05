@@ -1,12 +1,11 @@
-name: Pages (static preview)
-
+name: pages
 on:
   push:
-    branches: [ ci/pages-preview ]
-    paths: ["site/**",".github/workflows/pages.yml"]
-  pull_request:
-    paths: ["site/**",".github/workflows/pages.yml"]
-  workflow_dispatch:
+    branches: [ main ]
+    paths:
+      - "site-human/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -14,31 +13,34 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - name: Ensure stub index exists
-        shell: bash
+        with: { fetch-depth: 0 }
+      - name: Prep artifact (site-human → artifact)
         run: |
-          mkdir -p site
-          test -e site/index.html || echo '<!doctype html><h1>CoCivium preview</h1>' > site/index.html
-      - uses: actions/upload-pages-artifact@v3
+          mkdir _site
+          cp -R site-human/* _site/ || true
+          if [ ! -f "_site/index.html" ]; then
+            echo "<!doctype html><title>CoCivium</title><h1>CoCivium</h1>" > _site/index.html
+          fi
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: _site
 
-  preview:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
+  deploy:
     needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          preview: true
-
