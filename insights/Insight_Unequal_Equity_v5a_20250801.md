@@ -1,3 +1,12 @@
+---
+title: "Insight_Unequal_Equity_v5a_20250801"
+pair: theory
+categories: [normative, epistemic, instrumental]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- Filename: Insight_Unequal_Equity_c5_20250801.md -->
 <!-- Title: Unequal Equity in CoCivium -->
 <!-- Scroll Type: Insight -->
@@ -248,5 +257,6 @@ This “equity mirror mode” turns fairness into a learnable feedback loop.
 
 > **Educational Side Note:**
 > AI does not *intuit* new ideas the way humans do. Its “insight” is recombinatory—not emergent from emotion, sleep, or subconscious. This is critical when assigning epistemic privilege in CoCivium. Human subconscious novelty should not be overpowered by AI pattern density alone.
+
 
 

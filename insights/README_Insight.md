@@ -1,3 +1,12 @@
+---
+title: "README_Insight"
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- Filename: README_Insight.md -->
 <!-- Folder: insights/ -->
 <!-- Last Updated: 2025-08-01 -->
@@ -42,5 +51,6 @@ To view other scroll sets, visit:
 
 **License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible
 **Maintainers:** Azoic, RickPublic
+
 
 

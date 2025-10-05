@@ -1,6 +1,20 @@
-### Launch / RickGuard checklist
-- [ ] If this PR is part of a **launch**, run:
-      `Set-RickGuardAll -Owner rickballard -Mode Off -CriticalSet @("CoCivium")`
-- [ ] If we’re entering **seeding** again, run:
-      `Set-RickGuardAll -Owner rickballard -Mode Seed -CriticalSet @("CoCivium")`
-- [ ] Confirm CoCivium remains **Critical** (checks + 1 review).
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- Light, non-blocking reminder -->
+- [ ] I skimmed the **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)** and avoided listed items (or clearly marked a poetic/quoted exemption).
+
+
+
+
+
+
+
+
+
+
+

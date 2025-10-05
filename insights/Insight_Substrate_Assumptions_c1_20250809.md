@@ -1,3 +1,12 @@
+---
+title: "Insight_Substrate_Assumptions_c1_20250809"
+pair: theory
+categories: [normative, epistemic]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # Insight_Substrate_Assumptions
 
 **Classification:** Philosophical & Speculative (Not operationally prescriptive)
@@ -34,4 +43,5 @@ Links to related insights (Observer Participation, Recursive Ethics, etc.).
 ---
 
 **Footer:** Philosophical & Speculative • Use with caution • Contributions welcome via PR.
+
 

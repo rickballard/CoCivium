@@ -9,8 +9,13 @@ source:
   date: 20250731
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, instrumental]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_Consent_Controversies_c1_20250731.md --> <!-- Title: Consent Controversies and Edge Cases --> <!-- Version: c1, Created 2025-07-31 --> <!-- Folder: insights/ --> <!-- Contributors: ChatGPT (primary), RickPublic (co..."
+interactions: []
 ---
-
 <!-- Filename: Insight_Consent_Controversies_c1_20250731.md -->
 <!-- Title: Consent Controversies and Edge Cases -->
 <!-- Version: c1, Created 2025-07-31 -->
@@ -82,4 +87,5 @@ While congruent with the Consent Scroll and CoCoCivium’s alignment ethic, thes
 <!-- @seed: consent_failures, audit_trails, revocability_protocols -->
 <!-- ☍ Insight-Class: Consent Edge Cases → Semantic Clarification -->
 <!-- ☉ Scroll Status: Actively Evolving → Critical for governance modeling -->
+
 

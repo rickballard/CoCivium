@@ -1,3 +1,12 @@
+---
+title: "StatusNote"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 [STATUS NOTE]
 
 Session: CoAgency InSights Build
@@ -15,3 +24,4 @@ Repo:   CoCivium (insights/CoAgency/)
 
 Next Action:
 - None (session closed). Future: extend with recognition white paper + standards body engagement.
+

@@ -1,3 +1,12 @@
+---
+title: "Insight_Radiant_Network_c4_20250801"
+pair: theory
+categories: [normative, epistemic, existential]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- Filename: Insight_Radiant_Network_c4_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Adds visual language, radiance fatigue, propagation, and Truce linkage -->
 
@@ -164,5 +173,6 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 
 

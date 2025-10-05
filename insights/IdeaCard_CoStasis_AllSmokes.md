@@ -1,3 +1,12 @@
+---
+title: "IdeaCard_CoStasis_AllSmokes"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -25,6 +34,7 @@ Early detection; resilience; evolutionary pressure toward maintainability.
 - [ ] Triage dashboard + auto-file issues.
 
 **Tags:** #reliability #ops #ci #smoketests
+
 
 
 

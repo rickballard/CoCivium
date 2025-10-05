@@ -1,3 +1,12 @@
+---
+title: "README"
+pair: theory
+categories: [epistemic, metaphysical]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # Insights
 
 Curated, canonical essays. Each file includes provenance and which drafts it supersedes.
@@ -24,4 +33,5 @@ Curated, canonical essays. Each file includes provenance and which drafts it sup
 - [Unequal Equity V5a](unequal-equity-v5a.md) — c0, 20250801
 
 > Deprecated drafts are preserved under [/insights/_deprecated](_deprecated/) with pointers back to the canonical.
+
 

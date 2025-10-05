@@ -1,3 +1,12 @@
+---
+title: "global village buyback"
+pair: theory
+categories: [normative, metaphysical, instrumental]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # Global Village Buyback
 ### How CoCivium bypasses the Buyback Effect
 
@@ -68,4 +77,5 @@ Transform buyback-driven fragmentation into networks of shared love, purpose, an
 This article is an invitation to the future global village—unbound by borders or corporations, bound by shared intent. A village where **communion is co-evolution**, and co-evolution is the mindful successor to natural evolution.
 
 *If you’re reading this on Substack, subscribe, share, and join the dialogue. CoCivium thrives not on consumption but on participation.*
+
 

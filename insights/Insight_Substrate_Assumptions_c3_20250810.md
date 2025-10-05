@@ -1,3 +1,12 @@
+---
+title: "Insight_Substrate_Assumptions_c3_20250810"
+pair: theory
+categories: [normative, epistemic, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # Insight: Substrate Assumptions
 
 **Purpose:**
@@ -83,4 +92,5 @@ Substrate disagreements are a prime cause for governance forks. The **Forks Prot
 **Coherence Estimate:** c3 (approx. 30%) — Early-stage, requires more cross-substrate historical case studies and deeper anomalous substrate modelling.
 
 ---
+
 

@@ -1,3 +1,12 @@
+---
+title: "IdeaCard_3Panel_CoCache_Heartbeat"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -27,6 +36,7 @@ Fewer conflicts; faster flow; lower cognitive load; pathfinder for global heartb
 - [ ] Heartbeat PoC node (home box), safe-haven roadmap.
 
 **Tags:** #workflow #concurrency #heartbeat #ux
+
 
 
 

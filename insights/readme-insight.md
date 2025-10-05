@@ -9,6 +9,12 @@ source:
   date:
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental]
+status: "draft v0.1"
+human_touch: true
+summary: "<!-- Filename: README_Insight.md --> <!-- Folder: insights/ --> <!-- Last Updated: 2025-08-01 -->"
+interactions: []
 ---
 <!-- Filename: README_Insight.md -->
 <!-- Folder: insights/ -->
@@ -54,4 +60,5 @@ To view other scroll sets, visit:
 
 **License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible
 **Maintainers:** Azoic, RickPublic
+
 

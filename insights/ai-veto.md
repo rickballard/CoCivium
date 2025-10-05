@@ -9,6 +9,12 @@ source:
   date: 20250801
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, instrumental]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_AI_Veto_c4_20250801_REVIEWONLY.md --> <!-- Status: REVIEW ONLY – Enhanced version with taxonomy, recursion, misuse protocol, and cross-scroll integration -->"
+interactions: []
 ---
 <!-- Filename: Insight_AI_Veto_c4_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Enhanced version with taxonomy, recursion, misuse protocol, and cross-scroll integration -->
@@ -149,4 +155,5 @@ Penalties may include:
 ---
 
 _This insight will co-evolve with the CoCivium system’s consent models, recursion ethics, and signal economies._
+
 

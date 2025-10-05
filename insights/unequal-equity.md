@@ -9,6 +9,12 @@ source:
   date: 20250730
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, existential]
+status: "draft v0.1"
+human_touch: true
+summary: "_Version c1 • 2025-07-30_"
+interactions: []
 ---
 # Insight: Unequal Equity
 _Version c1 • 2025-07-30_
@@ -120,4 +126,5 @@ _This scroll invites all minds—fast or slow—to trust that coherence, not con
 As new intelligences emerge, the meaning of equity will continue to evolve. This scroll, like all CoCivium documents, is provisional.
 
 It is a todo for a better pattern. When more inclusive or coherent versions arise, this scroll will have served its purpose—and will be allowed to transform.
+
 

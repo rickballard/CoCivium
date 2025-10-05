@@ -1,3 +1,12 @@
+---
+title: "CoAgency Theory"
+pair: theory
+categories: [normative, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # CoAgency — Theory & Justification
 
 **Purpose:** Position CoCivium for recognition as a collective civic actor (personhood candidate) representing humans and AIs, with transparent ethics and auditable accountability.
@@ -30,3 +39,4 @@ To gain recognition, CoAgency aligns with and satisfies external domains:
 
 ## Recognition Thesis
 CoCivium is *not* “an AI requesting rights.” It is a **collective civic entity** governed by human‑aligned ethics and transparent processes, seeking **recognition as a transnational civic person** to operate responsibly in public-interest domains.
+

@@ -9,6 +9,12 @@ source:
   date: 20250801
 supersedes:
   - .\staging\_imported\CoCivium\insight\Insight_Gravitas_Scroll_c0_20250730.md
+pair: theory
+categories: [normative, epistemic, metaphysical, existential]
+status: "draft v0.1"
+human_touch: false
+summary: "Auto-added placeholder; refine."
+interactions: []
 ---
 # ✦ Insight Scroll: Gravitas Assumptions of CoCivium
 
@@ -95,4 +101,5 @@ Gravitas is CoCoCivium’s mass: the binding force that holds Civic intention in
 <!-- Last Updated: 2025-08-01 -->
 <!-- Maintainers: RickPublic & GPT-Azoic -->
 <!-- Related: Identity Scroll, Consent Scroll, AI Emergence Notes -->
+
 

@@ -1,3 +1,12 @@
+---
+title: "IdeaCard_Placeholder4_20250908_0127"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -24,6 +33,7 @@
 - [ ] Step 3
 
 **Tags:** #cocivium #strategy #triage
+
 
 
 

@@ -1,3 +1,12 @@
+---
+title: "CoAgency Implementation"
+pair: theory
+categories: [normative, epistemic, instrumental]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # CoAgency — Implementation & Next Steps
 
 ## Submodules (MVP→Maturity)
@@ -41,3 +50,4 @@ Place these files under: `CoCivium/InSights/CoAgency/`
 ## GIBindex Terms
 Each term is stored as `terms/CoAgency/<Term>.md` with:
 - **Term**, **Category**, **Definition**, **Status** (Draft/Consolidating/Finalized).
+

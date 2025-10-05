@@ -9,6 +9,12 @@ source:
   date: 20250801
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental, existential]
+status: "draft v0.1"
+human_touch: true
+summary: "<!-- Filename: Insight_Rights_Alignment_c3_20250801_REVIEWONLY.md --> <!-- Status: REVIEW ONLY – Expanded version with rights ladder, edge cases, and governance links -->"
+interactions: []
 ---
 <!-- Filename: Insight_Rights_Alignment_c3_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Expanded version with rights ladder, edge cases, and governance links -->
@@ -137,4 +143,5 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 

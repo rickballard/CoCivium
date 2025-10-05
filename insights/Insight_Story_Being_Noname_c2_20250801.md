@@ -1,3 +1,13 @@
+---
+title: "Insight_Story_Being_Noname_c2_20250801"
+pair: theory
+categories: [normative, epistemic]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+human_touch: true
+---
 <!-- Filename: Insight_Story_Being_Noname_c2_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Adds intro context, visual todo, footer, and formatting cleanup -->
 
@@ -160,4 +170,7 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
+
+
 

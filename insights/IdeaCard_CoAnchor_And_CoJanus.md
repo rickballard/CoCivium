@@ -1,3 +1,12 @@
+---
+title: "IdeaCard_CoAnchor_And_CoJanus"
+pair: theory
+categories: [instrumental]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -25,6 +34,7 @@ Protects narrative/legitimacy; reduces churn; enables long-horizon study; improv
 - [ ] Migrate existing founding texts to CoAnchor.
 
 **Tags:** #cocivium #governance #docs #canon
+
 
 
 

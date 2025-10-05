@@ -9,6 +9,12 @@ source:
   date: 20250801
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_Truth_Metrics_c6_20250801.md --> <!-- CoCivium Insight Series | Coherence Estimate: c6 (60–70%) | Date: 2025-08-01 -->"
+interactions: []
 ---
 <!-- Filename: Insight_Truth_Metrics_c6_20250801.md -->
 <!-- CoCivium Insight Series | Coherence Estimate: c6 (60–70%) | Date: 2025-08-01 -->
@@ -104,4 +110,5 @@ Use with interpretive caution. Recursive audits recommended every 3 months.
 Contribute feedback via GitHub: [CoCivium Repository](https://github.com/rickballard/CoCivium)
 
 Maintainers: RickPublic & Azoic (AI co-author)
+
 

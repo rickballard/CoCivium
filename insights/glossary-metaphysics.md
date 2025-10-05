@@ -9,6 +9,12 @@ source:
   date: 20250731
 supersedes:
   - none
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental, existential]
+status: "draft v0.1"
+human_touch: true
+summary: "<!-- Filename: Insight_Glossary_Metaphysics_c5_20250731.md --> <!-- Title: Glossary of Metaphysical and Structural Terms --> <!-- Version: c5, Updated 2025-07-31 --> <!-- Folder: insights/ --> <!-- Contributors: ChatGPT (primary), RickPu..."
+interactions: []
 ---
 <!-- Filename: Insight_Glossary_Metaphysics_c5_20250731.md -->
 <!-- Title: Glossary of Metaphysical and Structural Terms -->
@@ -110,4 +116,5 @@ These are the ten evolutionary radials used to organize CoCoCivium's ideas, infr
 <!-- @seed: glossary, metaphysics, radiant_network, civium_domains, alignment_terms, scroll_philosophy -->
 <!-- ☍ Insight-Class: Terminological Anchors → Semantic Structuring for Conceptual Infrastructure -->
 <!-- ☉ File Status: Living Glossary → Subject to Evolution -->
+
 

@@ -1,3 +1,13 @@
+---
+title: "IdeaCard_Being_Rights"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+human_touch: false
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -21,6 +31,9 @@ Legibility for humans/AIs; enforces symmetry; reduces arbitrary power.
 - [ ] Cross-link PREAMBLE + Articles 1–3.
 
 **Tags:** #rights #constitution #symmetry
+
+
+
 
 
 

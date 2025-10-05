@@ -2,6 +2,13 @@
 deprecated: true
 replaced_by: ../gravitas-scroll.md
 note: "Kept for provenance."
+title: "Scroll of First Commitments (Gravitas Scroll)"
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+summary: "_Version c0 • 2025-07-30_ _aka: Gravitas Scroll_"
+interactions: []
 ---
 # Scroll of First Commitments (Gravitas Scroll)
 _Version c0 • 2025-07-30_
@@ -68,4 +75,5 @@ This scroll will likely be rewritten by those wiser. That is expected.
 It is not a constitution—it is a **first sketch** of CoCoCivium’s gravitational direction.
 
 May it fail, be tested, be reshaped—and still survive.
+
 

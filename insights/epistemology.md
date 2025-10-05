@@ -9,6 +9,12 @@ source:
   date: 20250801
 supersedes:
   - none
+pair: theory
+categories: [epistemic, metaphysical]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_Epistemology_c3_20250801.md -->"
+interactions: []
 ---
 <!-- Filename: Insight_Epistemology_c3_20250801.md -->
 # ✦ Insight Scroll: Epistemology in the Age of CoCivium
@@ -104,4 +110,5 @@ A society that values congruence must also value unknowing. Certainty is cheap. 
 `Version:` 2025-08-01
 `Maintainer:` RickPublic & ChatGPT
 `Status:` Public insight scroll draft for CoCivium repository.
+
 

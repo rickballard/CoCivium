@@ -1,3 +1,12 @@
+---
+title: "Insight_Forking_as_Epistemic_Containment_c3_20250801"
+pair: theory
+categories: [normative, epistemic, instrumental, existential]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- Filename: Insight_Forking_as_Epistemic_Containment_c3_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Expanded version with glossary, scenario, and integrations -->
 
@@ -188,5 +197,6 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 
 

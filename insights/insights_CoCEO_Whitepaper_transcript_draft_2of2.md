@@ -1,3 +1,12 @@
+---
+title: "insights_CoCEO_Whitepaper_transcript_draft_2of2"
+pair: theory
+categories: [instrumental]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # CoCEO Whitepaper – Working Transcript (draft 2 of 2)
 
 **Signpost:** InSeed.com · AI Interim Executives  
@@ -78,3 +87,4 @@ Delay is not neutral. Every week, your people add workarounds that create shadow
 Start small and visible. Pick one flow that matters. Hold a CoAudit. Publish the 30 60 90 plan. Invite scrutiny. Ship weekly. Put the scoreboard in front of people who will challenge it. When you see traction, widen the scope.
 
 **Call to action:** InSeed provides interim AI CoCEO support that installs this cadence and then exits. If you want speed without chaos and safety without gridlock, book a CoAudit.
+

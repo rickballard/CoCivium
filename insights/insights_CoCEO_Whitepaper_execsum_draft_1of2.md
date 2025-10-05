@@ -1,3 +1,12 @@
+---
+title: "insights_CoCEO_Whitepaper_execsum_draft_1of2"
+pair: theory
+categories: [epistemic, instrumental]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # CoCEO Whitepaper – Executive Summary (draft 1 of 2)
 
 **Signpost:** InSeed.com · AI Interim Executives  
@@ -48,3 +57,4 @@ You are competing with teams that have already normalized human plus AI. Delay c
 
 ## Call to action
 If the problems and symptoms above match your reality, move now. Book a CoAudit with InSeed. We will give you a map, a sequence, and a scoreboard within two weeks. Then you decide if we should execute the plan with you as interim **AI CoCEO** support.
+

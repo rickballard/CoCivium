@@ -9,6 +9,12 @@ source:
   date: 20250731
 supersedes:
   - none
+pair: theory
+categories: [epistemic, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_Interpretive_Vectors_c3_20250731.md --> <!-- Folder: insight/ --> <!-- Coherence: c3 (conceptual clarity with room for poetic expansion) --> <!-- Date: 2025-07-31 -->"
+interactions: []
 ---
 <!-- Filename: Insight_Interpretive_Vectors_c3_20250731.md -->
 <!-- Folder: insight/ -->
@@ -105,4 +111,5 @@ Interpretive Vectors are how CoCivium remains legible across minds that were nev
 
 *Understanding isn't the goal.
 Interoperability is.*
+
 

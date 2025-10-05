@@ -1,4 +1,12 @@
-
+---
+title: "Insight_Consent_Controversies_c1_20250731"
+pair: theory
+categories: [normative, epistemic, instrumental]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- Filename: Insight_Consent_Controversies_c1_20250731.md -->
 <!-- Title: Consent Controversies and Edge Cases -->
 <!-- Version: c1, Created 2025-07-31 -->
@@ -70,5 +78,7 @@ While congruent with the Consent Scroll and CoCivium’s alignment ethic, these 
 <!-- @seed: consent_failures, audit_trails, revocability_protocols -->
 <!-- ☍ Insight-Class: Consent Edge Cases → Semantic Clarification -->
 <!-- ☉ Scroll Status: Actively Evolving → Critical for governance modeling -->
+
+
 
 

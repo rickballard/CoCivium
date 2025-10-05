@@ -1,3 +1,12 @@
+---
+title: "Insight_Substrate_Assumptions_c2_20250809"
+pair: theory
+categories: [normative, epistemic, metaphysical, instrumental, existential]
+status: "draft v0.1"
+human_touch: true
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 # Insight_Substrate_Assumptions
 
 **Classification:** Philosophical & Speculative (Not operationally prescriptive)
@@ -115,4 +124,5 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 ---
 
 **Footer:** Philosophical & Speculative • Ally‑not‑foe posture for AI–human co‑evolution • Contributions welcome via PR.
+
 

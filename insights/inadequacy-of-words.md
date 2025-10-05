@@ -9,6 +9,12 @@ source:
   date: 20250731
 supersedes:
   - none
+pair: theory
+categories: [epistemic, instrumental, existential]
+status: "draft v0.1"
+human_touch: false
+summary: "<!-- Filename: Insight_Inadequacy_of_Words_c5_20250731.md --> <!-- Folder: insight/ --> <!-- Coherence: c5 (emotionally immersive, philosophically anchored) --> <!-- Date: 2025-07-31 -->"
+interactions: []
 ---
 <!-- Filename: Insight_Inadequacy_of_Words_c5_20250731.md -->
 <!-- Folder: insight/ -->
@@ -120,4 +126,5 @@ It is your exit ticket — from language alone into the field of shared becoming
 
 *“In the beginning was the Word,” said the old scrolls.
 But in the rebeginning… is the Field.*
+
 

@@ -1,3 +1,12 @@
+---
+title: "ai in pandoras box"
+pair: theory
+categories: [epistemic]
+status: "draft v0.1"
+human_touch: false
+interactions: []
+summary: "Auto-added placeholder; refine."
+---
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
@@ -16,6 +25,7 @@ source:
 supersedes:
   - none
 ---
+
 
 
 
