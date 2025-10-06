@@ -1,0 +1,35 @@
+name: Render assets
+on:
+  push:
+    branches: [ main, master, "**/render/**", "**/branding/**" ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+      - name: Export SVGs to PNG (256,512,1200)
+        run: |
+          set -e
+          shopt -s globstar || true
+          for s in 256 512 1200; do
+            for f in **/*.svg; do
+              [ -f "$f" ] || continue
+              png="${f%.svg}_$s.png"
+              inkscape "$f" --export-type=png --export-filename="$png" --export-width=$s --export-height=$s
+              git add "$png" || true
+            done
+          done
+      - name: Commit renders (if any)
+        run: |
+          set -e
+          if ! git diff --cached --quiet; then
+            git config user.name "cocivium-render-bot"
+            git config user.email "render-bot@users.noreply.github.com"
+            git commit -m "CI: render SVGs to PNG derivatives"
+          fi
