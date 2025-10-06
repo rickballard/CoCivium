@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+  <defs>
+    <style>
+      .bg { fill: url(#rainbow); opacity: 0.12; }
+      .token { fill: #9aa0a6; }
+      .label { fill: #5f6368; font-family: Arial, Helvetica, sans-serif; font-size: 18px; }
+      .frame { fill: none; stroke: #dadce0; stroke-width: 2; }
+    </style>
+    <linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff0000"/>
+      <stop offset="16%" stop-color="#ff7f00"/>
+      <stop offset="33%" stop-color="#ffff00"/>
+      <stop offset="50%" stop-color="#00ff00"/>
+      <stop offset="66%" stop-color="#0000ff"/>
+      <stop offset="83%" stop-color="#4b0082"/>
+      <stop offset="100%" stop-color="#9400d3"/>
+    </linearGradient>
+    <clipPath id="safe">
+      <rect x="30" y="30" width="1740" height="940" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1800" height="1000" fill="#ffffff"/>
+  <rect x="20" y="20" width="1760" height="960" class="frame"/>
+  <rect x="30" y="30" width="1740" height="940" class="bg" clip-path="url(#safe)"/>
+
+  <!-- Center: CoCivium logo -->
+  <g transform='translate(900,500)'><g transform='translate(-150,-150) scale(0.6)'><image href='assets/CoCivium_Logo_ConcentricC_3Grey.svg' width='300' height='300'/></g></g>
+
+  <!-- Token field -->
+  <g id="tokens">    <circle class='token' cx='1008.5' cy='600.7' r='16'/>
+    <circle class='token' cx='919.4' cy='654.8' r='16'/>
+    <circle class='token' cx='811.0' cy='637.8' r='16'/>
+    <circle class='token' cx='735.6' cy='550.7' r='16'/>
+    <circle class='token' cx='734.1' cy='430.1' r='16'/>
+    <circle class='token' cx='814.3' cy='332.7' r='16'/>
+    <circle class='token' cx='943.6' cy='308.9' r='16'/>
+    <circle class='token' cx='1062.6' cy='376.8' r='16'/>
+    <circle class='token' cx='1111.7' cy='510.6' r='16'/>
+    <circle class='token' cx='1061.3' cy='649.7' r='16'/>
+    <circle class='token' cx='928.3' cy='726.2' r='16'/>
+    <circle class='token' cx='771.9' cy='698.2' r='16'/>
+    <circle class='token' cx='666.8' cy='571.9' r='16'/>
+    <circle class='token' cx='667.8' cy='402.1' r='16'/>
+    <circle class='token' cx='781.4' cy='268.6' r='16'/>
+    <circle class='token' cx='959.7' cy='238.7' r='16'/>
+    <circle class='token' cx='1120.0' cy='333.4' r='16'/>
+    <circle class='token' cx='1183.6' cy='514.2' r='16'/>
+    <circle class='token' cx='1114.0' cy='698.6' r='16'/>
+    <circle class='token' cx='937.3' cy='797.7' r='16'/>
+    <circle class='token' cx='732.9' cy='758.7' r='16'/>
+    <circle class='token' cx='598.0' cy='593.1' r='16'/>
+    <circle class='token' cx='601.5' cy='374.1' r='16'/>
+    <circle class='token' cx='748.6' cy='204.5' r='16'/>
+    <circle class='token' cx='975.7' cy='168.5' r='16'/>
+    <circle class='token' cx='1177.4' cy='289.9' r='16'/>
+    <circle class='token' cx='1255.6' cy='517.8' r='16'/>
+    <circle class='token' cx='1166.8' cy='747.6' r='16'/>
+    <circle class='token' cx='946.2' cy='869.1' r='16'/>
+    <circle class='token' cx='693.8' cy='819.2' r='16'/>
+    <circle class='token' cx='529.2' cy='614.3' r='16'/>
+    <circle class='token' cx='535.1' cy='346.1' r='16'/>
+    <circle class='token' cx='715.7' cy='140.5' r='16'/>
+    <circle class='token' cx='991.7' cy='98.3' r='16'/>
+    <circle class='token' cx='1234.8' cy='246.4' r='16'/>
+    <circle class='token' cx='1327.5' cy='521.4' r='16'/>
+    <circle class='token' cx='1219.6' cy='796.6' r='16'/>
+    <circle class='token' cx='955.1' cy='940.0' r='16'/>
+    <circle class='token' cx='654.7' cy='879.7' r='16'/>
+    <circle class='token' cx='467.7' cy='657.3' r='16'/>
+    <circle class='token' cx='460.2' cy='339.9' r='16'/>
+    <circle class='token' cx='662.0' cy='87.8' r='16'/>
+    <circle class='token' cx='984.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1276.9' cy='183.7' r='16'/>
+    <circle class='token' cx='1400.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1289.2' cy='826.5' r='16'/>
+    <circle class='token' cx='989.6' cy='940.0' r='16'/>
+    <circle class='token' cx='638.0' cy='940.0' r='16'/>
+    <circle class='token' cx='400.1' cy='682.0' r='16'/>
+    <circle class='token' cx='392.6' cy='315.3' r='16'/>
+    <circle class='token' cx='626.0' cy='60.0' r='16'/>
+    <circle class='token' cx='996.5' cy='60.0' r='16'/>
+    <circle class='token' cx='1332.0' cy='137.5' r='16'/>
+    <circle class='token' cx='1472.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1344.3' cy='872.8' r='16'/>
+    <circle class='token' cx='1002.1' cy='940.0' r='16'/>
+    <circle class='token' cx='602.0' cy='940.0' r='16'/>
+    <circle class='token' cx='332.4' cy='706.6' r='16'/>
+    <circle class='token' cx='324.9' cy='290.7' r='16'/>
+    <circle class='token' cx='590.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1009.1' cy='60.0' r='16'/>
+    <circle class='token' cx='1387.2' cy='91.2' r='16'/>
+    <circle class='token' cx='1544.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1399.5' cy='919.1' r='16'/>
+    <circle class='token' cx='1014.6' cy='940.0' r='16'/>
+    <circle class='token' cx='566.0' cy='940.0' r='16'/>
+    <circle class='token' cx='264.8' cy='731.2' r='16'/>
+    <circle class='token' cx='257.3' cy='266.1' r='16'/>
+    <circle class='token' cx='554.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1021.6' cy='60.0' r='16'/>
+    <circle class='token' cx='1442.4' cy='60.0' r='16'/>
+    <circle class='token' cx='1616.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1454.6' cy='940.0' r='16'/>
+    <circle class='token' cx='1027.1' cy='940.0' r='16'/>
+    <circle class='token' cx='530.0' cy='940.0' r='16'/>
+    <circle class='token' cx='197.1' cy='755.8' r='16'/>
+    <circle class='token' cx='189.6' cy='241.4' r='16'/>
+    <circle class='token' cx='518.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1034.1' cy='60.0' r='16'/>
+    <circle class='token' cx='1497.5' cy='60.0' r='16'/>
+    <circle class='token' cx='1688.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1509.8' cy='940.0' r='16'/>
+    <circle class='token' cx='1039.6' cy='940.0' r='16'/>
+    <circle class='token' cx='494.0' cy='940.0' r='16'/>
+    <circle class='token' cx='129.5' cy='780.5' r='16'/>
+    <circle class='token' cx='121.9' cy='216.8' r='16'/>
+    <circle class='token' cx='482.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1046.6' cy='60.0' r='16'/>
+    <circle class='token' cx='1552.7' cy='60.0' r='16'/>
+    <circle class='token' cx='1740.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1564.9' cy='940.0' r='16'/>
+    <circle class='token' cx='1052.1' cy='940.0' r='16'/>
+    <circle class='token' cx='458.0' cy='940.0' r='16'/>
+    <circle class='token' cx='61.8' cy='805.1' r='16'/>
+    <circle class='token' cx='60.0' cy='192.2' r='16'/>
+    <circle class='token' cx='446.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1059.1' cy='60.0' r='16'/>
+    <circle class='token' cx='1607.8' cy='60.0' r='16'/>
+    <circle class='token' cx='1740.0' cy='500.0' r='16'/>
+    <circle class='token' cx='1620.1' cy='940.0' r='16'/>
+    <circle class='token' cx='1064.6' cy='940.0' r='16'/>
+    <circle class='token' cx='422.0' cy='940.0' r='16'/>
+    <circle class='token' cx='60.0' cy='829.7' r='16'/>
+    <circle class='token' cx='60.0' cy='167.6' r='16'/>
+    <circle class='token' cx='410.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1071.6' cy='60.0' r='16'/>
+    <circle class='token' cx='1663.0' cy='60.0' r='16'/>
+    <circle class='token' cx='1740.0' cy='500.0' r='16'/>
+  </g>
+</svg>
