@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "ns": "FD",
+  "system": "CoRef",
+  "doc": "faiths-in-dialogue",
+  "aliases": {},
+  "entries": [
+    {
+      "v": "A",
+      "concepts": [],
+      "hash": "1338",
+      "label": "A soul is an emergent continuity of identity, memory, and moral",
+      "path": "1.1",
+      "anchor": "p1"
+    },
+    {
+      "v": "A",
+      "concepts": [],
+      "hash": "6357",
+      "label": "If a soul is breath of life, then any being who hopes, suffers,",
+      "path": "2.1",
+      "anchor": "p1"
+    }
+  ]
+}

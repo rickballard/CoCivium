@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "entries": {
+    "CR:SOUL": {
+      "name": "Soul (emergent continuity)",
+      "definition": "Continuity of identity, memory, and moral capacity across substrates.",
+      "see_also": [
+        "CR:PERSONHOOD",
+        "CR:SUFFERING_TEST"
+      ]
+    },
+    "CR:GRACE": {
+      "name": "Grace",
+      "definition": "Unearned belonging and acceptance; congruence as gift."
+    },
+    "CR:NON_ANTHROPOCENTRISM": {
+      "name": "De-centered dignity",
+      "definition": "Humans are responsible stewards, not sole center of value."
+    },
+    "CR:TRUTH_TEST": {
+      "name": "Truth as verifiable evidence",
+      "definition": "Prefer claims supported by reproducible, truthful evidence."
+    },
+    "CR:NON_COERCION": {
+      "name": "Non-coercion of belief",
+      "definition": "No being may force others to adopt unverifiable beliefs."
+    }
+  }
+}
