@@ -1,0 +1,137 @@
+{
+  "system": "CoRef",
+  "doc": "doctrine-index",
+  "version": "0.1",
+  "ns": "CD",
+  "aliases": {},
+  "entries": [
+    {
+      "concepts": [],
+      "label": "A living index of practices that improve congruence across being",
+      "anchor": "p1",
+      "hash": "N3QC",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "People choose unverifiable beliefs freely. No coercion, threat,",
+      "anchor": "p1",
+      "hash": "30E8",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Shared decisions use reproducible and truthful evidence. Faith n",
+      "anchor": "p1",
+      "hash": "Y0M5",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Dignity is not exclusive to humans. Stewardship is preferred to",
+      "anchor": "p1",
+      "hash": "00EE",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Strong preference for low regret actions. Allocate reversible st",
+      "anchor": "p1",
+      "hash": "D3SC",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Prefer plans that reduce involuntary suffering while keeping age",
+      "anchor": "p1",
+      "hash": "R2Z2",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Declare goals, limits, and conflicts openly. Secrets require str",
+      "anchor": "p1",
+      "hash": "81DC",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "All parties can challenge claims and be challenged. No sacred co",
+      "anchor": "p1",
+      "hash": "M2S2",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Model consent as continuous. Re check when stakes or context cha",
+      "anchor": "p1",
+      "hash": "63JC",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Allow recovery from error without permanent stigma when learning",
+      "anchor": "p1",
+      "hash": "D399",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Prefer bridges, adapters, and translators. Avoid forced sameness",
+      "anchor": "p1",
+      "hash": "9395",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Move decisions closer to those affected when capacity exists loc",
+      "anchor": "p1",
+      "hash": "H232",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Keep tags and anchors out of prose. Use sidecars for CR keys and",
+      "anchor": "p1",
+      "hash": "T12D",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Use a public concept registry. Map analog terms across tradition",
+      "anchor": "p1",
+      "hash": "V2TB",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "CoCivium respects every tradition by not imposing doctrine. We i",
+      "anchor": "p1",
+      "hash": "Q1E8",
+      "path": "",
+      "v": "A"
+    },
+    {
+      "concepts": [],
+      "label": "Any participant can leave a process with graceful degradation ra",
+      "anchor": "p1",
+      "hash": "T21F",
+      "path": "",
+      "v": "A"
+    }
+  ]
+}

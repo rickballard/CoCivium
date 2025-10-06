@@ -1,0 +1,22 @@
+{
+  "links": [
+    {
+      "cr": "CR:NON_COERCION",
+      "doc": "doctrine-index",
+      "path": "1",
+      "note": "maps to Non coercion of belief"
+    },
+    {
+      "cr": "CR:TRUTH_TEST",
+      "doc": "doctrine-index",
+      "path": "2",
+      "note": "maps to Truth as verifiable evidence"
+    },
+    {
+      "cr": "CR:NON_ANTHROPOCENTRISM",
+      "doc": "doctrine-index",
+      "path": "3",
+      "note": "maps to De centered dignity"
+    }
+  ]
+}
