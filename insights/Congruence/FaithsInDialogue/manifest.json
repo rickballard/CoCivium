@@ -1,0 +1,17 @@
+{
+  "name": "FaithsInDialogue_Content",
+  "version": "0.3.1",
+  "created_utc": "2025-10-07T02:24:30Z",
+  "files": [
+    "faiths-in-dialogue.md",
+    "faiths-in-dialogue.coref.json",
+    "faiths-in-dialogue_crosswalk.md",
+    "faiths-in-dialogue_crosswalk.coref.json",
+    "faiths-in-dialogue_cases.md",
+    "faiths-in-dialogue_cases.coref.json",
+    "faiths-in-dialogue_redteam.md",
+    "faiths-in-dialogue_redteam.coref.json",
+    "congruence-policy-patterns.md",
+    "congruence-policy-patterns.coref.json"
+  ]
+}

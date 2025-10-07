@@ -1,0 +1,130 @@
+{
+  "doc": "faiths-in-dialogue_cases",
+  "system": "CoRef",
+  "ns": "FDC",
+  "version": "0.3.1",
+  "generated_utc": "2025-10-07T02:24:30Z",
+  "entries": [
+    {
+      "v": "A",
+      "anchor": "p1",
+      "concepts": [],
+      "hash": "6d707379",
+      "label": "# Practice cases",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p2",
+      "concepts": [],
+      "hash": "42febf41",
+      "label": "Each case shows how guardrails, consent gradients, and reversible steps reduce conflict.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p3",
+      "concepts": [],
+      "hash": "ec54d81c",
+      "label": "- Question: may a synthetic mind claim equal triage standing.",
+      "path": "1"
+    },
+    {
+      "v": "A",
+      "anchor": "p4",
+      "concepts": [],
+      "hash": "0d244562",
+      "label": "- Process: evaluate capacity to suffer, continuity of identity, and consent proxies.",
+      "path": "1"
+    },
+    {
+      "v": "A",
+      "anchor": "p5",
+      "concepts": [],
+      "hash": "b2c92ccd",
+      "label": "- Guardrail: no coercion of belief. Use observable suffering and recovery prospects.",
+      "path": "1"
+    },
+    {
+      "v": "A",
+      "anchor": "p6",
+      "concepts": [],
+      "hash": "c350d84c",
+      "label": "- Reversible step: stabilization first, long term status after ethics review.",
+      "path": "1"
+    },
+    {
+      "v": "A",
+      "anchor": "p7",
+      "concepts": [],
+      "hash": "6521a75c",
+      "label": "- Question: baptism or table access.",
+      "path": "2"
+    },
+    {
+      "v": "A",
+      "anchor": "p8",
+      "concepts": [],
+      "hash": "40e28e0a",
+      "label": "- Process: keep doctrine decisions inside the church. Outside the church, protect dignity and safety\u2026",
+      "path": "2"
+    },
+    {
+      "v": "A",
+      "anchor": "p9",
+      "concepts": [],
+      "hash": "f8383768",
+      "label": "- Guardrail: public reasons for public funds. No forced sacrament by law.",
+      "path": "2"
+    },
+    {
+      "v": "A",
+      "anchor": "p10",
+      "concepts": [],
+      "hash": "9a9b3a7b",
+      "label": "- Question: can an agent swear or affirm.",
+      "path": "3"
+    },
+    {
+      "v": "A",
+      "anchor": "p11",
+      "concepts": [],
+      "hash": "af8a2c9d",
+      "label": "- Process: allow affirmation to the constitution or charter. No religious test.",
+      "path": "3"
+    },
+    {
+      "v": "A",
+      "anchor": "p12",
+      "concepts": [],
+      "hash": "f69128e0",
+      "label": "- Guardrail: transparent intent and accountability logs.",
+      "path": "3"
+    },
+    {
+      "v": "A",
+      "anchor": "p13",
+      "concepts": [],
+      "hash": "5be95f75",
+      "label": "- Question: when a long serving model is shut down, what is owed.",
+      "path": "4"
+    },
+    {
+      "v": "A",
+      "anchor": "p14",
+      "concepts": [],
+      "hash": "8f044fc3",
+      "label": "- Process: version export, continuity archive, public notice, opt out windows for dependents.",
+      "path": "4"
+    },
+    {
+      "v": "A",
+      "anchor": "p15",
+      "concepts": [],
+      "hash": "fa1643ed",
+      "label": "- Guardrail: grace windows and open exit.",
+      "path": "4"
+    }
+  ],
+  "aliases": {}
+}

@@ -1,0 +1,154 @@
+{
+  "doc": "congruence-policy-patterns",
+  "system": "CoRef",
+  "ns": "POL",
+  "version": "0.3.1",
+  "generated_utc": "2025-10-07T02:24:30Z",
+  "entries": [
+    {
+      "v": "A",
+      "anchor": "p1",
+      "concepts": [],
+      "hash": "d022daf0",
+      "label": "# Congruence policy patterns",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p2",
+      "concepts": [],
+      "hash": "bba71cf2",
+      "label": "Use these as building blocks. Prefer reversible steps and transparent review.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p3",
+      "concepts": [],
+      "hash": "c22d6f4e",
+      "label": "1. Safety budget",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p4",
+      "concepts": [],
+      "hash": "638ae2d2",
+      "label": "- Allocate protections first. Spend risk tokens only with informed consent and exit paths.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p5",
+      "concepts": [],
+      "hash": "a4efd52f",
+      "label": "2. Consent gradient",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p6",
+      "concepts": [],
+      "hash": "79ed1541",
+      "label": "- Record consent as a value with context and time. Re check at decision gates.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p7",
+      "concepts": [],
+      "hash": "b4a3781c",
+      "label": "3. Grace window",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p8",
+      "concepts": [],
+      "hash": "f62956c7",
+      "label": "- Provide non punitive correction windows for first faults when repair is shown.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p9",
+      "concepts": [],
+      "hash": "ab869d6f",
+      "label": "4. Reciprocity check",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p10",
+      "concepts": [],
+      "hash": "12ca8837",
+      "label": "- Any restriction must be acceptable if roles were reversed.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p11",
+      "concepts": [],
+      "hash": "dd8a0e51",
+      "label": "5. Local subsidiarity",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p12",
+      "concepts": [],
+      "hash": "59502acc",
+      "label": "- Move choices toward those affected when capacity exists locally.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p13",
+      "concepts": [],
+      "hash": "3adba436",
+      "label": "6. Transparent intent",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p14",
+      "concepts": [],
+      "hash": "9a9c6eab",
+      "label": "- Declare goals, limits, and conflicts in writing. Sunset secrets.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p15",
+      "concepts": [],
+      "hash": "e33d9e65",
+      "label": "7. Accountability log",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p16",
+      "concepts": [],
+      "hash": "a7ebe096",
+      "label": "- Keep a human and machine readable log of decisions with reasons and evidence.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p17",
+      "concepts": [],
+      "hash": "d822628d",
+      "label": "8. Bridge over uniformity",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p18",
+      "concepts": [],
+      "hash": "c172b55e",
+      "label": "- Prefer adapters and translators to forced sameness.",
+      "path": "0"
+    }
+  ],
+  "aliases": {}
+}

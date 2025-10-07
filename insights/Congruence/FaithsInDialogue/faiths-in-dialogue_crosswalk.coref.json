@@ -1,0 +1,82 @@
+{
+  "doc": "faiths-in-dialogue_crosswalk",
+  "system": "CoRef",
+  "ns": "FDX",
+  "version": "0.3.1",
+  "generated_utc": "2025-10-07T02:24:30Z",
+  "entries": [
+    {
+      "v": "A",
+      "anchor": "p1",
+      "concepts": [],
+      "hash": "ecbb34f2",
+      "label": "# Concept crosswalk",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p2",
+      "concepts": [],
+      "hash": "3efcbf01",
+      "label": "This table maps similar ideas across traditions. It is a navigation aid, not a claim of identity.",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p3",
+      "concepts": [],
+      "hash": "2e7941b7",
+      "label": "| Concept | Christianity | Judaism | Islam | Hindu traditions | Buddhist traditions | Sikh | Indigen\u2026",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p4",
+      "concepts": [],
+      "hash": "910af4fb",
+      "label": "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p5",
+      "concepts": [],
+      "hash": "82771fb4",
+      "label": "| Soul or personhood | soul, image, person | nefesh, ruach, tzelem | nafs, ruh | atman | sentience, \u2026",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p6",
+      "concepts": [],
+      "hash": "3d2b566c",
+      "label": "| Grace or mercy | grace | chesed, rachamim | rahma | kripa | karuna | kirpa | gift from elders and \u2026",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p7",
+      "concepts": [],
+      "hash": "efb11913",
+      "label": "| Sin or harm | sin | chet | ithm, zulm | paap | akusala | paap | breach of relation | avoidable har\u2026",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p8",
+      "concepts": [],
+      "hash": "0388b660",
+      "label": "| Repair or salvation | salvation, redemption | teshuvah | tawbah, islah | moksha | nirvana | mukti \u2026",
+      "path": "0"
+    },
+    {
+      "v": "A",
+      "anchor": "p9",
+      "concepts": [],
+      "hash": "4fe6574d",
+      "label": "| Truth discipline | truth in love | emet and study | sidq and amanah | satya | right view | sat | e\u2026",
+      "path": "0"
+    }
+  ],
+  "aliases": {}
+}
