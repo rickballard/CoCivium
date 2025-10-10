@@ -12,6 +12,7 @@ Human-friendly overview + Megascroll
 - **Contribute**: open a Discussion, then a small PR.
 
 ## Explore
+- See also: [HUMANS.md](docs/HUMANS.md) — curated entry points
 _(Content map will grow as repo fills out.)_
 
 <details>
@@ -21,3 +22,4 @@ _(Content map will grow as repo fills out.)_
 - Seed-kit: see CoCache → ops/kits/Build-CoSuiteSeedKit.ps1.
 
 </details>
+
