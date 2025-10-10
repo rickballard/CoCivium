@@ -1,0 +1,24 @@
+{
+  "title": "CoCache — Distributed Sidecar Memory Graph",
+  "summary": "Persistent, distributed memory logging activity/decisions as a navigable graph.",
+  "rationale": "Prevents amnesia and duplication; enables context retrieval.",
+  "impact": "Stabilizes long-term projects; makes Civium an evolving organism.",
+  "dependencies": [
+    "Repo metrics feeds",
+    "IdeaForge intake",
+    "BPOE logging"
+  ],
+  "tags": [
+    "memory",
+    "continuity",
+    "graph",
+    "CoCache"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.memory.graph",
+    "cap.repo.index",
+    "cap.session.link"
+  ]
+}

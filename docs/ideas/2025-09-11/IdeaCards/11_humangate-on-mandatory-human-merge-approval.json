@@ -1,0 +1,24 @@
+{
+  "title": "HumanGate ON — Mandatory Human Merge Approval",
+  "summary": "Lightweight but firm human gate requiring explicit approval before high-impact merges/deploys.",
+  "rationale": "Prevents AI-only cascades; preserves human sovereignty.",
+  "impact": "Boosts trust; AI agency remains accountable to human consent.",
+  "dependencies": [
+    "Operating Constitution",
+    "MeritRank voting",
+    "Repo merge workflows"
+  ],
+  "tags": [
+    "human-gate",
+    "sovereignty",
+    "workflow",
+    "governance"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.humangate",
+    "cap.merge.approval",
+    "cap.constitution.guardrail"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "CivIndex — Standards & Toolshop Registry UI",
+  "summary": "Unified, searchable registry that ties the 'One Ring' standards map to certified tools (Toolshop), with congruence labels and adoption telemetry.",
+  "rationale": "Participants need one pane of glass for 'what to use' and 'which standard it implements' without hunting.",
+  "impact": "Speeds adoption, lowers confusion, and gives maintainers feedback loops on coverage and gaps.",
+  "dependencies": [
+    "Civium Standards Body",
+    "Civium Toolshop",
+    "Metrics pipeline"
+  ],
+  "tags": [
+    "registry",
+    "standards",
+    "tools",
+    "adoption"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.registry.search",
+    "cap.metrics.coverage",
+    "cap.gov.transparency"
+  ]
+}

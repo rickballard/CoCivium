@@ -1,0 +1,24 @@
+{
+  "title": "Bias Contrastive Guides — Dual-Frame Narratives",
+  "summary": "Show events through multiple biased lenses alongside neutral reconstructions.",
+  "rationale": "Side-by-side bias exposure builds media literacy.",
+  "impact": "Educational material for Civium Academy and civic literacy.",
+  "dependencies": [
+    "Feed Manager",
+    "AntiCensor Archive",
+    "CiviProof"
+  ],
+  "tags": [
+    "bias",
+    "media-literacy",
+    "guides",
+    "education"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.feed.dualframe",
+    "cap.education.literacy",
+    "cap.gov.resilience"
+  ]
+}

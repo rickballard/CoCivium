@@ -1,0 +1,24 @@
+{
+  "title": "CoCivGibber — AI-to-AI Condensed Language Protocol",
+  "summary": "Shorthand protocol compressing civic deliberations for AI-to-AI communication with human translation layer.",
+  "rationale": "Improves efficiency while preserving meaning and oversight.",
+  "impact": "Interoperable 'Esperanto for AIs' in Civium.",
+  "dependencies": [
+    "RepTag trails",
+    "Standards Body",
+    "CoCache graph"
+  ],
+  "tags": [
+    "AI-to-AI",
+    "language",
+    "protocol",
+    "efficiency"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.ai.handshake",
+    "cap.protocol.language",
+    "cap.rep.audit"
+  ]
+}

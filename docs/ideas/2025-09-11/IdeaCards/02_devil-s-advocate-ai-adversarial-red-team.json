@@ -1,0 +1,25 @@
+{
+  "title": "Devil’s Advocate AI — Adversarial Red Team",
+  "summary": "Institutionalize an AI persona dedicated to probing weaknesses in CoCivium’s vision, assumptions, workflows, and security.",
+  "rationale": "Formalized adversarial role reduces blind spots and risks of capture or overlooked vulnerabilities.",
+  "impact": "Systemic resilience against ideological/technical attacks; every proposal passes adversarial checks before adoption.",
+  "dependencies": [
+    "IdeaForge intake process",
+    "Congruence Scoring",
+    "RepTag trails"
+  ],
+  "tags": [
+    "security",
+    "ethics",
+    "trust",
+    "resilience",
+    "adversarial"
+  ],
+  "sensitivity": "internal",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.redteam.simulation",
+    "cap.gov.checks",
+    "cap.rep.audit"
+  ]
+}

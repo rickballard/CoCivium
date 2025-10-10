@@ -1,0 +1,24 @@
+{
+  "title": "Crisis Snapshotter — Ephemeral Event Capture",
+  "summary": "Rapid-response capture/compression/certification of unfolding crises anchored to the AntiCensor Archive.",
+  "rationale": "Preserves records before censorship or alteration.",
+  "impact": "Provides trusted baselines for accountability.",
+  "dependencies": [
+    "AntiCensor Archive",
+    "CiviProof",
+    "Anonymous Access Layer"
+  ],
+  "tags": [
+    "crisis",
+    "evidence",
+    "snapshot",
+    "accountability"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.capture.rapid",
+    "cap.crypto.certify",
+    "cap.archive.feed"
+  ]
+}

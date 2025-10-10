@@ -1,0 +1,24 @@
+{
+  "title": "CiviProof — Content Provenance & Certification",
+  "summary": "Cryptographic attestation layer certifying authenticity, lineage, edits, and context.",
+  "rationale": "Turns 'trust me' into 'verify me' with transparent provenance.",
+  "impact": "Enables rapid verification for courts, journalists, educators, citizens.",
+  "dependencies": [
+    "Standards Body",
+    "RepTag trails",
+    "AntiCensor Archive"
+  ],
+  "tags": [
+    "provenance",
+    "attestation",
+    "signatures",
+    "integrity"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.crypto.attest",
+    "cap.lineage.track",
+    "cap.api.proofs"
+  ]
+}
