@@ -1,0 +1,1000 @@
+2025-09-11 00:41:40.240341542  [2025-09-10 20:41:40] frigate.app                    INFO    : Recording process started: 447
+2025-09-11 00:41:40.264006356  [2025-09-10 20:41:40] frigate.app                    INFO    : Review process started: 449
+2025-09-11 00:41:40.278736217  [2025-09-10 20:41:40] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:41:40.362470497  [2025-09-10 20:41:40] detector.coral                 INFO    : Starting detection process: 472
+2025-09-11 00:41:40.373255124  [2025-09-10 20:41:40] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:41:40.375611773  [2025-09-10 20:41:40] detector.cpu1                  INFO    : Starting detection process: 475
+2025-09-11 00:41:40.378850777  [2025-09-10 20:41:40] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:41:40.438938057  [2025-09-10 20:41:40] frigate.app                    INFO    : Output process started: 494
+2025-09-11 00:41:40.585988493  [2025-09-10 20:41:40] frigate.app                    INFO    : Camera processor started for driveway: 538
+2025-09-11 00:41:40.629678085  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:41:40.630087097  [2025-09-10 20:41:40] frigate.app                    INFO    : Camera processor started for front: 549
+2025-09-11 00:41:40.728746940  [2025-09-10 20:41:40] frigate.app                    INFO    : Camera processor started for front_rental: 553
+2025-09-11 00:41:40.739229683  [2025-09-10 20:41:40] frigate.app                    INFO    : Camera processor started for back_yard: 555
+2025-09-11 00:41:41.174659874  [2025-09-10 20:41:40] frigate.app                    INFO    : Capture process started for driveway: 583
+2025-09-11 00:41:41.181463841  [2025-09-10 20:41:40] frigate.app                    INFO    : Capture process started for front: 604
+2025-09-11 00:41:41.181652783  [2025-09-10 20:41:41] frigate.app                    INFO    : Capture process started for front_rental: 628
+2025-09-11 00:41:41.355884976  [2025-09-10 20:41:41] frigate.app                    INFO    : Capture process started for back_yard: 638
+2025-09-11 00:41:41.833574301  2025/09/10 20:41:41 [error] 233#233: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:41:41.833602430  2025/09/10 20:41:41 [error] 233#233: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:41:43.944636248  [2025-09-10 20:41:43] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:41:44.043708694  [2025-09-10 20:41:44] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:41:44.104441815  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:41:48.023950507  [2025-09-10 20:41:47] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:41:55.487850292  2025/09/10 20:41:55 [error] 253#253: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:41:55.499453387  2025/09/10 20:41:55 [error] 253#253: *8 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:41:56.507596385  [INFO] Service Frigate exited with code 256 (by signal 9)
+2025-09-11 00:42:17.029684897  exit with signal: terminated
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-supervise go2rtc-healthcheck: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-supervise nginx: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate-log successfully stopped
+s6-rc: info: service go2rtc successfully stopped
+2025-09-11 00:42:20.002022130  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 00:42:29.650243195  [INFO] Starting NGINX...
+2025-09-11 00:42:29.722894827  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:42:30.707534044  [INFO] Preparing Frigate...
+2025-09-11 00:42:34.403975196  [INFO] Preparing new go2rtc config...
+2025-09-11 00:42:34.407424901  [INFO] Starting Frigate...
+2025-09-11 00:42:34.595084996  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:42:34.794483147  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:42:36.316109181  [INFO] Starting go2rtc...
+2025-09-11 00:42:36.604613185  20:42:36.603 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:42:36.604628592  20:42:36.604 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:42:36.607132589  20:42:36.606 INF [api] listen addr=:1984
+2025-09-11 00:42:36.611687665  20:42:36.607 INF [rtsp] listen addr=:8554
+2025-09-11 00:42:36.614667341  20:42:36.614 INF [webrtc] listen addr=:8555
+2025-09-11 00:42:39.650376680  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:42:41.380230526  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:42:41.380248322    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:42:41.380930422  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:42:41.380941700    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:42:41.380946792  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:42:41.380958014    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:42:41.381129789  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:42:41.381135234    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:42:45.762107252  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:42:47.586009780  127.0.0.1 - - [10/Sep/2025:20:42:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:42:49.118609052  [2025-09-10 20:42:49] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:42:49.193126671  [2025-09-10 20:42:49] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:42:49.766817108  2025/09/10 20:42:49 [error] 237#237: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:42:49.766953403  2025/09/10 20:42:49 [error] 237#237: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:42:52.340002303  [2025-09-10 20:42:52] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:42:52.894411338  [2025-09-10 20:42:52] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:42:52.902197364  [2025-09-10 20:42:52] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:42:52.975804256  [2025-09-10 20:42:52] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:42:52.980730771  [2025-09-10 20:42:52] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:42:53.010149232  [2025-09-10 20:42:53] frigate.app                    INFO    : Recording process started: 447
+2025-09-11 00:42:53.037206915  [2025-09-10 20:42:53] frigate.app                    INFO    : Review process started: 450
+2025-09-11 00:42:53.052695207  [2025-09-10 20:42:53] frigate.app                    INFO    : go2rtc process pid: 127
+2025-09-11 00:42:53.130766511  [2025-09-10 20:42:53] detector.coral                 INFO    : Starting detection process: 472
+2025-09-11 00:42:53.143517846  [2025-09-10 20:42:53] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:42:53.169498361  [2025-09-10 20:42:53] detector.cpu1                  INFO    : Starting detection process: 475
+2025-09-11 00:42:53.173269709  [2025-09-10 20:42:53] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:42:53.240345834  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:42:53.253069485  [2025-09-10 20:42:53] frigate.app                    INFO    : Output process started: 495
+2025-09-11 00:42:53.377993937  [2025-09-10 20:42:53] frigate.app                    INFO    : Camera processor started for driveway: 549
+2025-09-11 00:42:53.426606928  [2025-09-10 20:42:53] frigate.app                    INFO    : Camera processor started for front: 551
+2025-09-11 00:42:53.619583489  [2025-09-10 20:42:53] frigate.app                    INFO    : Camera processor started for front_rental: 576
+2025-09-11 00:42:53.638188121  [2025-09-10 20:42:53] frigate.app                    INFO    : Camera processor started for back_yard: 578
+2025-09-11 00:42:53.738239280  [2025-09-10 20:42:53] frigate.app                    INFO    : Capture process started for driveway: 598
+2025-09-11 00:42:53.813837104  [2025-09-10 20:42:53] frigate.app                    INFO    : Capture process started for front: 610
+2025-09-11 00:42:53.931077307  [2025-09-10 20:42:53] frigate.app                    INFO    : Capture process started for front_rental: 622
+2025-09-11 00:42:54.141614776  [2025-09-10 20:42:54] frigate.app                    INFO    : Capture process started for back_yard: 632
+2025-09-11 00:42:56.354891957  [2025-09-10 20:42:56] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:42:56.840288561  [2025-09-10 20:42:56] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:42:57.046829296  2025/09/10 20:42:57 [error] 238#238: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:42:57.046858647  2025/09/10 20:42:57 [error] 238#238: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:42:57.095152273  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:43:00.678541924  [2025-09-10 20:43:00] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:43:05.782590032  [INFO] Service Frigate exited with code 256 (by signal 9)
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:43:09.279088325  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-supervise nginx: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+2025-09-11 00:43:24.413376330  exit with signal: terminated
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service frigate-log successfully stopped
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:43:26.596694957  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:43:33.414923391  [INFO] Starting NGINX...
+2025-09-11 00:43:33.493934730  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:43:34.530999924  [INFO] Preparing Frigate...
+2025-09-11 00:43:38.270796352  [INFO] Starting Frigate...
+2025-09-11 00:43:38.271951370  [INFO] Preparing new go2rtc config...
+2025-09-11 00:43:38.477165446  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:43:38.678897022  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:43:40.340085078  [INFO] Starting go2rtc...
+2025-09-11 00:43:40.629211747  20:43:40.628 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:43:40.629273968  20:43:40.629 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:43:40.631100754  20:43:40.630 INF [rtsp] listen addr=:8554
+2025-09-11 00:43:40.634611809  20:43:40.630 INF [api] listen addr=:1984
+2025-09-11 00:43:40.642615312  20:43:40.638 INF [webrtc] listen addr=:8555
+2025-09-11 00:43:43.408433526  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:43:45.836242505  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:43:45.836255689    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:43:45.836263171  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:43:45.836272467    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:43:45.836278800  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:43:45.836359855    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:43:45.836366151  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:43:45.836458186    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:43:53.180105245  [2025-09-10 20:43:53] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:43:53.257117910  [2025-09-10 20:43:53] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:43:56.378120612  [2025-09-10 20:43:56] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:43:57.024703998  [2025-09-10 20:43:57] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:43:57.030581720  [2025-09-10 20:43:57] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:43:57.190155423  [2025-09-10 20:43:57] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:43:57.200916104  [2025-09-10 20:43:57] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:43:57.274077848  [2025-09-10 20:43:57] frigate.app                    INFO    : Recording process started: 279
+2025-09-11 00:43:57.283141426  [2025-09-10 20:43:57] frigate.app                    INFO    : Review process started: 282
+2025-09-11 00:43:57.314503724  [2025-09-10 20:43:57] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:43:57.395104368  [2025-09-10 20:43:57] detector.coral                 INFO    : Starting detection process: 304
+2025-09-11 00:43:57.415062606  [2025-09-10 20:43:57] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:43:57.420045342  [2025-09-10 20:43:57] detector.cpu1                  INFO    : Starting detection process: 308
+2025-09-11 00:43:57.425186853  [2025-09-10 20:43:57] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:43:57.477384393  [2025-09-10 20:43:57] frigate.app                    INFO    : Output process started: 331
+2025-09-11 00:43:57.519054286  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:43:57.688632182  [2025-09-10 20:43:57] frigate.app                    INFO    : Camera processor started for driveway: 385
+2025-09-11 00:43:57.740643522  [2025-09-10 20:43:57] frigate.app                    INFO    : Camera processor started for front: 391
+2025-09-11 00:43:57.831880886  [2025-09-10 20:43:57] frigate.app                    INFO    : Camera processor started for front_rental: 397
+2025-09-11 00:43:57.861057404  [2025-09-10 20:43:57] frigate.app                    INFO    : Camera processor started for back_yard: 548
+2025-09-11 00:43:58.036702703  [2025-09-10 20:43:58] frigate.app                    INFO    : Capture process started for driveway: 567
+2025-09-11 00:43:58.099433724  [2025-09-10 20:43:58] frigate.app                    INFO    : Capture process started for front: 575
+2025-09-11 00:43:58.214778261  [2025-09-10 20:43:58] frigate.app                    INFO    : Capture process started for front_rental: 587
+2025-09-11 00:43:58.411880367  [2025-09-10 20:43:58] frigate.app                    INFO    : Capture process started for back_yard: 604
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:43:59.080837248  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:44:00.949754247  [2025-09-10 20:44:00] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:44:00.987844364  [2025-09-10 20:44:00] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:44:01.166733056  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:44:01.444257382  2025/09/10 20:44:01 [error] 396#396: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:44:01.444420324  2025/09/10 20:44:01 [error] 396#396: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:44:04.118920909  [2025-09-10 20:44:04] frigate.api.fastapi_app        INFO    : FastAPI started
+s6-supervise frigate: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+2025-09-11 00:44:45.666109190  127.0.0.1 - - [10/Sep/2025:20:44:45 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:44:47.112492616  2025/09/10 20:44:47 [error] 407#407: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:44:47.114865374  2025/09/10 20:44:47 [error] 407#407: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:44:52.264143417  2025/09/10 20:44:52 [error] 398#398: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:44:52.264569410  2025/09/10 20:44:52 [error] 398#398: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:44:57.383363129  2025/09/10 20:44:57 [error] 406#406: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:44:57.383434665  2025/09/10 20:44:57 [error] 406#406: *8 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:02.517864027  2025/09/10 20:45:02 [error] 396#396: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:02.517933582  2025/09/10 20:45:02 [error] 396#396: *10 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:07.635030707  2025/09/10 20:45:07 [error] 396#396: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:07.635099872  2025/09/10 20:45:07 [error] 396#396: *12 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:12.789912158  2025/09/10 20:45:12 [error] 396#396: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:12.789988694  2025/09/10 20:45:12 [error] 396#396: *14 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:17.909633603  2025/09/10 20:45:17 [error] 396#396: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:17.909776730  2025/09/10 20:45:17 [error] 396#396: *16 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:23.042418159  2025/09/10 20:45:23 [error] 396#396: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:23.042501528  2025/09/10 20:45:23 [error] 396#396: *18 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:28.213915452  2025/09/10 20:45:28 [error] 396#396: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:28.214645255  2025/09/10 20:45:28 [error] 396#396: *20 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:33.360860310  2025/09/10 20:45:33 [error] 396#396: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:33.360944124  2025/09/10 20:45:33 [error] 396#396: *22 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:38.518474264  2025/09/10 20:45:38 [error] 396#396: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:38.518496115  2025/09/10 20:45:38 [error] 396#396: *24 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:43.662105707  2025/09/10 20:45:43 [error] 396#396: *26 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:43.662735956  2025/09/10 20:45:43 [error] 396#396: *26 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:46.231911273  127.0.0.1 - - [10/Sep/2025:20:45:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:45:48.793060267  2025/09/10 20:45:48 [error] 396#396: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:48.793084063  2025/09/10 20:45:48 [error] 396#396: *29 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:53.929878963  2025/09/10 20:45:53 [error] 396#396: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:53.930705079  2025/09/10 20:45:53 [error] 396#396: *31 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:45:59.066995032  2025/09/10 20:45:59 [error] 396#396: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:45:59.067024642  2025/09/10 20:45:59 [error] 396#396: *33 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:04.244353054  2025/09/10 20:46:04 [error] 396#396: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:04.244374721  2025/09/10 20:46:04 [error] 396#396: *35 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:09.405252423  2025/09/10 20:46:09 [error] 396#396: *37 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:09.405336107  2025/09/10 20:46:09 [error] 396#396: *37 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:14.547971870  2025/09/10 20:46:14 [error] 396#396: *39 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:14.547994036  2025/09/10 20:46:14 [error] 396#396: *39 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:19.705262554  2025/09/10 20:46:19 [error] 396#396: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:19.705337238  2025/09/10 20:46:19 [error] 396#396: *41 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:24.862288029  2025/09/10 20:46:24 [error] 407#407: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:24.862594635  2025/09/10 20:46:24 [error] 407#407: *43 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:30.009476912  2025/09/10 20:46:30 [error] 407#407: *45 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:30.009555910  2025/09/10 20:46:30 [error] 407#407: *45 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:35.150717510  2025/09/10 20:46:35 [error] 407#407: *47 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:35.150794546  2025/09/10 20:46:35 [error] 407#407: *47 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:40.292377260  2025/09/10 20:46:40 [error] 407#407: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:40.292494333  2025/09/10 20:46:40 [error] 407#407: *49 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:45.476271525  2025/09/10 20:46:45 [error] 407#407: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:45.476347061  2025/09/10 20:46:45 [error] 407#407: *51 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:46.776888897  127.0.0.1 - - [10/Sep/2025:20:46:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:46:50.631020510  2025/09/10 20:46:50 [error] 407#407: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:50.631041251  2025/09/10 20:46:50 [error] 407#407: *54 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:46:56.015612784  2025/09/10 20:46:56 [error] 407#407: *56 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:46:56.015634561  2025/09/10 20:46:56 [error] 407#407: *56 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:01.190735479  2025/09/10 20:47:01 [error] 407#407: *58 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:01.191383913  2025/09/10 20:47:01 [error] 407#407: *58 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:06.406353550  2025/09/10 20:47:06 [error] 407#407: *60 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:06.406432049  2025/09/10 20:47:06 [error] 407#407: *60 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:11.545018576  2025/09/10 20:47:11 [error] 407#407: *62 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:11.545095334  2025/09/10 20:47:11 [error] 407#407: *62 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:16.959029450  2025/09/10 20:47:16 [error] 407#407: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:16.959721661  2025/09/10 20:47:16 [error] 407#407: *64 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:23.006472981  2025/09/10 20:47:23 [error] 407#407: *66 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:23.007070638  2025/09/10 20:47:23 [error] 407#407: *66 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:31.379749796  2025/09/10 20:47:31 [error] 407#407: *68 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:31.381491434  2025/09/10 20:47:31 [error] 407#407: *68 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:43.094382934  2025/09/10 20:47:43 [error] 407#407: *70 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:43.113425256  2025/09/10 20:47:43 [error] 407#407: *70 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:47.363205527  127.0.0.1 - - [10/Sep/2025:20:47:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:47:48.835779247  2025/09/10 20:47:48 [error] 407#407: *73 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:48.835844875  2025/09/10 20:47:48 [error] 407#407: *73 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:54.058633506  2025/09/10 20:47:54 [error] 407#407: *75 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:54.059644082  2025/09/10 20:47:54 [error] 407#407: *75 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:47:59.233918732  2025/09/10 20:47:59 [error] 398#398: *77 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:47:59.233994120  2025/09/10 20:47:59 [error] 398#398: *77 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:04.384021583  2025/09/10 20:48:04 [error] 398#398: *79 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:04.384097044  2025/09/10 20:48:04 [error] 398#398: *79 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:09.527983528  2025/09/10 20:48:09 [error] 398#398: *81 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:09.528088379  2025/09/10 20:48:09 [error] 398#398: *81 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:14.699588300  2025/09/10 20:48:14 [error] 398#398: *83 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:14.699664799  2025/09/10 20:48:14 [error] 398#398: *83 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:19.867384037  2025/09/10 20:48:19 [error] 398#398: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:19.867471239  2025/09/10 20:48:19 [error] 398#398: *85 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:25.033279930  2025/09/10 20:48:25 [error] 398#398: *87 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:25.033356206  2025/09/10 20:48:25 [error] 398#398: *87 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:30.196095443  2025/09/10 20:48:30 [error] 398#398: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:30.196398179  2025/09/10 20:48:30 [error] 398#398: *89 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:35.350592310  2025/09/10 20:48:35 [error] 398#398: *91 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:35.350669753  2025/09/10 20:48:35 [error] 398#398: *91 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:48:48.023309362  127.0.0.1 - - [10/Sep/2025:20:48:48 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:48:50.614125152  2025/09/10 20:48:50 [error] 398#398: *94 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:48:50.614196817  2025/09/10 20:48:50 [error] 398#398: *94 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:49:05.911145469  2025/09/10 20:49:05 [error] 398#398: *96 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:49:05.911231746  2025/09/10 20:49:05 [error] 398#398: *96 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:49:07.099991585  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:49:07.114789271  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:49:07.341274985  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-11 00:49:07.388994284  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:49:07.414481149  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 00:49:14.795770235  [INFO] Starting NGINX...
+2025-09-11 00:49:14.891129335  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:49:16.543698396  [INFO] Preparing Frigate...
+2025-09-11 00:49:20.824938181  [INFO] Starting Frigate...
+2025-09-11 00:49:20.831228097  [INFO] Preparing new go2rtc config...
+2025-09-11 00:49:21.025309261  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:49:21.195760493  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:49:22.707913882  [INFO] Starting go2rtc...
+2025-09-11 00:49:22.963383437  20:49:22.961 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:49:22.963398955  20:49:22.961 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:49:22.963402955  20:49:22.963 INF [rtsp] listen addr=:8554
+2025-09-11 00:49:22.963456010  20:49:22.963 INF [api] listen addr=:1984
+2025-09-11 00:49:22.969861610  20:49:22.965 INF [webrtc] listen addr=:8555
+2025-09-11 00:49:24.778887508  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:49:27.605134920  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:49:27.605149753    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:49:27.605442377  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:49:27.605451970    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:49:27.607253626  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:49:27.607265626    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:49:27.607392012  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:49:27.607398272    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:49:34.628587357  2025/09/10 20:49:34 [error] 240#240: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:49:34.630448364  2025/09/10 20:49:34 [error] 240#240: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:49:34.818400736  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:49:35.613604482  [2025-09-10 20:49:35] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:49:35.695901959  [2025-09-10 20:49:35] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:49:36.713083468  127.0.0.1 - - [10/Sep/2025:20:49:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:49:38.803438184  [2025-09-10 20:49:38] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:49:39.309669531  [2025-09-10 20:49:39] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:49:39.313963665  [2025-09-10 20:49:39] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:49:39.376525482  [2025-09-10 20:49:39] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:49:39.381147443  [2025-09-10 20:49:39] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:49:39.430388569  [2025-09-10 20:49:39] frigate.app                    INFO    : Recording process started: 450
+2025-09-11 00:49:39.432917102  [2025-09-10 20:49:39] frigate.app                    INFO    : Review process started: 453
+2025-09-11 00:49:39.452937443  [2025-09-10 20:49:39] frigate.app                    INFO    : go2rtc process pid: 127
+2025-09-11 00:49:39.513603476  [2025-09-10 20:49:39] detector.coral                 INFO    : Starting detection process: 475
+2025-09-11 00:49:39.528738878  [2025-09-10 20:49:39] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:49:39.536603213  [2025-09-10 20:49:39] detector.cpu1                  INFO    : Starting detection process: 478
+2025-09-11 00:49:39.539291022  [2025-09-10 20:49:39] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:49:39.579827770  [2025-09-10 20:49:39] frigate.app                    INFO    : Output process started: 498
+2025-09-11 00:49:39.673151309  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:49:39.763952593  [2025-09-10 20:49:39] frigate.app                    INFO    : Camera processor started for driveway: 552
+2025-09-11 00:49:39.794129676  [2025-09-10 20:49:39] frigate.app                    INFO    : Camera processor started for front: 554
+2025-09-11 00:49:39.797764784  [2025-09-10 20:49:39] frigate.app                    INFO    : Camera processor started for front_rental: 556
+2025-09-11 00:49:39.851265951  [2025-09-10 20:49:39] frigate.app                    INFO    : Camera processor started for back_yard: 558
+2025-09-11 00:49:40.031765722  [2025-09-10 20:49:39] frigate.app                    INFO    : Capture process started for driveway: 589
+2025-09-11 00:49:40.046025971  [2025-09-10 20:49:40] frigate.app                    INFO    : Capture process started for front: 607
+2025-09-11 00:49:40.123412214  [2025-09-10 20:49:40] frigate.app                    INFO    : Capture process started for front_rental: 621
+2025-09-11 00:49:40.250773662  [2025-09-10 20:49:40] frigate.app                    INFO    : Capture process started for back_yard: 634
+2025-09-11 00:49:41.001490387  2025/09/10 20:49:40 [error] 239#239: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:49:41.001524165  2025/09/10 20:49:40 [error] 239#239: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:49:41.440258089  [2025-09-10 20:49:41] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:49:43.041707690  [2025-09-10 20:49:43] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:49:43.120244172  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:49:47.180469041  [2025-09-10 20:49:47] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:50:00.179041403  [2025-09-10 20:50:00] watchdog.driveway              INFO    : No frames received from driveway in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:50:00.181658008  [2025-09-10 20:50:00] watchdog.front                 INFO    : No frames received from front in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:50:00.196852131  [2025-09-10 20:50:00] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:50:00.196871224  [2025-09-10 20:50:00] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:50:00.221558341  [2025-09-10 20:50:00] frigate.video                  ERROR   : front: Unable to read frames from ffmpeg process.
+2025-09-11 00:50:00.223290905  [2025-09-10 20:50:00] frigate.video                  ERROR   : driveway: Unable to read frames from ffmpeg process.
+2025-09-11 00:50:00.224140021  [2025-09-10 20:50:00] frigate.video                  ERROR   : front: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:50:00.226717368  [2025-09-10 20:50:00] watchdog.driveway              ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:50:00.226738182  [2025-09-10 20:50:00] frigate.video                  ERROR   : driveway: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:50:00.232343239  [2025-09-10 20:50:00] watchdog.front                 ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:50:00.233199188  [2025-09-10 20:50:00] watchdog.driveway              INFO    : Restarting ffmpeg...
+2025-09-11 00:50:00.246118089  [2025-09-10 20:50:00] watchdog.front                 INFO    : Restarting ffmpeg...
+2025-09-11 00:50:00.306203001  [2025-09-10 20:50:00] watchdog.front_rental          INFO    : No frames received from front_rental in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:50:00.308853254  [2025-09-10 20:50:00] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:50:00.325755738  [2025-09-10 20:50:00] frigate.video                  ERROR   : front_rental: Unable to read frames from ffmpeg process.
+2025-09-11 00:50:00.327684781  [2025-09-10 20:50:00] frigate.video                  ERROR   : front_rental: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:50:00.337908467  [2025-09-10 20:50:00] watchdog.front_rental          ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:50:00.337998521  [2025-09-10 20:50:00] watchdog.front_rental          INFO    : Restarting ffmpeg...
+2025-09-11 00:50:00.369632099  [2025-09-10 20:50:00] watchdog.back_yard             INFO    : No frames received from back_yard in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:50:00.371256406  [2025-09-10 20:50:00] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:50:00.390006193  [2025-09-10 20:50:00] frigate.video                  ERROR   : back_yard: Unable to read frames from ffmpeg process.
+2025-09-11 00:50:00.391851200  [2025-09-10 20:50:00] frigate.video                  ERROR   : back_yard: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:50:00.394221958  [2025-09-10 20:50:00] watchdog.back_yard             ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:50:00.396647344  [2025-09-10 20:50:00] watchdog.back_yard             INFO    : Restarting ffmpeg...
+2025-09-11 00:50:05.054406424  [INFO] Service Frigate exited with code 256 (by signal 9)
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:50:05.883855781  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:50:05.927345536  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+2025-09-11 00:50:06.442736650  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:50:06.496263039  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:50:06.525278993  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:51:09.273779888  [INFO] Starting NGINX...
+2025-09-11 00:51:09.370028522  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:51:10.791387448  [INFO] Preparing Frigate...
+2025-09-11 00:51:14.631110422  [INFO] Preparing new go2rtc config...
+2025-09-11 00:51:14.640663858  [INFO] Starting Frigate...
+2025-09-11 00:51:14.861249834  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:51:15.078700212  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:51:17.005726032  [INFO] Starting go2rtc...
+2025-09-11 00:51:17.273274092  20:51:17.272 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:51:17.273335036  20:51:17.273 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:51:17.277724945  20:51:17.276 INF [rtsp] listen addr=:8554
+2025-09-11 00:51:17.278111180  20:51:17.277 INF [api] listen addr=:1984
+2025-09-11 00:51:17.279531934  20:51:17.279 INF [webrtc] listen addr=:8555
+2025-09-11 00:51:19.276694940  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:51:21.413365408  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:51:22.221384315  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:51:22.221401481    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:51:22.221644089  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:51:22.221650329    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:51:22.221990879  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:51:22.221998268    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:51:22.222134488  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:51:22.222139877    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:51:23.223310446  127.0.0.1 - - [10/Sep/2025:20:51:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:51:24.044254493  2025/09/10 20:51:24 [error] 225#225: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:51:24.044273530  2025/09/10 20:51:24 [error] 225#225: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:51:29.237572157  2025/09/10 20:51:29 [error] 226#226: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:51:29.237593212  2025/09/10 20:51:29 [error] 226#226: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:51:29.660438087  [2025-09-10 20:51:29] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:51:29.765839941  [2025-09-10 20:51:29] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:51:32.934742008  [2025-09-10 20:51:32] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:51:33.585840304  [2025-09-10 20:51:33] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:51:33.595629589  [2025-09-10 20:51:33] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:51:33.700910259  [2025-09-10 20:51:33] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:51:33.704026671  [2025-09-10 20:51:33] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:51:33.778061666  [2025-09-10 20:51:33] frigate.app                    INFO    : Recording process started: 442
+2025-09-11 00:51:33.783684167  [2025-09-10 20:51:33] frigate.app                    INFO    : Review process started: 444
+2025-09-11 00:51:33.804339848  [2025-09-10 20:51:33] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:51:33.905513308  [2025-09-10 20:51:33] detector.coral                 INFO    : Starting detection process: 467
+2025-09-11 00:51:33.950882882  [2025-09-10 20:51:33] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:51:33.976241227  [2025-09-10 20:51:33] detector.cpu1                  INFO    : Starting detection process: 470
+2025-09-11 00:51:33.982103113  [2025-09-10 20:51:33] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:51:34.043259688  [2025-09-10 20:51:34] frigate.app                    INFO    : Output process started: 489
+2025-09-11 00:51:34.124339031  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:51:34.321495257  [2025-09-10 20:51:34] frigate.app                    INFO    : Camera processor started for driveway: 547
+2025-09-11 00:51:34.424310671  [2025-09-10 20:51:34] frigate.app                    INFO    : Camera processor started for front: 550
+2025-09-11 00:51:34.508675997  [2025-09-10 20:51:34] frigate.app                    INFO    : Camera processor started for front_rental: 557
+2025-09-11 00:51:34.519137160  [2025-09-10 20:51:34] frigate.app                    INFO    : Camera processor started for back_yard: 577
+2025-09-11 00:51:34.597411956  [2025-09-10 20:51:34] frigate.app                    INFO    : Capture process started for driveway: 597
+2025-09-11 00:51:34.737395689  [2025-09-10 20:51:34] frigate.app                    INFO    : Capture process started for front: 609
+2025-09-11 00:51:34.800591083  [2025-09-10 20:51:34] frigate.app                    INFO    : Capture process started for front_rental: 614
+2025-09-11 00:51:34.995318497  [2025-09-10 20:51:34] frigate.app                    INFO    : Capture process started for back_yard: 633
+2025-09-11 00:51:36.041604748  2025/09/10 20:51:36 [error] 249#249: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:51:36.052248908  2025/09/10 20:51:36 [error] 249#249: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:51:37.386795248  [2025-09-10 20:51:37] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:51:37.472542977  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:51:37.802285204  [2025-09-10 20:51:37] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:51:42.090643402  [2025-09-10 20:51:42] frigate.api.fastapi_app        INFO    : FastAPI started
+s6-supervise frigate: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+2025-09-11 00:52:36.160147090  127.0.0.1 - - [10/Sep/2025:20:52:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:52:42.492684649  2025/09/10 20:52:42 [error] 227#227: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:52:42.496889691  2025/09/10 20:52:42 [error] 227#227: *9 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:52:54.405695611  2025/09/10 20:52:54 [error] 225#225: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:52:54.408339327  2025/09/10 20:52:54 [error] 225#225: *11 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:01.954139668  2025/09/10 20:53:01 [error] 225#225: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:01.954474015  2025/09/10 20:53:01 [error] 225#225: *13 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:28.221161322  2025/09/10 20:53:28 [error] 225#225: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:28.222239100  2025/09/10 20:53:28 [error] 225#225: *15 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:33.657409761  2025/09/10 20:53:33 [error] 225#225: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:33.657604036  2025/09/10 20:53:33 [error] 225#225: *17 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:37.036294944  127.0.0.1 - - [10/Sep/2025:20:53:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:53:38.806376730  2025/09/10 20:53:38 [error] 225#225: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:38.806460821  2025/09/10 20:53:38 [error] 225#225: *20 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:44.034678423  2025/09/10 20:53:44 [error] 225#225: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:44.034769754  2025/09/10 20:53:44 [error] 225#225: *22 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:49.185293432  2025/09/10 20:53:49 [error] 225#225: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:49.185389135  2025/09/10 20:53:49 [error] 225#225: *24 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:54.331467114  2025/09/10 20:53:54 [error] 225#225: *26 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:54.331554798  2025/09/10 20:53:54 [error] 225#225: *26 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:53:59.472887752  2025/09/10 20:53:59 [error] 225#225: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:53:59.472978861  2025/09/10 20:53:59 [error] 225#225: *28 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:04.617795561  2025/09/10 20:54:04 [error] 225#225: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:04.617879930  2025/09/10 20:54:04 [error] 225#225: *30 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:09.771425438  2025/09/10 20:54:09 [error] 225#225: *32 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:09.771510307  2025/09/10 20:54:09 [error] 225#225: *32 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:14.913129907  2025/09/10 20:54:14 [error] 225#225: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:14.913223368  2025/09/10 20:54:14 [error] 225#225: *34 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:20.132255816  2025/09/10 20:54:20 [error] 225#225: *36 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:20.132285723  2025/09/10 20:54:20 [error] 225#225: *36 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:25.266303851  2025/09/10 20:54:25 [error] 225#225: *38 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:25.266327906  2025/09/10 20:54:25 [error] 225#225: *38 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:30.413356699  2025/09/10 20:54:30 [error] 225#225: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:30.413457179  2025/09/10 20:54:30 [error] 225#225: *40 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:35.555341341  2025/09/10 20:54:35 [error] 225#225: *42 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:35.555372545  2025/09/10 20:54:35 [error] 225#225: *42 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:37.666658019  127.0.0.1 - - [10/Sep/2025:20:54:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:54:40.686047769  2025/09/10 20:54:40 [error] 226#226: *45 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:40.686133027  2025/09/10 20:54:40 [error] 226#226: *45 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:45.836671267  2025/09/10 20:54:45 [error] 226#226: *47 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:45.836770006  2025/09/10 20:54:45 [error] 226#226: *47 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:50.967571930  2025/09/10 20:54:50 [error] 226#226: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:50.967676706  2025/09/10 20:54:50 [error] 226#226: *49 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:54:56.113749980  2025/09/10 20:54:56 [error] 226#226: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:54:56.113776276  2025/09/10 20:54:56 [error] 226#226: *51 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:01.292615464  2025/09/10 20:55:01 [error] 226#226: *53 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:01.293119771  2025/09/10 20:55:01 [error] 226#226: *53 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:06.427512808  2025/09/10 20:55:06 [error] 226#226: *55 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:06.427536808  2025/09/10 20:55:06 [error] 226#226: *55 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:11.574273614  2025/09/10 20:55:11 [error] 226#226: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:11.574529703  2025/09/10 20:55:11 [error] 226#226: *57 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:16.714808901  2025/09/10 20:55:16 [error] 226#226: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:16.715164007  2025/09/10 20:55:16 [error] 226#226: *59 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:21.851585814  2025/09/10 20:55:21 [error] 226#226: *61 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:21.851609759  2025/09/10 20:55:21 [error] 226#226: *61 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:26.984733740  2025/09/10 20:55:26 [error] 226#226: *63 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:26.984758759  2025/09/10 20:55:26 [error] 226#226: *63 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:32.143543013  2025/09/10 20:55:32 [error] 226#226: *65 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:32.143673640  2025/09/10 20:55:32 [error] 226#226: *65 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:37.283254163  2025/09/10 20:55:37 [error] 226#226: *67 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:37.283338125  2025/09/10 20:55:37 [error] 226#226: *67 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:38.291132633  127.0.0.1 - - [10/Sep/2025:20:55:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:55:42.431927620  2025/09/10 20:55:42 [error] 226#226: *70 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:42.432012211  2025/09/10 20:55:42 [error] 226#226: *70 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:47.569645859  2025/09/10 20:55:47 [error] 226#226: *72 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:47.569743802  2025/09/10 20:55:47 [error] 226#226: *72 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:52.743241906  2025/09/10 20:55:52 [error] 226#226: *74 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:52.743266405  2025/09/10 20:55:52 [error] 226#226: *74 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:55:57.896748403  2025/09/10 20:55:57 [error] 226#226: *76 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:55:57.896976825  2025/09/10 20:55:57 [error] 226#226: *76 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:56:03.050400815  2025/09/10 20:56:03 [error] 249#249: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:56:03.050429111  2025/09/10 20:56:03 [error] 249#249: *78 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:56:08.207323775  2025/09/10 20:56:08 [error] 249#249: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:56:08.207413181  2025/09/10 20:56:08 [error] 249#249: *80 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:56:23.353637589  2025/09/10 20:56:23 [error] 249#249: *82 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:56:23.353774124  2025/09/10 20:56:23 [error] 249#249: *82 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:56:38.498839438  2025/09/10 20:56:38 [error] 249#249: *84 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:56:38.498923270  2025/09/10 20:56:38 [error] 249#249: *84 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:56:38.968652150  127.0.0.1 - - [10/Sep/2025:20:56:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:56:53.670333059  2025/09/10 20:56:53 [error] 249#249: *87 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:56:53.670359910  2025/09/10 20:56:53 [error] 249#249: *87 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:57:08.819013392  2025/09/10 20:57:08 [error] 249#249: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:57:08.819264851  2025/09/10 20:57:08 [error] 249#249: *89 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:57:23.977527920  2025/09/10 20:57:23 [error] 249#249: *91 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:57:23.977554512  2025/09/10 20:57:23 [error] 249#249: *91 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:57:39.145899756  2025/09/10 20:57:39 [error] 249#249: *93 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:57:39.145995384  2025/09/10 20:57:39 [error] 249#249: *93 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:57:39.643736516  127.0.0.1 - - [10/Sep/2025:20:57:39 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:57:40.232091378  172.30.32.2 - - [10/Sep/2025:20:57:40 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:57:42.185052625  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:57:42.201166304  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:57:42.374073029  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:57:42.406130704  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:57:42.431580415  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:57:48.824890435  [INFO] Starting NGINX...
+2025-09-11 00:57:48.914391331  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:57:50.123508220  [INFO] Preparing Frigate...
+2025-09-11 00:57:54.499514714  [INFO] Preparing new go2rtc config...
+2025-09-11 00:57:54.508270292  [INFO] Starting Frigate...
+2025-09-11 00:57:54.706148309  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:57:54.932250398  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:57:56.654538031  [INFO] Starting go2rtc...
+2025-09-11 00:57:56.890113074  20:57:56.889 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:57:56.890167944  20:57:56.890 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:57:56.891805417  20:57:56.891 INF [rtsp] listen addr=:8554
+2025-09-11 00:57:56.891855583  20:57:56.891 INF [api] listen addr=:1984
+2025-09-11 00:57:56.893485593  20:57:56.893 INF [webrtc] listen addr=:8555
+2025-09-11 00:57:58.821075897  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:57:59.991071817  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:58:01.713549001  127.0.0.1 - - [10/Sep/2025:20:58:01 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:58:02.033199603  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:58:02.033213288    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:58:02.033766852  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:58:02.033776649    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:58:02.034284955  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:58:02.035323068    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:58:02.036364773  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:58:02.036379032    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:58:03.590851576  2025/09/10 20:58:03 [error] 227#227: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:58:03.590931816  2025/09/10 20:58:03 [error] 227#227: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:58:08.935121056  2025/09/10 20:58:08 [error] 228#228: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:58:08.935574771  2025/09/10 20:58:08 [error] 228#228: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:58:09.632721946  [2025-09-10 20:58:09] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:58:09.719417368  [2025-09-10 20:58:09] frigate.util.config            INFO    : copying config as backup...
+2025-09-11 00:58:09.724393138  [2025-09-10 20:58:09] frigate.util.config            INFO    : Migrating frigate config from 0.13 to 0.14...
+2025-09-11 00:58:09.771141201  [2025-09-10 20:58:09] frigate.util.config            INFO    : Migrating export file names...
+2025-09-11 00:58:09.773468977  [2025-09-10 20:58:09] frigate.util.config            INFO    : Migrating frigate config from 0.14 to 0.15-0...
+2025-09-11 00:58:09.818136833  [2025-09-10 20:58:09] frigate.util.config            INFO    : Migrating frigate config from 0.15-0 to 0.15-1...
+2025-09-11 00:58:09.860429044  [2025-09-10 20:58:09] frigate.util.config            INFO    : Migrating frigate config from 0.15-1 to 0.16-0...
+2025-09-11 00:58:09.908568158  [2025-09-10 20:58:09] frigate.util.config            INFO    : Finished frigate config migration...
+2025-09-11 00:58:12.860493365  [2025-09-10 20:58:12] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:58:13.051400273  [2025-09-10 20:58:13] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:58:13.055645870  [2025-09-10 20:58:13] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:58:13.130693781  [2025-09-10 20:58:13] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:58:13.140142884  [2025-09-10 20:58:13] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:58:13.172721310  [2025-09-10 20:58:13] frigate.app                    INFO    : Recording process started: 448
+2025-09-11 00:58:13.198111688  [2025-09-10 20:58:13] frigate.app                    INFO    : Review process started: 450
+2025-09-11 00:58:13.223426771  [2025-09-10 20:58:13] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:58:13.288450958  [2025-09-10 20:58:13] detector.coral                 INFO    : Starting detection process: 473
+2025-09-11 00:58:13.312548505  [2025-09-10 20:58:13] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:58:13.315316237  [2025-09-10 20:58:13] detector.cpu1                  INFO    : Starting detection process: 476
+2025-09-11 00:58:13.321281009  [2025-09-10 20:58:13] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:58:13.370325941  [2025-09-10 20:58:13] frigate.app                    INFO    : Output process started: 496
+2025-09-11 00:58:13.400906974  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:58:13.552671695  [2025-09-10 20:58:13] frigate.app                    INFO    : Camera processor started for driveway: 549
+2025-09-11 00:58:13.646722144  [2025-09-10 20:58:13] frigate.app                    INFO    : Camera processor started for front: 552
+2025-09-11 00:58:13.782969602  [2025-09-10 20:58:13] frigate.app                    INFO    : Camera processor started for front_rental: 554
+2025-09-11 00:58:13.830367561  [2025-09-10 20:58:13] frigate.app                    INFO    : Camera processor started for back_yard: 588
+2025-09-11 00:58:13.920755441  [2025-09-10 20:58:13] frigate.app                    INFO    : Capture process started for driveway: 599
+2025-09-11 00:58:14.133152162  [2025-09-10 20:58:14] frigate.app                    INFO    : Capture process started for front: 611
+2025-09-11 00:58:14.223051458  [2025-09-10 20:58:14] frigate.app                    INFO    : Capture process started for front_rental: 613
+2025-09-11 00:58:14.827181739  [2025-09-10 20:58:14] frigate.app                    INFO    : Capture process started for back_yard: 643
+2025-09-11 00:58:15.171696152  2025/09/10 20:58:15 [error] 229#229: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:58:15.171803391  2025/09/10 20:58:15 [error] 229#229: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:58:17.000042212  [2025-09-10 20:58:16] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:58:17.101481003  [2025-09-10 20:58:17] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:58:17.116636994  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:58:24.312595572  [INFO] Service Frigate exited with code 256 (by signal 9)
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:58:24.907545929  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:58:24.958452386  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:58:26.006592103  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:58:26.122645226  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+2025-09-11 00:58:26.258647595  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 01:01:04.332757947  [INFO] Starting NGINX...
+2025-09-11 01:01:04.953035550  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 01:01:06.462443534  [INFO] Preparing Frigate...
+2025-09-11 01:01:11.028419525  [INFO] Preparing new go2rtc config...
+2025-09-11 01:01:11.048231605  [INFO] Starting Frigate...
+2025-09-11 01:01:11.298093013  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 01:01:11.601964658  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 01:01:13.683819125  [INFO] Starting go2rtc...
+2025-09-11 01:01:13.960227427  21:01:13.959 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 01:01:13.960243557  21:01:13.960 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 01:01:13.968245498  21:01:13.963 INF [api] listen addr=:1984
+2025-09-11 01:01:13.968258591  21:01:13.963 INF [rtsp] listen addr=:8554
+2025-09-11 01:01:13.971946104  21:01:13.965 INF [webrtc] listen addr=:8555
+2025-09-11 01:01:14.329529158  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 01:01:18.554371133  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 01:01:18.554389095    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 01:01:18.554746404  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 01:01:18.554755071    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 01:01:18.555191471  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 01:01:18.555200360    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 01:01:18.555434726  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 01:01:18.555442078    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 01:01:24.497500834  2025/09/10 21:01:24 [error] 238#238: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 01:01:24.498285359  2025/09/10 21:01:24 [error] 238#238: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 01:01:25.123117920  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 01:01:26.321208563  [2025-09-10 21:01:26] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 01:01:26.401612123  [2025-09-10 21:01:26] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 01:01:27.475999105  127.0.0.1 - - [10/Sep/2025:21:01:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 01:01:29.518368107  [2025-09-10 21:01:29] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 01:01:30.035876202  2025/09/10 21:01:30 [error] 239#239: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 01:01:30.035896590  2025/09/10 21:01:30 [error] 239#239: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 01:01:30.293760680  [2025-09-10 21:01:30] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 01:01:30.306572727  [2025-09-10 21:01:30] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 01:01:30.433038507  [2025-09-10 21:01:30] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 01:01:30.438909058  [2025-09-10 21:01:30] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 01:01:30.480333929  [2025-09-10 21:01:30] frigate.app                    INFO    : Recording process started: 450
+2025-09-11 01:01:30.510959460  [2025-09-10 21:01:30] frigate.app                    INFO    : Review process started: 452
+2025-09-11 01:01:30.550025814  [2025-09-10 21:01:30] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 01:01:30.668975293  [2025-09-10 21:01:30] detector.coral                 INFO    : Starting detection process: 475
+2025-09-11 01:01:30.693960546  [2025-09-10 21:01:30] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 01:01:30.739826992  [2025-09-10 21:01:30] detector.cpu1                  INFO    : Starting detection process: 478
+2025-09-11 01:01:30.786371445  [2025-09-10 21:01:30] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 01:01:30.803205130  [2025-09-10 21:01:30] frigate.app                    INFO    : Output process started: 498
+2025-09-11 01:01:31.107143198  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 01:01:31.123763090  [2025-09-10 21:01:31] frigate.app                    INFO    : Camera processor started for driveway: 550
+2025-09-11 01:01:31.146885653  [2025-09-10 21:01:31] frigate.app                    INFO    : Camera processor started for front: 554
+2025-09-11 01:01:31.261973195  [2025-09-10 21:01:31] frigate.app                    INFO    : Camera processor started for front_rental: 561
+2025-09-11 01:01:31.284342806  [2025-09-10 21:01:31] frigate.app                    INFO    : Camera processor started for back_yard: 562
+2025-09-11 01:01:31.513429557  [2025-09-10 21:01:31] frigate.app                    INFO    : Capture process started for driveway: 588
+2025-09-11 01:01:31.706499421  [2025-09-10 21:01:31] frigate.app                    INFO    : Capture process started for front: 613
+2025-09-11 01:01:32.120241027  [2025-09-10 21:01:32] frigate.app                    INFO    : Capture process started for front_rental: 627
+2025-09-11 01:01:32.451403683  [2025-09-10 21:01:32] frigate.app                    INFO    : Capture process started for back_yard: 636
+2025-09-11 01:01:34.377678268  [2025-09-10 21:01:34] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 01:01:34.521748924  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 01:01:35.568780283  [2025-09-10 21:01:35] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 01:01:38.972474501  [2025-09-10 21:01:38] frigate.api.fastapi_app        INFO    : FastAPI started
+s6-supervise frigate: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+2025-09-11 01:01:55.589050983  [INFO] Service Frigate exited with code 256 (by signal 9)
+2025-09-11 01:02:17.386839478  2025/09/10 21:02:17 [error] 258#258: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 01:02:17.395713331  2025/09/10 21:02:17 [error] 258#258: *9 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 01:02:35.646415826  127.0.0.1 - - [10/Sep/2025:21:02:35 -0400] "" 400 0 "-" "-" "-"

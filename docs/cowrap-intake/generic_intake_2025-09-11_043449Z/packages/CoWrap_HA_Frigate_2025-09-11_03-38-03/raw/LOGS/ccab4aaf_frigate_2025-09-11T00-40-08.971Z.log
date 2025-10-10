@@ -1,0 +1,1000 @@
+2025-09-11 00:17:05.491038365  172.30.32.2 - - [10/Sep/2025:20:17:05 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:17:23.824274699  127.0.0.1 - - [10/Sep/2025:20:17:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:17:34.755667369  172.30.32.2 - - [10/Sep/2025:20:17:34 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:17:34.783053169  172.30.32.2 - - [10/Sep/2025:20:17:34 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:17:34.787240843  172.30.32.2 - - [10/Sep/2025:20:17:34 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:17:47.815581493  172.30.32.2 - - [10/Sep/2025:20:17:47 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 443 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:17.995133969  172.30.32.2 - - [10/Sep/2025:20:18:17 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 443 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:24.288268668  127.0.0.1 - - [10/Sep/2025:20:18:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:18:28.535969046  172.30.32.2 - - [10/Sep/2025:20:18:28 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 443 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:38.123671111  172.30.32.2 - - [10/Sep/2025:20:18:38 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 541 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:44.463524264  [2025-09-10 20:18:44] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:18:44.468671181  [2025-09-10 20:18:44] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:18:45.243249523  172.30.32.2 - - [10/Sep/2025:20:18:45 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 443 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:51.682957115  172.30.32.2 - - [10/Sep/2025:20:18:51 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 443 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:18:53.232469187  172.30.32.2 - - [10/Sep/2025:20:18:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:18:57.163544462  172.30.32.2 - - [10/Sep/2025:20:18:57 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 400 1260 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:09.071692037  172.30.32.2 - - [10/Sep/2025:20:19:09 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:09.118259393  172.30.32.2 - - [10/Sep/2025:20:19:09 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:09.247928773  172.30.32.2 - - [10/Sep/2025:20:19:09 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757549400 HTTP/1.1" 200 24900 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:09.340397664  172.30.32.2 - - [10/Sep/2025:20:19:09 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757549400 HTTP/1.1" 200 58286 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:09.398802403  172.30.32.2 - - [10/Sep/2025:20:19:09 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757549946784 HTTP/1.1" 200 25006 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:15.892274325  172.30.32.2 - - [10/Sep/2025:20:19:15 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:15.904762844  172.30.32.2 - - [10/Sep/2025:20:19:15 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:15.909328474  172.30.32.2 - - [10/Sep/2025:20:19:15 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:24.739360391  127.0.0.1 - - [10/Sep/2025:20:19:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:19:26.597891721  172.30.32.2 - - [10/Sep/2025:20:19:26 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:26.612588390  172.30.32.2 - - [10/Sep/2025:20:19:26 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:26.618452351  172.30.32.2 - - [10/Sep/2025:20:19:26 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:19:39.597946194  172.30.32.2 - - [10/Sep/2025:20:19:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757549977181 HTTP/1.1" 200 24548 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:09.788238667  172.30.32.2 - - [10/Sep/2025:20:20:09 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757550007383 HTTP/1.1" 200 24698 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:14.820452920  172.30.32.2 - - [10/Sep/2025:20:20:14 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:14.839424223  172.30.32.2 - - [10/Sep/2025:20:20:14 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:14.843420658  172.30.32.2 - - [10/Sep/2025:20:20:14 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:25.116914421  127.0.0.1 - - [10/Sep/2025:20:20:25 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:20:37.940934766  172.30.32.2 - - [10/Sep/2025:20:20:37 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:37.962931703  172.30.32.2 - - [10/Sep/2025:20:20:37 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:37.963568582  172.30.32.2 - - [10/Sep/2025:20:20:37 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:39.942061756  172.30.32.2 - - [10/Sep/2025:20:20:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757550037574 HTTP/1.1" 200 24616 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:41.475519126  172.30.32.2 - - [10/Sep/2025:20:20:41 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:42.162026100  172.30.32.2 - - [10/Sep/2025:20:20:42 -0400] "GET /api/config/schema.json HTTP/1.1" 200 49469 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/yaml.worker.bundle.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:44.477041964  [2025-09-10 20:20:44] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:20:44.482556188  [2025-09-10 20:20:44] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:20:52.478397771  172.30.32.2 - - [10/Sep/2025:20:20:52 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:52.484359285  172.30.32.2 - - [10/Sep/2025:20:20:52 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:52.489294945  172.30.32.2 - - [10/Sep/2025:20:20:52 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:20:53.239956884  172.30.32.2 - - [10/Sep/2025:20:20:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:21:25.684433916  127.0.0.1 - - [10/Sep/2025:20:21:25 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:22:26.116278674  127.0.0.1 - - [10/Sep/2025:20:22:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:22:45.080965634  [2025-09-10 20:22:45] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:22:45.082507998  [2025-09-10 20:22:45] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:22:53.246982437  172.30.32.2 - - [10/Sep/2025:20:22:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:23:26.615835667  127.0.0.1 - - [10/Sep/2025:20:23:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:24:27.018101159  127.0.0.1 - - [10/Sep/2025:20:24:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:24:45.090724941  [2025-09-10 20:24:45] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:24:45.091431207  [2025-09-10 20:24:45] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:24:53.254944322  172.30.32.2 - - [10/Sep/2025:20:24:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:25:27.516273297  127.0.0.1 - - [10/Sep/2025:20:25:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:26:27.978502199  127.0.0.1 - - [10/Sep/2025:20:26:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:26:45.100846964  [2025-09-10 20:26:45] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:26:45.106933382  [2025-09-10 20:26:45] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:26:53.262232952  172.30.32.2 - - [10/Sep/2025:20:26:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:27:28.389347688  127.0.0.1 - - [10/Sep/2025:20:27:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:28:28.894816419  127.0.0.1 - - [10/Sep/2025:20:28:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:28:44.497077378  172.30.32.2 - - [10/Sep/2025:20:28:44 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:28:44.497868550  172.30.32.2 - - [10/Sep/2025:20:28:44 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:28:44.504773899  172.30.32.2 - - [10/Sep/2025:20:28:44 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:28:46.142591060  [2025-09-10 20:28:46] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:28:46.148626515  [2025-09-10 20:28:46] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:28:53.270538704  172.30.32.2 - - [10/Sep/2025:20:28:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:29:29.424889935  127.0.0.1 - - [10/Sep/2025:20:29:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:29:59.585024973  172.30.32.2 - - [10/Sep/2025:20:29:59 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:29:59.610525715  172.30.32.2 - - [10/Sep/2025:20:29:59 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:29:59.623228115  172.30.32.2 - - [10/Sep/2025:20:29:59 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:30:29.901133352  127.0.0.1 - - [10/Sep/2025:20:30:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:30:46.157920346  [2025-09-10 20:30:46] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-11 00:30:46.164068633  [2025-09-10 20:30:46] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-11 00:30:53.278837447  172.30.32.2 - - [10/Sep/2025:20:30:53 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-11 00:31:30.388256811  127.0.0.1 - - [10/Sep/2025:20:31:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:31:49.508449818  172.30.32.2 - - [10/Sep/2025:20:31:49 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:31:49.511887853  172.30.32.2 - - [10/Sep/2025:20:31:49 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:31:49.517033656  172.30.32.2 - - [10/Sep/2025:20:31:49 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:02.818899318  172.30.32.2 - - [10/Sep/2025:20:32:02 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:02.846750021  172.30.32.2 - - [10/Sep/2025:20:32:02 -0400] "GET /api/config/raw HTTP/1.1" 200 648 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:02.852495240  172.30.32.2 - - [10/Sep/2025:20:32:02 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:06.189950434  172.30.32.2 - - [10/Sep/2025:20:32:06 -0400] "GET /api/config/schema.json HTTP/1.1" 200 49469 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/yaml.worker.bundle.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:12.928266868  [2025-09-10 20:32:12] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:32:13.540927113  172.30.32.2 - - [10/Sep/2025:20:32:13 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 200 55 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:32:15.186674070  [2025-09-10 20:32:15] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:32:15.504264625  172.30.32.2 - - [10/Sep/2025:20:32:15 -0400] "POST /api/config/save?save_option=saveonly HTTP/1.1" 200 55 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/config" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:32:16.223160764  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:32:16.328215882  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:32:16.916392849  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:32:17.200452611  [2025-09-10 20:32:17] frigate.app                    INFO    : Stopping...
+2025-09-11 00:32:17.258222722  [2025-09-10 20:32:17] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-11 00:32:17.262866348  [2025-09-10 20:32:17] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-11 00:32:17.267047852  [2025-09-10 20:32:17] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-11 00:32:17.273131140  [2025-09-10 20:32:17] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-11 00:32:17.276861207  [2025-09-10 20:32:17] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-11 00:32:17.280118745  [2025-09-10 20:32:17] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-11 00:32:17.295750707  [2025-09-10 20:32:17] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-11 00:32:17.297793987  [2025-09-10 20:32:17] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-11 00:32:17.348636973  [2025-09-10 20:32:17] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-11 00:32:17.350533534  [2025-09-10 20:32:17] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-11 00:32:17.352763404  [2025-09-10 20:32:17] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:32:17.779485082  [2025-09-10 20:32:17] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-11 00:32:18.928894262  [2025-09-10 20:32:18] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-11 00:32:19.344653938  [2025-09-10 20:32:19] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-11 00:32:19.351119312  [2025-09-10 20:32:19] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-11 00:32:19.401414251  [2025-09-10 20:32:19] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-11 00:32:19.906570306  [2025-09-10 20:32:19] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-11 00:32:20.296731631  [2025-09-10 20:32:20] detector.cpu1                  INFO    : Exited detection process...
+2025-09-11 00:32:20.405961179  [2025-09-10 20:32:20] root                           INFO    : Detection process has exited...
+2025-09-11 00:32:20.910199805  [2025-09-10 20:32:20] frigate.app                    INFO    : Detection queue closed
+2025-09-11 00:32:21.411578238  [2025-09-10 20:32:21] frigate.app                    INFO    : Detected frames queue closed
+2025-09-11 00:32:21.914258279  [2025-09-10 20:32:21] frigate.app                    INFO    : Timeline queue closed
+2025-09-11 00:32:22.941462644  [2025-09-10 20:32:22] frigate.output.output          INFO    : exiting output process...
+2025-09-11 00:32:26.343611909  [2025-09-10 20:32:26] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-11 00:32:27.354321381  [2025-09-10 20:32:27] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-11 00:32:27.769258867  [2025-09-10 20:32:27] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-11 00:32:28.398607923  [2025-09-10 20:32:28] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-11 00:32:28.637013335  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-11 00:32:28.658182315  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:32:28.681716404  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 00:32:35.525816775  [INFO] Starting NGINX...
+2025-09-11 00:32:35.606707185  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:32:36.795724236  [INFO] Preparing Frigate...
+2025-09-11 00:32:39.858010530  [INFO] Preparing new go2rtc config...
+2025-09-11 00:32:39.862989169  [INFO] Starting Frigate...
+2025-09-11 00:32:40.135745729  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:32:40.435104345  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:32:42.295739947  [INFO] Starting go2rtc...
+2025-09-11 00:32:42.546104195  20:32:42.545 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:32:42.546309914  20:32:42.546 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:32:42.548850094  20:32:42.548 INF [rtsp] listen addr=:8554
+2025-09-11 00:32:42.550101740  20:32:42.549 INF [webrtc] listen addr=:8555
+2025-09-11 00:32:42.552498570  20:32:42.552 INF [api] listen addr=:1984
+2025-09-11 00:32:45.496588703  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:32:47.286482983  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:32:47.286499261    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:32:47.286506575  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:32:47.286511779    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:32:47.286517594  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:32:47.286642203    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:32:47.286649814  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:32:47.286794348    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:32:49.376004429  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:32:50.369593811  2025/09/10 20:32:50 [error] 230#230: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:32:50.369658588  2025/09/10 20:32:50 [error] 230#230: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:32:51.220052896  127.0.0.1 - - [10/Sep/2025:20:32:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:32:55.268237245  [2025-09-10 20:32:55] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:32:55.356767804  [2025-09-10 20:32:55] frigate.util.config            INFO    : copying config as backup...
+2025-09-11 00:32:55.362518764  [2025-09-10 20:32:55] frigate.util.config            INFO    : Migrating frigate config from 0.13 to 0.14...
+2025-09-11 00:32:55.423875518  [2025-09-10 20:32:55] frigate.util.config            INFO    : Migrating export file names...
+2025-09-11 00:32:55.428411794  [2025-09-10 20:32:55] frigate.util.config            INFO    : Migrating frigate config from 0.14 to 0.15-0...
+2025-09-11 00:32:55.474101050  [2025-09-10 20:32:55] frigate.util.config            INFO    : Migrating frigate config from 0.15-0 to 0.15-1...
+2025-09-11 00:32:55.526037683  [2025-09-10 20:32:55] frigate.util.config            INFO    : Migrating frigate config from 0.15-1 to 0.16-0...
+2025-09-11 00:32:55.581352612  2025/09/10 20:32:55 [error] 231#231: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:32:55.581847141  2025/09/10 20:32:55 [error] 231#231: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:32:55.583980124  [2025-09-10 20:32:55] frigate.util.config            INFO    : Finished frigate config migration...
+2025-09-11 00:32:58.714642059  [2025-09-10 20:32:58] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:32:58.922318038  [2025-09-10 20:32:58] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:32:58.928875225  [2025-09-10 20:32:58] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:32:59.049650061  [2025-09-10 20:32:59] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:32:59.058087346  [2025-09-10 20:32:59] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:32:59.128387172  [2025-09-10 20:32:59] frigate.app                    INFO    : Recording process started: 439
+2025-09-11 00:32:59.141487306  [2025-09-10 20:32:59] frigate.app                    INFO    : Review process started: 441
+2025-09-11 00:32:59.157210302  [2025-09-10 20:32:59] frigate.app                    INFO    : go2rtc process pid: 129
+2025-09-11 00:32:59.261110105  [2025-09-10 20:32:59] detector.coral                 INFO    : Starting detection process: 464
+2025-09-11 00:32:59.285492884  [2025-09-10 20:32:59] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:32:59.285513365  [2025-09-10 20:32:59] detector.cpu1                  INFO    : Starting detection process: 466
+2025-09-11 00:32:59.290071029  [2025-09-10 20:32:59] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:32:59.393911093  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:32:59.425308587  [2025-09-10 20:32:59] frigate.app                    INFO    : Output process started: 487
+2025-09-11 00:33:00.023603361  [2025-09-10 20:32:59] frigate.app                    INFO    : Camera processor started for driveway: 541
+2025-09-11 00:33:00.108491833  [2025-09-10 20:33:00] frigate.app                    INFO    : Camera processor started for front: 550
+2025-09-11 00:33:00.265635451  [2025-09-10 20:33:00] frigate.app                    INFO    : Camera processor started for front_rental: 562
+2025-09-11 00:33:00.269670013  [2025-09-10 20:33:00] frigate.app                    INFO    : Camera processor started for back_yard: 574
+2025-09-11 00:33:00.450660196  [2025-09-10 20:33:00] frigate.app                    INFO    : Capture process started for driveway: 589
+2025-09-11 00:33:00.512000820  [2025-09-10 20:33:00] frigate.app                    INFO    : Capture process started for front: 604
+2025-09-11 00:33:00.765688957  [2025-09-10 20:33:00] frigate.app                    INFO    : Capture process started for front_rental: 619
+2025-09-11 00:33:01.274709220  [2025-09-10 20:33:01] frigate.app                    INFO    : Capture process started for back_yard: 633
+2025-09-11 00:33:01.820285207  2025/09/10 20:33:01 [error] 232#232: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:33:01.820311021  2025/09/10 20:33:01 [error] 232#232: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:33:03.796319243  [2025-09-10 20:33:03] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:33:04.172341004  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:33:07.132105749  [2025-09-10 20:33:04] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:33:22.355958885  [2025-09-10 20:33:21] watchdog.front                 INFO    : No frames received from front in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:33:22.421352608  [2025-09-10 20:33:21] watchdog.front_rental          INFO    : No frames received from front_rental in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:33:22.642362715  [2025-09-10 20:33:22] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:33:22.643836523  [2025-09-10 20:33:22] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:33:22.645260055  [2025-09-10 20:33:22] frigate.video                  ERROR   : front: Unable to read frames from ffmpeg process.
+2025-09-11 00:33:22.646298927  [2025-09-10 20:33:22] watchdog.front                 ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:33:22.654127259  [2025-09-10 20:33:22] frigate.video                  ERROR   : front: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:33:22.745683156  [2025-09-10 20:33:22] watchdog.front                 INFO    : Restarting ffmpeg...
+2025-09-11 00:33:24.153846294  [2025-09-10 20:33:23] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:33:25.246794269  [2025-09-10 20:33:23] frigate.watchdog               INFO    : Detection appears to have stopped. Exiting Frigate...
+s6-supervise frigate: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-supervise go2rtc-healthcheck: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-rc: info: service certsync-log successfully stopped
+s6-supervise nginx: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:33:58.818576706  exit with signal: terminated
+2025-09-11 00:34:00.095032181  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:34:06.859383743  [INFO] Starting NGINX...
+2025-09-11 00:34:06.959283778  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:34:08.027465768  [INFO] Preparing Frigate...
+2025-09-11 00:34:11.799652085  [INFO] Starting Frigate...
+2025-09-11 00:34:11.801736161  [INFO] Preparing new go2rtc config...
+2025-09-11 00:34:12.008287858  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:34:12.195546378  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:34:13.792825916  [INFO] Starting go2rtc...
+2025-09-11 00:34:14.079867176  20:34:14.079 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:34:14.079940934  20:34:14.079 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:34:14.087536585  20:34:14.084 INF [rtsp] listen addr=:8554
+2025-09-11 00:34:14.087549474  20:34:14.084 INF [api] listen addr=:1984
+2025-09-11 00:34:14.087562770  20:34:14.086 INF [webrtc] listen addr=:8555
+2025-09-11 00:34:16.555701758  2025/09/10 20:34:16 [error] 219#219: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:34:16.555764664  2025/09/10 20:34:16 [error] 219#219: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:34:16.864093069  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:34:16.998578729  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:34:18.996222539  127.0.0.1 - - [10/Sep/2025:20:34:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:34:19.865955638  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:34:19.865971027    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:34:19.866159283  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:34:19.866166060    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:34:19.866484796  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:34:19.866493296    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:34:19.866734884  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:34:19.866743810    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:34:21.666859679  2025/09/10 20:34:21 [error] 220#220: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:34:21.666878160  2025/09/10 20:34:21 [error] 220#220: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:34:26.885931254  2025/09/10 20:34:26 [error] 248#248: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:34:26.886006531  2025/09/10 20:34:26 [error] 248#248: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:34:27.619808825  [2025-09-10 20:34:27] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:34:27.705874091  [2025-09-10 20:34:27] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:34:30.839614117  [2025-09-10 20:34:30] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:34:31.476877468  [2025-09-10 20:34:31] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:34:31.483250788  [2025-09-10 20:34:31] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:34:31.569109816  [2025-09-10 20:34:31] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:34:31.575850111  [2025-09-10 20:34:31] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:34:31.621961451  [2025-09-10 20:34:31] frigate.app                    INFO    : Recording process started: 448
+2025-09-11 00:34:31.649313828  [2025-09-10 20:34:31] frigate.app                    INFO    : Review process started: 451
+2025-09-11 00:34:31.671204128  [2025-09-10 20:34:31] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:34:31.745436407  [2025-09-10 20:34:31] detector.coral                 INFO    : Starting detection process: 473
+2025-09-11 00:34:31.771467601  [2025-09-10 20:34:31] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:34:31.781935704  [2025-09-10 20:34:31] detector.cpu1                  INFO    : Starting detection process: 476
+2025-09-11 00:34:31.790831704  [2025-09-10 20:34:31] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:34:31.868215410  [2025-09-10 20:34:31] frigate.app                    INFO    : Output process started: 496
+2025-09-11 00:34:31.870441429  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:34:32.013602703  [2025-09-10 20:34:32] frigate.app                    INFO    : Camera processor started for driveway: 528
+2025-09-11 00:34:32.153683900  [2025-09-10 20:34:32] frigate.app                    INFO    : Camera processor started for front: 544
+2025-09-11 00:34:32.206876566  [2025-09-10 20:34:32] frigate.app                    INFO    : Camera processor started for front_rental: 554
+2025-09-11 00:34:32.336319663  [2025-09-10 20:34:32] frigate.app                    INFO    : Camera processor started for back_yard: 564
+2025-09-11 00:34:32.406446491  [2025-09-10 20:34:32] frigate.app                    INFO    : Capture process started for driveway: 600
+2025-09-11 00:34:32.411780772  [2025-09-10 20:34:32] frigate.app                    INFO    : Capture process started for front: 612
+2025-09-11 00:34:32.492643384  [2025-09-10 20:34:32] frigate.app                    INFO    : Capture process started for front_rental: 626
+2025-09-11 00:34:32.715016409  [2025-09-10 20:34:32] frigate.app                    INFO    : Capture process started for back_yard: 643
+2025-09-11 00:34:32.775699654  2025/09/10 20:34:32 [error] 221#221: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:34:32.775725765  2025/09/10 20:34:32 [error] 221#221: *8 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:34:34.300323214  [2025-09-10 20:34:34] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:34:35.199365283  [2025-09-10 20:34:35] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:34:35.217509091  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:34:39.182439648  [2025-09-10 20:34:39] frigate.api.fastapi_app        INFO    : FastAPI started
+s6-supervise frigate: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+2025-09-11 00:35:41.172319491  127.0.0.1 - - [10/Sep/2025:20:35:41 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:35:41.746273671  2025/09/10 20:35:41 [error] 219#219: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:35:41.748044882  2025/09/10 20:35:41 [error] 219#219: *15 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:35:49.263710807  172.30.32.2 - - [10/Sep/2025:20:35:49 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/hassio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:49.363685931  2025/09/10 20:35:49 [error] 219#219: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.363710282  2025/09/10 20:35:49 [error] 219#219: *17 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.363827577  172.30.32.2 - - [10/Sep/2025:20:35:49 -0400] "GET /api/config HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:49.405133275  2025/09/10 20:35:49 [error] 219#219: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.405213773  2025/09/10 20:35:49 [error] 219#219: *19 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.405607304  172.30.32.2 - - [10/Sep/2025:20:35:49 -0400] "GET /api/profile HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:49.406476141  2025/09/10 20:35:49 [error] 219#219: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.406499326  2025/09/10 20:35:49 [error] 219#219: *20 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.408433108  2025/09/10 20:35:49 [error] 219#219: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:35:49.408511478  2025/09/10 20:35:49 [error] 219#219: *21 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:35:49.409163133  172.30.32.2 - - [10/Sep/2025:20:35:49 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:49.428225389  2025/09/10 20:35:49 [error] 219#219: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.428299628  2025/09/10 20:35:49 [error] 219#219: *25 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:49.428580864  172.30.32.2 - - [10/Sep/2025:20:35:49 -0400] "GET /api/profile HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:54.440951869  2025/09/10 20:35:54 [error] 219#219: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:54.441069367  2025/09/10 20:35:54 [error] 219#219: *27 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:54.457749255  2025/09/10 20:35:54 [error] 219#219: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:35:54.457769458  2025/09/10 20:35:54 [error] 219#219: *29 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:35:54.457780828  172.30.32.2 - - [10/Sep/2025:20:35:54 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:54.470504967  2025/09/10 20:35:54 [error] 219#219: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:54.471227029  2025/09/10 20:35:54 [error] 219#219: *31 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:54.471769872  172.30.32.2 - - [10/Sep/2025:20:35:54 -0400] "GET /api/profile HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:56.888553229  2025/09/10 20:35:56 [error] 219#219: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:35:56.888756411  2025/09/10 20:35:56 [error] 219#219: *33 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:35:59.398673857  2025/09/10 20:35:59 [error] 219#219: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:59.399492547  2025/09/10 20:35:59 [error] 219#219: *35 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:59.399518732  172.30.32.2 - - [10/Sep/2025:20:35:59 -0400] "GET /api/config HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:59.437961145  2025/09/10 20:35:59 [error] 219#219: *37 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:59.438403693  2025/09/10 20:35:59 [error] 219#219: *37 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/profile HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:35:59.438952147  172.30.32.2 - - [10/Sep/2025:20:35:59 -0400] "GET /api/profile HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:35:59.500613615  2025/09/10 20:35:59 [error] 219#219: *39 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:35:59.501591784  2025/09/10 20:35:59 [error] 219#219: *39 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:35:59.502202681  172.30.32.2 - - [10/Sep/2025:20:35:59 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:04.547842788  2025/09/10 20:36:04 [error] 219#219: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:36:04.548419408  2025/09/10 20:36:04 [error] 219#219: *41 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:36:04.549076545  172.30.32.2 - - [10/Sep/2025:20:36:04 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:09.424520402  2025/09/10 20:36:09 [error] 220#220: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:36:09.424800934  2025/09/10 20:36:09 [error] 220#220: *43 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/config HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:36:09.425192391  172.30.32.2 - - [10/Sep/2025:20:36:09 -0400] "GET /api/config HTTP/1.1" 500 579 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:09.484423307  2025/09/10 20:36:09 [error] 220#220: *45 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:36:09.484692229  2025/09/10 20:36:09 [error] 220#220: *45 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:36:09.579525661  2025/09/10 20:36:09 [error] 220#220: *47 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:36:09.580427664  2025/09/10 20:36:09 [error] 220#220: *47 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:36:09.580450442  172.30.32.2 - - [10/Sep/2025:20:36:09 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:12.060390792  2025/09/10 20:36:12 [error] 220#220: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:36:12.060470068  2025/09/10 20:36:12 [error] 220#220: *49 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:36:12.296727135  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:36:12.309685122  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:36:12.466526887  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:36:12.488748553  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:36:12.518001767  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:36:18.287307812  [INFO] Starting NGINX...
+2025-09-11 00:36:18.374187767  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:36:19.849008372  [INFO] Preparing Frigate...
+2025-09-11 00:36:23.619323668  [INFO] Preparing new go2rtc config...
+2025-09-11 00:36:23.622264804  [INFO] Starting Frigate...
+2025-09-11 00:36:23.818327450  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:36:24.008252977  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:36:25.668030043  [INFO] Starting go2rtc...
+2025-09-11 00:36:25.999038005  20:36:25.998 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:36:25.999233724  20:36:25.999 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:36:26.006548083  20:36:26.005 INF [api] listen addr=:1984
+2025-09-11 00:36:26.008826008  20:36:26.008 INF [rtsp] listen addr=:8554
+2025-09-11 00:36:26.011001897  20:36:26.010 INF [webrtc] listen addr=:8555
+2025-09-11 00:36:28.281109641  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:36:30.903902853  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:36:30.903916704    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:36:30.904103757  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:36:30.904108775    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:36:30.904459306  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:36:30.904467991    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:36:30.904582415  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:36:30.904587989    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:36:35.952349276  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:36:37.951971023  127.0.0.1 - - [10/Sep/2025:20:36:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:36:38.335000837  2025/09/10 20:36:38 [error] 236#236: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:36:38.335019762  2025/09/10 20:36:38 [error] 236#236: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:36:38.730566625  2025/09/10 20:36:38 [error] 237#237: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:36:38.731579368  2025/09/10 20:36:38 [error] 237#237: *4 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:36:38.731596756  172.30.32.2 - - [10/Sep/2025:20:36:38 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:39.089981871  [2025-09-10 20:36:39] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:36:39.171543266  [2025-09-10 20:36:39] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:36:42.299441188  [2025-09-10 20:36:42] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:36:42.927690399  [2025-09-10 20:36:42] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:36:42.937074408  [2025-09-10 20:36:42] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:36:43.045927068  [2025-09-10 20:36:43] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:36:43.052747973  [2025-09-10 20:36:43] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:36:43.084791177  [2025-09-10 20:36:43] frigate.app                    INFO    : Recording process started: 447
+2025-09-11 00:36:43.112019814  [2025-09-10 20:36:43] frigate.app                    INFO    : Review process started: 450
+2025-09-11 00:36:43.135431941  [2025-09-10 20:36:43] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:36:43.213682373  [2025-09-10 20:36:43] detector.coral                 INFO    : Starting detection process: 472
+2025-09-11 00:36:43.248026057  [2025-09-10 20:36:43] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:36:43.265584782  [2025-09-10 20:36:43] detector.cpu1                  INFO    : Starting detection process: 475
+2025-09-11 00:36:43.272502425  [2025-09-10 20:36:43] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:36:43.312623217  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:36:43.328509062  [2025-09-10 20:36:43] frigate.app                    INFO    : Output process started: 497
+2025-09-11 00:36:43.539598215  [2025-09-10 20:36:43] frigate.app                    INFO    : Camera processor started for driveway: 556
+2025-09-11 00:36:43.667543075  [2025-09-10 20:36:43] frigate.app                    INFO    : Camera processor started for front: 559
+2025-09-11 00:36:43.749503574  [2025-09-10 20:36:43] frigate.app                    INFO    : Camera processor started for front_rental: 571
+2025-09-11 00:36:43.788223018  [2025-09-10 20:36:43] frigate.app                    INFO    : Camera processor started for back_yard: 586
+2025-09-11 00:36:43.829964246  2025/09/10 20:36:43 [error] 302#302: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:36:43.830065244  2025/09/10 20:36:43 [error] 302#302: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:36:43.972426177  [2025-09-10 20:36:43] frigate.app                    INFO    : Capture process started for driveway: 606
+2025-09-11 00:36:43.976712050  [2025-09-10 20:36:43] frigate.app                    INFO    : Capture process started for front: 614
+2025-09-11 00:36:44.066778450  [2025-09-10 20:36:44] frigate.app                    INFO    : Capture process started for front_rental: 620
+2025-09-11 00:36:44.293971741  [2025-09-10 20:36:44] frigate.app                    INFO    : Capture process started for back_yard: 640
+2025-09-11 00:36:44.764533478  2025/09/10 20:36:44 [error] 303#303: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123"
+2025-09-11 00:36:44.764556552  2025/09/10 20:36:44 [error] 303#303: *8 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /ws HTTP/1.1", host: "home:8123"
+2025-09-11 00:36:44.769194789  172.30.32.2 - - [10/Sep/2025:20:36:44 -0400] "GET /ws HTTP/1.1" 500 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:46.692691974  [2025-09-10 20:36:46] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:36:46.718421395  [2025-09-10 20:36:46] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:36:46.743018965  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:36:50.097128025  [2025-09-10 20:36:50] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:36:51.686277507  172.30.32.2 - - [10/Sep/2025:20:36:51 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:53.116128858  172.30.32.2 - - [10/Sep/2025:20:36:53 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:57.771700561  172.30.32.2 - - [10/Sep/2025:20:36:57 -0400] "GET /ws HTTP/1.1" 101 1139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-11 00:36:59.830338425  [INFO] Service Frigate exited with code 256 (by signal 9)
+2025-09-11 00:37:00.045916521  2025/09/10 20:37:00 [error] 236#236: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+2025-09-11 00:37:00.065506378  2025/09/10 20:37:00 [error] 236#236: *10 auth request unexpected status: 502 while sending to client, client: 172.30.32.2, server: , request: "GET /api/stats HTTP/1.1", host: "home:8123", referrer: "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-supervise go2rtc-healthcheck: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-supervise nginx: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:37:20.170873960  exit with signal: terminated
+2025-09-11 00:37:22.596987130  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:37:31.151583566  [INFO] Starting NGINX...
+2025-09-11 00:37:31.238015360  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:37:32.424463221  [INFO] Preparing Frigate...
+2025-09-11 00:37:36.184556704  [INFO] Starting Frigate...
+2025-09-11 00:37:36.187583912  [INFO] Preparing new go2rtc config...
+2025-09-11 00:37:36.403169970  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:37:36.616859060  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:37:38.552232457  [INFO] Starting go2rtc...
+2025-09-11 00:37:38.792140145  20:37:38.791 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:37:38.792367197  20:37:38.792 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:37:38.794078798  20:37:38.793 INF [rtsp] listen addr=:8554
+2025-09-11 00:37:38.794254276  20:37:38.793 INF [api] listen addr=:1984
+2025-09-11 00:37:38.796252243  20:37:38.795 INF [webrtc] listen addr=:8555
+2025-09-11 00:37:41.153013974  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+2025-09-11 00:37:43.302460083  [INFO] Starting NGINX...
+2025-09-11 00:37:43.453842549  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:37:44.208413861  [INFO] Preparing Frigate...
+2025-09-11 00:37:46.684808607  [INFO] Preparing new go2rtc config...
+2025-09-11 00:37:47.029846793  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:37:47.287979009  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:37:47.583947757  [INFO] Starting Frigate...
+2025-09-11 00:37:49.128346679  [INFO] Starting go2rtc...
+2025-09-11 00:37:49.430231773  20:37:49.429 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:37:49.430311809  20:37:49.430 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:37:49.433092762  20:37:49.432 INF [rtsp] listen addr=:8554
+2025-09-11 00:37:49.433928471  20:37:49.433 INF [api] listen addr=:1984
+2025-09-11 00:37:49.436794108  20:37:49.436 INF [webrtc] listen addr=:8555
+2025-09-11 00:37:53.297280308  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:37:54.394156388  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:37:54.394169740    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:37:54.394355237  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:37:54.394361292    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:37:54.394696731  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:37:54.394704953    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:37:54.394840803  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:37:54.394845395    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:37:57.285391907  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:37:58.507208617  2025/09/10 20:37:58 [error] 232#232: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:37:58.507228580  2025/09/10 20:37:58 [error] 232#232: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:37:59.554115718  127.0.0.1 - - [10/Sep/2025:20:37:59 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:38:02.460738959  [2025-09-10 20:38:02] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:38:02.534898884  [2025-09-10 20:38:02] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:38:03.701599145  2025/09/10 20:38:03 [error] 233#233: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:38:03.701677903  2025/09/10 20:38:03 [error] 233#233: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:38:05.658603655  [2025-09-10 20:38:05] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:38:06.366431970  [2025-09-10 20:38:06] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:38:06.380589937  [2025-09-10 20:38:06] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:38:06.499851236  [2025-09-10 20:38:06] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:38:06.503404788  [2025-09-10 20:38:06] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:38:06.592276244  [2025-09-10 20:38:06] frigate.app                    INFO    : Recording process started: 446
+2025-09-11 00:38:06.601173836  [2025-09-10 20:38:06] frigate.app                    INFO    : Review process started: 448
+2025-09-11 00:38:06.632996118  [2025-09-10 20:38:06] frigate.app                    INFO    : go2rtc process pid: 116
+2025-09-11 00:38:06.752933647  [2025-09-10 20:38:06] detector.coral                 INFO    : Starting detection process: 471
+2025-09-11 00:38:06.772965496  [2025-09-10 20:38:06] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:38:06.774813632  [2025-09-10 20:38:06] detector.cpu1                  INFO    : Starting detection process: 473
+2025-09-11 00:38:06.780764866  [2025-09-10 20:38:06] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:38:06.837626469  [2025-09-10 20:38:06] frigate.app                    INFO    : Output process started: 491
+2025-09-11 00:38:06.892449107  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:38:07.136413781  [2025-09-10 20:38:07] frigate.app                    INFO    : Camera processor started for driveway: 540
+2025-09-11 00:38:07.227803714  [2025-09-10 20:38:07] frigate.app                    INFO    : Camera processor started for front: 548
+2025-09-11 00:38:07.363061134  [2025-09-10 20:38:07] frigate.app                    INFO    : Camera processor started for front_rental: 552
+2025-09-11 00:38:07.379354010  [2025-09-10 20:38:07] frigate.app                    INFO    : Camera processor started for back_yard: 554
+2025-09-11 00:38:07.872276534  [2025-09-10 20:38:07] frigate.app                    INFO    : Capture process started for driveway: 588
+2025-09-11 00:38:08.035729241  [2025-09-10 20:38:07] frigate.app                    INFO    : Capture process started for front: 599
+2025-09-11 00:38:08.044201303  [2025-09-10 20:38:07] frigate.app                    INFO    : Capture process started for front_rental: 621
+2025-09-11 00:38:08.230791290  [2025-09-10 20:38:08] frigate.app                    INFO    : Capture process started for back_yard: 633
+2025-09-11 00:38:10.254433572  [2025-09-10 20:38:10] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:38:10.933883491  [2025-09-10 20:38:10] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:38:11.188719428  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:38:12.611892967  2025/09/10 20:38:12 [error] 235#235: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:38:12.612396089  2025/09/10 20:38:12 [error] 235#235: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:38:15.168771226  [2025-09-10 20:38:15] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:38:28.521476233  [2025-09-10 20:38:28] watchdog.back_yard             INFO    : No frames received from back_yard in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:38:28.525877104  [2025-09-10 20:38:28] watchdog.front_rental          INFO    : No frames received from front_rental in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:38:28.525890437  [2025-09-10 20:38:28] watchdog.driveway              INFO    : No frames received from driveway in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:38:28.525907844  [2025-09-10 20:38:28] watchdog.front                 INFO    : No frames received from front in 20 seconds. Exiting ffmpeg...
+2025-09-11 00:38:28.555804880  [2025-09-10 20:38:28] watchdog.back_yard             INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:38:28.560377007  [2025-09-10 20:38:28] watchdog.front                 INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:38:28.575467884  [2025-09-10 20:38:28] watchdog.front_rental          INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:38:28.578637202  [2025-09-10 20:38:28] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-11 00:38:28.587927805  [2025-09-10 20:38:28] frigate.video                  ERROR   : front_rental: Unable to read frames from ffmpeg process.
+2025-09-11 00:38:28.595549548  [2025-09-10 20:38:28] watchdog.front_rental          ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:38:28.600674258  [2025-09-10 20:38:28] frigate.video                  ERROR   : driveway: Unable to read frames from ffmpeg process.
+2025-09-11 00:38:28.602838481  [2025-09-10 20:38:28] frigate.video                  ERROR   : back_yard: Unable to read frames from ffmpeg process.
+2025-09-11 00:38:28.605321884  [2025-09-10 20:38:28] frigate.video                  ERROR   : front_rental: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:38:28.606510494  [2025-09-10 20:38:28] watchdog.driveway              ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:38:28.609259633  [2025-09-10 20:38:28] watchdog.back_yard             ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:38:28.611812757  [2025-09-10 20:38:28] watchdog.back_yard             INFO    : Restarting ffmpeg...
+2025-09-11 00:38:28.613602857  [2025-09-10 20:38:28] watchdog.driveway              INFO    : Restarting ffmpeg...
+2025-09-11 00:38:28.615055814  [2025-09-10 20:38:28] frigate.video                  ERROR   : front: Unable to read frames from ffmpeg process.
+2025-09-11 00:38:28.616270756  [2025-09-10 20:38:28] watchdog.front                 ERROR   : The following ffmpeg logs include the last 100 lines prior to exit.
+2025-09-11 00:38:28.617296424  [2025-09-10 20:38:28] frigate.video                  ERROR   : front: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:38:28.625647581  [2025-09-10 20:38:28] frigate.video                  ERROR   : driveway: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:38:28.629878177  [2025-09-10 20:38:28] frigate.video                  ERROR   : back_yard: ffmpeg process is not running. exiting capture thread...
+2025-09-11 00:38:28.640742143  [2025-09-10 20:38:28] watchdog.front                 INFO    : Restarting ffmpeg...
+2025-09-11 00:38:28.642484429  [2025-09-10 20:38:28] watchdog.front_rental          INFO    : Restarting ffmpeg...
+2025-09-11 00:38:44.858647991  [INFO] Service Frigate exited with code 256 (by signal 9)
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:38:45.308968078  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-11 00:38:45.342297131  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-11 00:38:45.779127518  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-11 00:38:45.860261993  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:38:45.946668583  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 00:38:52.288385715  [INFO] Starting NGINX...
+2025-09-11 00:38:52.368040455  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:38:53.478624427  [INFO] Preparing Frigate...
+2025-09-11 00:38:56.876566752  [INFO] Preparing new go2rtc config...
+2025-09-11 00:38:56.878161170  [INFO] Starting Frigate...
+2025-09-11 00:38:57.063620563  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:38:57.239803149  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:38:58.871562650  [INFO] Starting go2rtc...
+2025-09-11 00:38:59.179901930  20:38:59.178 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:38:59.179918133  20:38:59.178 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:38:59.181243129  20:38:59.180 INF [api] listen addr=:1984
+2025-09-11 00:38:59.181847841  20:38:59.181 INF [rtsp] listen addr=:8554
+2025-09-11 00:38:59.183585794  20:38:59.183 INF [webrtc] listen addr=:8555
+2025-09-11 00:39:02.285744775  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:39:03.873337663  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:39:04.316890862  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:39:04.316905807    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:39:04.317202487  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:39:04.317211450    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:39:04.318426485  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:39:04.318439447    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:39:04.318580686  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:39:04.318586019    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:39:05.644710509  127.0.0.1 - - [10/Sep/2025:20:39:05 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:39:07.059267017  2025/09/10 20:39:07 [error] 226#226: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:39:07.059324886  2025/09/10 20:39:07 [error] 226#226: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:39:12.157950401  [2025-09-10 20:39:12] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:39:12.208101672  2025/09/10 20:39:12 [error] 227#227: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:39:12.208124487  2025/09/10 20:39:12 [error] 227#227: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:39:12.245888873  [2025-09-10 20:39:12] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-11 00:39:15.395237151  [2025-09-10 20:39:15] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-11 00:39:16.007168807  [2025-09-10 20:39:16] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-11 00:39:16.016379523  [2025-09-10 20:39:16] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-11 00:39:16.123315917  [2025-09-10 20:39:16] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-11 00:39:16.126109074  [2025-09-10 20:39:16] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-11 00:39:16.159283518  [2025-09-10 20:39:16] frigate.app                    INFO    : Recording process started: 447
+2025-09-11 00:39:16.189365459  [2025-09-10 20:39:16] frigate.app                    INFO    : Review process started: 450
+2025-09-11 00:39:16.206835592  [2025-09-10 20:39:16] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-11 00:39:16.282362364  [2025-09-10 20:39:16] detector.coral                 INFO    : Starting detection process: 472
+2025-09-11 00:39:16.309190766  [2025-09-10 20:39:16] frigate.detectors.plugins.edgetpu_tfl INFO    : Attempting to load TPU as usb
+2025-09-11 00:39:16.319260209  [2025-09-10 20:39:16] detector.cpu1                  INFO    : Starting detection process: 475
+2025-09-11 00:39:16.326940006  [2025-09-10 20:39:16] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-11 00:39:16.399289016  [2025-09-10 20:39:16] frigate.app                    INFO    : Output process started: 497
+2025-09-11 00:39:16.486228430  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:39:16.560403169  [2025-09-10 20:39:16] frigate.app                    INFO    : Camera processor started for driveway: 549
+2025-09-11 00:39:16.629096315  [2025-09-10 20:39:16] frigate.app                    INFO    : Camera processor started for front: 556
+2025-09-11 00:39:16.758219633  [2025-09-10 20:39:16] frigate.app                    INFO    : Camera processor started for front_rental: 563
+2025-09-11 00:39:16.789607589  [2025-09-10 20:39:16] frigate.app                    INFO    : Camera processor started for back_yard: 573
+2025-09-11 00:39:16.852936398  [2025-09-10 20:39:16] frigate.app                    INFO    : Capture process started for driveway: 598
+2025-09-11 00:39:16.942202588  [2025-09-10 20:39:16] frigate.app                    INFO    : Capture process started for front: 610
+2025-09-11 00:39:17.074731756  [2025-09-10 20:39:17] frigate.app                    INFO    : Capture process started for front_rental: 621
+2025-09-11 00:39:17.335627145  [2025-09-10 20:39:17] frigate.app                    INFO    : Capture process started for back_yard: 634
+2025-09-11 00:39:18.692503358  2025/09/10 20:39:18 [error] 228#228: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:39:18.693307808  2025/09/10 20:39:18 [error] 228#228: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:39:19.780332412  [2025-09-10 20:39:19] frigate.detectors.plugins.edgetpu_tfl INFO    : TPU found
+2025-09-11 00:39:19.829354035  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-11 00:39:20.448513533  [2025-09-10 20:39:20] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-11 00:39:23.033141714  [2025-09-10 20:39:23] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-11 00:39:28.320782053  [INFO] Service Frigate exited with code 256 (by signal 9)
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-11 00:39:31.337976985  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+s6-supervise certsync: warning: finish script lifetime reached maximum value - sending it a SIGKILL
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+s6-rc: info: service nginx-log successfully stopped
+s6-rc: info: service frigate-log successfully stopped
+2025-09-11 00:39:40.601344836  [INFO] Service NGINX exited with code 0 (by signal 0)
+2025-09-11 00:39:40.891924171  exit with signal: terminated
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+2025-09-11 00:39:42.503277488  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-11 00:39:48.791950709  [INFO] Starting NGINX...
+2025-09-11 00:39:48.874067759  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-11 00:39:50.029460825  [INFO] Preparing Frigate...
+2025-09-11 00:39:53.725420987  [INFO] Preparing new go2rtc config...
+2025-09-11 00:39:53.728141275  [INFO] Starting Frigate...
+2025-09-11 00:39:53.942426870  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-11 00:39:54.114025846  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-11 00:39:55.896062337  [INFO] Starting go2rtc...
+2025-09-11 00:39:56.225199748  20:39:56.224 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-11 00:39:56.225223914  20:39:56.224 INF config path=/dev/shm/go2rtc.yaml
+2025-09-11 00:39:56.229516212  20:39:56.229 INF [rtsp] listen addr=:8554
+2025-09-11 00:39:56.229703395  20:39:56.229 INF [api] listen addr=:1984
+2025-09-11 00:39:56.234358761  20:39:56.234 INF [webrtc] listen addr=:8555
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-11 00:39:57.371333098  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-11 00:39:58.536296854  2025/09/10 20:39:58 [error] 218#218: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:39:58.536317428  2025/09/10 20:39:58 [error] 218#218: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:39:58.795707452  [INFO] Starting go2rtc healthcheck service...
+2025-09-11 00:39:59.323810047  127.0.0.1 - - [10/Sep/2025:20:39:59 -0400] "" 400 0 "-" "-" "-"
+2025-09-11 00:40:01.746760852  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:40:01.746775130    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:40:01.746951405  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-11 00:40:01.746957738    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:40:01.747376231  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:40:01.747388249    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-11 00:40:01.747856186  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-11 00:40:01.747873037    return self._float_to_str(self.smallest_subnormal)
+2025-09-11 00:40:03.642095017  2025/09/10 20:40:03 [error] 219#219: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:40:03.642576787  2025/09/10 20:40:03 [error] 219#219: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:40:08.921954761  2025/09/10 20:40:08 [error] 220#220: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-11 00:40:08.922031778  2025/09/10 20:40:08 [error] 220#220: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-11 00:40:09.709296011  [2025-09-10 20:40:09] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-11 00:40:09.818010541  [2025-09-10 20:40:09] frigate.util.config            INFO    : frigate config does not need migration...

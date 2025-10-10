@@ -1,0 +1,13 @@
+
+    Push-Location $RepoPath
+    "## git status -s -b"
+    git status -s -b 2>$null
+    ""
+    "## remotes"
+    git remote -v 2>$null
+    ""
+    "## last commit"
+    git log -1 --oneline 2>$null
+    Pop-Location
+  
+
