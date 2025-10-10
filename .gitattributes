@@ -1,15 +1,4 @@
-* text=auto eol=lf
-
-# Explicit common types
-*.md      text eol=lf
-*.yml     text eol=lf
-*.yaml    text eol=lf
-*.json    text eol=lf
-*.ps1     text eol=lf
-*.psm1    text eol=lf
-*.psd1    text eol=lf
-*.sh      text eol=lf
-*.ts      text eol=lf
-*.js      text eol=lf
-*.css     text eol=lf
-*.html    text eol=lf
+# Make the repo nicer for humans: down-rank ops & CI in stats and browsing
+ops/**/* linguist-generated=true
+.github/**/* linguist-generated=true
+docs/**/* linguist-documentation=true
