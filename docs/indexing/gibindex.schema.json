@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GIBindexEntry",
+  "type": "object",
+  "properties": {
+    "id": {"type":"string"},
+    "title": {"type":"string"},
+    "tags": {"type":"array","items":{"type":"string"}},
+    "refs": {"type":"array","items":{"type":"string"}},
+    "quality": {"type":"object","properties":{
+      "clarity":{"type":"number"},
+      "evidence":{"type":"number"},
+      "congruence":{"type":"number"}
+    }, "additionalProperties": false}
+  },
+  "required": ["id","title"]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "source": "docs/constitution/sections/20_governance.md#L1",
+    "target": "docs/constitution/sections/30_operations.md#L1",
+    "kind": "relates",
+    "note": "Ops enforcement of governance decisions"
+  }
+]

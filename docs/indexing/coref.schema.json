@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoRefEntry",
+  "type": "object",
+  "properties": {
+    "source": {"type":"string"},
+    "target": {"type":"string"},
+    "kind":   {"type":"string", "enum":["supports","conflicts","duplicates","supersedes","relates"]},
+    "note":   {"type":"string"}
+  },
+  "required": ["source","target","kind"]
+}

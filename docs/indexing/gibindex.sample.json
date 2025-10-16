@@ -1,0 +1,9 @@
+[
+  {
+    "id": "const-rights-duties-v0",
+    "title": "Rights & Duties baseline",
+    "tags": ["constitution","rights","duties"],
+    "refs": ["docs/constitution/sections/10_rights_duties.md#L1"],
+    "quality": { "clarity": 0.4, "evidence": 0.2, "congruence": 0.5 }
+  }
+]
