@@ -1,4 +1,4 @@
-# Maintainers of the CoCivium Repository
+# Maintainers of the CoCivium™ Repository
 
 This repository is maintained by an evolving collective of human and non-human intelligences.
 

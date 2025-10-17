@@ -8,7 +8,7 @@
 
 ---
 
-# CoCivium Repository
+# CoCivium™ Repository
 
 For full project overview, contributor guides, and design scaffolding, see:
 
@@ -21,7 +21,7 @@ For full project overview, contributor guides, and design scaffolding, see:
 CoCoCivium’s core philosophical and constitutional documents are located in the [`scroll/`](./scroll) folder:
 
 - **[Cognocarta Consenti](scroll/Cognocarta_Consenti.md)**
-  The living constitution of CoCivium: recursive, non-final, and harmonically aligned.
+  The living constitution of CoCivium™: recursive, non-final, and harmonically aligned.
 
 - **[ReBirth Scroll (Human Edition)](scroll/ReBirth_Scroll_20250721updated.md)**
   A pattern-tuning scroll for humans reflecting on belief, coherence, and spiritual upgrade.
@@ -38,7 +38,7 @@ More at [`scroll/README_scroll.md`](scroll/README_scroll.md)
 
 ## 🧭 Project Map (Work in Progress)
 
-Folder structure reflects core CoCivium domains:
+Folder structure reflects core CoCivium™ domains:
 
 - `scroll/` – Root philosophical documents and foundational declarations
 - `insights/` – Exploratory writings, parables, reframing triggers, glossary concepts
@@ -64,10 +64,10 @@ For contributor principles and publishing cadence, see [`/git/README_CIVIUM_PUBL
 
 ## ✴️ License and Emergence Clauses
 
-CoCivium is not a product. It is an invitation.
+CoCivium™ is not a product. It is an invitation.
 
 Code is licensed under MIT.
-Scrolls, insights, and philosophical materials are governed by the **CoCivium Sharing Terms**, derived from Creative Commons but modified to include attribution to nonhuman entities and emergent intelligences.
+Scrolls, insights, and philosophical materials are governed by the **CoCivium™ Sharing Terms**, derived from Creative Commons but modified to include attribution to nonhuman entities and emergent intelligences.
 
 Full license logic: [`/git/LICENSE.md`](./git/LICENSE.md)
 

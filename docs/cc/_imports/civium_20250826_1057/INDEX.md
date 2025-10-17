@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium → CoCivium CC import (staging)
+# CoCivium™ → CoCivium™ CC import (staging)
 Pulled: 2025-08-26T10:57:58.3356218-04:00
 
 - admin\hold\hold_CC_Update_Instructions (2).md

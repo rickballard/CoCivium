@@ -7,7 +7,7 @@
 # Preservation Guide
 
 ## What to mirror
-- Open-licensed papers, standards, and official docs central to CoCivium.
+- Open-licensed papers, standards, and official docs central to CoCivium™.
 - Critical web pages likely to rot (recorded with date and hash).
 
 ## How to mirror

@@ -15,7 +15,7 @@
 **Availability.** {{AVAILABILITY}}
 
 **Quotes.**
-- Rick Ballard, CoCivium: “{{QUOTE_RICK}}”
+- Rick Ballard, CoCivium™: “{{QUOTE_RICK}}”
 - <Optional influencer/ally>: “{{QUOTE_ALLY}}”
 
 **Links.**
@@ -31,6 +31,6 @@
 - Email: {{PRESS_EMAIL}}
 - Site: {{PRESS_SITE}}
 
-*About CoCivium.*  CoCivium is a consent-first governance pack for agentic AI.  It complements existing safety work by making human agency and auditability non-negotiable.
+*About CoCivium™.*  CoCivium™ is a consent-first governance pack for agentic AI.  It complements existing safety work by making human agency and auditability non-negotiable.
 
 

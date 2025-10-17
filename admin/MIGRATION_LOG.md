@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 # MIGRATION_LOG
-Definition: Each entry logs a *move or copy* between CoCivium and CoCivium trees, or within CoCivium during grooming.
+Definition: Each entry logs a *move or copy* between CoCivium™ and CoCivium™ trees, or within CoCivium™ during grooming.
 
 ## Columns
 YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest, notes

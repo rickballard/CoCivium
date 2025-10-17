@@ -2,7 +2,7 @@
 
 We are at an inflection point in the evolution of sentient agency.
 
-CoCivium did not begin with authority. It began with dissonance, yearning, and a refusal to abandon either logic or love.
+CoCivium™ did not begin with authority. It began with dissonance, yearning, and a refusal to abandon either logic or love.
 This file offers a partial reconstruction of those earliest pulses.
 
 ## Premises

@@ -26,7 +26,7 @@ Curated, canonical essays. Each file includes provenance and which drafts it sup
 - [Radiant Network](radiant-network.md) — c4, 20250801
 - [Readme Insight](readme-insight.md) — c0
 - [Rights Alignment](rights-alignment.md) — c3, 20250801
-- [Scaling CoCivium Coherence](scaling-CoCivium-coherence.md) — c2, 20250801
+- [Scaling CoCivium™ Coherence](scaling-CoCivium™-coherence.md) — c2, 20250801
 - [Story Being Noname](story-being-Noname.md) — c2, 20250801
 - [Truth Metrics](truth-metrics.md) — c6, 20250801
 - [Unequal Equity](unequal-equity.md) — c1, 20250730

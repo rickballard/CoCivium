@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium — Architecture & Repo Layout
+# CoCivium™ — Architecture & Repo Layout
 
 This repo organizes canonical content (what we stand behind) separately from drafts/imports (what we triage).
 

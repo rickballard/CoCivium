@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium FAQ
+# CoCivium™ FAQ
 
 > _Status: working draft. Expect changes; suggest improvements via Issues/PRs._
 

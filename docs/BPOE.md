@@ -3,7 +3,7 @@
 > Running log of material decisions, guardrails, and ops changes. Newest first.
 
 ## 2025-08-16 — Session wrap
-- Mini-dashboard enabled (green/red/exclamation) for CoCivium status in chat.
+- Mini-dashboard enabled (green/red/exclamation) for CoCivium™ status in chat.
 - Succession stub planned: README link -> docs/succession-manifest.md.
 - Quiet monitors: CI failures (30m), urgent Issues/PRs (hourly), Discussions by others (hourly).
 - Web brand scan: weekly digest; urgent-only fast alerts.
@@ -18,7 +18,7 @@
 
 ### Fast start ritual (BPOE)
 
-- One click: Desktop **CoCivium-Workbench.bat**
+- One click: Desktop **CoCivium™-Workbench.bat**
 - Preflight runs silently; see `~/Documents/CoCiviumLogs/preflight_latest.log`
 - Browser opens: ChatGPT (left), GitHub repo + **ISSUEOPS** (right)
 - Keep extras out of startup (news, extra terminals) to reduce context switching
@@ -48,7 +48,7 @@
 
 <!-- BPOE:CoSnap START -->
 ### CoSnap (screenshots, opt-in)
-- CoSnap captures **active window** to ~/Downloads/CoCivium-Logs (PNG).
+- CoSnap captures **active window** to ~/Downloads/CoCivium™-Logs (PNG).
 - CoSnapScroll -Pages N stitches PageUp frames vertically.
 - CoSnap -Paste (or CoSnapScroll -Paste) copies image, focuses chat, pastes, sends.
 - **Privacy:** opt-in only, visible console message, local-only storage.

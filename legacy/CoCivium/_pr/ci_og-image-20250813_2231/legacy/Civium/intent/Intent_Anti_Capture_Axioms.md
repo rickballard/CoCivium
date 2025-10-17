@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 # Anti-Capture Axioms
 
-CoCivium is designed to resist capture by:
+CoCivium™ is designed to resist capture by:
 
 - Corporate monopolies
 - Authoritarian regimes

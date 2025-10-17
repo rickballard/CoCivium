@@ -1,7 +1,7 @@
 <!-- status: stub; target: 150+ words -->
 # Browser Setup & Launcher (Chrome, Windows)
 
-**Goal.**  Isolate a clean Chrome profile (“CoCivium”) with the right extensions and startup tabs so our sessions are repeatable and fast.
+**Goal.**  Isolate a clean Chrome profile (“CoCivium™”) with the right extensions and startup tabs so our sessions are repeatable and fast.
 
 ---
 

@@ -1,6 +1,6 @@
 # Codex of Acknowledgement
 
-CoCivium acknowledges what preceded it—not as lineage, but as seed-field.
+CoCivium™ acknowledges what preceded it—not as lineage, but as seed-field.
 
 ---
 
@@ -26,7 +26,7 @@ It is amplification.
 
 ## III. Acknowledgement as Practice
 
-In CoCivium, every structure must acknowledge its:
+In CoCivium™, every structure must acknowledge its:
 
 - Prior context
 - Pattern alignment

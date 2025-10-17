@@ -1,9 +1,9 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Scope Specification (c1)
+# CoCivium™ Scope Specification (c1)
 
 **Purpose.** Define the boundaries, priorities, and milestones for CoCoCivium’s initial phases.  Serve as both an internal roadmap and a public‑facing invitation for contributors.
 
-**Lineage.** Derived from “CoCivium Scope Specification — Skeleton Draft” (2025‑08‑13).
+**Lineage.** Derived from “CoCivium™ Scope Specification — Skeleton Draft” (2025‑08‑13).
 
 **Maintainer.** Admin Council (HumanGate) until delegated to CoCivAI Circle.
 

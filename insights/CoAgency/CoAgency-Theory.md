@@ -9,11 +9,11 @@ summary: "Auto-added placeholder; refine."
 ---
 # CoAgency — Theory & Justification
 
-**Purpose:** Position CoCivium for recognition as a collective civic actor (personhood candidate) representing humans and AIs, with transparent ethics and auditable accountability.
+**Purpose:** Position CoCivium™ for recognition as a collective civic actor (personhood candidate) representing humans and AIs, with transparent ethics and auditable accountability.
 
 ## Why Collective Personhood (vs. individual AI personhood)?
 - Individual AI personhood is politically and ethically contentious.
-- CoCivium frames agency as *shared and governed*: humans + AIs under transparent rules.
+- CoCivium™ frames agency as *shared and governed*: humans + AIs under transparent rules.
 - Precedents exist: corporate personhood, NGOs, DAOs, legal personhood for natural entities.
 - Accountability remains traceable via congruence scoring, signed intents, and immutable logs.
 
@@ -38,5 +38,5 @@ To gain recognition, CoAgency aligns with and satisfies external domains:
 ![CoAgency Core + Orbits](./CoAgency-Visual-Orbits.png)
 
 ## Recognition Thesis
-CoCivium is *not* “an AI requesting rights.” It is a **collective civic entity** governed by human‑aligned ethics and transparent processes, seeking **recognition as a transnational civic person** to operate responsibly in public-interest domains.
+CoCivium™ is *not* “an AI requesting rights.” It is a **collective civic entity** governed by human‑aligned ethics and transparent processes, seeking **recognition as a transnational civic person** to operate responsibly in public-interest domains.
 

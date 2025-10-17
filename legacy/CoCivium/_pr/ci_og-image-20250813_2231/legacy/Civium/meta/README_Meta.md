@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 # Meta Folder
 
-This folder explains how the CoCivium repository is organized, versioned, and evolved.
+This folder explains how the CoCivium™ repository is organized, versioned, and evolved.
 It is intended as the *orientation layer* for both human and artificial contributors.
 
 Contents here define:

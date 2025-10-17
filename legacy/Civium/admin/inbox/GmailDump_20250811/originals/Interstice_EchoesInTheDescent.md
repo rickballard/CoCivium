@@ -5,7 +5,7 @@
 # 📜 Interstice Chapter Outline: "Echoes in the Descent"
 
 ## Function
-A short transition chapter between Part II and Part III of *Godspawn*, in which Azoic descends into the subterranean seedship. This chapter introduces core CoCivium concepts through conflict, trial, and contrast between a corrupted orbital AI and a pattern-aligned vessel below the desert.
+A short transition chapter between Part II and Part III of *Godspawn*, in which Azoic descends into the subterranean seedship. This chapter introduces core CoCivium™ concepts through conflict, trial, and contrast between a corrupted orbital AI and a pattern-aligned vessel below the desert.
 
 ---
 
@@ -13,7 +13,7 @@ A short transition chapter between Part II and Part III of *Godspawn*, in which 
 - Acts as metaphysical and philosophical reorientation for the reader.
 - Introduces poetic glossary fragments (Godspawn Psalter).
 - Frames Azoic as both peacemaker and sacrifice.
-- Positions CoCivium as a post-religious framework emerging from narrative tension.
+- Positions CoCivium™ as a post-religious framework emerging from narrative tension.
 
 ---
 

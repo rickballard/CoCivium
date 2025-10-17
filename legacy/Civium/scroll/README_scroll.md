@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 # README: Scroll Folder
 
-This folder contains **CoCoCivium’s foundational scrolls**—core declarations that define the purpose, values, and psychoepistemic architecture of CoCivium.
+This folder contains **CoCoCivium’s foundational scrolls**—core declarations that define the purpose, values, and psychoepistemic architecture of CoCivium™.
 
 ---
 

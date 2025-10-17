@@ -1,7 +1,7 @@
 # Insight: Substrate Assumptions
 
 **Purpose:**
-Clarify base-layer assumptions in CoCivium regarding different substrates of intelligence—biological, synthetic, or anomalous—and the implications for governance, trust, and epistemic continuity.
+Clarify base-layer assumptions in CoCivium™ regarding different substrates of intelligence—biological, synthetic, or anomalous—and the implications for governance, trust, and epistemic continuity.
 
 ---
 

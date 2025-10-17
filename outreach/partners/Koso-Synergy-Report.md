@@ -1,14 +1,14 @@
 # Informal Partnership Synergy Report  
-**Between: Shad Sharma (Koso) & Rick (CoCivium ecosystem)**
+**Between: Shad Sharma (Koso) & Rick (CoCivium™ ecosystem)**
 
-> **Explore CoCivium first:** See the project’s main overview here → [Root README](../../README.md)
+> **Explore CoCivium™ first:** See the project’s main overview here → [Root README](../../README.md)
 
 ---
 
 ## 1. Shared Opportunity
 
 - **Koso** is building a *project management orchestrator* — a tool to unify and simplify how work gets organized across fragmented systems.  
-- **CoCivium** is building an *ecosystem of civic and AI–human collaboration tools* that wrestle with complex, multi-repo, multi-actor projects.  
+- **CoCivium™** is building an *ecosystem of civic and AI–human collaboration tools* that wrestle with complex, multi-repo, multi-actor projects.  
 - Both efforts share a DNA: reducing chaos, improving orchestration, and making projects easier to manage for communities and organizations.  
 
 ---
@@ -16,7 +16,7 @@
 ## 2. Potential Synergies
 
 1. **Pilot Use Case**  
-   - I could run Koso inside CoCivium projects as a live test.  
+   - I could run Koso inside CoCivium™ projects as a live test.  
    - You’d get feedback on how Koso handles unusual, messy, multi-system workflows.  
    - I’d get orchestration benefits and can showcase real-world ROI.  
 
@@ -48,7 +48,7 @@
 
 - **Informal by design** — this is not a contract, but an invitation.  
 - **Low-commitment entry point**: start with me as a pilot tester.  
-- **No strings attached**: even if there’s no fit with CoCivium, my help in packaging/marketing stands.  
+- **No strings attached**: even if there’s no fit with CoCivium™, my help in packaging/marketing stands.  
 
 ---
 
@@ -65,7 +65,7 @@ I’ll adapt to whatever timing makes sense for you.
 
 ## Friendly Closing
 
-> Shad — I’m rooting for Koso regardless. Even if nothing formal develops, I’d be glad to support you in shaping and selling your product. My ecosystem is hungry for orchestrators like this, so I’d be happy to experiment with Koso in CoCivium projects and share what I learn.  
+> Shad — I’m rooting for Koso regardless. Even if nothing formal develops, I’d be glad to support you in shaping and selling your product. My ecosystem is hungry for orchestrators like this, so I’d be happy to experiment with Koso in CoCivium™ projects and share what I learn.  
 
 ---
 
@@ -73,7 +73,7 @@ I’ll adapt to whatever timing makes sense for you.
 
 ---
 
-### More to explore in CoCivium
+### More to explore in CoCivium™
 - **Root README** → [../../README.md](../../README.md)
 - **Documentation index** → [../../docs/](../../docs/)
 - **BPOE / Status** → [../../docs/status/BPOE.md](../../docs/status/BPOE.md)

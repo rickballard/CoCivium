@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Who Is Paying For CoCivium?
+# Who Is Paying For CoCivium™?
 
 **Characters:** Tariq (Skeptical Donor), Livia (Public Value Theorist)
 

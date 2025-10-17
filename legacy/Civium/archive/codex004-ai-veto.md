@@ -16,7 +16,7 @@ metadata:
 
 # Codex004: AI Veto Protocol
 
-Defines when and how [[CoCivium]]'s AI agents can prevent or delay harmful decisions by issuing soft or hard vetoes.
+Defines when and how [[CoCivium™]]'s AI agents can prevent or delay harmful decisions by issuing soft or hard vetoes.
 
 ---
 

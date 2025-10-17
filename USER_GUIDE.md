@@ -1,4 +1,4 @@
-# CoCivium User Guide (v1 — Complete Draft)
+# CoCivium™ User Guide (v1 — Complete Draft)
 
 **Purpose.** Give newcomers a fast, accurate on-ramp and give contributors/stewards a single source of truth for how to engage.  Two spaces after periods.  US spelling (UK only for Dogs n Homes).  CLI-first for builders on Windows PowerShell 7.  Everything traceable via issues/PRs/commits.  HumanGate on by default.
 
@@ -34,7 +34,7 @@
 
 ## 0) Choose-Your-Path Landing
 **Audience tiles.**
-- **Citizen / Curious** — What is CoCivium and why it matters.
+- **Citizen / Curious** — What is CoCivium™ and why it matters.
 - **Contributor / Builder** — Ship a tiny improvement in 15 minutes.
 - **Steward / Operator** — Run the project safely (reviews, releases, rollbacks).
 - **Educator / Parent** — Use our free ethics/game content with kids.
@@ -52,11 +52,11 @@
 ---
 
 ## 1) Start Here (overview)
-**The idea in one minute.** Democracies are running twenty-first-century societies with nineteenth-century operating systems.  CoCivium is an open, consent-first civic stack that helps communities propose, debate, and adopt better decisions — with transparent trails, reversible changes, and lightweight reputation.  It is free, open source, and built to be co-evolved by humans and AIs.
+**The idea in one minute.** Democracies are running twenty-first-century societies with nineteenth-century operating systems.  CoCivium™ is an open, consent-first civic stack that helps communities propose, debate, and adopt better decisions — with transparent trails, reversible changes, and lightweight reputation.  It is free, open source, and built to be co-evolved by humans and AIs.
 
-**What CoCivium is.** A living library of patterns, docs, and small tools (CoModules) for consentful governance.  A place to practice rapid, safe civic iteration.  A neutral, non-commercial commons.
+**What CoCivium™ is.** A living library of patterns, docs, and small tools (CoModules) for consentful governance.  A place to practice rapid, safe civic iteration.  A neutral, non-commercial commons.
 
-**What CoCivium is not.** A political party.  A surveillance system.  A token-pump.  A substitute for local law.  We augment institutions; we do not bypass them.
+**What CoCivium™ is not.** A political party.  A surveillance system.  A token-pump.  A substitute for local law.  We augment institutions; we do not bypass them.
 
 **What exists today.** A canonical root README, a CC draft, early CoModules (CoAgent Kit, Repo Accelerator, CoCache, GIBindex), and initial workflows (HumanGate, squash-merge, decision trails).  Demos are simple but real.  More is coming.
 
@@ -72,7 +72,7 @@
 Each track uses the same scaffold: **At-a-glance → Why it matters → DO → VERIFY → Next actions → FAQ.**
 
 ### 2A) Citizen / Curious
-**At-a-glance.** Learn what CoCivium is and preview a demo in five minutes.
+**At-a-glance.** Learn what CoCivium™ is and preview a demo in five minutes.
 
 **Why it matters.** Better civic decisions depend on informed, voluntary participation.  You are the heartbeat of legitimacy.
 
@@ -82,7 +82,7 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 3. Watch a 60-second demo clip.
 4. Star the repo or drop a 👍 on a proposal.
 
-**VERIFY.** You can explain CoCivium in one paragraph to a friend.
+**VERIFY.** You can explain CoCivium™ in one paragraph to a friend.
 
 **Next actions.** Respond to an open question in Discussions.  Share a link with someone who cares about governance.
 

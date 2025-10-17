@@ -16,7 +16,7 @@ metadata:
 
 # Codex008: [[Redress]] & Reversibility
 
-Specifies how [[CoCivium]] handles mistakes, unfairness, or harm caused by system actions or consensus outcomes. Includes error audits, reversal protocols, and user-triggered appeals.
+Specifies how [[CoCivium™]] handles mistakes, unfairness, or harm caused by system actions or consensus outcomes. Includes error audits, reversal protocols, and user-triggered appeals.
 
 ---
 

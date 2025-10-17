@@ -1,4 +1,4 @@
-# CoCivium — Master Backlog & Operating Plan
+# CoCivium™ — Master Backlog & Operating Plan
 _Date: 2025-08-14 • Owner: @rickballard • Source of truth for work planning_
 
 This backlog replaces scattered TODOs/notes as we converge. New work should be added here (and linked to issues/PRs).
@@ -63,7 +63,7 @@ This backlog replaces scattered TODOs/notes as we converge. New work should be a
 ---
 
 ## Wiki Backlog (initial pages)
-- [ ] **Home**: what CoCivium is; link to Vision + Consenti; 5-step “how to contribute”.
+- [ ] **Home**: what CoCivium™ is; link to Vision + Consenti; 5-step “how to contribute”.
 - [ ] **Getting Started**: repo layout; “promote → canonicalize → delete draft” pipeline.
 - [ ] **Decision Flow**: consent, when to vote, objection standard, timers/defaults.
 - [ ] **Roles**: Contributor • Steward • Resolver • Auditor (time-boxed, recallable).
@@ -143,7 +143,7 @@ Each brief ends with: **Experiments we’ll run** + **How we’ll measure**.
 
 ---
 
-## Cross-repo consolidation (CoCivium / CoCache / GIBindex)
+## Cross-repo consolidation (CoCivium™ / CoCache / GIBindex)
 - [ ] `notes/cross-repo-index.md`: what to migrate vs archive.
 - [ ] Open issues in those repos marking artifacts **migrated** with links back.
 - [ ] Pull high-signal docs into `insights/` or `docs/` with provenance.

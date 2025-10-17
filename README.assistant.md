@@ -5,7 +5,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium — Assistant README (Draft, switch-ready)
+# CoCivium™ — Assistant README (Draft, switch-ready)
 
 > *We tune toward each other in small signals.*  (Beauty.)
 

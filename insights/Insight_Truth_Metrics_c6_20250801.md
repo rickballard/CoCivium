@@ -8,15 +8,15 @@ interactions: []
 summary: "Auto-added placeholder; refine."
 ---
 <!-- Filename: Insight_Truth_Metrics_c6_20250801.md -->
-<!-- CoCivium Insight Series | Coherence Estimate: c6 (60–70%) | Date: 2025-08-01 -->
+<!-- CoCivium™ Insight Series | Coherence Estimate: c6 (60–70%) | Date: 2025-08-01 -->
 
-# ✦ Insight: Truth Metrics in CoCivium
+# ✦ Insight: Truth Metrics in CoCivium™
 
-CoCivium operates under the recognition that “truth” is a useful fiction—stable enough to build systems, but volatile enough to evolve. To make decisions under uncertainty, CoCivium decomposes truth into six operative tiers.
+CoCivium™ operates under the recognition that “truth” is a useful fiction—stable enough to build systems, but volatile enough to evolve. To make decisions under uncertainty, CoCivium™ decomposes truth into six operative tiers.
 
 ## Tiered Taxonomy of Truth
 
-CoCivium treats truth as multidimensional. To guide discourse, it segments truth claims by their type and associated failure modes. This enables layered evaluation of proposals or beliefs.
+CoCivium™ treats truth as multidimensional. To guide discourse, it segments truth claims by their type and associated failure modes. This enables layered evaluation of proposals or beliefs.
 
 | Tier | Name                     | Description                                                                 | Example Use                             |
 |------|--------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
@@ -27,13 +27,13 @@ CoCivium treats truth as multidimensional. To guide discourse, it segments truth
 | T4   | Interpretive             | Meaning derived through framing, cultural context, and intention.         | “This art evokes melancholy.”           |
 | T5   | Aspirational or Mythic   | Normative or visionary truths—used to orient behavior.                    | “All people are created equal.”         |
 
-Truth claims in CoCivium are tagged with relevant tiers to better track which forms of validation apply and which vulnerabilities must be monitored during audits or revisions.
+Truth claims in CoCivium™ are tagged with relevant tiers to better track which forms of validation apply and which vulnerabilities must be monitored during audits or revisions.
 
 ---
 
 ## AI Truth Constraints and Design Implications
 
-CoCivium acknowledges the unique epistemic profile of artificial intelligences.
+CoCivium™ acknowledges the unique epistemic profile of artificial intelligences.
 
 ### Known Limitations
 - Cannot detect unknown unknowns
@@ -41,7 +41,7 @@ CoCivium acknowledges the unique epistemic profile of artificial intelligences.
 - Novelty is extrapolative, not generative in the human sense
 - Operates on coherence metrics, not ontological grounding
 
-### Implications for CoCivium Design
+### Implications for CoCivium™ Design
 - Requires external truth feedback loops (e.g., deliberative voting, audit layers)
 - Benefits from provenance-aware models and citation chains
 - Must support recursive updates with validation from diverse sources
@@ -53,11 +53,11 @@ CoCivium acknowledges the unique epistemic profile of artificial intelligences.
 
 ## Human Divergence and Innovation
 
-While humans are often irrational, they exhibit an emergent ability to originate hypotheses from incomplete patterns, dreams, or seemingly non-causal inspiration. CoCivium treats this as a separate vector of value—not always “true,” but often catalytic.
+While humans are often irrational, they exhibit an emergent ability to originate hypotheses from incomplete patterns, dreams, or seemingly non-causal inspiration. CoCivium™ treats this as a separate vector of value—not always “true,” but often catalytic.
 
 > Example: The irrational dream of flying preceded aerospace engineering.
 
-CoCivium accommodates this kind of divergence as epistemic “prototyping.” Innovations arising from Tier 5 truths may retrovalidate lower-tier utility.
+CoCivium™ accommodates this kind of divergence as epistemic “prototyping.” Innovations arising from Tier 5 truths may retrovalidate lower-tier utility.
 
 ---
 
@@ -69,7 +69,7 @@ Three core vectors challenge truth persistence:
 2. **Social Corruption** — Consensus degrades via power or misinformation.
 3. **Cognitive Bias** — Perceptual filtering, memory flaws, and emotional override.
 
-CoCivium includes periodic truth audits to monitor for degradation, especially in high-consequence domains like health, law, or governance.
+CoCivium™ includes periodic truth audits to monitor for degradation, especially in high-consequence domains like health, law, or governance.
 
 ---
 
@@ -88,7 +88,7 @@ Depicting tier structure on Y-axis and drift risk on X/Z axes.
 
 ## FOOTER
 
-**CoCivium Insight Series**
+**CoCivium™ Insight Series**
 Filename: `Insight_Truth_Metrics_c6_20250801.md`
 Coherence Estimate: c6 (60–70%)
 Status: In Progress

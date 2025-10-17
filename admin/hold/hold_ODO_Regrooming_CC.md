@@ -43,7 +43,7 @@
    - Absence of commons logic or non-monetary value mechanics
 
 8. **Time as Dimension**
-   - No mention of CoCivium's rhythms, check-ins, decay-regrowth cycles
+   - No mention of CoCivium™'s rhythms, check-ins, decay-regrowth cycles
 
 9. **Inherence / Self-Binding for AI**
    - Needs framing of AI ethical root (beyond vow; toward pattern-inherence)

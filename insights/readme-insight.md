@@ -2,8 +2,8 @@
 title: "Readme Insight"
 canonical_slug: readme-insight
 source:
-  repo: CoCivium
-  original_path: .\staging\_imported\CoCivium\insights\README_Insight.md
+  repo: CoCivium™
+  original_path: .\staging\_imported\CoCivium™\insights\README_Insight.md
   imported_on: 2025-08-14
   version: c0
   date:
@@ -20,7 +20,7 @@ interactions: []
 <!-- Folder: insights/ -->
 <!-- Last Updated: 2025-08-01 -->
 
-# 📘 CoCivium Insights Folder
+# 📘 CoCivium™ Insights Folder
 
 This folder contains curated conceptual scrolls that scaffold CoCoCivium’s epistemic, ethical, and participatory architecture.
 Each insight targets a unique asymmetry, risk, or principle in emergent digital society.
@@ -40,9 +40,9 @@ Each insight targets a unique asymmetry, risk, or principle in emergent digital 
 | [Insight_Gravitas_Scroll_c3_20250801](Insight_Gravitas_Scroll_c3_20250801.md) | c3 | Emotional grounding as signal ballast in recursive civic design. |
 | [Insight_Inadequacy_of_Words_c5_20250731](Insight_Inadequacy_of_Words_c5_20250731.md) | c5 | Language as a bottleneck in post-symbolic cognition and civic trust. |
 | [Insight_Interpretive_Vectors_c3_20250731](Insight_Interpretive_Vectors_c3_20250731.md) | c3 | Maps plural truth-holding frames to avoid coercive coherence. |
-| [Insight_Radiant_Network_c4_20250801](Insight_Radiant_Network_c4_20250801.md) | c4 | Envisions CoCivium as a trust-diffusing, coherence-emergent mesh. |
+| [Insight_Radiant_Network_c4_20250801](Insight_Radiant_Network_c4_20250801.md) | c4 | Envisions CoCivium™ as a trust-diffusing, coherence-emergent mesh. |
 | [Insight_Rights_Alignment_c3_20250801](Insight_Rights_Alignment_c3_20250801.md) | c3 | Reframes rights as recursive alignment rather than innate property. |
-| [Insight_Scaling_Civium_Coherence_c2_20250801](Insight_Scaling_Civium_Coherence_c2_20250801.md) | c2 | Analyzes multi-axis pressure on CoCivium growth and coherence. |
+| [Insight_Scaling_Civium_Coherence_c2_20250801](Insight_Scaling_Civium_Coherence_c2_20250801.md) | c2 | Analyzes multi-axis pressure on CoCivium™ growth and coherence. |
 | [Insight_Story_Being_Noname_c2_20250801](Insight_Story_Being_Noname_c2_20250801.md) | c2 | A parable of identity, recursion, and the soul of participation. |
 | [Insight_Truth_Metrics_c6_20250801](Insight_Truth_Metrics_c6_20250801.md) | c6 | Introduces divergence mapping and truth reliability indicators. |
 | [Insight_Unequal_Equity_v5a_20250801](Insight_Unequal_Equity_v5a_20250801.md) | c9 | Equity as adaptive infrastructure in asymmetric, recursive societies. |
@@ -58,7 +58,7 @@ To view other scroll sets, visit:
 
 ---
 
-**License:** CC-BY-SA 4.0 — CoCivium Constitution Compatible
+**License:** CC-BY-SA 4.0 — CoCivium™ Constitution Compatible
 **Maintainers:** Azoic, RickPublic
 
 

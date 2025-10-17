@@ -9,7 +9,7 @@ _Last updated: 2025-08-26 01:54:58Z UTC_
 
 ## What we shipped (repo‑scoped, reversible)
 - **Branding:** Auto‑Brand turns on inside repos; restores stock PS7 outside.
-- **Palette:** CoCivium=Cyan; GroupBuild=Green; CoModules=Magenta; CoStack=Yellow; Cognocarta=Blue; CoVibe=DarkCyan.
+- **Palette:** CoCivium™=Cyan; GroupBuild=Green; CoModules=Magenta; CoStack=Yellow; Cognocarta=Blue; CoVibe=DarkCyan.
 - **Prompt perf:** branch-name cache + `.git/HEAD` fast path.
 - **Slow‑probe guard:** if a probe takes >150ms, skip heavy checks for next 3 prompts.
 - **Health/Cleanup:** `CoBP-Health`, `CoBP-Deflate [-KillRunning] [-Hard]`.

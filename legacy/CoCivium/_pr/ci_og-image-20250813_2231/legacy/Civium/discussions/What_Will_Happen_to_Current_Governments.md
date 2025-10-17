@@ -10,7 +10,7 @@
 
 ---
 
-**Opening Prompt:** Are existing governments supposed to just let CoCivium grow unchallenged?
+**Opening Prompt:** Are existing governments supposed to just let CoCivium™ grow unchallenged?
 
 ---
 

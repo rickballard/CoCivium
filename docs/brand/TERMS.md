@@ -7,7 +7,7 @@
 - Antonym: **coercitude** (power without consent).
 - Related: civic virtue, pro-social agency, pluralism.
 
-## CoCivium Spirit
+## CoCivium™ Spirit
 A shorthand for the shared ethos behind civitude, focusing contributors on service, dignity, and antifragile collaboration across borders and agents.
 
 

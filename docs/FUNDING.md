@@ -3,9 +3,9 @@
 
 ## Current status
 - **Temporary:** The GitHub *Sponsor* button points to **DogsnHomes** (family charity).
-  Gifts there support **DogsnHomes’ charitable work**, **not** CoCivium operations.
+  Gifts there support **DogsnHomes’ charitable work**, **not** CoCivium™ operations.
 - **Planned:** We’re setting up **Open Collective (cocivium)** as the canonical, transparent,
-  **no-strings-attached** funding rail for CoCivium.
+  **no-strings-attached** funding rail for CoCivium™.
 
 ## No-strings policy
 - Support does **not** buy editorial control, roadmap control, governance power, or privileged access.

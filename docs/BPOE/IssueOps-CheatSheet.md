@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium IssueOps Cheat Sheet (v0)
+# CoCivium™ IssueOps Cheat Sheet (v0)
 
 > **Above the fold — quick triggers (type these in chat)**
 >

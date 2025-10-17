@@ -1,4 +1,4 @@
-# What Does CoCivium Look Like Day One?
+# What Does CoCivium™ Look Like Day One?
 
 **Characters:**
 Naresh (a city planner, likes to imagine futures)

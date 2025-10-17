@@ -9,7 +9,7 @@ Title candidates:
    - Contrast “care-by-analogy” with “care-under-law-and-consent.”
 
 2) Thesis (100–150 words)
-   - CoCivium is a consent-first governance scaffold.  It complements safety work by making agency non-negotiable.
+   - CoCivium™ is a consent-first governance scaffold.  It complements safety work by making agency non-negotiable.
    - Offer a concrete call to action: review, comment, and co-sign the charter.
 
 3) The Influencer Landscape (network map)

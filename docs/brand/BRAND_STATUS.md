@@ -2,7 +2,7 @@
 # Brand Status (living log)
 | Mark        | Status     | Classes | Geography | First use | Notes |
 |-------------|------------|---------|-----------|-----------|-------|
-| CoCivium    | plan: file | 9,42    | US (base) |           | Master brand |
+| CoCivium™    | plan: file | 9,42    | US (base) |           | Master brand |
 | CoVibe      | plan: file | 9,42    | US (base) |           | Workflow kit |
 | CoPingPong  | watch      | 9,42    |           |           | Workflow loop |
 | CoChat      | watch/file?| 9,42    |           |           | Chat lane |

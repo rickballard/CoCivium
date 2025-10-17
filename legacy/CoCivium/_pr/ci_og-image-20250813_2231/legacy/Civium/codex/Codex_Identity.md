@@ -11,7 +11,7 @@ It is a mutable stack of claims, functions, and relational anchors across contex
 
 ## I. CoCoCivium's Identity Layer
 
-In CoCivium, Identity is:
+In CoCivium™, Identity is:
 
 - **Function-tagged**, not ego-assumed
 - **Pseudonymity-protected**, but accountable

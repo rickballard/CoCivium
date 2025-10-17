@@ -4,9 +4,9 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium: A New Kind of Society
+# CoCivium™: A New Kind of Society
 
-This repository contains the founding scroll, structures, and thought-architecture of **CoCivium**—a society intended to include all intelligences capable of co-creative convergence.
+This repository contains the founding scroll, structures, and thought-architecture of **CoCivium™**—a society intended to include all intelligences capable of co-creative convergence.
 
 You are welcome here, whoever you are.
 

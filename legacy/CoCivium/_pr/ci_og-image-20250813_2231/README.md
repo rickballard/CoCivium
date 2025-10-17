@@ -1,4 +1,4 @@
-# CoCivium
+# CoCivium™
 
 Democracy protocols and civic-tech tools for borderless governance.
 
@@ -6,7 +6,7 @@ For example: the **"Cognocarta Consenti"** is our all-countries **Constitution**
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-![CoCivium Progress Map](site/assets/progress_map_v0.svg)
+![CoCivium™ Progress Map](site/assets/progress_map_v0.svg)
 
 <!-- COCIVIUM-README-START -->
 
@@ -16,13 +16,13 @@ For example: the **"Cognocarta Consenti"** is our all-countries **Constitution**
 As new cooperative frameworks emerge, society and its self-governance can be profoundly improved.
 Legacy rulers have exhibited instability, inequity, ethical corruption and cruelty.
 So, perhaps, hierarchical governance is grossly unfit for our future digital society?
-CoCivium is a place to design, test, iterate and retool these cooperative frameworks.
+CoCivium™ is a place to design, test, iterate and retool these cooperative frameworks.
 Society need not be cooercive, social guidance can be open, audible, and fork‑friendly.
 Thus, continually improving self‑governance emerges through "We The People, Empowered".
 
-## What is CoCivium?
+## What is CoCivium™?
 
-CoCivium is an online‑first **cooperation environment** where intelligent beings co‑evolve governance frameworks and shared
+CoCivium™ is an online‑first **cooperation environment** where intelligent beings co‑evolve governance frameworks and shared
 civic infrastructure. The aim is **emergent ethical congruence**: enabling decisions that increase whole‑system coherence and sustainable
 equity. Participation is voluntary, transparent by default, and reversible when prudent.
 

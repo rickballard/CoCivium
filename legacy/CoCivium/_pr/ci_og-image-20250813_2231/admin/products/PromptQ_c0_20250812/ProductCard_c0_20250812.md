@@ -1,5 +1,5 @@
 # PromptQ — Product Card (_c0_) — 2025-08-12
-**Status:** Parked (concept).  **Owner:** Rick.  **Repo:** CoCivium.  **Revisit by:** 2025-09-15.
+**Status:** Parked (concept).  **Owner:** Rick.  **Repo:** CoCivium™.  **Revisit by:** 2025-09-15.
 
 ## Elevator pitch
 A prompt queue + orchestration layer for distributed teams and multiple LLMs (ChatGPT, Claude, Gemini, local).  Coordinate concurrent sessions, routing, retry, and audit.

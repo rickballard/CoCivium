@@ -13,7 +13,7 @@ Tracks every file altered or regenerated.
 [✔] Voices_of_Alignment.md
 → New file
 → Footprint: ⊘
-→ Notes: Gallery of thinkers aligned with CoCivium principles
+→ Notes: Gallery of thinkers aligned with CoCivium™ principles
 
 [✔] Coherence_Track.md
 → New file

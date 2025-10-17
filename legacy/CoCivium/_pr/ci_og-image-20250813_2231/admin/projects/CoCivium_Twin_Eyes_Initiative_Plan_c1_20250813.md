@@ -1,8 +1,8 @@
-# CoCivium Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)
+# CoCivium™ Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)
 
 **Purpose.** Deliver a scope specification and twin spider‑web diagrams that convey process health (left eye) and scope progress (right eye).  Improve onboarding and outreach while keeping GitHub‑rendered fallbacks safe.
 
-**Lineage.** Derived from “CoCivium Initiatives Plan — Scope Specification & Twin‑Eyes Diagram” (2025‑08‑13).
+**Lineage.** Derived from “CoCivium™ Initiatives Plan — Scope Specification & Twin‑Eyes Diagram” (2025‑08‑13).
 
 **Maintainer.** Admin Council (HumanGate) until delegated to CoCivAI Circle.
 

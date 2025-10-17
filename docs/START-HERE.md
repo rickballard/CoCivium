@@ -1,7 +1,7 @@
 <!-- status: stub; target: 150+ words -->
 # START HERE — quick guide (not a stub)
 
-Welcome! This repo houses CoCivium's docs + ops.
+Welcome! This repo houses CoCivium™'s docs + ops.
 
 ## Pick a path
 - New here? Read the top of **README.md** for the 1-minute “what/why”.

@@ -2,7 +2,7 @@
 title: "Domain Brief: Finance & Budgeting"
 canonical_slug: domain-finance-budgeting
 source:
-  repo: CoCivium
+  repo: CoCivium™
   original_path: ./domains/finance.md
   imported_on: 2025-08-14
   version: c1

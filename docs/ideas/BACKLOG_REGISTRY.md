@@ -1,4 +1,4 @@
-# CoCivium – Idea Backlog Registry (v1)
+# CoCivium™ – Idea Backlog Registry (v1)
 
 > Source: `IdeaCards_Retrospective.md` (9 canonical ideas). This registry captures nuance, justification, and a phased strategy so future-us can recognize intent quickly.
 
@@ -6,7 +6,7 @@
 Idea | I | C | E | Score
 ---|---:|---:|---:|---:
 Human Gating: targeted mobile notifications | 4 | 3 | 2 | 6.0
-Outreach: pitch CoCivium to GitHub; request upgrade & staff monitor | 3 | 3 | 2 | 4.5
+Outreach: pitch CoCivium™ to GitHub; request upgrade & staff monitor | 3 | 3 | 2 | 4.5
 Stable DO-block packaging & copy/paste UX | 4 | 4 | 2 | 8.0
 CoAgent Kit starter course + YouTube shorts | 4 | 3 | 3 | 4.0
 Developer Onramp & Tutorial (poetic lead-in) | 4 | 4 | 2 | 8.0
@@ -54,9 +54,9 @@ CoPong hard cap → temp-file ingestion | 4 | 4 | 1 | 16.0
 
 ---
 
-## Outreach: pitch CoCivium to GitHub; request upgrade & staff monitor
+## Outreach: pitch CoCivium™ to GitHub; request upgrade & staff monitor
 
-**One‑liner.** Position CoCivium as a public‑interest project; seek plan upgrade and a GitHub liaison.
+**One‑liner.** Position CoCivium™ as a public‑interest project; seek plan upgrade and a GitHub liaison.
 
 **Problem / Context.**
 - Limits on actions minutes / features could slow the project.
@@ -311,7 +311,7 @@ CoPong hard cap → temp-file ingestion | 4 | 4 | 1 | 16.0
 ---
 
 ## Pending Harvest (to grow this registry)
-- `docs/ideas/*.md` in CoCivium (including Two‑Minds links).
+- `docs/ideas/*.md` in CoCivium™ (including Two‑Minds links).
 - `admin/inbox/**` (use the Inbox Harvester; convert `.docx`/`.odt` to `.md`).
 - Open Discussions with label `idea` (if any).
 - PR descriptions & commit messages containing 'Idea:' or 'docs(ideas):'.

@@ -2,7 +2,7 @@
 
 <!-- Filename: TODO_REGEN_OVERVIEW_20250722.md -->
 
-# ✅ CoCivium TODO + REGEN OVERVIEW
+# ✅ CoCivium™ TODO + REGEN OVERVIEW
 *Compiled 2025-07-22 from all local TODO, scratchpad, and manifest files*
 
 ---

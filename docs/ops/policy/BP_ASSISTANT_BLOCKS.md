@@ -40,7 +40,7 @@ version: 0.4
 ## `???` Enter-trigger (session-only, product-gated)
 - Trigger fires only when the current line is **exactly** `???` (no spaces) and Enter is pressed.
 - **Session-only:** enabled/disabled by RepoAccelerator/CoAgent; no profile edits; auto “wash-away” on PS7 exit.
-- **Hard gate:** requires **(a)** env flag `REPOACCEL_ACTIVE=1` or `COAGENT_ACTIVE=1`, **and** **(b)** CoCivium sentinel in the repo (any of:
+- **Hard gate:** requires **(a)** env flag `REPOACCEL_ACTIVE=1` or `COAGENT_ACTIVE=1`, **and** **(b)** CoCivium™ sentinel in the repo (any of:
   - `docs/ops/policy/BP_ASSISTANT_BLOCKS.md`
   - `docs/ISSUEOPS.md`
   - `README.assistant.md`
@@ -58,7 +58,7 @@ version: 0.4
   - Call `Disable-CoPongTrigger` during product exit/cleanup.
   - Clear session gates: unset `REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`.
   - Do **not** write profile entries for `???` (session-only, wash-away on PS exit).
-- CoAgent extra guardrail: enable only when a CoCivium sentinel exists **or** repo has `.coagent-allow-copong`.
+- CoAgent extra guardrail: enable only when a CoCivium™ sentinel exists **or** repo has `.coagent-allow-copong`.
 
 - **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong - <SetName or (none)> @ <local time>` with a 1-paragraph summary and the next action.
 

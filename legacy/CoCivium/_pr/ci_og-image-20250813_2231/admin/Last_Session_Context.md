@@ -1,6 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Last Session Context — CoCivium
+# Last Session Context — CoCivium™
 
 **Date:** 2025-08-08
 **Purpose of session:** Repo bootstrap and admin file organization.

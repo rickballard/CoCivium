@@ -1,7 +1,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- Filename: MISSING_OR_STALLED_TASKS.md -->
 # 🧾 Probable Unfinished or Stalled Tasks
-_Repo: CoCivium Regen • Generated 2025-07-23_
+_Repo: CoCivium™ Regen • Generated 2025-07-23_
 
 This document lists all known incomplete, stalled, or not-yet-prioritized tasks discussed in prior REGEN planning sessions. Items are grouped by thematic area or project subsystem.
 
@@ -31,9 +31,9 @@ This document lists all known incomplete, stalled, or not-yet-prioritized tasks 
 - [ ] Create `/meta/NAVIGATION_INDEX.md` or `/README_FOR_HUMANS.md`
 - [ ] Include section summaries, coherence levels, wordcounts, tags
 
-## [6] 🏗️ CoCivium CONSTRUCTION MANUAL / CIVIC ONRAMP DOC
+## [6] 🏗️ CoCivium™ CONSTRUCTION MANUAL / CIVIC ONRAMP DOC
 - [ ] Begin `/academy/README_ONBOARDING_CoCivium.md`
-- [ ] Include steps for joining, building, and governing CoCivium
+- [ ] Include steps for joining, building, and governing CoCivium™
 
 ## [7] 🎓 ACADEMY FOLDER: RECOGNITION + RANKING
 - [ ] Scaffold `/academy/README.md`

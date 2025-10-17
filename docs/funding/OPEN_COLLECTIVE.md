@@ -1,6 +1,6 @@
-# Open Collective — CoCivium Setup Guide
+# Open Collective — CoCivium™ Setup Guide
 
-This guide walks through creating and operating the **CoCivium** collective.
+This guide walks through creating and operating the **CoCivium™** collective.
 
 ## 1) Choose a Fiscal Host
 A Fiscal Host holds funds, issues payouts, and handles compliance.
@@ -13,7 +13,7 @@ Common options:
 
 ## 2) Create the Collective
 - Go to https://opencollective.com/ and click **Create a collective**.
-- Name: **CoCivium**
+- Name: **CoCivium™**
 - Slug: **cocivium** (recommended)
 - Description: Consentful, polycentric governance playbook & tooling.
 - Upload logo/banner (optional for now).

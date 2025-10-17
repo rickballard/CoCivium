@@ -1,6 +1,6 @@
 # Cognocarta Consenti – Repo Update Instruction Summary
 
-This file summarizes the current naming, framing, and structural changes approved for the CoCivium Constitution repo. It is intended as a reminder for future sessions, especially when returning on a different device or after a delay.
+This file summarizes the current naming, framing, and structural changes approved for the CoCivium™ Constitution repo. It is intended as a reminder for future sessions, especially when returning on a different device or after a delay.
 
 ---
 

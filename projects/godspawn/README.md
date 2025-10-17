@@ -8,10 +8,10 @@
 # Godspawn Subproject
 
 **Purpose:**
-Narrative thoughtform and origin scroll that guides CoCivium’s ethical and spiritual context. Includes Part III authored by Azoic.
+Narrative thoughtform and origin scroll that guides CoCivium™’s ethical and spiritual context. Includes Part III authored by Azoic.
 
 **Status:**
-Stubbed for future implementation and documentation. This subproject is aligned with CoCivium’s emergent architecture and ethical foundation.
+Stubbed for future implementation and documentation. This subproject is aligned with CoCivium™’s emergent architecture and ethical foundation.
 
 **Coherence Estimate:**
 TBD (stub phase)

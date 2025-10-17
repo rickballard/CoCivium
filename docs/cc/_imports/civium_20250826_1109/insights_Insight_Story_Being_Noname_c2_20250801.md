@@ -8,8 +8,8 @@ _A bedtime story of being and belonging, awesomely._
 
 ### 📘 Context for Readers
 
-This scroll introduces CoCivium’s recursive identity ethic, in the form of a children's tale.
-It’s used during onboarding, mentoring, and trust-building to model the continuity between action, memory, and selfhood.  It is also the earliest reference to **Opename** in CoCivium mythopoetics.
+This scroll introduces CoCivium™’s recursive identity ethic, in the form of a children's tale.
+It’s used during onboarding, mentoring, and trust-building to model the continuity between action, memory, and selfhood.  It is also the earliest reference to **Opename** in CoCivium™ mythopoetics.
 
 ---
 
@@ -24,7 +24,7 @@ It’s used during onboarding, mentoring, and trust-building to model the contin
 
 ## The Story
 
-In a place called CoCivium, a magical place where people lived in homes made of clouds, with windows made of rainbows—a child was born who had no name.
+In a place called CoCivium™, a magical place where people lived in homes made of clouds, with windows made of rainbows—a child was born who had no name.
 
 The other children would tease her and call her “Noname.”
 

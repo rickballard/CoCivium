@@ -24,7 +24,7 @@
 
 ## BPOE Runtime Mandates (2025-09-12)
 
-- **CoTemps-first**: never paste long DO blocks; scripts live in 	ools/, thin wrappers live in %USERPROFILE%\CoTemps\CoCivium\.
+- **CoTemps-first**: never paste long DO blocks; scripts live in 	ools/, thin wrappers live in %USERPROFILE%\CoTemps\CoCivium™\.
 - **No blank waits**: all long ops must show a visible heartbeat (one dot/sec). Implemented via 	ools/heartbeat.ps1; used by admin helpers.
 - **Admin seeding**: gh pr merge --admin --squash, then hard-sync local to origin/main.
 - **Deterministic seed tags**: move tags with git tag -fa ... && git push -f origin <tag>; CI guards that tags are annotated and on origin/main.

@@ -1,4 +1,4 @@
-# CoCivium Progress Map (Spider Web) — Plan
+# CoCivium™ Progress Map (Spider Web) — Plan
 
 **Path:** `CoCivium/admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md`
 **Created:** 2025-08-10
@@ -11,7 +11,7 @@
 
 ## 1) Purpose
 
-Design an extensible **spider-web (radar) diagram** for **CoCivium.org** that visualizes repository progress across core metrics, maps major milestones to **concentric rings** (stages), and places **concept nodes** on the web.  The diagram must look organic (fungal network / starfield / neural-net motifs), be legible at a glance, and be architected for later **interactivity** and eventual **3D**.
+Design an extensible **spider-web (radar) diagram** for **CoCivium™.org** that visualizes repository progress across core metrics, maps major milestones to **concentric rings** (stages), and places **concept nodes** on the web.  The diagram must look organic (fungal network / starfield / neural-net motifs), be legible at a glance, and be architected for later **interactivity** and eventual **3D**.
 
 ---
 
@@ -134,7 +134,7 @@ Place **ring labels** subtly on the north arc.  Show the **current stage** as a 
 
 - **Color:** monochrome base, automatic accent derived from CI (higher CI → warmer accent).  Accessibility first.
 
-- **Deliverable:** static asset embedded on CoCivium.org landing page.
+- **Deliverable:** static asset embedded on CoCivium™.org landing page.
 
 ### Phase B — Interactive 2D (SVG/D3, React + Tailwind)
 

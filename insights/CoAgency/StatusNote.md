@@ -10,7 +10,7 @@ summary: "Auto-added placeholder; refine."
 [STATUS NOTE]
 
 Session: CoAgency InSights Build
-State:   Complete (successfully installed + pushed to CoCivium repo)
+State:   Complete (successfully installed + pushed to CoCivium™ repo)
 
 Deliverables:
 - Theory doc (CoAgency-Theory.md)
@@ -20,7 +20,7 @@ Deliverables:
 - PowerShell DO installer (run.ps1)
 
 Commit: InSights: Seed CoAgency (theory, implementation, visuals, GIBindex terms)
-Repo:   CoCivium (insights/CoAgency/)
+Repo:   CoCivium™ (insights/CoAgency/)
 
 Next Action:
 - None (session closed). Future: extend with recognition white paper + standards body engagement.

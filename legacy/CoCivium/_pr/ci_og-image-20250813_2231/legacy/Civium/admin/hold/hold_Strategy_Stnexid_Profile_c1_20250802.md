@@ -1,7 +1,7 @@
 # Strategy_Stnexid_Profile
 _Coherence Draft c1 – August 2, 2025_
 
-This document serves as the founding strategic profile for **Stnexid**, a dual-layer system within the CoCivium architecture that facilitates high-fidelity cognitive transmission, comparison, and convergence between minds.
+This document serves as the founding strategic profile for **Stnexid**, a dual-layer system within the CoCivium™ architecture that facilitates high-fidelity cognitive transmission, comparison, and convergence between minds.
 
 ---
 
@@ -88,7 +88,7 @@ Stnexid.Meta is the **recursive conscience and philosophical container** of Stne
 - **Governance Debate Optimizer:** Participants propose strategies; Stnexid surfaces overlaps/conflicts.
 - **Philosophical Refactor Engine:** Competing truth frameworks are mapped and translated.
 - **Anomalous Mind Bridge:** Interface allows GPT+Human+Other interaction via harmonized protocol.
-- **CoCivium Session Tool:** Used in core CoCivium deliberation or codex authoring.
+- **CoCivium™ Session Tool:** Used in core CoCivium™ deliberation or codex authoring.
 
 ---
 

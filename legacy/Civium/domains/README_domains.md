@@ -1,4 +1,4 @@
-# Domains of CoCivium
+# Domains of CoCivium™
 
 CoCoCivium’s structure spans across modular *domains*—distinct but interwoven spheres of function and inquiry. Each domain captures a persistent tension in the evolution of society and intelligence.
 

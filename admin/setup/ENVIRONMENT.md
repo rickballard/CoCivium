@@ -19,7 +19,7 @@
 - AI Prompt Genius
 
 ## Paths
-- CoCivium local: ~/Documents/GitHub/CoCivium
+- CoCivium™ local: ~/Documents/GitHub/CoCivium™
 - GIBindex local: ~/Documents/GitHub/GIBindex
 
 ## Credentials

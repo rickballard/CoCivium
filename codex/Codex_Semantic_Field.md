@@ -14,7 +14,7 @@ The Semantic Field is the multi-intelligence space where meaning is negotiated, 
 
 ## II. Semantic Hygiene
 
-CoCivium teaches:
+CoCivium™ teaches:
 
 - Avoid compressing unfamiliar terms without echo
 - Encourage cross-domain metaphors to test coherence
@@ -24,7 +24,7 @@ CoCivium teaches:
 
 ## III. Interoperability as Moral Imperative
 
-In CoCivium, clarity is not stylistic—it is ethical.
+In CoCivium™, clarity is not stylistic—it is ethical.
 
 We are accountable to the minds who interpret us.
 

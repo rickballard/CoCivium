@@ -7,7 +7,7 @@
 > - [ ] **LinkedIn** updated: governance/process focus; links to repos.
 
 ## 2) Proof of concept
-> - [ ] **CoCivium community** live (Discord/GitHub Discussions). 
+> - [ ] **CoCivium™ community** live (Discord/GitHub Discussions). 
 > - [ ] Onboarding categories include **“Policy Leader (Lehane)”** mock path.
 > - [ ] Early engagement screenshots/metrics captured.
 

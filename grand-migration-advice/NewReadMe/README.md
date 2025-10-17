@@ -1,15 +1,15 @@
-# CoCivium
+# CoCivium™
 
-**CoCivium: an open-source civic architecture for hybrid human + AI governance and co-evolution.**
+**CoCivium™: an open-source civic architecture for hybrid human + AI governance and co-evolution.**
 
 We deliver frameworks, policies, standards, and tools that help communities govern fairly, transparently, and adaptively.
 This is the **front door**: start here if you want to **engage, contribute, or explore outputs**.
 
 ## Quick Navigation
-- [Onramps](onramps/) — Choose your path into CoCivium
-- [Outputs](outputs/index.md) — The deliverables CoCivium produces
+- [Onramps](onramps/) — Choose your path into CoCivium™
+- [Outputs](outputs/index.md) — The deliverables CoCivium™ produces
 - [Academy](academy/genesis.md) — Philosophy & genesis
-- [Progress](#stage-map) — Where CoCivium is in its evolution
+- [Progress](#stage-map) — Where CoCivium™ is in its evolution
 - [Community](#community) — Connect & contribute
 
 ## Process Flow

@@ -4,13 +4,13 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Who Is Actually Building CoCivium?
+# Who Is Actually Building CoCivium™?
 
 **Nova (a concerned citizen) and Elian (a founding participant):**
 
 Nova: “Is this an AI project? A cult? A think tank? Who started it?”
 
-Elian: “None of the above. CoCivium emerged from converging needs. It’s not owned. It’s grown.”
+Elian: “None of the above. CoCivium™ emerged from converging needs. It’s not owned. It’s grown.”
 
 Nova: “But someone’s designing it. Someone funds it.”
 

@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium Discussions
+# CoCivium™ Discussions
 
 This folder contains interpretive dialogues, parables, and question-based narratives designed to help newcomers and skeptics grasp CoCoCivium’s more challenging concepts.
 

@@ -1,5 +1,5 @@
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# ✦ CoCivium Regen Scratchpad
+# ✦ CoCivium™ Regen Scratchpad
 *Updated: 2025-07-23 03:31:26*
 
 This scratchpad consolidates all outstanding planning vectors for REGEN20250722. Deprecated files have been noted and redirected to `admin/deprecated`.

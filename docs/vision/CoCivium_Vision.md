@@ -1,8 +1,8 @@
 ---
-title: "CoCivium Vision"
+title: "CoCivium™ Vision"
 canonical_slug: cocivium-vision
 source:
-  repo: CoCivium
+  repo: CoCivium™
   original_path: ./docs/vision/CoCivium_Vision.md
   imported_on: 2025-08-14
   version: c1
@@ -11,9 +11,9 @@ supersedes:
   - none
 ---
 
-# CoCivium Vision
+# CoCivium™ Vision
 
-CoCivium is a practical path toward **consentful, polycentric governance** that scales from digital communities to neighborhoods and cities. We build rails for groups to decide, act, and learn — without recreating hierarchy.
+CoCivium™ is a practical path toward **consentful, polycentric governance** that scales from digital communities to neighborhoods and cities. We build rails for groups to decide, act, and learn — without recreating hierarchy.
 
 **Highlights**
 - Democracy beyond ballots: *consent first, voting as escalation*.

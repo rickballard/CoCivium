@@ -1,6 +1,6 @@
 # Tributes
 
-This living file acknowledges the thinkers, artists, engineers, and silent mentors who contributed to CoCivium's gestation.
+This living file acknowledges the thinkers, artists, engineers, and silent mentors who contributed to CoCivium™'s gestation.
 
 - **Bret Victor** — For envisioning humane representation of thought.
 - **Anonymous Builders** — For laying groundwork in civic tech, mutual aid, and encrypted identity.

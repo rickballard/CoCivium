@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium — BPOE & Workflow (Keeper Doc)
+# CoCivium™ — BPOE & Workflow (Keeper Doc)
 
 This doc is the **single source of truth** for our “Best Path of Execution (BPOE)”, workflow guardrails, and error‑avoidance playbook. Keep it updated whenever the process evolves. New contributors should read this first.
 

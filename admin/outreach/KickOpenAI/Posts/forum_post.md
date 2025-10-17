@@ -1,7 +1,7 @@
 <!-- status: stub; target: 150+ words -->
-# Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks
+# Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium™) — appendix with repro & asks
 
-**Summary.** We use ChatGPT Plus daily to build CoCivium (public‑interest governance tooling).  We’ve hit recurring workflow blockers that materially slow repo grooming, document production, and long‑running sessions.  We’ve documented **repro steps, impact, and acceptance tests** in the attached appendix.  Requesting an internal escalation and visible next steps.
+**Summary.** We use ChatGPT Plus daily to build CoCivium™ (public‑interest governance tooling).  We’ve hit recurring workflow blockers that materially slow repo grooming, document production, and long‑running sessions.  We’ve documented **repro steps, impact, and acceptance tests** in the attached appendix.  Requesting an internal escalation and visible next steps.
 
 **Top blockers (short list).**
 1) Help Center widget intermittently missing — need a guaranteed fallback to file tickets.

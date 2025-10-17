@@ -3,9 +3,9 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-Title: Request: ChatGPT workflow improvements for heavy repo/document users (CoCivium) — appendix with repro & acceptance tests
+Title: Request: ChatGPT workflow improvements for heavy repo/document users (CoCivium™) — appendix with repro & acceptance tests
 
-**Context.** We rely on ChatGPT Plus for a public‑interest project (CoCivium).  Multiple recurring blockers reduce throughput.  We’re filing here for developer visibility and searchability.  Official ticket filed via Help Center.
+**Context.** We rely on ChatGPT Plus for a public‑interest project (CoCivium™).  Multiple recurring blockers reduce throughput.  We’re filing here for developer visibility and searchability.  Official ticket filed via Help Center.
 
 **Short list.**
 - Help widget fallback; memory hygiene tools; artifact reliability with SHA‑256 + browser.

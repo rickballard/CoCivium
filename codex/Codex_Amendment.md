@@ -1,6 +1,6 @@
 # Codex of Amendment
 
-CoCivium is designed to evolve.
+CoCivium™ is designed to evolve.
 
 Amendments are not exceptions—they are rituals of alignment realignment.
 

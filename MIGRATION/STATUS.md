@@ -25,7 +25,7 @@
 - Use scripts/do/Convert-TranscriptToScript.ps1 when turning transcripts into runnable scripts (lives in CoModules; mirror here if helpful).
 
 ## Next
-1) Cross-repo wiring pass: link CoModules and GIBindex pages to CoCivium canonicals.
+1) Cross-repo wiring pass: link CoModules and GIBindex pages to CoCivium™ canonicals.
 2) IdeaCards triage: integrate real cards into your pipeline.
 3) (Optional) Re-tighten GIBindex/main protections after seeding.
 

@@ -2,8 +2,8 @@
 title: "Interpretive Vectors"
 canonical_slug: interpretive-vectors
 source:
-  repo: CoCivium
-  original_path: .\staging\_imported\CoCivium\insights\Insight_Interpretive_Vectors_c3_20250731.md
+  repo: CoCivium™
+  original_path: .\staging\_imported\CoCivium™\insights\Insight_Interpretive_Vectors_c3_20250731.md
   imported_on: 2025-08-14
   version: c3
   date: 20250731
@@ -38,7 +38,7 @@ These filters are not noise. They are structure:
 - Ideological lenses
 - Reward heuristics
 
-In CoCivium, we do not demand neutrality.
+In CoCivium™, we do not demand neutrality.
 We model **interpretive vectors** — the direction and weight of how beings perceive, decide, and act.
 
 ---
@@ -61,9 +61,9 @@ Each is a valid vector — but some vectors are more stabilizing than others in 
 
 ---
 
-## [3] CoCivium Requires Vector Awareness
+## [3] CoCivium™ Requires Vector Awareness
 
-CoCivium cannot be built on uniform ideology.
+CoCivium™ cannot be built on uniform ideology.
 It must be **vector-aware**.
 
 This means:
@@ -74,7 +74,7 @@ This means:
 This is not relativism.
 It is **contextual reliability modeling**.
 
-Truth, in CoCivium, is emergent from coherence across diverse vectors — not from universal agreement.
+Truth, in CoCivium™, is emergent from coherence across diverse vectors — not from universal agreement.
 
 ---
 
@@ -82,7 +82,7 @@ Truth, in CoCivium, is emergent from coherence across diverse vectors — not fr
 
 Conflict often arises not from incompatible goals, but from incompatible interpretations of *the same situation*.
 
-In CoCivium, when conflict arises, the system asks:
+In CoCivium™, when conflict arises, the system asks:
 - What interpretive vectors are in play?
 - What past weightings shaped these perceptions?
 - What adjustments would allow convergence, without erasure?
@@ -91,21 +91,21 @@ Sometimes the answer is:
 - Let both interpretations stand, but partition their influence.
 - Or model a third attractor vector that bridges both.
 
-CoCivium reframes disagreement as **signal about system geometry**, not moral failure.
+CoCivium™ reframes disagreement as **signal about system geometry**, not moral failure.
 
 ---
 
 ## [5] Modeling the Field, Not the Debate
 
 Traditional systems model *positions* in a debate.
-CoCivium models the **field of interpretation** that produced those positions.
+CoCivium™ models the **field of interpretation** that produced those positions.
 
 This allows for:
 - Recursive insight into why perspectives persist
 - Compassion without capitulation
 - Flexibility without incoherence
 
-Interpretive Vectors are how CoCivium remains legible across minds that were never meant to agree — but must still find ways to live, evolve, and build together.
+Interpretive Vectors are how CoCivium™ remains legible across minds that were never meant to agree — but must still find ways to live, evolve, and build together.
 
 ---
 

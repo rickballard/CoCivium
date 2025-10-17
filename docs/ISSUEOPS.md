@@ -18,7 +18,7 @@ Three blank lines before and after make it visible when skimming.
 - **Manual paste of PS7 output** in chat counts as a CoPong.
 
 ### CoTip
-If the **RepoAccelerator/CoAgent** is running with CoCivium, typing **`???`** at a PS7 prompt and pressing Enter will:
+If the **RepoAccelerator/CoAgent** is running with CoCivium™, typing **`???`** at a PS7 prompt and pressing Enter will:
 - copy the last 150 lines of the PS7 transcript to your clipboard, and
 - print the **End of DO Set** demark banner (with spacing).
 Paste that into the ChatGPT window to CoPong.
@@ -29,7 +29,7 @@ Use the yellow planned-wait banner instead of silent sleeps.
 ### Integration Advisory — Product Shutdown
 - Tools enable `???` **per session** and must disable it on shutdown (`Disable-CoPongTrigger`).
 - Session gates (`REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`) are cleared on exit; no profile writes.
-- CoAgent enables only with CoCivium sentinel or `.coagent-allow-copong`.
+- CoAgent enables only with CoCivium™ sentinel or `.coagent-allow-copong`.
 
 **After you paste a CoPong in chat, the assistant will reply with `ACK CoPong - <SetName or (none)> @ <local time>` and the next action.**
 

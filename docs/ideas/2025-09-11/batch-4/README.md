@@ -1,4 +1,4 @@
-# CoCivium IdeaCards — Batch 4 (2025-09-11)
+# CoCivium™ IdeaCards — Batch 4 (2025-09-11)
 
 This batch contains 4 IdeaCards (43–46). Suggested path: `docs/ideas/2025-09-11/batch-4/`.
 

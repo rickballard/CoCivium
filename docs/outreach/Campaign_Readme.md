@@ -15,7 +15,7 @@
 ## Guardrails
 - Transparency: analysis ≠ endorsement; disclaimers on visuals.
 - Consent: secure license/permission for any likeness use; otherwise use silhouettes/avatars.
-- No astroturf: label outreach as CoCivium; avoid manipulative framings.
+- No astroturf: label outreach as CoCivium™; avoid manipulative framings.
 - Measurability: define pre‑publish thresholds; stop/iterate if KPIs miss by >50% after 72h.
 
 ## Timeline (example)

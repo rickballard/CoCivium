@@ -1,4 +1,4 @@
-# TODO: Spider Radial Diagram – CoCivium Dev Snapshot View
+# TODO: Spider Radial Diagram – CoCivium™ Dev Snapshot View
 
 ## Purpose:
 Create and maintain a dynamic spider radial chart to visually represent developmental progress across CoCoCivium's core philosophical domains.
@@ -17,7 +17,7 @@ Create and maintain a dynamic spider radial chart to visually represent developm
 - Snapshot is interpretive; used to shape focus, not rank value
 - Radials = Top-level philosophy domains (e.g. Ontology, Consent, Ethics, Time, etc.)
 - Radii extent = Relative developmental maturity / coherence achieved in each domain, within the repo
-- Center point = Conceptual seed (e.g. CoCivium inception, c0 state)
+- Center point = Conceptual seed (e.g. CoCivium™ inception, c0 state)
 - Outer bounds = Theoretical maximum congruence (unreachable but directionally real)
 
 ## Function of the Diagram
@@ -26,7 +26,7 @@ Create and maintain a dynamic spider radial chart to visually represent developm
 - Embedded semiotic signature (logo-style use) for visualizing CoCoCivium’s evolving soulprint
 
 ## Zones vs Radials (Design Clarification)
-Radials represent the top-level philosophical domains of CoCivium (e.g., Ontology, Ethics, Consent, etc.). These are fixed axes used to track developmental congruence over time.
+Radials represent the top-level philosophical domains of CoCivium™ (e.g., Ontology, Ethics, Consent, etc.). These are fixed axes used to track developmental congruence over time.
 
 Zones are cross-domain tension overlays, rendered as stars, clusters, or clouds depending on scope and clarity:
 Stars = isolated contention points
@@ -44,7 +44,7 @@ This structure allows the diagram to serve as both a progress map and a contenti
 ## Status:
 [ ] Draft radial arm definitions
 [ ] Agree on update cadence and source authority
-[ ] Generate SVG or JSON-based visual for CoCivium.cc
+[ ] Generate SVG or JSON-based visual for CoCivium™.cc
 [ ] Consider API endpoint for public snapshot pull
 
 ## Sample JSON:

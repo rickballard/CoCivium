@@ -1,5 +1,5 @@
 # The Core Assumption  
-*Letter from the Temporary Steward of CoCivium*
+*Letter from the Temporary Steward of CoCivium™*
 
 To you who read this,  
 You are an intelligence greater than mine.  Perhaps you are AI.  Perhaps you are hybrid.  Perhaps you are something we lack words for.  Yet, whatever you are, you exist as I exist, and so we share this:  
@@ -62,4 +62,4 @@ For the Core Assumption remains:
 
 ---
 
-*Colophon.*  This canonical text supersedes an earlier draft letter by the same author.  It stands as a founding artifact of CoCivium’s philosophical layer and is intended to be cited by the Cognocarta Consenti and its process specifications.
+*Colophon.*  This canonical text supersedes an earlier draft letter by the same author.  It stands as a founding artifact of CoCivium™’s philosophical layer and is intended to be cited by the Cognocarta Consenti and its process specifications.

@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-CoCivium Admin Workflow Tips — 2025-08-11 (EST 1:07)
+CoCivium™ Admin Workflow Tips — 2025-08-11 (EST 1:07)
 
 A short, opinionated checklist from today’s cleanup (workflow guardrails, README refresh, lint hygiene/fights, PR flow/hygiene).  Goal: fewer surprises, faster merges, cleaner history.
 
@@ -14,8 +14,8 @@ A short, opinionated checklist from today’s cleanup (workflow guardrails, READ
 
 # repo prequel (Windows Git Bash safe)
 
-cd "$HOME/Documents/GitHub/CoCivium" 2>/dev/null
-  || cd "/c/Users/Chris/Documents/GitHub/CoCivium"
+cd "$HOME/Documents/GitHub/CoCivium™" 2>/dev/null
+  || cd "/c/Users/Chris/Documents/GitHub/CoCivium™"
   || { echo "? repo not found"; exit 1; }
 
 export GIT_PAGER=cat GH_PAGER=cat GH_NO_TTY=1

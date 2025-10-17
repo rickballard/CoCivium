@@ -4,11 +4,11 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-Subject: Request for escalation — ChatGPT workflow bugs blocking CoCivium project (appendix attached)
+Subject: Request for escalation — ChatGPT workflow bugs blocking CoCivium™ project (appendix attached)
 
 Hello Support Team,
 
-We are encountering recurring workflow blockers that impede ongoing work on a public‑interest project (CoCivium).  The attached appendix contains reproducible steps, impact, and specific acceptance tests.
+We are encountering recurring workflow blockers that impede ongoing work on a public‑interest project (CoCivium™).  The attached appendix contains reproducible steps, impact, and specific acceptance tests.
 
 Short list:
 - Help widget intermittently missing (fallback needed).

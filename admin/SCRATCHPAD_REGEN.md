@@ -1,6 +1,6 @@
 <!-- status: stub; target: 150+ words -->
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# Regen Scratchpad — CoCivium Repo
+# Regen Scratchpad — CoCivium™ Repo
 _Tracking in-flight tasks, file deltas, structural inconsistencies, and regen-specific hygiene._
 
 ---

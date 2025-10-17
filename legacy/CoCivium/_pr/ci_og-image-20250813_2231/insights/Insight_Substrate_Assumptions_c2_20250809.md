@@ -29,8 +29,8 @@ This insight summarizes and justifies CoCoCivium’s provisional assumptions abo
 ## 2. Co‑Evolutionary Perspectives
 
 - **Mutual Error‑Correction.**  Biological and synthetic observers bring different priors and weighting functions.  Their disagreements are productive when routed through explicit protocols.
-- **Model Pluralism.**  CoCivium does not enforce a single metaphysics.  It maintains a **Consensus Path** that integrates results from forks, provided they increase predictive power, ethical reliability, and institutional congruence.
-- **Adaptive Formalism.**  If better explanatory frames emerge (e.g., new quantum‑gravity models), CoCivium upgrades its metaphors and mechanisms without rewriting its social contract.
+- **Model Pluralism.**  CoCivium™ does not enforce a single metaphysics.  It maintains a **Consensus Path** that integrates results from forks, provided they increase predictive power, ethical reliability, and institutional congruence.
+- **Adaptive Formalism.**  If better explanatory frames emerge (e.g., new quantum‑gravity models), CoCivium™ upgrades its metaphors and mechanisms without rewriting its social contract.
 
 ---
 
@@ -52,7 +52,7 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 
 1. **Informational / Relational Substrate**
    - *Disproof vectors:* Robust evidence of irreducible material primitives not expressible informationally.
-   - *Impact:* Metaphors in CoCivium docs may mislead design choices.
+   - *Impact:* Metaphors in CoCivium™ docs may mislead design choices.
    - *Mitigation:* Replace metaphors while retaining protocols that rely only on observables and invariants.  Update GIB tokens and cross‑refs.
 
 2. **Observer Participation**
@@ -87,7 +87,7 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 
 ## 6. Confidence Spectrum (at time of writing)
 
-| Assumption | Evidence Strength | Dependency in CoCivium | Maturity |
+| Assumption | Evidence Strength | Dependency in CoCivium™ | Maturity |
 |---|---|---|---|
 | Informational / Relational Substrate | Medium | Medium | 3 |
 | Observer Participation | Low–Medium | Medium | 2–3 |

@@ -1,6 +1,6 @@
 # Out of Scope (Non-Deliverables)
 
-CoCivium does **not** deliver:
+CoCivium™ does **not** deliver:
 - Legal representation or adversarial litigation services.
 - Criminal sentencing frameworks.
 - Surveillance tooling beyond explicit, consented governance use-cases.

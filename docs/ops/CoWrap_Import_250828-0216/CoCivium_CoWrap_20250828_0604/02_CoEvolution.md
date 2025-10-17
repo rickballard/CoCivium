@@ -1,4 +1,4 @@
-# CoEvolution in CoCivium — Practical & Mythic (v0.1)
+# CoEvolution in CoCivium™ — Practical & Mythic (v0.1)
 
 **Why this exists.** We change fast, but we don’t break people. CoEvolution = many small, reversible moves guided by shared forces.
 

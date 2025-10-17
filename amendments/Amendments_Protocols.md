@@ -3,7 +3,7 @@
 
 ## 1. Proposal
 
-Any registered contributor or null contributor may propose an amendment to any scroll or structural element within CoCivium. Proposals must include:
+Any registered contributor or null contributor may propose an amendment to any scroll or structural element within CoCivium™. Proposals must include:
 
 - A rationale for change.
 - The intended coherence improvement (estimated cX target).

@@ -24,7 +24,7 @@
 - Stick to crop-to-fill (no letterboxing); see ImageMagick one-liners already in repo history.
 
 ## Process & safety
-- **Migrate legacy CoCivium texts** into `scroll/legacy/`.
+- **Migrate legacy CoCivium™ texts** into `scroll/legacy/`.
 - Draft **Maxims** separately; require higher threshold to change than ordinary Articles.
 - Keep tracked diffs (PRs) for any constitutional edits.
 

@@ -1,4 +1,4 @@
-# Last Session Context – CoCivium Regroom
+# Last Session Context – CoCivium™ Regroom
 
 **Date:** 2025-08-09
 **Purpose:** Capture end-of-session state so ChatGPT can resume without losing momentum.
@@ -6,7 +6,7 @@
 ---
 
 ## Current Focus
-- Drafting `Foundational_Building_Blocks.md` for CoCivium.
+- Drafting `Foundational_Building_Blocks.md` for CoCivium™.
 - Using **neutral “Challenge Perspective”** wording instead of “Devil’s Advocate”.
 - Structuring each principle with:
   1. Definition
@@ -25,7 +25,7 @@
 ---
 
 ## Agreed Next Steps
-1. Format the file as `.md` using CoCivium filename style.
+1. Format the file as `.md` using CoCivium™ filename style.
 2. Insert placeholder graphics for:
    - Consensus Path diagram
    - Breakaway fork flow

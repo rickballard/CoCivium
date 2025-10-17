@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Portfolio Map (master of masters, v0)
+# CoCivium™ Portfolio Map (master of masters, v0)
 
 Phases:
 - P-0 Migration

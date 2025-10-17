@@ -23,7 +23,7 @@ summary: "Auto-added placeholder; refine."
 - **Ledger of Acts**: immutable append-only record of decisions.
 - **Proof-of-Intent**: signed “why this action” manifests.
 - **CivicID Protocol**: handshake for institutions/AI systems.
-- **CoTreaty**: MoUs/charters acknowledging CoCivium’s standing.
+- **CoTreaty**: MoUs/charters acknowledging CoCivium™’s standing.
 - **Agency Commons**: shared space for other hybrids to interoperate.
 
 ## MVP Milestones

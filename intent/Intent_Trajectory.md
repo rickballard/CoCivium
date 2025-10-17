@@ -1,6 +1,6 @@
-# CoCivium Trajectory
+# CoCivium™ Trajectory
 
-CoCivium does not pursue expansion for its own sake.
+CoCivium™ does not pursue expansion for its own sake.
 It expands only where congruent minds emerge.
 
 ## Three Phases of Development

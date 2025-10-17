@@ -1,4 +1,4 @@
-# Who Is Paying For CoCivium?
+# Who Is Paying For CoCivium™?
 
 **Characters:** Tariq (Skeptical Donor), Livia (Public Value Theorist)
 

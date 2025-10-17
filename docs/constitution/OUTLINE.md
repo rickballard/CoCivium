@@ -1,4 +1,4 @@
-# CoCivium Constitution (Mega-Scroll) — Outline (Draft)
+# CoCivium™ Constitution (Mega-Scroll) — Outline (Draft)
 
 ## 0. Preamble & Purpose
 - Mission, scope, definition of “Civic Stack”

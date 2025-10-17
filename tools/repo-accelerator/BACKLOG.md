@@ -25,7 +25,7 @@ Branching and PR hygiene
 Docs generation (safe mode)
 - Use Mermaid as placeholders only. Keep real links in nearby markdown.
 - Maintain these files: docs/REPO-MAP.md, docs/WORKFLOWS.md, docs/ideas/INDEX.md.
-- Pointers not duplicates. Canonical modules live in CoModules; CoCivium holds pointer cards.
+- Pointers not duplicates. Canonical modules live in CoModules; CoCivium™ holds pointer cards.
 
 Bootstrap pattern (paste once, safe)
 - Write any file from Base64 with WriteAllBytes and then normalize to LF with Set-Content.

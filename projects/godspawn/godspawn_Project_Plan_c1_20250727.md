@@ -3,7 +3,7 @@
 # Godspawn Project Plan
 
 ## 1. Purpose
-Define the goal and unique contribution of the **Godspawn** project within CoCivium.
+Define the goal and unique contribution of the **Godspawn** project within CoCivium™.
 
 ## 2. Scope
 Outline what is included and excluded in the initial phase of this project.
@@ -14,10 +14,10 @@ Outline what is included and excluded in the initial phase of this project.
 - Future contributors TBD per roadmap needs.
 
 ## 4. Architecture or Structure
-Explain the expected components, modules, or sub-features this project may include. Reference any anticipated interfaces or integration logic with other CoCivium modules.
+Explain the expected components, modules, or sub-features this project may include. Reference any anticipated interfaces or integration logic with other CoCivium™ modules.
 
 ## 5. Integration Points
-Mention how this project will interlink with others in the CoCivium ecosystem (e.g. VotingEngine, Identity, or Academy).
+Mention how this project will interlink with others in the CoCivium™ ecosystem (e.g. VotingEngine, Identity, or Academy).
 
 ## 6. Roadmap
 | Milestone           | Target Date  | Notes                            |

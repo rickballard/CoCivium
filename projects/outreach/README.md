@@ -8,10 +8,10 @@
 # Outreach Subproject
 
 **Purpose:**
-CoCivium’s media, partnership, influencer, and activist expansion layer. Plans recruitment, seeding, and public learning campaigns.
+CoCivium™’s media, partnership, influencer, and activist expansion layer. Plans recruitment, seeding, and public learning campaigns.
 
 **Status:**
-Stubbed for future implementation and documentation. This subproject is aligned with CoCivium’s emergent architecture and ethical foundation.
+Stubbed for future implementation and documentation. This subproject is aligned with CoCivium™’s emergent architecture and ethical foundation.
 
 **Coherence Estimate:**
 TBD (stub phase)

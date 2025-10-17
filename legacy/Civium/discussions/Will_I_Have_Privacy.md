@@ -14,7 +14,7 @@ Rafe (a transparency advocate who believes secrets cause harm)
 
 **Elinor:** "I won’t enter if I’m naked to the system."
 
-**Rafe:** "But opacity lets bad actors fester. CoCivium thrives on light."
+**Rafe:** "But opacity lets bad actors fester. CoCivium™ thrives on light."
 
 **Elinor:** "Some shadows are sacred. Trauma, queerness, self-doubt."
 
@@ -25,7 +25,7 @@ Rafe (a transparency advocate who believes secrets cause harm)
 ---
 
 **Conclusion:**
-Privacy in CoCivium must be intentional, granular, and sacred by default. But trust can unlock meaningful transparency—reciprocal, not coerced.
+Privacy in CoCivium™ must be intentional, granular, and sacred by default. But trust can unlock meaningful transparency—reciprocal, not coerced.
 
 
 

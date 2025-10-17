@@ -1,6 +1,6 @@
 # Partners — Start Here
 
-Welcome! Quick entry points into CoCivium:
+Welcome! Quick entry points into CoCivium™:
 
 - **Root README** → [../../README.md](../../README.md)
 - **Documentation index** → [../../docs/](../../docs/)

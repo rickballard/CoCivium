@@ -1,14 +1,14 @@
 # Outreach Scripts (short, adaptable)
 
 ## DM — Researcher/Professor (X/Bluesky/Mastodon, ~280 chars)
-Hi <Name> — we’re assembling a consent‑first governance pack for agentic AI (CoCivium).  It complements safety work: agency + auditability before deployment.  Would you skim the open charter and leave a comment?  <short link>  —Rick (Oakville, CA)
+Hi <Name> — we’re assembling a consent‑first governance pack for agentic AI (CoCivium™).  It complements safety work: agency + auditability before deployment.  Would you skim the open charter and leave a comment?  <short link>  —Rick (Oakville, CA)
 
 ## Email — Practitioner/Founder
 Subject: Quick review? “consent not coercion” governance pack for agentic AI
 
 Hi <Name>,
 
-I’m Rick (CoCivium).  We’re publishing a concise, portable governance pack that teams can adopt before exposing agentic capabilities.  Think: explicit consent rules, pre‑deployment agentic risk gates, and incident reporting — designed to fit alongside current safety methods.
+I’m Rick (CoCivium™).  We’re publishing a concise, portable governance pack that teams can adopt before exposing agentic capabilities.  Think: explicit consent rules, pre‑deployment agentic risk gates, and incident reporting — designed to fit alongside current safety methods.
 
 Would you:
 1) Skim the charter (10 min) and suggest edits?

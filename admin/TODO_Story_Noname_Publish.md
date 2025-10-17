@@ -7,7 +7,7 @@
 - [ ] Add soft voiceover toggle (TTS or human narration)
 - [ ] Add still illustrations (magic-soft style)
 - [ ] Host at https://opename.com and `opename.org/story`
-- [ ] License under CC-BY-SA or CoCivium Free Story License
+- [ ] License under CC-BY-SA or CoCivium™ Free Story License
 - [ ] Share on parenting forums, Substack, GroupBuild, etc.
 - [ ] Include `README.md` for developers/parents
 

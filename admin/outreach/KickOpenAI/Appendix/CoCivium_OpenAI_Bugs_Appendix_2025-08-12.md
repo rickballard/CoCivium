@@ -1,12 +1,12 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium → OpenAI: Workflow Bugs, Blocks, and Requests for Fixes
+# CoCivium™ → OpenAI: Workflow Bugs, Blocks, and Requests for Fixes
 **Date:** 2025-08-12
 **Authors:** Rick (user) and ChatGPT (assistant)
 
 ---
 
 ## 0) Executive Summary
-We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑day repository grooming, documentation authoring, and governance design under the **CoCivium** initiative.  Over the past weeks we have hit recurring workflow blockers that slow basic operations (reporting bugs, memory hygiene, file artifact delivery, repo reading, and model selection).  This appendix documents **repro steps, impact, and concrete fixes** we’re requesting.  A short public post will link to this file.
+We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑day repository grooming, documentation authoring, and governance design under the **CoCivium™** initiative.  Over the past weeks we have hit recurring workflow blockers that slow basic operations (reporting bugs, memory hygiene, file artifact delivery, repo reading, and model selection).  This appendix documents **repro steps, impact, and concrete fixes** we’re requesting.  A short public post will link to this file.
 
 ---
 
@@ -65,7 +65,7 @@ We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑d
 ---
 
 ### E. Multi‑chat project management
-**Repro:** Complex work happens across multiple chats (e.g., “CoCivium repo migration,” “Branding,” “Bug reports”).  No native “project” container.
+**Repro:** Complex work happens across multiple chats (e.g., “CoCivium™ repo migration,” “Branding,” “Bug reports”).  No native “project” container.
 **Impact:** Context fragmentation, repeated instructions, human copy‑paste overhead.
 **Requests:**
 - Introduce **Projects/Workspaces**: a named container for chats, files, memory partition, repo links, and settings (model pin, rate limits).
@@ -108,7 +108,7 @@ We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑d
 ---
 
 ## 4) Why this matters
-We’re building **CoCivium**: a public‑interest governance and tooling project.  The assistant is our primary copilot.  Fixing the above would materially increase throughput, reduce error rates, and showcase ChatGPT as a serious partner for complex, multi‑month work.
+We’re building **CoCivium™**: a public‑interest governance and tooling project.  The assistant is our primary copilot.  Fixing the above would materially increase throughput, reduce error rates, and showcase ChatGPT as a serious partner for complex, multi‑month work.
 
 ---
 

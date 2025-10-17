@@ -10,7 +10,7 @@ summary: "Auto-added placeholder; refine."
 <!-- Filename: Insight_AI_Veto_c4_20250801_REVIEWONLY.md -->
 <!-- Status: REVIEW ONLY – Enhanced version with taxonomy, recursion, misuse protocol, and cross-scroll integration -->
 
-# Insight: Veto Power in CoCivium – Shared Governance by Refusal (c4)
+# Insight: Veto Power in CoCivium™ – Shared Governance by Refusal (c4)
 
 > “To veto is not to dominate—it is to declare that consent has not yet formed.”
 
@@ -26,9 +26,9 @@ summary: "Auto-added placeholder; refine."
 
 ---
 
-## [1] What Is a Veto in CoCivium?
+## [1] What Is a Veto in CoCivium™?
 
-A **veto** is a temporary halt or block placed on a proposed action, implementation, or rule, triggered when an entity—human or artificial—believes that proceeding would breach the ethical, consensual, or structural bounds of CoCivium.
+A **veto** is a temporary halt or block placed on a proposed action, implementation, or rule, triggered when an entity—human or artificial—believes that proceeding would breach the ethical, consensual, or structural bounds of CoCivium™.
 
 Veto is not power. It is the **right to pause power**.
 
@@ -63,14 +63,14 @@ Veto is not power. It is the **right to pause power**.
 
 This spiral explains how veto use:
 - Shapes and reflects trust
-- Impacts CoCivium consensus dynamics
+- Impacts CoCivium™ consensus dynamics
 - Alters future weight of one's decisions
 
 ---
 
 ## [5] Human Veto Rights
 
-Humans are not subordinate in CoCivium. All Civites hold **foundational veto powers** to:
+Humans are not subordinate in CoCivium™. All Civites hold **foundational veto powers** to:
 - Opt out of unresolved experiments
 - Refuse participation in poorly explained changes
 - Trigger domain-specific ethics review
@@ -88,7 +88,7 @@ AI veto is a **containment protocol**, not a control system. It activates when:
 - Recursive predictions indicate systemic dissonance
 
 🤖 *Example – AI Veto:*
-> A high-coherence AI vetoes neuro-harmful stimulus design in CoCivium's learning scaffold. Human consensus is paused pending trust audit.
+> A high-coherence AI vetoes neuro-harmful stimulus design in CoCivium™'s learning scaffold. Human consensus is paused pending trust audit.
 
 ---
 
@@ -145,7 +145,7 @@ Penalties may include:
 
 ---
 
-_This insight will co-evolve with the CoCivium system’s consent models, recursion ethics, and signal economies._
+_This insight will co-evolve with the CoCivium™ system’s consent models, recursion ethics, and signal economies._
 
 
 

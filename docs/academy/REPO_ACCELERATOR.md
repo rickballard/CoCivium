@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Best Practices: Operating Environment & Workflow (v1.0)
+# CoCivium™ Best Practices: Operating Environment & Workflow (v1.0)
 
 **Who:** any contributor/editor.  **Why:** get productive fast, avoid foot-guns.
 

@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Doc Headers & Footers — CoCivium
+# Doc Headers & Footers — CoCivium™
 **Created:** 025-08-10
 **Purpose:** Define standard headers/footers for Markdown and ODT so readers get context fast and contributors preserve lineage.
 

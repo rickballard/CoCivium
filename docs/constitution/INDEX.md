@@ -1,4 +1,4 @@
-# CoCivium Constitution (Draft)
+# CoCivium™ Constitution (Draft)
 
 This index lists all current sections. Each section may be split into multiple files under `docs/constitution/sections/`.
 

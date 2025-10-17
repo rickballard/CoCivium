@@ -4,13 +4,13 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# How Much Will CoCivium Cost?
+# How Much Will CoCivium™ Cost?
 
 **Characters:** Amara (Economist), Dev (Cooperative Engineer)
 
 ---
 
-**Opening Prompt:** Let’s be real: how much will CoCivium cost? And who absorbs that?
+**Opening Prompt:** Let’s be real: how much will CoCivium™ cost? And who absorbs that?
 
 ---
 

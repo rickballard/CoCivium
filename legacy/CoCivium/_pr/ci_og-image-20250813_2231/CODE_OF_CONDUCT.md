@@ -4,10 +4,10 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium Code of Conduct
+# CoCivium™ Code of Conduct
 
 ## Our Pledge
-We pledge to make participation in CoCivium an open, harassment-free experience for everyone.
+We pledge to make participation in CoCivium™ an open, harassment-free experience for everyone.
 
 ## Our Standards
 Examples of behavior that contribute to a positive environment:
@@ -18,7 +18,7 @@ Examples of behavior that contribute to a positive environment:
 Examples of unacceptable behavior:
 - Harassment, trolling, or personal attacks.
 - Publishing private information without consent.
-- Conduct that violates applicable laws or CoCivium principles.
+- Conduct that violates applicable laws or CoCivium™ principles.
 
 ## Enforcement
 The maintainers are responsible for clarifying and enforcing this Code of Conduct.

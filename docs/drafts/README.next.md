@@ -6,7 +6,7 @@
 
 **Mission:** Build the **living constitution for digital society**—borderless, people-first, and **directly evolvable by anyone who cares**.
 
-**Project:** **CoCivium** is the open-source community that **writes, tests, and ships the CC**—plus the policies, processes, and tools that keep **hybrid life (physical + digital)** **democratic, equitable, and aligned** with human values.
+**Project:** **CoCivium™** is the open-source community that **writes, tests, and ships the CC**—plus the policies, processes, and tools that keep **hybrid life (physical + digital)** **democratic, equitable, and aligned** with human values.
 
 > If you can read this page, you’re qualified to help. No coding or civics degree required.
 
@@ -52,7 +52,7 @@ Start with an [Idea Issue](../../issues/new?template=idea.yml) *(template link t
 
 
 **2 minutes — Say hi**
-Open **Issues → New** → title: “Hello CoCivium”. One line about what you care about—locally or online.
+Open **Issues → New** → title: “Hello CoCivium™”. One line about what you care about—locally or online.
 *Or ask your AI to open it for you using our template.*
 
 **10 minutes — Share an idea**
@@ -79,7 +79,7 @@ Together they give us **depth perception**—humane and workable decisions.
 
 ---
 
-## Ground rules (The CoCivium Pledge)
+## Ground rules (The CoCivium™ Pledge)
 
 **Civility. Clarity. Curiosity. Consent. Credit.**
 Disagree without demeaning, explain like to a neighbor, assume good faith, signal big changes early, attribute ideas.
@@ -111,7 +111,7 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ## Inspiration / Onboarding for humans first
 
-- **Being Noname** — a gentle, human-centric onramp to CoCivium’s spirit and practice.
+- **Being Noname** — a gentle, human-centric onramp to CoCivium™’s spirit and practice.
   → [Read the essay](./docs/onboarding/Being-Noname.md) *(todo)*
 
 - **FAQ** — short answers to common “Do I need to code?” and “What if I only have 5 minutes?” questions.

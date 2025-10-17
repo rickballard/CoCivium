@@ -1,7 +1,7 @@
 # TODO_Stnexid_Interface_Track_c1
 _Created: August 2, 2025_
 
-This TODO document tracks the next actions required to develop, implement, and validate the Stnexid interface and ontology system within the CoCivium framework. It includes tasks across UX, ontology, strategic alignment, and philosophical coherence.
+This TODO document tracks the next actions required to develop, implement, and validate the Stnexid interface and ontology system within the CoCivium™ framework. It includes tasks across UX, ontology, strategic alignment, and philosophical coherence.
 
 ---
 
@@ -37,7 +37,7 @@ This TODO document tracks the next actions required to develop, implement, and v
 ## 📁 Repo / Structural Tasks
 
 - [ ] Finalize folder locations for all Stnexid files (`core/`, `ontology/`, `projects/`, `meta/`, `admin/`)
-- [ ] Update CoCivium README to reference Stnexid as a dual-layer interface system
+- [ ] Update CoCivium™ README to reference Stnexid as a dual-layer interface system
 - [ ] Add `README_Stnexid.md` as entrypoint for all subcomponents
 
 ---

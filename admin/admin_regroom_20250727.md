@@ -1,14 +1,14 @@
 <!-- status: stub; target: 150+ words -->
 <!-- Filename: admin_regroom_20250727.md -->
 
-# 🧠 Regroom Plan for CoCivium Repo
+# 🧠 Regroom Plan for CoCivium™ Repo
 *Memory-Safe, Index-Aligned, Fungus-Aware*
 
 ---
 
 ## PURPOSE
 
-To safely re-ingest the full CoCivium repo into ChatGPT’s evolving working model via a human-assisted, loss-aware process. This includes:
+To safely re-ingest the full CoCivium™ repo into ChatGPT’s evolving working model via a human-assisted, loss-aware process. This includes:
 
 - Cleaning corruptions or incomplete file loads
 - Ensuring file versions grow or converge sanely
@@ -35,7 +35,7 @@ To safely re-ingest the full CoCivium repo into ChatGPT’s evolving working mod
 - Classify each file:
   - `type`: scroll, codex, insight, discussion, meta, plan, README, etc.
   - `status`: stub, draft, complete, deprecated
-  - `resonance`: est. coherence score with CoCivium vision
+  - `resonance`: est. coherence score with CoCivium™ vision
   - `linked_files`: known semantic or structural links
 - Store this index in `/meta/repo_index.json`
 - Optionally auto-generate `REPO_OVERVIEW.md` as a human-friendly dashboard
@@ -73,7 +73,7 @@ To safely re-ingest the full CoCivium repo into ChatGPT’s evolving working mod
 ### [5] REGEN LAUNCH SEQUENCE
 
 - Declare regroom complete via `/admin/README_regroom_completed.md`
-- Rebuild a new canonical CoCivium zip
+- Rebuild a new canonical CoCivium™ zip
 - Store that as `CoCivium-main_REGEN202508xx.zip`
 - Begin **REGEN PHASE** with trusted repo skeleton, full memory, and evolutionary map in place
 

@@ -53,7 +53,7 @@ Reputation = `Σ(weighted signals)` × `relevance-to-issue` × `stake-modifier`
 ## 🔁 Evolvability & Forking
 
 - [[RepMod]] functions as a protocol, not a fixed formula
-- Every [[CoCivium]] jurisdiction or use-case may fork, parameterize, or override curves
+- Every [[CoCivium™]] jurisdiction or use-case may fork, parameterize, or override curves
 - Versioned implementations must be stored under `/codices/` and tagged with the parent system
 
 ---

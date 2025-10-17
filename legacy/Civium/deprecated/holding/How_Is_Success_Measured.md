@@ -20,7 +20,7 @@ Juno (a pragmatic coder who distrusts utopias)
 
 **Marla:** "You want user analytics. I want cultural metrics."
 
-**Juno:** "CoCivium needs both. Show me graphs. Then show me poems."
+**Juno:** "CoCivium™ needs both. Show me graphs. Then show me poems."
 
 ---
 

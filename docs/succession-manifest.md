@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium — Succession Manifest (Public)
+# CoCivium™ — Succession Manifest (Public)
 
 Author: Rick Ballard
 Version: 1.0 (2025-08-16)

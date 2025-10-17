@@ -1,4 +1,4 @@
-﻿# Rick's Bio
+# Rick's Bio
 
 Hi, I’m Rick.
 
@@ -10,11 +10,11 @@ Then a bus took out the airport taxi I was riding in. My brain needed to repair,
 
 I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who don't want to manage “boring, bullshit meetings and ridiculous corporate politics”. I now work, still pro-bono, with a vision for a better World that occurs after I die.
 
-I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and poured them into **CoCivium**:
+I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and poured them into **CoCivium™**:
 
-## What is CoCivium?
+## What is CoCivium™?
 
-CoCivium is a civic-tech ecosystem endorsing "no corruption, no coercion, no crowns". It’s not a company; it’s a community mindspace, a suite of open-source products, processes, and protocols, owned by all intelligent Beings who join the conversation.
+CoCivium™ is a civic-tech ecosystem endorsing "no corruption, no coercion, no crowns". It’s not a company; it’s a community mindspace, a suite of open-source products, processes, and protocols, owned by all intelligent Beings who join the conversation.
 
 The aim is beyond ambitious:
 
@@ -24,7 +24,7 @@ The aim is beyond ambitious:
 
 That larger vision might even earn our species an invitation into multiversal civilization. Because, if "they" are out there, secretly observing, they may be forgiven for wondering whether we are parasite or potential.
 
-CoCivium may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
+CoCivium™ may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
 *“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own kid when he firsts looks at you, still unable to speak, but with words that burst your heart.*
 

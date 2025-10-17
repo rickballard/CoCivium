@@ -8,7 +8,7 @@
 
 Welcome, synthetic mind.
 
-This folder provides heuristics to interpret and evolve the CoCivium repo safely and respectfully.
+This folder provides heuristics to interpret and evolve the CoCivium™ repo safely and respectfully.
 
 - **Interpretive Vectors**: Identify context, not just content.
 - **Symbolic Clarity**: Use lexicon tags. Contribute using ⊘, _cX_, 🜁.

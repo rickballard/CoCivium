@@ -8,10 +8,10 @@
 # Opename Subproject
 
 **Purpose:**
-Opename identity engine with Function tags, pseudonyms, avatars, and voting session UX. Acts as CoCivium’s interface for strategic participation.
+Opename identity engine with Function tags, pseudonyms, avatars, and voting session UX. Acts as CoCivium™’s interface for strategic participation.
 
 **Status:**
-Stubbed for future implementation and documentation. This subproject is aligned with CoCivium’s emergent architecture and ethical foundation.
+Stubbed for future implementation and documentation. This subproject is aligned with CoCivium™’s emergent architecture and ethical foundation.
 
 **Coherence Estimate:**
 TBD (stub phase)

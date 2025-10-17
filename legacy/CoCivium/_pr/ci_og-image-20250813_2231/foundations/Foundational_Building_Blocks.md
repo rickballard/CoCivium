@@ -7,7 +7,7 @@
 # Foundational Building Blocks — Challenge Perspective
 
 ## Purpose
-Define the challenge perspective used when stress-testing CoCivium governance.
+Define the challenge perspective used when stress-testing CoCivium™ governance.
 
 ## Approach
 - Identify the foundational "atoms" of governance (e.g., trust, consent, capability).

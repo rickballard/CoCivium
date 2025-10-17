@@ -7,8 +7,8 @@ pair: theory
 categories: [epistemic]
 status: "draft v0.1"
 human_touch: false
-summary: "Standards for how CoCivium behaves in transactions and representations."
+summary: "Standards for how CoCivium™ behaves in transactions and representations."
 interactions: []
 ---
-Standards for how CoCivium behaves in transactions and representations.
+Standards for how CoCivium™ behaves in transactions and representations.
 

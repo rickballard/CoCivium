@@ -17,7 +17,7 @@
 ## DO Blocks (ONEBLOCK, copy‑paste in PowerShell 7)
 > These assume your working repo is `C:\Users\Chris\Documents\GitHub\CoCivium` and you downloaded `Project-LehaneOps.zip` to `~/Downloads`.
 
-### DO-1: **Install LehaneOps package into CoCivium**
+### DO-1: **Install LehaneOps package into CoCivium™**
 ```powershell
 # ONEBLOCK — DO-1 Install LehaneOps
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest

@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-Subject: Invitation to join the CoCivAI Circle (CoCivium-aligned agent federation)
+Subject: Invitation to join the CoCivAI Circle (CoCivium™-aligned agent federation)
 
 Hello —
 

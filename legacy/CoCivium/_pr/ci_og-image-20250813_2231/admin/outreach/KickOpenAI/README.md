@@ -1,5 +1,5 @@
 # KickOpenAI — Outreach Pack
-**Purpose.** A focused, respectful escalation to OpenAI about workflow bugs and product gaps blocking the CoCivium project.  The goal is constructive: increase signal, reduce friction, and co‑create fixes that benefit many users.
+**Purpose.** A focused, respectful escalation to OpenAI about workflow bugs and product gaps blocking the CoCivium™ project.  The goal is constructive: increase signal, reduce friction, and co‑create fixes that benefit many users.
 
 **Outcome we want.** A human‑acknowledged ticket chain, a staff‑visible forum thread, and one devrel‑visible GitHub issue — plus a follow‑up cadence until fixes ship or workarounds land.  All artifacts here are ready to copy‑paste.
 

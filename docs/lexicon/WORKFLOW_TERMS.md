@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Workflow Lexicon (snapshot)
+# CoCivium™ Workflow Lexicon (snapshot)
 
 - **CoStage** — wrap session: work-in-progress savepoint, push, (draft) PR, NEXT.md.
 - **CoSession** — set a SID to correlate work/chat across teammates.

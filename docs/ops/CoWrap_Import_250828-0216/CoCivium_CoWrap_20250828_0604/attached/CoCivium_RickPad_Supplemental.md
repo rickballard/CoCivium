@@ -1,10 +1,10 @@
-# CoCivium RickPad — Supplemental (Session Wrap)
+# CoCivium™ RickPad — Supplemental (Session Wrap)
 
 This memo captures policies and patterns we discussed so you can drop them into the repo with minimal friction. It favors “teach, don’t punish” and keeps canonical docs human‑reviewed while giving contributors fast lanes.
 
 ---
 
-## 1) CoCivium Recursion Policy (search before you spawn)
+## 1) CoCivium™ Recursion Policy (search before you spawn)
 
 **Intent:** Before creating a new asset (policy / initiative / idea / framework), search existing repos for overlap to integrate instead of proliferate.
 
@@ -23,7 +23,7 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 ---
 
-## 2) “Living History of CoCivium” (yearly, for future historians)
+## 2) “Living History of CoCivium™” (yearly, for future historians)
 
 **Location:** `docs/history/`
 **Files:**

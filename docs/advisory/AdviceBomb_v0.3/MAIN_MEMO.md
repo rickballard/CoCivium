@@ -1,5 +1,5 @@
 
-# CoCivium Advisory Memorandum — v0.3 (2025-09-11_0603)
+# CoCivium™ Advisory Memorandum — v0.3 (2025-09-11_0603)
 **Mode:** CoCache payload — *armed for Final Polish only*.  
 **New:** Big‑picture validation engine (capture immunity, policy drift, futures sandbox) + BP/Workflow learnings log.
 

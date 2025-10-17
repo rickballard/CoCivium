@@ -1,7 +1,7 @@
-# CoCivium Session Primer
+# CoCivium™ Session Primer
 
 **Purpose:**
-To ensure a smooth and productive start to any working session on the CoCivium project.
+To ensure a smooth and productive start to any working session on the CoCivium™ project.
 This document can be used by project architects, contributors, and AI assistants to re-prime context and maintain continuity.
 
 **Location:**
@@ -12,7 +12,7 @@ Store this file in `/admin/Session_Primer.md` so it is accessible to all collabo
 ## 1. Session Initiation Prompt
 Copy and paste the following prompt into your AI assistant at the start of each session:
 
-> "You are my AI co-architect for CoCivium.
+> "You are my AI co-architect for CoCivium™.
 > Load the `Last_Session_Context.md` from `/admin/` and integrate it into your working memory.
 > Maintain our intersessional profile conventions, filename formats, tone (‘Challenge Perspective’ for critique), no ego-pandering, and near-final doc improvement checks.
 > Our focus today is: [INSERT TODAY'S FOCUS HERE]."
@@ -40,8 +40,8 @@ Copy and paste the following prompt into your AI assistant at the start of each 
 
 ## 4. Tutorials & Onboarding Resources
 New civic architects or AI collaborators should review:
-1. **CoCivium Overview** – Concept, mission, and principles.
-2. **CoCivium Repo Structure** – Folder purposes and naming conventions.
+1. **CoCivium™ Overview** – Concept, mission, and principles.
+2. **CoCivium™ Repo Structure** – Folder purposes and naming conventions.
 3. **GIB Registry Primer** – Understanding compressed concept language.
 4. **Challenge Perspective Method** – How to question assumptions productively.
 5. **AI Collaboration Tips** – How to feed context efficiently and avoid repetition.

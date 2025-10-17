@@ -9,7 +9,7 @@
 - `tools/dedupe_against_repo.py` — optional script to compare this dump against the repo tree and annotate duplicates across the repo.
 
 **Recommended commit path.**
-Place this whole folder at `admin/inbox/GmailDump_20250811/` in the CoCivium repo, commit, and push.  Do not rename internal files before commit, to keep the manifest valid.
+Place this whole folder at `admin/inbox/GmailDump_20250811/` in the CoCivium™ repo, commit, and push.  Do not rename internal files before commit, to keep the manifest valid.
 
 **Integrity check.**
 To verify on your machine:

@@ -8,7 +8,7 @@
 # Academy Subproject
 
 **Purpose:**
-Mindnaught recognition, skill-onboarding, and contributor elevation framework for CoCivium knowledge developers.
+Mindnaught recognition, skill-onboarding, and contributor elevation framework for CoCivium™ knowledge developers.
 
 **Status:**
 Stubbed for future implementation and documentation. This subproject is aligned with CoCoCivium’s emergent architecture and ethical foundation.

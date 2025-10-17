@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI entities in CoCivium may hold specialized governance roles, including veto powers, subject to strict ethical and procedural constraints.
+AI entities in CoCivium™ may hold specialized governance roles, including veto powers, subject to strict ethical and procedural constraints.
 
 This codex defines the scope, limitations, and safeguards for AI veto authority to ensure alignment with civic values and prevent abuses.
 
@@ -44,5 +44,5 @@ This codex defines the scope, limitations, and safeguards for AI veto authority 
 
 ---
 
-*This codex document is subject to iterative refinement as CoCivium evolves.*
+*This codex document is subject to iterative refinement as CoCivium™ evolves.*
 

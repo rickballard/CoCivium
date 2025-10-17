@@ -7,8 +7,8 @@ pair: theory
 categories: [epistemic]
 status: "draft v0.1"
 human_touch: false
-summary: "External handshake for institutions/AI systems to recognize CoCivium."
+summary: "External handshake for institutions/AI systems to recognize CoCivium™."
 interactions: []
 ---
-External handshake for institutions/AI systems to recognize CoCivium.
+External handshake for institutions/AI systems to recognize CoCivium™.
 

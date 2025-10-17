@@ -1,9 +1,9 @@
-# CoCivium Docs (Master Index)
+# CoCivium™ Docs (Master Index)
 
 **Welcome.** This repo is the source of truth for the public site and developer/docs pipelines.
 
 ## Read First
-- [CoCivium Constitution (scroll)](constitution/scroll.html)
+- [CoCivium™ Constitution (scroll)](constitution/scroll.html)
 - Vision & Principles — *coming together as one civics platform with many voices.*
 - Being Noname — *kept canonical.*
 

@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 ---
 layout: scroll
-title: CoCivium — Operating System for Digital Society
+title: CoCivium™ — Operating System for Digital Society
 permalink: /
 ---
 

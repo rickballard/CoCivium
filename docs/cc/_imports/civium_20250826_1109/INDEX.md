@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium → CoCivium: seed + insights (staging)
+# CoCivium™ → CoCivium™: seed + insights (staging)
 Pulled: 2025-08-26T11:09:14.5149112-04:00
 
 - insights\Insight_AI_in_Pandoras_Box_c6_20250723.md

@@ -7,7 +7,7 @@
 <!-- status: stub; target: 150+ words -->
 # Metrics Pipeline (MVP)
 
-This folder contains the nightly metrics collector and SVG renderer for the CoCivium progress map.
+This folder contains the nightly metrics collector and SVG renderer for the CoCivium™ progress map.
 
 - `collect_metrics.py` — scans the repo to compute provisional scores (CI, Coverage, OFS, LSH, DTI, Throughput, LT_norm, EE, RD) and writes `metrics.json` plus a dated snapshot in `history/`.
 - `render_progress_map.py` — reads `metrics.json` and outputs `site/assets/progress_map_v0.svg` (static).

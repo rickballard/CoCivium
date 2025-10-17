@@ -2,7 +2,7 @@
 # DECLARATIONS
 
 > **Status:** bridge (not a stub trap).
-> While we port the full Cognocarta Consenti from CoCivium, start here:
+> While we port the full Cognocarta Consenti from CoCivium™, start here:
 > - [START-HERE](../START-HERE.md)
 > - [WORKFLOWS](../WORKFLOWS.md) • [STYLE](../STYLE.md)
 >

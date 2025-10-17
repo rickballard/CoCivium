@@ -5,9 +5,9 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium Session Primer
+# CoCivium™ Session Primer
 
-Use this at the start/end of every CoCivium session.
+Use this at the start/end of every CoCivium™ session.
 
 ## Start
 - `git pull`

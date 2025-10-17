@@ -6,11 +6,11 @@
 <!-- Created: 2025-08-01 -->
 <!-- Origin: Requested by RickPublic -->
 
-# 🛠️ TODO: Resolve Versioning Prefix Conflict Across CoCivium Scrolls
+# 🛠️ TODO: Resolve Versioning Prefix Conflict Across CoCivium™ Scrolls
 
 ## Problem Statement
 
-Current CoCivium scrolls use the prefix `c` for both:
+Current CoCivium™ scrolls use the prefix `c` for both:
 - **Coherence estimates** (e.g. `c9`, meaning “very coherent”)
 - **Versioning tags** (e.g. `c5.1`, meaning “scroll version 5.1”)
 
@@ -22,7 +22,7 @@ This introduces ambiguity in filenames, footers, and discussions.
   - e.g. `Insight_Unequal_Equity_v5.1_20250801.md`
 - **Reserve `c#` exclusively for coherence estimates**
   - e.g. `<!-- Coherence Estimate: c9 -->`
-- **Update all existing scrolls** in the CoCivium repo accordingly
+- **Update all existing scrolls** in the CoCivium™ repo accordingly
 - **Regenerate commit messages and filenames** where needed
 - **Update README or contributor guide** to clarify the standard
 

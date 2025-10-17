@@ -5,7 +5,7 @@ Purpose: make non-technical readers comfortable landing on the repo; draw them d
 
 Artifacts:
 - Landing callouts (README short principles).
-- One-pager: “Why CoCivium, in 60 seconds”.
+- One-pager: “Why CoCivium™, in 60 seconds”.
 - Talk track + FAQ links.
 
 Exit criteria:

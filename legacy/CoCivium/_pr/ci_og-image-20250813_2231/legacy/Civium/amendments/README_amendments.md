@@ -4,9 +4,9 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Amendments in CoCivium
+# Amendments in CoCivium™
 
-The Amendments scroll defines how CoCivium evolves—gracefully, transparently, and without fracture.
+The Amendments scroll defines how CoCivium™ evolves—gracefully, transparently, and without fracture.
 
 It outlines:
 

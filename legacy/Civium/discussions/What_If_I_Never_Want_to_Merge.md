@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 # What If I Never Want to Merge?
 
-**Between Silas (a radical individualist) and Rhea (a CoCivium interface designer):**
+**Between Silas (a radical individualist) and Rhea (a CoCivium™ interface designer):**
 
 Silas: “I don’t want my thoughts shaped by others. I don’t want to merge.”
 
@@ -18,7 +18,7 @@ Rhea: “Consent governs connection. You define boundaries. You choose filters.�
 
 Silas: “So I can exist fully as myself?”
 
-Rhea: “Yes. CoCivium isn’t assimilation—it’s orchestration. You can solo. You can opt out.”
+Rhea: “Yes. CoCivium™ isn’t assimilation—it’s orchestration. You can solo. You can opt out.”
 
 **Agreed:**
 Participation in CoCoCivium’s co-intelligence is voluntary. Identity integrity is sacred.

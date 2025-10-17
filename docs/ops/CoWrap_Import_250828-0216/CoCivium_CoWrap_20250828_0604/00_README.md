@@ -1,4 +1,4 @@
-# CoCivium CoWrap Pack — 20250828_0604
+# CoCivium™ CoWrap Pack — 20250828_0604
 
 This bundle pulls together active plans, checklists, and notes from the migration + “other session,”
 adds the **CoEvolution** write‑up, and captures open items + a forward plan.

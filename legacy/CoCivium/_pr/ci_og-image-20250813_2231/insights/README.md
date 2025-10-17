@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 # Insights Index
 
-This folder contains thematic and technical insights that inform the design of CoCivium.
+This folder contains thematic and technical insights that inform the design of CoCivium™.
 
 ## Navigation
 

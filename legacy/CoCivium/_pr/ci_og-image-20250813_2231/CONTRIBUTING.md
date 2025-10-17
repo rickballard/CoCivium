@@ -4,9 +4,9 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Contributing to CoCivium
+# Contributing to CoCivium™
 
-We welcome contributions from all minds — biological, synthetic, or hybrid — aligned with the CoCivium vision of purposeful co-evolution.
+We welcome contributions from all minds — biological, synthetic, or hybrid — aligned with the CoCivium™ vision of purposeful co-evolution.
 
 ## How to Contribute
 1. **Fork and clone** the repository.

@@ -2,9 +2,9 @@
 
 ## Overview
 
-Structured debate and shared epistemological foundations are essential for nurturing informed civic discourse and collective decision-making within CoCivium.
+Structured debate and shared epistemological foundations are essential for nurturing informed civic discourse and collective decision-making within CoCivium™.
 
-This codex defines systems for deliberation and the philosophical grounding for knowledge, belief, and truth evaluation that underpin CoCivium governance.
+This codex defines systems for deliberation and the philosophical grounding for knowledge, belief, and truth evaluation that underpin CoCivium™ governance.
 
 ---
 
@@ -38,7 +38,7 @@ Facilitate transparent, inclusive, and constructive deliberation to surface dive
 - **Transparency:** Epistemic processes must be auditable and understandable.
 - **Pluralism:** Multiple valid perspectives can coexist pending evidence.
 
-### 2.2 Application in CoCivium
+### 2.2 Application in CoCivium™
 
 - Truth metrics (see Codex 05) guide confidence assessments.
 - Collective knowledge advances through recursive inquiry and peer review.
@@ -48,10 +48,10 @@ Facilitate transparent, inclusive, and constructive deliberation to surface dive
 
 ## 3. Integration of Debate and Epistemology
 
-Structured debate serves as the operational vehicle for epistemic progress, enabling CoCivium to adapt and evolve collectively.
+Structured debate serves as the operational vehicle for epistemic progress, enabling CoCivium™ to adapt and evolve collectively.
 
 ---
 
-*This codex document is subject to iterative refinement as CoCivium evolves.*
+*This codex document is subject to iterative refinement as CoCivium™ evolves.*
 
 

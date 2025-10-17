@@ -5,7 +5,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks
+# Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium™) — appendix with repro & asks
 
 (Body identical to the standard forum post.)
 

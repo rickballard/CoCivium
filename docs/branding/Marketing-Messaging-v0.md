@@ -1,17 +1,17 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium — Messaging v0 (launch phase)
+# CoCivium™ — Messaging v0 (launch phase)
 
 ## One-sentence explainer (primary)
-CoCivium is an open-source community building a **living constitution for digital society**—practical rules, tools, and processes anyone can **adopt and evolve in public**.
+CoCivium™ is an open-source community building a **living constitution for digital society**—practical rules, tools, and processes anyone can **adopt and evolve in public**.
 
 ### Alternates
-- CoCivium builds a **people-first, evolvable civic playbook** so communities can decide and act together online—openly and accountably.
+- CoCivium™ builds a **people-first, evolvable civic playbook** so communities can decide and act together online—openly and accountably.
 - An **open governance lab** that turns voice → draft → decision → action, with reversible PRs and clear accountability.
 
 ## Homepage H1 (hero)
 **Build the living constitution for digital society.**
 
-## Tagline (strap to “CoCivium”)
+## Tagline (strap to “CoCivium™”)
 **Write the rules of digital society, together.**  *(recommended)*
 
 #### Alternate taglines
@@ -19,7 +19,7 @@ CoCivium is an open-source community building a **living constitution for digita
 - **From voices to decisions.**
 
 ## 50-word version
-CoCivium turns civic intent into shippable change. We write, test, and ship the **Cognocarta Consenti**—shared declarations and practical playbooks for fair, safe coordination online. Small posts, peer review, and clear accountability mean anyone can contribute, and communities can adopt what works.
+CoCivium™ turns civic intent into shippable change. We write, test, and ship the **Cognocarta Consenti**—shared declarations and practical playbooks for fair, safe coordination online. Small posts, peer review, and clear accountability mean anyone can contribute, and communities can adopt what works.
 
 ## Audience micro-pitches
 - **Experts & builders:** Ship reputation, not just commits—transparent review, credit, and citations. Work in small posts with visible impact.
