@@ -1,3 +1,5 @@
+[![CoCivium™ Control Room](https://raw.githubusercontent.com/rickballard/CoCache/main/docs/assets/brand/cocivium_logo_green_tm.svg)](https://github.com/rickballard/CoCache/blob/main/docs/CONSOLE.md)
+[![Giant Metrics Index](https://raw.githubusercontent.com/rickballard/CoCache/main/docs/assets/brand/cocivium_logo_amber_tm.svg)](https://github.com/rickballard/CoCache/blob/main/docs/METRICS_INDEX.md)
 # CoCivium™
 
 
@@ -22,4 +24,5 @@ _(Content map will grow as repo fills out.)_
 - Seed-kit: see CoCache → ops/kits/Build-CoSuiteSeedKit.ps1.
 
 </details>
+
 
