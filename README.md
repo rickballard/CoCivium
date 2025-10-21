@@ -25,4 +25,8 @@ _(Content map will grow as repo fills out.)_
 
 </details>
 
+<!-- BEGIN: STATUS -->
+### Operational Status
+CoDrift Index: n/a% (n/a)
+<!-- END: STATUS -->
 
