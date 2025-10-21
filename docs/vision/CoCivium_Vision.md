@@ -42,10 +42,10 @@ CoCivium™ is a practical path toward **consentful, polycentric governance** th
 - Interoperable, plain-file records (hashable when needed).
 
 ## 5) From Internet to real-world governance
-- Friendly jurisdictions: co-ops/associations; publish charters & obligations.
-- Unfriendly: *protocol, not organization*; diaspora chapters; conservative compliance.
-- Portability across hosts (forums, repos, DAOs, municipalities).
 
+• Friendly jurisdictions: partner through co-ops or associations. Publish charters and obligations.
+• When laws are hostile: operate as a protocol rather than a centralized organization. Local chapters run as independent entities that follow local law with a conservative posture on compliance.
+• Portability: work travels across forums, repos, DAOs, and municipalities.
 ## 6) Ethics (guardrails)
 - Dignity-first; consent & revocability; least coercion that protects safety/rights.
 - Open evidence; proportional remedies; protect dissent & skeptical safety.
@@ -54,9 +54,18 @@ CoCivium™ is a practical path toward **consentful, polycentric governance** th
 Finance & budgeting • Social safety • Health • Taxation • Wealth inequality • Education • Civic tech • Identity & privacy • Public records • Oversight.
 (See /domains for briefs and exemplars.)
 
+**7.5) Long-term horizon**
+
+CoCivium aims to be a durable mindshare environment for humans and future sentient partners.
+The goal is coevolution by consent: systems that help communities align on problems, test solutions in the open, and preserve what works.
+We treat augmentation carefully. Tools that amplify memory, judgment, or creativity must be opt-in, accountable, and reversible.
+We optimize for dignity, pluralism, and evidence so that progress compounds without demanding sameness.
+If there is a universal direction to the good, we expect it to emerge from many aligned choices at human scale, not from central command.
+
 ## 8) How to participate
 1) Read **Consent** and **Resolution** primers.
 2) Join/start a project under /projects.
 3) Propose improvements via issues (content gap / refactor).
 4) Help draft domain briefs; run small, reviewable experiments.
+
 
