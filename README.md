@@ -197,3 +197,9 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 ### Preflight
 Use `scripts/workbench/Preflight.ps1` anytime things feel off. It checks setup and prints fixes to apply (OE is prompt-driven; no popups).
+
+<!-- BEGIN: STATUS -->
+### Operational Status
+CoDrift Index: n/a% (n/a)
+<!-- END: STATUS -->
+
