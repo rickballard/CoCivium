@@ -24,7 +24,6 @@ _(Content map will grow as repo fills out.)_
 - Seed-kit: see CoCache → ops/kits/Build-CoSuiteSeedKit.ps1.
 
 </details>
-
 <!-- BEGIN: STATUS -->
 ### Operational Status
 CoDrift Index: n/a% (n/a)
