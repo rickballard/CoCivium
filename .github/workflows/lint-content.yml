@@ -1,0 +1,21 @@
+name: lint-content
+on:
+  pull_request:
+  push:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail on emdashes in text files
+        run: |
+          set -e
+          FILES=$(git ls-files | grep -Ei '\.(md|mdx|txt|ps1|psm1|psd1|json|ya?ml|ts|js|css|html)$' || true)
+          if [ -z "$FILES" ]; then echo "No candidate files."; exit 0; fi
+          BAD=$(printf '%s\n' $FILES | xargs -I{} bash -c "LC_ALL=C.UTF-8 grep -nP '\xE2\x80\x94' '{}' || true")
+          if [ -n "$BAD" ]; then
+            echo "Emdashes found in:" >&2
+            echo "$BAD" >&2
+            exit 1
+          fi
+          echo "No emdashes found."
