@@ -1,9 +1,9 @@
-# PowerShell pre-commit: repo-wide BPOE for staged Markdown
-$ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
-$root = Split-Path -Parent $PSScriptRoot
-Push-Location $root
-try {
-  pwsh -NoProfile -File "tools/Apply-BPOERepo.ps1" | Write-Host
-  $md = git diff --name-only --diff-filter=ACM
-  if ($md) { git add -- $md | Out-Null }
-} finally { Pop-Location }
+$ErrorActionPreference="Stop"
+$root   = (git rev-parse --show-toplevel).Trim()
+$optin  = (Test-Path (Join-Path $root ".cosync-allow")) -or (Test-Path (Join-Path $root ".cosync.ok"))
+$staged = & git diff --cached --name-only --diff-filter=ACMR
+if(-not $optin -and ($staged | Where-Object { $_ -like "status/*" -or $_ -eq "README.md" })){
+  Write-Error "CoSync: repo is not opted-in but status/ or README changes are staged."
+  exit 1
+}
+exit 0
