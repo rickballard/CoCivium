@@ -1,54 +1,15 @@
----
-name: pages
+name: Pages
 on:
   push:
     branches: [ main ]
-    paths:
-      - "site-human/**"
-      - ".github/workflows/pages.yml"
-  workflow_dispatch: {}
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
+    paths: [ "site/**", ".github/workflows/pages.yml" ]
+permissions: { contents: read, pages: write, id-token: write }
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Prep artifact (site-human → artifact)
-        run: |
-          mkdir _site
-          cp -R site-human/* _site/ || true
-          # Ensure an index exists so Pages won’t 404
-          if [ ! -f "_site/index.html" ]; then
-            cat > _site/index.html <<'HTML'
-<!doctype html><meta charset="utf-8">
-<title>CoCivium</title>
-<h1>CoCivium</h1>
-<p>Site scaffold online. See <a href="/assets/cc-scroll.html">Cognocarta Consenti — Megascroll</a>.</p>
-HTML
-          fi
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: 'site' }
+      - uses: actions/deploy-pages@v4
