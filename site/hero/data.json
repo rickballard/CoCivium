@@ -1,0 +1,79 @@
+{
+  "title": "CoCivium — Constellation Map",
+  "generated": "2025-10-23T16:10:19.0393310-04:00",
+  "axes": [
+    {
+      "id": "content",
+      "label": "Content Volume",
+      "desc": "Indexed content + footprint"
+    },
+    {
+      "id": "ambition",
+      "label": "Ambition Span",
+      "desc": "Breadth of programs/streams"
+    },
+    {
+      "id": "reflex",
+      "label": "CoReflex Coverage",
+      "desc": "Reflex packages + hashes"
+    },
+    {
+      "id": "engagement",
+      "label": "CoEngagement",
+      "desc": "Synthetic pulse / bandwidth"
+    },
+    {
+      "id": "velocity",
+      "label": "Shipping Velocity",
+      "desc": "Recent commit energy"
+    },
+    {
+      "id": "bloat",
+      "label": "Bloat Discipline",
+      "desc": "Size control / drift"
+    },
+    {
+      "id": "freeze",
+      "label": "Freeze Discipline",
+      "desc": "Hygiene under freeze"
+    },
+    {
+      "id": "sync",
+      "label": "Cross-Repo Sync",
+      "desc": "Heartbeats/coord receipts"
+    }
+  ],
+  "values": {
+    "freeze": 90,
+    "reflex": 10,
+    "ambition": 100,
+    "sync": 100,
+    "velocity": 100,
+    "content": 21,
+    "engagement": 48,
+    "bloat": 100
+  },
+  "notes": {
+    "repoCount": 34,
+    "hashFiles": 0,
+    "civSizeMB": 103.88,
+    "reflexCount": 1
+  },
+  "points": [
+    {
+      "axis": "content",
+      "weight": 0.9,
+      "name": "CoCivium/insights"
+    },
+    {
+      "axis": "ambition",
+      "weight": 0.7,
+      "name": "RickPublic/sotw"
+    },
+    {
+      "axis": "reflex",
+      "weight": 1.0,
+      "name": "CoReflex"
+    }
+  ]
+}

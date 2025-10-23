@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CoCivium — Constellation Map</title>
+<style>
+  html,body{margin:0;background:#0b1020;color:#e8f2ff;font-family:ui-sans-serif,system-ui,Segoe UI,Roboto}
+  .wrap{display:grid;place-items:center;min-height:100vh}
+  .card{max-width:960px;width:92%;padding:24px;border-radius:16px;background:linear-gradient(180deg,#0f1733, #0b1020);}
+  .title{font-weight:700;font-size:22px;letter-spacing:.3px;margin:0 0 8px}
+  .subtitle{opacity:.7;margin:0 0 18px}
+  svg{width:100%;height:auto}
+  .axis text{fill:#bfe;font-size:12px}
+  .ring{stroke:#385; opacity:.2}
+  .poly{fill:url(#web);stroke:#7ef;stroke-width:2;filter:drop-shadow(0 0 8px #7ef8)}
+  .node{fill:#fff}
+  .blink{animation:blink 2.6s infinite ease-in-out}
+  @keyframes blink{0%{opacity:.35}50%{opacity:.9}100%{opacity:.35}}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+  <h1 class="title">CoCivium — Constellation Map</h1>
+  <p class="subtitle">Live intent • progress • reflex</p>
+  <svg viewBox="0 0 900 520" id="viz" role="img" aria-label="Constellation Map"></svg>
+  <p style="opacity:.6;margin-top:8px">Data source: <code>site/hero/data.json</code> (auto-updated)</p>
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+(async function(){
+  const res = await fetch('data.json'); const j = await res.json();
+  const axes = j.axes, vals = j.values, pts = j.points||[];
+  const W=900,H=520,cx=W/2,cy=H/2,R=Math.min(W,H)*0.33;
+  const svg=d3.select('#viz');
+  const defs=svg.append('defs');
+  const grad=defs.append('radialGradient').attr('id','web').attr('cx','50%').attr('cy','50%').attr('r','60%');
+  grad.append('stop').attr('offset','0%').attr('stop-color','#8ef').attr('stop-opacity','.55');
+  grad.append('stop').attr('offset','100%').attr('stop-color','#154').attr('stop-opacity','.25');
+
+  // backdrop rings
+  const g=svg.append('g');
+  for(let r=R/6;r<=R;r+=R/6){
+    g.append('circle').attr('class','ring').attr('cx',cx).attr('cy',cy).attr('r',r).attr('fill','none');
+  }
+
+  const N=axes.length;
+  const angle = i => ((Math.PI*2)/N)*i - Math.PI/2;
+  const p = (i,scale=1)=>{
+    const v=(vals[axes[i].id]??0)/100*R*scale;
+    return [cx+Math.cos(angle(i))*v, cy+Math.sin(angle(i))*v];
+  }
+
+  // axes labels
+  axes.forEach((a,i)=>{
+    const [lx,ly]=[cx+Math.cos(angle(i))*(R+24), cy+Math.sin(angle(i))*(R+24)];
+    svg.append('text').attr('class','axis').attr('x',lx).attr('y',ly).attr('text-anchor','middle').text(a.label);
+  });
+
+  // polygon
+  const poly = d3.range(N).map(i=>p(i)).join(' ');
+  const shp=svg.append('polygon').attr('class','poly').attr('points',poly).style('opacity',0);
+  shp.transition().duration(1200).style('opacity',1);
+
+  // core points
+  pts.forEach((pt,k)=>{
+    const i = axes.findIndex(a=>a.id===pt.axis);
+    if(i<0) return;
+    const [x,y]=p(i, pt.weight||0.9);
+    svg.append('circle').attr('class','node blink').attr('cx',x).attr('cy',y).attr('r',4);
+    svg.append('text').attr('x',x+8).attr('y',y-6).attr('fill','#e8f2ff').attr('font-size','12').text(pt.name);
+  });
+
+  // spark particles
+  const sparks=svg.append('g');
+  d3.interval(()=> {
+    const t=Date.now(), n=6;
+    for(let i=0;i<n;i++){
+      const a=Math.random()*Math.PI*2, r=R*(.2+.8*Math.random());
+      const x=cx+Math.cos(a)*r, y=cy+Math.sin(a)*r;
+      sparks.append('circle').attr('cx',x).attr('cy',y).attr('r',0.6).attr('fill','#9ff')
+        .transition().duration(1800).attr('r',0.0).style('opacity',0).remove();
+    }
+  },900);
+})();
+</script>
+</body>
+</html>
