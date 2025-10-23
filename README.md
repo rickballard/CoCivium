@@ -29,3 +29,8 @@ _(Content map will grow as repo fills out.)_
 CoDrift Index: n/a% (n/a)
 <!-- END: STATUS -->
 
+
+<!-- hero (auto-generated; see site/hero) -->
+<p align="center">
+  <a href="site/hero/"><img src="site/hero/hero.svg" alt="CoCivium — Constellation Map" width="720"></a>
+</p>
