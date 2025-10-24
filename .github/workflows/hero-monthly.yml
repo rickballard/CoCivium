@@ -1,0 +1,27 @@
+name: Hero Spider (monthly)
+on:
+  schedule:
+    - cron: '0 5 1 * *'
+  workflow_dispatch:
+
+jobs:
+  build-hero:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare paths
+        shell: pwsh
+        run: |
+          \C:\Users\Chris\Documents\GitHub  = "\C:\Users\Chris\Documents\GitHub"
+          if(!(Test-Path "\C:\Users\Chris\Documents\GitHub\CoCache")){ git clone --depth=1 https://github.com/rickballard/CoCache "\C:\Users\Chris\Documents\GitHub\CoCache" }
+          pwsh -NoLogo -NoProfile -File "\C:\Users\Chris\Documents\GitHub\CoCache\tools\Build-CoCiviumSpider.ps1" 
+            -CoCache "\C:\Users\Chris\Documents\GitHub\CoCache" -CoCivium "\C:\Users\Chris\Documents\GitHub" -Quick
+      - name: Commit hero artifacts
+        shell: pwsh
+        run: |
+          git config user.name  "hero-bot"
+          git config user.email "hero-bot@users.noreply.github.com"
+          git add site/hero/data.json site/hero/hero.svg 2>$null
+          if(git diff --cached --quiet){ exit 0 }
+          git commit -m "hero: monthly refresh"
+          git push
