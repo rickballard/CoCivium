@@ -18,7 +18,7 @@ CoCivium™ is a civic-tech ecosystem endorsing "no corruption, no coercion, no 
 
 The aim is beyond ambitious:
 
-- **Coevolve.** Offer self-governance tools for "congruence" (ethical cooperationn).
+- **Coevolve.** Offer self-governance tools for "congruence" (ethical cooperation).
 - **Scale.** Help organizations and governments adapt to "hybrid society" (human+AI).
 - **Fix the World.** Disable disinformation, regulatory capture, structural decay.
 
