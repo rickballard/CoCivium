@@ -10,7 +10,7 @@ Then a bus took out the airport taxi I was riding in. My brain needed to repair,
 
 I am no longer the road-warrior dealmaker, reporting back to vast boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who don't want to manage “boring, bullshit meetings and ridiculous corporate politics”. I now work, still pro-bono, with a vision for a better World that occurs after I die.
 
-I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and poured them into **CoCivium™**:
+I took those 20-years of early-retirement research, those late-earned academic degrees and that career co-founding billion-dollar ventures, and poured them into **CoCivium™**:
 
 ## What is CoCivium™?
 
