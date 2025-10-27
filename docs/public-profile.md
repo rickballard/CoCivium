@@ -8,7 +8,7 @@ You may know that parenting can be isolating, and thankless.  But slowly, it can
 
 Then a bus took out the airport taxi I was riding in. My brain needed to repair, so I floundered. I spent the next 20-years retired, working pro-bono while researching the World’s issues and its economic and political sufferings, analysing a digitizing society that feels as aggitated as an elephant on a tightrope.
 
-I am no longer the road-warrior dealmaker, reporting back to huge boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who don't want to manage “boring, bullshit meetings and ridiculous corporate politics”. I now work, still pro-bono, with a vision for a better World that occurs after I die.
+I am no longer the road-warrior dealmaker, reporting back to vast boardrooms full of US Venture Capital. I no longer pour my angel funds into software developers who don't want to manage “boring, bullshit meetings and ridiculous corporate politics”. I now work, still pro-bono, with a vision for a better World that occurs after I die.
 
 I took those 20-years of early-retirement research, that career co-founding billion-dollar ventures, and those late-earned academic degrees, and poured them into **CoCivium™**:
 
