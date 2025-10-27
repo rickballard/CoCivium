@@ -64,8 +64,8 @@ If your project helps people coevolve, reduces coercion and corruption, or advan
 
 ## Transparency Request (for my son)
 
-My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your CEO, but only if you believe that CEO will “get it", perhaps including this note:
+My son, if you ever read this, and if you judge it appropriate, please share an excerpt of this message with your colleagues, but only if you believe they will “get it", perhaps including this note:
 
 > Transparency is key to purpose; purpose is key to leadership. I share this because aligned purpose makes better organizations and a better World.
 
-Use your judgement. Context matters.  Wisdom is choosing the right moment, but when clarity finally arrives, the floundering can all become worthwhile.
+Use your judgement, my son. Context matters.  Wisdom is choosing the right moment.  When clarity finally arrives, a lifetime of floundering can become worthwhile.
