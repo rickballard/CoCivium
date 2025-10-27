@@ -1,4 +1,10 @@
 param([string]$RepoRoot = (Split-Path -Parent $PSScriptRoot))
+$ErrorActionPreference = "Stop"
+if(-not (Test-Path "$RepoRoot/.cosync-allow") -and -not (Test-Path "$RepoRoot/.cosync.ok")){
+  Write-Host "CoSync: repo not opted-in (.cosync-allow/.cosync.ok missing) — skipping."
+  exit 0
+}
+param([string]$RepoRoot = (Split-Path -Parent $PSScriptRoot))
 $ErrorActionPreference="Stop"; Set-Location $RepoRoot
 if(Test-Path "scripts/Measure-CoDrift.ps1"){ pwsh -NoProfile -ExecutionPolicy Bypass -File "scripts/Measure-CoDrift.ps1" | Out-Host }
 if(Test-Path "scripts/Update-StatusBlock.ps1"){ pwsh -NoProfile -ExecutionPolicy Bypass -File "scripts/Update-StatusBlock.ps1" | Out-Host }
@@ -11,3 +17,4 @@ if(git diff --cached --name-only){
 $pushed=$false; try{ if($hadChanges){ git push | Out-Null; $pushed=$true } }catch{}
 $cdi="n/a"; $stat="n/a"; if(Test-Path "status/codrift.json"){ try{ $j=Get-Content "status/codrift.json" -Raw | ConvertFrom-Json; $cdi=[int]$j.score; $stat=[string]$j.status }catch{} }
 Write-Host ("CoSync: CDI {0}% ({1}); committed: {2}; pushed: {3}" -f $cdi,$stat,([bool]$hadChanges),([bool]$pushed))
+
