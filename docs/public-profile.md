@@ -4,7 +4,7 @@ Hi, I’m Rick.
 
 My former career chased fortune by making billionaires richer.  I was making U$50k/week by the 1990's, but it hollowed me out. I then hid in academia for many years, hoping it might show me a safer, more comfortable path. Then, very late in life for most, I had a kid.
 
-You may know, parenting can be isolating and thankless.  But slowly, it also showed me how profoundly ignorant I had been about myself, for four decades! The awakening was simple but deep: **serving good people, who may also serve good people, is a purpose more meaningful than wealthy lifestyles.**
+You may know that parenting can be isolating, and thankless.  But slowly, it can also show you how profoundly ignorant one can be about oneself, and for four decades! The awakening was simple but deep: **serving good people, who may also serve good people, is a purpose more meaningful than wealthy lifestyles.**
 
 Then a bus took out the airport taxi I was riding in. My brain needed to repair, so I floundered. I spent the next 20-years retired, working pro-bono while researching the World’s issues and its economic and political sufferings, analysing a digitizing society that feels as aggitated as an elephant on a tightrope.
 
