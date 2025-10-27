@@ -1,0 +1,25 @@
+name: links-backlinks
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - 'tools/links/**'
+      - '.github/workflows/links-backlinks.yml'
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.md'
+      - 'tools/links/**'
+jobs:
+  backlinks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild backlinks
+        shell: pwsh
+        run: |
+          \SilentlyContinue='Stop'
+          $R = (Resolve-Path ".").Path
+          pwsh -NoLogo -NoProfile -File "$R/tools/links/Scan-Backlinks.ps1"
+      - name: Detect changes
+        run: git diff --no-ext-diff --quiet || (echo "::error::Backlink index out-of-date. Run tools/links/Scan-Backlinks.ps1 and commit artifacts." && exit 1)
