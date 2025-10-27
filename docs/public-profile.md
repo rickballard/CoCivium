@@ -26,7 +26,7 @@ That larger vision might even earn our species an invitation into multiversal ci
 
 CoCivium™ may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
-*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own kid when he firsts looks at you, still unable to speak, but with words that burst your heart.*
+*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own child when they first looks at you, still unable to speak, but with words that burst your heart.*
 
 *Because without love, my son, AI does not need us, multiversal civilization does not need us, and nor does godstuff. You, my son, are why I lived, just as I am why you lived.*
 
