@@ -1,0 +1,7 @@
+extends: default
+rules:
+  line-length: {max: 140, level: warning}
+  trailing-spaces: enable
+  indentation:
+    indent-sequences: consistent
+    spaces: 2
