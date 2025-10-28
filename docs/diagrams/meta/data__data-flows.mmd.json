@@ -1,0 +1,10 @@
+{
+  "title": "Data Flows",
+  "caption": "From sources to caches to outputs.",
+  "tags": [
+    "data",
+    "pipelines"
+  ],
+  "source": "/docs/diagrams/render/data/data-flows.mmd",
+  "updated": "2025-10-28T23:33:18.2953156Z"
+}

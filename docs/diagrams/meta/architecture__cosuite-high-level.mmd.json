@@ -1,0 +1,10 @@
+{
+  "title": "CoSuite: High-Level System",
+  "caption": "Top-level components and their relationships.",
+  "tags": [
+    "architecture",
+    "overview"
+  ],
+  "source": "/docs/diagrams/render/architecture/cosuite-high-level.mmd",
+  "updated": "2025-10-28T23:33:18.2705328Z"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "CoAgent: 4-Panel Flow",
+  "caption": "User <-> PS7 <-> Browser <-> Status orchestration.",
+  "tags": [
+    "coagent",
+    "ux",
+    "flow"
+  ],
+  "source": "/docs/diagrams/render/architecture/coagent-4-panel.mmd",
+  "updated": "2025-10-28T23:33:18.2765414Z"
+}

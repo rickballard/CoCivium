@@ -1,0 +1,10 @@
+{
+  "title": "CI: Diagrams Export",
+  "caption": "Mermaid -> SVG/PNG exporter workflow.",
+  "tags": [
+    "ci",
+    "mermaid"
+  ],
+  "source": "/docs/diagrams/render/pipelines/ci-diagrams-export.mmd",
+  "updated": "2025-10-28T23:33:18.3011787Z"
+}

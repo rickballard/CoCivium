@@ -1,0 +1,10 @@
+{
+  "title": "AdviceBomb Lifecycle",
+  "caption": "Zip ingest -> verify -> PR -> merge -> index.",
+  "tags": [
+    "process",
+    "advicebomb"
+  ],
+  "source": "/docs/diagrams/render/advice/advicebomb-lifecycle.mmd",
+  "updated": "2025-10-28T23:33:18.2858775Z"
+}

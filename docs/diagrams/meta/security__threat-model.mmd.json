@@ -1,0 +1,10 @@
+{
+  "title": "Threat Model (High-Level)",
+  "caption": "Risks, surfaces, mitigations (best-effort).",
+  "tags": [
+    "security",
+    "risk"
+  ],
+  "source": "/docs/diagrams/render/security/threat-model.mmd",
+  "updated": "2025-10-28T23:33:18.3339360Z"
+}
