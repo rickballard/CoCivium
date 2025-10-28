@@ -1,5 +1,6 @@
 param([string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path)
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
+
 $root      = (Resolve-Path $RepoRoot).Path
 $jsonDir   = Join-Path $root 'docs\diagrams\examples'
 $renderDir = Join-Path $root 'docs\diagrams\render'
@@ -16,7 +17,13 @@ foreach($f in $files){
   if($j.links){ $links += $j.links }
 }
 $nodes = $nodes | Sort-Object @{Expression='type'},@{Expression='id'}
-$links = $links | Sort-Object @{Expression='source'},@{Expression='target'},@{Expression='rel'}
+$links = $links | Sort-Object @{Expression='source'},@{Expression='target'}
+
+function Escape-Label([string]$s){
+  if($null -eq $s){ return '' }
+  # Mermaid label inside ["..."] -> escape internal double-quotes
+  return ($s -replace '"','\"')
+}
 
 # Mermaid emit -> lines array
 $ts = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
@@ -28,14 +35,21 @@ foreach($g in $groups){
   $t = if([string]::IsNullOrWhiteSpace($g.Name)) { 'Ungrouped' } else { $g.Name }
   $lines += ('subgraph ' + $t)
   foreach($n in $g.Group){
-    $id = $n.id; $label = if([string]::IsNullOrWhiteSpace($n.label)) { $n.id } else { $n.label }
+    $id = $n.id
+    $label = if([string]::IsNullOrWhiteSpace($n.label)) { $n.id } else { $n.label }
+    $label = Escape-Label $label
     $lines += ('  ' + $id + '["' + $label + '"]')
   }
   $lines += 'end'
 }
 foreach($e in $links){
-  $src=$e.source; $dst=$e.target; $relLabel = if([string]::IsNullOrWhiteSpace($e.rel)){''}{' |"' + $e.rel + '"|"'}
-  $lines += ($src + ' -->' + $relLabel + ' ' + $dst)
+  $src = $e.source; $dst = $e.target
+  # Safely read optional 'rel' from either PSCustomObject or hashtable
+  $rel = $null
+  if($e -is [hashtable]){ $rel = $e['rel'] }
+  elseif($e.PSObject.Properties.Name -contains 'rel'){ $rel = $e.rel }
+  $relText = if([string]::IsNullOrWhiteSpace([string]$rel)){ '' } else { ' |"' + [string]$rel + '"|' }
+  $lines += ($src + ' -->' + $relText + ' ' + $dst)
 }
 Set-Content -Path $mmdOut -Value $lines -Encoding UTF8
 
