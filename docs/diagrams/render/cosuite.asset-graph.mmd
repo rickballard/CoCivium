@@ -1,0 +1,12 @@
+flowchart LR
+  subgraph Misc
+    CoCivium["CoCivium"]
+    CoCache["CoCache"]
+    CoAgent["CoAgent"]
+    AdviceInbox["Advice Inbox"]
+  end
+  CoCache --> AdviceInbox
+  AdviceInbox --> CoCivium
+  CoCache --> CoAgent
+  CoAgent --> CoCivium
+
