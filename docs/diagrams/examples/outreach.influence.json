@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "priority": "P3",
+    "notes": "Initial canonical stub; JSON is source of truth.",
+    "version": "vSTUB",
+    "updated": "2025-10-27",
+    "title": "Outreach & Influence",
+    "status": "draft"
+  },
+  "links": [
+    {
+      "source": "CoPolitic",
+      "target": "Influencers",
+      "rel": "engages"
+    },
+    {
+      "source": "RickPublic",
+      "target": "Contribs",
+      "rel": "mobilizes"
+    },
+    {
+      "source": "GroupBuild",
+      "target": "Contribs",
+      "rel": "organizes"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "CoPolitic",
+      "type": "Outreach",
+      "id": "CoPolitic"
+    },
+    {
+      "label": "RickPublic",
+      "type": "Outreach",
+      "id": "RickPublic"
+    },
+    {
+      "label": "GroupBuild",
+      "type": "Outreach",
+      "id": "GroupBuild"
+    },
+    {
+      "label": "Contributors",
+      "type": "Community",
+      "id": "Contribs"
+    },
+    {
+      "label": "Influencers",
+      "type": "Community",
+      "id": "Influencers"
+    }
+  ]
+}

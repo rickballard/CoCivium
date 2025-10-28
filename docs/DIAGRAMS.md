@@ -1,8 +1,8 @@
-# DIAGRAMS
+# CoSuite Diagrams — Canonical JSON & Mermaid proofs
 
-_JSON is canonical; blocks below are generated from docs/diagrams/examples/*.json_
+**Policy:** JSON is **canonical**; renders are **mechanical** (Mermaid pasted below).  
+**Path:** docs/diagrams/examples/*.json
 
-## Mermaid
+## AdviceBomb Lifecycle  ($(C:\Users\Chris\Documents\GitHub\CoCivium\docs\diagrams\examples\advicebomb.lifecycle.json.Name))
+
 ```mermaid
-%% paste generated Mermaid here (do not hand-edit)
-// paste generated D2 here (do not hand-edit)

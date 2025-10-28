@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "priority": "P2",
+    "notes": "Initial canonical stub; JSON is source of truth.",
+    "version": "vSTUB",
+    "updated": "2025-10-27",
+    "title": "AdviceBomb Lifecycle",
+    "status": "draft"
+  },
+  "links": [
+    {
+      "source": "Draft",
+      "target": "CoEvo",
+      "rel": "iterate"
+    },
+    {
+      "source": "CoEvo",
+      "target": "Package",
+      "rel": "next"
+    },
+    {
+      "source": "Package",
+      "target": "Inbox",
+      "rel": "drop"
+    },
+    {
+      "source": "Inbox",
+      "target": "Review",
+      "rel": "triage"
+    },
+    {
+      "source": "Review",
+      "target": "Merge",
+      "rel": "approve"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Draft",
+      "type": "Lifecycle",
+      "id": "Draft"
+    },
+    {
+      "label": "CoEvo Loop",
+      "type": "Lifecycle",
+      "id": "CoEvo"
+    },
+    {
+      "label": "Package (Zip)",
+      "type": "Lifecycle",
+      "id": "Package"
+    },
+    {
+      "label": "CoCache Inbox",
+      "type": "Lifecycle",
+      "id": "Inbox"
+    },
+    {
+      "label": "Review/Audit",
+      "type": "Lifecycle",
+      "id": "Review"
+    },
+    {
+      "label": "Merge to main",
+      "type": "Lifecycle",
+      "id": "Merge"
+    }
+  ]
+}
