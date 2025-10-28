@@ -34,14 +34,3 @@ jobs:
           git config core.autocrlf false
           git status --porcelain
           git diff --exit-code -- docs/DIAGRAMS.md docs/diagrams/render/asset-graph.mmd
-      - name: Upload DIAGRAMS.md
-        uses: actions/upload-artifact@v4
-        with:
-          name: DIAGRAMS-md
-          path: docs/DIAGRAMS.md
-
-      - name: Upload Mermaid proof
-        uses: actions/upload-artifact@v4
-        with:
-          name: asset-graph-mmd
-          path: docs/diagrams/render/asset-graph.mmd
