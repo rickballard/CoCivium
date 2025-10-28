@@ -68,7 +68,13 @@ RepTag --> |"augments"| CoCore
 RickPublic --> |"indexes"| CoCache
 ```
 
+> **Caption:** CoSuite asset relationships (best-effort; see JSON in `docs/diagrams/examples/`).
+
 ## D2 (placeholder, reserved)
 ```d2
 // placeholder kept to satisfy fence invariants.
 ```
+
+
+---
+**Legend:** see [docs/diagrams/render/legend.mmd](docs/diagrams/render/legend.mmd)
