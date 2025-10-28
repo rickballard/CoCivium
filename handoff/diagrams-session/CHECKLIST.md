@@ -1,0 +1,5 @@
+- [x] CoSync handoff pack written
+- [x] DIAGRAMS.md has open+close fences for Mermaid and D2
+- [x] Render proof exists
+- [ ] CI job added
+- [ ] D2 fence populated by CI

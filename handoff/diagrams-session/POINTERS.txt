@@ -1,0 +1,5 @@
+C:\Users\Chris\Documents\GitHub\CoCivium\docs\DIAGRAMS.md
+C:\Users\Chris\Documents\GitHub\CoCivium\docs\diagrams\examples
+C:\Users\Chris\Documents\GitHub\CoCivium\docs\diagrams\render\asset-graph.mmd
+C:\Users\Chris\Documents\GitHub\CoCivium\handoff\diagrams-session\SESSION_STATUS.md
+C:\Users\Chris\Documents\GitHub\CoCivium\handoff\diagrams-session\CHECKLIST.md
