@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoSuite Graph",
+  "type": "object",
+  "properties": {
+    "nodes": { "type": "array", "items": { "type": "object", "required": ["id","label"],
+      "properties": { "id":{"type":"string"}, "label":{"type":"string"}, "type":{"type":"string"}, "url":{"type":"string"} } } },
+    "links": { "type": "array", "items": { "type": "object", "required": ["source","target"],
+      "properties": { "source":{"type":"string"}, "target":{"type":"string"}, "rel":{"type":"string"} } } }
+  },
+  "required": ["nodes","links"]
+}
