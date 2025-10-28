@@ -1,0 +1,26 @@
+name: diagrams
+on:
+pull_request:
+paths:
+- "docs/diagrams/"
+- "docs/DIAGRAMS.md"
+push:
+branches: [ main ]
+paths:
+- "docs/diagrams/"
+- "docs/DIAGRAMS.md"
+
+jobs:
+build-check:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout
+uses: actions/checkout@v4
+  - name: Rebuild DIAGRAMS.md from JSON (pwsh)
+    shell: pwsh
+    run: ./docs/diagrams/tools/build-diagrams.ps1
+
+  - name: Fail if files drift from canonical generation
+    shell: bash
+    run: |
+      git diff --exit-code -- docs/DIAGRAMS.md docs/diagrams/render/asset-graph.mmd
