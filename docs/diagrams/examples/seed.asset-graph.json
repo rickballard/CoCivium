@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "type": "repo",
+      "id": "CoCache",
+      "label": "CoCache"
+    },
+    {
+      "type": "repo",
+      "id": "CoAgent",
+      "label": "CoAgent"
+    },
+    {
+      "type": "service",
+      "id": "AdviceInbox",
+      "label": "Advice Inbox"
+    },
+    {
+      "type": "repo",
+      "id": "CoCivium",
+      "label": "CoCivium"
+    }
+  ],
+  "links": [
+    {
+      "target": "AdviceInbox",
+      "source": "CoCache",
+      "rel": "emits"
+    },
+    {
+      "target": "CoCivium",
+      "source": "AdviceInbox",
+      "rel": "feeds"
+    },
+    {
+      "target": "CoAgent",
+      "source": "CoCache",
+      "rel": "indexes"
+    }
+  ]
+}

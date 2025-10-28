@@ -1,20 +1,39 @@
-# DIAGRAMS
+# CoCivium Diagrams
 
-_JSON is canonical; blocks below are generated from docs/diagrams/examples/*.json._
+This page is generated from JSON files under `docs/diagrams/examples/`.
+**Do not hand-edit the fenced blocks below.** Update JSON and re-run the builder.
 
-## Mermaid
-`mermaid
+## Asset Graph (Mermaid, generated)
+```mermaid
+%% generated:2025-10-28T18:10:58Z
 flowchart LR
-  subgraph Misc
-    CoCache["CoCache"]
-    CoAgent["CoAgent"]
-    AdviceInbox["Advice Inbox"]
-    CoCivium["CoCivium"]
-  end
-  CoCache --> AdviceInbox
-  AdviceInbox --> CoCivium
-  CoCache --> CoAgent
-  CoAgent --> CoCivium
-  CoCivium -->|indexes| CoCache
+subgraph repo
+  CoAgent["CoAgent"]
+  CoCache["CoCache"]
+  CoCache["CoCache"]
+  CoCivium["CoCivium"]
+  CoCivium["CoCivium"]
+end
+subgraph service
+  AdviceInbox["Advice Inbox"]
+end
+subgraph Ungrouped
+  AdviceInbox["Advice Inbox"]
+  CoAgent["CoAgent"]
+  CoCache["CoCache"]
+  CoCivium["CoCivium"]
+end
+AdviceInbox --> |"feeds"| CoCivium
+AdviceInbox --> CoCivium
+CoAgent --> CoCivium
+CoCache --> |"emits"| AdviceInbox
+CoCache --> AdviceInbox
+CoCache --> |"indexes"| CoAgent
+CoCache --> CoAgent
+CoCivium --> |"indexes"| CoCache
+```
 
-// placeholder: CI will emit D2 from the same JSON sources
+## D2 (placeholder, reserved)
+```d2
+// placeholder kept to satisfy fence invariants.
+```
