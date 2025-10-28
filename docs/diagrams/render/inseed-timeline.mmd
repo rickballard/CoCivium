@@ -1,7 +1,16 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': { 'fontSize':'14px','fontFamily':'Inter,Segoe UI,Arial,sans-serif',
+    'textColor':'#0b0b0b','lineColor':'#1f2328',
+    'ganttTaskTextColor':'#0b0b0b','ganttAxisTextColor':'#2e2e2e','ganttAxisLineColor':'#9aa4b2',
+    'ganttBarFill':'#d7eaff','ganttBarStroke':'#0a66c2','tertiaryColor':'#f6f8fa'} } }%%
 gantt
 dateFormat  YYYY-MM-DD
 axisFormat  %Y
+tickInterval 1year
 title InSeed — Timeline (1990 → present)
+excludes weekends
+todayMarker stroke-width 2px
 
 section Evolution
 1990–1998 · Pre Systems Integration consulting boutique :active, 1990-01-01, 1998-12-31
@@ -9,4 +18,4 @@ section Evolution
 2004–2022 · Angel partner for US VC + consultancy expansion :active, 2004-01-01, 2022-12-31
 2024–present · Enterprise pivot & CoStewards :active, 2024-01-01, 2029-12-31
 
-%% Notes (hover tooltips not supported in GH; captured in JSON source)
+%% Notes live in JSON: docs/diagrams/data/inseed.timeline.json
