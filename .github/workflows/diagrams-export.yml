@@ -1,0 +1,45 @@
+name: diagrams-export
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "docs/diagrams/render/**/*.mmd"
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm i -g @mermaid-js/mermaid-cli@10
+      - name: Export all .mmd to SVG/PNG
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s globstar nullglob
+          for f in docs/diagrams/render/**/*.mmd; do
+            base="${f%.mmd}"
+            mmdc -i "$f" -o "${base}.svg" --scale 1
+            mmdc -i "$f" -o "${base}.png" --scale 2
+          done
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagrams-export
+          path: |
+            docs/diagrams/render/**/*.svg
+            docs/diagrams/render/**/*.png
+          retention-days: 7
+      - name: Commit rendered images (optional)
+        if: ${{ github.ref_name == 'main' }}
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add docs/diagrams/render/**/*.svg docs/diagrams/render/**/*.png || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(diagrams): export SVG/PNG"
+            git push
+          fi
