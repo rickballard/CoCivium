@@ -79,7 +79,7 @@ RickPublic --> |"indexes"| CoCache
 
 
 ---
-**Legend:** see [docs/diagrams/render/legend.mmd](docs/diagrams/render/legend.mmd)
+**Legend:** see [docs/diagrams/render/legend.mmd](diagrams/render/legend.mmd)
 
 
 ## Exported (SVG/PNG) quick view
