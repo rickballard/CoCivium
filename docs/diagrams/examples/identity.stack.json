@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "version": "vSTUB",
+    "title": "Identity Stack",
+    "updated": "2025-10-27",
+    "notes": "Initial stub per GO; JSON is canonical.",
+    "status": "draft"
+  },
+  "nodes": [
+    {
+      "id": "MeritRank",
+      "label": "MeritRank",
+      "type": "Identity"
+    },
+    {
+      "id": "RepTag",
+      "label": "RepTag",
+      "type": "Identity"
+    },
+    {
+      "id": "ScripTag",
+      "label": "ScripTag",
+      "type": "Identity"
+    },
+    {
+      "id": "DigitalHalo",
+      "label": "Digital Halo",
+      "type": "Identity"
+    },
+    {
+      "id": "Verifier",
+      "label": "Verifier(s)",
+      "type": "Identity"
+    },
+    {
+      "id": "Subjects",
+      "label": "Subjects/Contributors",
+      "type": "Identity"
+    }
+  ],
+  "links": [
+    {
+      "source": "RepTag",
+      "target": "MeritRank",
+      "rel": "inputs"
+    },
+    {
+      "source": "ScripTag",
+      "target": "MeritRank",
+      "rel": "inputs"
+    },
+    {
+      "source": "MeritRank",
+      "target": "DigitalHalo",
+      "rel": "scores"
+    },
+    {
+      "source": "Verifier",
+      "target": "RepTag",
+      "rel": "attests"
+    },
+    {
+      "source": "Verifier",
+      "target": "ScripTag",
+      "rel": "attests"
+    },
+    {
+      "source": "Subjects",
+      "target": "RepTag",
+      "rel": "claims"
+    }
+  ]
+}

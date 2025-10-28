@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "version": "vSTUB",
+    "title": "CoFlow: DO-Block Pipeline",
+    "updated": "2025-10-27",
+    "notes": "Initial stub per GO; JSON is canonical.",
+    "status": "draft"
+  },
+  "nodes": [
+    {
+      "id": "Author",
+      "label": "Author",
+      "type": "Workflow"
+    },
+    {
+      "id": "Validate",
+      "label": "Validate",
+      "type": "Workflow"
+    },
+    {
+      "id": "Package",
+      "label": "Package (AdviceBomb/CoWrap)",
+      "type": "Workflow"
+    },
+    {
+      "id": "Handoff",
+      "label": "Handoff (CoCache Inbox)",
+      "type": "Workflow"
+    },
+    {
+      "id": "Audit",
+      "label": "Audit Signals",
+      "type": "Workflow"
+    },
+    {
+      "id": "Publish",
+      "label": "Publish (README/Pages)",
+      "type": "Workflow"
+    }
+  ],
+  "links": [
+    {
+      "source": "Author",
+      "target": "Validate",
+      "rel": "next"
+    },
+    {
+      "source": "Validate",
+      "target": "Package",
+      "rel": "next"
+    },
+    {
+      "source": "Package",
+      "target": "Handoff",
+      "rel": "next"
+    },
+    {
+      "source": "Handoff",
+      "target": "Audit",
+      "rel": "signals"
+    },
+    {
+      "source": "Audit",
+      "target": "Publish",
+      "rel": "gate"
+    },
+    {
+      "source": "Publish",
+      "target": "Author",
+      "rel": "iterate"
+    }
+  ]
+}

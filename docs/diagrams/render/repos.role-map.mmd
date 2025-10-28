@@ -1,0 +1,16 @@
+flowchart LR
+  subgraph Repo
+    CoCivium["CoCivium (Vision/Docs)"]
+    CoCore["CoCore (Knowledge)"]
+    CoAudit["CoAudit (Audit Engine)"]
+    CoAgent["CoAgent (Container)"]
+    CoCache["CoCache (Index/Advice)"]
+    RickPublic["RickPublic (Substack)"]
+    CoPolitic["CoPolitic (Outreach)"]
+  end
+  CoCivium -->|defines| CoCore
+  CoCore -->|drives| CoAgent
+  CoCache -->|feeds| CoCore
+  CoAudit -->|audits| CoCivium
+  RickPublic -->|publishes| CoCivium
+  CoPolitic -->|advocates| CoCivium
