@@ -1,0 +1,9 @@
+{
+  "nodes":[
+    {"id":"CoCivium","label":"CoCivium","type":"repo","url":"https://github.com/rickballard/CoCivium"},
+    {"id":"CoCache","label":"CoCache","type":"repo","url":"https://github.com/rickballard/CoCache"}
+  ],
+  "links":[
+    {"source":"CoCivium","target":"CoCache","rel":"indexes"}
+  ]
+}
