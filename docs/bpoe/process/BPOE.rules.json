@@ -1,0 +1,15 @@
+{
+  "version": "2025.10.28.s1",
+  "rules": [
+    { "id":"BPOE-2025-10-28-R001", "priority":1, "title":"No here-strings in DO Blocks", "status":"active" },
+    { "id":"BPOE-2025-10-28-R002", "priority":2, "title":"Receipts are files, not chat", "status":"active" },
+    { "id":"BPOE-2025-10-28-R003", "priority":3, "title":"JSON canonical; docs are views", "status":"active" },
+    { "id":"BPOE-2025-10-28-R004", "priority":4, "title":"Owned paths require owner review", "status":"active" },
+    { "id":"BPOE-2025-10-28-R005", "priority":5, "title":"PRs must be reproducible; CI fails on diff", "status":"active" },
+    { "id":"BPOE-2025-10-28-R006", "priority":6, "title":"Single-pointer CoSync Stash handoffs", "status":"active" },
+    { "id":"BPOE-2025-10-28-R007", "priority":7, "title":"No path-case drift under docs/bpoe/**", "status":"active" },
+    { "id":"BPOE-2025-10-28-R008", "priority":8, "title":"Auto-merge only when clean and policy-compliant", "status":"active" },
+    { "id":"BPOE-2025-10-28-R009", "priority":9, "title":"Everything gets an issue/PR (CoSync-Delta for chat-only)", "status":"active" },
+    { "id":"BPOE-2025-10-28-R010", "priority":10,"title":"Minimal DO Blocks; prefer scripts in repo", "status":"active" }
+  ]
+}
