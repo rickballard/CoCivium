@@ -1,0 +1,18 @@
+flowchart LR
+  subgraph Governance
+    BPOE["BPOE"]
+    LawPolicy["Law & Policy"]
+    CoAudit["CoAudit"]
+    Protectorate["Protectorate"]
+    Guardrails["Guardrails"]
+  end
+  subgraph Strategy
+    Principles["Principles"]
+    Ethics["Ethics"]
+  end
+  Principles -->|grounds| Ethics
+  Ethics -->|guides| Guardrails
+  BPOE -->|implements| Guardrails
+  LawPolicy -->|constrains| Guardrails
+  CoAudit -->|audits| Guardrails
+  Protectorate -->|oversees| Guardrails

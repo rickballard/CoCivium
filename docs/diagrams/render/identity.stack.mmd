@@ -1,0 +1,15 @@
+flowchart LR
+  subgraph Identity
+    MeritRank["MeritRank"]
+    RepTag["RepTag"]
+    ScripTag["ScripTag"]
+    DigitalHalo["Digital Halo"]
+    Verifier["Verifier(s)"]
+    Subjects["Subjects/Contributors"]
+  end
+  RepTag -->|inputs| MeritRank
+  ScripTag -->|inputs| MeritRank
+  MeritRank -->|scores| DigitalHalo
+  Verifier -->|attests| RepTag
+  Verifier -->|attests| ScripTag
+  Subjects -->|claims| RepTag

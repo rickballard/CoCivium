@@ -1,14 +1,223 @@
 {
+  "_meta": {
+    "version": "vSTUB",
+    "title": "CoSuite Asset Graph",
+    "updated": "2025-10-27",
+    "notes": "Initial stub per GO; JSON is canonical.",
+    "status": "draft"
+  },
   "nodes": [
-    {"id":"CoCivium","label":"CoCivium","group":"site"},
-    {"id":"CoCache","label":"CoCache","group":"ops"},
-    {"id":"CoAgent","label":"CoAgent","group":"product"},
-    {"id":"AdviceInbox","label":"Advice Inbox","group":"intake"}
+    {
+      "id": "Vision",
+      "label": "Vision",
+      "type": "Strategy"
+    },
+    {
+      "id": "Mandate",
+      "label": "Mandate",
+      "type": "Strategy"
+    },
+    {
+      "id": "Principles",
+      "label": "Principles",
+      "type": "Strategy"
+    },
+    {
+      "id": "Ethics",
+      "label": "Ethics",
+      "type": "Strategy"
+    },
+    {
+      "id": "Guardrails",
+      "label": "Guardrails (BPOE, etc.)",
+      "type": "Governance"
+    },
+    {
+      "id": "CoAudit",
+      "label": "CoAudit",
+      "type": "Governance"
+    },
+    {
+      "id": "CoCore",
+      "label": "CoCore (Knowledge Base)",
+      "type": "Knowledge"
+    },
+    {
+      "id": "GIBindex",
+      "label": "GIBindex",
+      "type": "Knowledge"
+    },
+    {
+      "id": "CoAgent",
+      "label": "CoAgent",
+      "type": "Execution"
+    },
+    {
+      "id": "CoModules",
+      "label": "CoModules",
+      "type": "Execution"
+    },
+    {
+      "id": "Workflows",
+      "label": "Workflows (DO/CoWrap)",
+      "type": "Execution"
+    },
+    {
+      "id": "Repos",
+      "label": "Repos (GitHub)",
+      "type": "DataInfra"
+    },
+    {
+      "id": "CoCache",
+      "label": "CoCache",
+      "type": "DataInfra"
+    },
+    {
+      "id": "MetricsIndex",
+      "label": "Metrics Index",
+      "type": "DataInfra"
+    },
+    {
+      "id": "OpenAPIs",
+      "label": "Open APIs",
+      "type": "DataInfra"
+    },
+    {
+      "id": "CoPolitic",
+      "label": "CoPolitic",
+      "type": "Outreach"
+    },
+    {
+      "id": "RickPublic",
+      "label": "RickPublic",
+      "type": "Outreach"
+    },
+    {
+      "id": "GroupBuild",
+      "label": "GroupBuild",
+      "type": "Outreach"
+    },
+    {
+      "id": "MeritRank",
+      "label": "MeritRank",
+      "type": "Identity"
+    },
+    {
+      "id": "RepTag",
+      "label": "RepTag",
+      "type": "Identity"
+    },
+    {
+      "id": "ScripTag",
+      "label": "ScripTag",
+      "type": "Identity"
+    },
+    {
+      "id": "DigitalHalo",
+      "label": "Digital Halo",
+      "type": "Identity"
+    },
+    {
+      "id": "FinFlow",
+      "label": "FinFlow",
+      "type": "EconModels"
+    }
   ],
   "links": [
-    {"source":"CoCache","target":"AdviceInbox","label":"owns/guards"},
-    {"source":"AdviceInbox","target":"CoCivium","label":"feeds content"},
-    {"source":"CoCache","target":"CoAgent","label":"tooling"},
-    {"source":"CoAgent","target":"CoCivium","label":"renders"}
+    {
+      "source": "Vision",
+      "target": "Mandate",
+      "rel": "informs"
+    },
+    {
+      "source": "Vision",
+      "target": "Principles",
+      "rel": "informs"
+    },
+    {
+      "source": "Principles",
+      "target": "Ethics",
+      "rel": "grounds"
+    },
+    {
+      "source": "Ethics",
+      "target": "Guardrails",
+      "rel": "guides"
+    },
+    {
+      "source": "Guardrails",
+      "target": "CoAudit",
+      "rel": "audited-by"
+    },
+    {
+      "source": "CoCore",
+      "target": "GIBindex",
+      "rel": "indexes"
+    },
+    {
+      "source": "CoCore",
+      "target": "CoAgent",
+      "rel": "informs"
+    },
+    {
+      "source": "CoAgent",
+      "target": "CoModules",
+      "rel": "hosts"
+    },
+    {
+      "source": "CoAgent",
+      "target": "Workflows",
+      "rel": "executes"
+    },
+    {
+      "source": "Repos",
+      "target": "CoCache",
+      "rel": "feeds"
+    },
+    {
+      "source": "CoCache",
+      "target": "CoCore",
+      "rel": "feeds"
+    },
+    {
+      "source": "MetricsIndex",
+      "target": "CoCore",
+      "rel": "feeds"
+    },
+    {
+      "source": "OpenAPIs",
+      "target": "CoCore",
+      "rel": "exposes"
+    },
+    {
+      "source": "CoPolitic",
+      "target": "GroupBuild",
+      "rel": "engages"
+    },
+    {
+      "source": "RickPublic",
+      "target": "CoCore",
+      "rel": "publishes"
+    },
+    {
+      "source": "MeritRank",
+      "target": "DigitalHalo",
+      "rel": "scores"
+    },
+    {
+      "source": "RepTag",
+      "target": "MeritRank",
+      "rel": "attributes"
+    },
+    {
+      "source": "ScripTag",
+      "target": "MeritRank",
+      "rel": "attributes"
+    },
+    {
+      "source": "FinFlow",
+      "target": "MetricsIndex",
+      "rel": "observes"
+    }
   ]
 }

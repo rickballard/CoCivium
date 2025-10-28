@@ -1,0 +1,15 @@
+flowchart LR
+  subgraph Workflow
+    Author["Author"]
+    Validate["Validate"]
+    Package["Package (AdviceBomb/CoWrap)"]
+    Handoff["Handoff (CoCache Inbox)"]
+    Audit["Audit Signals"]
+    Publish["Publish (README/Pages)"]
+  end
+  Author -->|next| Validate
+  Validate -->|next| Package
+  Package -->|next| Handoff
+  Handoff -->|signals| Audit
+  Audit -->|gate| Publish
+  Publish -->|iterate| Author

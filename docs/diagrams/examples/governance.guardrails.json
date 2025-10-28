@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "version": "vSTUB",
+    "title": "Governance & Guardrails",
+    "updated": "2025-10-27",
+    "notes": "Initial stub per GO; JSON is canonical.",
+    "status": "draft"
+  },
+  "nodes": [
+    {
+      "id": "BPOE",
+      "label": "BPOE",
+      "type": "Governance"
+    },
+    {
+      "id": "LawPolicy",
+      "label": "Law & Policy",
+      "type": "Governance"
+    },
+    {
+      "id": "CoAudit",
+      "label": "CoAudit",
+      "type": "Governance"
+    },
+    {
+      "id": "Protectorate",
+      "label": "Protectorate",
+      "type": "Governance"
+    },
+    {
+      "id": "Guardrails",
+      "label": "Guardrails",
+      "type": "Governance"
+    },
+    {
+      "id": "Principles",
+      "label": "Principles",
+      "type": "Strategy"
+    },
+    {
+      "id": "Ethics",
+      "label": "Ethics",
+      "type": "Strategy"
+    }
+  ],
+  "links": [
+    {
+      "source": "Principles",
+      "target": "Ethics",
+      "rel": "grounds"
+    },
+    {
+      "source": "Ethics",
+      "target": "Guardrails",
+      "rel": "guides"
+    },
+    {
+      "source": "BPOE",
+      "target": "Guardrails",
+      "rel": "implements"
+    },
+    {
+      "source": "LawPolicy",
+      "target": "Guardrails",
+      "rel": "constrains"
+    },
+    {
+      "source": "CoAudit",
+      "target": "Guardrails",
+      "rel": "audits"
+    },
+    {
+      "source": "Protectorate",
+      "target": "Guardrails",
+      "rel": "oversees"
+    }
+  ]
+}

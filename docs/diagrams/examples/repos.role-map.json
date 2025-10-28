@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "version": "vSTUB",
+    "title": "Repo Role Map",
+    "updated": "2025-10-27",
+    "notes": "Initial stub per GO; JSON is canonical.",
+    "status": "draft"
+  },
+  "nodes": [
+    {
+      "id": "CoCivium",
+      "label": "CoCivium (Vision/Docs)",
+      "type": "Repo"
+    },
+    {
+      "id": "CoCore",
+      "label": "CoCore (Knowledge)",
+      "type": "Repo"
+    },
+    {
+      "id": "CoAudit",
+      "label": "CoAudit (Audit Engine)",
+      "type": "Repo"
+    },
+    {
+      "id": "CoAgent",
+      "label": "CoAgent (Container)",
+      "type": "Repo"
+    },
+    {
+      "id": "CoCache",
+      "label": "CoCache (Index/Advice)",
+      "type": "Repo"
+    },
+    {
+      "id": "RickPublic",
+      "label": "RickPublic (Substack)",
+      "type": "Repo"
+    },
+    {
+      "id": "CoPolitic",
+      "label": "CoPolitic (Outreach)",
+      "type": "Repo"
+    }
+  ],
+  "links": [
+    {
+      "source": "CoCivium",
+      "target": "CoCore",
+      "rel": "defines"
+    },
+    {
+      "source": "CoCore",
+      "target": "CoAgent",
+      "rel": "drives"
+    },
+    {
+      "source": "CoCache",
+      "target": "CoCore",
+      "rel": "feeds"
+    },
+    {
+      "source": "CoAudit",
+      "target": "CoCivium",
+      "rel": "audits"
+    },
+    {
+      "source": "RickPublic",
+      "target": "CoCivium",
+      "rel": "publishes"
+    },
+    {
+      "source": "CoPolitic",
+      "target": "CoCivium",
+      "rel": "advocates"
+    }
+  ]
+}
