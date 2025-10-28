@@ -1,0 +1,62 @@
+[
+  {
+    "kind": "page",
+    "urls": {
+      "rel": "docs/DIAGRAMS.md",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/DIAGRAMS.md",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/DIAGRAMS.md",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/DIAGRAMS.md",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/DIAGRAMS.md"
+    }
+  },
+  {
+    "kind": "page",
+    "urls": {
+      "rel": "docs/diagrams/INVENTORY.md",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/diagrams/INVENTORY.md",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/diagrams/INVENTORY.md",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/INVENTORY.md",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/INVENTORY.md"
+    }
+  },
+  {
+    "kind": "asset",
+    "urls": {
+      "rel": "docs/diagrams/render/asset-graph.mmd",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/diagrams/render/asset-graph.mmd",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/diagrams/render/asset-graph.mmd",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/asset-graph.mmd",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/asset-graph.mmd"
+    }
+  },
+  {
+    "kind": "asset",
+    "urls": {
+      "rel": "docs/diagrams/render/cosuite.asset-graph.mmd",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/diagrams/render/cosuite.asset-graph.mmd",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/diagrams/render/cosuite.asset-graph.mmd",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/cosuite.asset-graph.mmd",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/cosuite.asset-graph.mmd"
+    }
+  },
+  {
+    "kind": "asset",
+    "urls": {
+      "rel": "docs/diagrams/render/inseed-timeline.mmd",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/diagrams/render/inseed-timeline.mmd",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/diagrams/render/inseed-timeline.mmd",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/inseed-timeline.mmd",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/inseed-timeline.mmd"
+    }
+  },
+  {
+    "kind": "asset",
+    "urls": {
+      "rel": "docs/diagrams/render/legend.mmd",
+      "blob_main": "https://github.com/rickballard/CoCivium/blob/main/docs/diagrams/render/legend.mmd",
+      "raw_main": "https://raw.githubusercontent.com/rickballard/CoCivium/main/docs/diagrams/render/legend.mmd",
+      "blob_sha": "https://github.com/rickballard/CoCivium/blob/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/legend.mmd",
+      "raw_sha": "https://raw.githubusercontent.com/rickballard/CoCivium/63b3e590df67c65563af09f92708feebd0d7a450/docs/diagrams/render/legend.mmd"
+    }
+  }
+]
