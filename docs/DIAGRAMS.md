@@ -1,3 +1,5 @@
+[![diagrams-export](https://github.com/rickballard/CoCivium/actions/workflows/diagrams-export.yml/badge.svg)](https://github.com/rickballard/CoCivium/actions/workflows/diagrams-export.yml)
+
 # CoCivium Diagrams
 
 This page is generated from JSON files under `docs/diagrams/examples/`.
@@ -78,3 +80,12 @@ RickPublic --> |"indexes"| CoCache
 
 ---
 **Legend:** see [docs/diagrams/render/legend.mmd](docs/diagrams/render/legend.mmd)
+
+
+## Exported (SVG/PNG) quick view
+
+<!-- picture:asset-graph -->
+<picture>
+  <source type="image/svg+xml" srcset="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.svg">
+  <img src="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.png" alt="CoSuite asset graph" width="1200">
+</picture>

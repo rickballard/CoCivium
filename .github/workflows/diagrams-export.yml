@@ -1,5 +1,7 @@
 name: diagrams-export
 on:
+  schedule:
+    - cron: "17 7 * * 1"
   workflow_dispatch:
   push:
     paths:
