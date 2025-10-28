@@ -25,3 +25,157 @@ AdviceInbox -> "feeds content" CoCivium
 CoCache -> "tooling" CoAgent
 CoAgent -> "renders" CoCivium
 
+## CoSuite Asset Graph (canonical)
+
+```mermaid
+flowchart LR
+  subgraph Strategy
+    Vision["Vision"]
+    Mandate["Mandate"]
+    Principles["Principles"]
+    Ethics["Ethics"]
+  end
+  subgraph Governance
+    Guardrails["Guardrails (BPOE, etc.)"]
+    CoAudit["CoAudit"]
+  end
+  subgraph Knowledge
+    CoCore["CoCore (Knowledge Base)"]
+    GIBindex["GIBindex"]
+  end
+  subgraph Execution
+    CoAgent["CoAgent"]
+    CoModules["CoModules"]
+    Workflows["Workflows (DO/CoWrap)"]
+  end
+  subgraph DataInfra
+    Repos["Repos (GitHub)"]
+    CoCache["CoCache"]
+    MetricsIndex["Metrics Index"]
+    OpenAPIs["Open APIs"]
+  end
+  subgraph Outreach
+    CoPolitic["CoPolitic"]
+    RickPublic["RickPublic"]
+    GroupBuild["GroupBuild"]
+  end
+  subgraph Identity
+    MeritRank["MeritRank"]
+    RepTag["RepTag"]
+    ScripTag["ScripTag"]
+    DigitalHalo["Digital Halo"]
+  end
+  subgraph EconModels
+    FinFlow["FinFlow"]
+  end
+  Vision -->|informs| Mandate
+  Vision -->|informs| Principles
+  Principles -->|grounds| Ethics
+  Ethics -->|guides| Guardrails
+  Guardrails -->|audited-by| CoAudit
+  CoCore -->|indexes| GIBindex
+  CoCore -->|informs| CoAgent
+  CoAgent -->|hosts| CoModules
+  CoAgent -->|executes| Workflows
+  Repos -->|feeds| CoCache
+  CoCache -->|feeds| CoCore
+  MetricsIndex -->|feeds| CoCore
+  OpenAPIs -->|exposes| CoCore
+  CoPolitic -->|engages| GroupBuild
+  RickPublic -->|publishes| CoCore
+  MeritRank -->|scores| DigitalHalo
+  RepTag -->|attributes| MeritRank
+  ScripTag -->|attributes| MeritRank
+  FinFlow -->|observes| MetricsIndex
+
+```
+
+## Repo Role Map (canonical)
+
+```mermaid
+flowchart LR
+  subgraph Repo
+    CoCivium["CoCivium (Vision/Docs)"]
+    CoCore["CoCore (Knowledge)"]
+    CoAudit["CoAudit (Audit Engine)"]
+    CoAgent["CoAgent (Container)"]
+    CoCache["CoCache (Index/Advice)"]
+    RickPublic["RickPublic (Substack)"]
+    CoPolitic["CoPolitic (Outreach)"]
+  end
+  CoCivium -->|defines| CoCore
+  CoCore -->|drives| CoAgent
+  CoCache -->|feeds| CoCore
+  CoAudit -->|audits| CoCivium
+  RickPublic -->|publishes| CoCivium
+  CoPolitic -->|advocates| CoCivium
+
+```
+
+## Governance & Guardrails (canonical)
+
+```mermaid
+flowchart LR
+  subgraph Governance
+    BPOE["BPOE"]
+    LawPolicy["Law & Policy"]
+    CoAudit["CoAudit"]
+    Protectorate["Protectorate"]
+    Guardrails["Guardrails"]
+  end
+  subgraph Strategy
+    Principles["Principles"]
+    Ethics["Ethics"]
+  end
+  Principles -->|grounds| Ethics
+  Ethics -->|guides| Guardrails
+  BPOE -->|implements| Guardrails
+  LawPolicy -->|constrains| Guardrails
+  CoAudit -->|audits| Guardrails
+  Protectorate -->|oversees| Guardrails
+
+```
+
+## Identity Stack (canonical)
+
+```mermaid
+flowchart LR
+  subgraph Identity
+    MeritRank["MeritRank"]
+    RepTag["RepTag"]
+    ScripTag["ScripTag"]
+    DigitalHalo["Digital Halo"]
+    Verifier["Verifier(s)"]
+    Subjects["Subjects/Contributors"]
+  end
+  RepTag -->|inputs| MeritRank
+  ScripTag -->|inputs| MeritRank
+  MeritRank -->|scores| DigitalHalo
+  Verifier -->|attests| RepTag
+  Verifier -->|attests| ScripTag
+  Subjects -->|claims| RepTag
+
+```
+
+## CoFlow: DO-Block Pipeline (canonical)
+
+```mermaid
+flowchart LR
+  subgraph Workflow
+    Author["Author"]
+    Validate["Validate"]
+    Package["Package (AdviceBomb/CoWrap)"]
+    Handoff["Handoff (CoCache Inbox)"]
+    Audit["Audit Signals"]
+    Publish["Publish (README/Pages)"]
+  end
+  Author -->|next| Validate
+  Validate -->|next| Package
+  Package -->|next| Handoff
+  Handoff -->|signals| Audit
+  Audit -->|gate| Publish
+  Publish -->|iterate| Author
+
+```
+
+
