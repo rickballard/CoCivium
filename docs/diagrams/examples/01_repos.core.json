@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "type": "repo",
+      "id": "CoCore",
+      "label": "CoCore"
+    },
+    {
+      "type": "repo",
+      "id": "CoAudit",
+      "label": "CoAudit"
+    },
+    {
+      "type": "repo",
+      "id": "CoPolitic",
+      "label": "CoPolitic"
+    },
+    {
+      "type": "repo",
+      "id": "RickPublic",
+      "label": "RickPublic"
+    }
+  ],
+  "links": [
+    {
+      "target": "CoAudit",
+      "source": "CoCache",
+      "rel": "feeds"
+    },
+    {
+      "target": "CoCache",
+      "source": "CoCore",
+      "rel": "indexes"
+    },
+    {
+      "target": "CoCache",
+      "source": "CoPolitic",
+      "rel": "indexes"
+    },
+    {
+      "target": "CoCache",
+      "source": "RickPublic",
+      "rel": "indexes"
+    }
+  ]
+}

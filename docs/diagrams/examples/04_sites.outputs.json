@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "type": "site",
+      "id": "CoCiviumOrg",
+      "label": "CoCivium.org"
+    },
+    {
+      "type": "site",
+      "id": "CoPoliticOrg",
+      "label": "CoPolitic.org"
+    },
+    {
+      "type": "site",
+      "id": "GroupBuildOrg",
+      "label": "GroupBuild.org"
+    }
+  ],
+  "links": [
+    {
+      "target": "CoCiviumOrg",
+      "source": "CoCivium",
+      "rel": "publishes"
+    },
+    {
+      "target": "CoPoliticOrg",
+      "source": "CoPolitic",
+      "rel": "publishes"
+    },
+    {
+      "target": "GroupBuildOrg",
+      "source": "CoCore",
+      "rel": "feeds"
+    }
+  ]
+}

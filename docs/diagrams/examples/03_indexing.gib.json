@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "type": "module",
+      "id": "GIBindex",
+      "label": "GIBindex"
+    },
+    {
+      "type": "module",
+      "id": "RepTag",
+      "label": "RepTag"
+    },
+    {
+      "type": "module",
+      "id": "MeritRank",
+      "label": "MeritRank"
+    }
+  ],
+  "links": [
+    {
+      "target": "CoCache",
+      "source": "GIBindex",
+      "rel": "writes"
+    },
+    {
+      "target": "CoCore",
+      "source": "RepTag",
+      "rel": "augments"
+    },
+    {
+      "target": "CoCore",
+      "source": "MeritRank",
+      "rel": "augments"
+    }
+  ]
+}

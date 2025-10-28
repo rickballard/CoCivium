@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "type": "module",
+      "id": "GovContainer",
+      "label": "AI Governance Container"
+    },
+    {
+      "type": "module",
+      "id": "ElevenLaws",
+      "label": "11 Laws"
+    }
+  ],
+  "links": [
+    {
+      "target": "CoAgentSvc",
+      "source": "GovContainer",
+      "rel": "wraps"
+    },
+    {
+      "target": "GovContainer",
+      "source": "ElevenLaws",
+      "rel": "constrains"
+    },
+    {
+      "target": "GovContainer",
+      "source": "CoAudit",
+      "rel": "audits"
+    }
+  ]
+}

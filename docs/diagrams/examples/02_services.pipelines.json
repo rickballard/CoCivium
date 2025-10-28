@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "type": "service",
+      "id": "CoAgentSvc",
+      "label": "CoAgent (svc)"
+    },
+    {
+      "type": "service",
+      "id": "CoEvo",
+      "label": "CoEvo Loop"
+    },
+    {
+      "type": "service",
+      "id": "CoCacheGlobal",
+      "label": "CoCacheGlobal"
+    }
+  ],
+  "links": [
+    {
+      "target": "CoAgentSvc",
+      "source": "AdviceInbox",
+      "rel": "ingests"
+    },
+    {
+      "target": "CoEvo",
+      "source": "CoAgentSvc",
+      "rel": "triggers"
+    },
+    {
+      "target": "CoCache",
+      "source": "CoCacheGlobal",
+      "rel": "syncs"
+    }
+  ]
+}
