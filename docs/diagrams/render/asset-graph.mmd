@@ -1,5 +1,9 @@
-%% generated:2025-10-28T06:23:23Z
+%% generated:2025-10-28T14:45:30Z
 flowchart LR
+subgraph module
+  A["Alpha \"Core\""]
+  B["Beta"]
+end
 subgraph repo
   CoCache["CoCache"]
   CoCivium["CoCivium"]
@@ -10,7 +14,9 @@ subgraph Ungrouped
   CoCache["CoCache"]
   CoCivium["CoCivium"]
 end
+A --> |"depends"| B
 AdviceInbox --> CoCivium
+B --> A
 CoAgent --> CoCivium
 CoCache --> AdviceInbox
 CoCache --> CoAgent
