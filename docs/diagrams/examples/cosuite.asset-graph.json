@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {"id":"CoCivium","label":"CoCivium","group":"site"},
+    {"id":"CoCache","label":"CoCache","group":"ops"},
+    {"id":"CoAgent","label":"CoAgent","group":"product"},
+    {"id":"AdviceInbox","label":"Advice Inbox","group":"intake"}
+  ],
+  "links": [
+    {"source":"CoCache","target":"AdviceInbox","label":"owns/guards"},
+    {"source":"AdviceInbox","target":"CoCivium","label":"feeds content"},
+    {"source":"CoCache","target":"CoAgent","label":"tooling"},
+    {"source":"CoAgent","target":"CoCivium","label":"renders"}
+  ]
+}

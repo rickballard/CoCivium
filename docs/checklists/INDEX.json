@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Diagrams.md",
+    "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium\\docs\\checklists\\Diagrams.md",
+    "title": "Diagrams: canonical JSON → Mermaid/D2",
+    "priority": "",
+    "owner": "[name]",
+    "open": 2,
+    "done": 0
+  },
+  {
+    "file": "MEGASCROLL.md",
+    "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium\\docs\\checklists\\MEGASCROLL.md",
+    "title": "Intent Checklists — Megascroll",
+    "priority": "",
+    "owner": "*",
+    "open": 0,
+    "done": 0
+  }
+]
