@@ -1,3 +1,9 @@
+## Gallery
+
+Browse: **[Diagram Inventory](diagrams/INVENTORY.md)** for thumbnails, SVG/PNG links, and quick "Discuss" buttons.
+
+
+**See also:** [Diagram Inventory](diagrams/INVENTORY.md)
 [![diagrams-export](https://github.com/rickballard/CoCivium/actions/workflows/diagrams-export.yml/badge.svg)](https://github.com/rickballard/CoCivium/actions/workflows/diagrams-export.yml)
 
 # CoCivium Diagrams
