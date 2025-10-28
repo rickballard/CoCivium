@@ -1,5 +1,20 @@
-## PR checklist
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
+<!-- Light, non-blocking reminder -->
+- [ ] I skimmed the **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)** and avoided listed items (or clearly marked a poetic/quoted exemption).
 
-- [ ] Not touching frozen paths (see CoCache/status/notices/*) OR label added: [HOLD] — respect-freeze
-- [ ] No renames/moves in /insights or /insight (CoCivium) during freeze
-- [ ] main branch protected; squash-merge only; no force-push
+
+
+
+
+
+
+
+
+
+
