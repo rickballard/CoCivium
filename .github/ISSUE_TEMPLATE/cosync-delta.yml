@@ -1,0 +1,32 @@
+name: CoSync-Delta
+description: Capture session deltas so fresh sessions can resume cleanly
+labels: ["bpoe","cosync"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Run context
+      description: Session name, UTC time, repos/paths
+      placeholder: |
+        Session: CoPrime
+        When: 2025-10-28T03:00Z
+        Scope: CoCivium docs/bpoe, scripts/cosync
+  - type: textarea
+    id: only-in-chat
+    attributes:
+      label: What exists only in chat?
+      description: Intents/workflows/assumptions that must move on-repo
+  - type: textarea
+    id: moves
+    attributes:
+      label: Moves to make now
+      description: Docs/Issues/PRs to create (be specific)
+  - type: textarea
+    id: risks
+    attributes:
+      label: QA / Risks
+  - type: textarea
+    id: receipt
+    attributes:
+      label: Receipt links
+      description: Path(s) to RECEIPT.md and Snapshot JSON

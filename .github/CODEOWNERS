@@ -1,2 +1,4 @@
 /docs/diagrams/**   @rickballard
 /docs/DIAGRAMS.md   @rickballard
+# Diagrams ownership stays as-is elsewhere; this is for BPOE/process
+/docs/bpoe/**   @rickballard
