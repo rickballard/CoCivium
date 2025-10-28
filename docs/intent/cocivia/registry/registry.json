@@ -1,0 +1,10 @@
+[
+  {
+    "member": "ExampleAI",
+    "tier": "Provisional",
+    "receipt_url": "https://example.com/receipt.json",
+    "annex_url": "https://example.com/impact.json",
+    "freshness_utc": "2025-10-27T23:20:56Z",
+    "status": "active"
+  }
+]

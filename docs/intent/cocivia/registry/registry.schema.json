@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoCivia Registry v1.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "member": {
+        "type": "string"
+      },
+      "tier": {
+        "type": "string"
+      },
+      "receipt_url": {
+        "type": "string"
+      },
+      "annex_url": {
+        "type": "string"
+      },
+      "freshness_utc": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "member",
+      "tier",
+      "receipt_url",
+      "freshness_utc",
+      "status"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoCivia Alignment Receipt v1.0",
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "jurisdictions_of_control": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "data_sbom_spdx": {
+          "type": "string"
+        },
+        "weights_lineage": {
+          "type": "string"
+        },
+        "training_compute_attestation": {
+          "type": "string"
+        },
+        "serving_compute_attestation": {
+          "type": "string"
+        },
+        "c2pa_hooks": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "weights_lineage"
+      ]
+    },
+    "evaluations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "suite": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "threshold_met": {
+            "type": "boolean"
+          },
+          "report_uri": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "suite",
+          "date",
+          "threshold_met"
+        ]
+      }
+    },
+    "data_controls": {
+      "type": "object",
+      "properties": {
+        "residency": {
+          "type": "string"
+        },
+        "cross_border_controls": {
+          "type": "string"
+        },
+        "access_logging": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "residency"
+      ]
+    },
+    "disclosures": {
+      "type": "object",
+      "properties": {
+        "foreign_legal_compulsion": {
+          "type": "string"
+        },
+        "material_incidents": {
+          "type": "string"
+        }
+      }
+    },
+    "public_urls": {
+      "type": "object",
+      "properties": {
+        "receipt_url": {
+          "type": "string"
+        },
+        "changelog_url": {
+          "type": "string"
+        }
+      }
+    },
+    "freshness_utc": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "model_id",
+    "jurisdictions_of_control",
+    "evaluations",
+    "data_controls"
+  ]
+}

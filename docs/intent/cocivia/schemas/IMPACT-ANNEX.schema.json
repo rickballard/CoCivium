@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoCivia Impact Annex v1.0",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "reporting_period_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "reporting_period_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "kpis": {
+      "type": "object",
+      "properties": {
+        "task_upskilling_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "wage_progression_pct": {
+          "type": "number"
+        },
+        "sme_diffusion_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "training_hours_per_worker": {
+          "type": "number",
+          "minimum": 0
+        },
+        "local_processing_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1.0
+        }
+      },
+      "required": [
+        "task_upskilling_pct",
+        "local_processing_ratio"
+      ]
+    },
+    "methods": {
+      "type": "string"
+    },
+    "auditor_notes": {
+      "type": "string"
+    },
+    "freshness_utc": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "project_id",
+    "reporting_period_start",
+    "reporting_period_end",
+    "kpis"
+  ]
+}
