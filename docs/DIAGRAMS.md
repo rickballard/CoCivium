@@ -5,7 +5,7 @@ This page is generated from JSON files under `docs/diagrams/examples/`.
 
 ## Asset Graph (Mermaid, generated)
 ```mermaid
-%% generated:2025-10-28T18:19:22Z
+%% generated:2025-10-28T18:36:45Z
 flowchart LR
 subgraph module
   ElevenLaws["11 Laws"]
