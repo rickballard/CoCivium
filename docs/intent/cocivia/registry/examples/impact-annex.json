@@ -1,0 +1,11 @@
+{
+  "project_id": "ExampleAI-example/1.0",
+  "freshness_utc": "2025-10-28T03:39:04.7227862Z",
+  "kpis": {
+    "local_processing_ratio": 0.0,
+    "task_upskilling_pct": 0
+  },
+  "methods": "TBD",
+  "reporting_period_start": "2025-07-29",
+  "reporting_period_end": "2025-10-27"
+}
