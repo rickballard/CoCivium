@@ -1,9 +1,13 @@
-flowchart TD
-  CoCivium ([CoCivium])
-  CoCache (CoCache)
-  CoAgent (CoAgent)
-  AdviceInbox (Advice Inbox)
-  CoCache -- "owns/guards" --> AdviceInbox
-  AdviceInbox -- "feeds content" --> CoCivium
-  CoCache -- "tooling" --> CoAgent
-  CoAgent -- "renders" --> CoCivium
+flowchart LR
+  subgraph Misc
+    CoCache["CoCache"]
+    CoAgent["CoAgent"]
+    AdviceInbox["Advice Inbox"]
+    CoCivium["CoCivium"]
+  end
+  CoCache --> AdviceInbox
+  AdviceInbox --> CoCivium
+  CoCache --> CoAgent
+  CoAgent --> CoCivium
+  CoCivium -->|indexes| CoCache
+

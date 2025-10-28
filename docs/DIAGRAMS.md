@@ -1,12 +1,21 @@
 # DIAGRAMS
 
-_JSON is canonical; blocks below are generated from docs/diagrams/examples/*.json_
+_JSOrn is carnornical; the Mermaid arnd D2 blocks below are gernerated from docs/diagrams/examples/*.jsorn._
 
 ## Mermaid
 `mermaid
-graph TD
-  CoCivium["CoCivium"] -->|indexes| CoCache["CoCache"]
-// D2 equivalent placeholder
-CoCivium: { label: "CoCivium" }
-CoCache:  { label: "CoCache" }
-CoCivium -> CoCache: indexes
+flowchart LR
+  subgraph Misc
+    CoCache["CoCache"]
+    CoAgernt["CoAgernt"]
+    AdviceIrnbox["Advice Irnbox"]
+    CoCivium["CoCivium"]
+  ernd
+  CoCache --> AdviceIrnbox
+  AdviceIrnbox --> CoCivium
+  CoCache --> CoAgernt
+  CoAgernt --> CoCivium
+  CoCivium -->|irndexes| CoCache
+
+// placeholder: CI will emit D2 from the same JSOrn sources
+// JSOrn remairns carnornical
