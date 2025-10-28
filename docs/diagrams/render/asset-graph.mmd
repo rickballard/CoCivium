@@ -1,13 +1,17 @@
+%% generated:2025-10-28T06:23:23Z
 flowchart LR
-  subgraph Misc
-    CoCache["CoCache"]
-    CoAgent["CoAgent"]
-    AdviceInbox["Advice Inbox"]
-    CoCivium["CoCivium"]
-  end
-  CoCache --> AdviceInbox
-  AdviceInbox --> CoCivium
-  CoCache --> CoAgent
-  CoAgent --> CoCivium
-  CoCivium -->|indexes| CoCache
-
+subgraph repo
+  CoCache["CoCache"]
+  CoCivium["CoCivium"]
+end
+subgraph Ungrouped
+  AdviceInbox["Advice Inbox"]
+  CoAgent["CoAgent"]
+  CoCache["CoCache"]
+  CoCivium["CoCivium"]
+end
+AdviceInbox --> CoCivium
+CoAgent --> CoCivium
+CoCache --> AdviceInbox
+CoCache --> CoAgent
+CoCivium --> |"indexes"| CoCache
