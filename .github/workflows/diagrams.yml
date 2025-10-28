@@ -1,26 +1,36 @@
 name: diagrams
+
 on:
-pull_request:
-paths:
-- "docs/diagrams/"
-- "docs/DIAGRAMS.md"
-push:
-branches: [ main ]
-paths:
-- "docs/diagrams/"
-- "docs/DIAGRAMS.md"
+  push:
+    paths:
+      - 'docs/diagrams/**'
+      - 'docs/DIAGRAMS.md'
+      - '.github/workflows/diagrams.yml'
+  pull_request:
+    paths:
+      - 'docs/diagrams/**'
+      - 'docs/DIAGRAMS.md'
+      - '.github/workflows/diagrams.yml'
 
 jobs:
-build-check:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout
-uses: actions/checkout@v4
-  - name: Rebuild DIAGRAMS.md from JSON (pwsh)
-    shell: pwsh
-    run: ./docs/diagrams/tools/build-diagrams.ps1
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  - name: Fail if files drift from canonical generation
-    shell: bash
-    run: |
-      git diff --exit-code -- docs/DIAGRAMS.md docs/diagrams/render/asset-graph.mmd
+      - name: Build diagrams
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          pwsh -NoProfile -File "docs/diagrams/tools/build-diagrams.clean.ps1" -RepoRoot "$PWD"
+
+      - name: Detect drift (DIAGRAMS.md, asset-graph.mmd)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          git config core.autocrlf false
+          git status --porcelain
+          git diff --exit-code -- docs/DIAGRAMS.md docs/diagrams/render/asset-graph.mmd
