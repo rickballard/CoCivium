@@ -1,0 +1,14 @@
+name: cocivia-scorer
+on:
+  push:
+    paths: ['docs/intent/cocivia/vendor/VENDOR_RATINGS.csv','docs/intent/cocivia/vendor/rating_calc.py']
+  pull_request:
+    paths: ['docs/intent/cocivia/vendor/VENDOR_RATINGS.csv','docs/intent/cocivia/vendor/rating_calc.py']
+jobs:
+  scorecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run rating checks
+        run: |
+          python docs/intent/cocivia/vendor/rating_calc.py

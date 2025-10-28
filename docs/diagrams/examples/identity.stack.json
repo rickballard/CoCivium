@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "priority": "P1",
+    "notes": "Initial canonical stub; JSON is source of truth.",
+    "version": "vSTUB",
+    "updated": "2025-10-27",
+    "title": "Identity Stack",
+    "status": "draft"
+  },
+  "links": [],
+  "nodes": []
+}

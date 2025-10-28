@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "priority": "P2",
+    "notes": "Initial canonical stub; JSON is source of truth.",
+    "version": "vSTUB",
+    "updated": "2025-10-27",
+    "title": "Dataflow & Security",
+    "status": "draft"
+  },
+  "links": [
+    {
+      "source": "CoTemp",
+      "target": "CoCache",
+      "rel": "feeds"
+    },
+    {
+      "source": "Metrics",
+      "target": "CoCache",
+      "rel": "feeds"
+    },
+    {
+      "source": "OpenAPIs",
+      "target": "CoCache",
+      "rel": "exposes"
+    },
+    {
+      "source": "Secrets",
+      "target": "OpenAPIs",
+      "rel": "protects"
+    },
+    {
+      "source": "Audits",
+      "target": "CoCache",
+      "rel": "monitors"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "CoCache",
+      "type": "DataInfra",
+      "id": "CoCache"
+    },
+    {
+      "label": "CoTemp",
+      "type": "DataInfra",
+      "id": "CoTemp"
+    },
+    {
+      "label": "Metrics Index",
+      "type": "DataInfra",
+      "id": "Metrics"
+    },
+    {
+      "label": "Open APIs",
+      "type": "DataInfra",
+      "id": "OpenAPIs"
+    },
+    {
+      "label": "Secrets/Keys",
+      "type": "Security",
+      "id": "Secrets"
+    },
+    {
+      "label": "Audit Logs",
+      "type": "Security",
+      "id": "Audits"
+    }
+  ]
+}

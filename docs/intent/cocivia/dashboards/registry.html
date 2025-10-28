@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>CoCivia Registry (seed)</title></head>
+<body style="font-family:Arial, sans-serif">
+<h1>CoCivia Registry (seed)</h1>
+<p>Drop this file in GitHub Pages; it renders registry.json.</p>
+<pre id="out">Loading…</pre>
+<script>
+fetch('registry.json').then(r=>r.json()).then(j=>{
+  document.getElementById('out').textContent = JSON.stringify(j, null, 2);
+}).catch(e=>{document.getElementById('out').textContent = 'Error: '+e});
+</script>
+</body></html>

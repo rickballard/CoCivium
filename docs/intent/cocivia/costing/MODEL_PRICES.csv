@@ -1,0 +1,7 @@
+Provider,Model,Modality,Unit,PricePerUnit,SourceURL,CheckedUTC
+OpenAI,o4-mini,Text,1M tokens,,,
+Google,Gemini 1.5 Pro,Multimodal,1M tokens,,,
+AWS,Claude 3.5 Sonnet (Bedrock),Text,1M tokens,,,
+Meta,Llama 3.x (self-host),Text,per GPU hr,,,
+NVIDIA,NIM (LLM),Text,per GPU hr,,,
+Cohere,Command R+,Text,1M tokens,,,

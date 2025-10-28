@@ -1,0 +1,22 @@
+name: cocivia-freshness
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update vendor source pings
+        run: |
+          echo "- $(date -u +%FT%TZ) refresh ping" >> docs/intent/cocivia/vendor/CHANGELOG.md || true
+      - name: Commit & PR
+        run: |
+          git config user.email "bot@cocivia.org"
+          git config user.name "CoCivia Bot"
+          git add docs/intent/cocivia/vendor/CHANGELOG.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: vendor refresh tick"
+            git push origin HEAD:refs/heads/chore/cocivia-refresh-$(date +%Y%m%d%H%M%S)
+          fi

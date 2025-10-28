@@ -1,0 +1,25 @@
+name: cocivia-validate
+on:
+  push:
+    paths: ['docs/intent/cocivia/**']
+  pull_request:
+    paths: ['docs/intent/cocivia/**']
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic JSON validation
+        run: |
+          python - << 'PY'
+          import os, json, sys
+          base='docs/intent/cocivia'
+          bad=0
+          for root,_,files in os.walk(base):
+            for f in files:
+              if f.endswith('.json'):
+                p=os.path.join(root,f)
+                try: json.load(open(p))
+                except Exception as e: print('Invalid JSON:',p,e); bad=1
+          sys.exit(bad)
+          PY
