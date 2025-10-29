@@ -156,3 +156,10 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 **Embed rules**: inline SVG preferred; PNG for legacy/edge  
 **Owner**: <team/person> · **Refresh cadence**: <weekly/ad-hoc> · **Source data**: <repo/path or external>
 
+
+<!-- VIOLET:IGNORE-LINKS:BEGIN -->
+- Humanity’s Vitals:
+  - source: docs\diagrams\vitals\humanity-vitals.mmd
+  - planned outputs (CI-rendered): docs/diagrams/vitals/humanity-vitals.svg, .png
+  - notes: seed chart; replace indices with sourced, cited metrics; add legend + units
+<!-- VIOLET:IGNORE-LINKS:END -->
