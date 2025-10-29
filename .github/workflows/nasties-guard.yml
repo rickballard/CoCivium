@@ -1,34 +1,15 @@
 name: nasties-guard
 on:
-  pull_request:
-    paths:
-      - "**/*.md"
-      - "**/*.mdx"
-      - "**/*.txt"
-      - "**/*.yml"
-      - "**/*.yaml"
-      - "**/*.htm"
-      - "**/*.html"
-      - "**/*.svg"
   push:
-    branches: [ main ]
-    paths:
-      - "**/*.md"
-      - "**/*.mdx"
-      - "**/*.txt"
-      - "**/*.yml"
-      - "**/*.yaml"
-      - "**/*.htm"
-      - "**/*.html"
-      - "**/*.svg"
+  pull_request:
 jobs:
-  check:
+  guard:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
-      - name: Run nasties guard
-        run: python tools/nasties_guard.py
-  continue-on-error: true
-
+      - name: fail on merge markers in docs
+        run: |
+          if grep -R -nE "^(<<<<<<<|=======|>>>>>>>)" docs; then
+            echo "::error file=docs::merge conflict markers found"
+            exit 1
+          fi
