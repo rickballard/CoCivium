@@ -2,6 +2,10 @@ name: label-docs-only
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    paths:
+      - "docs/**"
+      - "**/*.md"
+      - "advice/**"
 permissions:
   contents: read
   pull-requests: write

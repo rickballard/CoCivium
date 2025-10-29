@@ -1,7 +1,8 @@
 docs-only:
   - "docs/**"
-  - "docs/**/*.md"
-  - "docs/**.md"
-  - "docs/intent/**"
-  - "advice/**"
   - "**/*.md"
+  - "advice/**"
+ci:
+  - ".github/workflows/**"
+diagrams:
+  - "docs/diagrams/**"
