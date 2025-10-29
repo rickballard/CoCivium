@@ -1,6 +1,6 @@
 # Diagram Inventory
 
-Browse all generated and planned diagrams. Click files to open; use PR comments or **Discuss** to leave feedback.
+Browse all generated and planned diagrams. Click file links to open; use PR comments or **Discuss** to leave feedback.
 
 > Tip: SVG renders crisply on web; PNG is a fallback.
 
@@ -12,10 +12,10 @@ Browse all generated and planned diagrams. Click files to open; use PR comments 
 
 | Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
 |---|---|---|---|---|---|---|
-| **asset-graph** | — | [mmd](/docs/diagrams/render/asset-graph.mmd) | **asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/asset-graph.mmd.json) | _(add caption in meta)_ | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **cosuite.asset-graph** | — | [mmd](/docs/diagrams/render/cosuite.asset-graph.mmd) | **cosuite.asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/cosuite.asset-graph.mmd.json) | _(add caption in meta)_ | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20cosuite.asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **inseed-timeline** | — | [mmd](/docs/diagrams/render/inseed-timeline.mmd) | **inseed timeline**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/inseed-timeline.mmd.json) | _(add caption in meta)_ | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20inseed-timeline&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **legend** | — | [mmd](/docs/diagrams/render/legend.mmd) | **legend**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/legend.mmd.json) | _(add caption in meta)_ | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20legend&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+| **asset-graph** | — | [mmd](/docs/diagrams/render/asset-graph.mmd) | **asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/asset-graph.mmd.json) | Caption: asset graph | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+| **cosuite.asset-graph** | — | [mmd](/docs/diagrams/render/cosuite.asset-graph.mmd) | **cosuite.asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/cosuite.asset-graph.mmd.json) | Caption: cosuite.asset graph | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20cosuite.asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+| **inseed-timeline** | — | [mmd](/docs/diagrams/render/inseed-timeline.mmd) | **inseed timeline**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/inseed-timeline.mmd.json) | Caption: inseed timeline | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20inseed-timeline&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+| **legend** | — | [mmd](/docs/diagrams/render/legend.mmd) | **legend**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/legend.mmd.json) | Legend / key for the gallery. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20legend&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
 
 ## academy
 <a id='section-academy'></a>
@@ -108,6 +108,3 @@ Browse all generated and planned diagrams. Click files to open; use PR comments 
 | Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
 |---|---|---|---|---|---|---|
 | **timeline › roadmap-milestones** | — | [mmd](/docs/diagrams/render/timeline/roadmap-milestones.mmd) | **Roadmap & Milestones**<br/><code>timeline, planning</code><br/>[edit](/docs/diagrams/meta/timeline__roadmap-milestones.mmd.json) | Past/next milestones (Gantt-style). | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20timeline%2Froadmap-milestones&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-
-## Data Sources
-- [docs/diagrams/data/inseed.timeline.json](/docs/diagrams/data/inseed.timeline.json)
