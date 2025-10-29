@@ -1,3 +1,5 @@
+> Last updated: 2025-10-29 00:34:17 UTC @ 9f3f4a926631e58ec8b49f5f7167efee577ac1a9
+
 # Diagram Inventory
 
 Browse all generated and planned diagrams. Click file links to open; use PR comments or **Discuss** to leave feedback.
