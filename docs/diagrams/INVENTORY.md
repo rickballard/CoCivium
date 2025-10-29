@@ -1,4 +1,4 @@
-> Last updated: 2025-10-29 00:36:02 UTC @ d7da5c8902d4556e3ed3cc5d6e74546fcbf02d7a
+> Last updated: 2025-10-29 00:47:30 UTC @ 7772b9953a381b41676a1c8c6318701e637250b9
 
 # Diagram Inventory
 
@@ -12,101 +12,101 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 ## .
 <a id='section-.'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **asset-graph** | — | [mmd](/docs/diagrams/render/asset-graph.mmd) | **asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/asset-graph.mmd.json) | Caption: asset graph | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **cosuite.asset-graph** | — | [mmd](/docs/diagrams/render/cosuite.asset-graph.mmd) | **cosuite.asset graph**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/cosuite.asset-graph.mmd.json) | Caption: cosuite.asset graph | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20cosuite.asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **inseed-timeline** | — | [mmd](/docs/diagrams/render/inseed-timeline.mmd) | **inseed timeline**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/inseed-timeline.mmd.json) | Caption: inseed timeline | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20inseed-timeline&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **legend** | — | [mmd](/docs/diagrams/render/legend.mmd) | **legend**<br/><code>diagram</code><br/>[edit](/docs/diagrams/meta/legend.mmd.json) | Legend / key for the gallery. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20legend&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>asset-graph</strong></td><td>—</td><td><a href='/docs/diagrams/render/asset-graph.mmd'>mmd</a></td><td>**asset graph**<br/><code>diagram</code><br/><a href='/docs/diagrams/meta/asset-graph.mmd.json'>edit</a></td><td>Caption: asset graph</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+<tr><td><strong>cosuite.asset-graph</strong></td><td>—</td><td><a href='/docs/diagrams/render/cosuite.asset-graph.mmd'>mmd</a></td><td>**cosuite.asset graph**<br/><code>diagram</code><br/><a href='/docs/diagrams/meta/cosuite.asset-graph.mmd.json'>edit</a></td><td>Caption: cosuite.asset graph</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20cosuite.asset-graph&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+<tr><td><strong>inseed-timeline</strong></td><td>—</td><td><a href='/docs/diagrams/render/inseed-timeline.mmd'>mmd</a></td><td>**inseed timeline**<br/><code>diagram</code><br/><a href='/docs/diagrams/meta/inseed-timeline.mmd.json'>edit</a></td><td>Caption: inseed timeline</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20inseed-timeline&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+<tr><td><strong>legend</strong></td><td>—</td><td><a href='/docs/diagrams/render/legend.mmd'>mmd</a></td><td>**legend**<br/><code>diagram</code><br/><a href='/docs/diagrams/meta/legend.mmd.json'>edit</a></td><td>Legend / key for the gallery.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20legend&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## academy
 <a id='section-academy'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **academy › vital-signs** | — | [mmd](/docs/diagrams/render/academy/vital-signs.mmd) | **Humanity's Vital Signs**<br/><code>academy, metrics</code><br/>[edit](/docs/diagrams/meta/academy__vital-signs.mmd.json) | Top metrics and how we visualize them. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20academy%2Fvital-signs&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>academy › vital-signs</strong></td><td>—</td><td><a href='/docs/diagrams/render/academy/vital-signs.mmd'>mmd</a></td><td>**Humanity's Vital Signs**<br/><code>academy, metrics</code><br/><a href='/docs/diagrams/meta/academy__vital-signs.mmd.json'>edit</a></td><td>Top metrics and how we visualize them.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20academy%2Fvital-signs&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## advice
 <a id='section-advice'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **advice › advicebomb-lifecycle** | — | [mmd](/docs/diagrams/render/advice/advicebomb-lifecycle.mmd) | **AdviceBomb Lifecycle**<br/><code>process, advicebomb</code><br/>[edit](/docs/diagrams/meta/advice__advicebomb-lifecycle.mmd.json) | Zip ingest -> verify -> PR -> merge -> index. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20advice%2Fadvicebomb-lifecycle&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>advice › advicebomb-lifecycle</strong></td><td>—</td><td><a href='/docs/diagrams/render/advice/advicebomb-lifecycle.mmd'>mmd</a></td><td>**AdviceBomb Lifecycle**<br/><code>process, advicebomb</code><br/><a href='/docs/diagrams/meta/advice__advicebomb-lifecycle.mmd.json'>edit</a></td><td>Zip ingest -> verify -> PR -> merge -> index.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20advice%2Fadvicebomb-lifecycle&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## architecture
 <a id='section-architecture'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **architecture › coagent-4-panel** | — | [mmd](/docs/diagrams/render/architecture/coagent-4-panel.mmd) | **CoAgent: 4-Panel Flow**<br/><code>coagent, ux, flow</code><br/>[edit](/docs/diagrams/meta/architecture__coagent-4-panel.mmd.json) | User <-> PS7 <-> Browser <-> Status orchestration. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20architecture%2Fcoagent-4-panel&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
-| **architecture › cosuite-high-level** | — | [mmd](/docs/diagrams/render/architecture/cosuite-high-level.mmd) | **CoSuite: High-Level System**<br/><code>architecture, overview</code><br/>[edit](/docs/diagrams/meta/architecture__cosuite-high-level.mmd.json) | Top-level components and their relationships. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20architecture%2Fcosuite-high-level&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>architecture › coagent-4-panel</strong></td><td>—</td><td><a href='/docs/diagrams/render/architecture/coagent-4-panel.mmd'>mmd</a></td><td>**CoAgent: 4-Panel Flow**<br/><code>coagent, ux, flow</code><br/><a href='/docs/diagrams/meta/architecture__coagent-4-panel.mmd.json'>edit</a></td><td>User <-> PS7 <-> Browser <-> Status orchestration.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20architecture%2Fcoagent-4-panel&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+<tr><td><strong>architecture › cosuite-high-level</strong></td><td>—</td><td><a href='/docs/diagrams/render/architecture/cosuite-high-level.mmd'>mmd</a></td><td>**CoSuite: High-Level System**<br/><code>architecture, overview</code><br/><a href='/docs/diagrams/meta/architecture__cosuite-high-level.mmd.json'>edit</a></td><td>Top-level components and their relationships.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20architecture%2Fcosuite-high-level&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## audit
 <a id='section-audit'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **audit › coaudit-flow** | — | [mmd](/docs/diagrams/render/audit/coaudit-flow.mmd) | **CoAudit: Passive Audit**<br/><code>audit, governance</code><br/>[edit](/docs/diagrams/meta/audit__coaudit-flow.mmd.json) | Read-only audit: inputs, rules, outputs. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20audit%2Fcoaudit-flow&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>audit › coaudit-flow</strong></td><td>—</td><td><a href='/docs/diagrams/render/audit/coaudit-flow.mmd'>mmd</a></td><td>**CoAudit: Passive Audit**<br/><code>audit, governance</code><br/><a href='/docs/diagrams/meta/audit__coaudit-flow.mmd.json'>edit</a></td><td>Read-only audit: inputs, rules, outputs.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20audit%2Fcoaudit-flow&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## data
 <a id='section-data'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **data › data-flows** | — | [mmd](/docs/diagrams/render/data/data-flows.mmd) | **Data Flows**<br/><code>data, pipelines</code><br/>[edit](/docs/diagrams/meta/data__data-flows.mmd.json) | From sources to caches to outputs. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20data%2Fdata-flows&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>data › data-flows</strong></td><td>—</td><td><a href='/docs/diagrams/render/data/data-flows.mmd'>mmd</a></td><td>**Data Flows**<br/><code>data, pipelines</code><br/><a href='/docs/diagrams/meta/data__data-flows.mmd.json'>edit</a></td><td>From sources to caches to outputs.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20data%2Fdata-flows&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## governance
 <a id='section-governance'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **governance › governance-container** | — | [mmd](/docs/diagrams/render/governance/governance-container.mmd) | **Governance Container**<br/><code>governance, policy</code><br/>[edit](/docs/diagrams/meta/governance__governance-container.mmd.json) | Vendor-neutral AI governance layers & controls. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20governance%2Fgovernance-container&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>governance › governance-container</strong></td><td>—</td><td><a href='/docs/diagrams/render/governance/governance-container.mmd'>mmd</a></td><td>**Governance Container**<br/><code>governance, policy</code><br/><a href='/docs/diagrams/meta/governance__governance-container.mmd.json'>edit</a></td><td>Vendor-neutral AI governance layers & controls.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20governance%2Fgovernance-container&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## identity
 <a id='section-identity'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **identity › meritrank-reptag** | — | [mmd](/docs/diagrams/render/identity/meritrank-reptag.mmd) | **MeritRank / RepTag**<br/><code>identity, reputation</code><br/>[edit](/docs/diagrams/meta/identity__meritrank-reptag.mmd.json) | Identity and reputation signal flow. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20identity%2Fmeritrank-reptag&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>identity › meritrank-reptag</strong></td><td>—</td><td><a href='/docs/diagrams/render/identity/meritrank-reptag.mmd'>mmd</a></td><td>**MeritRank / RepTag**<br/><code>identity, reputation</code><br/><a href='/docs/diagrams/meta/identity__meritrank-reptag.mmd.json'>edit</a></td><td>Identity and reputation signal flow.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20identity%2Fmeritrank-reptag&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## metrics
 <a id='section-metrics'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **metrics › metrics-index** | — | [mmd](/docs/diagrams/render/metrics/metrics-index.mmd) | **Metrics Index**<br/><code>metrics, docs</code><br/>[edit](/docs/diagrams/meta/metrics__metrics-index.mmd.json) | How metrics pages are generated + linked. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20metrics%2Fmetrics-index&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>metrics › metrics-index</strong></td><td>—</td><td><a href='/docs/diagrams/render/metrics/metrics-index.mmd'>mmd</a></td><td>**Metrics Index**<br/><code>metrics, docs</code><br/><a href='/docs/diagrams/meta/metrics__metrics-index.mmd.json'>edit</a></td><td>How metrics pages are generated + linked.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20metrics%2Fmetrics-index&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## pipelines
 <a id='section-pipelines'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **pipelines › ci-diagrams-export** | — | [mmd](/docs/diagrams/render/pipelines/ci-diagrams-export.mmd) | **CI: Diagrams Export**<br/><code>ci, mermaid</code><br/>[edit](/docs/diagrams/meta/pipelines__ci-diagrams-export.mmd.json) | Mermaid -> SVG/PNG exporter workflow. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20pipelines%2Fci-diagrams-export&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>pipelines › ci-diagrams-export</strong></td><td>—</td><td><a href='/docs/diagrams/render/pipelines/ci-diagrams-export.mmd'>mmd</a></td><td>**CI: Diagrams Export**<br/><code>ci, mermaid</code><br/><a href='/docs/diagrams/meta/pipelines__ci-diagrams-export.mmd.json'>edit</a></td><td>Mermaid -> SVG/PNG exporter workflow.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20pipelines%2Fci-diagrams-export&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## politic
 <a id='section-politic'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **politic › copolitic-spectrum** | — | [mmd](/docs/diagrams/render/politic/copolitic-spectrum.mmd) | **CoPolitic Spectrum**<br/><code>copolitic, comms</code><br/>[edit](/docs/diagrams/meta/politic__copolitic-spectrum.mmd.json) | Perspective plane & stakeholder halos. | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20politic%2Fcopolitic-spectrum&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>politic › copolitic-spectrum</strong></td><td>—</td><td><a href='/docs/diagrams/render/politic/copolitic-spectrum.mmd'>mmd</a></td><td>**CoPolitic Spectrum**<br/><code>copolitic, comms</code><br/><a href='/docs/diagrams/meta/politic__copolitic-spectrum.mmd.json'>edit</a></td><td>Perspective plane & stakeholder halos.</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20politic%2Fcopolitic-spectrum&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## repos
 <a id='section-repos'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **repos › repo-map** | — | [mmd](/docs/diagrams/render/repos/repo-map.mmd) | **Repo Map**<br/><code>repos, map</code><br/>[edit](/docs/diagrams/meta/repos__repo-map.mmd.json) | Key repos and links (human + machine-face). | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20repos%2Frepo-map&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>repos › repo-map</strong></td><td>—</td><td><a href='/docs/diagrams/render/repos/repo-map.mmd'>mmd</a></td><td>**Repo Map**<br/><code>repos, map</code><br/><a href='/docs/diagrams/meta/repos__repo-map.mmd.json'>edit</a></td><td>Key repos and links (human + machine-face).</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20repos%2Frepo-map&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## security
 <a id='section-security'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **security › threat-model** | — | [mmd](/docs/diagrams/render/security/threat-model.mmd) | **Threat Model (High-Level)**<br/><code>security, risk</code><br/>[edit](/docs/diagrams/meta/security__threat-model.mmd.json) | Risks, surfaces, mitigations (best-effort). | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20security%2Fthreat-model&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>security › threat-model</strong></td><td>—</td><td><a href='/docs/diagrams/render/security/threat-model.mmd'>mmd</a></td><td>**Threat Model (High-Level)**<br/><code>security, risk</code><br/><a href='/docs/diagrams/meta/security__threat-model.mmd.json'>edit</a></td><td>Risks, surfaces, mitigations (best-effort).</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20security%2Fthreat-model&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
 
 ## timeline
 <a id='section-timeline'></a>
 
-| Diagram | Preview | Files | Meta | Description | **Status** | Discuss |
-|---|---|---|---|---|---|---|
-| **timeline › roadmap-milestones** | — | [mmd](/docs/diagrams/render/timeline/roadmap-milestones.mmd) | **Roadmap & Milestones**<br/><code>timeline, planning</code><br/>[edit](/docs/diagrams/meta/timeline__roadmap-milestones.mmd.json) | Past/next milestones (Gantt-style). | _Planned_ | [Open issue](https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20timeline%2Froadmap-milestones&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard) |
+<table width="100%"><colgroup><col width="20%"><col width="26%"><col width="14%"><col width="16%"><col width="14%"><col width="6%"><col width="4%"></colgroup><thead><tr><th>Diagram</th><th>Preview</th><th>Files</th><th>Meta</th><th>Description</th><th>Status</th><th>Discuss</th></tr></thead><tbody>
+<tr><td><strong>timeline › roadmap-milestones</strong></td><td>—</td><td><a href='/docs/diagrams/render/timeline/roadmap-milestones.mmd'>mmd</a></td><td>**Roadmap & Milestones**<br/><code>timeline, planning</code><br/><a href='/docs/diagrams/meta/timeline__roadmap-milestones.mmd.json'>edit</a></td><td>Past/next milestones (Gantt-style).</td><td><em>Planned</em></td><td><a href='https://github.com/rickballard/CoCivium/issues/new?title=Diagram%3A%20timeline%2Froadmap-milestones&body=Please%20review%20the%20diagram%20below%20and%20leave%20comments%2Fsuggestions.%0A%0AFiles%3A%0A%0AContext%3A%20created%20via%20docs%2Fdiagrams%20pipeline.&labels=diagram,design&assignees=rickballard'>Open issue</a></td></tr>
+</tbody></table>
