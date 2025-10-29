@@ -1,47 +1,44 @@
 name: diagrams-export
 on:
-  schedule:
-    - cron: "17 7 * * 1"
-  workflow_dispatch:
   push:
+    branches: [ main ]
     paths:
-      - "docs/diagrams/render/**/*.mmd"
+      - 'docs/diagrams/**'
+      - 'tools/Export-Diagrams.ps1'
+      - 'tools/Build-DiagramGallery.ps1'
+  workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   export:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+        with: { fetch-depth: 0 }
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: "20"
-      - run: npm i -g @mermaid-js/mermaid-cli@10
-      - name: Export all .mmd to SVG/PNG
-        shell: bash
-        run: |
-          set -euo pipefail
-          shopt -s globstar nullglob
-          for f in docs/diagrams/render/**/*.mmd; do
-            base="${f%.mmd}"
-            mmdc -i "$f" -o "${base}.svg" --scale 1
-            mmdc -i "$f" -o "${base}.png" --scale 2
-          done
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+          node-version: 20
+
+      - name: Install mermaid-cli
+        run: npm i -g @mermaid-js/mermaid-cli
+
+      - name: Export Mermaid → SVG (transparent)
+        shell: pwsh
+        run: ./tools/Export-Diagrams.ps1 -RepoRoot C:\Users\Chris
+
+      - name: Rebuild gallery
+        shell: pwsh
+        run: ./tools/Build-DiagramGallery.ps1 -RepoRoot C:\Users\Chris
+
+      - name: Commit exports
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          name: diagrams-export
-          path: |
+          commit_message: "docs(diagrams): export SVG + rebuild gallery (CI)"
+          file_pattern: |
             docs/diagrams/render/**/*.svg
-            docs/diagrams/render/**/*.png
-          retention-days: 7
-      - name: Commit rendered images (optional)
-        if: ${{ github.ref_name == 'main' }}
-        run: |
-          git config user.name  "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add docs/diagrams/render/**/*.svg docs/diagrams/render/**/*.png || true
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(diagrams): export SVG/PNG"
-            git push
-          fi
+            docs/diagrams/index.html
+            docs/diagrams/style.css

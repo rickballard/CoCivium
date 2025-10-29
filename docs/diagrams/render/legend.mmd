@@ -1,4 +1,17 @@
-%% Legend for CoSuite diagrams (classes)
 flowchart LR
-  A[Repository]:::repo --> B(Service):::service
-  C(Module):::module  --> D(Site):::site
+  classDef repo    fill:#e8f1ff,stroke:#0a66c2,stroke-width:1.6px,color:#0b0b0b;
+  classDef service fill:#e9fff3,stroke:#137333,stroke-width:1.6px,color:#0b0b0b;
+  classDef module  fill:#fff4e6,stroke:#b35c00,stroke-width:1.6px,color:#0b0b0b;
+  classDef site    fill:#eef,stroke:#6a73d7,stroke-width:1.4px,color:#0b0b0b;
+
+  %% edge styles
+  linkStyle default stroke:#8b949e,stroke-width:1.2px,color:#8b949e;
+  A[Repository]:::repo -->|depends on| B[Service]:::service
+  C[Module]:::module ---|uses API| B
+  D[Site]:::site -.->|links to| A
+
+  %% explainer
+  E([Legend])
+  E ---|"rounded rectangle"| A
+  E ---|"dashed edge = soft/link"| D
+  E ---|"solid edge = hard dependency"| A

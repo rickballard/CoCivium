@@ -1,9 +1,1 @@
-{
-  "title": "legend",
-  "caption": "Legend / key for the gallery.",
-  "tags": [
-    "diagram"
-  ],
-  "source": "/docs/diagrams/render/legend.mmd",
-  "updated": "2025-10-29T00:27:52.7759990Z"
-}
+{"source":"docs/diagrams/render/legend.mmd","title":"Legend / Key","caption":"Shapes, colors, and edge styles used across diagrams.","tags":["legend","key"]}
