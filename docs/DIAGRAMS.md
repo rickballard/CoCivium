@@ -1,3 +1,5 @@
+
+> **Live gallery:** [Open the live gallery](./diagrams/index.html) — full-width, flicker-free.
 ## Gallery
 
 Browse: **[Diagram Inventory](diagrams/INVENTORY.md)** for thumbnails, SVG/PNG links, and quick "Discuss" buttons.

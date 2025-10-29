@@ -1,0 +1,28 @@
+name: diagrams-gallery
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/diagrams/**'
+      - 'tools/Build-DiagramGallery.ps1'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with: { pwsh-version: '7.4.x' }
+      - name: Build gallery
+        shell: pwsh
+        run: |
+          ./tools/Build-DiagramGallery.ps1 -RepoRoot C:\Users\Chris
+      - name: Auto-commit gallery
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs(diagrams): auto-build gallery (CI)'
+          file_pattern: docs/diagrams/index.html docs/diagrams/style.css
