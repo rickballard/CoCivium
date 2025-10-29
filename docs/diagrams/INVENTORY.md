@@ -144,6 +144,8 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 - **Identity Stack** — RepTag / MeritRank / ScriptTag relationships  
   - Targets: CoCivium academy, CoCore docs
 
+<<<<<<< HEAD
+=======
 ## Render Targets (envisioned)
 
 > Backlog of intended render locations for each diagram entry.  
@@ -157,3 +159,4 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 **Embed rules**: inline SVG preferred; PNG for legacy/edge  
 **Owner**: <team/person> · **Refresh cadence**: <weekly/ad-hoc> · **Source data**: <repo/path or external>
 
+>>>>>>> origin/main
