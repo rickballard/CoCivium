@@ -144,3 +144,16 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 - **Identity Stack** — RepTag / MeritRank / ScriptTag relationships  
   - Targets: CoCivium academy, CoCore docs
 
+## Render Targets (envisioned)
+
+> Backlog of intended render locations for each diagram entry.  
+> Populate and prune during CoPrime cycles.
+
+- **<diagram-name-1>** — Primary: <repo>/<path_or_page> — <purpose>; Alternates: …
+- **<diagram-name-2>** — Primary: <repo>/<path_or_page> — <purpose>; Alternates: …
+- **<diagram-name-3>** — …
+
+**Delivery form**: SVG primary; PNG fallback (thumb 320w)  
+**Embed rules**: inline SVG preferred; PNG for legacy/edge  
+**Owner**: <team/person> · **Refresh cadence**: <weekly/ad-hoc> · **Source data**: <repo/path or external>
+
