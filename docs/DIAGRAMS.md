@@ -97,3 +97,5 @@ RickPublic --> |"indexes"| CoCache
   <source type="image/svg+xml" srcset="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.svg">
   <img src="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.png" alt="CoSuite asset graph" width="1200">
 </picture>
+
+> **Public path (temporary):** https://rickballard.github.io/CoCivium/coresources/diagrams/  — will mirror to https://cocivium.org/coresources/diagrams/ later.
