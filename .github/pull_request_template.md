@@ -1,20 +1,14 @@
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- status: stub; target: 150+ words -->
-<!-- Light, non-blocking reminder -->
-- [ ] I skimmed the **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)** and avoided listed items (or clearly marked a poetic/quoted exemption).
+# Pull Request
 
+## Summary
+- [ ] Purpose and scope described
+- [ ] Links to related issues/PRs
 
+## Checklist (CoSteward/BPOE)
+- [ ] Repo-first; small branch; squash-merge
+- [ ] Added receipts/notes if needed
+- [ ] CI green or justified
+- [ ] No large diffs w/o reason
 
-
-
-
-
-
-
-
-
+## Notes
+- CoSync pointers / next steps:
