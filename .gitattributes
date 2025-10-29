@@ -1,4 +1,2 @@
-# Make the repo nicer for humans: down-rank ops & CI in stats and browsing
-ops/**/* linguist-generated=true
-.github/**/* linguist-generated=true
-docs/**/* linguist-documentation=true
+* text=auto eol=lf
+*.md text working-tree-encoding=UTF-8
