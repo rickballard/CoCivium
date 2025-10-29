@@ -1,3 +1,5 @@
+> **Diagrams nav:** [Gallery](./diagrams/index.html) · [Inventory](./diagrams/INVENTORY.md) · [This page](./DIAGRAMS.md)
+
 ## Gallery
 
 Browse: **[Diagram Inventory](diagrams/INVENTORY.md)** for thumbnails, SVG/PNG links, and quick "Discuss" buttons.

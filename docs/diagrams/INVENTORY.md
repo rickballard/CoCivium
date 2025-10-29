@@ -1,3 +1,5 @@
+> **Diagrams nav:** [Gallery](./diagrams/index.html) · [Inventory](./diagrams/INVENTORY.md) · [This page](./DIAGRAMS.md)
+
 > Last updated: 2025-10-29 01:18:00 UTC @ 75c034d8ec2a2e8175de9e30586f1013db5cbf35
 
 # Diagram Inventory
