@@ -6,7 +6,7 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 
 > Tip: SVG renders crisply on web; PNG is a fallback.
 
-**Sections:** [$_](#section-.) · [$_](#section-academy) · [$_](#section-advice) · [$_](#section-architecture) · [$_](#section-audit) · [$_](#section-data) · [$_](#section-governance) · [$_](#section-identity) · [$_](#section-metrics) · [$_](#section-pipelines) · [$_](#section-politic) · [$_](#section-repos) · [$_](#section-security) · [$_](#section-timeline)
+**Sections:** [## .](#section-%23%23%20.) · [.](#section-.) · [## academy](#section-%23%23%20academy) · [academy](#section-academy) · [## advice](#section-%23%23%20advice) · [advice](#section-advice) · [## architecture](#section-%23%23%20architecture) · [architecture](#section-architecture) · [## audit](#section-%23%23%20audit) · [audit](#section-audit) · [## data](#section-%23%23%20data) · [data](#section-data) · [## governance](#section-%23%23%20governance) · [governance](#section-governance) · [## identity](#section-%23%23%20identity) · [identity](#section-identity) · [## metrics](#section-%23%23%20metrics) · [metrics](#section-metrics) · [## pipelines](#section-%23%23%20pipelines) · [pipelines](#section-pipelines) · [## politic](#section-%23%23%20politic) · [politic](#section-politic) · [## repos](#section-%23%23%20repos) · [repos](#section-repos) · [## security](#section-%23%23%20security) · [security](#section-security) · [## timeline](#section-%23%23%20timeline) · [timeline](#section-timeline)
 
 
 ## .
