@@ -1,5 +1,11 @@
 # Graphics Inventory
 
+<style>
+  .diag-thumb{display:inline-block;border:1px solid #e3e3e3;border-radius:10px;
+    padding:8px;margin:6px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+  .diag-thumb img{display:block;max-width:240px;height:auto}
+  .diag-cap{font-size:.85rem;color:#666;text-align:center;margin-top:4px}
+</style>
 > Last updated: 2025-10-29 01:18:00 UTC @ 75c034d8ec2a2e8175de9e30586f1013db5cbf35
 
 
@@ -7,6 +13,7 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 
 > Tip: SVG renders crisply on web; PNG is a fallback.
 **Sections:** [🎓 academy](#academy) · [💬 advice](#advice) · [🏗️ architecture](#architecture) · [🧪 audit](#audit) · [🗂️ data](#data) · [⚖️ governance](#governance) · [🧬 identity](#identity) · [📈 metrics](#metrics) · [⛓️ pipelines](#pipelines) · [🗳️ politic](#politic) · [📦 repos](#repos) · [🔐 security](#security) · [🕰️ timeline](#timeline)
+> _Previews are CI-built from `.mmd` via GitHub Actions and may lag by a commit or two._
 
 
 ## .
@@ -162,6 +169,7 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
   - planned outputs (CI-rendered): docs/diagrams/vitals/humanity-vitals.svg, .png
   - notes: seed chart; replace indices with sourced, cited metrics; add legend + units
 <!-- VIOLET:IGNORE-LINKS:END -->
+
 
 
 
