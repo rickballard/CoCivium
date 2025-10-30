@@ -163,3 +163,4 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
   - planned outputs (CI-rendered): docs/diagrams/vitals/humanity-vitals.svg, .png
   - notes: seed chart; replace indices with sourced, cited metrics; add legend + units
 <!-- VIOLET:IGNORE-LINKS:END -->
+
