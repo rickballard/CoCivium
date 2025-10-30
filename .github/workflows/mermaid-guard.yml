@@ -1,0 +1,23 @@
+name: mermaid-guard
+on:
+  pull_request:
+    paths:
+      - "docs/diagrams/**/*.mmd"
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check directive order (flowchart must precede classDef)
+        run: |
+          set -e
+          bad=0
+          while IFS= read -r -d '' f; do
+            dir=$(grep -nE '^[[:space:]]*flowchart\b' "$f" | head -n1 | cut -d: -f1 || true)
+            cls=$(grep -nE '^[[:space:]]*classDef\b'  "$f" | head -n1 | cut -d: -f1 || true)
+            if [ -n "$cls" ] && [ -n "$dir" ] && [ "$cls" -lt "$dir" ]; then
+              echo "::error file=$f::classDef before flowchart (classDef line $cls, flowchart line $dir)"
+              bad=1
+            fi
+          done < <(find docs/diagrams -type f -name '*.mmd' -print0)
+          exit $bad
