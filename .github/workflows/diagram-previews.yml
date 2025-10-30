@@ -1,0 +1,37 @@
+name: diagram-previews
+on:
+  push:
+    paths:
+      - "docs/diagrams/**/*.mmd"
+      - ".github/workflows/diagram-previews.yml"
+  pull_request:
+    paths:
+      - "docs/diagrams/**/*.mmd"
+      - ".github/workflows/diagram-previews.yml"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install mermaid-cli
+        run: npm i -g @mermaid-js/mermaid-cli
+      - name: Build previews (mmd → svg)
+        run: |
+          set -e
+          mkdir -p docs/diagrams/_previews
+          while IFS= read -r -d '' f; do
+            rel="${f#docs/diagrams/}"
+            out="docs/diagrams/_previews/${rel%.mmd}.svg"
+            mkdir -p "$(dirname "$out")"
+            mmdc -i "$f" -o "$out" --backgroundColor transparent || echo "::warning file=$f::preview render failed"
+          done < <(find docs/diagrams -type f -name '*.mmd' -print0)
+      - name: Commit preview artifacts (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "build(preview): refresh diagram previews"
+          file_pattern: docs/diagrams/_previews/**
