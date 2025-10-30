@@ -6,8 +6,7 @@
 Browse all generated and planned diagrams. Click file links to open; use PR comments or **Discuss** to leave feedback.
 
 > Tip: SVG renders crisply on web; PNG is a fallback.
-
-**Sections:** [## .](#section-%23%23%20.) · [.](#section-.) · [## academy](#section-%23%23%20academy) · [academy](#section-academy) · [## advice](#section-%23%23%20advice) · [advice](#section-advice) · [## architecture](#section-%23%23%20architecture) · [architecture](#section-architecture) · [## audit](#section-%23%23%20audit) · [audit](#section-audit) · [## data](#section-%23%23%20data) · [data](#section-data) · [## governance](#section-%23%23%20governance) · [governance](#section-governance) · [## identity](#section-%23%23%20identity) · [identity](#section-identity) · [## metrics](#section-%23%23%20metrics) · [metrics](#section-metrics) · [## pipelines](#section-%23%23%20pipelines) · [pipelines](#section-pipelines) · [## politic](#section-%23%23%20politic) · [politic](#section-politic) · [## repos](#section-%23%23%20repos) · [repos](#section-repos) · [## security](#section-%23%23%20security) · [security](#section-security) · [## timeline](#section-%23%23%20timeline) · [timeline](#section-timeline)
+**Sections:** [🎓 academy](#academy) · [💬 advice](#advice) · [🏗️ architecture](#architecture) · [🧪 audit](#audit) · [🗂️ data](#data) · [⚖️ governance](#governance) · [🧬 identity](#identity) · [📈 metrics](#metrics) · [⛓️ pipelines](#pipelines) · [🗳️ politic](#politic) · [📦 repos](#repos) · [🔐 security](#security) · [🕰️ timeline](#timeline)
 
 
 ## .
@@ -163,3 +162,6 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
   - planned outputs (CI-rendered): docs/diagrams/vitals/humanity-vitals.svg, .png
   - notes: seed chart; replace indices with sourced, cited metrics; add legend + units
 <!-- VIOLET:IGNORE-LINKS:END -->
+
+
+
