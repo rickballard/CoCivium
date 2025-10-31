@@ -1,21 +1,98 @@
-%%{init: {
-flowchart LR
-classDef repo fill:#e8f1ff,stroke:#0a66c2,stroke-width:1.6px,color:#0b0b0b;
-classDef service fill:#e9fff3,stroke:#137333,stroke-width:1.6px,color:#0b0b0b;
-classDef module fill:#fff4e6,stroke:#b35c00,stroke-width:1.6px,color:#0b0b0b;
-classDef site fill:#fff,stroke:#6a737d,stroke-width:1.4px,color:#0b0b0b;
-classDef strongEdge stroke:#0a66c2,stroke-width:2.2px,color:#0a66c2;%% Auto-seeded placeholder — refine freely
-  "theme": "base",
-  "themeVariables": {
-    "fontSize":"14px","fontFamily":"Inter,Segoe UI,Arial,sans-serif",
-    "textColor":"#0b0b0b","lineColor":"#1f2328",
-    "primaryColor":"#ffffff","secondaryColor":"#f6f8fa","tertiaryColor":"#eef2f7",
-    "noteBkgColor":"#fff7cc",
-    "ganttTaskTextColor":"#0b0b0b","ganttAxisTextColor":"#111111","ganttAxisLineColor":"#9aa4b2",
-    "ganttBarFill":"#d7eaff","ganttBarStroke":"#0a66c2"
-  }
-} }%%
-flowchart LR
-  A[""Humanity's Vital Signs""]:::module --> B[Detail 1]:::service
-  A --> C[Detail 2]:::repo
+name: diagram-previews
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "docs/diagrams/**/*.mmd"
+      - "docs/diagrams/**/*.vl.json"
+      - ".github/workflows/diagram-previews.yml"
+  pull_request:
+    paths:
+      - "docs/diagrams/**/*.mmd"
+      - "docs/diagrams/**/*.vl.json"
+      - ".github/workflows/diagram-previews.yml"
 
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install fonts (helps Mermaid text)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-color-emoji
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Prime CLIs (local for npx)
+        run: |
+          npm i @mermaid-js/mermaid-cli vega vega-cli vega-lite canvas
+
+      - name: Env debug
+        shell: bash
+        run: |
+          set -euxo pipefail
+          node --version
+          npm  --version
+          npx -y @mermaid-js/mermaid-cli -V || true
+          npx -y vega-lite vl2vg --help | head -n 2 || true
+          npx -y vega vg2svg --help | head -n 2 || true
+          echo "::group::Inputs"
+          find docs/diagrams -type f \( -name "*.mmd" -o -name "*.vl.json" \) -print || true
+          echo "::endgroup::"
+
+      - name: Build Mermaid (mmd -> svg)
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p docs/diagrams/_previews/_errors
+          while IFS= read -r -d '' f; do
+            rel="${f#docs/diagrams/}"
+            out="docs/diagrams/_previews/${rel%.mmd}-map.svg"
+            mkdir -p "$(dirname "$out")"
+            if npx -y @mermaid-js/mermaid-cli -i "$f" -o "$out" -p .github/puppeteer.config.cjs --backgroundColor transparent \
+                2> "docs/diagrams/_previews/_errors/${rel%.mmd}-map.log"; then
+              echo "OK $f"
+            else
+              echo "::warning file=$f::mermaid preview FAILED"
+              rm -f "$out" || true
+            fi
+          done < <(find docs/diagrams -type f -name "*.mmd" -print0)
+
+      - name: Build Vega-Lite (vl.json -> svg)
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p docs/diagrams/_previews/_errors
+          while IFS= read -r -d '' f; do
+            rel="${f#docs/diagrams/}"
+            out="docs/diagrams/_previews/${rel%.vl.json}-chart.svg"
+            mkdir -p "$(dirname "$out")"
+            if npx -y vega-lite vl2vg "$f" | npx -y vega vg2svg > "$out" \
+                 2> "docs/diagrams/_previews/_errors/${rel%.vl.json}-chart.log"; then
+              echo "OK $f"
+            else
+              echo "::warning file=$f::vega preview FAILED"
+              rm -f "$out" || true
+            fi
+          done < <(find docs/diagrams -type f -name "*.vl.json" -print0)
+
+      - name: Upload previews (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagram-previews
+          path: docs/diagrams/_previews/**
+
+      - name: Commit preview artifacts (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "build(preview): refresh diagram previews"
+          file_pattern: docs/diagrams/_previews/**
+          add_options: "-f"
