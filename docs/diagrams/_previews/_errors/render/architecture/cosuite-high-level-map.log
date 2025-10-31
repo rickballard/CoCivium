@@ -1,27 +1,17 @@
 
-Error: Evaluation failed: UnknownDiagramError: No diagram type detected matching given configuration for text: 
-classDef repo fill:#e8f1ff,stroke:#0a66c2,stroke-width:1.6px,color:#0b0b0b;
-classDef service fill:#e9fff3,stroke:#137333,stroke-width:1.6px,color:#0b0b0b;
-classDef module fill:#fff4e6,stroke:#b35c00,stroke-width:1.6px,color:#0b0b0b;
-classDef site fill:#fff,stroke:#6a737d,stroke-width:1.4px,color:#0b0b0b;
-classDef strongEdge stroke:#0a66c2,stroke-width:2.2px,color:#0a66c2;
-flowchart LR
-  A[""CoSuite: High-Level System""]:::module --> B[Detail 1]:::service
-  A --> C[Detail 2]:::repo
-    at detectType (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:9905:11)
-    at Object.detectInit (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:10755:17)
-    at processDirectives (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14486:35)
-    at preprocessDiagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14502:29)
-    at processAndSetConfigs (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14527:24)
-    at Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14633:24)
-    at /home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14981:20
-    at new Promise (<anonymous>)
-    at performCall (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14980:33)
-    at executeQueue (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14949:17)
-    at /home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14996:7
-    at new Promise (<anonymous>)
-    at Object.render$3 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14979:12)
-    at pptr://__puppeteer_evaluation_script__:16:46
+Error: Evaluation failed: Error: Lexical error on line 7. Unrecognized text.
+...-seeded placeholder — refine freelyflow
+-----------------------^
+    at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32374:23)
+    at Object.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32514:28)
+    at Object.next (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32734:25)
+    at Object.lex2 [as lex] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32743:24)
+    at lex2 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32405:43)
+    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32422:24)
+    at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12295:19)
+    at new Diagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12282:12)
+    at getDiagramFromText$1 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12319:12)
+    at async Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14675:14)
     at ExecutionContext._ExecutionContext_evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:254:15)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ExecutionContext.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:143:16)
