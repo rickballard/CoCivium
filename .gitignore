@@ -67,3 +67,5 @@ docs/outreach/LehaneOps/reports/role-guard/*.md
 
 docs/status/HEALTH.json
 docs/status/bpoe-log.ndjson
+
+!docs/diagrams/_previews/**
