@@ -1,2 +1,6 @@
-npm error could not determine executable to run
-npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2025-10-31T05_16_51_794Z-debug-0.log
+Unable to revert mtime: /usr/share/fonts
+Unable to revert mtime: /usr/share/fonts/truetype
+Unable to revert mtime: /usr/share/fonts/truetype/dejavu
+Unable to revert mtime: /usr/share/fonts/truetype/lato
+Unable to revert mtime: /usr/share/fonts/truetype/liberation
+Unable to revert mtime: /usr/share/fonts/truetype/noto

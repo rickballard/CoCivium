@@ -1,9 +1,34 @@
 
-SyntaxError: Unexpected token 'm', "module.exp"... is not valid JSON
-    at JSON.parse (<anonymous>)
-    at cli (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:180:59)
-    at file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/cli.js:6:1
-    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Error: Evaluation failed: UnknownDiagramError: No diagram type detected matching given configuration for text: 
+classDef repo fill:#e8f1ff,stroke:#0a66c2,stroke-width:1.6px,color:#0b0b0b;
+classDef service fill:#e9fff3,stroke:#137333,stroke-width:1.6px,color:#0b0b0b;
+classDef module fill:#fff4e6,stroke:#b35c00,stroke-width:1.6px,color:#0b0b0b;
+classDef site fill:#fff,stroke:#6a737d,stroke-width:1.4px,color:#0b0b0b;
+classDef strongEdge stroke:#0a66c2,stroke-width:2.2px,color:#0a66c2;
+flowchart LR
+  A[""MeritRank / RepTag""]:::module --> B[Detail 1]:::service
+  A --> C[Detail 2]:::repo
+    at detectType (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:9905:11)
+    at Object.detectInit (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:10755:17)
+    at processDirectives (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14486:35)
+    at preprocessDiagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14502:29)
+    at processAndSetConfigs (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14527:24)
+    at Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14633:24)
+    at /home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14981:20
+    at new Promise (<anonymous>)
+    at performCall (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14980:33)
+    at executeQueue (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14949:17)
+    at /home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14996:7
+    at new Promise (<anonymous>)
+    at Object.render$3 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14979:12)
+    at pptr://__puppeteer_evaluation_script__:16:46
+    at ExecutionContext._ExecutionContext_evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ExecutionContext.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:143:16)
+    at async CDPJSHandle.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/JSHandle.js:56:16)
+    at async CDPElementHandle.$eval (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ElementHandle.js:86:24)
+    at async renderMermaid (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:256:22)
+    at async parseMMD (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:227:20)
+    at async run (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:491:20)
+    at async cli (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:192:3)
 
