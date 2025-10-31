@@ -55,12 +55,13 @@ jobs:
           while IFS= read -r -d '' f; do
             rel="${f#docs/diagrams/}"
             out="docs/diagrams/_previews/${rel%.mmd}-map.svg"
-            mkdir -p "$(dirname "$out")"
+            log="docs/diagrams/_previews/_errors/${rel%.mmd}-map.log"
+            mkdir -p "$(dirname "$out")" "$(dirname "$log")"
             if npx -y @mermaid-js/mermaid-cli -i "$f" -o "$out" -p .github/puppeteer.config.cjs --backgroundColor transparent \
-                2> "docs/diagrams/_previews/_errors/${rel%.mmd}-map.log"; then
+                 2> "$log"; then
               echo "OK $f"
             else
-              echo "::warning file=$f::mermaid preview FAILED"
+              echo "::warning file=$f::mermaid preview FAILED (see $log)"
               rm -f "$out" || true
             fi
           done < <(find docs/diagrams -type f -name "*.mmd" -print0)
@@ -73,12 +74,12 @@ jobs:
           while IFS= read -r -d '' f; do
             rel="${f#docs/diagrams/}"
             out="docs/diagrams/_previews/${rel%.vl.json}-chart.svg"
-            mkdir -p "$(dirname "$out")"
-            if npx -y vega-lite vl2vg "$f" | npx -y vega vg2svg > "$out" \
-                 2> "docs/diagrams/_previews/_errors/${rel%.vl.json}-chart.log"; then
+            log="docs/diagrams/_previews/_errors/${rel%.vl.json}-chart.log"
+            mkdir -p "$(dirname "$out")" "$(dirname "$log")"
+            if npx -y vega-lite vl2vg "$f" | npx -y vega vg2svg > "$out" 2> "$log"; then
               echo "OK $f"
             else
-              echo "::warning file=$f::vega preview FAILED"
+              echo "::warning file=$f::vega preview FAILED (see $log)"
               rm -f "$out" || true
             fi
           done < <(find docs/diagrams -type f -name "*.vl.json" -print0)
