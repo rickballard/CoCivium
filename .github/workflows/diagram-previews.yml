@@ -49,8 +49,8 @@ jobs:
           which chromium-browser || true
           chromium-browser --version || true
           npx -y @mermaid-js/mermaid-cli -V || true
-          npx -y vega-lite vl2vg --help | head -n 2 || true
-          npx -y vega vg2svg --help | head -n 2 || true
+          npx -y vl2vg --help | head -n 2 || true
+          npx -y vg2svg --help | head -n 2 || true
           echo "::group::Inputs"
           find docs/diagrams -type f \( -name "*.mmd" -o -name "*.vl.json" \) -print || true
           echo "::endgroup::"
@@ -65,7 +65,7 @@ jobs:
             out="docs/diagrams/_previews/${rel%.mmd}-map.svg"
             log="docs/diagrams/_previews/_errors/${rel%.mmd}-map.log"
             mkdir -p "$(dirname "$out")" "$(dirname "$log")"
-            if npx -y @mermaid-js/mermaid-cli -i "$f" -o "$out" -p .github/puppeteer.config.cjs --backgroundColor transparent \
+            if npx -y @mermaid-js/mermaid-cli -i "$f" -o "$out" -p .github/puppeteer.json --backgroundColor transparent \
                  2> "$log"; then
               echo "OK $f"
             else
@@ -84,7 +84,7 @@ jobs:
             out="docs/diagrams/_previews/${rel%.vl.json}-chart.svg"
             log="docs/diagrams/_previews/_errors/${rel%.vl.json}-chart.log"
             mkdir -p "$(dirname "$out")" "$(dirname "$log")"
-            if npx -y vega-lite vl2vg "$f" | npx -y vega vg2svg > "$out" 2> "$log"; then
+            if npx -y vl2vg "$f" | npx -y vg2svg > "$out" 2> "$log"; then
               echo "OK $f"
             else
               echo "::warning file=$f::vega preview FAILED (see $log)"
@@ -119,3 +119,4 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "</details>" >> $GITHUB_STEP_SUMMARY
           done
+
