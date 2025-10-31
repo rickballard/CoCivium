@@ -40,7 +40,7 @@ $spec = [ordered]@{
     @{
       mark = @{ type='line' }
       encoding = @{
-        x = @{ field='t'; type='quantitative'; title='Year'; scale=@{nice=false} }
+        x = @{ field='t'; type='quantitative'; title='Year'; scale=@{nice=$false} }
         y = @{ field='v'; type='quantitative'; title='Normalized index (0–100)'; scale=@{domain=@(0,100)} }
         color = @{ field='k'; type='nominal'; title='Series' }
         opacity = @{ value = 0.6 }
@@ -60,4 +60,5 @@ $spec = [ordered]@{
 
 $spec | ConvertTo-Json -Depth 9 | Set-Content -Encoding UTF8 $chart
 Write-Host "Wrote spec: $chart"
+
 

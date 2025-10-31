@@ -5,63 +5,63 @@
   "data": {
     "values": [
       {
-        "t": 1800,
         "v": 25.0,
+        "t": 1800,
         "k": "LifeExpectancy"
       },
       {
-        "t": 1900,
         "v": 31.0,
+        "t": 1900,
         "k": "LifeExpectancy"
       },
       {
-        "t": 2000,
         "v": 67.0,
+        "t": 2000,
         "k": "LifeExpectancy"
       },
       {
-        "t": 2020,
         "v": 72.0,
+        "t": 2020,
         "k": "LifeExpectancy"
       },
       {
-        "t": 1800,
         "v": 12.0,
-        "k": "Literacy"
-      },
-      {
-        "t": 1900,
-        "v": 21.0,
-        "k": "Literacy"
-      },
-      {
-        "t": 2000,
-        "v": 82.0,
-        "k": "Literacy"
-      },
-      {
-        "t": 2020,
-        "v": 86.0,
-        "k": "Literacy"
-      },
-      {
         "t": 1800,
-        "v": 5.0,
-        "k": "ExtremePovertyInv"
+        "k": "Literacy"
       },
       {
+        "v": 21.0,
         "t": 1900,
-        "v": 8.0,
-        "k": "ExtremePovertyInv"
+        "k": "Literacy"
       },
       {
+        "v": 82.0,
         "t": 2000,
-        "v": 85.0,
+        "k": "Literacy"
+      },
+      {
+        "v": 86.0,
+        "t": 2020,
+        "k": "Literacy"
+      },
+      {
+        "v": 5.0,
+        "t": 1800,
         "k": "ExtremePovertyInv"
       },
       {
-        "t": 2020,
+        "v": 8.0,
+        "t": 1900,
+        "k": "ExtremePovertyInv"
+      },
+      {
+        "v": 85.0,
+        "t": 2000,
+        "k": "ExtremePovertyInv"
+      },
+      {
         "v": 92.0,
+        "t": 2020,
         "k": "ExtremePovertyInv"
       }
     ]
@@ -69,29 +69,32 @@
   "layer": [
     {
       "encoding": {
-        "opacity": {
-          "value": 0.6
-        },
-        "y": {
-          "type": "quantitative",
-          "title": "Normalized index (0–100)",
-          "scale": {
-            "domain": [
-              0,
-              100
-            ]
-          },
-          "field": "v"
-        },
         "color": {
           "type": "nominal",
           "title": "Series",
           "field": "k"
         },
         "x": {
-          "type": "temporal",
+          "scale": {
+            "nice": false
+          },
+          "type": "quantitative",
           "title": "Year",
           "field": "t"
+        },
+        "y": {
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "type": "quantitative",
+          "title": "Normalized index (0–100)",
+          "field": "v"
+        },
+        "opacity": {
+          "value": 0.6
         }
       },
       "mark": {
@@ -99,37 +102,37 @@
       }
     },
     {
+      "transform": [
+        {
+          "groupby": [
+            "t"
+          ],
+          "aggregate": [
+            {
+              "op": "mean",
+              "as": "Vitality",
+              "field": "v"
+            }
+          ]
+        }
+      ],
       "encoding": {
-        "y": {
-          "field": "Vitality",
-          "type": "quantitative"
-        },
         "color": {
           "value": "black"
         },
         "x": {
-          "field": "t",
-          "type": "temporal"
+          "type": "quantitative",
+          "field": "t"
+        },
+        "y": {
+          "type": "quantitative",
+          "field": "Vitality"
         }
       },
       "mark": {
-        "strokeWidth": 4,
-        "type": "line"
-      },
-      "transform": [
-        {
-          "aggregate": [
-            {
-              "as": "Vitality",
-              "op": "mean",
-              "field": "v"
-            }
-          ],
-          "groupby": [
-            "t"
-          ]
-        }
-      ]
+        "type": "line",
+        "strokeWidth": 4
+      }
     }
   ]
 }
