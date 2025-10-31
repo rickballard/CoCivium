@@ -1,0 +1,9 @@
+
+SyntaxError: Unexpected token 'm', "module.exp"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at cli (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:202:59)
+    at file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/cli.js:6:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
