@@ -1,8 +1,8 @@
 
-Error: Evaluation failed: Error: Parse error on line 2:
-flowchart TDflowchart LRclassDe
-------------^
-Expecting 'SEMI', 'NEWLINE', 'SPACE', 'EOF', 'subgraph', 'acc_title', 'acc_descr', 'acc_descr_multiline_value', 'AMP', 'COLON', 'STYLE', 'LINKSTYLE', 'CLASSDEF', 'CLASS', 'CLICK', 'DOWN', 'DEFAULT', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', 'direction_tb', 'direction_bt', 'direction_rl', 'direction_lr', got 'GRAPH'
+Error: Evaluation failed: Error: Parse error on line 18:
+..."open"click Health  "vitals/health-inde
+----------------------^
+Expecting 'DIR', 'AMP', 'COLON', 'STR', 'DOWN', 'CALLBACKNAME', 'HREF', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', got 'SPACE'
     at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32374:23)
     at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32439:18)
     at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12295:19)
