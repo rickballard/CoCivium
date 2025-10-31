@@ -164,3 +164,4 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
   - notes: seed chart; replace indices with sourced, cited metrics; add legend + units
 <!-- VIOLET:IGNORE-LINKS:END -->
 
+
