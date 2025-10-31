@@ -17,13 +17,19 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      # Tell puppeteer where Chromium lives (we install it via apt below)
+      PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install fonts (helps Mermaid text)
+      - name: Install system deps (Chromium + fonts + canvas libs)
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-color-emoji
+          sudo apt-get install -y \
+            chromium-browser \
+            fonts-noto fonts-noto-cjk fonts-noto-color-emoji \
+            libfontconfig1 libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -32,7 +38,7 @@ jobs:
 
       - name: Prime CLIs (local for npx)
         run: |
-          npm i @mermaid-js/mermaid-cli vega vega-cli vega-lite canvas
+          npm i @mermaid-js/mermaid-cli@10.9.1 vega@5 vega-cli@5 vega-lite@5 canvas
 
       - name: Env debug
         shell: bash
@@ -40,6 +46,8 @@ jobs:
           set -euxo pipefail
           node --version
           npm  --version
+          which chromium-browser || true
+          chromium-browser --version || true
           npx -y @mermaid-js/mermaid-cli -V || true
           npx -y vega-lite vl2vg --help | head -n 2 || true
           npx -y vega vg2svg --help | head -n 2 || true
@@ -97,3 +105,17 @@ jobs:
           commit_message: "build(preview): refresh diagram previews"
           file_pattern: docs/diagrams/_previews/**
           add_options: "-f"
+
+      - name: Summarize log tails
+        if: always()
+        shell: bash
+        run: |
+          echo "### Error log tails" >> $GITHUB_STEP_SUMMARY
+          for log in $(find docs/diagrams/_previews/_errors -type f -name '*.log' | sort); do
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "<details><summary>${log}</summary>" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            tail -n 80 "$log" >> $GITHUB_STEP_SUMMARY || true
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "</details>" >> $GITHUB_STEP_SUMMARY
+          done
