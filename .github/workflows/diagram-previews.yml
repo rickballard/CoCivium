@@ -37,3 +37,4 @@ jobs:
         with:
           commit_message: "build(preview): refresh diagram previews"
           file_pattern: docs/diagrams/_previews/**
+
