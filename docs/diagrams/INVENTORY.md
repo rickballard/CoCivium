@@ -176,3 +176,8 @@ Browse all generated and planned diagrams. Click file links to open; use PR comm
 |------|------|---------------------|-------|
 | docs/diagrams/render/academy/vital-signs.mmd     | Mermaid (method) | docs/diagrams/_previews/render/academy/vital-signs.svg | Methodology map for Vitals |
 | docs/diagrams/render/academy/vital-signs.vl.json | Vega-Lite (chart) | docs/diagrams/_previews/render/academy/vital-signs.svg | Time-series chart (+ composite “Vitality”) |
+
+| Path | Kind | Preview (expected) | Notes |
+|------|------|---------------------|-------|
+| docs/diagrams/render/academy/vital-signs.mmd     | Mermaid (method) | docs/diagrams/_previews/render/academy/vital-signs-map.svg   | Methodology map |
+| docs/diagrams/render/academy/vital-signs.vl.json | Vega-Lite (chart)| docs/diagrams/_previews/render/academy/vital-signs-chart.svg | Time-series + composite "Vitality" |

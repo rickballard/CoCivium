@@ -1,0 +1,26 @@
+metrics:
+  - key: LifeExpectancy
+    title: Life Expectancy
+    unit: years
+    direction: higher-is-better
+    normalize: minmax
+    min: 20
+    max: 85
+  - key: Literacy
+    title: Literacy Rate
+    unit: percent
+    direction: higher-is-better
+    normalize: minmax
+    min: 0
+    max: 100
+  - key: ExtremePovertyInv
+    title: Extreme Poverty (1 - share)
+    unit: percent
+    direction: higher-is-better
+    normalize: minmax
+    min: 0
+    max: 100
+weights:
+  LifeExpectancy: 1
+  Literacy: 1
+  ExtremePovertyInv: 1

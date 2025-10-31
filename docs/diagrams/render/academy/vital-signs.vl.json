@@ -1,44 +1,135 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 900, "height": 420,
-  "data": { "values": [
-    {"t": 1800, "k":"LifeExpectancy","v": 25},
-    {"t": 1900, "k":"LifeExpectancy","v": 31},
-    {"t": 2000, "k":"LifeExpectancy","v": 67},
-    {"t": 2020, "k":"LifeExpectancy","v": 72},
-
-    {"t": 1800, "k":"Literacy","v": 12},
-    {"t": 1900, "k":"Literacy","v": 21},
-    {"t": 2000, "k":"Literacy","v": 82},
-    {"t": 2020, "k":"Literacy","v": 86},
-
-    {"t": 1800, "k":"ExtremePoverty(1-minus)","v": 5},
-    {"t": 1900, "k":"ExtremePoverty(1-minus)","v": 8},
-    {"t": 2000, "k":"ExtremePoverty(1-minus)","v": 85},
-    {"t": 2020, "k":"ExtremePoverty(1-minus)","v": 92}
-  ]},
-  "transform": [
-    {"aggregate":[{"op":"mean","field":"v","as":"agg"}],"groupby":["t"]},
-    {"window":[{"op":"lead","field":"agg","as":"agg_next"}],"sort":[{"field":"t"}]}
-  ],
+  "width": 900,
+  "height": 420,
+  "data": {
+    "values": [
+      {
+        "t": 1800,
+        "v": 25.0,
+        "k": "LifeExpectancy"
+      },
+      {
+        "t": 1900,
+        "v": 31.0,
+        "k": "LifeExpectancy"
+      },
+      {
+        "t": 2000,
+        "v": 67.0,
+        "k": "LifeExpectancy"
+      },
+      {
+        "t": 2020,
+        "v": 72.0,
+        "k": "LifeExpectancy"
+      },
+      {
+        "t": 1800,
+        "v": 12.0,
+        "k": "Literacy"
+      },
+      {
+        "t": 1900,
+        "v": 21.0,
+        "k": "Literacy"
+      },
+      {
+        "t": 2000,
+        "v": 82.0,
+        "k": "Literacy"
+      },
+      {
+        "t": 2020,
+        "v": 86.0,
+        "k": "Literacy"
+      },
+      {
+        "t": 1800,
+        "v": 5.0,
+        "k": "ExtremePovertyInv"
+      },
+      {
+        "t": 1900,
+        "v": 8.0,
+        "k": "ExtremePovertyInv"
+      },
+      {
+        "t": 2000,
+        "v": 85.0,
+        "k": "ExtremePovertyInv"
+      },
+      {
+        "t": 2020,
+        "v": 92.0,
+        "k": "ExtremePovertyInv"
+      }
+    ]
+  },
   "layer": [
     {
-      "mark": {"type":"line"},
       "encoding": {
-        "x": {"field":"t","type":"temporal","title":"Year"},
-        "y": {"field":"v","type":"quantitative","title":"Normalized index (0–100)", "scale":{"domain":[0,100]}},
-        "color": {"field":"k","type":"nominal","title":"Series"},
-        "opacity": {"value": 0.6}
+        "opacity": {
+          "value": 0.6
+        },
+        "y": {
+          "type": "quantitative",
+          "title": "Normalized index (0–100)",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "field": "v"
+        },
+        "color": {
+          "type": "nominal",
+          "title": "Series",
+          "field": "k"
+        },
+        "x": {
+          "type": "temporal",
+          "title": "Year",
+          "field": "t"
+        }
+      },
+      "mark": {
+        "type": "line"
       }
     },
     {
-      "mark": {"type":"line","strokeWidth": 4},
-      "transform":[{"aggregate":[{"op":"mean","field":"v","as":"Vitality"}],"groupby":["t"]}],
-      "encoding":{
-        "x":{"field":"t","type":"temporal"},
-        "y":{"field":"Vitality","type":"quantitative"},
-        "color":{"value":"black"}
-      }
+      "encoding": {
+        "y": {
+          "field": "Vitality",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "black"
+        },
+        "x": {
+          "field": "t",
+          "type": "temporal"
+        }
+      },
+      "mark": {
+        "strokeWidth": 4,
+        "type": "line"
+      },
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "as": "Vitality",
+              "op": "mean",
+              "field": "v"
+            }
+          ],
+          "groupby": [
+            "t"
+          ]
+        }
+      ]
     }
   ]
 }
