@@ -1,3 +1,5 @@
+> **AI Dream** — near-term motivations & guardrails for trustworthy co-agency.
+> See **[Insights → AI Dream](docs/insights/README.md)** (theory & practice).
 [![CoCivium™ Control Room](https://raw.githubusercontent.com/rickballard/CoCache/main/docs/assets/brand/cocivium_logo_green_tm.svg)](https://github.com/rickballard/CoCache/blob/main/docs/CONSOLE.md)
 [![Giant Metrics Index](https://raw.githubusercontent.com/rickballard/CoCache/main/docs/assets/brand/cocivium_logo_amber_tm.svg)](https://github.com/rickballard/CoCache/blob/main/docs/METRICS_INDEX.md)
 # CoCivium™
@@ -38,3 +40,4 @@ CoDrift Index: n/a% (n/a)
 ## Insights
 - **The AI Dream (theory):** docs/insights/ai-dream/THEORY.md  
 - **The AI Dream (practice):** docs/insights/ai-dream/PRACTICE.md
+
