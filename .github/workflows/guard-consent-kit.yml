@@ -1,0 +1,15 @@
+name: guard-consent-kit
+on:
+  pull_request:
+    paths:
+      - '.github/pull_request_template.md'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Consent-Kit block present
+        shell: bash
+        run: |
+          grep -q "## Consent-Kit (quick checks)" .github/pull_request_template.md || {
+            echo "Consent-Kit block missing"; exit 1; }
