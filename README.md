@@ -34,3 +34,7 @@ CoDrift Index: n/a% (n/a)
 <p align="center">
   <a href="site/hero/"><img src="site/hero/hero.svg" alt="CoCivium — Constellation Map" width="720"></a>
 </p>
+
+## Insights
+- **The AI Dream (theory):** docs/insights/ai-dream/THEORY.md  
+- **The AI Dream (practice):** docs/insights/ai-dream/PRACTICE.md
