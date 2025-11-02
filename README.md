@@ -92,3 +92,4 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
