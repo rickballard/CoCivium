@@ -1,3 +1,5 @@
+> **AI Dream** — near-term motivations & guardrails for trustworthy co-agency.  
+> See **[Insights → AI Dream](docs/insights/README.md)** (theory & practice).
 # CoCivium
 
 **Build the society that helps to build itself.**  
@@ -104,3 +106,4 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
