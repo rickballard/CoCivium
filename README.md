@@ -39,11 +39,11 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 ### Express lane for your own onboarding
 
 1. **CoCiv (the loop)** → *Listen → Deliberate → Do → Audit*\
-   `docs/diagrams/co-loop.svg`
+   [docs/diagrams/co-loop.svg](docs/diagrams/co-loop.svg)
 2. **Longer timeline** (optional after your first hour) → Days 0–1 listen · Days 1–2 deliberate · Days 3–6 do · Day 7 audit\
-   `docs/diagrams/one-week-microproject.svg`
+   [docs/diagrams/one-week-microproject.svg](docs/diagrams/one-week-microproject.svg)
 3. **Engagement ladder** → See → Try → Repeat → CoSteward → Mentor → CoAuditor\
-   `docs/diagrams/engagement-ladder.svg`
+   [docs/diagrams/engagement-ladder.svg](docs/diagrams/engagement-ladder.svg)
 
 ---
 
@@ -87,22 +87,22 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 ## Where next?
 ## Where next?
 
-- **Quickstart** → `docs/quickstart.md`
-- **World issues (short theory)** → `docs/insights/world-issues/THEORY.md`
-- **How we mitigate (practice)** → `docs/insights/world-issues/PRACTICE.md`
-- **Deep dive** → `docs/insights/the-longer-story.md`
+- **Quickstart** → [docs/quickstart.md](docs/quickstart.md)
+- **World issues (short theory)** → [docs/insights/world-issues/THEORY.md](docs/insights/world-issues/THEORY.md)
+- **How we mitigate (practice)** → [docs/insights/world-issues/PRACTICE.md](docs/insights/world-issues/PRACTICE.md)
+- **Deep Dive** → [docs/insights/the-longer-story.md](docs/insights/the-longer-story.md)
 
 ## License and community
 
-Open by default. See `LICENSE*` and `docs/governance`.
+Open by default. See `LICENSE*` and [docs/governance](docs/governance).
 
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
 
 ---
-
 ## Highlights and links
 
-- See: `docs/links/HIGHLIGHTS.md` (evolving)
+- See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
+
 

@@ -9,3 +9,7 @@ Start with runbooks and guardrails. Keep steps short and reversible.
 ## Runbooks
 - Intake advice bomb → verify → log → tiny receipt
 - Weekly sync → pick two safe to try pilots → assign receipts
+
+---
+
+*Nav:* [Front door](../README.md) · [Highlights](../links/HIGHLIGHTS.md)

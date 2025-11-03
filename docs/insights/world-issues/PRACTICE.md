@@ -1,4 +1,4 @@
-# How we mitigate — practice
+# How we mitigate  -  practice
 
 > Small pilots with clear receipts. Copy the pattern.
 
@@ -24,3 +24,6 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 
 ---
 
+---
+
+*Nav:* [Front door](../../README.md) · [Highlights](../../links/HIGHLIGHTS.md) · [Theory](THEORY.md) · [BPOE quicklist](../../bpoe/quicklist.md)
