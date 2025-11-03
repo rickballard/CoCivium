@@ -10,7 +10,9 @@
 > **What ties this together:** a quick ask, a few simple taps, one lift. By morning the time boards are closer to true because those taps showed the drift. Two short receipts become two short kits others can copy. This is CoCivium: we care, we notice, we help, and our shared life learns.
 
 
-> **Why it matters:** small, visible help turns into tiny kits others can reuse—so every lift today shortens someone else’s path tomorrow.
+
+> **Why it matters:** small, visible help turns into tiny kits others can reuse, so every lift today shortens someone else's path tomorrow.
+> **Why it matters:** small, visible help turns into tiny kits others can reuse - so every lift today shortens someone else’s path tomorrow.
 > In CoCivium we help each other as we help ourselves. We make hard things easier for those who come after us by steadily improving how our shared life is organized and cared for. The helper assets we create are free to all and owned by all. This is not a commercial future, it is a social one. CoCivium is the global village done right, where mutual support among humans, AIs, and other beings matters more than winner takes all. Before AI this scale of care was hard; now it is possible if we choose it.
 
 ## What is CoCivium? (plain words)
@@ -99,6 +101,7 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
 
 
 
