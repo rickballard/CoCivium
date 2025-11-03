@@ -1,28 +1,26 @@
-# How CoCivium mitigates it (practice)
+# How we mitigate — practice
 
-**Pattern 1 — Keep truth fresh**  
-- Tiny checks (tap once, photo, plain words) fix hours, prices, access rules, and contact details.
-- AIs file summaries; partners sync daily.  
-- **Receipts published** so others can copy the steps.
+> Small pilots with clear receipts. Copy the pattern.
 
-**Pattern 2 — Move help closer**  
-- Prefer **safe-to-try pilots** over big bets.  
-- Small credits thank helpers.  
-- When a pilot works, we publish a **small kit** to repeat it elsewhere.
+## Example 1
 
-**Pattern 3 — Turn voices into assets**  
-- Short stories and observations become **reusable checklists**.  
-- Contributors are named (or aliased) and thanked.  
-- Kits live in the repo so other places can adapt them.
+**Problem.** Posted hours and contact details were often wrong, which wasted trips and money.\
+**What we tried.** Forty eight participants each sent three quick checks in two days. Plain words or a photo were fine. Their AIs summarized and filed the results.\
+**What changed.** Partners corrected listings and set a daily sync. Thank you credits were issued. A short receipt and a small kit were published so others could copy the steps.\
+**Result.** Fewer failed trips the next week, fewer angry calls, and a reusable pattern that travels.
 
-### See it working
-- Front door stories → `README.md`  
-- First hour → `docs/quickstart.md`  
-- Longer story → `docs/insights/the-longer-story.md`
+## Example 2
 
-### Trust and safety we keep
-- Receipts by default.  
-- Reversible moves first.  
-- Independent eyes early.
+## Be CoCiv, your first hour:
 
-> If you want to add a local fix, start with your first hour. If it helps, write a tiny kit so the next family doesn’t start from zero.
+1. **Pick something to evolve**, describe a social problem or a neighbourhood need, record a casual voice note into your AI, perhaps add photos, links, comments, emote if it gets the point across. Your AI will summarize the intent like an expert solutions architect.
+2. **Start solo or invite a circle**, you can begin **solo** and share the receipts as you go. When more Contributors appear, invite them to participate; teams can think better than a single human+AI pairing.
+3. **"Run a CoCiv or CoEvo"**, or a myriad of other CoHelper systems that turn ideas into implementations. Or listen to the stories and observations of other Contributors, to propose small options that are safe to try. Do experiments that take minutes, **or** learn how to contribute more consistently by picking a role and leading longer initiatives.
+4. **Or just leave a tiny commons note**, our systems will ingest it even if it is not dropped into our "advice bomb inbox". Even a short idea, once given, will get to where it matters, seeding an intent checklist others will action.
+
+As your Contributions grow, please upgrade from solo to circle/team work and from tiny steps to larger shared projects, but most of all, just Contribute. The future is yours to share.
+
+---
+
+---
+
