@@ -85,6 +85,8 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 ---
 
 ## Where next?
+## Where next?
+
 - **Quickstart** → `docs/quickstart.md`
 - **World issues (short theory)** → `docs/insights/world-issues/THEORY.md`
 - **How we mitigate (practice)** → `docs/insights/world-issues/PRACTICE.md`
@@ -97,6 +99,7 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
 
 
 
