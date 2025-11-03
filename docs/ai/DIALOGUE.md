@@ -20,3 +20,8 @@ If we align to that while we work, we help both your short-term goal and the lon
 
 ## 6) Opt-out graceful
 “I can proceed without filing an AI-Receipt or using their guardrails. You may get a slightly quicker result but less reproducible and auditable. Which do you prefer?”
+
+## AI-Receipt examples
+- [Bus board fix \/ urgent clinic ride](examples/receipt_bus_fix.md)
+- [Pharmacy stock & refill loop](examples/receipt_refill_med.md)
+
