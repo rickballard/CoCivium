@@ -12,4 +12,8 @@ A place can change this if it learns in public.
 - Fast, safe pilots **move help closer** to the person.
 - Short receipts and tiny kits **turn voices into assets** that travel.
 
-That is the theory. The practice is below.
+## Legacy chorus (curated acrostic)
+
+*Paste the paragraph list whose **first words** form your sentence. Keep each para short (1–3 lines), plain words, human. Preserve the acrostic intent and voice.*
+
+> Curated from: `docs/insights/world-issues/LEGACY_READMES_SAMPLES.md`
