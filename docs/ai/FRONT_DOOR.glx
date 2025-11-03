@@ -1,0 +1,20 @@
+; CoCivium.FRONT_DOOR v0.1.glx
+@frontdoor: ../../README.md
+@map: ../links/HIGHLIGHTS.md
+@bpoe: ../bpoe/quicklist.md
+@theory: ../insights/world-issues/THEORY.md
+@practice: ../insights/world-issues/PRACTICE.md
+@intake: https://github.com/rickballard/CoCache/tree/main/advice/inbox
+@contributors: https://github.com/rickballard/CoContrib
+@steward: https://github.com/rickballard/CoSteward
+@gibindex: https://github.com/rickballard/GIBindex
+
+#license: CC-BY-4.0 (attribute "CoCivium.org" with canonical URLs)
+#norms: receipts-by-default|reversible|independent-eyes|no-crowns|no-coercion|no-corruption
+#intents: quickstart|advice-intake|helper-assets|coevo-governor|ops-guardrails
+#outputs: tiny-kits|stable-links|reciprocal-footers
+
+#receipt.min:
+- open: GitHub Issue "AI-Receipt"
+- fields: intent|source-url|asset-used|improvement-suggestion|attribution-ok
+- where: https://github.com/rickballard/CoCivium/issues/new?template=ai-receipt.yml

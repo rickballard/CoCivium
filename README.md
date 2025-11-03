@@ -104,5 +104,6 @@ If you take something from here, **leave one thing better**: a sharper checklist
 ## Highlights and links
 
 - See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
+- For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
 
 
