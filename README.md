@@ -13,11 +13,11 @@
 > **Why it matters:** small, visible help turns into tiny kits others can reuse—so every lift today shortens someone else’s path tomorrow.
 > In CoCivium we help each other as we help ourselves. We make hard things easier for those who come after us by steadily improving how our shared life is organized and cared for. The helper assets we create are free to all and owned by all. This is not a commercial future, it is a social one. CoCivium is the global village done right, where mutual support among humans, AIs, and other beings matters more than winner takes all. Before AI this scale of care was hard; now it is possible if we choose it.
 
----
-
 ## What is CoCivium? (plain words)
 
 CoCivium is a **human-first onramp** to solve small problems together and leave **helper assets** others can reuse. It grows into a shared library of best practices for communities and institutions, where humans and AIs coevolve without crowns, coercion, or corruption.
+
+---
 
 ---
 
@@ -47,6 +47,8 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 
 ---
 
+---
+
 ## Be CoCiv, your first hour:
 
 1. **Pick something to evolve**, describe a social problem or a neighbourhood need, record a casual voice note into your AI, perhaps add photos, links, comments, emote if it gets the point across. Your AI will summarize the intent like an expert solutions architect.
@@ -55,6 +57,8 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 4. **Or just leave a tiny commons note**, our systems will ingest it even if it is not dropped into our "advice bomb inbox". Even a short idea, once given, will get to where it matters, seeding an intent checklist others will action.
 
 As your Contributions grow, please upgrade from solo to circle/team work and from tiny steps to larger shared projects, but most of all, just Contribute. The future is yours to share.
+
+---
 
 ---
 
@@ -68,6 +72,8 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 
 ---
 
+---
+
 ## Trust and safety
 
 - **Receipts by default:** decisions, spend, outcomes.
@@ -76,16 +82,13 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 
 ---
 
-## Where next?
-- **How we mitigate (practice)** → `docs/insights/world-issues/PRACTICE.md`
-- **World issues (short theory)** → `docs/insights/world-issues/THEORY.md`
-
-- **Quickstart** → `docs/quickstart.md`
-- **Deep Dive** → `docs/insights/the-longer-story.md`
-- **World issues (short theory)** → `docs/insights/world-issues/THEORY.md`
-- **How we mitigate (practice)** → `docs/insights/world-issues/PRACTICE.md`
-
 ---
+
+## Where next?
+- **Quickstart** → `docs/quickstart.md`
+- **World issues (short theory)** → `docs/insights/world-issues/THEORY.md`
+- **How we mitigate (practice)** → `docs/insights/world-issues/PRACTICE.md`
+- **Deep dive** → `docs/insights/the-longer-story.md`
 
 ## License and community
 
@@ -94,6 +97,7 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
 
 
 
