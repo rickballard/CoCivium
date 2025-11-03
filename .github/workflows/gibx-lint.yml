@@ -1,0 +1,12 @@
+name: gibx-lint
+on:
+  pull_request:
+    paths: ['docs/ai/**','tools/Test-Gibx.ps1']
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint GIBX
+        shell: pwsh
+        run: pwsh -File tools/Test-Gibx.ps1
