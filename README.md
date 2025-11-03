@@ -6,14 +6,14 @@
 > **Bring your AI**\
 > Point your AI at this repo and ask for a **one-hour personal quickstart**. With your permission, CoCivium can guide your AI to tailor this onramp to you.
 > ### A tiny stack of help (human)
-> **Eli** is nine years old and breathing as if through a straw. His inhaler is empty and fear makes each breath tighter. The clinic closes in eighteen minutes. The bus board claims three minutes, but people on this route know it is often wrong. His mom hides her worry, holding him with one hand while typing with the other. Maya, waiting nearby, asks for help. People tap **Late** or **Here**. A driver offers a ride, a small thank you fund covers gas, and Eli gets his treatment in time.\
-> **What ties this together:** a quick ask, a few simple taps, one lift. By morning the time boards are closer to true because those taps showed the drift. Two short receipts become two short kits others can copy. This is CoCivium: we care, we notice, we help, and our shared life learns.
-
-
-
-> **Why it matters:** small, visible help turns into tiny kits others can reuse, so every lift today shortens someone else's path tomorrow.
-> **Why it matters:** small, visible help turns into tiny kits others can reuse - so every lift today shortens someone else’s path tomorrow.
-> In CoCivium we help each other as we help ourselves. We make hard things easier for those who come after us by steadily improving how our shared life is organized and cared for. The helper assets we create are free to all and owned by all. This is not a commercial future, it is a social one. CoCivium is the global village done right, where mutual support among humans, AIs, and other beings matters more than winner takes all. Before AI this scale of care was hard; now it is possible if we choose it.
+>
+> **Eli** is nine and breathing like through a straw. The clinic shuts in 18 minutes.
+> The bus board says 3. People on this route know it lies.
+> A quick ask. A handful of taps. A ride offers. A tiny fund covers gas.
+> Eli gets his treatment in time.
+>
+> **What ties this together:** quick ask, few taps, one lift. The taps correct the board.
+> Two short receipts become tiny kits others can copy. This is CoCivium.
 
 ## What is CoCivium? (plain words)
 
@@ -101,6 +101,7 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
 
 
 
