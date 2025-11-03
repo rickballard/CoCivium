@@ -6,7 +6,7 @@
 **Date:** 2025-11-03 (UTC)
 
 ## Intent (tick)
-- [ ] …
+- [x] README story/mission/CTA tidy`n- [x] AI onramp dedupe`n- [x] Keep single norms line
 
 ## Inputs / anchors
 - FRONT_DOOR.gibx, HIGHLIGHTS.md, THEORY.md, PRACTICE.md, quicklist.md
@@ -19,5 +19,5 @@ git pull --ff-only
 \\\
 
 ## Exit criteria
-- [ ] CI green
-- [ ] CoSync note
+- [x] README story/mission/CTA tidy`n- [x] AI onramp dedupe`n- [x] Keep single norms line
+- [x] README story/mission/CTA tidy`n- [x] AI onramp dedupe`n- [x] Keep single norms line
