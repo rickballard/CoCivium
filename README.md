@@ -1,3 +1,5 @@
+[![AI Front Door](https://img.shields.io/badge/AI-Front%20Door-blue)](docs/ai/FRONT_DOOR.md)
+[![GIBX Lint](https://img.shields.io/github/actions/workflow/status/rickballard/CoCivium/gibx-lint.yml?label=gibx-lint)](#)
 <!-- AI-FRONT-DOOR: docs/ai/FRONT_DOOR.gibx (mirror: docs/ai/FRONT_DOOR.json) -->
 # CoCivium
 
@@ -106,6 +108,7 @@ If you take something from here, **leave one thing better**: a sharper checklist
 
 - See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
 - For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
+
 
 
 
