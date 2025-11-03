@@ -1,1 +1,21 @@
-`n# (same content as block #1) skipped if exists
+name: guard-gib-org
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    permissions: { pull-requests: write, contents: read }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block junk folders and enforce GIB tag on Co* tokens
+        shell: pwsh
+        run: |
+          $bad = git diff --name-only origin/main...HEAD | ? { $_ -match '^(insight/|insights/|docs/insight/)' }
+          if($bad){ Write-Error "Forbidden folders present:`n$($bad -join "`n")" }
+          $added = git diff --unified=0 origin/main...HEAD | Select-String '^\+'
+          $co = $added | ? { $_.Line -match '\bCo[A-Z]\w*' } | % Line
+          if($co){
+            $hasTag = ($added | % Line) -match 'gib:Term' | Select-Object -First 1
+            if(-not $hasTag){ Write-Error "New Co* token(s) introduced but no 'gib:Term' reference found." }
+          }

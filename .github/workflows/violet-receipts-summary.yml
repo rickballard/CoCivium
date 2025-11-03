@@ -1,1 +1,19 @@
-`n# (same content as block #1) skipped if exists
+name: violet-receipts-summary
+on:
+  push: { branches: [ main ] }
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish violet receipts (last 5) to job summary
+        shell: pwsh
+        run: |
+          $vio = Join-Path (Get-Location) 'advice/STATUS/violets.log'
+          if(Test-Path $vio){
+            @("# Violet Receipts (last 5)","") + (Get-Content $vio -Tail 5) |
+              ForEach-Object { Add-Content $env:GITHUB_STEP_SUMMARY $_ }
+          } else {
+            Add-Content $env:GITHUB_STEP_SUMMARY "# Violet Receipts"
+            Add-Content $env:GITHUB_STEP_SUMMARY "(none yet)"
+          }
