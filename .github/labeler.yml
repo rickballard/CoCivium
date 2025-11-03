@@ -6,3 +6,6 @@ ci:
   - ".github/workflows/**"
 diagrams:
   - "docs/diagrams/**"
+ai-receipt:
+  - changed-files:
+      - any-glob-to-any-file: 'docs/ai/examples/receipt_*.md'
