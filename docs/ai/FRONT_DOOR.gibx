@@ -1,3 +1,4 @@
+;!gibx v0.1
 ; CoCivium.FRONT_DOOR v0.1.glx
 @frontdoor: ../../README.md
 @map: ../links/HIGHLIGHTS.md
@@ -18,4 +19,5 @@
 - open: GitHub Issue "AI-Receipt"
 - fields: intent|source-url|asset-used|improvement-suggestion|attribution-ok
 - where: https://github.com/rickballard/CoCivium/issues/new?template=ai-receipt.yml
+
 
