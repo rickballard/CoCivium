@@ -23,3 +23,4 @@ foreach($m in [regex]::Matches($txt,$rx,'Multiline')){
 }
 
 Write-Host "GIBX OK: $Path"
+
