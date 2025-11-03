@@ -1,4 +1,6 @@
 {
+  "asset": "CoCivium.FRONT_DOOR",
+  "version": "0.1",
   "directives": {
     "theory": "../insights/world-issues/THEORY.md",
     "steward": "https://github.com/rickballard/CoSteward",
@@ -7,11 +9,12 @@
     "intake": "https://github.com/rickballard/CoCache/tree/main/advice/inbox",
     "map": "../links/HIGHLIGHTS.md",
     "bpoe": "../bpoe/quicklist.md",
+    "schema": "gibx/0.1",
     "frontdoor": "../../README.md",
-    "contributors": "https://github.com/rickballard/CoContrib"
+    "spec": "./SPEC.md",
+    "contributors": "https://github.com/rickballard/CoContrib",
+    "ai-dialogue": "./DIALOGUE.md"
   },
-  "version": "0.1",
-  "asset": "CoCivium.FRONT_DOOR",
   "tags": {
     "norms": [
       "receipts-by-default|reversible|independent-eyes|no-crowns|no-coercion|no-corruption"
