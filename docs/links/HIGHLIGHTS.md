@@ -41,3 +41,4 @@ Short, scannable links to what matters most. This page will grow with the repo.
 - Link to working files where possible; otherwise leave a clear planned path.
 - Avoid dead links that 404; prefer **planned** paths in backticks until files exist.
 - Review monthly and prune anything that drifts.
+
