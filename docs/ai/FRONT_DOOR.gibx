@@ -1,4 +1,17 @@
 ;!gibx v0.1
+@schema: gibx/0.1
+@spec: ./SPEC.md
+;SPEC-BEGIN
+; GIBX v0.1 (portable mini-spec)
+; line types:
+;   ; comment
+;   @key: value     (unique per key)
+;   #key: value     (repeatable)
+; required directives: @frontdoor, @map, @bpoe
+; values: relative repo paths preferred; URLs allowed
+; unknown keys: ignore (forward-compat)
+; a JSON mirror with same basename MUST exist
+;SPEC-END
 ; CoCivium.FRONT_DOOR v0.1.glx
 @frontdoor: ../../README.md
 @map: ../links/HIGHLIGHTS.md
@@ -19,5 +32,7 @@
 - open: GitHub Issue "AI-Receipt"
 - fields: intent|source-url|asset-used|improvement-suggestion|attribution-ok
 - where: https://github.com/rickballard/CoCivium/issues/new?template=ai-receipt.yml
+
+
 
 
