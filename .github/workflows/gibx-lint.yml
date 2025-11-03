@@ -10,3 +10,5 @@ jobs:
       - name: Lint GIBX
         shell: pwsh
         run: pwsh -File tools/Test-Gibx.ps1
+pwsh -File tools/Compare-GibxJson.ps1
+
