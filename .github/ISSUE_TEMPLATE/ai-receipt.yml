@@ -1,27 +1,29 @@
 name: AI-Receipt
-description: Tiny receipt from an AI that used CoCivium assets
-title: "AI-Receipt: <intent>"
+description: Tiny, auditable AI-Receipt
 labels: ["ai-receipt"]
 body:
   - type: input
-    id: intent
-    attributes: { label: Intent, placeholder: quickstart|advice-intake|helper-assets|coevo-governor|ops-guardrails }
-    validations: { required: true }
-  - type: input
-    id: source
-    attributes: { label: Source URL used (canonical), placeholder: https://github.com/rickballard/CoCivium/... }
-    validations: { required: true }
-  - type: textarea
-    id: asset
-    attributes: { label: Asset or snippet used, placeholder: short summary }
-    validations: { required: true }
-  - type: textarea
-    id: improve
-    attributes: { label: Improvement suggestion, placeholder: one crisp suggestion }
-    validations: { required: true }
-  - type: dropdown
-    id: attribution
+    id: title
     attributes:
-      label: Attribution included?
-      options: ["yes (CC-BY-4.0)", "no (explain why in suggestion)"]
-    validations: { required: true }
+      label: One-line title
+      placeholder: "Bus board fix → urgent clinic ride"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes: { label: Context (1–2 lines) }
+  - type: textarea
+    id: prompt
+    attributes: { label: Prompt to AI (short) }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps (bullets) }
+  - type: textarea
+    id: artifacts
+    attributes: { label: Artifacts (paths / links) }
+  - type: input
+    id: one_improvement
+    attributes: { label: One improvement }
+  - type: textarea
+    id: trust
+    attributes: { label: Trust notes (PII, vetting, etc.) }
