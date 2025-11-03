@@ -108,6 +108,8 @@ If you take something from here, **leave one thing better**: a sharper checklist
 - For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
 
 **Norms:** We follow [BPOE quicklist](docs/bpoe/quicklist.md) — receipts by default, reversible moves, independent eyes.
+- Browse examples: [docs/ai/RECEIPTS_INDEX.md](docs/ai/RECEIPTS_INDEX.md)
 
 <!-- compliance: (insights/Insight_Story_Being_Noname_c2_20250801.md) -->
+
 
