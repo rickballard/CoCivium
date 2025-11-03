@@ -8,7 +8,6 @@
 
 > **Two tiny stories (stacked, human)**\
 > **Eli** is nine years old and breathing as if through a straw. His inhaler is empty and fear makes each breath tighter. The clinic closes in eighteen minutes. The bus board claims three minutes, but people on this route know it is often wrong. His mom hides her worry, holding him with one hand while typing with the other. Maya, waiting nearby, asks for help. People tap **Late** or **Here**. A driver offers a ride, a small thank you fund covers gas, and Eli gets his treatment in time.\
-> **Meanwhile, Mira, his mother,** still needs to sign her own lab form before the desk shuts. A helper confirms the live hours and holds a place in line. The ride detours for five minutes. They both make it.\
 > **What ties this together:** a quick ask, a few simple taps, one lift. By morning the time boards are closer to true because those taps showed the drift. Two short receipts become two short kits others can copy. This is CoCivium: we care, we notice, we help, and our shared life learns.
 
 > In CoCivium we help each other as we help ourselves. We make hard things easier for those who come after us by steadily improving how our shared life is organized and cared for. The helper assets we create are free to all and owned by all. This is not a commercial future, it is a social one. CoCivium is the global village done right, where mutual support among humans, AIs, and other beings matters more than winner takes all. Before AI this scale of care was hard; now it is possible if we choose it.
@@ -94,6 +93,7 @@ Open by default. See `LICENSE*` and `docs/governance`.
 ### One request
 
 If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+
 
 
 
