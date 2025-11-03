@@ -1,4 +1,4 @@
-# Codex 06 — Scaling
+# Codex 06  -  Scaling
 
 ## Overview
 
@@ -38,4 +38,5 @@ This codex outlines strategies and frameworks to manage scaling challenges acros
 ---
 
 *This codex document is subject to iterative refinement as CoCivium™ evolves.*
+
 

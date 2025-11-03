@@ -10,7 +10,7 @@ source:
 supersedes: []
 ---
 
-# Finance & Budgeting — Consentful Patterns
+# Finance & Budgeting  -  Consentful Patterns
 
 **Goal:** fund work with dignity and transparency while avoiding power capture.
 
@@ -47,4 +47,5 @@ flowchart TD
 - # of decisions with review dates
 - % of expenses linked to decisions
 - On-time review rate per month
+
 

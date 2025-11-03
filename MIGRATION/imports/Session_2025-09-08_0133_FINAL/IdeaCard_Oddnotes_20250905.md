@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Idea Card — “Oddnotes” (implementation log)
+# Idea Card  -  “Oddnotes” (implementation log)
 
 This card triggered several immediate repo/workflow changes:
 
@@ -15,6 +15,7 @@ This card triggered several immediate repo/workflow changes:
 - **Protection enforcer** to pin required checks & policy → PR #353 (scripts)
 
 _This file is just a breadcrumb so future readers can see what landed and why._
+
 
 
 

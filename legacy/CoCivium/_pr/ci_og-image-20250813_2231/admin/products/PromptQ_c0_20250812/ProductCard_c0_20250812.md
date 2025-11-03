@@ -1,4 +1,4 @@
-# PromptQ — Product Card (_c0_) — 2025-08-12
+# PromptQ  -  Product Card (_c0_)  -  2025-08-12
 **Status:** Parked (concept).  **Owner:** Rick.  **Repo:** CoCivium™.  **Revisit by:** 2025-09-15.
 
 ## Elevator pitch
@@ -27,4 +27,5 @@ If vendors ship equivalent orchestration with open hooks, or adoption < 5 teams 
 
 ## Notes
 Brand: “PromptQ (PQ)”.  License: AGPL/SSPL (TBD) with paid modules option.
+
 

@@ -1,5 +1,5 @@
 
-> **Live gallery:** [Open the live gallery](./diagrams/index.html) — full-width, flicker-free.
+> **Live gallery:** [Open the live gallery](./diagrams/index.html)  -  full-width, flicker-free.
 ## Gallery
 
 Browse: **[Diagram Inventory](diagrams/INVENTORY.md)** for thumbnails, SVG/PNG links, and quick "Discuss" buttons.
@@ -10,7 +10,7 @@ Browse: **[Diagram Inventory](diagrams/INVENTORY.md)** for thumbnails, SVG/PNG l
 
 # CoCivium Diagrams
 
-This page is generated from JSON files under `docs/diagrams/examples/`.
+This page is generated from JSON files under [docs/diagrams/examples/](docs/diagrams/examples/).
 **Do not hand-edit the fenced blocks below.** Update JSON and re-run the builder.
 
 ## Asset Graph (Mermaid, generated)
@@ -78,7 +78,7 @@ RepTag --> |"augments"| CoCore
 RickPublic --> |"indexes"| CoCache
 ```
 
-> **Caption:** CoSuite asset relationships (best-effort; see JSON in `docs/diagrams/examples/`).
+> **Caption:** CoSuite asset relationships (best-effort; see JSON in [docs/diagrams/examples/](docs/diagrams/examples/)).
 
 ## D2 (placeholder, reserved)
 ```d2
@@ -97,3 +97,4 @@ RickPublic --> |"indexes"| CoCache
   <source type="image/svg+xml" srcset="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.svg">
   <img src="/rickballard/CoCivium/raw/main/docs/diagrams/render/asset-graph.png" alt="CoSuite asset graph" width="1200">
 </picture>
+

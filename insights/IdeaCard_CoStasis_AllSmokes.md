@@ -13,7 +13,7 @@ summary: "Auto-added placeholder; refine."
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# IdeaCard — CoStasis: Repo All-Smokes & Health
+# IdeaCard  -  CoStasis: Repo All-Smokes & Health
 
 **Problem / Tension**  
 Workflows rot after upgrades or URL drift. We need periodic, repo-initiated smoke runs to detect breakage early.
@@ -34,6 +34,7 @@ Early detection; resilience; evolutionary pressure toward maintainability.
 - [ ] Triage dashboard + auto-file issues.
 
 **Tags:** #reliability #ops #ci #smoketests
+
 
 
 

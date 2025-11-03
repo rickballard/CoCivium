@@ -5,6 +5,7 @@ It favors evolution over verdict, convergence over coercion, and interpretive
 scaffolding over static rule.
 
 This folder contains the core scrolls detailing how CoCivium™ resolves tension,
-drift, and disagreement—within and across minds, forms, and timeframes.
+drift, and disagreement - within and across minds, forms, and timeframes.
+
 
 

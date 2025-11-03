@@ -1,4 +1,4 @@
-﻿# Breadcrumb — PR #391: SMOKE: auto-BPOE check
+# Breadcrumb  -  PR #391: SMOKE: auto-BPOE check
 
 **Merged:** 2025-09-12
 **Author:** rickballard
@@ -16,3 +16,4 @@ Trigger action
 - PR: #391
 - Root README → ../../README.md
 - BPOE Status → ../BPOE.md
+

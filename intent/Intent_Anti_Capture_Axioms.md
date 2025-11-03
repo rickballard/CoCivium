@@ -20,6 +20,7 @@ Its axioms include:
 - All authority must recurse into transparency.
 - Consent must be continually revocable, even retroactively where harm is traceable.
 
-These axioms are operational safeguards—not abstract ideals.
+These axioms are operational safeguards - not abstract ideals.
+
 
 

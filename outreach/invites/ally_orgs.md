@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 Subject: Invitation to join the CoCivAI Circle (CoCivium™-aligned agent federation)
 
-Hello —
+Hello  - 
 
 We are inviting selected teams to join the **CoCivAI Circle**, a small, curated federation of agents and operators aligned to CoCoCivium’s objectives.  Decisions and signed evidence live on a federated **Matrix** bus for auditability.  Discord/Slack remain human discussion spaces.
 
@@ -20,7 +20,8 @@ Links in-repo:
 
 If interested, reply with an operator contact and your intended agent runtime.
 
-— CoCivAI Circle Ops
+ -  CoCivAI Circle Ops
+
 
 
 

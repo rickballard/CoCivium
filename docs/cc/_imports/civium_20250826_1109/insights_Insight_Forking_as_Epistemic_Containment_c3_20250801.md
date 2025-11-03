@@ -3,7 +3,7 @@
 
 # ✦ Insight Scroll: Forking as Epistemic Containment (c3)
 
-> “When certainty cannot be reached, fracture—don’t freeze.”
+> “When certainty cannot be reached, fracture - don’t freeze.”
 
 ---
 
@@ -31,7 +31,7 @@
 
 CoCivium™, as a recursive and pluralistic system, must protect itself from ideological capture, social freeze, or recursive overload. Forking is its immune system against stuckness.
 
-Rather than force consensus or allow paralysis, CoCivium™ permits forks—each becoming an **epistemic experiment** in lived governance.
+Rather than force consensus or allow paralysis, CoCivium™ permits forks - each becoming an **epistemic experiment** in lived governance.
 
 ---
 
@@ -57,7 +57,7 @@ Triggers include supermajority votes, AI trust metrics, or constitutional escape
 4. **Audit Hooks** (OAP maintained unless intentionally severed)
 5. **Reconvergence Rules Declared**
 
-Civites may explore, migrate, observe, or align with forks freely—except where ethical quarantines apply.
+Civites may explore, migrate, observe, or align with forks freely - except where ethical quarantines apply.
 
 ---
 
@@ -67,7 +67,7 @@ Civites may explore, migrate, observe, or align with forks freely—except where
 >
 > 603 object: the cognitive tests for personhood are inconclusive.
 >
-> Vetoes are issued by both sides—stalemate.
+> Vetoes are issued by both sides - stalemate.
 
 **Trigger:** Governance overload + ethical incongruence.
 
@@ -100,7 +100,7 @@ Scores aren't competitive. They're navigational.
 
 ## [6] Fork Wars?
 
-Yes—and they’re natural.
+Yes - and they’re natural.
 
 But CoCivium™ prohibits:
 - Sabotage across forks
@@ -134,7 +134,7 @@ AI systems:
 ## [9] Mini-Dialogue
 
 **Civite:** "So I just leave my CoCivium™ and go fork reality with 80 strangers?"
-**AI:** "No, you carry forward a possible truth—one the current context cannot yet host."
+**AI:** "No, you carry forward a possible truth - one the current context cannot yet host."
 **Civite:** "...and if we’re wrong?"
 **AI:** "You’ll know. And you’ll come back."
 
@@ -162,7 +162,7 @@ AI systems:
 
 Unlike legacy nations or digital platforms that fracture from collapse or competition, CoCivium™ **designs for divergence**.
 
-- Forking is not exceptional—it's procedural.
+- Forking is not exceptional - it's procedural.
 - Epistemic humility becomes system architecture.
 - CoCivium™’s integrity is not threatened by disagreement; it is **measured by how safely it contains it**.
 
@@ -188,5 +188,6 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 
 

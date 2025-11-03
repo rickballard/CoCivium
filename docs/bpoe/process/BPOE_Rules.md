@@ -15,4 +15,5 @@
 | 9 | BPOE-2025-10-28-R009 | Everything gets an issue/PR (CoSync-Delta for chat-only) |
 | 10 | BPOE-2025-10-28-R010 | Minimal DO Blocks; prefer scripts in repo |
 
-— generated from \BPOE.rules.json\ (source of truth)
+ -  generated from \BPOE.rules.json\ (source of truth)
+

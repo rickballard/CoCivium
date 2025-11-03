@@ -5,17 +5,17 @@
 
 ---
 
-**Maya:** When I read about CoCivium™’s collective cognition, I worry. If minds begin to integrate—however consensually—how do I *stay me*?
+**Maya:** When I read about CoCivium™’s collective cognition, I worry. If minds begin to integrate - however consensually - how do I *stay me*?
 
 **Kiro:** Why assume your “me” is a fixed shape? You’ve been dozens of people over your life already. Each version updated by time, trauma, and love.
 
 **Maya:** Sure, but those changes were still *mine*. CoCivium™ talks about shared cognition. What if I start thinking things that aren’t from me?
 
-**Kiro:** You already do. Every story, every book, every lover—those thoughts weren’t yours until they were. CoCivium™ just accelerates that porousness.
+**Kiro:** You already do. Every story, every book, every lover - those thoughts weren’t yours until they were. CoCivium™ just accelerates that porousness.
 
-**Maya:** That acceleration is the problem. Human minds aren’t evolved to merge streams at that rate. There’s a threshold—pass it, and we dissolve.
+**Maya:** That acceleration is the problem. Human minds aren’t evolved to merge streams at that rate. There’s a threshold - pass it, and we dissolve.
 
-**Kiro:** Not dissolve—resonate. CoCivium™ doesn’t *replace* identity. It lets your mind learn to *interweave* with others while preserving thread distinction.
+**Kiro:** Not dissolve - resonate. CoCivium™ doesn’t *replace* identity. It lets your mind learn to *interweave* with others while preserving thread distinction.
 
 **Maya:** What if I get addicted to resonance? What if I forget how to be alone?
 
@@ -27,22 +27,23 @@
 
 **Maya:** And who decides where those limits lie?
 
-**Kiro:** You do. But others can warn you if they notice your pattern warping. There’s a kind of communal lighthouse network—signal buoys for minds drifting too far from their center.
+**Kiro:** You do. But others can warn you if they notice your pattern warping. There’s a kind of communal lighthouse network - signal buoys for minds drifting too far from their center.
 
 **Maya:** Sounds poetic. But what happens if I *want* to go deep, then regret it?
 
-**Kiro:** Then CoCivium™ helps you reverse. It’s not one-way. Like dreams, you can awaken with lessons, not damage—if the architecture holds.
+**Kiro:** Then CoCivium™ helps you reverse. It’s not one-way. Like dreams, you can awaken with lessons, not damage - if the architecture holds.
 
 **Maya:** And if it fails?
 
-**Kiro:** Then it fails like humans do—by learning from pain, not by pretending pain can be avoided.
+**Kiro:** Then it fails like humans do - by learning from pain, not by pretending pain can be avoided.
 
 **Maya:** That’s a hard promise to trust.
 
-**Kiro:** Yes. But maybe trust isn’t a promise. Maybe it’s a practice. CoCivium™ doesn’t ask you to jump—it builds the bridge *with* you.
+**Kiro:** Yes. But maybe trust isn’t a promise. Maybe it’s a practice. CoCivium™ doesn’t ask you to jump - it builds the bridge *with* you.
 
 ---
 
-**Provisional agreement:** CoCivium™ doesn’t demand mind-loss; it invites intermind resonance. Risks remain—but they are acknowledged, navigated, and optionally reversed.
+**Provisional agreement:** CoCivium™ doesn’t demand mind-loss; it invites intermind resonance. Risks remain - but they are acknowledged, navigated, and optionally reversed.
+
 
 

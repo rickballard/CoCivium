@@ -4,8 +4,8 @@
 
 ## Read First
 - [CoCivium™ Constitution (scroll)](constitution/scroll.html)
-- Vision & Principles — *coming together as one civics platform with many voices.*
-- Being Noname — *kept canonical.*
+- Vision & Principles  -  *coming together as one civics platform with many voices.*
+- Being Noname  -  *kept canonical.*
 
 ## Navigation
 - Constitution & Appendices
@@ -15,3 +15,4 @@
 - Glossary
 
 > This index lives in-repo so website & GitHub stay in sync.
+

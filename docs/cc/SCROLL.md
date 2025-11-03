@@ -1,4 +1,4 @@
-# Cognocarta Consenti — Scroll
+# Cognocarta Consenti  -  Scroll
 
 *Single continuous reading copy assembled from canonical parts.*
 *Last updated: 2025-08-28 04:01 -04:00*
@@ -7,7 +7,7 @@
 
 <!-- Source: COGNOCARTA_CONSENTI.md -->
 
-# Cognocarta Consenti (CC) — v1 working draft
+# Cognocarta Consenti (CC)  -  v1 working draft
 
 ## Preamble
 Purpose (plain language).
@@ -57,16 +57,17 @@ Purpose (plain language).
 <!-- Source: GLOSSARY.md -->
 
 # Glossary (extended)
-- Congruence — short definition placeholder.
-- RepTag — short definition placeholder.
-- VoteVector — short definition placeholder.
+- Congruence  -  short definition placeholder.
+- RepTag  -  short definition placeholder.
+- VoteVector  -  short definition placeholder.
 
 ---
 
 <!-- Source: CC_SUPPORTING_DOCS.md -->
 
 # CC Supporting Docs
-- DECISION_FLOW.md — linear text flow
-- ROLES.md — concise role definitions (todo)
-- AMENDMENTS_LOG.md — table of changes
-- GLOSSARY.md — extended terms
+- DECISION_FLOW.md  -  linear text flow
+- ROLES.md  -  concise role definitions (todo)
+- AMENDMENTS_LOG.md  -  table of changes
+- GLOSSARY.md  -  extended terms
+

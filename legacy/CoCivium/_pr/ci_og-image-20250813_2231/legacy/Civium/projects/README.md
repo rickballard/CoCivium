@@ -21,7 +21,7 @@ If you are a contributor, you are encouraged to:
 
 If you are a general CoCivium™ participant:
 - You are welcome to explore and comment, especially on public-facing tools.
-- Please respect the ongoing nature of these projects—they are in active evolution.
+- Please respect the ongoing nature of these projects - they are in active evolution.
 
 ## Current Projects
 
@@ -47,4 +47,5 @@ Delta: 0.42
 Footprint: ⊕
 Symbolic Gate: ΘΞΨ
 Ref: /projects/
+
 

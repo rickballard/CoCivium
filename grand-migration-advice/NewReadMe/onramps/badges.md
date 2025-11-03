@@ -3,10 +3,10 @@
 **Purpose:** Recognize meaningful contributions and signal stewardship reliability.
 
 ## Tiers
-- **Explorer** — Academy intro; at least one useful issue.
-- **Contributor** — ≥3 merged PRs passing HumanGate.
-- **Maintainer** — CODEOWNER; reviews/merges; ensures process fidelity.
-- **Civic Architect** — led an RFC to adoption; authored policy/spec + congruence analysis.
+- **Explorer**  -  Academy intro; at least one useful issue.
+- **Contributor**  -  ≥3 merged PRs passing HumanGate.
+- **Maintainer**  -  CODEOWNER; reviews/merges; ensures process fidelity.
+- **Civic Architect**  -  led an RFC to adoption; authored policy/spec + congruence analysis.
 
 ## Issuance/Revocation
 - Issued by Maintainers; logged in Records (decision IDs).
@@ -14,3 +14,4 @@
 
 ## Anti-Gaming
 - CoCleanse for badge decisions; quality metrics over raw counts; public rationale.
+

@@ -18,11 +18,11 @@ To create a poetic, emotive, and visually inspiring non-editable mirror of the C
 - Each document is a node (knot), placed by domain alignment and developmental resonance (c-score).
 - Multi-domain documents float between petals.
 - Recursion trails and thematic linkages are visible.
-- Visual style is glowing, color-coded, organic—not boxy or mechanical.
+- Visual style is glowing, color-coded, organic - not boxy or mechanical.
 
 ## 3. Visual Identity
 
-- Evomap represents CoCoCivium’s cognitive field—not a strict menu or sitemap.
+- Evomap represents CoCoCivium’s cognitive field - not a strict menu or sitemap.
 - Core metaphors: mycelium, neural filaments, soulstuff recursion.
 - Brand design includes:
   - `Civium_Evomap_Mock_up_v1.png`
@@ -51,4 +51,5 @@ To create a poetic, emotive, and visually inspiring non-editable mirror of the C
 
 **Author:** ChatGPT for CoCivium™
 **Date:** 2025-07-26
+
 

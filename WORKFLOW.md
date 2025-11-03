@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium™ — BPOE & Workflow (Keeper Doc)
+# CoCivium™  -  BPOE & Workflow (Keeper Doc)
 
 This doc is the **single source of truth** for our “Best Path of Execution (BPOE)”, workflow guardrails, and error‑avoidance playbook. Keep it updated whenever the process evolves. New contributors should read this first.
 
@@ -43,10 +43,11 @@ GitHub Actions re-runs the same smoke checks on every push/PR (`.github/workflow
 
 ## Error Playbook (short)
 - **Encoding failures:** Re-save as UTF‑8 (no BOM), normalize line endings to LF, and remove any `Ã`, `Â`, or `�` tokens.
-- **Missing images:** Ensure the referenced relative path exists; GitHub caches—hard refresh after push.
+- **Missing images:** Ensure the referenced relative path exists; GitHub caches - hard refresh after push.
 - **Pre-commit not running:** Set `git config core.hooksPath .githooks`.
 
-Full details live in `docs/ERROR_PLAYBOOK.md`.
+Full details live in [docs/ERROR_PLAYBOOK.md](docs/ERROR_PLAYBOOK.md).
+
 
 
 

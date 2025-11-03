@@ -1,22 +1,22 @@
-# Migration Plan — Session Resume (2025‑08‑14)
+# Migration Plan  -  Session Resume (2025‑08‑14)
 
 **Generated:** 2025-08-14 22:25 UTC
 **Repo:** `rickballard/CoCivium`
 **Default branch:** `main`
 **Baseline tag:** `baseline-20250814_1817` (older `baseline-20250814_1745` deleted)
-**Key PR:** **#90** _“Seed growth pack v0”_ — **merged** on 2025‑08‑14T21:06:44Z
+**Key PR:** **#90** _“Seed growth pack v0”_  -  **merged** on 2025‑08‑14T21:06:44Z
 
 ---
 
-## DO‑A — Completed in this session
+## DO‑A  -  Completed in this session
 
 - **CI configs tamed + dispatchable**
-  - `markdownlint` — advisory (`continue-on-error: true`), `workflow_dispatch` enabled. Uses repo-level `.markdownlint.yml` + `.markdownlintignore`.
-  - `codespell` — advisory + dispatchable. Uses `docs/lexicon/codespell-ignore.txt` and skips legacy/noisy paths.
-  - `linkcheck` (Lychee) — advisory + dispatchable. Repo `.lychee.toml` with excludes and tolerant status codes (`200, 204, 301, 302, 403, 429`).
-  - `yamllint` — **added** with repo `.yamllint.yaml`, advisory + dispatchable.
-- **Domain lexicon** — `docs/lexicon/codespell-ignore.txt` seeded with: `CoCivium, CoCivium, Noname, Cognocarta, Consenti, CoCivSecOps, ODT, OG`.
-- **Line endings normalized** — `.gitattributes` committed:
+  - `markdownlint`  -  advisory (`continue-on-error: true`), `workflow_dispatch` enabled. Uses repo-level `.markdownlint.yml` + `.markdownlintignore`.
+  - `codespell`  -  advisory + dispatchable. Uses [docs/lexicon/codespell-ignore.txt](docs/lexicon/codespell-ignore.txt) and skips legacy/noisy paths.
+  - `linkcheck` (Lychee)  -  advisory + dispatchable. Repo `.lychee.toml` with excludes and tolerant status codes (`200, 204, 301, 302, 403, 429`).
+  - `yamllint`  -  **added** with repo `.yamllint.yaml`, advisory + dispatchable.
+- **Domain lexicon**  -  [docs/lexicon/codespell-ignore.txt](docs/lexicon/codespell-ignore.txt) seeded with: `CoCivium, CoCivium, Noname, Cognocarta, Consenti, CoCivSecOps, ODT, OG`.
+- **Line endings normalized**  -  `.gitattributes` committed:
   ```gitattributes
   *       text=auto
   *.md    text eol=lf
@@ -32,14 +32,14 @@
   - Created: `baseline-20250814_1817` (kept).
   - Removed: `baseline-20250814_1745` (redundant on same commit).
 - **Tracking issues opened**
-  - **#94** *Grand migration: plan & execute* — label: `migration`.
-  - **#95** *CI hardening: remove advisory, enforce failures* — label: `ci`.
-  - **#96** *Lychee tuning after migration* — label: `ci`.
-  - **#97** *Add desktop project repos to watch/automation* — label: `ops`.
+  - **#94** *Grand migration: plan & execute*  -  label: `migration`.
+  - **#95** *CI hardening: remove advisory, enforce failures*  -  label: `ci`.
+  - **#96** *Lychee tuning after migration*  -  label: `ci`.
+  - **#97** *Add desktop project repos to watch/automation*  -  label: `ops`.
 
 ---
 
-## DO‑B — Current state (fast glance)
+## DO‑B  -  Current state (fast glance)
 
 - `main` is up‑to‑date with `origin/main`.
 - CI workflows exist for: **markdownlint**, **codespell**, **linkcheck**, **yamllint**.
@@ -48,7 +48,7 @@
 
 ---
 
-## DO‑C — Open follow‑ups (shortlist)
+## DO‑C  -  Open follow‑ups (shortlist)
 
 - [ ] **#94** Finalize repo list for grand migration (what moves, what archives, what stays).
       Produce runbook: **dry‑run → cutover → verification → comms**.
@@ -59,7 +59,7 @@
 
 ---
 
-## DO‑D — Ready‑to‑run commands (reference)
+## DO‑D  -  Ready‑to‑run commands (reference)
 
 ### Dispatch CI on `main`
 ```bash
@@ -107,4 +107,5 @@ git reset --hard baseline-20250814_1817
 ---
 
 *End of session resume.*
+
 

@@ -1,7 +1,7 @@
-# KickOpenAI — Outreach Pack
+# KickOpenAI  -  Outreach Pack
 **Purpose.** A focused, respectful escalation to OpenAI about workflow bugs and product gaps blocking the CoCivium™ project.  The goal is constructive: increase signal, reduce friction, and co‑create fixes that benefit many users.
 
-**Outcome we want.** A human‑acknowledged ticket chain, a staff‑visible forum thread, and one devrel‑visible GitHub issue — plus a follow‑up cadence until fixes ship or workarounds land.  All artifacts here are ready to copy‑paste.
+**Outcome we want.** A human‑acknowledged ticket chain, a staff‑visible forum thread, and one devrel‑visible GitHub issue  -  plus a follow‑up cadence until fixes ship or workarounds land.  All artifacts here are ready to copy‑paste.
 
 **Principles.**
 - Accurate, reproducible, concise.  No venting.  No pile‑ons.
@@ -18,4 +18,5 @@
 **Optional additions for reach.**
 - Share a 10‑slide deck outline (`Deck/10slides_outline.md`).
 - Add a short values‑forward insert derived from *Being Noname* to humanize the ask (`Posts/being_noname_insert.md`).
+
 

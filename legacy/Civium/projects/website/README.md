@@ -9,7 +9,7 @@ This subfolder contains all design, strategy, and content work for the CoCivium�
 
 ## [1] Purpose
 
-The CoCivium™ website should communicate the mission, structure, and invitation of CoCivium™ clearly and compellingly. It is not just a landing page—it is a portal to a new paradigm of collective governance, AI alignment, and trans-human collaboration.
+The CoCivium™ website should communicate the mission, structure, and invitation of CoCivium™ clearly and compellingly. It is not just a landing page - it is a portal to a new paradigm of collective governance, AI alignment, and trans-human collaboration.
 
 ## [2] Goals
 
@@ -58,4 +58,5 @@ Delta: 0.10
 Footprint: ⊘
 Symbolic Gate: ΘΔΦ
 Ref: /projects/website/README.md
+
 

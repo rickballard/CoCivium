@@ -8,18 +8,18 @@
 > ---
 
 ## Contents
-> - `plans/01_precursor.md` — readiness checklist (InSeed.com, LinkedIn, PoC community, artifacts).  
-> - `plans/02_outreach.md` — outreach letter + 1‑pager draft + timeline & KPIs.  
-> - `artifacts/` — Governance Ops Kit (decision log template, risk tags, CI gate stub).  
-> - `watchers/` — Lehane watcher (sources config, runner, report generator, scheduler setup).  
-> - `reports/LehaneWatch.md` — rolling digest updated by the watcher.  
+> - `plans/01_precursor.md`  -  readiness checklist (InSeed.com, LinkedIn, PoC community, artifacts).  
+> - `plans/02_outreach.md`  -  outreach letter + 1‑pager draft + timeline & KPIs.  
+> - `artifacts/`  -  Governance Ops Kit (decision log template, risk tags, CI gate stub).  
+> - `watchers/`  -  Lehane watcher (sources config, runner, report generator, scheduler setup).  
+> - `reports/LehaneWatch.md`  -  rolling digest updated by the watcher.  
 
 ## DO Blocks (ONEBLOCK, copy‑paste in PowerShell 7)
 > These assume your working repo is `C:\Users\Chris\Documents\GitHub\CoCivium` and you downloaded `Project-LehaneOps.zip` to `~/Downloads`.
 
 ### DO-1: **Install LehaneOps package into CoCivium™**
 ```powershell
-# ONEBLOCK — DO-1 Install LehaneOps
+# ONEBLOCK  -  DO-1 Install LehaneOps
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $Repo = Join-Path $HOME 'Documents\GitHub\CoCivium'
 $Zip  = Join-Path $HOME 'Downloads\Project-LehaneOps.zip'
@@ -38,7 +38,7 @@ git commit -m "LehaneOps: add shelved outreach kit (plans, artifacts, watcher)" 
 
 ### DO-2: **Configure watcher & schedule (runs every 6 hours)**
 ```powershell
-# ONEBLOCK — DO-2 Configure Lehane watcher + scheduled task
+# ONEBLOCK  -  DO-2 Configure Lehane watcher + scheduled task
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $Repo = Join-Path $HOME 'Documents\GitHub\CoCivium'
 $Path = Join-Path $Repo 'docs\outreach\LehaneOps\watchers'
@@ -64,20 +64,20 @@ Register-ScheduledTask -TaskName $TaskName -Action $Action -Trigger $Trigger -Se
 
 ### DO-3: **Run watcher once now and update the report**
 ```powershell
-# ONEBLOCK — DO-3 Manual run
+# ONEBLOCK  -  DO-3 Manual run
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $Repo = Join-Path $HOME 'Documents\GitHub\CoCivium'
 $W    = Join-Path $Repo 'docs\outreach\LehaneOps\watchers'
 pwsh -NoProfile -File (Join-Path $W 'Run-LehaneWatcher.ps1')
 Set-Location $Repo
 git add .
-git commit -m "LehaneOps: watcher manual run — refresh report" | Out-Null
+git commit -m "LehaneOps: watcher manual run  -  refresh report" | Out-Null
 "✅ Watcher ran and report updated."
 ```
 
 ### DO-4: **Pre‑launch verification (target + context)**
 ```powershell
-# ONEBLOCK — DO-4 Verify target + context before outreach
+# ONEBLOCK  -  DO-4 Verify target + context before outreach
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 $Repo = Join-Path $HOME 'Documents\GitHub\CoCivium'
 $W    = Join-Path $Repo 'docs\outreach\LehaneOps\watchers'
@@ -95,4 +95,5 @@ git commit -m "LehaneOps: prelaunch verification snapshot" | Out-Null
 > - The watcher is **best‑effort** and respectful: minimal frequency, public sources only, and you control it via `watch.config.json`.
 > - Nothing runs until you execute DO‑2 to schedule it.
 > - You can disable the task via **Task Scheduler** or `Unregister-ScheduledTask -TaskName LehaneWatcher -Confirm:$false`.
+
 

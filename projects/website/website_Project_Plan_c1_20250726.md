@@ -1,6 +1,6 @@
 <!-- Filename: website_Project_Plan_c1_20250726.md -->
 
-# 📄 CoCivium™ Website — Project Plan
+# 📄 CoCivium™ Website  -  Project Plan
 Version: c1_20250726
 Resonance: 62%
 Delta: 0.21
@@ -10,7 +10,7 @@ Ref: /projects/website/README.md
 
 ## 1. Purpose
 
-The CoCivium™ website serves as the primary public-facing information hub for visitors unfamiliar with CoCivium™ or any of its subprojects. It must clearly communicate CoCivium™’s ethos, the structure of its initiatives, and pathways for public involvement—without overwhelming new users.
+The CoCivium™ website serves as the primary public-facing information hub for visitors unfamiliar with CoCivium™ or any of its subprojects. It must clearly communicate CoCivium™’s ethos, the structure of its initiatives, and pathways for public involvement - without overwhelming new users.
 
 ---
 
@@ -27,19 +27,19 @@ The CoCivium™ website serves as the primary public-facing information hub for 
 
 ## 3. Phased Development Roadmap
 
-### Phase I — Foundation
+### Phase I  -  Foundation
 - [ ] Domain parked and DNS set for CoCivium™.cc
 - [ ] Static homepage: CoCivium™ mission, nav links, hero section
 - [ ] Public repo visibility + GitHub integration
 - [ ] Downloadable versions of CC scrolls, README links
 
-### Phase II — Interactive Layer
+### Phase II  -  Interactive Layer
 - [ ] Evomap v1: SVG or JS-based map linking subprojects
 - [ ] Contributor call-to-action panel
 - [ ] FAQ & Mythbusting page
 - [ ] Anonymous feedback portal
 
-### Phase III — Advanced Functionality
+### Phase III  -  Advanced Functionality
 - [ ] Voting session visualizations
 - [ ] Dynamic scroll visualizations
 - [ ] Search and tag filters for Codex/Insight content
@@ -62,9 +62,9 @@ The CoCivium™ website serves as the primary public-facing information hub for 
 |------|----------|----------|-------|
 | Setup repo homepage via GitHub Pages | High | Rick | Placeholder is live |
 | Add README links to all subprojects | High | ✅ | Done |
-| Create homepage hero text | Medium | — | Draft in `EvomapDesign.md` |
-| Build first evomap prototype | High | — | Based on uploaded mock |
-| Design footer components | Low | — | Part of accessibility round |
+| Create homepage hero text | Medium |  -  | Draft in `EvomapDesign.md` |
+| Build first evomap prototype | High |  -  | Based on uploaded mock |
+| Design footer components | Low |  -  | Part of accessibility round |
 
 ---
 
@@ -83,5 +83,6 @@ Delta: 0.21
 Footprint: ⊘
 Symbolic Gate: ΘΔΦ
 Ref: /projects/website/
+
 
 

@@ -11,7 +11,7 @@ We rely on ChatGPT Plus (GPT‑5 Thinking / GPT‑5 / GPT‑4o) for day‑to‑d
 
 ## 1) Environment
 - **OS:** Windows 11 Version 24H2 (Build 26120.5733)
-- **Browser:** Chrome 139.0.7258.67 (64‑bit) — stable channel
+- **Browser:** Chrome 139.0.7258.67 (64‑bit)  -  stable channel
 - **Location / TZ:** Ontario, Canada (America/Toronto, UTC‑4)
 - **User plan:** ChatGPT Plus
 - **Typical session pattern:** multiple concurrent chats, long‑form repo work, file creation/downloads, frequent use of code‑execution and browsing tools.
@@ -117,7 +117,7 @@ We’re building **CoCivium™**: a public‑interest governance and tooling pro
 
 ---
 
-## 6) Appendix A — Observed incidents (selected)
+## 6) Appendix A  -  Observed incidents (selected)
 - Help Center widget missing when attempting to submit bug report; fallback path unclear.
 - “Saved memory full” message and degraded continuity across sessions; no bulk prune/export.
 - Downloaded artifacts occasionally unavailable later (expired or 404); re‑generation required.
@@ -129,7 +129,7 @@ We’re building **CoCivium™**: a public‑interest governance and tooling pro
 
 ---
 
-## 7) Appendix B — Acceptance tests (what “fixed” looks like)
+## 7) Appendix B  -  Acceptance tests (what “fixed” looks like)
 - We can open a **reliable ticket** even when the Help widget fails.  Ticket ID is shown in‑product and via email.
 - Memory shows **usage %, bulk operations, and per‑project partitions**.
 - Artifacts have **stable URLs** and a **library UI** to retrieve any file produced in a chat.
@@ -142,4 +142,5 @@ We’re building **CoCivium™**: a public‑interest governance and tooling pro
 ---
 
 _Thanks for taking this seriously.  We’re willing to pilot fixes and provide structured feedback._
+
 

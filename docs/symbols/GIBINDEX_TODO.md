@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# GIBindex — Symbols (TODO)
+# GIBindex  -  Symbols (TODO)
 
 ## Style
 - Files: `site/assets/gib/<slug>.svg`
@@ -17,5 +17,6 @@ Inline in Markdown/HTML:
 - [ ] Draft 8 initial SVGs
 - [ ] Add accessibility titles/desc in each SVG
 - [ ] Sprinkle into scroll headings/subheads
+
 
 

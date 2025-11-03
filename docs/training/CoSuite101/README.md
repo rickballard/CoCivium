@@ -1,4 +1,4 @@
-# CoSuite 101 — Start Here
+# CoSuite 101  -  Start Here
 
 This course orients you to the CoSuite: CoCache (index), CoAgent (product/ops), CoCivium (ethos).
 You’ll run a safe local batch, read the handshake, and learn how “red is OK” (stderr from tools) while we enforce
@@ -15,3 +15,4 @@ a clean success stream + violet end-cap.
 8. 07-Glossary + FAQ
 
 > TL;DR: Expect some **red** from child tools; the runner must stay **quiet** besides the compact summary + violet braces.
+

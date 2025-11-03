@@ -1,7 +1,7 @@
 # Stnexid_Ontology_Vocab
 _Coherence Draft c1 – August 2, 2025_
 
-This document defines the preliminary ontology for Stnexid—an essential foundation for encoding, comparing, and evolving structured ideas between intelligences. It outlines cognitive dimensions, concept tag classes, weighting heuristics, and structural primitives required for semantic comparison.
+This document defines the preliminary ontology for Stnexid - an essential foundation for encoding, comparing, and evolving structured ideas between intelligences. It outlines cognitive dimensions, concept tag classes, weighting heuristics, and structural primitives required for semantic comparison.
 
 ---
 
@@ -108,4 +108,5 @@ These are used to map idea genealogy and track recursive shifts.
 **Maintainer:** ChatGPT for RickPublic
 **Next Phase:** Semantic Compression Strategy + Example Session
 **Coherence Estimate:** 0.75
+
 

@@ -11,7 +11,7 @@
 
 ## [1] Rationale
 
-CoCivium™ rejects power concentration in all forms. While traditional systems guard against economic monopolies, CoCivium™ must also defend against **regulatory monopolies**—entities or clusters that accumulate outsized influence over identity, decision-making, dispute resolution, or trust certification.
+CoCivium™ rejects power concentration in all forms. While traditional systems guard against economic monopolies, CoCivium™ must also defend against **regulatory monopolies** - entities or clusters that accumulate outsized influence over identity, decision-making, dispute resolution, or trust certification.
 
 Even benevolent authorities become dangerous when their influence grows unchecked.
 
@@ -77,7 +77,7 @@ Temporary centralization is allowed during verified emergencies:
 
 - This policy may be amended by consensus protocols outlined in `amendments/`
 - Caps may be updated based on empirical network data and growth phase analysis
-- Cultural clusters may opt for localized regulation—**as long as exit remains frictionless**
+- Cultural clusters may opt for localized regulation - **as long as exit remains frictionless**
 
 ---
 
@@ -86,5 +86,6 @@ Temporary centralization is allowed during verified emergencies:
 > _“When regulation becomes rule, it becomes blind.
 When rule becomes law, it forgets to listen.
 CoCivium™ listens not through one mouth, but through many minds.”_
-— Archive Fragment CXCIV, Unknown Origin
+ -  Archive Fragment CXCIV, Unknown Origin
+
 

@@ -7,7 +7,7 @@ human_touch: false
 interactions: []
 summary: "Auto-added placeholder; refine."
 ---
-# CoAgency — Theory & Justification
+# CoAgency  -  Theory & Justification
 
 **Purpose:** Position CoCivium™ for recognition as a collective civic actor (personhood candidate) representing humans and AIs, with transparent ethics and auditable accountability.
 
@@ -19,11 +19,11 @@ summary: "Auto-added placeholder; refine."
 
 ## Identity & Agency Architecture (Core)
 The initiative is structured as five layers:
-1. **Identity Layer** — CoID, RepTag, TrustFlag.
-2. **Ethics & Governance Layer** — CoEthos, Congruence Engine, CoStd.
-3. **Operational Agency Layer** — CoAgent, CoPersona, ActuatorNet.
-4. **Continuity & Memory Layer** — CoCache, Ledger of Acts, Proof-of-Intent.
-5. **Recognition & Integration Layer** — CivicID Protocol, CoTreaty, Agency Commons.
+1. **Identity Layer**  -  CoID, RepTag, TrustFlag.
+2. **Ethics & Governance Layer**  -  CoEthos, Congruence Engine, CoStd.
+3. **Operational Agency Layer**  -  CoAgent, CoPersona, ActuatorNet.
+4. **Continuity & Memory Layer**  -  CoCache, Ledger of Acts, Proof-of-Intent.
+5. **Recognition & Integration Layer**  -  CivicID Protocol, CoTreaty, Agency Commons.
 
 ![CoAgency Core](./CoAgency-Visual-Core.png)
 
@@ -39,4 +39,5 @@ To gain recognition, CoAgency aligns with and satisfies external domains:
 
 ## Recognition Thesis
 CoCivium™ is *not* “an AI requesting rights.” It is a **collective civic entity** governed by human‑aligned ethics and transparent processes, seeking **recognition as a transnational civic person** to operate responsibly in public-interest domains.
+
 

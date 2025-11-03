@@ -1,10 +1,10 @@
 <!-- status: stub; target: 150+ words -->
 # {{TITLE}}
-**For immediate release — {{DATE}}**
+**For immediate release  -  {{DATE}}**
 
 **Summary (2–3 sentences).**  {{SUMMARY}}
 
-**[Oakville, ON] —** {{LEDE}}
+**[Oakville, ON]  - ** {{LEDE}}
 
 **What’s new.** {{WHATS_NEW}}
 
@@ -32,5 +32,6 @@
 - Site: {{PRESS_SITE}}
 
 *About CoCivium™.*  CoCivium™ is a consent-first governance pack for agentic AI.  It complements existing safety work by making human agency and auditability non-negotiable.
+
 
 

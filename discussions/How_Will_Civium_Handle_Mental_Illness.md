@@ -4,7 +4,7 @@
 
 Lenora: “Some minds can’t keep up, or fracture under shared load. What happens to them?”
 
-Pax: “They aren’t excluded. CoCivium™ doesn’t demand uniformity—it adapts interface layers. Think of it like adaptive scaffolding.”
+Pax: “They aren’t excluded. CoCivium™ doesn’t demand uniformity - it adapts interface layers. Think of it like adaptive scaffolding.”
 
 Lenora: “But what if instability corrupts others? Or spreads noise?”
 
@@ -16,5 +16,6 @@ Pax: “Never. They’re scaffolded. Healed where possible. Witnessed always.”
 
 **Shared Conclusion:**
 CoCivium™ builds adaptive mesh structures to support all minds, especially those that struggle. Exclusion is a failure mode, not a design principle.
+
 
 

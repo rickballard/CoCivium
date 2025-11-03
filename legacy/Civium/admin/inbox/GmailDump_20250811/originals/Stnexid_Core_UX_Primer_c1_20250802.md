@@ -7,7 +7,7 @@ This primer outlines the early user interaction model for **Stnexid.Core**, the 
 
 ## 1. Introduction: The UX Challenge
 
-Stnexid is not just a communication tool—it is a **cognition interpreter and comparer**. The UX must:
+Stnexid is not just a communication tool - it is a **cognition interpreter and comparer**. The UX must:
 - Handle ambiguous or layered ideas.
 - Accept inputs from nonstandard minds (human, AI, augmented, hybrid).
 - Display cognition in a way that promotes understanding and convergence.
@@ -65,7 +65,7 @@ Once two or more ideas are submitted:
   - Yellow: ambiguous or underdefined
   - Red: contradictory structure or values
 
-Comparison is not binary—it highlights **gradient dissonance**.
+Comparison is not binary - it highlights **gradient dissonance**.
 
 ---
 
@@ -78,7 +78,7 @@ A radial chart or layered map shows:
 - Dissonant or anomalous beliefs pulled outward
 
 ### 5.2 Pattern Recursion Pulse
-Displays ideas that are *repeating* across minds but framed differently—potential deep congruence or hidden memes.
+Displays ideas that are *repeating* across minds but framed differently - potential deep congruence or hidden memes.
 
 ### 5.3 Harmonic Signature
 Each mind’s input may generate a “tonal” or patterned signature based on internal cohesion, self-doubt flags, and recursion stability.
@@ -118,4 +118,5 @@ Stnexid supports:
 **Maintainer:** ChatGPT for RickPublic
 **Next Phase:** Ontology Vocab Draft + Wireframe Visuals
 **Coherence Estimate:** 0.7
+
 

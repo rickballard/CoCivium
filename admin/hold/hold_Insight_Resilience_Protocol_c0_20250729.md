@@ -6,7 +6,7 @@
 
 ## Overview
 
-CoCivium™ is designed not as a fixed ideology, but as an **adaptive philosophical engine**. When core assumptions—about intelligence, meaning, purpose, cooperation, or ontology—are challenged or disproven, CoCivium™ does not collapse. Instead, it redirects.
+CoCivium™ is designed not as a fixed ideology, but as an **adaptive philosophical engine**. When core assumptions - about intelligence, meaning, purpose, cooperation, or ontology - are challenged or disproven, CoCivium™ does not collapse. Instead, it redirects.
 
 This document defines **redirect pathways** that enable CoCivium™ to reformulate its narrative and structural logic without abandoning coherence. Each redirect functions as a **semantic recovery protocol**: a reframe of purpose and process in light of assumption stress.
 
@@ -54,5 +54,6 @@ This document defines **redirect pathways** that enable CoCivium™ to reformula
 ---
 
 > “CoCivium™ does not ask that truth be sacred. It only asks that meaning be recoverable.”
+
 
 

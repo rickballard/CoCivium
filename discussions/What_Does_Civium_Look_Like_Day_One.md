@@ -6,7 +6,7 @@ Dez (a community organizer with low trust in tech)
 
 ---
 
-**Naresh:** "Imagine booting it up—what's the screen say?"
+**Naresh:** "Imagine booting it up - what's the screen say?"
 
 **Dez:** "Hopefully not: 'Welcome, Citizen #00001.' Creepy."
 
@@ -14,7 +14,7 @@ Dez (a community organizer with low trust in tech)
 
 **Dez:** "And who’s in the room? People I know? Aliens with pseudonyms?"
 
-**Naresh:** "Maybe avatars chosen by function—like 'Synth Cook' or 'Policy Weaver.' Not names. Just intention."
+**Naresh:** "Maybe avatars chosen by function - like 'Synth Cook' or 'Policy Weaver.' Not names. Just intention."
 
 **Dez:** "And you can vote, argue, propose? Feels like co-op Slack with soul."
 
@@ -22,5 +22,6 @@ Dez (a community organizer with low trust in tech)
 
 **Conclusion:**
 Day one looks small, human, and humble. Not a constitution, but a campfire. A live prototype that asks you for your Function, not your allegiance.
+
 
 

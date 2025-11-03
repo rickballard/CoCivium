@@ -1,8 +1,8 @@
 <!-- status: stub; target: 150+ words -->
 # CoWrap – Short Checklist
 
-- [ ] Link this RickPad supplemental from `docs/ops/policy/SENTINELS.md`.
-- [ ] Create `docs/history/INDEX.md` + `docs/history/<YEAR>.md` from the template.
+- [ ] Link this RickPad supplemental from [docs/ops/policy/SENTINELS.md](docs/ops/policy/SENTINELS.md).
+- [ ] Create [docs/history/INDEX.md](docs/history/INDEX.md) + [docs/history/<YEAR>.md](docs/history/<YEAR>.md) from the template.
 - [ ] Add `.github/ISSUE_TEMPLATE/history_year.yml` for December reminder.
 - [ ] Keep **nasties** guard advisory; ensure PR template checkbox exists.
 - [ ] Adopt poetry markers (`poetic: true` / guard ignore comments) where needed.
@@ -10,5 +10,6 @@
 - [ ] If any confidential docs are justified, encrypt with SOPS; store keys in Bitwarden.
 - [ ] Stand up telemetry skeleton (opt‑in, coarse events, local buffer, releases.json check).
 - [ ] Run final‑polish pass on canonicals for screenshot‑safe snippets & quotes.
+
 
 

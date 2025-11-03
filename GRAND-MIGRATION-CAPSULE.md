@@ -4,7 +4,7 @@
 
 Purpose: running “inbox” and decisions during the migration. Keep entries tiny.
 =======
-# CONTEXT CAPSULE — CoAgent Kit (Workbench + BP) — v1
+# CONTEXT CAPSULE  -  CoAgent Kit (Workbench + BP)  -  v1
 _Last updated: 2025-08-26 01:54:58Z UTC_
 
 ## What we shipped (repo‑scoped, reversible)
@@ -79,6 +79,7 @@ This PR introduces:
 '@
 ```
 >>>>>>> origin/main
+
 
 
 

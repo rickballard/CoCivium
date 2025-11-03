@@ -23,7 +23,8 @@
 
 ## Embedding in Markdown
 Use relative links so files render on GitHub:
-`[Susskind (1995) Holographic Principle — excerpts](../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf)`
+`[Susskind (1995) Holographic Principle  -  excerpts](../assets/sources/Holographic_Principle_Susskind_1995_excerpts.pdf)`
+
 
 
 

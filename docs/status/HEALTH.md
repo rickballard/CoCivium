@@ -1,6 +1,6 @@
 # Repo Health
 
-- Updated 2025-09-12 21:41:28Z — _via Write-RepoHealth_
+- Updated 2025-09-12 21:41:28Z  -  _via Write-RepoHealth_
 - GM PR bloat: 1 open gm/* PR(s)
 - Open issues: 30
 - Advice/TODO hits: 103454 (TODO: 95166)
@@ -23,7 +23,7 @@
 - [#121](https://github.com/rickballard/CoCivium/issues/121) Fill Start-Here docs []
 - [#137](https://github.com/rickballard/CoCivium/issues/137) Guardrails Badge (v0.1) []
 - [#138](https://github.com/rickballard/CoCivium/issues/138) Matrix → Discussions Relay (pilot) []
-- [#149](https://github.com/rickballard/CoCivium/issues/149) Grand Migration — Exit Checklist []
+- [#149](https://github.com/rickballard/CoCivium/issues/149) Grand Migration  -  Exit Checklist []
 - [#222](https://github.com/rickballard/CoCivium/issues/222) Hello: my name is Rick []
 - [#226](https://github.com/rickballard/CoCivium/issues/226) Roadmap: next few weeks []
 - [#227](https://github.com/rickballard/CoCivium/issues/227) Start here: 2–30 minute ways to help []
@@ -35,7 +35,7 @@
 - [#319](https://github.com/rickballard/CoCivium/issues/319) CC v1 ratification window (5–10 days) []
 - [#320](https://github.com/rickballard/CoCivium/issues/320) Replace high-visibility stubs (phase 1) []
 - [#321](https://github.com/rickballard/CoCivium/issues/321) DECISION_FLOW diagram []
-- [#362](https://github.com/rickballard/CoCivium/issues/362) Grand Migration & Polish — tracker [docs, ci, ops]
+- [#362](https://github.com/rickballard/CoCivium/issues/362) Grand Migration & Polish  -  tracker [docs, ci, ops]
 - [#369](https://github.com/rickballard/CoCivium/issues/369) Migration handoff: Session_2025-09-08_0133 []
 - [#370](https://github.com/rickballard/CoCivium/issues/370) Cross-repo wiring pass → link CoModules + GIBindex → CoCivium canonicals []
 - [#395](https://github.com/rickballard/CoCivium/issues/395) Grand Migration: integrate NewReadMe bundle (v3.2) [docs, grand-migration]
@@ -236,4 +236,5 @@
 - feat/product-promptq-stub-20250812 (2025-08-12 16:16:22Z)
 - backup/main-20250810-210500 (2025-08-11 00:09:37Z)
 - split/foundations (2025-08-10 12:20:06Z)
+
 

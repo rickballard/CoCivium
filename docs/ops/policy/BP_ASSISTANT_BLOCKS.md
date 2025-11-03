@@ -4,7 +4,7 @@ policy_id: OP-BP-ASSISTANT-BLOCKS-001
 version: 0.4
 ---
 
-# Assistant Blocks — Working Agreement (v0.4)
+# Assistant Blocks  -  Working Agreement (v0.4)
 
 **Scope.** Applies to assistant-provided copy/paste shell blocks used in repos, issues, and PRs.
 
@@ -41,8 +41,8 @@ version: 0.4
 - Trigger fires only when the current line is **exactly** `???` (no spaces) and Enter is pressed.
 - **Session-only:** enabled/disabled by RepoAccelerator/CoAgent; no profile edits; auto “wash-away” on PS7 exit.
 - **Hard gate:** requires **(a)** env flag `REPOACCEL_ACTIVE=1` or `COAGENT_ACTIVE=1`, **and** **(b)** CoCivium™ sentinel in the repo (any of:
-  - `docs/ops/policy/BP_ASSISTANT_BLOCKS.md`
-  - `docs/ISSUEOPS.md`
+  - [docs/ops/policy/BP_ASSISTANT_BLOCKS.md](docs/ops/policy/BP_ASSISTANT_BLOCKS.md)
+  - [docs/ISSUEOPS.md](docs/ISSUEOPS.md)
   - `README.assistant.md`
   )
 - **Extra guardrail for CoAgent:** allow only when sentinel exists **or** a repo-root opt-in `.coagent-allow-copong` is present.
@@ -53,7 +53,7 @@ version: 0.4
 - Products must enable the trigger per-session (no profile writes) and disable it on shutdown.
 - Provide an explicit uninstall that removes any legacy profile lines, if users had added them before v0.4.
 
-## Integration Advisory — Product Shutdown
+## Integration Advisory  -  Product Shutdown
 - Products (RepoAccelerator/CoAgent) must **disable the session trigger on shutdown** and ensure no residue:
   - Call `Disable-CoPongTrigger` during product exit/cleanup.
   - Clear session gates: unset `REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`.
@@ -62,5 +62,6 @@ version: 0.4
 
 - **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong - <SetName or (none)> @ <local time>` with a 1-paragraph summary and the next action.
 
-- **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong — Set=<name|none> @ <local time>` with a 1-paragraph summary and the next action.
+- **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong  -  Set=<name|none> @ <local time>` with a 1-paragraph summary and the next action.
+
 

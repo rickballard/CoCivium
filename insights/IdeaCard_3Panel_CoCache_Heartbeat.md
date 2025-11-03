@@ -13,7 +13,7 @@ summary: "Auto-added placeholder; refine."
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# IdeaCard — 3-Panel Mode & CoCacheGlobal (AI Heartbeat)
+# IdeaCard  -  3-Panel Mode & CoCacheGlobal (AI Heartbeat)
 
 **Problem / Tension**  
 Parallel sessions collide; handoffs are clumsy; humans hate clipboard ping-pong.
@@ -36,6 +36,7 @@ Fewer conflicts; faster flow; lower cognitive load; pathfinder for global heartb
 - [ ] Heartbeat PoC node (home box), safe-haven roadmap.
 
 **Tags:** #workflow #concurrency #heartbeat #ux
+
 
 
 

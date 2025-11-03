@@ -3,11 +3,11 @@
 Define *how* processes run and *how* outputs are validated.
 
 ## Subcategories
-- **Process (STD-proc-*)** — DecisionFlow, CoCleanse, HumanGate, CoWrap.
-- **Data/Schema (STD-data-*)** — Congruence schema, decision record JSON, redaction taxonomy.
-- **API/Protocol (SPEC-api-*)** — Interfaces (e.g., CoCivGibber), event buses.
-- **Governance (STD-gov-*)** — CODEOWNERS, roles/permissions, badge issuance rules.
-- **Evaluation/Metric (STD-metric-*)** — Congruence rubric, bias audits, rollout KPIs.
+- **Process (STD-proc-*)**  -  DecisionFlow, CoCleanse, HumanGate, CoWrap.
+- **Data/Schema (STD-data-*)**  -  Congruence schema, decision record JSON, redaction taxonomy.
+- **API/Protocol (SPEC-api-*)**  -  Interfaces (e.g., CoCivGibber), event buses.
+- **Governance (STD-gov-*)**  -  CODEOWNERS, roles/permissions, badge issuance rules.
+- **Evaluation/Metric (STD-metric-*)**  -  Congruence rubric, bias audits, rollout KPIs.
 
 ## Normative Language
 MUST / SHOULD / MAY; deviations require explicit Records entry.
@@ -25,3 +25,4 @@ MUST / SHOULD / MAY; deviations require explicit Records entry.
 
 ## Out-of-Scope
 - Proprietary tools without open alternatives; unnecessary personal data.
+

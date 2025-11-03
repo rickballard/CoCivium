@@ -1,14 +1,14 @@
 <!-- status: stub; target: 150+ words -->
-# Two Minds — A/B Doc Switcher + Dual README
+# Two Minds  -  A/B Doc Switcher + Dual README
 
 > **How to use:** write fast, no polishing. Analytical mind goes first (facts/constraints), Creative mind responds (metaphors, leaps, “what if”). End with a *Synthesis* and an *MVP decision*.
 
-## Mind A — Analytical
+## Mind A  -  Analytical
 - Problem/Context:
 - Constraints (people/ethics/ops):
 - What success must *not* break:
 
-## Mind B — Creative
+## Mind B  -  Creative
 - Fresh frames / metaphors:
 - Odd-but-useful variants:
 - Visual sketches (describe):
@@ -36,5 +36,6 @@
 - Confidence (1–5):
 - Effort (1–5):
 - Score = (I*C)/E:
+
 
 

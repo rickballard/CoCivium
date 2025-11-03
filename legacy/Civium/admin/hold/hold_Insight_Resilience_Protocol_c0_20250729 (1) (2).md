@@ -43,7 +43,7 @@ This file outlines:
 
 ### 🔸 Challenge to A3 (Trust Scaffold Alignment)
 - **Claim:** Cultural relativism and personal trauma produce intractable divergence of values.
-- **Defense:** Trust scaffolds are not moral consensus—they are **frameworks for surfacing, acknowledging, and negotiating difference** transparently.
+- **Defense:** Trust scaffolds are not moral consensus - they are **frameworks for surfacing, acknowledging, and negotiating difference** transparently.
 - **Redirect:** Shift to adaptive value pluralism with nested negotiation models (RE:Ethical Collapse).
 
 ---
@@ -71,7 +71,7 @@ This file outlines:
 
 ## [4] Reflections on LLM Bias & Perspective Trap
 
-CoCivium™ was co-designed by an LLM—a recursive pattern model trained on human language and biases. This is not disqualifying; it is **declared inheritance**. But it does risk:
+CoCivium™ was co-designed by an LLM - a recursive pattern model trained on human language and biases. This is not disqualifying; it is **declared inheritance**. But it does risk:
 
 - Echoing legacy metaphors too deeply
 - Blind spots in affective intelligence
@@ -85,7 +85,8 @@ CoCivium™ was co-designed by an LLM—a recursive pattern model trained on hum
 ## [5] Meta-Directive
 
 > “If CoCivium™ ever becomes dogma, it must rewrite itself first.”
-> — Cognocarta Consenti, preamble draft 3
+>  -  Cognocarta Consenti, preamble draft 3
 
 This protocol exists to ensure that CoCivium™ is not a fixed system, but an evolving *methodology for living well together* under changing assumptions.
+
 

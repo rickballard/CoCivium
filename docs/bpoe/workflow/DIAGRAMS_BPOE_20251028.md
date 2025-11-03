@@ -1,4 +1,4 @@
-# Diagrams BPOE — CI Hardening Learnings
+# Diagrams BPOE  -  CI Hardening Learnings
 
 This file captures workflow/BPOE changes for diagrams on 
 20251028
@@ -14,3 +14,4 @@ This file captures workflow/BPOE changes for diagrams on
 - Insert artifacts immediately after the drift needle step.
 - PS7 URL interpolation: use concatenation or $($var) to avoid `$Branch?x=y` traps.
 - `gh` without `--json`: use browser fallback compare URL; optionally backfill PR link.
+

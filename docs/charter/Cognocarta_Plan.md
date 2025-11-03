@@ -1,4 +1,4 @@
-# Cognocarta Consenti — Plan & Decisions (as of today)
+# Cognocarta Consenti  -  Plan & Decisions (as of today)
 
 ## Decisions
 - **Hefty single scroll** as the canonical constitution; **Annexes** hold procedures/playbooks.
@@ -12,7 +12,7 @@
 1. **Preamble** (quotable)
 2. **Maxims** (short, quotable aphorisms; slow-to-change)
 3. **Articles I–VIII** (rights, governance, interop, accountability, commons, agents, amendment…)
-4. **Annexes** (Concordia, Operandi, Custodia, Commons, …) — living companions.
+4. **Annexes** (Concordia, Operandi, Custodia, Commons, …)  -  living companions.
 
 ## Visual system
 - Symbol slugs: `consent`, `interop`, `pluralism`, `commons`, `evidence`, `rollback`, `agent`, `forkrejoin`.
@@ -33,4 +33,5 @@
 - [ ] Define first pass of symbol set (see /docs/symbols/GIBINDEX_TODO.md) and wire into headings.
 - [ ] Draft “Maxims” section from legacy quotables.
 - [ ] Replace chip-tile social image with fungal-scroll variant.
+
 

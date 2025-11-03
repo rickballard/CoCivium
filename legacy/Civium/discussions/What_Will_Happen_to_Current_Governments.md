@@ -22,7 +22,8 @@ They argue over state friction vs. evolutionary governance. One fears suppressio
 
 **Tentative Resolution:**
 
-Governments may resist at first, but coexistence and hybrid legitimacy pathways are possible—and already emerging.
+Governments may resist at first, but coexistence and hybrid legitimacy pathways are possible - and already emerging.
+
 
 
 

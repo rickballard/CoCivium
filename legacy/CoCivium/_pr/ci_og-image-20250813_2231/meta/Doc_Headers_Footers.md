@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Doc Headers & Footers — CoCivium™
+# Doc Headers & Footers  -  CoCivium™
 **Created:** 025-08-10
 **Purpose:** Define standard headers/footers for Markdown and ODT so readers get context fast and contributors preserve lineage.
 
@@ -29,6 +29,7 @@ Review_Cadence: <e.g., monthly>
 - Times NR ~10pt, 2 cm margins, numbered headers.
 - Add an image storage note at top for graphics-heavy docs.
 - Add a blank line after last paragraph of each section for readability.
+
 
 
 

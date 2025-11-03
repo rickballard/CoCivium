@@ -1,4 +1,4 @@
-# CoCivium™ / CoCivium™ — Short Retrospective
+# CoCivium™ / CoCivium™  -  Short Retrospective
 **Date:** 2025-08-11
 **Window covered:** Aug 1–11, 2025
 
@@ -46,7 +46,7 @@
 1. **Artifact channel:** Generate deliverables here as files, provide sandbox links and SHA256.  Keep a `releases/` folder in CoCivium™ for canonical drops.
 2. **Inventory tooling:** Add a tiny Python script: count files by extension, hash them, detect dups, and emit a CSV + markdown report.  Run on `admin/inbox/*` and `admin/hold/*`.
 3. **MIGRATION_LOG.md:** One line per move: date, src → dst, count, hash summary, operator.
-4. **Branch policy:** `main` is protected.  Use `feat/*` (content add), `chore/*` (moves), `docs/*` (readme polish).  Merge via PR with checklists.
+4. **Branch policy:** `main` is protected.  Use `feat/*` (content add), `chore/*` (moves), [docs/*](docs/*) (readme polish).  Merge via PR with checklists.
 5. **README above‑the‑fold:** 6–8 punchy lines + 3‑link “Start Here | Quickstart | Map.”  Everything else moves below the fold.
 6. **ONEBLOCK++:** For any multi‑step change, ship one .zip: scripts, sidecar commit text, and a rollback note.
 
@@ -57,20 +57,20 @@
 
 ---
 
-### Appendix A — Sample MIGRATION_LOG.md header
+### Appendix A  -  Sample MIGRATION_LOG.md header
 ```
 # MIGRATION_LOG
 ## Columns: YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest
 2025-08-11, rick, admin/inbox/GmailDump_20250811, deprecated/holding/GmailDump_20250811, 52, 187MB, 3f3a...
 ```
 
-### Appendix B — Branch map
-- `main` — protected.
-- `chore/move-inbox-20250811` — moves only.
-- `docs/readme-fold-20250811` — above-the-fold rewrite.
-- `feat/evomap-seed` — landing visual seed (later).
+### Appendix B  -  Branch map
+- `main`  -  protected.
+- `chore/move-inbox-20250811`  -  moves only.
+- [docs/readme-fold-20250811](docs/readme-fold-20250811)  -  above-the-fold rewrite.
+- `feat/evomap-seed`  -  landing visual seed (later).
 
-### Appendix C — Commit message pattern
+### Appendix C  -  Commit message pattern
 ```
 chore: move Gmail dump → deprecated/holding (52 files) (20250811)
 
@@ -78,4 +78,5 @@ chore: move Gmail dump → deprecated/holding (52 files) (20250811)
 - inventory report: reports/inventory_20250811.md (sha256: ...)
 - rollback: git mv deprecated/holding/GmailDump_20250811 admin/inbox/GmailDump_20250811
 ```
+
 

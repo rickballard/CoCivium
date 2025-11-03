@@ -27,7 +27,7 @@ One paragraph. Optional bullet criteria for success.
 Key facts, tradeoffs, alternatives considered (max 5 bullets). Link evidence.
 
 ## Objections
-- **O-1:** <summary> — _Open_ / _Mitigated_ / _Withdrawn_ — Owner — Evidence link
+- **O-1:** <summary>  -  _Open_ / _Mitigated_ / _Withdrawn_  -  Owner  -  Evidence link
 
 ## Decision
 Approved / Rejected / Deferred. Short rationale.
@@ -42,6 +42,7 @@ Owner(s), checklist, target date, rollback note.
 - Proposed:
 - Decided:
 - Review-by (optional):
+
 
 
 

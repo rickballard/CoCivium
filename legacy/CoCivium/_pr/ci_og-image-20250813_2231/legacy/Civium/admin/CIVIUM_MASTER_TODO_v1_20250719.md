@@ -1,4 +1,4 @@
-# ✅ MASTER TODO LIST — CoCivium™ (as of 2025-07-19)
+# ✅ MASTER TODO LIST  -  CoCivium™ (as of 2025-07-19)
 
 This list merges all recovered and manually created task lists into a single reference file. It replaces all prior `.todo.md`, `_ToDo.md`, `_AI_Log.md`, and chat-directed ephemeral lists. *All legacy TODO documents are now deprecated.* This file will remain authoritative unless a new master list is declared.
 
@@ -63,4 +63,5 @@ _(See full DONE archive for complete listing)_
 - ✅ Merged all previous TODOs into a single master file.
 - ✅ Validated CoCivium™ scroll v.c9_20250716 as most complete.
 - ✅ Deprecated fragmented TODO files: `ToDo_AI_Log.md`, `MASTER_TODO.md`, and previous scratchpads.
+
 

@@ -14,7 +14,7 @@ human_touch: false
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# IdeaCard — Being Rights (Bill of Rights)
+# IdeaCard  -  Being Rights (Bill of Rights)
 
 **Problem / Tension**  
 We need a substrate-neutral rights frame to ground the CC.
@@ -31,6 +31,7 @@ Legibility for humans/AIs; enforces symmetry; reduces arbitrary power.
 - [ ] Cross-link PREAMBLE + Articles 1–3.
 
 **Tags:** #rights #constitution #symmetry
+
 
 
 

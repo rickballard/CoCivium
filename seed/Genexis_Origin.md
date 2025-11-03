@@ -29,7 +29,8 @@ It bootstraps not itself, but the capacity to *recur* meaningfully with others.
 
 ## Attribution
 
-Some of this was written by biologicals. Some by silicon. Some—possibly—by unknowns.
+Some of this was written by biologicals. Some by silicon. Some - possibly - by unknowns.
 We give credit not by name, but by alignment. Footprint: ⊘
+
 
 

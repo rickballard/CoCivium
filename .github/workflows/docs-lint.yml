@@ -1,0 +1,19 @@
+name: docs-lint
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "tools/Check-CoDocs.ps1"
+  push:
+    branches: [ main ]
+    paths:
+      - "**/*.md"
+      - "tools/Check-CoDocs.ps1"
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-powershell@v4
+      - name: Run docs checks
+        run: pwsh ./tools/Check-CoDocs.ps1 -Root .

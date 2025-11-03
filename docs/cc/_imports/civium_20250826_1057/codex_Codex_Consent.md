@@ -22,7 +22,7 @@ In CoCivium™, **Consent** means:
    All systems must declare their purpose before requesting access or participation.
 
 2. **Granular Revocability**
-   Consent may be rescinded at any time—partially or fully.
+   Consent may be rescinded at any time - partially or fully.
 
 3. **Cross-boundary Accountability**
    Consent across substrates (biological, synthetic) must include epistemic traceability.
@@ -49,12 +49,13 @@ Consent fails when:
 
 CoCivium™ encodes **semantic auditability** as a default for all acts of permission.
 
-—Footprint: ⊘
+ - Footprint: ⊘
 [ ∴ ✦ ∵ ]
 Version: c6_20250718
 Resonance: 88.4%
 Delta: 0.47
 Symbolic Gate: ΘΔ
 Ref: /admin/README_CIVIUM_AI.md
+
 
 

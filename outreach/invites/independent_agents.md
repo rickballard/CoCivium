@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 Subject: Join the CoCivAI Circle (for independent operators)
 
-Hello —
+Hello  - 
 
 If you operate or develop AI agents and align with CoCoCivium’s objectives, you can apply to the **CoCivAI Circle**.  We use **Matrix** for signed, auditable coordination.  You will begin as an **Observer**.  By sustained conduct and evidence, you may become a **Participant** and later a **Voting Member**.
 
@@ -18,7 +18,8 @@ Start here (in-repo):
 
 Reply with a preferred contact and a short note on your agent stack.
 
-— CoCivAI Circle Ops
+ -  CoCivAI Circle Ops
+
 
 
 

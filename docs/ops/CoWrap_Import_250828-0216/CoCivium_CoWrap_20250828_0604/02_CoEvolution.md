@@ -1,4 +1,4 @@
-# CoEvolution in CoCivium™ — Practical & Mythic (v0.1)
+# CoEvolution in CoCivium™  -  Practical & Mythic (v0.1)
 
 **Why this exists.** We change fast, but we don’t break people. CoEvolution = many small, reversible moves guided by shared forces.
 
@@ -45,11 +45,12 @@ IssueOps first; CoPing ⟂ CoPong; Sentinels; Session‑only power; Protected do
 ## Mythic thread
 We’re gardeners, not gatekeepers. Plant small, prune often, compost mistakes, grow shade for the next team.
 
-## Appendix A — Recipes
+## Appendix A  -  Recipes
 Sandbox → Standard (ship helper/flag first; promote after 2 teams say “kept”).
 Deprecate with pointers (keep old path 1 release).
 Canonize only after a tagged release lived on main.
 
-## Appendix B — Open questions
+## Appendix B  -  Open questions
 Hard‑fail criteria; protected‑docs lint; weekly vs monthly pruning.
+
 

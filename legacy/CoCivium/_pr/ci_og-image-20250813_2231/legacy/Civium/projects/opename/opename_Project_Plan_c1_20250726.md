@@ -67,7 +67,7 @@ Opename is a meritocratic, avatar-mediated voting and deliberation system. It is
 
 ## [6] Notes
 
-- Opename is not an app *about* argument—it’s about extracting usable *strategy* from argument.
+- Opename is not an app *about* argument - it’s about extracting usable *strategy* from argument.
 - Incentives for participation may evolve, but early prototypes will not include point systems or gamification.
 - Document versions will carry coherence scores to track alignment with CoCivium™ principles.
 
@@ -81,4 +81,5 @@ Resonance: 65%
 Delta: 0.42
 Symbolic Gate: ΘΔΨ
 Ref: /projects/opename/README.md
+
 

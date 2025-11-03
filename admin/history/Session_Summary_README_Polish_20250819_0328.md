@@ -5,7 +5,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Session Summary — README canonicalization (20250819_0328)
+# Session Summary  -  README canonicalization (20250819_0328)
 
 **Decision:** Root README.md text is **canonical** as of 2025-08-19.  Housekeeping only (assets, links, placeholders, badges).
 **PR:** Merged: README canonical + polish scaffold.  Branch deleted.
@@ -19,6 +19,7 @@
 - Final pass of micro-polish on README as the **culminating migration task**.
 
 **Guarantees:** No destructive directory ops were used.  Placeholders only created when missing.
+
 
 
 

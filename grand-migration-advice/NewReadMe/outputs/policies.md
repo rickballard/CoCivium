@@ -3,10 +3,10 @@
 Policies define normative rules and powers; emphasize **remedy over adversarial wins**.
 
 ## Layers
-- **Constitutional (POL-const-*)** — Charter & Operating Constitution.
-- **Operating (POL-oper-*)** — Contribution gates, reviews, HumanGate, branch protections.
-- **Social (POL-social-*)** — Conduct, COI, anti-harassment, transparency of interests.
-- **Legal (POL-legal-*)** — Remedial rules emphasizing repair, restitution, safeguards, learning.
+- **Constitutional (POL-const-*)**  -  Charter & Operating Constitution.
+- **Operating (POL-oper-*)**  -  Contribution gates, reviews, HumanGate, branch protections.
+- **Social (POL-social-*)**  -  Conduct, COI, anti-harassment, transparency of interests.
+- **Legal (POL-legal-*)**  -  Remedial rules emphasizing repair, restitution, safeguards, learning.
 
 ## Structure
 ID header • rationale • definitions • rules (MUST/SHOULD/MAY) • exceptions • enforcement path • remedies • references • changelog.
@@ -17,3 +17,4 @@ ID header • rationale • definitions • rules (MUST/SHOULD/MAY) • exceptio
 
 ## Out-of-Scope
 - Legal representation; criminal sentencing; non-consensual surveillance.
+

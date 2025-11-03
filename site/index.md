@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 ---
 layout: scroll
-title: CoCivium™ — Operating System for Digital Society
+title: CoCivium™  -  Operating System for Digital Society
 permalink: /
 ---
 
@@ -17,6 +17,7 @@ permalink: /
 **New here?** See the [Why · Who · How](https://github.com/rickballard/CoCivium#why--who--how-30s)
 
 ---
+
 
 
 

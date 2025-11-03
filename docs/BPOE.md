@@ -2,16 +2,16 @@
 
 > Running log of material decisions, guardrails, and ops changes. Newest first.
 
-## 2025-08-16 — Session wrap
+## 2025-08-16  -  Session wrap
 - Mini-dashboard enabled (green/red/exclamation) for CoCivium™ status in chat.
 - Succession stub planned: README link -> docs/succession-manifest.md.
 - Quiet monitors: CI failures (30m), urgent Issues/PRs (hourly), Discussions by others (hourly).
 - Web brand scan: weekly digest; urgent-only fast alerts.
-## 2025-08-16 20:53 — Session checkpoint
+## 2025-08-16 20:53  -  Session checkpoint
 - Status: all clear (no ❗/❌ shown).
 - Added/updated: BPOE link + succession manifest; heartbeat ok.
 - Next: continue Matrix→Discussions polish; keep CI green.
-## 2025-08-16 21:19 — Session checkpoint
+## 2025-08-16 21:19  -  Session checkpoint
 - Governance scaffolding committed (7f942dd): community objectives, ethics, PR safety gate, ops stubs, labels.
 - Safety gate active on PRs (blocks high-risk until safety-approved).
 - Next: add   ests/smoke + sanity.yml; stage Matrix↔Discussions L4 policy (dry-run).
@@ -26,7 +26,7 @@
 
 
 <!-- BPOE:CoPingPong START -->
-### CoPingPong — one way only (keep it simple)
+### CoPingPong  -  one way only (keep it simple)
 - **One command:** CoPong
   - Copies the last ~200 lines of transcript/history (auto-expands on errors/long tools), **focuses chat, pastes, and presses Enter**.
   - Use CoPong -NoSend to copy only.
@@ -99,7 +99,7 @@
 ## Operator UX guardrails (paste & exit behavior)
 
 - **Never terminate shells from inside the shell.** It looks like a crash and breaks operator trust.
-  - If a shell must be closed: instruct operator to use Task Manager, Run (Win+R) → `cmd.exe /c ...`, or the terminal UI — not an in-shell kill script.
+  - If a shell must be closed: instruct operator to use Task Manager, Run (Win+R) → `cmd.exe /c ...`, or the terminal UI  -  not an in-shell kill script.
 
 - **Always present commands as multi-line “DO blocks.”**  
   Avoid single-line code blocks; start with a harmless line (e.g., `Write-Host "DO: …"`) so mouse-paste cannot merge/duplicate into one long, risky line.
@@ -111,7 +111,7 @@
 
 ## Always capture workflow wisdom on-repo
 
-- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to `docs/BPOE.md` (or a purpose doc it references) before we rely on it.
+- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to [docs/BPOE.md](docs/BPOE.md) (or a purpose doc it references) before we rely on it.
 - **DO blocks, not one-liners.** Every operational instruction published to humans is a multi-line DO block with a harmless first line.
 - **No in-shell kills.** If a process must exit, we instruct manual/GUI/TaskMgr steps; never script a kill from inside the target shell.
 - **Session hygiene.** On workbench launch and ~every 20 minutes, print an OE Status. If paste/render bloat appears, say so explicitly and shrink outputs.
@@ -125,7 +125,7 @@
 
 ## Always capture workflow wisdom on-repo
 
-- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to `docs/BPOE.md` (or a purpose doc it references) before we rely on it.
+- **Source of truth lives in-repo.** Any stability policy, DO block, mitigation, or lesson learned must be added to [docs/BPOE.md](docs/BPOE.md) (or a purpose doc it references) before we rely on it.
 - **DO blocks, not one-liners.** Every operational instruction published to humans is a multi-line DO block with a harmless first line.
 - **No in-shell kills.** If a process must exit, we instruct manual/GUI/TaskMgr steps; never script a kill from inside the target shell.
 - **Session hygiene.** On workbench launch and ~every 20 minutes, print an OE Status. If paste/render bloat appears, say so explicitly and shrink outputs.
@@ -145,9 +145,10 @@
 - **If the prompt ever shows `>>`**, it’s an open string/quote. Press **Ctrl+C** once.
 
 Files:
-- `scripts/workbench/Start-CoCiviumWorkbench.ps1` — spawns a new tab/window
-- `scripts/workbench/Workbench-Inner.ps1` — sets repo dir and prints one OE Status line
+- `scripts/workbench/Start-CoCiviumWorkbench.ps1`  -  spawns a new tab/window
+- `scripts/workbench/Workbench-Inner.ps1`  -  sets repo dir and prints one OE Status line
 
 ## Workbench Preflight (check-only)
 - Run `scripts/workbench/Preflight.ps1` to verify repo presence, launcher/inner scripts, PS version, profile parse, OE prompt hook, and shortcuts.
 - Preflight is **non-destructive** (prints ✓ / warnings; no shell kills).
+

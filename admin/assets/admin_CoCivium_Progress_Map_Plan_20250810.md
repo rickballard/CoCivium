@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium™ Progress Map (Spider Web) — Plan
+# CoCivium™ Progress Map (Spider Web)  -  Plan
 
 **Path:** `CoCivium/admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md`
 **Created:** 2025-08-10
@@ -34,21 +34,21 @@ Design an extensible **spider-web (radar) diagram** for **CoCivium™.org** that
 
 Orient the chart like a compass for intuitive reading:
 
-- **E (90°)** — **Coherence/Resonance Index (CI)**  ⇢ proxy for “Godstuff congruence.”
+- **E (90°)**  -  **Coherence/Resonance Index (CI)**  ⇢ proxy for “Godstuff congruence.”
 
-- **NE (45°)** — **Canonical Coverage (Coverage)**.
+- **NE (45°)**  -  **Canonical Coverage (Coverage)**.
 
-- **N (0°)** — **Onramp Fitness Score (OFS)**.
+- **N (0°)**  -  **Onramp Fitness Score (OFS)**.
 
-- **NW (315°)** — **Link & Schema Health (LSH)**.
+- **NW (315°)**  -  **Link & Schema Health (LSH)**.
 
-- **W (270°)** — **Decision-Trail Integrity (DTI)**.
+- **W (270°)**  -  **Decision-Trail Integrity (DTI)**.
 
-- **SW (225°)** — **Throughput (T)** (normalized).
+- **SW (225°)**  -  **Throughput (T)** (normalized).
 
-- **S (180°)** — **Lead Time (LT)** (inverted; lower is better).
+- **S (180°)**  -  **Lead Time (LT)** (inverted; lower is better).
 
-- **SE (135°)** — **External Engagement (EE)**.
+- **SE (135°)**  -  **External Engagement (EE)**.
 
 > **Where did Redundancy Debt go?** RD renders as **voids** cut out of the polygon (small inward dents along affected radials), plus a numeric badge in the legend.  This keeps the 8-axis symmetry and still penalizes duplication.
 
@@ -119,7 +119,7 @@ Place **ring labels** subtly on the north arc.  Show the **current stage** as a 
 
 ## 6) Rendering plan (phased)
 
-### Phase A — Static SVG (MVP)
+### Phase A  -  Static SVG (MVP)
 
 - **Generator:** small Python script (`admin/metrics/render_progress_map.py`) that reads `metrics.json` and emits `site/assets/progress_map_v0.svg`.
 
@@ -137,7 +137,7 @@ Place **ring labels** subtly on the north arc.  Show the **current stage** as a 
 
 - **Deliverable:** static asset embedded on CoCivium™.org landing page.
 
-### Phase B — Interactive 2D (SVG/D3, React + Tailwind)
+### Phase B  -  Interactive 2D (SVG/D3, React + Tailwind)
 
 - **Controls:** hover tooltips, toggle layers (RD voids, filaments, starpoints), time scrubber across nightly snapshots, export PNG.
 
@@ -145,7 +145,7 @@ Place **ring labels** subtly on the north arc.  Show the **current stage** as a 
 
 - **Tech:** Next.js (or Astro) + D3 for the radar layer.  Keep logic modular.
 
-### Phase C — 3D (Three.js/WebGL)
+### Phase C  -  3D (Three.js/WebGL)
 
 - **Depth:** rings extruded; starpoints as particles; shooting-star trails animated.
 
@@ -218,6 +218,7 @@ site/
 - **Why CI ≈ “Godstuff congruence.”** Until we formalize an Ethical Alignment Score, CI (coherence/resonance to the stated vision and recursive ethics) is the least-bad proxy.  The east radial will later multiply CI × EAS.
 
 - **Why 8 axes.** Human legibility and compass mapping beat maximal completeness.  RD as dents keeps duplication painful without breaking symmetry.
+
 
 
 

@@ -9,9 +9,10 @@ CALL OUT (ADVISORY) EXAMPLE
 > This paragraph is advisory context/rationale. It is not executable.
 
 ONEBLOCK (DO) EXAMPLE
-    # ONEBLOCK — Example task
+    # ONEBLOCK  -  Example task
     echo "run me as-is"
 
 WHY
 - Prevents confusing advice with commands.
 - Makes runnable steps visually obvious.
+

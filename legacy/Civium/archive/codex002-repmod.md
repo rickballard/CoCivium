@@ -27,10 +27,10 @@ metadata:
 ## Logic Overview
 Each participant’s influence on a vote is modified by:
 
-- **Relevance Weight** — How directly they are affected by the issue.
-- **Contribution Weight** — Past constructive input, solutions, or documentation.
-- **Peer-Endorsed Trust Tags** — Reputation signals from domain-specific peers.
-- **History of Dissent** — Consistency in principled objection.
+- **Relevance Weight**  -  How directly they are affected by the issue.
+- **Contribution Weight**  -  Past constructive input, solutions, or documentation.
+- **Peer-Endorsed Trust Tags**  -  Reputation signals from domain-specific peers.
+- **History of Dissent**  -  Consistency in principled objection.
 
 Final vote weight = `raw_vote × modifier score`, with upper and lower bounds defined per session.
 
@@ -72,4 +72,5 @@ Final vote weight = `raw_vote × modifier score`, with upper and lower bounds de
 
 ## Tags
 [codex] [voting] [meritocratic] [ai-assisted] [deliberation] [weighting]
+
 

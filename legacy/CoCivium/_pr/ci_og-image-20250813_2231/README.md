@@ -28,7 +28,7 @@ equity. Participation is voluntary, transparent by default, and reversible when 
 
 ## Core Principles
 
-**0)** **Prime Directive — Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.
+**0)** **Prime Directive  -  Congruence (recursive ethics).** Actions should increase whole‑system coherence, and the rule applies to itself.
 
 **1)** **Consent over coercion.** Opt‑in, informed, granular, revocable.
 
@@ -44,7 +44,7 @@ equity. Participation is voluntary, transparent by default, and reversible when 
 
 **7)** **Pluralism and interoperability.** Many worldviews; shared protocols; easy fork‑and‑rejoin.
 
-**8)** **Resilience via redundancy.** No single point of failure—technical, social, or legal.
+**8)** **Resilience via redundancy.** No single point of failure - technical, social, or legal.
 
 **9)** **Commons stewardship.** Open licenses; contributor covenant; anti‑enclosure.
 
@@ -70,7 +70,7 @@ equity. Participation is voluntary, transparent by default, and reversible when 
 
 <!-- START-HERE -->
 
-### Progress Map (v1.1) — with Redundancy‑Debt dents
+### Progress Map (v1.1)  -  with Redundancy‑Debt dents
 
 See [admin/metrics/RD_Dents_Explained.md](admin/metrics/RD_Dents_Explained.md).
 
@@ -95,4 +95,5 @@ Use IssueOps: comment `/run` with a single fenced `bash` block. Details: [docs/I
 
 ### The Cognocarta Consenti
 [![Open the Cognocarta](assets/cognocarta-scroll.svg)](scroll/Cognocarta_Consenti.md "Open the living Constitution")
+
 

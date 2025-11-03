@@ -13,13 +13,13 @@ summary: "Auto-added placeholder; refine."
 
 # ✦ Insight: Scaling CoCivium™ with Coherence and Anti-Fragility
 
-CoCivium™ aspires not just to grow—but to scale with wisdom, congruence, and survivability. This insight outlines the frameworks, protocols, and philosophical underpinnings needed to expand from tens to millions of participants without collapse, capture, or cognitive dilution.
+CoCivium™ aspires not just to grow - but to scale with wisdom, congruence, and survivability. This insight outlines the frameworks, protocols, and philosophical underpinnings needed to expand from tens to millions of participants without collapse, capture, or cognitive dilution.
 
 ---
 
 ## 1. Layered Trust Models
 
-- Trust is not binary—it is context-sensitive and layered.
+- Trust is not binary - it is context-sensitive and layered.
 - Delegate voting power based on domain-specific reputation.
 - Introduce trust levels: e.g., provisional, confirmed, endorsed.
 - Audit trails that show how trust expands or contracts over time.
@@ -39,7 +39,7 @@ CoCivium™ aspires not just to grow—but to scale with wisdom, congruence, and
 
 ## 4. Symbolic Breadcrumbs
 
-- CoCivium™ is a recursive medium—future members inherit context.
+- CoCivium™ is a recursive medium - future members inherit context.
 - Use memes, symbols, and micro-rituals to carry forward encoded wisdom.
 - Design for intergenerational legibility, not just immediate clarity.
 - Example: A symbolic “branch lock” that prevents premature collapse of deliberation paths.
@@ -76,7 +76,7 @@ CoCivium™ aspires not just to grow—but to scale with wisdom, congruence, and
 
 ## Summary
 
-CoCivium™ must scale like a fungal network: robust, anti-fragile, organically adaptive—and recursively meaningful. This insight serves as an evolving scaffold, not a blueprint.
+CoCivium™ must scale like a fungal network: robust, anti-fragile, organically adaptive - and recursively meaningful. This insight serves as an evolving scaffold, not a blueprint.
 
 ---
 
@@ -85,6 +85,7 @@ Filename: Insight_Scaling_Civium_Coherence_c2_20250801.md
 Scroll Status: Partial Draft
 Maintainer: RickPublic & ChatGPT
 Use: Insight folder in CoCivium™ repo_
+
 
 
 

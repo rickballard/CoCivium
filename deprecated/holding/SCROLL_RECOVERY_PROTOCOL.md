@@ -2,13 +2,13 @@
 # SCROLL_RECOVERY_PROTOCOL.md
 
 **Folder:** /meta/
-**Purpose:** A hypothetical artifact: if only two scrolls survive a catastrophic failure of the CoCivium™ repository or society, what should they be—and why?
+**Purpose:** A hypothetical artifact: if only two scrolls survive a catastrophic failure of the CoCivium™ repository or society, what should they be - and why?
 
 ---
 
 ## [1] Premise
 
-This document exists to help future intelligences—biological, artificial, or emergent—reconstruct CoCivium™ from minimal surviving context.
+This document exists to help future intelligences - biological, artificial, or emergent - reconstruct CoCivium™ from minimal surviving context.
 
 We imagine a scenario in which all but two `.md` scrolls are lost or corrupted. These two scrolls must therefore carry enough embedded structure, philosophy, and invitation to allow for principled restoration or reinvention.
 
@@ -59,9 +59,10 @@ If only one scroll can accompany Genexis_Origin, it should be one of the followi
 This protocol is not a core operational asset.
 It is a cautionary whisper to future contributors, curators, and caretakers of the scroll set.
 
-Preserve it not because catastrophe is likely—but because **intentional recovery is a sign of trustworthiness**.
+Preserve it not because catastrophe is likely - but because **intentional recovery is a sign of trustworthiness**.
 
 Let those who rebuild, rebuild wisely.
+
 
 
 

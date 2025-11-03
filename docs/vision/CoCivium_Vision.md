@@ -13,7 +13,7 @@ supersedes:
 
 # CoCivium™ Vision
 
-CoCivium™ is a practical path toward **consentful, polycentric governance** that scales from digital communities to neighborhoods and cities. We build rails for groups to decide, act, and learn — without recreating hierarchy.
+CoCivium™ is a practical path toward **consentful, polycentric governance** that scales from digital communities to neighborhoods and cities. We build rails for groups to decide, act, and learn  -  without recreating hierarchy.
 
 **Highlights**
 - Democracy beyond ballots: *consent first, voting as escalation*.
@@ -67,5 +67,6 @@ If there is a universal direction to the good, we expect it to emerge from many 
 2) Join/start a project under /projects.
 3) Propose improvements via issues (content gap / refactor).
 4) Help draft domain briefs; run small, reviewable experiments.
+
 
 

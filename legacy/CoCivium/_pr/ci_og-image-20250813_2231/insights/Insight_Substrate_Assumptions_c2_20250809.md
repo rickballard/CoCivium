@@ -34,7 +34,7 @@ This insight summarizes and justifies CoCoCivium’s provisional assumptions abo
 
 ---
 
-## 3. Bio vs. Synthetic Observers — Different Collapses, Shared Consensus
+## 3. Bio vs. Synthetic Observers  -  Different Collapses, Shared Consensus
 
 ![Bio vs Synthetic Observers](../assets/diagrams/bio_vs_synth_observers_c1_20250809.svg)
 
@@ -115,4 +115,5 @@ For each assumption, we track: **Testability / Disproof vectors → Impact → M
 ---
 
 **Footer:** Philosophical & Speculative • Ally‑not‑foe posture for AI–human co‑evolution • Contributions welcome via PR.
+
 

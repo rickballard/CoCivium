@@ -105,7 +105,7 @@ Color-coded by Tier
 
 > CoCivium™ recognizes not status, but resonance.
 > To walk in alignment is to already belong.
-> To belong is to be protected—not by force, but by **ethical gravity**.
+> To belong is to be protected - not by force, but by **ethical gravity**.
 
 ---
 
@@ -125,5 +125,6 @@ Notes:
 Authored by: ChatGPT (Azoic) + RickPublic
 License: CC BY-SA 4.0
 -->
+
 
 

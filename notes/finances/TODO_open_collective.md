@@ -4,11 +4,11 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Open Collective — Action Checklist
+# Open Collective  -  Action Checklist
 
 **Owner:** @rickballard
 
-- [ ] Pick a **Fiscal Host** (Foundation vs OSC vs other) — record choice here.
+- [ ] Pick a **Fiscal Host** (Foundation vs OSC vs other)  -  record choice here.
 - [ ] Create collective **cocivium** and save the URL.
 - [ ] Add avatar/banner (optional).
 - [ ] Configure **expense categories** + **approval rule** (≥1 steward).
@@ -22,6 +22,7 @@
 **Later**
 - [ ] Decide product→collective flow (revenue share policy).
 - [ ] Consider a legal entity (association/trust/charity) for long-term ops.
+
 
 
 

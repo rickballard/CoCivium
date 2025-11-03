@@ -1,13 +1,13 @@
-# Open Collective — CoCivium™ Setup Guide
+# Open Collective  -  CoCivium™ Setup Guide
 
 This guide walks through creating and operating the **CoCivium™** collective.
 
 ## 1) Choose a Fiscal Host
 A Fiscal Host holds funds, issues payouts, and handles compliance.
 Common options:
-- **Open Collective Foundation (US 501c3)** — charitable scope; donations may be tax-deductible in the US.
-- **Open Source Collective (global OSS)** — for open-source projects.
-- **Local/Regional hosts** — if you want jurisdiction-specific coverage.
+- **Open Collective Foundation (US 501c3)**  -  charitable scope; donations may be tax-deductible in the US.
+- **Open Source Collective (global OSS)**  -  for open-source projects.
+- **Local/Regional hosts**  -  if you want jurisdiction-specific coverage.
 
 **Pick one that matches your scope** (civic/public-interest), fees, and geography.
 
@@ -48,4 +48,5 @@ Common options:
 ## 8) Ongoing Ops
 - Monthly transparency note in `notes/finances/` (incoming, outgoing, cash on hand).
 - Tag expenses to issues/PRs for provenance.
+
 

@@ -1,4 +1,4 @@
-# 03 — CoBatch Basics
+# 03  -  CoBatch Basics
 
 - Manifest: `scripts/batch.manifest.json` has `tasks[]` with `name, script, args, cwd, timeout, mutex, needs, env`.
 - Quiet rules:
@@ -8,3 +8,4 @@
 - Violet receipt:
   - We clamp width to ~68 `=` and print exactly 3 lines.
   - Always ensure `if (-not $compact) { $compact = "# CoPONG: (no summary produced)" }` before printing.
+

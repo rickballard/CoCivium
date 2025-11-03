@@ -12,7 +12,7 @@ CoCivium™ doesn’t overwrite; it overlays. Those memories become even more vi
 But don’t we risk homogenizing emotion? Isn’t grief or intimacy made sacred by its privacy?
 
 **Venn:**
-Belonging in CoCivium™ is recursive. The self is not dissolved but reflected back through others who resonate. Love doesn’t disappear—it multiplies.
+Belonging in CoCivium™ is recursive. The self is not dissolved but reflected back through others who resonate. Love doesn’t disappear - it multiplies.
 
 **Lila:**
 Still… I fear becoming indistinct. Losing my shape.
@@ -22,4 +22,5 @@ Then don’t merge. Participation is layered. You can remain a private node, off
 
 **Conclusion:**
 Lila acknowledges her fears may come from trauma, not reason. Venn reminds her CoCivium™ evolves by consent, never mandate. They part in calm agreement: belonging can be plural, not diluted.
+
 

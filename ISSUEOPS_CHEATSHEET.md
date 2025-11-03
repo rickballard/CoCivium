@@ -7,9 +7,9 @@
 Make tiny, safe changes fast; keep coordination visible in issues/PRs.
 
 ## Start here (tiny change, 60–120s)
-1. **Branch** — `git switch -c docs/<slug>-c1` (or `ops/`, `fix/`, `chore/`, `test/`)
-2. **Edit + commit** — prefix with scope: `docs:`, `ops:`, `fix:`, `test:`, `chore:`
-3. **Push + PR** — `git push -u origin HEAD` → `gh pr create --title "<scope>: <summary>" --body "<why/what>"`
+1. **Branch**  -  `git switch -c docs/<slug>-c1` (or `ops/`, `fix/`, `chore/`, `test/`)
+2. **Edit + commit**  -  prefix with scope: `docs:`, `ops:`, `fix:`, `test:`, `chore:`
+3. **Push + PR**  -  `git push -u origin HEAD` → `gh pr create --title "<scope>: <summary>" --body "<why/what>"`
 
 ## CoPingPong
 - Ping (author): tiny PR, ask yes/no.
@@ -31,6 +31,7 @@ git commit -am "docs: fix README typo (tiny)"
 git push -u origin HEAD
 gh pr create --title "docs: fix README typo (tiny)" --body "One-liner."
 > **CoTip:** Stuck at `>>` or a shortened prompt? Press **Ctrl+C** to cancel the current input and return to `PS …>`, then re-run the last full command.
+
 
 
 

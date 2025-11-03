@@ -12,7 +12,7 @@ summary: "Auto-added placeholder; refine."
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# IdeaCard — CoAnchor Canonicals & “CoJanus” Switch
+# IdeaCard  -  CoAnchor Canonicals & “CoJanus” Switch
 
 **Problem / Tension**  
 Some documents need elevated, quasi-immutable status (history, mythos, founding texts). We need edit quorum, versioned legacy retention, and a reversible switch between “current” and “legacy” without saying “A/B”.
@@ -34,6 +34,7 @@ Protects narrative/legitimacy; reduces churn; enables long-horizon study; improv
 - [ ] Migrate existing founding texts to CoAnchor.
 
 **Tags:** #cocivium #governance #docs #canon
+
 
 
 

@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# IssueOps — CoPing/CoPong & DO sets
+# IssueOps  -  CoPing/CoPong & DO sets
 
 ### Title line (outside code)
 `DO <i>/<n>, <SetName>; [yyyy-MM-dd HH:mm]; <brief>`  ← local time; no timezone.
@@ -26,13 +26,14 @@ Paste that into the ChatGPT window to CoPong.
 ### Planned waits
 Use the yellow planned-wait banner instead of silent sleeps.
 
-### Integration Advisory — Product Shutdown
+### Integration Advisory  -  Product Shutdown
 - Tools enable `???` **per session** and must disable it on shutdown (`Disable-CoPongTrigger`).
 - Session gates (`REPOACCEL_ACTIVE` / `COAGENT_ACTIVE`) are cleared on exit; no profile writes.
 - CoAgent enables only with CoCivium™ sentinel or `.coagent-allow-copong`.
 
 **After you paste a CoPong in chat, the assistant will reply with `ACK CoPong - <SetName or (none)> @ <local time>` and the next action.**
 
-**After you paste a CoPong in chat, the assistant will reply with `ACK CoPong — Set=<name|none> @ <local time>` and the next action.**
+**After you paste a CoPong in chat, the assistant will reply with `ACK CoPong  -  Set=<name|none> @ <local time>` and the next action.**
+
 
 

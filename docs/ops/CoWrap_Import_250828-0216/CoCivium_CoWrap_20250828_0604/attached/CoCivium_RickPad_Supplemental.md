@@ -1,4 +1,4 @@
-# CoCivium™ RickPad — Supplemental (Session Wrap)
+# CoCivium™ RickPad  -  Supplemental (Session Wrap)
 
 This memo captures policies and patterns we discussed so you can drop them into the repo with minimal friction. It favors “teach, don’t punish” and keeps canonical docs human‑reviewed while giving contributors fast lanes.
 
@@ -10,7 +10,7 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 **Minimum bar (author checklist):**
 - Run a whole‑org search for nearby terms, neighboring acronyms, and obvious synonyms.
-- If similar artifacts exist, choose: extend, alias, or deprecate — don’t fork concepts.
+- If similar artifacts exist, choose: extend, alias, or deprecate  -  don’t fork concepts.
 - Add a *Why new?* note in your PR body summarizing what exists and why this is additive.
 
 **Quick commands** (pick your shell):
@@ -25,14 +25,14 @@ This memo captures policies and patterns we discussed so you can drop them into 
 
 ## 2) “Living History of CoCivium™” (yearly, for future historians)
 
-**Location:** `docs/history/`
+**Location:** [docs/history/](docs/history/)
 **Files:**
-- `INDEX.md` — one‑page timeline with links.
-- `YYYY.md` — yearly chapter (vision vs. reality, pivots, lessons).
-- `people/rick.md` — profile of Rick (ethos, style, preferences, notable work).
-- `glossary.md` — terms that emerged that year (with first‑seen links).
+- `INDEX.md`  -  one‑page timeline with links.
+- `YYYY.md`  -  yearly chapter (vision vs. reality, pivots, lessons).
+- `people/rick.md`  -  profile of Rick (ethos, style, preferences, notable work).
+- `glossary.md`  -  terms that emerged that year (with first‑seen links).
 
-**Yearly chapter template (`docs/history/2025.md`):**
+**Yearly chapter template ([docs/history/2025.md](docs/history/2025.md)):**
 ```md
 # 2025 Year in Review
 ## Vision → Reality
@@ -139,7 +139,7 @@ This memo captures policies and patterns we discussed so you can drop them into 
 - **Opt‑in by default** (set `telemetry: false` unless the person explicitly enables).
 - Capture only **coarse** events: feature used, success/fail, duration band; no payloads.
 - Let people see & purge their local telemetry cache.
-- Document the event taxonomy in `docs/ops/telemetry/EVENTS.md`.
+- Document the event taxonomy in [docs/ops/telemetry/EVENTS.md](docs/ops/telemetry/EVENTS.md).
 
 **Implementation sketch:**
 - Emit newline‑delimited JSON into a local buffer.
@@ -179,11 +179,11 @@ body:
       label: What we learned
 ```
 
-**B. PR body — recursion section (paste under a “Related” heading):**
+**B. PR body  -  recursion section (paste under a “Related” heading):**
 ```md
 **Related prior work (auto/hand search):**
-- Link 1 — why not sufficient
-- Link 2 — how this integrates
+- Link 1  -  why not sufficient
+- Link 2  -  how this integrates
 - Decision: extend / alias / deprecate / new (justify briefly)
 ```
 
@@ -206,7 +206,8 @@ poetic: true
 ---
 
 **Drop‑in locations (suggested):**
-- `docs/ops/policy/SENTINELS.md` → link this memo as “RickPad – Supplemental”
-- `docs/history/` → create `INDEX.md` + current year skeleton
+- [docs/ops/policy/SENTINELS.md](docs/ops/policy/SENTINELS.md) → link this memo as “RickPad – Supplemental”
+- [docs/history/](docs/history/) → create `INDEX.md` + current year skeleton
 - `.github/ISSUE_TEMPLATE/history_year.yml` → yearly reminder
+
 

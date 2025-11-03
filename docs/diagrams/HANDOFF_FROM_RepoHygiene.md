@@ -25,4 +25,5 @@
 2) Add schema validation: docs/diagrams/schemas/graph.schema.json.
 3) Add CI job: rebuild renders and **fail on diff** to enforce freshness.
 
-— Repo Hygiene session @ 2025-10-28 00:16 -04:00
+ -  Repo Hygiene session @ 2025-10-28 00:16 -04:00
+

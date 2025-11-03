@@ -3,7 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Advisory checks green, PR still BLOCKED (mergeability cache) — cookbook
+# Advisory checks green, PR still BLOCKED (mergeability cache)  -  cookbook
 
 **Symptom:** PR shows `mergeStateStatus=BLOCKED` even though the _required_ checks are green.  
 **Cause:** GitHub’s mergeability cache can report `statusCheckRollup.state=FAILURE` because *advisory* jobs (non-required) are included in the rollup.
@@ -28,6 +28,7 @@ CI:
 5) Re-assert protections using `checks` (not `contexts`)
 
 _This doc is part of BPOE “Known Issues & Mitigations”._
+
 
 
 

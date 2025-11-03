@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# Article 4 — Consent Protocols
+# Article 4  -  Consent Protocols
 
 **4.1 Prime Rule.** Consent-before-coercion.
 
@@ -12,3 +12,4 @@
 **4.5 Rights of Exit.** Any party may disengage from a federation, subject to safety wind-down and restitution where applicable.
 
 > Anchored by [PREAMBLE](PREAMBLE.md), Articles 1–3.
+

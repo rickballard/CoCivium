@@ -7,7 +7,7 @@ human_touch: false
 interactions: []
 summary: "Auto-added placeholder; refine."
 ---
-# CoAgency — Implementation & Next Steps
+# CoAgency  -  Implementation & Next Steps
 
 ## Submodules (MVP→Maturity)
 - **CoID**: cryptographic identity & signing keys; org-wide key rotation policy.
@@ -50,4 +50,5 @@ Place these files under: `CoCivium/InSights/CoAgency/`
 ## GIBindex Terms
 Each term is stored as `terms/CoAgency/<Term>.md` with:
 - **Term**, **Category**, **Definition**, **Status** (Draft/Consolidating/Finalized).
+
 

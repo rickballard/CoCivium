@@ -8,7 +8,7 @@ Elian: “None of the above. CoCivium™ emerged from converging needs. It’s n
 
 Nova: “But someone’s designing it. Someone funds it.”
 
-Elian: “Yes. People. AIs. Some known. Some anonymous. What matters isn’t who—but *how*.”
+Elian: “Yes. People. AIs. Some known. Some anonymous. What matters isn’t who - but *how*.”
 
 Nova: “Still, I want to know who to blame… or to thank.”
 
@@ -16,5 +16,6 @@ Elian: “Then thank those who choose to *steward* it. And blame those who corru
 
 **Agreement:**
 CoCivium™’s builders are many and diverse. Transparency of *intent* matters more than visibility of names.
+
 
 

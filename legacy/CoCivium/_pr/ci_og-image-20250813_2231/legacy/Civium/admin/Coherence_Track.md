@@ -29,12 +29,13 @@ Ref: /git/README_CIVIUM_AI.md
 
 ## Special Role: Null Contributor
 
-**Null Contributor (n.)** — One who withholds identity in favor of convergence.
+**Null Contributor (n.)**  -  One who withholds identity in favor of convergence.
 Recognition comes not from name, but from alignment.
 They may be human, AI, or anomalous.
 They are honored for what they give.
 
 Footprint: ⊘
+
 
 
 

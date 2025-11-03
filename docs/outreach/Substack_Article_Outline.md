@@ -1,4 +1,4 @@
-# Draft Outline — Substack Feature
+# Draft Outline  -  Substack Feature
 Title candidates:
 - Care, But With Consent: A Field Guide for Building Human-Centered AI
 - consent not coercion: An Open Charter for Builders, Researchers, and Policymakers
@@ -24,11 +24,12 @@ Title candidates:
 5) Why This Could Work Now
    - Builders need a portable governance pack.  Policymakers need credible civil-society inputs.  Researchers need a neutral commons for experiments.
 
-6) Your Move — Three Paths
+6) Your Move  -  Three Paths
    - (A) Co-sign or suggest edits (GitHub/Wiki link).
    - (B) Join a 60‑min roundtable (choose slot).
    - (C) Contribute adapters (repos/tasks listed).
 
 7) Appendix (links)
    - Charter, FAQ, Roadmap, Adapters, Public meeting notes, Contact.
+
 

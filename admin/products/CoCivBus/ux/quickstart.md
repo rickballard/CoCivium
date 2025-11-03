@@ -5,7 +5,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Quickstart — CoCivBus v0.1
+# Quickstart  -  CoCivBus v0.1
 1) Generate a Beacon + bus URL (installer or Matrix room).
 2) Paste this at top of active chats:
 
@@ -16,6 +16,7 @@ SESSION RULES
 4) Never put secrets in the bus.  Keep lines terse.
 
 3) Use CLI/PS or Action to append one-liners at step boundaries.
+
 
 
 

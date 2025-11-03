@@ -156,7 +156,7 @@ CoPong hard cap → temp-file ingestion | 4 | 4 | 1 | 16.0
 
 ## Developer Onramp & Tutorial (poetic lead-in)
 
-**One‑liner.** A crisp ONRAMP.md that explains L4 agency, governance, and how to ship—optionally opened with a short poetic vignette.
+**One‑liner.** A crisp ONRAMP.md that explains L4 agency, governance, and how to ship - optionally opened with a short poetic vignette.
 
 **Problem / Context.**
 - New devs lack a single golden path; fragmented docs.
@@ -173,7 +173,7 @@ CoPong hard cap → temp-file ingestion | 4 | 4 | 1 | 16.0
 - Phase 2: measure and iterate.
 
 **Risks & Mitigations.**
-- Too flowery or too dry—balance needed.
+- Too flowery or too dry - balance needed.
 
 **Success metrics.**
 - Time‑to‑first‑PR
@@ -311,7 +311,7 @@ CoPong hard cap → temp-file ingestion | 4 | 4 | 1 | 16.0
 ---
 
 ## Pending Harvest (to grow this registry)
-- `docs/ideas/*.md` in CoCivium™ (including Two‑Minds links).
+- [docs/ideas/*.md](docs/ideas/*.md) in CoCivium™ (including Two‑Minds links).
 - `admin/inbox/**` (use the Inbox Harvester; convert `.docx`/`.odt` to `.md`).
 - Open Discussions with label `idea` (if any).
 - PR descriptions & commit messages containing 'Idea:' or 'docs(ideas):'.
@@ -346,4 +346,5 @@ $body = @("# Idea Registry",
 $reg = Join-Path $ideas 'REGISTRY.md'; $body -join "`r`n" | Set-Content -Encoding UTF8 $reg
 Write-Host "Wrote $reg"
 ```
+
 

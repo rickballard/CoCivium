@@ -1,16 +1,16 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium™ — Architecture & Repo Layout
+# CoCivium™  -  Architecture & Repo Layout
 
 This repo organizes canonical content (what we stand behind) separately from drafts/imports (what we triage).
 
 ## Top-level
-- **/insights** — canonical essays with provenance.
-- **/codex, /consent, /intent, /resolution, /ethos, /identity, /discussions, /amendments, /domains, /seed, /lexicon** — themed canonicals.
-- **/projects** — one folder per project; canonical README per project, extra docs under `docs/`.
-- **/notes** — ops notes and status reports (non-canonical).
-- **/docs** — handbooks, architecture, style guides.
-- **/staging/_imported** — imported drafts/assets awaiting curation (kept out of CI expectations).
-- **/legacy** — archived material.
+- **/insights**  -  canonical essays with provenance.
+- **/codex, /consent, /intent, /resolution, /ethos, /identity, /discussions, /amendments, /domains, /seed, /lexicon**  -  themed canonicals.
+- **/projects**  -  one folder per project; canonical README per project, extra docs under `docs/`.
+- **/notes**  -  ops notes and status reports (non-canonical).
+- **/docs**  -  handbooks, architecture, style guides.
+- **/staging/_imported**  -  imported drafts/assets awaiting curation (kept out of CI expectations).
+- **/legacy**  -  archived material.
 
 ## Content lifecycle
 1) Import draft → `staging/_imported/<repo>/...`
@@ -35,5 +35,6 @@ supersedes:
   - ./staging/_imported/OriginRepo/path/older_draft.md
 ---
 \\\
+
 
 

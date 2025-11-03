@@ -33,7 +33,7 @@ Stars = isolated contention points
 Clusters = bounded tensions between 2–3 domains
 Clouds = vague or emergent tensions spanning multiple axes
 
-Zones are not fixed—they float over or between radials, visually flagging areas of unresolved philosophical complexity or ongoing debate.
+Zones are not fixed - they float over or between radials, visually flagging areas of unresolved philosophical complexity or ongoing debate.
 
 Each zone can be clickable or annotated to show:
 - Descriptive metadata (origin, implications)
@@ -61,5 +61,6 @@ This structure allows the diagram to serve as both a progress map and a contenti
   "Mortality": 0.31,
   "Communion": 0.53
 }
+
 
 

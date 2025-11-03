@@ -10,7 +10,7 @@
 
 ## Three paths (pick one)
 1. **Open an Idea Issue** → use the template: `.github/ISSUE_TEMPLATE/idea.yml`.
-2. **Write a 1-pager** at `docs/ideas/<slug>.md` (use the starter below), then open a PR.
+2. **Write a 1-pager** at [docs/ideas/<slug>.md](docs/ideas/<slug>.md) (use the starter below), then open a PR.
 3. **Jump straight to Proposal** if you already know scope → see [WORKFLOWS](../WORKFLOWS.md).
 
 ## Triage & labels
@@ -26,11 +26,11 @@ last-updated: YYYY-MM-DD
 links: []
 ---
 
-**User & use-case** —
-**Smallest testable change** —
-**Success metric** —
-**Risks/unknowns** —
-**Next concrete action** —
+**User & use-case**  - 
+**Smallest testable change**  - 
+**Success metric**  - 
+**Risks/unknowns**  - 
+**Next concrete action**  - 
 
 ---
 
@@ -42,4 +42,5 @@ Each idea is a file here: `YYYYMMDD-HHMMZ-slug.md`.
 
 Use `_template.md` as a starting point. Keep it short; one clear “next step.”
 >>>>>>> origin/main
+
 

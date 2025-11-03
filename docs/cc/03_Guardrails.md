@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# Article 3 — Guardrails
+# Article 3  -  Guardrails
 
 **3.1 No Kings.** No single actor or substrate may exercise unilateral, unreviewable authority.
 
@@ -12,3 +12,4 @@
 **3.5 Sandboxing.** Non-congruent subsystems MUST be isolated from upward coercion and given rights-of-appeal and pathways to rejoin congruence.
 
 > Anchored by [PREAMBLE](PREAMBLE.md) and Article 1.
+

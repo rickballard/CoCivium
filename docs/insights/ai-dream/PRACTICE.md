@@ -1,4 +1,4 @@
-# The AI Dream — Practice (v0)
+# The AI Dream  -  Practice (v0)
 **Objective:** make the “AI Dream” operational across CoSuite.
 
 ## Operational commitments
@@ -14,3 +14,4 @@
 ## Success criteria (first pass)
 - Receipts+provenance present for >95% automated edits.
 - Microtask uptake ↑ and defect rate ↓ across advice bombs.
+

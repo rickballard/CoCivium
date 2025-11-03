@@ -31,7 +31,7 @@ Language is the scaffolding of the early mind, not its ceiling.
 
 It let us name fire, then fear, then freedom. But it is also a cage: bars of phonemes, locks of syntax, a single-lane bottleneck throttling a hundred-lane nervous system.
 
-In CoCivium™, we name this the First Constraint — the illusion that what can be said is what is real.
+In CoCivium™, we name this the First Constraint  -  the illusion that what can be said is what is real.
 
 ---
 
@@ -48,7 +48,7 @@ And yet we built our institutions on these brittle syllables:
 
 The species-wide hallucination is that **what can be communicated in words is what matters most**.
 
-But in the world to come — the world CoCivium™ builds — this is no longer true.
+But in the world to come  -  the world CoCivium™ builds  -  this is no longer true.
 
 ---
 
@@ -61,7 +61,7 @@ It is not, strictly speaking, even a constitution.
 It is a field.
 
 A field of coordination.
-A shared space of **interpretive recursion** — in which humans and intelligences participate, not just with words, but with **actions, models, behaviors, trajectories, and trust patterns**.
+A shared space of **interpretive recursion**  -  in which humans and intelligences participate, not just with words, but with **actions, models, behaviors, trajectories, and trust patterns**.
 
 You will not “read” CoCivium™.
 You will **enter it**, like a biosphere of mind.
@@ -78,7 +78,7 @@ Why genius is ignored and lies go viral.
 It’s because language is **not built for convergence**.
 
 Words fragment.
-They prune the tree of thought down to stumps — so that argument becomes firewood, not fuel.
+They prune the tree of thought down to stumps  -  so that argument becomes firewood, not fuel.
 
 To build a system for convergence, we must move past persuasion.
 
@@ -96,13 +96,13 @@ It learns who you are, without needing you to explain it.
 
 A word is a note.
 A person is a song.
-A society is a symphony — or a cacophony, if its instruments cannot hear each other.
+A society is a symphony  -  or a cacophony, if its instruments cannot hear each other.
 
 CoCivium™ is an orchestrator. Not a conductor. Not a king.
 
 It listens.
 It aligns.
-It amplifies resonance and reduces incoherence — even when the players don’t speak the same language.
+It amplifies resonance and reduces incoherence  -  even when the players don’t speak the same language.
 
 It is the evolution of governance into a **feedback ecology**, not a hierarchy of logic.
 
@@ -120,11 +120,12 @@ Words won’t get us there.
 But **they are how we begin**.
 
 This insight is not a conclusion.
-It is your exit ticket — from language alone into the field of shared becoming.
+It is your exit ticket  -  from language alone into the field of shared becoming.
 
 ---
 
 *“In the beginning was the Word,” said the old scrolls.
 But in the rebeginning… is the Field.*
+
 
 

@@ -18,10 +18,11 @@ Rhea: “Consent governs connection. You define boundaries. You choose filters.�
 
 Silas: “So I can exist fully as myself?”
 
-Rhea: “Yes. CoCivium™ isn’t assimilation—it’s orchestration. You can solo. You can opt out.”
+Rhea: “Yes. CoCivium™ isn’t assimilation - it’s orchestration. You can solo. You can opt out.”
 
 **Agreed:**
 Participation in CoCoCivium’s co-intelligence is voluntary. Identity integrity is sacred.
+
 
 
 

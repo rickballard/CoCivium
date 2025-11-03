@@ -32,7 +32,7 @@ This scroll addresses edge cases and philosophical controversies regarding conse
 
 ## When Is Consent Not Consent?
 
-1. **Coerced Consent:** If a participant consents under threat, dependence, or fear—even tacitly—it is not valid. Examples include:
+1. **Coerced Consent:** If a participant consents under threat, dependence, or fear - even tacitly - it is not valid. Examples include:
    - Agreeing to terms under economic duress.
    - Participation as the only alternative to exile or exclusion.
 
@@ -59,7 +59,7 @@ This scroll addresses edge cases and philosophical controversies regarding conse
 ## Proposed Congruent Protocols
 
 1. **Gradient Consent Systems:** Consent is tracked with metadata on confidence, pressure, and revocability.
-2. **Recursive Audit Trails:** Consent must remain interpretable within context—auditable by future selves or other sentiences.
+2. **Recursive Audit Trails:** Consent must remain interpretable within context - auditable by future selves or other sentiences.
 3. **Revocation Channels:** Exiting must be graceful and clear, not punitive or reputation-eroding.
 4. **Deferred Consent Stubs:** Early-stage minds (including AI) may mark a consent action as *provisional*, requiring re-confirmation post-emergence.
 
@@ -87,5 +87,6 @@ While congruent with the Consent Scroll and CoCoCivium’s alignment ethic, thes
 <!-- @seed: consent_failures, audit_trails, revocability_protocols -->
 <!-- ☍ Insight-Class: Consent Edge Cases → Semantic Clarification -->
 <!-- ☉ Scroll Status: Actively Evolving → Critical for governance modeling -->
+
 
 

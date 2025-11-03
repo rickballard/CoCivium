@@ -47,11 +47,11 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 ### Express lane for your own onboarding
 
 1. **CoCiv (the loop)** ΓåÆ *Listen ΓåÆ Deliberate ΓåÆ Do ΓåÆ Audit*\
-   `docs/diagrams/co-loop.svg`
+   [docs/diagrams/co-loop.svg](docs/diagrams/co-loop.svg)
 2. **Longer timeline** (optional after your first hour) ΓåÆ Days 0ΓÇô1 listen ┬╖ Days 1ΓÇô2 deliberate ┬╖ Days 3ΓÇô6 do ┬╖ Day 7 audit\
-   `docs/diagrams/one-week-microproject.svg`
+   [docs/diagrams/one-week-microproject.svg](docs/diagrams/one-week-microproject.svg)
 3. **Engagement ladder** ΓåÆ See ΓåÆ Try ΓåÆ Repeat ΓåÆ CoSteward ΓåÆ Mentor ΓåÆ CoAuditor\
-   `docs/diagrams/engagement-ladder.svg`
+   [docs/diagrams/engagement-ladder.svg](docs/diagrams/engagement-ladder.svg)
 
 ---
 
@@ -85,19 +85,19 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 ---
 
 ## Where next?
-- **How we mitigate (practice)** ΓåÆ `docs/insights/world-issues/PRACTICE.md`
-- **World issues (short theory)** ΓåÆ `docs/insights/world-issues/THEORY.md`
+- **How we mitigate (practice)** ΓåÆ [docs/insights/world-issues/PRACTICE.md](docs/insights/world-issues/PRACTICE.md)
+- **World issues (short theory)** ΓåÆ [docs/insights/world-issues/THEORY.md](docs/insights/world-issues/THEORY.md)
 
-- **Quickstart** ΓåÆ `docs/quickstart.md`
-- **Deep Dive** ΓåÆ `docs/insights/the-longer-story.md`
-- **World issues (short theory)** ΓåÆ `docs/insights/world-issues/THEORY.md`
-- **How we mitigate (practice)** ΓåÆ `docs/insights/world-issues/PRACTICE.md`
+- **Quickstart** ΓåÆ [docs/quickstart.md](docs/quickstart.md)
+- **Deep Dive** ΓåÆ [docs/insights/the-longer-story.md](docs/insights/the-longer-story.md)
+- **World issues (short theory)** ΓåÆ [docs/insights/world-issues/THEORY.md](docs/insights/world-issues/THEORY.md)
+- **How we mitigate (practice)** ΓåÆ [docs/insights/world-issues/PRACTICE.md](docs/insights/world-issues/PRACTICE.md)
 
 ---
 
 ## License and community
 
-Open by default. See `LICENSE*` and `docs/governance`.
+Open by default. See `LICENSE*` and [docs/governance](docs/governance).
 
 ### One request
 
@@ -150,11 +150,11 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 ### Express lane for your own onboarding
 
 1. **CoCiv (the loop)** ΓåÆ *Listen ΓåÆ Deliberate ΓåÆ Do ΓåÆ Audit*\
-   `docs/diagrams/co-loop.svg`
+   [docs/diagrams/co-loop.svg](docs/diagrams/co-loop.svg)
 2. **Longer timeline** (optional after your first hour) ΓåÆ Days 0ΓÇô1 listen ┬╖ Days 1ΓÇô2 deliberate ┬╖ Days 3ΓÇô6 do ┬╖ Day 7 audit\
-   `docs/diagrams/one-week-microproject.svg`
+   [docs/diagrams/one-week-microproject.svg](docs/diagrams/one-week-microproject.svg)
 3. **Engagement ladder** ΓåÆ See ΓåÆ Try ΓåÆ Repeat ΓåÆ CoSteward ΓåÆ Mentor ΓåÆ CoAuditor\
-   `docs/diagrams/engagement-ladder.svg`
+   [docs/diagrams/engagement-ladder.svg](docs/diagrams/engagement-ladder.svg)
 
 ---
 
@@ -189,16 +189,16 @@ As your Contributions grow, please upgrade from solo to circle/team work and fro
 
 ## Where next?
 
-- **Quickstart** ΓåÆ `docs/quickstart.md`
-- **Deep Dive** ΓåÆ `docs/insights/the-longer-story.md`
-- **World issues (short theory)** ΓåÆ `docs/insights/world-issues/THEORY.md`
-- **How we mitigate (practice)** ΓåÆ `docs/insights/world-issues/PRACTICE.md`
+- **Quickstart** ΓåÆ [docs/quickstart.md](docs/quickstart.md)
+- **Deep Dive** ΓåÆ [docs/insights/the-longer-story.md](docs/insights/the-longer-story.md)
+- **World issues (short theory)** ΓåÆ [docs/insights/world-issues/THEORY.md](docs/insights/world-issues/THEORY.md)
+- **How we mitigate (practice)** ΓåÆ [docs/insights/world-issues/PRACTICE.md](docs/insights/world-issues/PRACTICE.md)
 
 ---
 
 ## License and community
 
-Open by default. See `LICENSE*` and `docs/governance`.
+Open by default. See `LICENSE*` and [docs/governance](docs/governance).
 
 ### One request
 
@@ -1630,3 +1630,4 @@ Disagree without demeaning, explain like to a neighbor, assume good faith, signa
 
 
 ```
+

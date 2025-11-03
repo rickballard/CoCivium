@@ -4,7 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# Runbook Checklist — KickOpenAI
+# Runbook Checklist  -  KickOpenAI
 - [ ] Review `Plan.md` and `Legal-Ethics.md`.
 - [ ] Insert today’s date and ticket IDs where placeholders exist.
 - [ ] Post `Posts/forum_post.md` with `Appendix/CoCivium_OpenAI_Bugs_Appendix_2025-08-12.md` attached.
@@ -14,6 +14,7 @@
 - [ ] Optionally publish `Posts/medium_article.md` and deck outline.
 - [ ] Update `Changelogs/CHANGELOG.md` with links, dates, outcomes.
 - [ ] Update `Metrics.md` weekly.
+
 
 
 

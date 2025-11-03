@@ -5,7 +5,7 @@
 # TODO: Trust Profiles on Public Ledger (Opename)
 
 ## Summary
-Design and propose a system for storing anonymous user trust profiles on a public ledger—ideally blockchain-based—to support accountability and tamper-resistance without violating privacy.
+Design and propose a system for storing anonymous user trust profiles on a public ledger - ideally blockchain-based - to support accountability and tamper-resistance without violating privacy.
 
 This service could be hosted or prototyped at **Opename.com**, allowing identity-linked trust signals to be anchored cryptographically, yet accessed in pseudonymous or anonymous ways.
 
@@ -23,8 +23,9 @@ To provide decentralized reputation infrastructure for systems like CoCivium™,
 - Assess abuse potential, rate-limiting, and sybil-resistance
 
 ## Status
-🟡 Parked — Phase 2 priority (Opename backend service strategy)
+🟡 Parked  -  Phase 2 priority (Opename backend service strategy)
 
 ## Notes
 This may intersect with CoCivium™ identity, RepMod/MeritRank delegation, or AI moderation visibility. Likely needs technical concept paper + legal/data ethics review.
+
 

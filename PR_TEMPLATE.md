@@ -11,7 +11,7 @@
 - Repo‑scoped Auto‑Brand (reversible), performance caching, slow‑probe guard
 - Health & cleanup: `CoBP-Health`, `CoBP-Deflate`
 - Timing helpers: `CoBP-Stamp`, `CoBP-Time`
-- `docs/ISSUEOPS.md`: Switchboard + Relaunch Fix
+- [docs/ISSUEOPS.md](docs/ISSUEOPS.md): Switchboard + Relaunch Fix
 
 ## How to verify
 - Open a new PS7 in the repo: prompt shows `[Brand (branch)]`
@@ -21,6 +21,7 @@
 
 ## Rollout notes
 - Per‑repo accent is set by mapping (see `palette.yml`); optional env overrides: `CO_BRAND`, `CO_BRAND_ACCENT`.
+
 
 
 

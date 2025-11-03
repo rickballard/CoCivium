@@ -1,9 +1,9 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium™ Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)
+# CoCivium™ Initiatives Plan  -  Scope Specification & Twin‑Eyes Diagram (c1)
 
 **Purpose.** Deliver a scope specification and twin spider‑web diagrams that convey process health (left eye) and scope progress (right eye).  Improve onboarding and outreach while keeping GitHub‑rendered fallbacks safe.
 
-**Lineage.** Derived from “CoCivium™ Initiatives Plan — Scope Specification & Twin‑Eyes Diagram” (2025‑08‑13).
+**Lineage.** Derived from “CoCivium™ Initiatives Plan  -  Scope Specification & Twin‑Eyes Diagram” (2025‑08‑13).
 
 **Maintainer.** Admin Council (HumanGate) until delegated to CoCivAI Circle.
 
@@ -17,7 +17,7 @@
 
 ## 1. Objectives
 
-1. Publish `docs/scope_specification.md` (public‑facing) and supporting crosswalk data.
+1. Publish [docs/scope_specification.md](docs/scope_specification.md) (public‑facing) and supporting crosswalk data.
 2. Add twin eyes to the landing page: **metrics.svg** (left) and **scope.svg** (right).
 3. Provide JSON star sets and a Pages‑only shimmer/tooltip layer, with README‑safe static SVGs.
 
@@ -25,7 +25,7 @@
 
 ## 2. Deliverables (files and paths)
 
-- `docs/scope_specification.md` (public).
+- [docs/scope_specification.md](docs/scope_specification.md) (public).
 - `site/eyes/metrics.svg` and `site/eyes/scope.svg` (static).
 - `site/eyes/stars.metrics.json`, `site/eyes/stars.scope.json` (curated highlights).
 - `site/eyes/README.md` (workflow).
@@ -45,7 +45,7 @@
 ## 4. Tasks
 
 1. Lock metric and theme labels; define abbreviations ≤4 chars for spokes.
-2. Draft `docs/scope_specification.md` and machine‑readable crosswalk.
+2. Draft [docs/scope_specification.md](docs/scope_specification.md) and machine‑readable crosswalk.
 3. Design eye geometry to match existing spider style; export static SVGs.
 4. Curate 6–10 “stars” per eye by significance and recency.
 5. Implement Pages shimmer + tooltips.
@@ -112,5 +112,6 @@ Decision Frameworks,2,docs/specs/cps.yaml,RL2
 ### Footer (standardized)
 
 DocType: Informative  •  Layers: N/A (planning)  •  Version: c1 (2025-08-13)  •  CohNote: Coherence tag **_c1_**; supersede via **_c2_** with a clear changelog.  Hash: TBD.
+
 
 

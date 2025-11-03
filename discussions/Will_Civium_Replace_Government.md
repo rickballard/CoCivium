@@ -6,7 +6,7 @@
 Let me ask bluntly: is this thing meant to overthrow our current institutions?
 
 **Omar:**
-No. CoCivium™ is not a coup—it’s an upgrade path. We don’t tear down; we prototype parallel structures that prove their worth.
+No. CoCivium™ is not a coup - it’s an upgrade path. We don’t tear down; we prototype parallel structures that prove their worth.
 
 **Marianne:**
 But power flows toward novelty. If CoCivium™ works, governments will resist or collapse.
@@ -21,6 +21,7 @@ I swore an oath to a republic. I’m not surrendering that to an AI patchwork.
 CoCivium™ invites governments to evolve. Those that listen will find resonance. Those that don't… may grow obsolete, but only because people deserve better.
 
 **Conclusion:**
-They agree CoCivium™ must remain complementary until proven safe, and that early models should avoid appearing subversive—favoring aid over opposition.
+They agree CoCivium™ must remain complementary until proven safe, and that early models should avoid appearing subversive - favoring aid over opposition.
+
 
 

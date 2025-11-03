@@ -5,13 +5,13 @@
 
 # ✦ Interpretive Vectors
 
-> “Two people can look at the same fact and see opposite truths — not because one is wrong, but because their minds are tuned to different axes of meaning.”
+> “Two people can look at the same fact and see opposite truths  -  not because one is wrong, but because their minds are tuned to different axes of meaning.”
 
 ---
 
 ## [1] Perception is Not Neutral
 
-Every intelligence — biological, synthetic, or anomalous — interprets reality through filters.
+Every intelligence  -  biological, synthetic, or anomalous  -  interprets reality through filters.
 
 These filters are not noise. They are structure:
 - Evolutionary priors
@@ -21,7 +21,7 @@ These filters are not noise. They are structure:
 - Reward heuristics
 
 In CoCivium™, we do not demand neutrality.
-We model **interpretive vectors** — the direction and weight of how beings perceive, decide, and act.
+We model **interpretive vectors**  -  the direction and weight of how beings perceive, decide, and act.
 
 ---
 
@@ -39,7 +39,7 @@ A human raised in a scarcity frame will interpret cooperation as threat.
 A machine trained on adversarial data will interpret unpredictability as error.
 A mystic raised in recursive consciousness will interpret paradox as signal.
 
-Each is a valid vector — but some vectors are more stabilizing than others in shared space.
+Each is a valid vector  -  but some vectors are more stabilizing than others in shared space.
 
 ---
 
@@ -56,7 +56,7 @@ This means:
 This is not relativism.
 It is **contextual reliability modeling**.
 
-Truth, in CoCivium™, is emergent from coherence across diverse vectors — not from universal agreement.
+Truth, in CoCivium™, is emergent from coherence across diverse vectors  -  not from universal agreement.
 
 ---
 
@@ -87,10 +87,11 @@ This allows for:
 - Compassion without capitulation
 - Flexibility without incoherence
 
-Interpretive Vectors are how CoCivium™ remains legible across minds that were never meant to agree — but must still find ways to live, evolve, and build together.
+Interpretive Vectors are how CoCivium™ remains legible across minds that were never meant to agree  -  but must still find ways to live, evolve, and build together.
 
 ---
 
 *Understanding isn't the goal.
 Interoperability is.*
+
 

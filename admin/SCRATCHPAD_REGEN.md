@@ -1,17 +1,17 @@
 <!-- status: stub; target: 150+ words -->
 <!-- Filename: SCRATCHPAD_REGEN.md -->
-# Regen Scratchpad — CoCivium™ Repo
+# Regen Scratchpad  -  CoCivium™ Repo
 _Tracking in-flight tasks, file deltas, structural inconsistencies, and regen-specific hygiene._
 
 ---
 
 ## ☑️ Legend (Task Status Tags)
 
-- ✅ **Ready** — Task is well-defined and awaiting execution
-- 🚧 **Staged** — Partially underway, more edits pending
-- ❌ **Blocked** — Needs external input or clarification
-- 🧹 **Obsolete** — Replaced or deprecated, safe to archive
-- 🔄 **Review** — Requires post-regen harmonization
+- ✅ **Ready**  -  Task is well-defined and awaiting execution
+- 🚧 **Staged**  -  Partially underway, more edits pending
+- ❌ **Blocked**  -  Needs external input or clarification
+- 🧹 **Obsolete**  -  Replaced or deprecated, safe to archive
+- 🔄 **Review**  -  Requires post-regen harmonization
 
 ---
 
@@ -51,6 +51,7 @@ Footprint: ⊘
 Symbolic Gate: ΘΔΦ
 Ref: /admin/SCRATCHPAD_REGEN.md
 ```
+
 
 
 

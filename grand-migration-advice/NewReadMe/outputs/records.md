@@ -1,6 +1,6 @@
 # Records & Reports (REC-*)
 
-Public ledger of governance — decisions, reviews, pilots, badges.
+Public ledger of governance  -  decisions, reviews, pilots, badges.
 
 ## Types
 - **Decision Records (REC-dr-*)**
@@ -17,3 +17,4 @@ Public summaries indefinite; raw data per policy and redaction taxonomy.
 
 ## Out-of-Scope
 Personal dossiers; publishing deanonymized sensitive data.
+

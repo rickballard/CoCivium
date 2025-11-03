@@ -35,7 +35,8 @@ How to propose and land changes.
 
 ## Wording & ethics quick check
 Before merging, glance at our **[Nasties Bucket](docs/ops/policy/NASTIES_BUCKET.md)**.
-Poetry/quotation exemptions are allowed—see that file for how to mark them.
+Poetry/quotation exemptions are allowed - see that file for how to mark them.
+
 
 
 

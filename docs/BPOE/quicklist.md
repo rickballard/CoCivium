@@ -12,3 +12,7 @@
 - leave breadcrumbs
 - rotate often
 - Receipts by default: decisions, spend, outcomes
+
+---
+
+*Nav:* [Front door](../README.md) · [Highlights](../links/HIGHLIGHTS.md) · [Theory](../insights/world-issues/THEORY.md) · [Practice](../insights/world-issues/PRACTICE.md)

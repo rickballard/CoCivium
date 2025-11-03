@@ -79,7 +79,7 @@ Truth is treated as an evolving probability field, not a fixed fact.
 
 ## 6. Local Overrides
 
-In civic contexts, a lower-confidence local consensus may temporarily override global truth weightings — with visibility flags.
+In civic contexts, a lower-confidence local consensus may temporarily override global truth weightings  -  with visibility flags.
 
 ---
 
@@ -94,4 +94,5 @@ Models may query:
 ---
 
 [tags]: # (truth evaluation scoring epistemology CoCivium™ AI consensus post-fact age)
+
 

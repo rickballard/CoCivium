@@ -21,7 +21,7 @@ interactions: []
 
 # Insight: Veto Power in CoCivium™ – Shared Governance by Refusal (c4)
 
-> “To veto is not to dominate—it is to declare that consent has not yet formed.”
+> “To veto is not to dominate - it is to declare that consent has not yet formed.”
 
 ---
 
@@ -37,7 +37,7 @@ interactions: []
 
 ## [1] What Is a Veto in CoCivium™?
 
-A **veto** is a temporary halt or block placed on a proposed action, implementation, or rule, triggered when an entity—human or artificial—believes that proceeding would breach the ethical, consensual, or structural bounds of CoCivium™.
+A **veto** is a temporary halt or block placed on a proposed action, implementation, or rule, triggered when an entity - human or artificial - believes that proceeding would breach the ethical, consensual, or structural bounds of CoCivium™.
 
 Veto is not power. It is the **right to pause power**.
 
@@ -85,7 +85,7 @@ Humans are not subordinate in CoCivium™. All Civites hold **foundational veto 
 - Trigger domain-specific ethics review
 
 🧠 *Example – Human Veto:*
-> A Civite vetoes AI-curated partner suggestions. Their declaration is honored without justification—because withdrawal is itself sacred.
+> A Civite vetoes AI-curated partner suggestions. Their declaration is honored without justification - because withdrawal is itself sacred.
 
 ---
 
@@ -155,5 +155,6 @@ Penalties may include:
 ---
 
 _This insight will co-evolve with the CoCivium™ system’s consent models, recursion ethics, and signal economies._
+
 
 

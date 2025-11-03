@@ -10,7 +10,7 @@
 
 ---
 
-**Opening Prompt:** CoCivium™ sounds like a giant leap. Who’s actually going to build it—and how?
+**Opening Prompt:** CoCivium™ sounds like a giant leap. Who’s actually going to build it - and how?
 
 ---
 
@@ -23,6 +23,7 @@ They explore architectural staging, use of testbeds, and bootstrapping through m
 **Tentative Resolution:**
 
 CoCivium™ will be built in stages, likely starting with interoperable micro-nets and civic sandboxes supported by aligned communities.
+
 
 
 

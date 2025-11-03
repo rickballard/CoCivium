@@ -1,4 +1,4 @@
-# CoCivium™ User Guide (v1 — Complete Draft)
+# CoCivium™ User Guide (v1  -  Complete Draft)
 
 **Purpose.** Give newcomers a fast, accurate on-ramp and give contributors/stewards a single source of truth for how to engage.  Two spaces after periods.  US spelling (UK only for Dogs n Homes).  CLI-first for builders on Windows PowerShell 7.  Everything traceable via issues/PRs/commits.  HumanGate on by default.
 
@@ -34,12 +34,12 @@
 
 ## 0) Choose-Your-Path Landing
 **Audience tiles.**
-- **Citizen / Curious** — What is CoCivium™ and why it matters.
-- **Contributor / Builder** — Ship a tiny improvement in 15 minutes.
-- **Steward / Operator** — Run the project safely (reviews, releases, rollbacks).
-- **Educator / Parent** — Use our free ethics/game content with kids.
-- **Partner / Funder** — Values-aligned collaboration (CoFit + Grant Use Policy).
-- **Youth Player (FTW Game)** — Play, learn ethics, and help fix the world.
+- **Citizen / Curious**  -  What is CoCivium™ and why it matters.
+- **Contributor / Builder**  -  Ship a tiny improvement in 15 minutes.
+- **Steward / Operator**  -  Run the project safely (reviews, releases, rollbacks).
+- **Educator / Parent**  -  Use our free ethics/game content with kids.
+- **Partner / Funder**  -  Values-aligned collaboration (CoFit + Grant Use Policy).
+- **Youth Player (FTW Game)**  -  Play, learn ethics, and help fix the world.
 
 **Above-the-fold.**  30-second Why/Who/How triad, a live “What exists today” box, and a minimal QS checklist.
 
@@ -52,7 +52,7 @@
 ---
 
 ## 1) Start Here (overview)
-**The idea in one minute.** Democracies are running twenty-first-century societies with nineteenth-century operating systems.  CoCivium™ is an open, consent-first civic stack that helps communities propose, debate, and adopt better decisions — with transparent trails, reversible changes, and lightweight reputation.  It is free, open source, and built to be co-evolved by humans and AIs.
+**The idea in one minute.** Democracies are running twenty-first-century societies with nineteenth-century operating systems.  CoCivium™ is an open, consent-first civic stack that helps communities propose, debate, and adopt better decisions  -  with transparent trails, reversible changes, and lightweight reputation.  It is free, open source, and built to be co-evolved by humans and AIs.
 
 **What CoCivium™ is.** A living library of patterns, docs, and small tools (CoModules) for consentful governance.  A place to practice rapid, safe civic iteration.  A neutral, non-commercial commons.
 
@@ -316,6 +316,7 @@ Each track uses the same scaffold: **At-a-glance → Why it matters → DO → V
 - Roadmap → Metrics & Roadmap.
 
 **Success criteria.** A newcomer reaches first meaningful action in ≤5 minutes.  A builder opens a first PR in ≤15 minutes.  A steward can run a safe release using only the guide.
+
 
 
 

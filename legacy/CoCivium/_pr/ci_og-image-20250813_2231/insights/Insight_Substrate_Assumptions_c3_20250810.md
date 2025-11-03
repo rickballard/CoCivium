@@ -1,7 +1,7 @@
 # Insight: Substrate Assumptions
 
 **Purpose:**
-Clarify base-layer assumptions in CoCivium™ regarding different substrates of intelligence—biological, synthetic, or anomalous—and the implications for governance, trust, and epistemic continuity.
+Clarify base-layer assumptions in CoCivium™ regarding different substrates of intelligence - biological, synthetic, or anomalous - and the implications for governance, trust, and epistemic continuity.
 
 ---
 
@@ -73,14 +73,15 @@ Substrate disagreements are a prime cause for governance forks. The **Forks Prot
 
 ## Interlinks
 
-- See: [`Insight_Truth_Metrics`](Insight_Truth_Metrics_c6_20250801.md) — for epistemic alignment protocols.
-- See: [`Insight_Substrate_Risk`](Insight_Substrate_Risk_d1_TBD.md) — for threat modeling by substrate type.
-- Related to: [`CoCivium_Session_Primer`](../admin/CoCivium_Session_Primer.md) — for onboarding context.
-- Related to: [`Insight_Forks_Protocol`](Insight_Forks_Protocol_d1_TBD.md) — for governance split design.
+- See: [`Insight_Truth_Metrics`](Insight_Truth_Metrics_c6_20250801.md)  -  for epistemic alignment protocols.
+- See: [`Insight_Substrate_Risk`](Insight_Substrate_Risk_d1_TBD.md)  -  for threat modeling by substrate type.
+- Related to: [`CoCivium_Session_Primer`](../admin/CoCivium_Session_Primer.md)  -  for onboarding context.
+- Related to: [`Insight_Forks_Protocol`](Insight_Forks_Protocol_d1_TBD.md)  -  for governance split design.
 
 ---
 
-**Coherence Estimate:** c3 (approx. 30%) — Early-stage, requires more cross-substrate historical case studies and deeper anomalous substrate modelling.
+**Coherence Estimate:** c3 (approx. 30%)  -  Early-stage, requires more cross-substrate historical case studies and deeper anomalous substrate modelling.
 
 ---
+
 

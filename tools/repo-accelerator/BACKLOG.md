@@ -1,4 +1,4 @@
-# RepoAccelerator / CoAgent Kit — Backlog: Workflow Stability and DX
+# RepoAccelerator / CoAgent Kit  -  Backlog: Workflow Stability and DX
 
 Last updated: 2025-08-26 04:57 UTC
 
@@ -40,4 +40,5 @@ Next actions (automatable)
 - Add CI check: README must contain QUICK-NAV block.
 - Pre-commit hook to forbid here-strings in instruction snippets.
 - Helper to rebase a docs branch automatically or hard-reset then reapply a tiny patch.
+
 

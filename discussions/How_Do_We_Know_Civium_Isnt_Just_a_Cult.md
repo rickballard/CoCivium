@@ -12,7 +12,7 @@ Fair. But the difference is in *how* CoCivium™ enforces truth: not by belief, 
 Every cult claims “we verify everything.” But who defines coherence?
 
 **Arman:**
-In CoCivium™, *you* do. Every statement carries metadata and delta-trails. Disagreement isn’t shunned—it’s mapped.
+In CoCivium™, *you* do. Every statement carries metadata and delta-trails. Disagreement isn’t shunned - it’s mapped.
 
 **Tessa:**
 Still sounds faith-adjacent. Your founders don’t even have titles.
@@ -22,5 +22,6 @@ Because authority emerges from alignment, not charisma. You can fork CoCivium™
 
 **Conclusion:**
 Tessa remains skeptical but impressed. Arman agrees to document more clearly where CoCivium™ differs from dogma. Both agree that trust grows only through transparency.
+
 
 

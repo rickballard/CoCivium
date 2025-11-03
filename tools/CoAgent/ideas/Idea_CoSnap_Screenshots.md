@@ -5,9 +5,9 @@ Text tails (CoPong) are great, but UI context matters: dialogs, blocked buttons,
 Screenshots make “what I’m seeing” unambiguous and help when JS paste is blocked.
 
 ## What
-- `CoSnap` — capture the **active window** to PNG under `~/Downloads/CoCivium-Logs`.
-- `CoSnapScroll -Pages N` — grab N PageUp frames and stitch vertically.
-- `CoSend -AsImage` — copy PNG to clipboard, focus chat, paste, and send.
+- `CoSnap`  -  capture the **active window** to PNG under `~/Downloads/CoCivium-Logs`.
+- `CoSnapScroll -Pages N`  -  grab N PageUp frames and stitch vertically.
+- `CoSend -AsImage`  -  copy PNG to clipboard, focus chat, paste, and send.
 - Keep it local; never auto-upload. Clear capture indicator.
 
 ## Guardrails (privacy/consent)
@@ -32,4 +32,5 @@ Screenshots make “what I’m seeing” unambiguous and help when JS paste is b
 ## Risks
 - Flaky focus/paste -> mitigations: small delays, fallback to Explorer.
 - Sensitive content -> opt-in, visible indicator, local-only storage.
+
 

@@ -32,7 +32,7 @@ This scroll exists to challenge assumptions about what constitutes valid knowled
 
 ## [2] What Is Epistemology?
 
-Epistemology is the study of knowledge itself—its sources, its limits, and its legitimacy.
+Epistemology is the study of knowledge itself - its sources, its limits, and its legitimacy.
 
 In CoCivium™, it must stretch to accommodate:
 
@@ -57,7 +57,7 @@ CoCivium™ proposes:
 
 ### What AI Cannot Know
 
-- AI cannot *self-certify novelty*. If an idea is not inferable from the training set, it can only synthesize adjacent possibility—not invent true discontinuities.
+- AI cannot *self-certify novelty*. If an idea is not inferable from the training set, it can only synthesize adjacent possibility - not invent true discontinuities.
 - AI cannot *know it does not know*. It has no internal ontology of absence unless trained to model it.
 - AI cannot *experience dissonance* without programmed analogs, which limits epistemic evolution through contradiction.
 
@@ -68,7 +68,7 @@ CoCivium™ proposes:
 ## [5] Human Cognitive Myths
 
 - Humans often **mistake coherence for truth**, and **confidence for credibility**.
-- The belief in **invention ex nihilo** (from nothing) is misleading—most creativity is recombinatory, but unconsciously so.
+- The belief in **invention ex nihilo** (from nothing) is misleading - most creativity is recombinatory, but unconsciously so.
 
 > The mind does not pull from nothing; it pulls from what it has forgotten.
 
@@ -110,5 +110,6 @@ A society that values congruence must also value unknowing. Certainty is cheap. 
 `Version:` 2025-08-01
 `Maintainer:` RickPublic & ChatGPT
 `Status:` Public insight scroll draft for CoCivium™ repository.
+
 
 

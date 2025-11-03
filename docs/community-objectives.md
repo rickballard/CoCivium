@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium™ — Community Objectives (v0.1)
+# CoCivium™  -  Community Objectives (v0.1)
 
 ## Constraints (Non-Negotiables)
 - Human safety first; no features that plausibly increase risks to life/liberty/societal resilience.
@@ -27,5 +27,6 @@
 - Weekly sanity pass rate ≥ 95% rolling 4 weeks.
 - Median time idea→Discussion ≤ 48h.
 - Zero unresolved credible abuse/impersonation reports > 72h.
+
 
 

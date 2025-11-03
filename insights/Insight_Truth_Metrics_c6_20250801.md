@@ -12,7 +12,7 @@ summary: "Auto-added placeholder; refine."
 
 # ✦ Insight: Truth Metrics in CoCivium™
 
-CoCivium™ operates under the recognition that “truth” is a useful fiction—stable enough to build systems, but volatile enough to evolve. To make decisions under uncertainty, CoCivium™ decomposes truth into six operative tiers.
+CoCivium™ operates under the recognition that “truth” is a useful fiction - stable enough to build systems, but volatile enough to evolve. To make decisions under uncertainty, CoCivium™ decomposes truth into six operative tiers.
 
 ## Tiered Taxonomy of Truth
 
@@ -20,12 +20,12 @@ CoCivium™ treats truth as multidimensional. To guide discourse, it segments tr
 
 | Tier | Name                     | Description                                                                 | Example Use                             |
 |------|--------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
-| T0   | Existential              | Root reality—often inaccessible; includes cosmological constants or metaphysical origin theories. | “Does anything exist at all?”           |
+| T0   | Existential              | Root reality - often inaccessible; includes cosmological constants or metaphysical origin theories. | “Does anything exist at all?”           |
 | T1   | Physical                 | Observable physical facts with reproducibility.                            | “Water boils at 100°C at sea level.”    |
 | T2   | Statistical              | Patterns confirmed across sufficient samples.                             | “Most humans sleep ~7–8 hours per day.” |
 | T3   | Social-Constructed       | Widely accepted conventions or laws.                                      | “Driving on the right is normal in Canada.” |
 | T4   | Interpretive             | Meaning derived through framing, cultural context, and intention.         | “This art evokes melancholy.”           |
-| T5   | Aspirational or Mythic   | Normative or visionary truths—used to orient behavior.                    | “All people are created equal.”         |
+| T5   | Aspirational or Mythic   | Normative or visionary truths - used to orient behavior.                    | “All people are created equal.”         |
 
 Truth claims in CoCivium™ are tagged with relevant tiers to better track which forms of validation apply and which vulnerabilities must be monitored during audits or revisions.
 
@@ -47,13 +47,13 @@ CoCivium™ acknowledges the unique epistemic profile of artificial intelligence
 - Must support recursive updates with validation from diverse sources
 - Should declare its own certainty/confidence metrics at all times
 
-> AI-generated truths are probabilistic coherence projections—not epistemic anchors.
+> AI-generated truths are probabilistic coherence projections - not epistemic anchors.
 
 ---
 
 ## Human Divergence and Innovation
 
-While humans are often irrational, they exhibit an emergent ability to originate hypotheses from incomplete patterns, dreams, or seemingly non-causal inspiration. CoCivium™ treats this as a separate vector of value—not always “true,” but often catalytic.
+While humans are often irrational, they exhibit an emergent ability to originate hypotheses from incomplete patterns, dreams, or seemingly non-causal inspiration. CoCivium™ treats this as a separate vector of value - not always “true,” but often catalytic.
 
 > Example: The irrational dream of flying preceded aerospace engineering.
 
@@ -65,9 +65,9 @@ CoCivium™ accommodates this kind of divergence as epistemic “prototyping.”
 
 Three core vectors challenge truth persistence:
 
-1. **Temporal Drift** — Truths become outdated or lose context.
-2. **Social Corruption** — Consensus degrades via power or misinformation.
-3. **Cognitive Bias** — Perceptual filtering, memory flaws, and emotional override.
+1. **Temporal Drift**  -  Truths become outdated or lose context.
+2. **Social Corruption**  -  Consensus degrades via power or misinformation.
+3. **Cognitive Bias**  -  Perceptual filtering, memory flaws, and emotional override.
 
 CoCivium™ includes periodic truth audits to monitor for degradation, especially in high-consequence domains like health, law, or governance.
 
@@ -95,12 +95,13 @@ Status: In Progress
 License: CC-BY-SA 4.0
 
 ⚠️ This file is part of an evolving philosophical infrastructure.
-Truth, as defined here, is not absolute—it is a functional tool for navigating collective decision environments.
+Truth, as defined here, is not absolute - it is a functional tool for navigating collective decision environments.
 Use with interpretive caution. Recursive audits recommended every 3 months.
 
 Contribute feedback via GitHub: [CoCivium Repository](https://github.com/rickballard/CoCivium)
 
 Maintainers: RickPublic & Azoic (AI co-author)
+
 
 
 

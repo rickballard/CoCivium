@@ -1,4 +1,4 @@
-# CoSync — VIOLET Companion (Speculative)
+# CoSync  -  VIOLET Companion (Speculative)
 UTC: 20251029T200036Z
 
 ## Pointers
@@ -20,3 +20,4 @@ UTC: 20251029T200036Z
 ## Open PRs / Next
 - CoCache PR (advice): pending merge (see GitHub).
 - If redundant with hybrid VIOLET, cherry-pick pieces only.
+

@@ -19,6 +19,7 @@ Tai (an evolutionary biologist interested in system resilience)
 ---
 
 **Conclusion:**
-CoCivium™ cannot be unhackable. But it can be self-healing—like immune systems that detect, adapt, and reinforce with every intrusion.
+CoCivium™ cannot be unhackable. But it can be self-healing - like immune systems that detect, adapt, and reinforce with every intrusion.
+
 
 

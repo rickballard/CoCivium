@@ -13,7 +13,7 @@ summary: "Auto-added placeholder; refine."
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# IdeaCard — (Replace with Title)
+# IdeaCard  -  (Replace with Title)
 
 **Problem / Tension**  
 <1–3 sentences.>
@@ -33,6 +33,7 @@ summary: "Auto-added placeholder; refine."
 - [ ] Step 3
 
 **Tags:** #cocivium #strategy #triage
+
 
 
 

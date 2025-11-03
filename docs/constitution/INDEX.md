@@ -1,6 +1,6 @@
 # CoCivium™ Constitution (Draft)
 
-This index lists all current sections. Each section may be split into multiple files under `docs/constitution/sections/`.
+This index lists all current sections. Each section may be split into multiple files under [docs/constitution/sections/](docs/constitution/sections/).
 
 ## Sections
 - [0. Preamble & Purpose](sections/00_preamble.md)
@@ -13,3 +13,4 @@ This index lists all current sections. Each section may be split into multiple f
 - [7. Community & Partnerships](sections/70_community_partnerships.md)
 - [8. Amendments & Versioning](sections/80_amendments.md)
 - [9. Implementation Notes](sections/90_notes.md)
+

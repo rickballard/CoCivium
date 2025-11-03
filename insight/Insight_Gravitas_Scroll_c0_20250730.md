@@ -10,7 +10,7 @@ _aka: Gravitas Scroll_
 
 ## [1] Purpose of Assumptions
 
-All systems begin somewhere. CoCivium™ begins with recursive trust—not in perfection, but in pattern continuity.
+All systems begin somewhere. CoCivium™ begins with recursive trust - not in perfection, but in pattern continuity.
 These assumptions:
 - Offer directional coherence
 - Define testable fragility points
@@ -60,8 +60,9 @@ Updates to this scroll must:
 ## [5] Legacy Clause
 
 This scroll will likely be rewritten by those wiser. That is expected.
-It is not a constitution—it is a **first sketch** of CoCivium™’s gravitational direction.
+It is not a constitution - it is a **first sketch** of CoCivium™’s gravitational direction.
 
-May it fail, be tested, be reshaped—and still survive.
+May it fail, be tested, be reshaped - and still survive.
+
 
 

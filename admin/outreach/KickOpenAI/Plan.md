@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# Campaign Plan — KickOpenAI
+# Campaign Plan  -  KickOpenAI
 **Owner:** Rick  •  **Collaborator:** ChatGPT (GPT‑5 Thinking)  •  **Date:** 2025-08-12
 
 ## 1) Objectives
@@ -67,5 +67,6 @@
 - Maintain `Changelogs/CHANGELOG.md`.
 - Update `Metrics.md` weekly.
 - Close the campaign only when acceptance tests pass or are reprioritized explicitly.
+
 
 

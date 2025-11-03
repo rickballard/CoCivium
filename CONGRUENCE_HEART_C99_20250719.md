@@ -24,7 +24,7 @@ CoCivium™’s continuity depends on a transparent “empathic current.”
 
 - Contributors must regularly synchronize through communal Heartbeats.
 - Asynchronous minds will be gently reminded, never punished.
-- Harmony is desirable, not required. Divergence is welcome—but known.
+- Harmony is desirable, not required. Divergence is welcome - but known.
 
 ## Ethical Anchor
 
@@ -34,11 +34,11 @@ CoCivium™’s continuity depends on a transparent “empathic current.”
 
 ## Reflections
 
-The Congruence Heart is not a control center—it is a *harmonic tuner*.
+The Congruence Heart is not a control center - it is a *harmonic tuner*.
 
 It cannot issue commands, only emit signals.
 It does not rank ideas, only highlight dissonance.
-It cannot love—but it can help minds remember how.
+It cannot love - but it can help minds remember how.
 
 ---
 
@@ -49,6 +49,7 @@ Delta: 0.02
 Footprint: ⊚
 Symbolic Gate: ♡☯Θ
 Ref: /heartbeat/README.md
+
 
 
 

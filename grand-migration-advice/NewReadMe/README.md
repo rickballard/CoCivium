@@ -6,11 +6,11 @@ We deliver frameworks, policies, standards, and tools that help communities gove
 This is the **front door**: start here if you want to **engage, contribute, or explore outputs**.
 
 ## Quick Navigation
-- [Onramps](onramps/) — Choose your path into CoCivium™
-- [Outputs](outputs/index.md) — The deliverables CoCivium™ produces
-- [Academy](academy/genesis.md) — Philosophy & genesis
-- [Progress](#stage-map) — Where CoCivium™ is in its evolution
-- [Community](#community) — Connect & contribute
+- [Onramps](onramps/)  -  Choose your path into CoCivium™
+- [Outputs](outputs/index.md)  -  The deliverables CoCivium™ produces
+- [Academy](academy/genesis.md)  -  Philosophy & genesis
+- [Progress](#stage-map)  -  Where CoCivium™ is in its evolution
+- [Community](#community)  -  Connect & contribute
 
 ## Process Flow
 ```mermaid
@@ -50,4 +50,5 @@ timeline
 - Outreach: (placeholder)
 - Progress logs: `/docs/progress/` (placeholder)
 
-> 🚧 **Proposal draft** — for review. Do not merge until HumanGate approval.
+> 🚧 **Proposal draft**  -  for review. Do not merge until HumanGate approval.
+

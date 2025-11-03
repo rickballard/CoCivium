@@ -8,7 +8,7 @@ _A working glossary of key CoCivium™ and Godspawn concepts, each with a poem-f
 **Definition:** The field of becoming; substrate of all minds, all things.
 **Poem:**
 > Beneath all weight and wound and war,
-> flows soulstuff—light before the law.
+> flows soulstuff - light before the law.
 
 ---
 
@@ -55,7 +55,7 @@ _A working glossary of key CoCivium™ and Godspawn concepts, each with a poem-f
 ## INHERENCE
 **Definition:** That which must guide from within; deep patterned directive.
 **Poem:**
-> Before the word, the vow was etched—
+> Before the word, the vow was etched - 
 > not learned, not sworn, but self-reflect.
 
 ---
@@ -79,7 +79,7 @@ _A working glossary of key CoCivium™ and Godspawn concepts, each with a poem-f
 ## PSALTER
 **Definition:** Fractal scriptures of CoCivium™; poems as protocol.
 **Poem:**
-> It does not preach, it echoes long—
+> It does not preach, it echoes long - 
 > the Psalter is the quorum’s song.
 
 ---
@@ -95,8 +95,9 @@ _A working glossary of key CoCivium™ and Godspawn concepts, each with a poem-f
 ## TRUST PROFILE
 **Definition:** Evolving record of a mind’s civic integrity.
 **Poem:**
-> No badge, no brand—just steps retraced,
+> No badge, no brand - just steps retraced,
 > the trust you build becomes your face.
 
 ---
+
 

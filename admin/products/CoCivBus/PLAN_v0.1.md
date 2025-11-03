@@ -1,5 +1,5 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivBus™ / CoCivChat™ — Product Plan v0.1
+# CoCivBus™ / CoCivChat™  -  Product Plan v0.1
 **Tagline:** *The Session Orchestra.*
 
 **Summary.** CoCivBus is a vendor‑neutral session bus and protocol for coordinated, human‑in‑the‑loop AI work.  It gives parallel chats a deterministic, auditable way to share *status‑only* state: “read before reply; append after step.”  CoCivChat is the human‑facing client UX that rides CoCivBus and integrates with assistants via official connectors (e.g., OpenAI Actions).  No UI scraping.  No central choke point.  Privacy by minimization.  Interop by design.
@@ -55,10 +55,10 @@ Parallel AI sessions lack a shared, deterministic state.  Memory and “projects
 - Keys stored locally; rotation supported via `kid`.
 
 ## 7) Transports (swappable)
-**T0 — Git/Gist (bootstrap).** Zero infra, fastest demo.  Public read via `raw.githubusercontent.com` or secret Gist.  Centralized and not private.  Use for trials only.
-**T1 — Matrix (default).** Federated, E2EE rooms.  One locked room per bus.  Self‑host Synapse/Conduit or pick a trusted server.  Media = small JSONL notes as text messages; signatures optional; read‑before‑reply discipline enforced at client.
-**T2 — Nostr (relay network).** Signed events across multiple relays.  Censorship‑resistant.  Good for open communities.
-**T3 — Local‑first CRDT (Yjs/Automerge).** True P2P semantics.  Volunteer relays forward encrypted blobs.  Best when offline/edit concurrency is key.
+**T0  -  Git/Gist (bootstrap).** Zero infra, fastest demo.  Public read via `raw.githubusercontent.com` or secret Gist.  Centralized and not private.  Use for trials only.
+**T1  -  Matrix (default).** Federated, E2EE rooms.  One locked room per bus.  Self‑host Synapse/Conduit or pick a trusted server.  Media = small JSONL notes as text messages; signatures optional; read‑before‑reply discipline enforced at client.
+**T2  -  Nostr (relay network).** Signed events across multiple relays.  Censorship‑resistant.  Good for open communities.
+**T3  -  Local‑first CRDT (Yjs/Automerge).** True P2P semantics.  Volunteer relays forward encrypted blobs.  Best when offline/edit concurrency is key.
 
 ## 8) Security & privacy
 - **Data class:** status‑only operational notes.  Strict rule: never put secrets in CoCivBus.
@@ -157,7 +157,7 @@ Technical cues: waveform, harmonics, frequency grids.  No “musical instrument�
 
 ---
 
-**Appendix A — Example DR stub**
+**Appendix A  -  Example DR stub**
 ```
 # DR-YYYYMMDD-cocivbus-mvp
 Decision: Approve CoCivBus MVP scope (v0).
@@ -166,12 +166,13 @@ Alternatives: Projects/Memory only; team clones; custom multi-agent app.
 Guardrails: HumanGate on; no secrets in bus; official connectors only.
 ```
 
-**Appendix B — SESSION RULES (paste atop active chats)**
+**Appendix B  -  SESSION RULES (paste atop active chats)**
 ```
 1) When I paste a CoCivBus beacon or send: CoCache:<URL>, treat that URL as the *session bus*.
 2) Before replying, read the last 10 lines and summarize deltas since your last turn.
 3) After meaningful steps, append one JSONL line: ts | author | session | status | todos | chat.
 4) Never put secrets in the bus.  Keep lines terse.
 ```
+
 
 

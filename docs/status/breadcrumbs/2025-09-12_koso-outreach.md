@@ -1,4 +1,4 @@
-# Breadcrumb — Koso Outreach (2025-09-12)
+# Breadcrumb  -  Koso Outreach (2025-09-12)
 
 **What shipped**
 - outreach/partners/Koso-Synergy-Report.md (on main previously).
@@ -13,3 +13,4 @@
 **Links**
 - Koso doc: outreach/partners/Koso-Synergy-Report.md
 - Partners Start Here: outreach/partners/START-HERE.md
+

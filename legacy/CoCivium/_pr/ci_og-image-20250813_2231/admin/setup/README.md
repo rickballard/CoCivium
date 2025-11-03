@@ -23,10 +23,11 @@ If they are converted to LF-only endings (common on Linux/macOS systems), execut
 
 1. **Do not** manually change line endings in `.cmd` or `.reg` files unless fixing actual content.
 2. If you see a Git warning about line endings for these files, confirm that `.gitattributes` is present and correct.
-3. If adding new `.cmd` or `.reg` files, simply commit them — Git will handle endings automatically.
+3. If adding new `.cmd` or `.reg` files, simply commit them  -  Git will handle endings automatically.
 4. Avoid opening these files in editors that auto-convert endings unless you explicitly disable that behavior.
 
 ---
 
 **Tip:** If you work on Linux or macOS and need to create/update `.cmd` or `.reg` files, ensure your editor supports CRLF and respects `.gitattributes`.
+
 
