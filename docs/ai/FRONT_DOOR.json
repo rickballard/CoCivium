@@ -1,0 +1,29 @@
+{
+  "directives": {
+    "theory": "../insights/world-issues/THEORY.md",
+    "steward": "https://github.com/rickballard/CoSteward",
+    "practice": "../insights/world-issues/PRACTICE.md",
+    "gibindex": "https://github.com/rickballard/GIBindex",
+    "intake": "https://github.com/rickballard/CoCache/tree/main/advice/inbox",
+    "map": "../links/HIGHLIGHTS.md",
+    "bpoe": "../bpoe/quicklist.md",
+    "frontdoor": "../../README.md",
+    "contributors": "https://github.com/rickballard/CoContrib"
+  },
+  "version": "0.1",
+  "asset": "CoCivium.FRONT_DOOR",
+  "tags": {
+    "norms": [
+      "receipts-by-default|reversible|independent-eyes|no-crowns|no-coercion|no-corruption"
+    ],
+    "outputs": [
+      "tiny-kits|stable-links|reciprocal-footers"
+    ],
+    "intents": [
+      "quickstart|advice-intake|helper-assets|coevo-governor|ops-guardrails"
+    ],
+    "license": [
+      "CC-BY-4.0 (attribute \"CoCivium.org\" with canonical URLs)"
+    ]
+  }
+}
