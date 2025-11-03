@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vital-signs-chart",
+    "path": "docs/diagrams/_previews/render/academy/vital-signs-chart.svg",
+    "title": "vital signs chart",
+    "tags": "misc"
+  },
+  {
+    "id": "inseed-timeline-map",
+    "path": "docs/diagrams/_previews/render/inseed-timeline-map.svg",
+    "title": "inseed timeline map",
+    "tags": "timeline"
+  },
+  {
+    "id": "legend-map",
+    "path": "docs/diagrams/_previews/render/legend-map.svg",
+    "title": "legend map",
+    "tags": "misc"
+  },
+  {
+    "id": "blank-1x1",
+    "path": "docs/diagrams/assets/blank-1x1.png",
+    "title": "blank 1x1",
+    "tags": "misc"
+  }
+]
