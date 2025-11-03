@@ -1,3 +1,4 @@
+<!-- AI-FRONT-DOOR: docs/ai/FRONT_DOOR.gibx (mirror: docs/ai/FRONT_DOOR.json) -->
 # CoCivium
 
 **Build the society that helps to build itself.**\
@@ -105,5 +106,6 @@ If you take something from here, **leave one thing better**: a sharper checklist
 
 - See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
 - For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
+
 
 
