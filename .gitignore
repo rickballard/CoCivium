@@ -70,3 +70,5 @@ docs/status/bpoe-log.ndjson
 
 !docs/diagrams/_previews/**
 *.mmd.bak
+
+advice/STATUS/*.log
