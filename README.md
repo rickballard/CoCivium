@@ -113,3 +113,6 @@ If you take something from here, **leave one thing better**: a sharper checklist
 <!-- compliance: (insights/Insight_Story_Being_Noname_c2_20250801.md) -->
 
 
+
+
+[View CoSuite Index →](https://github.com/rickballard/CoCache/blob/main/docs/index/ASSETS_INDEX.md)
