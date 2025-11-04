@@ -70,3 +70,6 @@ docs/status/bpoe-log.ndjson
 
 !docs/diagrams/_previews/**
 *.mmd.bak
+# volatile local receipts
+advice/STATUS/violets.log
+advice/STATUS/*.log
