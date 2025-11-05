@@ -112,3 +112,29 @@
 | .\Documents\GitHub\CoCivium\docs\diagrams\render\security\threat-model.mmd | Mermaid | True | True | True | 991 | 2025-10-31 05:30:56Z |
 | .\Documents\GitHub\CoCivium\docs\diagrams\render\timeline\roadmap-milestones.mmd | Mermaid | True | True | True | 986 | 2025-10-31 05:30:56Z |
 | .\Documents\GitHub\CoCivium\docs\diagrams\vitals\humanity-vitals.mmd | Mermaid | False | False | False | 345 | 2025-10-31 06:31:16Z |
+
+---
+## Deep Check — 2025-11-05 19:25:55 UTC
+
+**Counts:**
+- Mermaid without header on first line: 4
+- Files with Mermaid %%{init}%%: 15
+- Files with non-ASCII chars: 15
+- Broken Mermaid click targets: 5
+- Invalid Vega-Lite JSON: 0
+
+### Mermaid header not first line System.Object[]
+_None_
+
+### Found Mermaid init directives (remove) System.Object[]
+_None_
+
+### Non-ASCII present (scrub) System.Object[]
+_None_
+
+### Broken \click\ targets (source -> resolved path) System.Object[]
+_None_
+
+### Invalid Vega-Lite JSON (file :: error) System.Object[]
+_None_
+
