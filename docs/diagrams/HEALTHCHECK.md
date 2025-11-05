@@ -173,3 +173,27 @@ _None_
 - Removed init blocks: 0
 - Header moved/injected: 0
 - Non-ASCII scrubbed: 0
+---
+## Inventory Refresh — 2025-11-05 21:51:54 UTC
+
+- Assets scanned: 54
+- Mermaid without header first line: 0
+- Mermaid with %%{init}%%: 0
+- Files with non-ASCII: 15
+- Broken Mermaid click targets: 5
+- Invalid Vega-Lite JSON: 0
+
+### Mermaid header not first line System.Object[]
+_None_
+
+### Found Mermaid init directives (remove) System.Object[]
+_None_
+
+### Non-ASCII present (scrub) System.Object[]
+_None_
+
+### Broken click targets (source -> resolved path) System.Object[]
+_None_
+
+### Invalid Vega-Lite JSON (file :: error) System.Object[]
+_None_
