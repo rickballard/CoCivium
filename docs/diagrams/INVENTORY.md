@@ -1,24 +1,60 @@
-# Diagrams Inventory
+# Graphics & Diagrams Inventory
 
-| File | Kind | HeaderOK | HasInit | NonASCII | Size (bytes) | LastWrite (UTC) |
-|---|---:|:---:|:---:|:---:|---:|---|
-| .\docs\diagrams\render\academy\vital-signs.mmd | Mermaid | True | False | False | 866 | 2025-10-31 06:31:16Z |
-| .\docs\diagrams\render\academy\vital-signs.vl.json | Vega-Lite |  | False | True | 2560 | 2025-10-31 05:21:44Z |
-| .\docs\diagrams\render\advice\advicebomb-lifecycle.mmd | Mermaid | True | True | True | 986 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\architecture\coagent-4-panel.mmd | Mermaid | True | True | True | 987 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\architecture\cosuite-high-level.mmd | Mermaid | True | True | True | 992 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\asset-graph.mmd | Mermaid | True | False | False | 469 | 2025-10-31 06:31:16Z |
-| .\docs\diagrams\render\audit\coaudit-flow.mmd | Mermaid | True | True | True | 988 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\cosuite.asset-graph.mmd | Mermaid | False | True | False | 1171 | 2025-10-31 06:12:28Z |
-| .\docs\diagrams\render\data\data-flows.mmd | Mermaid | True | True | True | 976 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\governance\governance-container.mmd | Mermaid | True | True | True | 986 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\identity\meritrank-reptag.mmd | Mermaid | True | True | True | 984 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\inseed-timeline.mmd | Mermaid | False | True | True | 986 | 2025-10-31 06:12:28Z |
-| .\docs\diagrams\render\legend.mmd | Mermaid | False | False | False | 142 | 2025-10-31 06:12:28Z |
-| .\docs\diagrams\render\metrics\metrics-index.mmd | Mermaid | True | True | True | 979 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\pipelines\ci-diagrams-export.mmd | Mermaid | True | True | True | 985 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\politic\copolitic-spectrum.mmd | Mermaid | True | True | True | 984 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\repos\repo-map.mmd | Mermaid | True | True | True | 974 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\security\threat-model.mmd | Mermaid | True | True | True | 991 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\render\timeline\roadmap-milestones.mmd | Mermaid | True | True | True | 986 | 2025-10-31 05:30:56Z |
-| .\docs\diagrams\vitals\humanity-vitals.mmd | Mermaid | False | False | False | 345 | 2025-10-31 06:31:16Z |
+This inventory is generated. For each asset, include a short **purpose** and a quick **how-to-use** tip.
+
+| File | Kind | Title | Purpose | How to Use | Preview |
+|---|---|---|---|---|---|
+| assets\badges\build.svg | SVG | build | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\badges\build.svg |
+| assets\badges\docs.svg | SVG | docs | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\badges\docs.svg |
+| assets\badges\license.svg | SVG | license | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\badges\license.svg |
+| assets\cc\cc-crest.png | Raster | cc-crest | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\cc\cc-crest.png |
+| assets\cc\cc-crest.svg | SVG | cc-crest | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\cc\cc-crest.svg |
+| assets\cc\crest-hold.gif | Raster | crest-hold | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\cc\crest-hold.gif |
+| assets\cognocarta-scroll.svg | SVG | cognocarta-scroll | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\cognocarta-scroll.svg |
+| assets\diagrams\bio_vs_synth_observers_c1_20250809.svg | SVG | bio_vs_synth_observers_c1_20250809 | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\diagrams\bio_vs_synth_observers_c1_20250809.svg |
+| assets\diagrams\two-eyes.png | Raster | two-eyes | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\diagrams\two-eyes.png |
+| assets\diagrams\two-eyes.svg | SVG | two-eyes | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\diagrams\two-eyes.svg |
+| assets\hero\hero.gif | Raster | hero | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\hero\hero.gif |
+| assets\hero\hero.jpg | Raster | hero | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\hero\hero.jpg |
+| assets\hero\quote-960w.png | Raster | quote-960w | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\hero\quote-960w.png |
+| assets\hero\quote-960w@2x.png | Raster | quote-960w@2x | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\hero\quote-960w@2x.png |
+| assets\hero\quote.svg | SVG | quote | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\hero\quote.svg |
+| assets\icons\broken-line.svg | SVG | broken-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\broken-line.svg |
+| assets\icons\coevolve-line.svg | SVG | coevolve-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\coevolve-line.svg |
+| assets\icons\feels-line.svg | SVG | feels-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\feels-line.svg |
+| assets\icons\for-you-line.svg | SVG | for-you-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\for-you-line.svg |
+| assets\icons\governments-line.svg | SVG | governments-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\governments-line.svg |
+| assets\icons\how-line.svg | SVG | how-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\how-line.svg |
+| assets\icons\life-line.svg | SVG | life-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\life-line.svg |
+| assets\icons\solutions-line.svg | SVG | solutions-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\solutions-line.svg |
+| assets\icons\until-line.svg | SVG | until-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\until-line.svg |
+| assets\icons\who-line.svg | SVG | who-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\who-line.svg |
+| assets\icons\why-line.svg | SVG | why-line | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | assets\icons\why-line.svg |
+| assets\status\two-eyes.png | Raster | two-eyes | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | assets\status\two-eyes.png |
+| docs\diagrams\_previews\render\academy\vital-signs-chart.svg | SVG | vital-signs-chart | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | docs\diagrams\_previews\render\academy\vital-signs-chart.svg |
+| docs\diagrams\_previews\render\asset-graph-map.svg | SVG | asset-graph-map | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | docs\diagrams\_previews\render\asset-graph-map.svg |
+| docs\diagrams\assets\blank-1x1.png | Raster | blank-1x1 | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | docs\diagrams\assets\blank-1x1.png |
+| docs\diagrams\co-loop.svg | SVG | co-loop | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | docs\diagrams\co-loop.svg |
+| docs\diagrams\engagement-ladder.svg | SVG | engagement-ladder | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | docs\diagrams\engagement-ladder.svg |
+| docs\diagrams\one-week-microproject.svg | SVG | one-week-microproject | TODO: add '<!-- purpose: ... -->' near top of SVG. | Embed directly in Markdown or include as <img>; prefer SVG for crispness. | docs\diagrams\one-week-microproject.svg |
+| docs\diagrams\render\academy\vital-signs.mmd | Mermaid | vital-signs | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\academy\vital-signs.mmd |
+| docs\diagrams\render\academy\vital-signs.vl.json | Vega-Lite | vital-signs.vl | TODO: add a 'description' field in the JSON root. | Render via Vega/Vega-Lite; for docs, include a PNG/SVG export or link to a viewer. | docs\diagrams\render\academy\vital-signs.vl.json |
+| docs\diagrams\render\advice\advicebomb-lifecycle.mmd | Mermaid | advicebomb-lifecycle | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\advice\advicebomb-lifecycle.mmd |
+| docs\diagrams\render\architecture\coagent-4-panel.mmd | Mermaid | coagent-4-panel | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\architecture\coagent-4-panel.mmd |
+| docs\diagrams\render\architecture\cosuite-high-level.mmd | Mermaid | cosuite-high-level | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\architecture\cosuite-high-level.mmd |
+| docs\diagrams\render\asset-graph.d2 | OtherDiagram | asset-graph | TODO: document purpose. | Reference from docs; consider exporting a web-friendly preview. | docs\diagrams\render\asset-graph.d2 |
+| docs\diagrams\render\asset-graph.mmd | Mermaid | asset-graph | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\asset-graph.mmd |
+| docs\diagrams\render\audit\coaudit-flow.mmd | Mermaid | coaudit-flow | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\audit\coaudit-flow.mmd |
+| docs\diagrams\render\cosuite.asset-graph.mmd | Mermaid | cosuite.asset-graph | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\cosuite.asset-graph.mmd |
+| docs\diagrams\render\data\data-flows.mmd | Mermaid | data-flows | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\data\data-flows.mmd |
+| docs\diagrams\render\governance\governance-container.mmd | Mermaid | governance-container | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\governance\governance-container.mmd |
+| docs\diagrams\render\identity\meritrank-reptag.mmd | Mermaid | meritrank-reptag | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\identity\meritrank-reptag.mmd |
+| docs\diagrams\render\inseed-timeline.mmd | Mermaid | inseed-timeline | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\inseed-timeline.mmd |
+| docs\diagrams\render\legend.mmd | Mermaid | legend | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\legend.mmd |
+| docs\diagrams\render\metrics\metrics-index.mmd | Mermaid | metrics-index | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\metrics\metrics-index.mmd |
+| docs\diagrams\render\pipelines\ci-diagrams-export.mmd | Mermaid | ci-diagrams-export | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\pipelines\ci-diagrams-export.mmd |
+| docs\diagrams\render\politic\copolitic-spectrum.mmd | Mermaid | copolitic-spectrum | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\politic\copolitic-spectrum.mmd |
+| docs\diagrams\render\repos\repo-map.mmd | Mermaid | repo-map | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\repos\repo-map.mmd |
+| docs\diagrams\render\security\threat-model.mmd | Mermaid | threat-model | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\security\threat-model.mmd |
+| docs\diagrams\render\timeline\roadmap-milestones.mmd | Mermaid | roadmap-milestones | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\timeline\roadmap-milestones.mmd |
+| docs\diagrams\vitals\humanity-vitals.mmd | Mermaid | humanity-vitals | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\vitals\humanity-vitals.mmd |
