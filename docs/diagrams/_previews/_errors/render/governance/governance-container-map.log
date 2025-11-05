@@ -1,13 +1,10 @@
 
-Error: Evaluation failed: Error: Lexical error on line 7. Unrecognized text.
-...-seeded placeholder — refine freelyflow
------------------------^
+Error: Evaluation failed: Error: Parse error on line 8:
+...der   refine freelyflowchart LR  A[""G
+----------------------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', 'EOF', 'subgraph', 'end', 'acc_title', 'acc_descr', 'acc_descr_multiline_value', 'AMP', 'COLON', 'STYLE', 'LINKSTYLE', 'CLASSDEF', 'CLASS', 'CLICK', 'DOWN', 'DEFAULT', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', 'direction_tb', 'direction_bt', 'direction_rl', 'direction_lr', got 'GRAPH'
     at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32371:23)
-    at Object.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32511:28)
-    at Object.next (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32731:25)
-    at Object.lex2 [as lex] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32740:24)
-    at lex2 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32402:43)
-    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32419:24)
+    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32436:18)
     at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12291:19)
     at new Diagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12278:12)
     at getDiagramFromText$1 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12315:12)
