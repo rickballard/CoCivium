@@ -3,12 +3,12 @@ Error: Evaluation failed: Error: Parse error on line 6:
 ...Index" 0 --> 100  series "LifeExpectan
 ---------------------^
 Expecting 'XYCHART', 'title', 'X_AXIS', 'Y_AXIS', 'LINE', 'BAR', 'acc_title', 'acc_descr', 'acc_descr_multiline_value', 'NEWLINE', 'SEMI', 'EOF', got 'ALPHA'
-    at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:54431:23)
-    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:54496:18)
-    at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12295:19)
-    at new Diagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12282:12)
-    at getDiagramFromText$1 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12319:12)
-    at async Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14675:14)
+    at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:54376:23)
+    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:54441:18)
+    at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12291:19)
+    at new Diagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12278:12)
+    at getDiagramFromText$1 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12315:12)
+    at async Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14671:14)
     at ExecutionContext._ExecutionContext_evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:254:15)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ExecutionContext.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:143:16)
