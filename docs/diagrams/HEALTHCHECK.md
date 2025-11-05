@@ -165,3 +165,11 @@ _None_
 - .\docs\diagrams\render\inseed-timeline.mmd
 - .\docs\diagrams\render\legend.mmd
 - .\docs\diagrams\vitals\humanity-vitals.mmd
+---
+## Auto-fix Applied — 20251105-212602Z
+
+**Changes:**
+- Files touched: 0
+- Removed init blocks: 0
+- Header moved/injected: 0
+- Non-ASCII scrubbed: 0
