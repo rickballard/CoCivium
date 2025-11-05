@@ -138,3 +138,38 @@ _None_
 ### Invalid Vega-Lite JSON (file :: error) System.Object[]
 _None_
 
+---
+## Auto-fix Applied — 20251105-211247Z
+
+**Changes:**
+- Files touched: 17
+- Removed init blocks: 15
+- Header moved/injected: 4
+- Non-ASCII scrubbed: 14
+
+### Touched files (first 50)
+- .\docs\diagrams\render\advice\advicebomb-lifecycle.mmd
+- .\docs\diagrams\render\architecture\coagent-4-panel.mmd
+- .\docs\diagrams\render\architecture\cosuite-high-level.mmd
+- .\docs\diagrams\render\audit\coaudit-flow.mmd
+- .\docs\diagrams\render\data\data-flows.mmd
+- .\docs\diagrams\render\governance\governance-container.mmd
+- .\docs\diagrams\render\identity\meritrank-reptag.mmd
+- .\docs\diagrams\render\metrics\metrics-index.mmd
+- .\docs\diagrams\render\pipelines\ci-diagrams-export.mmd
+- .\docs\diagrams\render\politic\copolitic-spectrum.mmd
+- .\docs\diagrams\render\repos\repo-map.mmd
+- .\docs\diagrams\render\security\threat-model.mmd
+- .\docs\diagrams\render\timeline\roadmap-milestones.mmd
+- .\docs\diagrams\render\cosuite.asset-graph.mmd
+- .\docs\diagrams\render\inseed-timeline.mmd
+- .\docs\diagrams\render\legend.mmd
+- .\docs\diagrams\vitals\humanity-vitals.mmd
+---
+## Auto-fix Applied — 20251105-212602Z
+
+**Changes:**
+- Files touched: 0
+- Removed init blocks: 0
+- Header moved/injected: 0
+- Non-ASCII scrubbed: 0
