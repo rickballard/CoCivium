@@ -28,3 +28,4 @@
 Voice → Draft → Review → Decision → Action → Accountability.
 
 
+

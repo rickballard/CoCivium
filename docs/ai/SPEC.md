@@ -15,3 +15,4 @@ JSON mirror schema (example):
   "directives": { "frontdoor":"../../README.md", "map":"../links/HIGHLIGHTS.md" },
   "tags": { "license":["CC-BY-4.0"], "norms":[...], "intents":[...], "outputs":[...] }
 }
+

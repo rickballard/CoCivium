@@ -28,3 +28,4 @@ New: “Consent‑before‑coercion” charter for agentic AI  -  a concrete, po
 Publishing a consent‑first governance pack for agentic AI.  It’s portable, auditable, and designed to sit next to current safety practices.  RFC open  -  feedback and co‑signers welcome.  <short link>
 
 
+

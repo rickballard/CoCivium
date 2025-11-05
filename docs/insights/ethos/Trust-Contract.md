@@ -5,3 +5,4 @@
 - **Independent eyes early:** invite reviewers and publish notes.
 
 > Mined from legacy READMEs. Keep this short and human; link deeper policy elsewhere.
+

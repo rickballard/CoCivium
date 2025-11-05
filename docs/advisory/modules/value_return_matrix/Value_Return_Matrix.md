@@ -8,3 +8,4 @@
 | Orgs (public/private)| Risk reduction; compliance; rollback      | Shared reputation & network effects                | Legal/PR debt; churn                       |
 | Ecosystems           | Stewardship guardrails                    | Regenerative capacity                              | Externalities; delayed damage              |
 | Civilizations        | Predictive foresight & treaty surfaces    | Inter-civium congruence                            | Collapse cascades                          |
+

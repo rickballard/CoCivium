@@ -5,3 +5,4 @@
 **Thresholds:** open RFC if delta ≥ τ_sem or repro < τ_repro for 2 windows.  
 **Outputs:** Drift report, CanonScore adjustment, suggested edits, rollback candidates.
 
+

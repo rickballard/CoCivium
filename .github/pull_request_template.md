@@ -19,3 +19,4 @@
 - [ ] Receipts: this PR emits violet + ■[Receipt] where appropriate
 - [ ] Provenance: added/updated notes under docs/intent/advice/notes/ with UTC stamp
 - [ ] No secrets, tokens, or PII in artifacts
+

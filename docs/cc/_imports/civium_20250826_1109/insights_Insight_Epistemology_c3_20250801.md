@@ -95,3 +95,4 @@ A society that values congruence must also value unknowing. Certainty is cheap. 
 
 
 
+

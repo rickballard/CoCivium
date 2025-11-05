@@ -72,3 +72,4 @@ admin/inbox/GmailDump_20250811/originals/CONGRUENCE_DECLARATION_c99_20250719_com
 admin/inbox/GmailDump_20250811/originals/GPT5_Civium_Superuser_Profile_CoreOnly (1).txt | text | 0.5 | Idea seed or convert → md
 
 
+

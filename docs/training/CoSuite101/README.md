@@ -16,3 +16,4 @@ a clean success stream + violet end-cap.
 
 > TL;DR: Expect some **red** from child tools; the runner must stay **quiet** besides the compact summary + violet braces.
 
+

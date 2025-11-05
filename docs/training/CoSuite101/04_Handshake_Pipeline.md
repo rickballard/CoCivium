@@ -5,3 +5,4 @@
 - “skipped” is normal if the helper isn’t on `main` yet (awaiting PR merge).
 - After merge: logs show `VERBOSE: Wrote ...\HANDSHAKE.md`.
 
+

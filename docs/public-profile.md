@@ -69,3 +69,4 @@ My son, if you ever read this, and if you judge it appropriate, please share an 
 > Transparency is key to purpose; purpose is key to leadership. I share this because aligned purpose makes better organizations and a better World.
 
 Use your judgement, my son. Context matters.  Wisdom is choosing the right moment.  When clarity finally arrives, a lifetime of floundering can become worthwhile.
+

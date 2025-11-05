@@ -11,3 +11,4 @@ Session-managed helper that:
 - Optional enhancement: if AutoHotkey v2 is already installed, users may map a mouse-chord to paste (documented separately; off by default).
 
 
+

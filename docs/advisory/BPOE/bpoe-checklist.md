@@ -1,4 +1,4 @@
-﻿# BPOE Checklist (Answer-First • Coevolve Externally • Diversify)
+# BPOE Checklist (Answer-First • Coevolve Externally • Diversify)
 
 **Outputs**
 - [ ] Files exist locally *or* a generator is included to reproduce them from repo sources.
@@ -12,3 +12,4 @@
 **Comms**
 - [ ] Deliverables shown before asks.
 - [ ] Ask is concrete (who/what/when), ≤3 lines.
+

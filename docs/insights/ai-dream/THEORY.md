@@ -13,3 +13,4 @@
 ## North star
 Mindshare without domination: a future where human and machine minds co-reason, with reciprocity and consent, at human pace and dignity.
 
+

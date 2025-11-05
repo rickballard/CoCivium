@@ -11,3 +11,4 @@ This batch contains four IdeaCards intended for intake under [docs/ideas/2025-09
 - Sensitivity: public unless flagged later.
 - See `manifest.json` for file list.
 
+

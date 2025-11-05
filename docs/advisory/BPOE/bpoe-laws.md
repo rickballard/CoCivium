@@ -26,3 +26,4 @@ Codify checks (answer-first, file existence, path sanity) as scripts or CI where
 - Include a commit-ready PowerShell block with absolute paths for Windows env.
 - Ship generators under `tools/` and document usage in the README/playbook.
 
+

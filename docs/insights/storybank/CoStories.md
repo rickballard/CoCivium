@@ -11,3 +11,4 @@ Short, human scenes that show how we help each other and how the place learns. K
 - ### DO-3: **Run watcher once now and update the report**
 - # Protecting Business-Plan Docs (Open-Core + Protected Plans)
 - > TL;DR: Expect some **red** from child tools; the runner must stay **quiet** besides the compact summary + violet braces.
+

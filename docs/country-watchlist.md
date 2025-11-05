@@ -19,3 +19,4 @@ Sorting idea: population × likelihood of independent adopters × current govern
 
 
 
+

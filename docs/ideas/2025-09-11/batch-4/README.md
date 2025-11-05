@@ -8,3 +8,4 @@ This batch contains 4 IdeaCards (43–46). Suggested path: [docs/ideas/2025-09-1
 - 45 CoGuard Rails  -  Template Guardrails for Protectorates
 - 46 CoDialogues  -  RepTag-Weighted Public Debate Arenas
 
+

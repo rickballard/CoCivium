@@ -10,3 +10,4 @@ CoCivium is a **human-first onramp** to solve small problems together and leave 
 ---
 
 *Nav:* [Front door](../../README.md) · [Highlights](../../links/HIGHLIGHTS.md) · [Practice](PRACTICE.md) · [BPOE quicklist](../../bpoe/quicklist.md)
+

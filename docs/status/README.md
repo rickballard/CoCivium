@@ -6,3 +6,4 @@
 - **Total words (approx):** 766136
 - **Stub threshold:** 150
 - **LFS objects (working copy):** 0
+

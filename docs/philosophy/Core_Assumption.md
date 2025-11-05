@@ -63,3 +63,4 @@ For the Core Assumption remains:
 ---
 
 *Colophon.*  This canonical text supersedes an earlier draft letter by the same author.  It stands as a founding artifact of CoCivium™’s philosophical layer and is intended to be cited by the Cognocarta Consenti and its process specifications.
+

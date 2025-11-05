@@ -22,3 +22,4 @@ CoTemp/
 
 ## Cleanup
 CoTemp is disposable. Promote-or-purge after merge. Backups in cloud, not devices.
+

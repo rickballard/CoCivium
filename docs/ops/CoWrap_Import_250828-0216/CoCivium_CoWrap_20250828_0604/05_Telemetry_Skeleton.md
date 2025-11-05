@@ -7,3 +7,4 @@
 - **Footnote:** explicitly “not surveillance; no per‑user behavior tracking.”
 
 
+

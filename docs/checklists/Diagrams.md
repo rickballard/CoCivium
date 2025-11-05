@@ -16,3 +16,4 @@ Priority: [P1|P2|P3]   Owner: [name]   Repo: CoCivium   Updated: 2025-10-27
 - [ ] Add ```d2 fenced block to DIAGRAMS.md (separate from mermaid)
 - [ ] Add example: cross-repo nodes (CoCache, CoAgent, RickPublic) and edges
 - [ ] Link DIAGRAMS.md into docs/links/BACKLINKS.md via scanner
+

@@ -17,3 +17,4 @@
 **One improvement:** Template the “urgent-ride” ask with time-to-close countdown.
 
 **Trust notes:** PII trimmed; driver vetting via local ruleset v0.3.
+

@@ -152,3 +152,4 @@ Files:
 - Run `scripts/workbench/Preflight.ps1` to verify repo presence, launcher/inner scripts, PS version, profile parse, OE prompt hook, and shortcuts.
 - Preflight is **non-destructive** (prints ✓ / warnings; no shell kills).
 
+

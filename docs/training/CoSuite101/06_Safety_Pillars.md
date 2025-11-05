@@ -14,3 +14,4 @@
 - Sane defaults: if an oracle is absent, refuse or degrade safely - not silently auto-approve.
 - Always-on logs & receipts: enough traces to reconstruct decisions without leaking sensitive payloads.
 
+

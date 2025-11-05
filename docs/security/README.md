@@ -19,3 +19,4 @@ We keep code and operational policies open. Some plans (pricing, partner decks, 
 
 _We can later add Git smudge/clean filters or SOPS if needed._
 
+

@@ -24,3 +24,4 @@ This companion unpacks how the letter functions as a **binding philosophical anc
 
 > **Design Rule:** If a rule increases the set and longevity of cooperating intelligences without enabling domination, it is likely congruent.
 
+

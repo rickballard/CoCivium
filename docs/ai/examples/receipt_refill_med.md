@@ -15,3 +15,4 @@
 - /receipts/2025-11-03_micro-grant.md
 
 **One improvement:** Cache a rotating list of low-stock meds per week.
+

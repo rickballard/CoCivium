@@ -4,3 +4,4 @@ This folder contains encoded wisdoms, symbolic notations, and raw cognitive blue
 
 
 
+

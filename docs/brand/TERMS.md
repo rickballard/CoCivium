@@ -12,3 +12,4 @@ A shorthand for the shared ethos behind civitude, focusing contributors on servi
 
 
 
+

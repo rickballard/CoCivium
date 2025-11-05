@@ -16,3 +16,4 @@
 - [ ] Session‑only / no hidden global state
 
 
+

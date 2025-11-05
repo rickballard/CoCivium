@@ -24,3 +24,4 @@
 - Day 4–7: Run roundtables.  Capture quotes.  Ship follow‑up post with deltas.
 
 
+

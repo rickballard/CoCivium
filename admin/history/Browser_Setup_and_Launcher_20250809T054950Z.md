@@ -50,3 +50,4 @@ If you want to skip extensions for voice, Windows provides **Win+H** dictation. 
 
 
 
+

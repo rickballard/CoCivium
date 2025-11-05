@@ -65,3 +65,4 @@ version: 0.4
 - **Chat ACK:** When a CoPong is pasted into chat, the assistant replies `ACK CoPong  -  Set=<name|none> @ <local time>` with a 1-paragraph summary and the next action.
 
 
+

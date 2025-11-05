@@ -61,3 +61,4 @@ Repo: **CoCivium**
 | docs\diagrams\render\security\threat-model.mmd | Mermaid | threat-model | TODO: add '%% purpose: ...' near top. | Use \`mermaid in Markdown. CI writes previews under docs/diagrams/_previews. | docs\diagrams\render\security\threat-model.mmd |
 | docs\diagrams\render\timeline\roadmap-milestones.mmd | Mermaid | roadmap-milestones | TODO: add '%% purpose: ...' near top. | Use \`mermaid in Markdown. CI writes previews under docs/diagrams/_previews. | docs\diagrams\render\timeline\roadmap-milestones.mmd |
 | docs\diagrams\vitals\humanity-vitals.mmd | Mermaid | humanity-vitals | TODO: add '%% purpose: ...' near top. | Use \`mermaid in Markdown. CI writes previews under docs/diagrams/_previews. | docs\diagrams\vitals\humanity-vitals.mmd |
+

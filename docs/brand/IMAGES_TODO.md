@@ -6,3 +6,4 @@
 - Use crop-to-fill (`-resize W×H^ -crop W×H+0+0 +repage`) to avoid letterboxing.
 
 
+

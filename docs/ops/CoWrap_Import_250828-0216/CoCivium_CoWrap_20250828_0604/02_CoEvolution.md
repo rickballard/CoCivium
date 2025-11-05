@@ -54,3 +54,4 @@ Canonize only after a tagged release lived on main.
 Hard‑fail criteria; protected‑docs lint; weekly vs monthly pruning.
 
 
+

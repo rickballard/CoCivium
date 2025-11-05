@@ -7,3 +7,4 @@ Curated entry points:
 - **Advice Bombs** → docs/advicebombs/README.md
 
 _Short, opinionated. The README stays light; HUMANS.md carries the menu._
+

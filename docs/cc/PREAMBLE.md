@@ -7,3 +7,4 @@ Where rules conflict, choose the option that increases the longevity and number 
 
 > See: [Core Assumption](../philosophy/Core_Assumption.md) · [Explained](../philosophy/Core_Assumption_Explained.md)
 
+

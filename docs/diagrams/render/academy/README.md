@@ -29,3 +29,4 @@ click Ecology "vitals/ecology-index.mmd" "open"
 click Rights  "vitals/rights-index.mmd"  "open"
 click Cohesion "vitals/cohesion-index.mmd" "open"
 ```
+
