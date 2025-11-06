@@ -7,3 +7,12 @@
 
 <!-- MEGASCROLLS:END -->
 
+<!-- SEEALSO:BEGIN -->
+### See also
+
+- [Megascrolls index](./MEGASCROLLS.md)
+- [CoTheory](./theory/CoTheory/README.md)
+- [CoEvo insights](./insights/coevo/README.md)
+
+<!-- SEEALSO:END -->
+
