@@ -1,0 +1,28 @@
+name: megawave-guard
+on:
+  pull_request:
+    paths:
+      - "docs/waves/**"
+      - ".github/workflows/megawave-guard.yml"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate manifests against schema
+        run: |
+          set -e
+          SCHEMA="docs/waves/wave.manifest.schema.json"
+          if [ ! -f "$SCHEMA" ]; then echo "::error::Missing schema"; exit 1; fi
+          npm i -g ajv-cli >/dev/null 2>&1
+          for f in $(git ls-files | grep 'wave.manifest.json'); do
+            echo "Validating $f"
+            ajv -s "$SCHEMA" -d "$f" --spec=draft2020 --all-errors
+          done
+      - name: Forbid candidates in site content (cross-repo policy, mirrored)
+        run: |
+          if [ -d site ]; then
+            if grep -RIn "assets/images/candidates/" site; then
+              echo "::error::Site references candidate images"; exit 1
+            fi
+          fi
