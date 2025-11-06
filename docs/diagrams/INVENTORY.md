@@ -2,6 +2,45 @@
 
 > **See also:** Hub Graphics Index (links-only): https://github.com/rickballard/CoCache/blob/main/docs/diagrams/HUB_GRAPHICS_INVENTORY.md
 
+## Purpose
+This inventory is the single source of truth for CoCivium diagrams. It ensures:
+- **Discoverability:** Every diagram has a stable path and human-readable title.
+- **Auditability:** Changes are reviewable via PRs; rendering is reproducible in CI.
+- **Interlinking:** Diagrams link to related docs and issues; Mermaid `click` targets resolve.
+
+## How-to (maintainers)
+1. **Add a diagram**
+   - Save source in `docs/diagrams/<topic>/<name>.<ext>` (Mermaid/D2/SVG/PNG).
+   - Add a table row with: `| Title | Path (link) | Healthcheck | Owner | Notes |`.
+   - For Mermaid, prefer `%%{init:...}%%` for theme/fit, keep it minimal.
+
+2. **Link hygiene**
+   - If using Mermaid `click`, ensure the target is a valid URL or repo-relative path on `main`.
+   - No hardlinks to non-public resources.
+
+3. **Render & preview**
+   - Local: optional; CI renders on PR (see **diagram-previews** workflow).
+   - If Inkscape isn’t installed locally, push—CI will render.
+
+4. **Reviews**
+   - Small: 1 reviewer; Large/structural: 2+ reviewers.
+   - Blockers: broken links, missing owner, oversized assets (>1MB) without rationale.
+
+5. **Healthcheck**
+   - Keep **HEALTHCHECK.md** green. Fix `click` 404s and missing rows promptly.
+
+## Conventions
+- Filenames: `kebab-case`, ASCII, no spaces.
+- Encodings: UTF-8 (no BOM). Line endings: LF.
+- Images generated from source (SVG preferred) whenever possible.
+
+## Links
+- Inventory: `docs/diagrams/INVENTORY.md`
+- Healthcheck: `docs/diagrams/HEALTHCHECK.md`
+- Hub index (links-only): CoCache → `docs/diagrams/HUB_GRAPHICS_INVENTORY.md`
+
+> **See also:** Hub Graphics Index (links-only): https://github.com/rickballard/CoCache/blob/main/docs/diagrams/HUB_GRAPHICS_INVENTORY.md
+
 
 This inventory is generated. For each asset, include a short **purpose** and a quick **how-to-use** tip.
 
