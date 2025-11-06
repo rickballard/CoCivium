@@ -1,4 +1,4 @@
-# Vital Signs — live Mermaid preview
+# Vital Signs - live Mermaid preview
 
 > Source: `vital-signs.mmd` (canonical). This file exists to make GitHub render a preview.
 
@@ -29,3 +29,5 @@ click Ecology "vitals/ecology-index.mmd" "open"
 click Rights  "vitals/rights-index.mmd"  "open"
 click Cohesion "vitals/cohesion-index.mmd" "open"
 ```
+
+
