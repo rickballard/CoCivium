@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MegaWave Manifest",
+  "type": "object",
+  "required": ["id", "type", "version", "created_utc", "source_repo", "payload", "receipts"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9._-]{6,64}$" },
+    "type": { "type": "string", "enum": ["advicebomb","contentwave","indexwave","assetwave"] },
+    "version": { "type": "string" },
+    "created_utc": { "type": "string", "format": "date-time" },
+    "source_repo": { "type": "string" },
+    "payload": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "receipts": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^receipts/.*" },
+      "minItems": 1
+    },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "links": { "type": "array", "items": { "type": "string" } },
+    "promotion": { "type": "string", "enum": ["draft","candidate","approved"] }
+  },
+  "additionalProperties": true
+}
