@@ -1,8 +1,16 @@
 name: cosync-readonly-check
 on:
   schedule:
-    - cron: "27 6 * * *"
+    - cron: "0 * * * *"   # hourly
   workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: cosync-readonly
+  cancel-in-progress: false
 
 jobs:
   check:
@@ -52,3 +60,4 @@ jobs:
           content-file: ${{ steps.find.outputs.receipt }}
           labels: docs,cosync,triage
           assignees: rickballard
+
