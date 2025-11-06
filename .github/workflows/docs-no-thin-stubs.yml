@@ -1,0 +1,29 @@
+name: docs-no-thin-stubs
+on: [pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Detect thin stubby Markdown
+        shell: bash
+        run: |
+          set -e
+          changed=$(git diff --name-only --diff-filter=AM origin/main... | grep -E "\.md$" || true)
+          [ -z "$changed" ] && exit 0
+          fail=0
+          for f in $changed; do
+            text=$(cat "$f")
+            prose=$(printf "%s" "$text" | sed "/^#/d;/^\s*[-*0-9]\./d;/^>/d;/^|/d")
+            words=$(printf "%s" "$prose" | tr -cs "[:alnum:]" "\n" | wc -w | awk "{print \$1}")
+            if echo "$text" | grep -Eiq "\b(TBD|TODO|WIP|stub|coming soon|placeholder)\b"; then smell=1; else smell=0; fi
+            lp=$(printf "%s" "$prose" | grep -E "\w" | wc -l | awk "{print \$1}")
+            if [ "$words" -lt 120 ] || [ "$smell" -eq 1 ] || [ "$lp" -lt 3 ]; then
+              echo "::error file=$f,line=1::thin stub detected ($words words; smell=$smell; lowProseLines=$lp). Please upgrade with intent, scope, why, metrics, sources."
+              fail=1
+            fi
+          done
+          exit $fail
+

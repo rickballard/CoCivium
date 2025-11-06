@@ -1,0 +1,28 @@
+name: megascroll-and-linkify
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+      - name: Linkify CoTerms
+        shell: pwsh
+        run: |
+          ./tools/Megascroll/Linkify-CoTerms.ps1 -RepoRoot . -Scope docs
+      - name: Build CoTheory megascroll
+        shell: pwsh
+        run: |
+          ./tools/Megascroll/Build-Megascroll.ps1 -RepoRoot . -ManifestPath ./docs/theory/CoTheory/MEGASCROLL.manifest.json
+      - name: Upload megascroll artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CoTheory.megascroll.md
+          path: docs/theory/CoTheory/CoTheory.megascroll.md
+
