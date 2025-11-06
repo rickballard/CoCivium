@@ -1,3 +1,5 @@
+> Need disaster-recovery for your GitHub? **[RepoZipper Cloud →](https://github.com/rickballard/gh-rz/releases/latest)** (free, read-only, restore with plain Git).
+
 <!-- AI-FRONT-DOOR: docs/ai/FRONT_DOOR.gibx (mirror: docs/ai/FRONT_DOOR.json) -->
 # CoCivium
 
