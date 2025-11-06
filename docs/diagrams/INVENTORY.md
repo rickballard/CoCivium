@@ -1,5 +1,8 @@
 # Graphics & Diagrams Inventory
 
+> **See also:** Hub Graphics Index (links-only): https://github.com/rickballard/CoCache/blob/main/docs/diagrams/HUB_GRAPHICS_INVENTORY.md
+
+
 This inventory is generated. For each asset, include a short **purpose** and a quick **how-to-use** tip.
 
 | File | Kind | Title | Purpose | How to Use | Preview |
