@@ -1,0 +1,30 @@
+name: persona-hint
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  hint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: If actor has a persona card, post highlights
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ACTOR: ${{ github.actor }}
+          PRNUM: ${{ github.event.pull_request.number }}
+        run: |
+          set -e
+          CARD="docs/personas/${ACTOR}.persona.yml"
+          [ -f "$CARD" ] || exit 0
+          echo "Found $CARD"
+          head -n 200 "$CARD"
+          # Extract 3–5 short highlights (very lightweight grep)
+          TONE=$(grep -E '^  tone:' -n "$CARD" | sed 's/.*tone: *//')
+          PREF=$(grep -E '^  prefers_coblocks:' -n "$CARD" | sed 's/.*: *//')
+          STRUCT=$(grep -E '^  structure:' -n "$CARD" | sed 's/.*structure: *//')
+          DECIDE=$(grep -E '^  decisions:' -n "$CARD" | sed 's/.*decisions: *//')
+          echo -e "### Persona hint: @$ACTOR\n\n- Tone: ${TONE:-n/a}\n- CoBlocks: ${PREF:-n/a}\n- Structure: ${STRUCT:-n/a}\n- Decisions: ${DECIDE:-n/a}\n\n_This is optional guidance provided on an opt-in basis by the owner. No coercion._" > body.md
+          gh pr comment "$PRNUM" --body-file body.md
