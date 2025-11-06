@@ -1,0 +1,48 @@
+{
+  "title": "CoTheory — A Constitutional Theory of Hybrid Society",
+  "version": 1,
+  "out": "CoTheory.megascroll.md",
+  "sections": [
+    {
+      "title": "Foreword",
+      "src": "parts/00_foreword.md"
+    },
+    {
+      "title": "Index of Terms",
+      "src": "parts/01_terms-bridge.md"
+    },
+    {
+      "title": "CoEvo (Unnatural Evolutions)",
+      "src": "../../insights/coevo/README.md"
+    },
+    {
+      "title": "Cognocarta Consenti (Core Articles)",
+      "src": "../../constitution/CC/CC.core.md"
+    },
+    {
+      "title": "Governance & Guardrails",
+      "src": "parts/10_guardrails.md"
+    },
+    {
+      "title": "Rights, Duties, and Objections",
+      "src": "parts/20_rights-objections.md"
+    },
+    {
+      "title": "Measurement & Falsifiers",
+      "src": "parts/30_measurement.md"
+    },
+    {
+      "title": "Playbooks & Practice",
+      "src": "parts/40_playbooks.md"
+    },
+    {
+      "title": "Appendix: Provenance, Citations, Venues",
+      "src": "parts/90_appendix.md"
+    }
+  ],
+  "decorate": {
+    "toc": true,
+    "page_breaks_between": true,
+    "inject_glossary_links": true
+  }
+}
