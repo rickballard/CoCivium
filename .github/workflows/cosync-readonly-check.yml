@@ -1,0 +1,54 @@
+name: cosync-readonly-check
+on:
+  schedule:
+    - cron: "27 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run read-only CoSync script
+        shell: pwsh
+        run: pwsh -NoLogo -NoProfile -File tools/cosync_readonly.ps1
+
+      - name: Find latest receipt and CSVs
+        id: find
+        shell: bash
+        run: |
+          RECEIPT=$(ls docs/intent/advice/notes/*/VIOLET_RECEIPT_CoSyncRO_* 2>/dev/null | tail -n1 || true)
+          STUB=$(ls docs/reports/stub_candidates_* 2>/dev/null | tail -n1 || true)
+          REIN=$(ls docs/reports/reinvention_pairs_* 2>/dev/null | tail -n1 || true)
+          echo "receipt=$RECEIPT" >> "$GITHUB_OUTPUT"
+          echo "stub=$STUB"       >> "$GITHUB_OUTPUT"
+          echo "rein=$REIN"       >> "$GITHUB_OUTPUT"
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cosync-readonly-artifacts
+          path: |
+            ${{ steps.find.outputs.receipt }}
+            ${{ steps.find.outputs.stub }}
+            ${{ steps.find.outputs.rein }}
+
+      - name: Extract NeedsFullCoSync
+        id: need
+        shell: bash
+        run: |
+          N=$(grep -E "^\*\*NeedsFullCoSync:\*\*" "${{ steps.find.outputs.receipt }}" | awk -F': ' '{print $2}')
+          echo "need=$N" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update tracking issue
+        if: steps.need.outputs.need == 'True'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "CoSync required - read-only check flagged drift"
+          content-file: ${{ steps.find.outputs.receipt }}
+          labels: docs,cosync,triage
+          assignees: rickballard
