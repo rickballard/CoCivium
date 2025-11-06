@@ -97,3 +97,5 @@ foreach($c in $checks){ $lines+= "- [$($c.OK ? 'ok' : 'fail')] $($c.Name)  $($c.
 $lines+= "","### Artifacts","- Stub candidates CSV: docs/reports/$(Split-Path $stubCsv -Leaf)","- Reinvention pairs CSV: docs/reports/$(Split-Path $reinventCsv -Leaf)","- Helper catalogue: docs/index/HELPERS_INDEX.md","","> If NeedsFullCoSync is true, run your standard CoSync and re-check."
 ($lines -join "`r`n") + "`r`n" | Set-Content -Encoding utf8NoBOM $Note
 Write-Host "VIOLET-RECEIPT => $Note"
+
+
