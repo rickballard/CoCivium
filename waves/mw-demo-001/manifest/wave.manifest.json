@@ -7,8 +7,8 @@
   "created_utc": "2025-11-06T21:13:43.6164494Z",
   "id": "mw-demo-001",
   "links": [],
-  "promotion": "draft",
-  "payload": [],
+  "promotion": "candidate",
+  "payload": "payload/README.mdwaves/mw-demo-001/payload/README.md",
   "version": "0.1.0",
   "notes": []
 }
