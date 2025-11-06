@@ -1,0 +1,41 @@
+name: diagram-freeze-guard
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: load
+        run: |
+          set -e
+          END=$(jq -r '.ends_utc' .freeze/diagram_freeze.json 2>/dev/null || echo "")
+          echo "end=$END" >> $GITHUB_OUTPUT
+      - name: maybe-block
+        if: steps.load.outputs.end != ''
+        run: |
+          set -e
+          END="${{ steps.load.outputs.end }}"
+          NOW_EPOCH=$(date -u +%s)
+          END_EPOCH=$(date -u -d "$END" +%s)
+          echo "Freeze ends: $END (epoch $END_EPOCH)"
+          # Diff changed paths for this event
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+          CHANGED=$(git diff --name-only "$BASE"...HEAD || true)
+          echo "$CHANGED" | sed '/^$/d' | sed 's/^/changed: /'
+          if [ $NOW_EPOCH -lt $END_EPOCH ]; then
+            echo "$CHANGED" | grep -E '^docs/diagrams/' && {
+              echo "::error title=Diagram freeze active::Writes to docs/diagrams/** are frozen until $END"
+              exit 1
+            }
+          fi
+      - name: advise-after-end
+        if: steps.load.outputs.end == ''
+        run: echo "No freeze descriptor found; guard is inert."
