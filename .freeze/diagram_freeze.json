@@ -1,0 +1,8 @@
+{
+  "policy": "Links-only index lives in CoCache; rendered catalogs remain per-repo",
+  "scope": "docs/diagrams/**",
+  "ends_utc": "2025-11-07T06:11:44Z",
+  "kind": "diagram-freeze",
+  "reason": "Landing Tier-1 plates (CoAgent flow, AdviceBomb intake→inbox, Hub topology, CoPrime↔CoCache CI, CoAudit trust loop)",
+  "starts_utc": "2025-11-06T18:11:44Z"
+}
