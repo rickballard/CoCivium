@@ -11,3 +11,5 @@ _Append-only; latest at bottom._
 - Green check: use `gh pr view --json statusCheckRollup` to evaluate; ignore NEUTRAL/CANCELLED; fail on FAIL/TIMED_OUT.
 - Merge order for this slice: **#512 → #511 → #513** (squash).
 - CoSync: notes dropped under `docs/intent/advice/notes/YYYYMMDD/` with PR pointers and next steps.
+## 2025-11-07 19:16:39Z — Canonical heartbeat adopted; helpers moved to CoCache; diagram inventory fixed (CoAgent+CoArena).
+
