@@ -1,0 +1,21 @@
+
+Error: Evaluation failed: Error: Parse error on line 6:
+...V --> AM[Auto-merge (squash)]  AM --> P
+-----------------------^
+Expecting 'SQE', 'DOUBLECIRCLEEND', 'PE', '-)', 'STADIUMEND', 'SUBROUTINEEND', 'PIPE', 'CYLINDEREND', 'DIAMOND_STOP', 'TAGEND', 'TRAPEND', 'INVTRAPEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'PS'
+    at Parser2.parseError (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32371:23)
+    at Parser2.parse2 [as parse] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:32436:18)
+    at Diagram.parse (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12291:19)
+    at new Diagram (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12278:12)
+    at getDiagramFromText$1 (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:12315:12)
+    at async Object.render$4 [as render] (/home/runner/work/CoCivium/CoCivium/node_modules/mermaid/dist/mermaid.js:14671:14)
+    at ExecutionContext._ExecutionContext_evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ExecutionContext.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ExecutionContext.js:143:16)
+    at async CDPJSHandle.evaluate (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/JSHandle.js:56:16)
+    at async CDPElementHandle.$eval (file:///home/runner/work/CoCivium/CoCivium/node_modules/puppeteer-core/lib/esm/puppeteer/common/ElementHandle.js:86:24)
+    at async renderMermaid (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:256:22)
+    at async parseMMD (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:227:20)
+    at async run (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:491:20)
+    at async cli (file:///home/runner/work/CoCivium/CoCivium/node_modules/@mermaid-js/mermaid-cli/src/index.js:192:3)
+
