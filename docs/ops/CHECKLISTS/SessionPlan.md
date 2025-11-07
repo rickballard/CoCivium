@@ -10,3 +10,6 @@ _Operational guardrails for all sessions._
 - Merge docs PRs in declared order; prefer **squash** with branch delete.
 - Always drop a **CoSync** note (PRs, paths, next steps).
 
+
+- Keep appending ops learnings to `docs/ops/bpoe/WORKFLOW_LOG.md`.
+
