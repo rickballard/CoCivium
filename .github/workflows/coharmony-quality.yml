@@ -1,0 +1,43 @@
+name: CoHarmony Quality
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python -m pip install --upgrade pip
+      - run: python tools/doi_linkcheck.py
+
+  norms-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python tools/norms_radar.py docs/insights/luminaries/_artifacts/sample_norms.json docs/insights/luminaries/_artifacts/norms_radar.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: norms-radar
+          path: docs/insights/luminaries/_artifacts/norms_radar.png
+
+  tension-detector:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install gh
+        uses: cli/gh-action@v2
+      - name: Compute divergence
+        shell: pwsh
+        run: |
+          ./tools/tension-detector.ps1 -Repo "${{ github.repository }}" -PR ${{ github.event.number }} | Out-File -FilePath tension.json -Encoding utf8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tension
+          path: tension.json
