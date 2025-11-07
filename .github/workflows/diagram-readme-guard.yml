@@ -31,3 +31,4 @@ jobs:
           if($t -notmatch [regex]::Escape("../coagent/README.md") -and $t -notmatch [regex]::Escape($want2)){
             Write-Error "INDEX missing link to $want2"
           }
+      - "docs/diagrams/INVENTORY.md"
