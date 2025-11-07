@@ -1,7 +1,7 @@
 # CoAgent — Run Flow & Custody
 
 This page embeds the canonical Mermaid source:
-\$diagramPath\
+$diagramPath
 
 `mermaid
 %% (rendered from the source file path)
