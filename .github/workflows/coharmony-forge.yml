@@ -1,6 +1,7 @@
 name: coharmony-forge
 on:
   push:
+  pull_request:
     paths:
       - 'docs/insights/luminaries/**'
 jobs:
@@ -25,3 +26,4 @@ jobs:
           git add docs/insights/luminaries/MEGASCROLL.md
           git commit -m "chore: build megascroll" || true
           git push || true
+
