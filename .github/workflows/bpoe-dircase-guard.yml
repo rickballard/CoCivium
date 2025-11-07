@@ -1,0 +1,17 @@
+name: BPOE dircase guard
+on:
+  pull_request:
+    paths:
+      - "docs/ops/**"
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if docs/ops/BPOE exists
+        shell: bash
+        run: |
+          if [ -d "docs/ops/BPOE" ]; then
+            echo "::error::Use lowercase docs/ops/bpoe (found docs/ops/BPOE).";
+            exit 1;
+          fi
