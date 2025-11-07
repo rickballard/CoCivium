@@ -45,17 +45,9 @@ jobs:
         with:
           name: tension
           path: tension.json
-      - name: Render and comment tension
-        if: always()
-        shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          test -f tension.json || { echo "no tension.json"; exit 0; }
-          pwsh -NoProfile -File tools/Format-Tension.ps1 -InputPath tension.json -OutputPath tension.md
-          echo "---- md ----"
-          cat tension.md
-          echo "-------------"
-          gh pr comment ${{ github.event.number }} --body "$(cat tension.md)"
+      - uses: ./.github/actions/tension-comment
+        with:
+          json: tension.json
+          md: tension.md
+
 
