@@ -3,7 +3,7 @@
 This page embeds the canonical Mermaid source:
 $diagramPath
 
-`mermaid
+```mermaid
 %% (rendered from the source file path)
 %% NOTE: Keep edits in the .mmd to pass diagram guards.
 %% CoAgent Run Flow & Custody (Box + Connector Diagram)
@@ -80,3 +80,4 @@ flowchart LR
 
   LNOTE["Still one run if same window + policy pack"]:::note
   LEGEND --- LNOTE
+```
