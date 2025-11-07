@@ -1,0 +1,11 @@
+%% CoAgent request/response path (seed plate)
+flowchart LR
+  U[User / Client] --> Q[Intent Parse]
+  Q --> G{Policy Gates}
+  G -->|allowed| T[Tool Calls / Skills]
+  G -->|blocked| RJ[Reject with rationale]
+  T --> L[Logs / Audit Trail]
+  L --> S[Safety Scoring]
+  S --> R[Response to User]
+  classDef mild fill:#eef,stroke:#88a,stroke-width:1px,color:#111;
+  class U,Q,G,T,RJ,L,S,R mild;

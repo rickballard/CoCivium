@@ -1,0 +1,10 @@
+%% CoPrime ↔ CoCache CI handshake
+flowchart TD
+  E[Edit docs] --> LB[PR labels]
+  LB --> GD[Guards run]
+  GD -->|pass| PV[Preview renders]
+  GD -->|fail| FIX[Fix & push]
+  PV --> AM[Auto-merge (squash)]
+  AM --> POST[Post-merge previews on main]
+  classDef mild fill:#eef7ff,stroke:#69c,stroke-width:1px,color:#111;
+  class E,LB,GD,PV,FIX,AM,POST mild;

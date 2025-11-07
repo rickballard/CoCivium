@@ -1,0 +1,10 @@
+%% CoAudit trust & rollback loop
+flowchart LR
+  PUB[Publish] --> EV[Evidence Trail]
+  EV --> OBJ{Objection Window}
+  OBJ -->|no issue| CONF[Confirmed]
+  OBJ -->|issue raised| REV[Review]
+  REV -->|rollback| RB[Rollback & Republish]
+  REV -->|remedy| FIX[Remediation & Republish]
+  classDef mild fill:#f6efff,stroke:#96c,stroke-width:1px,color:#111;
+  class PUB,EV,OBJ,CONF,REV,RB,FIX mild;

@@ -1,0 +1,10 @@
+%% AdviceBomb intake to inbox (seed plate)
+flowchart TD
+  Z[AdviceBomb .zip] --> H[SHA-256 Verify]
+  H --> I[Append INBOX_LOG row]
+  I --> C{CI: inbox-guard}
+  C -->|pass| PR[Create/Update PR]
+  C -->|fail| FX[Fix & re-run]
+  PR --> RC[Receipt note / CoSync]
+  classDef mild fill:#efe,stroke:#6a6,stroke-width:1px,color:#111;
+  class Z,H,I,C,PR,FX,RC mild;
