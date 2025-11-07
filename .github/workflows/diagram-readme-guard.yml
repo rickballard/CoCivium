@@ -1,0 +1,33 @@
+name: Diagram/README guard
+on:
+  pull_request:
+    paths:
+      - "docs/diagrams/coagent/coagent_run_flow_and_custody.mmd"
+      - "docs/coagent/README.md"
+      - "docs/diagrams/INDEX.md"
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify README has closing fence and embeds .mmd
+        shell: pwsh
+        run: |
+          $rd = "docs/coagent/README.md"
+          $mmd = "docs/diagrams/coagent/coagent_run_flow_and_custody.mmd"
+          if(!(Test-Path $rd)){ Write-Error "Missing $rd" }
+          $t = Get-Content $rd -Raw
+          if(-not $t.TrimEnd().EndsWith("```")){ Write-Error "README missing closing ``` fence" }
+          if($t -notmatch [regex]::Escape($mmd)){ Write-Error "README does not reference $mmd" }
+      - name: Verify index links exist
+        shell: pwsh
+        run: |
+          $idx = "docs/diagrams/INDEX.md"
+          $want1 = "docs/diagrams/coagent/coagent_run_flow_and_custody.mmd"
+          $want2 = "docs/coagent/README.md"
+          if(!(Test-Path $idx)){ Write-Error "Missing $idx" }
+          $t = Get-Content $idx -Raw
+          if($t -notmatch [regex]::Escape($want1)){ Write-Error "INDEX missing link to $want1" }
+          if($t -notmatch [regex]::Escape("../coagent/README.md") -and $t -notmatch [regex]::Escape($want2)){
+            Write-Error "INDEX missing link to $want2"
+          }
