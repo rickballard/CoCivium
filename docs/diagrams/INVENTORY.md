@@ -144,3 +144,8 @@ This inventory is generated. For each asset, include a short **purpose** and a q
 
 - Source: [docs/diagrams/coagent/coagent_run_flow_and_custody.mmd](docs/diagrams/coagent/coagent_run_flow_and_custody.mmd)
 - Preview: [docs/coagent/README.md](docs/coagent/README.md)
+
+## CoArena — Flow
+
+- Source: [docs/diagrams/coarena/coarena_flow.mmd](docs/diagrams/coarena/coarena_flow.mmd)
+- Preview: [docs/coarena/README.md](docs/coarena/README.md)
