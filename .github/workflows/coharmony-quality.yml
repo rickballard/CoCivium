@@ -1,4 +1,8 @@
 name: CoHarmony Quality
+permissions:
+  contents: read
+  pull-requests: write
+
 
 on:
   push:
@@ -41,3 +45,9 @@ jobs:
         with:
           name: tension
           path: tension.json
+      - uses: ./.github/actions/tension-comment
+        with:
+          json: tension.json
+          md: tension.md
+
+

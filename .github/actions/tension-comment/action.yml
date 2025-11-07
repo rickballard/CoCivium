@@ -1,0 +1,31 @@
+name: "Tension → PR comment"
+description: "Renders tension.json to Markdown and comments it on the PR (same-repo PRs)."
+inputs:
+  json:
+    description: "Path to tension.json"
+    required: true
+    default: "tension.json"
+  md:
+    description: "Path to write Markdown output"
+    required: false
+    default: "tension.md"
+runs:
+  using: "composite"
+  steps:
+    - name: Render Markdown
+      shell: bash
+      run: |
+        set -euo pipefail
+        test -f "${{ inputs.json }}" || { echo "no ${{ inputs.json }}"; exit 0; }
+        pwsh -NoProfile -File tools/Format-Tension.ps1 -InputPath "${{ inputs.json }}" -OutputPath "${{ inputs.md }}"
+        echo "Rendered -> ${{ inputs.md }}"
+
+    - name: Comment on PR
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      shell: bash
+      run: |
+        test -f "${{ inputs.md }}" || { echo "no markdown produced"; exit 0; }
+        # Works for pull_request (same-repo). github.event.number is PR #
+        gh pr comment ${{ github.event.number }} --body "$(cat "${{ inputs.md }}")"
