@@ -6,3 +6,5 @@
 - [ ] Composite action for PR tension table
 - [ ] DOI allow-list policy (doc + code)
 - Priors: #515, #516, #517
+
+- [x] 20251107T162925Z — Tension table auto-comment wired in

@@ -1,3 +1,8 @@
+## 20251107T162925Z — PR tension table automation
+- Added **tools/Format-Tension.ps1** (tension.json → Markdown table).
+- Workflow now **renders & comments** tension on PRs (post-artifact step) with **permissions:** contents:read, pull-requests:write.
+- Escaping for \${{ }}\ handled via placeholder+swap; inserted safely after anchor step.
+- Captured **branch-protection 404** + **gh api no -R** in frictions.
 ## 20251107T155409Z — CoHarmony v5.x CI hardening (authz & UX)
 - Snapshotted **Actions perms**, **branch protection**, **recent runs** (for Co1 mining).
 - Documented **authz model** + **frictions** (PR labeler, PR comments, PS -replace, linkcheck).
@@ -18,6 +23,7 @@
 # BPOE — Workflow Lessons (Cumulative)
 
 Source of truth for CI/BPOE learnings. Append newest entries at the top.
+
 
 
 
