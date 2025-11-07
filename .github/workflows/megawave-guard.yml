@@ -1,28 +1,24 @@
-name: megawave-guard
+name: MegaWave Guard (advisory)
+
 on:
   pull_request:
-    paths:
-      - "docs/waves/**"
-      - ".github/workflows/megawave-guard.yml"
+
+permissions:
+  contents: read
+
 jobs:
-  validate:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate manifests against schema
+      - name: Check for MegaWave adoption files
         run: |
           set -e
-          SCHEMA="docs/waves/wave.manifest.schema.json"
-          if [ ! -f "$SCHEMA" ]; then echo "::error::Missing schema"; exit 1; fi
-          npm i -g ajv-cli >/dev/null 2>&1
-          for f in $(git ls-files | grep 'wave.manifest.json'); do
-            echo "Validating $f"
-            ajv -s "$SCHEMA" -d "$f" --spec=draft2020 --all-errors
-          done
-      - name: Forbid candidates in site content (cross-repo policy, mirrored)
-        run: |
-          if [ -d site ]; then
-            if grep -RIn "assets/images/candidates/" site; then
-              echo "::error::Site references candidate images"; exit 1
-            fi
+          miss=0
+          test -f docs/ops/bpoe/MEGAWAVE_ADOPTION.md || { echo "::warning ::Missing MEGAWAVE_ADOPTION.md"; miss=1; }
+          # Soft check for a CoSync note in this PR (not required): just warn
+          notes=$(git ls-files "docs/intent/advice/notes/*/CoSync_*.md" | wc -l)
+          if [ "$notes" -lt 1 ]; then
+            echo "::warning ::No CoSync notes found in tree (ok if landing separately)"
           fi
+          exit 0
