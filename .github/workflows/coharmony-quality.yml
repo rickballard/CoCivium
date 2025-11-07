@@ -44,4 +44,11 @@ jobs:
         with:
           name: tension
           path: tension.json
+      - name: Render and comment tension
+        if: always()
+        uses: ./.github/actions/tension-comment
+        with:
+          json: tension.json
+          md: tension.md
+
 
