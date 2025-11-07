@@ -72,3 +72,7 @@ docs/status/bpoe-log.ndjson
 *.mmd.bak
 
 advice/STATUS/*.log
+
+# guard against accidental nested dirs
+.github/.github/
+tools/tools/
