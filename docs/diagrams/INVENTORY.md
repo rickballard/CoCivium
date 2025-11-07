@@ -139,3 +139,8 @@ This inventory is generated. For each asset, include a short **purpose** and a q
 | docs\diagrams\render\security\threat-model.mmd | Mermaid | threat-model | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\security\threat-model.mmd |
 | docs\diagrams\render\timeline\roadmap-milestones.mmd | Mermaid | roadmap-milestones | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\render\timeline\roadmap-milestones.mmd |
 | docs\diagrams\vitals\humanity-vitals.mmd | Mermaid | humanity-vitals | TODO: add '%% purpose: ...' comment on the first lines. | Embed in Markdown using \`mermaid fences; CI exports previews under docs/diagrams/_previews when available. | docs\diagrams\vitals\humanity-vitals.mmd |
+
+## CoAgent — Run Flow & Custody
+
+- Source: [docs/diagrams/coagent/coagent_run_flow_and_custody.mmd](docs/diagrams/coagent/coagent_run_flow_and_custody.mmd)
+- Preview: [docs/coagent/README.md](docs/coagent/README.md)

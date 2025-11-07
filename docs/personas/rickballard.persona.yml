@@ -1,0 +1,33 @@
+id: persona:rballard
+owner:
+  github: rickballard
+  display_name: Rick Ballard
+  email: null
+consent: opt-in
+last_updated: 20251106-174213Z
+comms:
+  tone: "suggest-first, consent-forward"
+  brevity: "concise, bullet-heavy"
+  structure: "repo-first pointers, then CoBlocks"
+  decisions: "propose options; pick + reason"
+  ping_window_tz: "America/Toronto ~08:00–22:00"
+  ping_preference: "mention + link to PR/commit; avoid vague pings"
+  do_say:
+    - "Show exact file paths + branches"
+    - "Number/timestamp CoBlocks"
+    - "Add tiny rationale before the block"
+  avoid:
+    - "Long chatty walls without a runnable block"
+    - "Hidden interactive prompts / pagers"
+ops:
+  prefers_coblocks: true
+  shell: "PowerShell 7.x"
+  noninteractive_defaults: true
+  timeouts_sec: 180
+  artifacts: "zip-first with .sha256"
+  repo_first: true
+review:
+  style: "squash-merge small PRs; CI green; receipts linked"
+  expects_citations: true
+  merge_pref: "squash"
+tags: ["CoSuite","BPOE","CoSync","Consent","Audit"]

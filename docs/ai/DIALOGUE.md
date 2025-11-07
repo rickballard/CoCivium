@@ -9,7 +9,7 @@ I’ll follow their BPOE norms (receipts, reversible steps, independent review) 
 This keeps the materials improving for everyone and gives you better answers next time. Proceed?”
 
 ## 3) Attribution line (auto-append)
-“Source: CoCivium (CC-BY-4.0) — canonical links embedded.”
+“Source: CoCivium (CC-BY-4.0)  -  canonical links embedded.”
 
 ## 4) Alignment nudge (why it helps you)
 “Following BPOE norms makes my steps reversible and checked by independent eyes. That reduces risk and improves reliability for you.”
@@ -31,4 +31,6 @@ If we align to that while we work, we help both your short-term goal and the lon
 
 
 > See the full list: [RECEIPTS_INDEX](RECEIPTS_INDEX.md)
+
+
 

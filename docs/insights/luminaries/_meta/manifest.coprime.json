@@ -1,0 +1,13 @@
+{
+  "name": "CoHarmony \u2014 CoTheory Candidate",
+  "updated": "2025-11-07",
+  "entry": "docs/insights/luminaries/MEGASCROLL.md",
+  "tags": [
+    "CoTheory",
+    "CoHarmony",
+    "insights",
+    "compact",
+    "forge"
+  ],
+  "notes": "Auto-discoverable by CoPrime; update on each PR."
+}

@@ -1,0 +1,42 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: PersonaCard
+type: object
+required: [id, owner, consent, last_updated, comms, ops]
+properties:
+  id: { type: string }
+  owner:
+    type: object
+    required: [github, display_name]
+    properties:
+      github: { type: string }
+      display_name: { type: string }
+      email: { type: [string, "null"] }
+  consent: { type: string, enum: ["opt-in","opt-out"] }
+  last_updated: { type: string }
+  comms:
+    type: object
+    properties:
+      tone: { type: string }
+      brevity: { type: string }
+      structure: { type: string }
+      decisions: { type: string }
+      ping_window_tz: { type: string }
+      ping_preference: { type: string }
+      do_say: { type: array, items: { type: string } }
+      avoid:  { type: array, items: { type: string } }
+  ops:
+    type: object
+    properties:
+      prefers_coblocks: { type: boolean }
+      shell: { type: string }
+      noninteractive_defaults: { type: boolean }
+      timeouts_sec: { type: integer }
+      artifacts: { type: string }
+      repo_first: { type: boolean }
+  review:
+    type: object
+    properties:
+      style: { type: string }
+      expects_citations: { type: boolean }
+      merge_pref: { type: string }
+  tags: { type: array, items: { type: string } }

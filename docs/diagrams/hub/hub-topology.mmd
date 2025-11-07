@@ -1,0 +1,10 @@
+%% Hub graphics topology (links-only)
+flowchart LR
+  HUB[CoCache: Hub Graphics Index\n(links-only)] --> CIV[CoCivium: Rendered catalog]
+  HUB --> OTHER[Other repos: Rendered catalogs]
+  CIV --> CI[(Preview CI)]
+  OTHER --> CI
+  note1{{Policy: Hub stores links only\nCatalogs live per-repo}}
+  HUB -.policy.-> note1
+  classDef mild fill:#ffe,stroke:#aa6,stroke-width:1px,color:#111;
+  class HUB,CIV,OTHER,CI,note1 mild;

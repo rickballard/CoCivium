@@ -1,0 +1,5 @@
+{
+  "opt_in_rate_min": 0.7,
+  "rollback_latency_max_min": 60,
+  "audit_pass_min": 0.95
+}
