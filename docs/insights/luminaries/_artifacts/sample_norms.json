@@ -1,0 +1,9 @@
+{
+  "consent": 0.85,
+  "reversibility": 0.9,
+  "legibility": 0.8,
+  "pluralism": 0.75,
+  "entropy": 0.6,
+  "dignity": 0.95,
+  "harms": 0.1
+}
