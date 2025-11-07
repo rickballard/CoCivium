@@ -1,5 +1,1 @@
-[codespell]
-skip = *.png,*.jpg,*.jpeg,*.svg,*.ico,*.pdf,site/assets/**,_site/**
-ignore-words=tools/lint/codespell.words.txt
-
-
+skip = docs/index/TODO-INDEX.md
