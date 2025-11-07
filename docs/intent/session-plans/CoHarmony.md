@@ -8,3 +8,5 @@
 - Priors: #515, #516, #517
 
 - [x] 20251107T162925Z — Tension table auto-comment wired in
+
+- [x] 20251107T172014Z — Plan tick: tension composite adopted; snapshots & frictions logged
