@@ -1,0 +1,12 @@
+insights:
+  - docs/insights/**
+
+ci:
+  - .github/workflows/**
+
+docs:
+  - '**/*.md'
+  - docs/**
+
+coharmony:
+  - docs/insights/luminaries/**
