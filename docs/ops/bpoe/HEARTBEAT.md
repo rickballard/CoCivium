@@ -3,7 +3,14 @@
 Canonical stall-risk order: **WT → HU → CU → PU**.
 
 Console usage:
-```powershell
+``````powershell
+$CC = Join-Path $HOME "Documents\GitHub\CoCache"
+. (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1")
+# Example: slight ER decline; ERM needs attention
+& (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1") `
+  -Source dialogue -CU OK -PU OK -HU OK -WT SOFT `
+  -ER declining -ERDelta "-3%/15m" `
+  -SIP OK -ERM SOFT -NSQ OK -TTC OK
 # Canonical emitter (CoCache)
 $CC = Join-Path $HOME "Documents\GitHub\CoCache"
 . (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1")
@@ -11,7 +18,14 @@ $CC = Join-Path $HOME "Documents\GitHub\CoCache"
 ```
 
 Markdown drop (writes `.cobloat_line.md`):
-```powershell
+``````powershell
+$CC = Join-Path $HOME "Documents\GitHub\CoCache"
+. (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1")
+# Example: slight ER decline; ERM needs attention
+& (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1") `
+  -Source dialogue -CU OK -PU OK -HU OK -WT SOFT `
+  -ER declining -ERDelta "-3%/15m" `
+  -SIP OK -ERM SOFT -NSQ OK -TTC OK
 # Canonical emitter (CoCache)
 $CC = Join-Path $HOME "Documents\GitHub\CoCache"
 . (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1")
