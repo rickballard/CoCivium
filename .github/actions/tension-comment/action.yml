@@ -1,5 +1,5 @@
-name: "Tension → PR comment (v2)"
-description: "Render tension.json → Markdown; comment on PR even if file missing. Robust PR lookup."
+name: "Tension → PR comment (v2.1 sticky)"
+description: "Render tension.json → Markdown; sticky comment on PR; robust PR detection."
 inputs:
   json:
     description: "Path to tension.json"
@@ -24,8 +24,7 @@ runs:
             PR="${{ github.event.number }}"
             ;;
           *)
-            # Fallback: find PR by head branch
-            PR="$(gh pr list --head "$GITHUB_REF_NAME" --json number --jq ".[0].number" || true)"
+            PR="$(gh pr list --head "$GITHUB_REF_NAME" --json number --jq '.[0].number' || true)"
             ;;
         esac
         echo "PR=$PR" >> "$GITHUB_ENV"
@@ -46,15 +45,27 @@ runs:
         fi
         echo "Rendered -> $MD"
 
-    - name: Comment on PR
+    - name: Comment on PR (sticky)
       if: always()
       env:
         GH_TOKEN: ${{ github.token }}
       shell: bash
       run: |
         set -euo pipefail
-        if [ -z "${PR:-}" ]; then
-          echo "No PR number resolved; skipping comment."
-          exit 0
+        if [ -z "${PR:-}" ]; then echo "No PR resolved; skip"; exit 0; fi
+        MARK="<!-- tension:marker -->"
+        MD="${{ inputs.md }}"
+        # Build BODY safely without $'...'
+        MD_CONTENT="$(cat "$MD")"
+        BODY="$(printf "%s\n\n%s" "$MD_CONTENT" "$MARK")"
+        # Find an existing comment from github-actions with the marker
+        CID="$(gh pr view "$PR" --comments --json comments \
+              --jq '(.comments[]? | select(.body | contains("'"$MARK"'")) | select(.author.login=="github-actions[bot]") | .databaseId) | first' \
+              || true)"
+        if [ -n "$CID" ]; then
+          gh api "repos/${GITHUB_REPOSITORY}/issues/comments/$CID" -X PATCH -f body="$BODY" >/dev/null
+          echo "Updated existing tension comment ($CID)"
+        else
+          gh pr comment "$PR" --body "$BODY"
+          echo "Posted new tension comment"
         fi
-        gh pr comment "$PR" --body "$(cat "${{ inputs.md }}")"
