@@ -62,3 +62,32 @@ actions/upload-artifact@v4
 
 
 
+
+
+tension_comment:
+  if: always() && (github.event_name == 'pull_request' || github.event_name == 'pull_request_target')
+  permissions:
+    contents: read
+    pull-requests: write
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout (shallow)
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    # Try to pull the "tension" artifact from this workflow run; ignore if absent
+    - name: Download tension artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: tension
+        path: .
+        if-no-files-found: ignore
+
+    # Post the table using your local composite; it will create a 1-row stub if no JSON
+    - name: Render & comment tension (v2)
+      uses: ./.github/actions/tension-comment
+      with:
+        json: tension.json
+        md: tension.md
+
