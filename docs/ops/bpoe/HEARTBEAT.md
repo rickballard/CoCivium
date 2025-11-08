@@ -37,3 +37,15 @@ Badge option (swap emojis with SVG dots):
 ```
   CoBloat: ![ok](../assets/branding/cobloat/ok.svg) CU  ![soft](../assets/branding/cobloat/soft.svg) PU  ![soft](../assets/branding/cobloat/soft.svg) HU  ![ok](../assets/branding/cobloat/ok.svg) WT
   ```
+
+## Placement
+- Emit the status line **at the end of each set/cycle** (retroactive punctuation).
+
+### PS7 snippet
+```powershell
+$CC = Join-Path $HOME "Documents\GitHub\CoCache"
+. (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1")
+# End-of-set punctuation:
+& (Join-Path $CC "tools\heartbeat\Emit-CoBloat.ps1") -Source dialogue -SpellOut -Violet -CU OK -PU OK -HU OK -WT OK -ER steady
+```
+
