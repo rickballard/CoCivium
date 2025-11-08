@@ -40,7 +40,14 @@ jobs:
         shell: pwsh
         run: |
           ./tools/tension-detector.ps1 -Repo "${{ github.repository }}" -PR ${{ github.event.number }} | Out-File -FilePath tension.json -Encoding utf8
-      - uses: actions/upload-artifact@v4
+      - uses:       - name: Emit test tension.json
+        shell: pwsh
+        run: |
+          $obj = @(
+            @{ pr = $env:GITHUB_EVENT_NUMBER; commenters = "smoketest"; neg_hits = 0; pos_hits = 1; divergence = 0 }
+          ) | ConvertTo-Json
+          $obj | Set-Content -Encoding utf8NoBOM tension.json
+actions/upload-artifact@v4
         with:
           name: tension
           path: tension.json
@@ -50,5 +57,6 @@ jobs:
         with:
           json: tension.json
           md: tension.md
+
 
 
