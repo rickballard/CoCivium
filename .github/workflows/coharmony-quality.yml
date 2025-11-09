@@ -52,3 +52,36 @@ jobs:
           md: tension.md
 
 
+
+tension_comment:
+  if: >
+    always() && (github.event_name == 'pull_request' || github.event_name == 'pull_request_target')
+  permissions:
+    contents: read
+    pull-requests: write
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout (shallow)
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    - name: Download tension artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: tension
+        path: .
+        if-no-files-found: ignore
+
+    - name: Download coaudit artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: coaudit
+        path: .
+        if-no-files-found: ignore
+
+    - name: Render & comment tension (sticky)
+      uses: ./.github/actions/tension-comment
+      with:
+        json: coaudit/tension.json
+        md: tension.md
