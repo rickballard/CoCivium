@@ -1,5 +1,5 @@
-name: "Tension → PR comment"
-description: "Renders tension.json to Markdown and comments it on the PR (same-repo PRs)."
+name: "Tension → PR comment (v2.1 sticky)"
+description: "Render tension.json → Markdown; sticky comment on PR; robust PR detection."
 inputs:
   json:
     description: "Path to tension.json"
@@ -12,18 +12,60 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Render Markdown
+    - name: Resolve PR number
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        set -euo pipefail
+        PR=""
+        case "${{ github.event_name }}" in
+          pull_request|pull_request_target)
+            PR="${{ github.event.number }}"
+            ;;
+          *)
+            PR="$(gh pr list --head "$GITHUB_REF_NAME" --json number --jq '.[0].number' || true)"
+            ;;
+        esac
+        echo "PR=$PR" >> "$GITHUB_ENV"
+
+    - name: Ensure Markdown (create minimal if json missing)
       shell: bash
       run: |
         set -euo pipefail
-        test -f "${{ inputs.json }}" || { echo "no ${{ inputs.json }}"; exit 0; }
-        pwsh -NoProfile -File tools/Format-Tension.ps1 -InputPath "${{ inputs.json }}" -OutputPath "${{ inputs.md }}"
-        echo "Rendered -> ${{ inputs.md }}"
-    - name: Comment on PR
+        JSON="${{ inputs.json }}"
+        MD="${{ inputs.md }}"
+        if [ -f "$JSON" ]; then
+          pwsh -NoProfile -File tools/Format-Tension.ps1 -InputPath "$JSON" -OutputPath "$MD"
+        else
+          printf "### PR Tension Summary\n\n" > "$MD"
+          printf "pr | commenters | neg_hits | pos_hits | divergence\n" >> "$MD"
+          printf "--- | --- | --- | --- | ---\n" >> "$MD"
+          printf "%s | none | 0 | 0 | 0\n" "${PR:-unknown}" >> "$MD"
+        fi
+        echo "Rendered -> $MD"
+
+    - name: Comment on PR (sticky)
       if: always()
       env:
         GH_TOKEN: ${{ github.token }}
       shell: bash
       run: |
-        test -f "${{ inputs.md }}" || { echo "no markdown produced"; exit 0; }
-        gh pr comment ${{ github.event.number }} --body "$(cat "${{ inputs.md }}")"
+        set -euo pipefail
+        if [ -z "${PR:-}" ]; then echo "No PR resolved; skip"; exit 0; fi
+        MARK="<!-- tension:marker -->"
+        MD="${{ inputs.md }}"
+        # Build BODY safely without $'...'
+        MD_CONTENT="$(cat "$MD")"
+        BODY="$(printf "%s\n\n%s" "$MD_CONTENT" "$MARK")"
+        # Find an existing comment from github-actions with the marker
+        CID="$(gh pr view "$PR" --comments --json comments \
+              --jq '(.comments[]? | select(.body | contains("'"$MARK"'")) | select(.author.login=="github-actions[bot]") | .databaseId) | first' \
+              || true)"
+        if [ -n "$CID" ]; then
+          gh api "repos/${GITHUB_REPOSITORY}/issues/comments/$CID" -X PATCH -f body="$BODY" >/dev/null
+          echo "Updated existing tension comment ($CID)"
+        else
+          gh pr comment "$PR" --body "$BODY"
+          echo "Posted new tension comment"
+        fi
