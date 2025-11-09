@@ -40,7 +40,16 @@ jobs:
         shell: pwsh
         run: |
           ./tools/tension-detector.ps1 -Repo "${{ github.repository }}" -PR ${{ github.event.number }} | Out-File -FilePath tension.json -Encoding utf8
-      - uses: actions/upload-artifact@v4
+      - uses:       - name: Run CoAudit scout (read-only)
+        uses: rickballard/CoAudit/.github/actions/coaudit-scout@main
+        with:
+          outdir: coaudit
+      - name: Upload coaudit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coaudit
+          path: coaudit/
+actions/upload-artifact@v4
         with:
           name: tension
           path: tension.json
@@ -50,5 +59,6 @@ jobs:
         with:
           json: tension.json
           md: tension.md
+
 
 
