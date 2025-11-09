@@ -3,7 +3,7 @@
 > Track at major milestones. Check only when actually on **main** (or clearly landed via PR).
 
 ## Seed: CoAudit (producer, read-only)
-- [ ] coaudit-scout composite exists (v0.1) in CoAudit repo
+- [x] coaudit-scout composite exists (v0.1) in CoAudit repo
 - [ ] outputs: \coaudit/findings.json\, \coaudit/tension.json\, \coaudit/IMMUNITY_LOG.jsonl\
 - [ ] schema + signals catalog committed (\docs/ops/immunity/signals.yml\, README)
 - [ ] (optional) repository_dispatch \coaudit.alert\ emitted
