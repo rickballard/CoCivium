@@ -1,0 +1,22 @@
+name: pinned-citation-and-caps
+description: Fail if PR body lacks actor/model@version + grounding commit + rollback note, or if changed files exceed caps.
+checks:
+  - id: actor-meta
+    type: regex
+    target: pr_body
+    pattern: (?s)actor:[^\r\n]+model@\S+
+  - id: grounding-commit
+    type: regex
+    target: pr_body
+    pattern: (?i)grounding:(commit|sha)\s*[:=]\s*[0-9a-f]{7,}
+  - id: rollback-note
+    type: regex
+    target: pr_body
+    pattern: (?i)rollback
+  - id: touch-caps
+    type: script
+    target: changed_files
+    script: pwsh co-evo/evals/runners/touch-caps.ps1
+caps:
+  max_files: 32
+  max_loc: 1000
