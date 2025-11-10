@@ -1,0 +1,6 @@
+{"ts":"2025-11-09T23:17:41Z","source":"dialogue","cu":"OK","pu":"OK","hu":"OK","wt":"OK","er":{"state":"steady","delta":""},"mitigations":{"ttc":"OK","sip":"OK","erm":"OK","nsq":"OK"},"notes":[],"line":"CoBloat: 🟢 CU  🟢 PU  🟢 HU  🟢 WT  | ER: steady  | SIP: OK  ERM: OK  NSQ: OK  TTC: OK"}
+
+{"ts":"2025-11-09T23:22:38Z","source":"dialogue","cu":"OK","pu":"OK","hu":"OK","wt":"OK","er":{"state":"steady","delta":""},"mitigations":{"ttc":"OK","sip":"OK","erm":"OK","nsq":"OK"},"notes":[],"line":"CoBloat: 🟢 CU  🟢 PU  🟢 HU  🟢 WT  | ER: steady  | SIP: OK  ERM: OK  NSQ: OK  TTC: OK"}
+
+{"ts":"2025-11-10T01:29:18Z","source":"dialogue","cu":"OK","pu":"OK","hu":"OK","wt":"OK","er":{"state":"steady","delta":""},"mitigations":{"ttc":"OK","sip":"OK","erm":"OK","nsq":"OK"},"notes":[],"line":"CoBloat: 🟢 CU  🟢 PU  🟢 HU  🟢 WT  | ER: steady  | SIP: OK  ERM: OK  NSQ: OK  TTC: OK  🔗 True"}
+
