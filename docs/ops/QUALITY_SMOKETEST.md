@@ -1,0 +1,1 @@
+Quality smoke test
