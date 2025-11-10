@@ -1,0 +1,24 @@
+name: co-evo-micro
+on:
+  pull_request:
+    paths:
+      - "docs/insights/**"
+      - "co-evo/evals/**"
+jobs:
+  micro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dump changed files
+        id: diff
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          git diff --name-only origin/${{ github.base_ref }}... > changed.txt
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          cat changed.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      - name: Run touch caps
+        shell: pwsh
+        run: |
+          $json = (Get-Content changed.txt) | ForEach-Object { @{ path=$_; loc_delta=0 } } | ConvertTo-Json
+          pwsh co-evo/evals/runners/touch-caps.ps1 -ChangedFilesJson $json
