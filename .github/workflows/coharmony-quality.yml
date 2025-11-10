@@ -48,7 +48,7 @@ jobs:
         if: always()
         uses: ./.github/actions/tension-comment
         with:
-          json: tension.json
+          json: coaudit/tension.json
           md: tension.md
 
 
@@ -83,5 +83,5 @@ tension_comment:
     - name: Render & comment tension (sticky)
       uses: ./.github/actions/tension-comment
       with:
-        json: coaudit/tension.json
+        json: coaudit/tension.jsonoaudit/tension.json
         md: tension.md
