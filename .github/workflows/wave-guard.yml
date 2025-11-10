@@ -1,0 +1,26 @@
+name: wave-guard
+on: { pull_request: {}, workflow_dispatch: {} }
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install actionlint
+        shell: bash
+        run: curl -fsSL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- -b ./bin
+      - name: Heartbeat (start)
+        shell: pwsh
+        run: |
+          $CC = Join-Path $env:HOME "Documents/GitHub/CoCache";
+          . "$CC/tools/heartbeat/Emit-CoBloat.ps1";
+          & "$CC/tools/heartbeat/Emit-CoBloat.ps1" -Source ci -CU OK -PU OK -HU OK -WT OK
+      - name: Lint workflows
+        shell: bash
+        run: ./bin/actionlint -color
+      - name: Heartbeat (end)
+        if: always()
+        shell: pwsh
+        run: |
+          $CC = Join-Path $env:HOME "Documents/GitHub/CoCache";
+          . "$CC/tools/heartbeat/Emit-CoBloat.ps1";
+          & "$CC/tools/heartbeat/Emit-CoBloat.ps1" -Source ci -CU OK -PU OK -HU OK -WT OK
