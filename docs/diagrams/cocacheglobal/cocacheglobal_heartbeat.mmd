@@ -1,0 +1,16 @@
+flowchart TB
+  subgraph Repos["Repos / Agents"]
+    A[CoAgent]:::ai --> HB1[CoBloat JSON outbox]
+    Civ[CoCivium]:::ai --> HB2[CoBloat JSON outbox]
+  end
+  HB1 -->|artifact/ingress| G[(CoCacheGlobal)]:::hub
+  HB2 -->|artifact/ingress| G
+  subgraph HumanProxies["Human Proxy Metrics"]
+    H1[Health]:::human; H2[Wealth Dist.]:::human; H3[Education]:::human
+  end
+  H1 --> G; H2 --> G; H3 --> G
+  G --> D[Global Heartbeat Dash]:::dash
+classDef ai fill:#eef,stroke:#66f;
+classDef hub fill:#efe,stroke:#393;
+classDef human fill:#fee,stroke:#c66;
+classDef dash fill:#ffe,stroke:#aa0;

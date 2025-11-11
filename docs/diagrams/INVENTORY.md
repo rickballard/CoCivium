@@ -144,3 +144,8 @@ This inventory is generated. For each asset, include a short **purpose** and a q
 
 - Source: [docs/diagrams/coagent/coagent_run_flow_and_custody.mmd](docs/diagrams/coagent/coagent_run_flow_and_custody.mmd)
 - Preview: [docs/coagent/README.md](docs/coagent/README.md)
+
+## CoCacheGlobal — Global Heartbeat
+
+- Source: [docs/diagrams/cocacheglobal/cocacheglobal_heartbeat.mmd](docs/diagrams/cocacheglobal/cocacheglobal_heartbeat.mmd)
+- Preview: [docs/diagrams/README.md](docs/diagrams/README.md)
