@@ -1,7 +1,12 @@
-# 
+# CoAgent Run Flow & Custody — Diagram
 
-**Purpose (seed plate):** single-screen, human-legible overview.  
-**Preview locally:** VS Code + Mermaid extension (or rely on CI previews).  
-**Source:** \$mmdRel\
+**Purpose:** Show one run from user intent → vendor execution → signed receipt, with custody boundaries and policy/receipt touchpoints.
 
-> Notes: keep this plate tight; large flows should split into subplates.
+**Acceptance checklist**
+- [x] Clear **Customer Tenant** vs **Vendor Clouds / Local** boundaries
+- [x] **Policy Pack** and **Signed Receipt** visibly present
+- [x] "**No content custody**" noted at receipt path
+- [x] **Suite Bridge** marked **optional**
+- [x] Connectors labeled; run variants listed
+
+> Source: \coagent_run_flow_and_custody.mmd\ (Mermaid). Monochrome-safe, B/W legible, half-page friendly.
