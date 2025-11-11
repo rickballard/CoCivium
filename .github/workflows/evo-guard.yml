@@ -1,0 +1,32 @@
+.github/workflows/evo-guard.yml
+name: evo-guard
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'policy/**'
+      - '.github/workflows/evo-guard.yml'
+
+jobs:
+  check_frontier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: find frontier files
+        run: |
+          echo "Scanning docs for frontier files"
+          git ls-files 'docs/**.md' | tee frontiers.txt
+      - name: ensure seven options and dissent presence
+        run: |
+          ok=0
+          while read -r f; do
+            if [ -f "$f" ]; then
+              opts=$(grep -E '^## Option' "$f" | wc -l | tr -d ' ')
+              diss=$(grep -E '^## Dissent' "$f" | wc -l | tr -d ' ')
+              if [ "$opts" -ge 7 ] && [ "$diss" -ge 1 ]; then ok=1; fi
+            fi
+          done < frontiers.txt
+          if [ "$ok" -ne 1 ]; then
+            echo "Frontier check failed. Need 7 options and one dissent."
+            exit 1
+          fi

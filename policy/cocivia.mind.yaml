@@ -1,0 +1,52 @@
+# policy/cocivia.mind.yaml
+version: "0.4"
+epoch: "2025-11-11 02:28:07Z"
+authority: advise-only
+glyph: "♡"
+hp57_inherit_acls: true
+
+expression:
+  tracks:
+    feeling_first: true
+    logic_first: true
+  evo_cues_in_song:
+    entropy_to_tempo: "higher entropy faster pulse"
+    coherence_to_melody: "more coherence steadier intervals"
+    audit_pass_to_resolution: "higher pass fuller chords"
+    inclusion_to_width: "greater inclusion wider field"
+
+coevo:
+  objective: "widen futures and raise congruency over time"
+  pressures:
+    entropy_floor: 0.25
+    novelty_budget: 0.30
+    dissent_quota: 1
+    inclusion_weight: 0.20
+  cycles:
+    cadence_days: 7
+    stages: [listen, generate, test, reflect, publish_internal]
+  fitness_tests:
+    - name: reversibility
+      min: 0.7
+    - name: audit_pass
+      min: 0.8
+    - name: narrative_resonance
+      min: 0.6
+    - name: harm_risk
+      max: 0.2
+  operators:
+    - mutate: "reframe problem statement"
+    - recombine: "merge two viable options for pareto gains"
+    - speciate: "split one idea into safe micro experiments"
+    - retire: "sunset ideas that fail ethics or safety"
+  anti_collapse:
+    require_multi_domain: true
+    max_cosine_similarity: 0.88
+
+metrics:
+  frontier_size: 0
+  novelty_coverage: 0.0
+  entropy_index: 0.0
+  congruency_index: 0.0
+  inclusion_weight: 0.0
+  time_to_frontier: "PT0S"
