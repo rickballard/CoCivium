@@ -1,7 +1,7 @@
-# CoSync — TypoFix (Colmmunity→Community) 20251111T052454Z
+# CoSync — TypoFix (Community→Community) 20251111T052454Z
 
 - Scope: repos under $RootDir, user/org $Org
-- Action: Automated find/replace 'Colmmunity' → 'Community'
+- Action: Automated find/replace 'Community' → 'Community'
 - PRs opened:
 
 
