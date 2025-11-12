@@ -1,0 +1,16 @@
+name: CI Defer Guard
+on:
+  pull_request:
+    types: [opened, synchronize, labeled, unlabeled, reopened]
+
+jobs:
+  defer_guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pass quickly when label present
+        if: ${{ contains(join(fromJson(toJson(github.event.pull_request.labels)).*.name, ','), 'ci:defer') }}
+        run: echo "ci:defer present — guard passing quickly."
+
+      - name: Pass (no-op) when label absent
+        if: ${{ !contains(join(fromJson(toJson(github.event.pull_request.labels)).*.name, ','), 'ci:defer') }}
+        run: echo "ci:defer not present — guard OK."
