@@ -18,3 +18,15 @@
 - diagnose_20251111T211946Z.txt
 - fix_summary_20251111T212228Z.txt
 
+
+[Trace] Sweep file: docs/intent/advice/notes/20251112/IntentSweep_20251112T171009Z.md
+
+## After-Action (20251112T171045Z)
+- Merged PRs: (fill when merged)
+- Residuals: (none/links)
+## After-Action (20251112T192323Z)
+- Merged PRs: #545, #546, #549, #550, #551, #552
+- Residuals: _none noted_
+## After-Action (20251112T194334Z)
+- Merged PRs: #545, #546, #549, #552
+- Residuals: _none noted_
