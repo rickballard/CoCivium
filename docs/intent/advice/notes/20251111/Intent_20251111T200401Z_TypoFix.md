@@ -6,3 +6,4 @@
 - Safety: preflight render-check gate; dry-run 'Diagnose' before 'Fix'; Beacon note on completion
 - Status: DECLARED — awaiting wave preflight
 [Trace] Beacon PR: https://github.com/rickballard/CoCivium/pull/546
+[Trace] Beacon PR: https://github.com/rickballard/CoCivium/pull/546
