@@ -7,3 +7,6 @@
 - Status: DECLARED — awaiting wave preflight
 [Trace] Beacon PR: https://github.com/rickballard/CoCivium/pull/546
 [Trace] Beacon PR: https://github.com/rickballard/CoCivium/pull/546
+## After-Action (20251112T125410Z)
+- Merged PRs: #545 (Intent), #546 (Beacon), #549 (Sweep)
+- Residuals: _none detected_
