@@ -1,0 +1,24 @@
+name: receipt-verify
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  ensure-receipt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Require a recent CoSync receipt note
+        shell: bash
+        run: |
+          set -euo pipefail
+          since_days=5
+          if ! git log --since="${since_days}.days" --name-only --pretty=format: \
+            | grep -E '^docs/intent/advice/notes/[0-9]{8}/CoSync_.*\.md$' >/dev/null; then
+            echo "::error ::No recent CoSync receipt note found (last ${since_days} days)."
+            exit 1
+          fi
