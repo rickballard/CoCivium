@@ -29,3 +29,4 @@ if (-not (Get-Command Use-CoStatus -ErrorAction SilentlyContinue)) {
 }
 # Emit once per cycle/set/MW
 Use-CoStatus -Pulse 'CU:OK · PU:SOFT · HU:SOFT · WT:OK' -Note 'cycle' -CountdownSec 6 -Drift 0.2
+```
