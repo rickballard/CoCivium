@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "generated_utc": "20251114T211006Z",
+  "items": [
+    {
+      "id": "owasp-llm-top10",
+      "type": "webpage",
+      "title": "OWASP Top 10 for Large Language Model Applications",
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    },
+    {
+      "id": "nistrmf1",
+      "type": "report",
+      "title": "AI Risk Management Framework 1.0",
+      "publisher": "NIST",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "URL": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ]
+}
