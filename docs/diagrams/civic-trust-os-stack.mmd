@@ -1,0 +1,14 @@
+%% CoCivium Civic Trust OS stack — layer view
+%% Keep this simple; use layout tools only if needed later.
+
+flowchart TB
+  infra[Society & infrastructure]
+  guardrails[CoConstitution & guardrails]
+  policy[Policies, playbooks & BPOEs]
+  tools[Tools & agents (CoAgent, CoCore, CoCache, CoAudit)]
+  outcomes[Outcomes: trust, transparency, resilience]
+
+  infra --> guardrails
+  guardrails --> policy
+  policy --> tools
+  tools --> outcomes
