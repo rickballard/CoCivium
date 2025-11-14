@@ -118,3 +118,6 @@ If you take something from here, **leave one thing better**: a sharper checklist
 
 
 [View CoSuite Index →](https://github.com/rickballard/CoCache/blob/main/docs/index/ASSETS_INDEX.md)
+
+
+**Downloads:** see the [CoSuite Products Hub](https://github.com/rickballard/CoCache/blob/main/docs/products/README.md).
