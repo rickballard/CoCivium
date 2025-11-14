@@ -1,0 +1,18 @@
+name: CoStatus Guard
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  guard:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          pwsh-version: '7.4.x'
+      - name: Run CoStatus guard
+        shell: pwsh
+        run: |
+          ./tools/lint/Check-CoStatus.ps1 -RepoRoot $PWD
