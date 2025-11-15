@@ -1,0 +1,1 @@
+# Figures added in MW3 (initial SVG stubs)
