@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AcademiaShockRunReceipt",
+  "type": "object",
+  "required": ["run_id","ts_utc","task","metrics","artifacts"],
+  "properties": {
+    "run_id": {"type":"string"},
+    "ts_utc": {"type":"string","format":"date-time"},
+    "task":   {"type":"string","enum":["demo-br","demo-cl","demo-ppr","demo-pf"]},
+    "metrics": {
+      "type":"object",
+      "properties":{
+        "BR":{"type":"number"},
+        "CL":{"type":"number"},
+        "PPR":{"type":"number"},
+        "PF":{"type":"number"}
+      },
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type":"array",
+      "items":{"type":"object","required":["path","sha256"],"properties":{
+        "path":{"type":"string"},
+        "sha256":{"type":"string"}
+      }}
+    },
+    "notes":{"type":"string"}
+  },
+  "additionalProperties": false
+}
