@@ -1,0 +1,49 @@
+{
+  "brand": {
+    "id": "demo-brand",
+    "display_name": "Demo Brand",
+    "sector": "example-sector"
+  },
+  "region": {
+    "code": "US-federal",
+    "notes": "Example entry for documentation"
+  },
+  "owners": [],
+  "lens": {
+    "id": "CoEthicsLens.DemocracyFirst.US2025",
+    "version": "v1"
+  },
+  "overall_score": {
+    "numeric": 50,
+    "band": "MixedSignals",
+    "nods_count": 0,
+    "spanks_count": 0
+  },
+  "metrics": [
+    {
+      "metric_id": "D1_PoliticalFundingAlignment",
+      "axis": "Democracy",
+      "score_numeric": -1,
+      "weight": 0.4,
+      "mood": "Spank",
+      "summary": "Donation pattern skews towards actors with weaker democratic safeguards."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "WatchdogReport",
+      "source_name": "Example Watchdog Report",
+      "url": "https://example.org/report",
+      "notes": "Placeholder URL for template."
+    }
+  ],
+  "contributors": {
+    "circle_id": "ExampleCircle",
+    "ai_tools_used": "CoEthicsGauge + local AIs",
+    "conflicts_of_interest": "none known"
+  },
+  "timestamps": {
+    "created_at_utc": "2025-11-15T05:09:31Z",
+    "updated_at_utc": "2025-11-15T05:09:31Z"
+  }
+}
