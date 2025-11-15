@@ -1,0 +1,1 @@
+Rick Ballard is a CoSteward who advises teams building AI‑intensive systems and civic‑grade governance.
