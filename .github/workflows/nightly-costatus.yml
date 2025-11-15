@@ -1,0 +1,20 @@
+name: nightly-costatus
+on:
+  schedule:
+    - cron: "17 2 * * *"   # 02:17 UTC nightly
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write nightly CoStatus
+        shell: pwsh
+        run: ./tools/heartbeat/Collect-CoStatus.ps1 -OutPath "docs/status/Nightly.md"
+      - name: Commit changes
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git add docs/status/Nightly.md
+          git commit -m "docs(status): nightly roll-up" || echo "no changes"
+          git push || true
