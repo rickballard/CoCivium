@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CoEthicsLog Entry v0",
+  "type": "object",
+  "additionalProperties": true,
+
+  "required": [
+    "brand",
+    "region",
+    "lens",
+    "overall_score"
+  ],
+
+  "properties": {
+    "brand": {
+      "type": "object",
+      "required": [ "id", "display_name" ],
+      "properties": {
+        "id":           { "type": "string" },
+        "display_name": { "type": "string" },
+        "sector":       { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "region": {
+      "type": "object",
+      "required": [ "code" ],
+      "properties": {
+        "code":  { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "group_id":          { "type": "string" },
+          "group_display_name": { "type": "string" },
+          "ownership_type":    { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+
+    "lens": {
+      "type": "object",
+      "required": [ "id", "version" ],
+      "properties": {
+        "id":      { "type": "string" },
+        "version": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "overall_score": {
+      "type": "object",
+      "required": [ "numeric", "band" ],
+      "properties": {
+        "numeric":     { "type": "number" },
+        "band":        { "type": "string" },
+        "nods_count":  { "type": "integer" },
+        "spanks_count":{ "type": "integer" }
+      },
+      "additionalProperties": true
+    },
+
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "metric_id", "axis", "score_numeric" ],
+        "properties": {
+          "metric_id":     { "type": "string" },
+          "axis":          { "type": "string" },
+          "score_numeric": { "type": "number" },
+          "weight":        { "type": "number" },
+          "mood":          { "type": "string" },
+          "summary":       { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_type": { "type": "string" },
+          "source_name": { "type": "string" },
+          "url":         { "type": "string" },
+          "citation":    { "type": "string" },
+          "notes":       { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+
+    "contributors": {
+      "type": "object",
+      "properties": {
+        "circle_id":            { "type": "string" },
+        "ai_tools_used":        { "type": "string" },
+        "conflicts_of_interest":{ "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "timestamps": {
+      "type": "object",
+      "properties": {
+        "created_at_utc": { "type": "string" },
+        "updated_at_utc": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  }
+}
