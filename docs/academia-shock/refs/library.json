@@ -1,84 +1,76 @@
-{
-  "version": "0.3",
-  "generated_utc": "20251114T220023Z",
-  "items": [
-    {
-      "id": "owasp-llm-top10",
-      "type": "webpage",
-      "title": "OWASP Top 10 for LLM Applications",
-      "issued": {
-        "date-parts": [
-          [
-            2025
-          ]
-        ]
-      },
-      "URL": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
-    },
-    {
-      "id": "nistrmf1",
-      "type": "report",
-      "title": "AI Risk Management Framework 1.0",
-      "publisher": "NIST",
-      "issued": {
-        "date-parts": [
-          [
-            2023
-          ]
-        ]
-      },
-      "URL": "https://www.nist.gov/itl/ai-risk-management-framework"
-    },
-    {
-      "id": "iso-42001-2023",
-      "type": "standard",
-      "title": "ISO/IEC 42001:2023 Artificial intelligence \u2014 Management system",
-      "issued": {
-        "date-parts": [
-          [
-            2023
-          ]
-        ]
-      }
-    },
-    {
-      "id": "slsa",
-      "type": "webpage",
-      "title": "SLSA \u2014 Supply-chain Levels for Software Artifacts",
-      "issued": {
-        "date-parts": [
-          [
-            2024
-          ]
-        ]
-      },
-      "URL": "https://slsa.dev/"
-    },
-    {
-      "id": "spdx",
-      "type": "webpage",
-      "title": "SPDX Specification",
-      "issued": {
-        "date-parts": [
-          [
-            2024
-          ]
-        ]
-      },
-      "URL": "https://spdx.dev/specifications/"
-    },
-    {
-      "id": "cyclonedx",
-      "type": "webpage",
-      "title": "CycloneDX SBOM Standard",
-      "issued": {
-        "date-parts": [
-          [
-            2024
-          ]
-        ]
-      },
-      "URL": "https://cyclonedx.org/specification/"
-    }
-  ]
-}
+[
+  {
+    "type": "standard",
+    "id": "spdx-spec",
+    "title": "SPDX® Specification",
+    "author": "Linux Foundation",
+    "url": "https://spdx.dev/specifications/"
+  },
+  {
+    "type": "venue",
+    "id": "cacm-viewpoint-style",
+    "title": "Communications of the ACM — Viewpoint Guidelines",
+    "author": "ACM",
+    "url": "https://cacm.acm.org/for-authors/"
+  },
+  {
+    "type": "internal",
+    "id": "co-figures",
+    "title": "CoCivium Figures & Captions",
+    "author": "CoCivium",
+    "url": "../FIGURES.md"
+  },
+  {
+    "type": "tooling",
+    "id": "sigstore",
+    "title": "Sigstore: Software signing & verification",
+    "author": "Sigstore Project",
+    "url": "https://www.sigstore.dev/"
+  },
+  {
+    "title": "OWASP Top 10 for LLM Applications",
+    "id": "owasp-llm-top10-2023",
+    "year": "2023",
+    "type": "guidance",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "author": "OWASP"
+  },
+  {
+    "type": "standard",
+    "id": "cyclonedx",
+    "title": "CycloneDX Specification",
+    "author": "OWASP Foundation",
+    "url": "https://cyclonedx.org/specification/overview/"
+  },
+  {
+    "type": "internal",
+    "id": "co-replication",
+    "title": "Replication Instructions",
+    "author": "CoCivium",
+    "url": "./REPLICATION.md"
+  },
+  {
+    "title": "AI Risk Management Framework 1.0",
+    "id": "nist-airmf-1-0",
+    "year": "2023",
+    "type": "framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "author": "NIST"
+  },
+  {
+    "title": "SLSA v1.0: Supply-chain Levels for Software Artifacts",
+    "id": "slsa-v1",
+    "year": "2023",
+    "type": "standard",
+    "url": "https://slsa.dev",
+    "author": "SLSA Community"
+  },
+  {
+    "title": "Zero Trust Architecture",
+    "id": "nist-zero-trust-800-207",
+    "year": "2020",
+    "type": "standard",
+    "url": "https://csrc.nist.gov/publications/detail/sp/800-207/final",
+    "author": "NIST SP 800-207"
+  }
+]
