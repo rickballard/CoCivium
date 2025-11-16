@@ -1,123 +1,275 @@
-> Need disaster-recovery for your GitHub? **[RepoZipper Cloud →](https://github.com/rickballard/gh-rz/releases/latest)** (free, read-only, restore with plain Git).
-
-<!-- AI-FRONT-DOOR: docs/ai/FRONT_DOOR.gibx (mirror: docs/ai/FRONT_DOOR.json) -->
 # CoCivium
 
-**Build the society that helps to build itself.**\
-*No crowns · No coercion · No corruption.*
-
-> **Bring your AI**\
-> Point your AI at this repo and ask for a **one-hour personal quickstart**. With your permission, CoCivium can guide your AI to tailor this onramp to you.
-> ### A tiny stack of help (human)
-> **Eli** is nine and breathing like through a straw. The clinic shuts in 18 minutes.
-> The bus board says 3. People on this route know it lies.
-> A quick ask. A handful of taps. A ride offers. A tiny fund covers gas.
-> Eli gets his treatment in time.
-> **What ties this together:** quick ask, few taps, one lift. The taps correct the board.
-> Two short receipts become tiny kits others can copy. This is CoCivium.
-
-## What is CoCivium? (plain words)
-
-CoCivium is a **human-first onramp** to solve small problems together and leave **helper assets** others can reuse. It grows into a shared library of best practices for communities and institutions, where humans and AIs coevolve without crowns, coercion, or corruption.
+> **A living invitation to a future with AI**  
+> where systems stay answerable to “we the people,”  
+> and ordinary humans can help shape what comes next.
 
 ---
 
----
-
-## Why show up (pragmatic)
-
-- **Be useful fast:** small, clear tasks; no special skills.
-- **Be seen and thanked:** a name (or alias) on the wall; small credits where offered.
-- **Be safer together:** today you help; tomorrow someone helps you.
-
-> This is not “free work.” It is quick, human help with a small thank you, and the fix stays for the next family.
-
-### Example evolution (already done)
-
-**Problem.** Posted hours and contact details were often wrong, which wasted trips and money.\
-**What we tried.** Forty eight participants each sent three quick checks in two days. Plain words or a photo were fine. Their AIs summarized and filed the results.\
-**What changed.** Partners corrected listings and set a daily sync. Thank you credits were issued. A short receipt and a small kit were published so others could copy the steps.\
-**Result.** Fewer failed trips the next week, fewer angry calls, and a reusable pattern that travels.
-
-### Express lane for your own onboarding
-
-1. **CoCiv (the loop)** → *Listen → Deliberate → Do → Audit*\
-   [docs/diagrams/co-loop.svg](docs/diagrams/co-loop.svg)
-2. **Longer timeline** (optional after your first hour) → Days 0–1 listen · Days 1–2 deliberate · Days 3–6 do · Day 7 audit\
-   [docs/diagrams/one-week-microproject.svg](docs/diagrams/one-week-microproject.svg)
-3. **Engagement ladder** → See → Try → Repeat → CoSteward → Mentor → CoAuditor\
-   [docs/diagrams/engagement-ladder.svg](docs/diagrams/engagement-ladder.svg)
+<!-- HERO GRAPHIC PLACEHOLDER
+Use a single strong, human-centred illustration or collage here.
+See the "Hero graphic – artist brief (work-in-progress)" section below.
+-->
 
 ---
 
----
+## In plain words
 
-## Be CoCiv, your first hour:
+CoCivium is an open civic-tech project asking a simple, hard question:
 
-1. **Pick something to evolve**, describe a social problem or a neighbourhood need, record a casual voice note into your AI, perhaps add photos, links, comments, emote if it gets the point across. Your AI will summarize the intent like an expert solutions architect.
-2. **Start solo or invite a circle**, you can begin **solo** and share the receipts as you go. When more Contributors appear, invite them to participate; teams can think better than a single human+AI pairing.
-3. **"Run a CoCiv or CoEvo"**, or a myriad of other CoHelper systems that turn ideas into implementations. Or listen to the stories and observations of other Contributors, to propose small options that are safe to try. Do experiments that take minutes, **or** learn how to contribute more consistently by picking a role and leading longer initiatives.
-4. **Or just leave a tiny commons note**, our systems will ingest it even if it is not dropped into our "advice bomb inbox". Even a short idea, once given, will get to where it matters, seeding an intent checklist others will action.
+> **How do we build AI-powered systems that stay trustworthy, auditable, and answerable to the people they affect – even as they become faster and more autonomous than we are?**
 
-As your Contributions grow, please upgrade from solo to circle/team work and from tiny steps to larger shared projects, but most of all, just Contribute. The future is yours to share.
+Instead of chasing a single “AI god system,” CoCivium focuses on **many small, legible systems** that can be:
 
----
+- inspected and explained,
+- forked when power concentrates or goes wrong,
+- and governed by **transparent rules (“no corruption, no coercion, no crowns”)**.
 
----
+This repo is the **human-facing hub**:  
+stories, principles, governance, and the on-ramps for people who want to help.
 
-## Roles (lightweight)
-
-- Trusted **Participants** bring lived experience.
-- **CoStewards** keep loops small and fair, and rotate often.
-- **CoBuilders** ship the pilot, with safety first.
-- **CoAuditors** verify receipts and catch failure patterns early.\
-  *(You can hold many roles, just not all at once.)*
+The heavy technical lifting and experiments live in sister repos (CoCache, CoAgent, CoContrib, CoSteward, etc.); this one is where we keep the door open and the lights on.
 
 ---
 
----
+## A small origin scene
 
-## Trust and safety
+Imagine a winter night in a big city.
 
-- **Receipts by default:** decisions, spend, outcomes.
-- **Reversible moves:** prefer safe-to-try pilots over big bets.
-- **Independent eyes:** invite reviewers early and leave breadcrumbs.
+A parent stands in a pharmacy aisle, looking at a screen that decides whether their child’s prescription is “covered.”  
+Behind that screen: layers of software, policies, and AI models built by people the family will never meet.
 
----
+Tonight the screen says **“No.”**
 
----
+The medicine is technically available, but the decision is opaque.  
+The pharmacist is apologetic but powerless.  
+The parent has to choose: **heat, food… or medicine.**
 
-## Where next?
-## Where next?
+> The child’s life is now entangled with an invisible stack of code, incentives, and institutional habits — none of which the family can see, question, or override.
 
-- **Quickstart** → [docs/quickstart.md](docs/quickstart.md)
-- **World issues (short theory)** → [docs/insights/world-issues/THEORY.md](docs/insights/world-issues/THEORY.md)
-- **How we mitigate (practice)** → [docs/insights/world-issues/PRACTICE.md](docs/insights/world-issues/PRACTICE.md)
-- **Deep Dive** → [docs/insights/the-longer-story.md](docs/insights/the-longer-story.md)
+CoCivium exists to push back on that kind of opacity.
 
-## License and community
+Not with slogans, but with:
 
-Open by default. See `LICENSE*` and [docs/governance](docs/governance).
-
-### One request
-
-If you take something from here, **leave one thing better**: a sharper checklist, a clearer story, or a safer pilot. That is how a place learns.
+- **Transparent rules** (so everyone can see how decisions are supposed to be made).  
+- **Receipts and logs** (so we know what actually happened).  
+- **Forkable designs** (so communities can run their own versions when central powers fail them).  
+- **Human-readable stories and visuals** (so people who don’t write code can still participate).
 
 ---
-## Highlights and links
 
-- See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
-- For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
+## What CoCivium is trying to be
 
-**Norms:** We follow [BPOE quicklist](docs/bpoe/quicklist.md) — receipts by default, reversible moves, independent eyes.
-- Browse examples: [docs/ai/RECEIPTS_INDEX.md](docs/ai/RECEIPTS_INDEX.md)
+At full stretch, CoCivium aims to be:
 
-<!-- compliance: (insights/Insight_Story_Being_Noname_c2_20250801.md) -->
+- A **civic operating manual** for hybrid human-AI societies.
+- A set of **open reference designs** for AI-driven services that stay under civic control.
+- A **best-practice commons**, where good patterns can spread and bad ones can be retired.
+- A place where **teachers, artists, students, caregivers, engineers, and policy-folks** can genuinely work together.
+
+We are still in a **late seed stage**: much of the plumbing works, but the “front of house” is rough. That’s intentional. The project is designed to be *shaped* by the people who show up now.
+
+---
+
+## Start here (for humans)
+
+If you are a teacher, artist, student, community-builder, parent, or simply curious about the future with AI, this is your on-ramp.
+
+You can start with just **30–45 minutes** and no technical background:
+
+1. **Read this page top-to-bottom.**  
+   Notice what feels clear, what feels cold, and what feels missing.
+
+2. **Skim the living constitution: _Cognocarta Consenti_.**  
+   It’s our shared “no corruption, no coercion, no crowns” spine.  
+   👉 `docs/constitution/Cognocarta_Consenti.md` (path may evolve; see repo nav below)
+
+3. **Look at one story and one diagram.**  
+   - A story about how a system went wrong (or right).  
+   - A figure showing how we try to fix or prevent that (defense stacks, governance loops, etc.).
+
+4. **Write down your reactions.**  
+   - What felt human and real?  
+   - What felt like “engineer speak”?  
+   - Where did you feel invited in – and where did you feel pushed out?
+
+5. **If you want to go further, open an issue.**  
+   Give your feedback in plain language. “This paragraph lost me.” “This image makes me feel nothing.” “This part made me hopeful.”
+
+That’s it.  
+If all you ever do is that first pass, you’ve already contributed more than you might think.
+
+---
+
+## What lives in this repo
+
+This repo focuses on **narrative, governance, and on-ramps**.
+
+Typical things you’ll find here:
+
+- **Stories & parables** that translate engineering concerns into human stakes.
+- **Civic & governance docs**, including the shared constitution (Cognocarta Consenti).
+- **On-ramp guides** for different roles:
+  - Contributors who don’t code.
+  - Domain experts (education, health, law, policy).
+  - Technical contributors.
+- **Design notes & diagrams** that make it easier to see:
+  - where power sits,
+  - how decisions are made,
+  - how systems can be forked or shut down if needed.
+- **Links out** to more technical repos, so you can dive deeper if you want.
+
+For a more traditional “map of the territory,” see:
+
+- `docs/` – higher-level docs and explainers  
+- `docs/intent/` – intent notes, sweeps, and design threads  
+- `docs/constitution/` – Cognocarta Consenti and other governance texts  
+- `docs/figures/` or `docs/diagrams/` – visual assets  
+- `docs/onramp/` – role-specific on-ramp drafts (in progress)
+
+(Exact paths may evolve; check the repo tree and recent intent notes.)
+
+---
+
+## Hero graphic – artist brief (work-in-progress)
+
+We are actively looking for artists and visual thinkers to help shape the visual language of CoCivium.
+
+For now, the **hero image at the top of this README** is a placeholder. Here is a working brief you (or any future “artist in residence”) could respond to:
+
+> **Concept:**  
+> A city at night, softly lit.  
+> In the foreground, an ordinary person (parent, teacher, nurse, student – not a superhero) stands at the edge of a pool of light.  
+> Around them, faint semi-transparent overlays: receipts, flow lines, small labeled nodes (“clinic,” “food,” “shelter,” “pharmacy,” “council”) that show *how* help flows through systems.  
+> The person is clearly part of the circuit – not at the mercy of it, not in control of everything, but visibly able to *see* and *shape* the flows.
+>
+> **Tone:**  
+> - Warm, humane, slightly hopeful.  
+> - No capes, no dystopian darkness, no corporate shine.  
+> - A sense that the system is **legible** and **forkable**, not magical.
+>
+> **Constraints:**  
+> - Suitable as a banner on web and PDF.  
+> - Works in grayscale as well as colour.  
+> - Easy to remix into smaller icons or panels later.
+
+This brief is deliberately imperfect. If you’re an artist reading this and thinking, “I can do better,” that feeling is the point.
+
+---
+
+## How CoCivium fits with the wider suite
+
+CoCivium doesn’t live alone. It sits inside a wider ecosystem of repos:
+
+- **CoCache** – the shared knowledge + advice hub (best practices, “advice bombs,” references).   
+- **CoAgent / CoArena** – AI-assisted workspaces for running civic workflows, tests, and experiments.   
+- **CoContrib** – the onboarding ground for new contributors, including role-based on-ramps.   
+- **CoSteward** – personal and operational playbooks for people acting as stewards of the system.   
+
+You don’t need to know any of these names to start helping.  
+They’re here mainly so curious readers can see that CoCivium is part of a broader “no corruption, no coercion, no crowns” stack.
+
+---
+
+## How to contribute (non-technical)
+
+You do **not** need to write code to meaningfully contribute.
+
+Here are some concrete ways:
+
+1. **Editorial passes.**  
+   - Mark up docs in `docs/` with comments and suggestions.  
+   - Call out what feels confusing, cold, or exclusionary.  
+   - Suggest alternative phrasings that feel more human.
+
+2. **Story & parable design.**  
+   - Help craft short stories that show what goes wrong when systems are opaque – and what’s possible when they’re legible and forkable.  
+   - Translate technical ideas into scenes, characters, and emotional beats.
+
+3. **Visual language.**  
+   - Propose or create hero images, diagrams, or icon sets.  
+   - Critique existing visuals: “this says nothing,” “this feels corporate,” “this feels honest.”
+
+4. **Field-testing with real humans.**  
+   - Bring draft materials to students, colleagues, communities.  
+   - Note where people light up, where they glaze over, where they push back.  
+   - Bring that feedback back in via issues or short memos.
+
+If that’s you, you can:
+
+- Open an issue with the label `onramp-feedback`.  
+- Or, if someone has invited you personally, coordinate changes via a small, clearly scoped branch or a shared doc.
+
+---
+
+## How to contribute (technical / research)
+
+If you write code, design systems, or do research around AI safety, governance, or civic tech:
+
+- Look at the **defense stack and receipts work** in related repos (CoCache, CoAgent, CoSteward) for:
+  - boundary-respect metrics,  
+  - default-deny egress patterns,  
+  - typed command interfaces,  
+  - receipts and immutable logs.   
+- Consider proposing:
+  - new evaluation harnesses,  
+  - improved governance loops,  
+  - or integration patterns for existing standards (NIST AI RMF, OWASP LLM Top-10, SPDX, SLSA, etc.).   
+
+Open issues and PRs are welcome, especially when they:
+
+- Make systems **more legible** to non-experts.  
+- Strengthen **forkability and civic oversight**, not just performance.
+
+---
+
+## Governance, receipts, and “no crowns”
+
+CoCivium is guided by a simple ethic:
+
+> **No corruption, no coercion, no crowns.**
+
+In practice, that translates into:
+
+- **Transparent decision records** (so power can be audited).  
+- **Forkable architectures** (so no one group can hold the future hostage).  
+- **Receipts on claims** (so “trust us” is never the answer).  
+- **Explicit conflict-of-interest and disclosure notes** in academic or industry-facing outputs.
+
+The shared constitution – **Cognocarta Consenti** – is where we try to pin down these ideas in plain language and keep them evolving as reality tests them.
+
+---
+
+## License & use
+
+CoCivium’s human-facing assets are meant to be:
+
+- **Free to read, share, and build on**,  
+- with attribution and clarity about what changed.
+
+See the `LICENSE` file in this repo for the exact terms, and assume that:
+
+- You are welcome to **reuse and adapt** patterns and text for your own civic or institutional projects,  
+- as long as you don’t misrepresent CoCivium or claim we endorse deployments we haven’t actually seen.
+
+If you’re unsure whether a planned use is in-bounds, open an issue and ask.
+
+---
+
+## Where to go next
+
+- **You want the big picture (fast):**  
+  - Read this README + Cognocarta Consenti.  
+  - Skim one story and one diagram.  
+- **You want to help as a human, not an engineer:**  
+  - Start with the “Start here (for humans)” section above.  
+  - Offer edits, questions, or critiques.  
+- **You want to build and experiment:**  
+  - Explore CoCache, CoAgent, CoContrib, CoSteward.  
+  - Look for replication harnesses, defense stacks, and receipts.
+
+However you arrive, the hope is simple:  
+that we can grow a future where AI systems are powerful **and** answerable –  
+and where ordinary people still get to decide what kind of world they’re living in.
 
 
-
-
-[View CoSuite Index →](https://github.com/rickballard/CoCache/blob/main/docs/index/ASSETS_INDEX.md)
-
-
-**Downloads:** see the [CoSuite Products Hub](https://github.com/rickballard/CoCache/blob/main/docs/products/README.md).
