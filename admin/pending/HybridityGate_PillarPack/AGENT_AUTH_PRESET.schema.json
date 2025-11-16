@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AgentAuthPreset.v1",
+  "type": "object",
+  "properties": {
+    "ChallengeUser": { "type": "boolean" },
+    "ConfirmIntent": { "type": "boolean" },
+    "AutoTag": { "type": "boolean" },
+    "AutoName": { "type": "boolean" },
+    "PreIndex": { "type": "boolean" }
+  },
+  "required": ["ChallengeUser", "ConfirmIntent", "AutoTag", "AutoName", "PreIndex"]
+}
