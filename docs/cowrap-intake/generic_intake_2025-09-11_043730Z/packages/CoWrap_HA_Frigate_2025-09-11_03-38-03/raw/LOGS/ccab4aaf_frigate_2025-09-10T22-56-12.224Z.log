@@ -1,0 +1,1000 @@
+2025-09-10 20:43:09.171509391  127.0.0.1 - - [10/Sep/2025:16:43:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:44:09.665312120  127.0.0.1 - - [10/Sep/2025:16:44:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:44:33.646651968  172.30.32.2 - - [10/Sep/2025:16:44:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:45:10.107205031  127.0.0.1 - - [10/Sep/2025:16:45:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:46:10.420245289  127.0.0.1 - - [10/Sep/2025:16:46:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:46:33.654842498  172.30.32.2 - - [10/Sep/2025:16:46:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:47:10.823066824  127.0.0.1 - - [10/Sep/2025:16:47:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:48:11.227809709  127.0.0.1 - - [10/Sep/2025:16:48:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:48:33.662438137  172.30.32.2 - - [10/Sep/2025:16:48:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:49:11.769224346  127.0.0.1 - - [10/Sep/2025:16:49:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:50:12.231692640  127.0.0.1 - - [10/Sep/2025:16:50:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:50:33.672985396  172.30.32.2 - - [10/Sep/2025:16:50:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:51:12.674356850  127.0.0.1 - - [10/Sep/2025:16:51:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:52:13.205042030  127.0.0.1 - - [10/Sep/2025:16:52:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:52:33.681309657  172.30.32.2 - - [10/Sep/2025:16:52:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:53:13.793171618  127.0.0.1 - - [10/Sep/2025:16:53:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:54:14.356466616  127.0.0.1 - - [10/Sep/2025:16:54:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:54:33.687076938  172.30.32.2 - - [10/Sep/2025:16:54:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:55:15.092308014  127.0.0.1 - - [10/Sep/2025:16:55:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:56:15.584285270  127.0.0.1 - - [10/Sep/2025:16:56:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:56:33.693303260  172.30.32.2 - - [10/Sep/2025:16:56:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:57:16.040775009  127.0.0.1 - - [10/Sep/2025:16:57:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:58:16.399636819  127.0.0.1 - - [10/Sep/2025:16:58:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 20:58:33.702983175  172.30.32.2 - - [10/Sep/2025:16:58:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 20:59:16.888342608  127.0.0.1 - - [10/Sep/2025:16:59:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:00:17.312702761  127.0.0.1 - - [10/Sep/2025:17:00:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:00:33.709672287  172.30.32.2 - - [10/Sep/2025:17:00:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:01:17.816136172  127.0.0.1 - - [10/Sep/2025:17:01:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:02:18.296277539  127.0.0.1 - - [10/Sep/2025:17:02:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:02:33.717240080  172.30.32.2 - - [10/Sep/2025:17:02:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:03:18.912285941  127.0.0.1 - - [10/Sep/2025:17:03:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:04:19.306988238  127.0.0.1 - - [10/Sep/2025:17:04:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:04:33.727012372  172.30.32.2 - - [10/Sep/2025:17:04:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:05:19.757310474  127.0.0.1 - - [10/Sep/2025:17:05:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:06:03.369680571  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.394830144  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.395996718  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:03.481373856  172.30.32.2 - - [10/Sep/2025:17:06:03 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538361195 HTTP/1.1" 200 23276 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.213995155  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538361685 HTTP/1.1" 200 23294 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.355523329  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362293 HTTP/1.1" 200 23294 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:04.703661796  172.30.32.2 - - [10/Sep/2025:17:06:04 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362632 HTTP/1.1" 200 22962 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.042630794  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538362986 HTTP/1.1" 200 22962 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.342583657  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 111886 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.349118981  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /ws HTTP/1.1" 101 1447048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:05.383698722  172.30.32.2 - - [10/Sep/2025:17:06:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538363315 HTTP/1.1" 200 23038 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:06:20.130113578  127.0.0.1 - - [10/Sep/2025:17:06:20 -0400] "" 400 0 "-" "-" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 21:06:33.446168635  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 21:06:33.461922870  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 21:06:33.610942225  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 21:06:33.836498495  [2025-09-10 17:06:33] frigate.app                    INFO    : Stopping...
+2025-09-10 21:06:33.847473861  [2025-09-10 17:06:33] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 21:06:33.852840092  [2025-09-10 17:06:33] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 21:06:33.865514764  [2025-09-10 17:06:33] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 21:06:33.882543572  [2025-09-10 17:06:33] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 21:06:33.890947644  [2025-09-10 17:06:33] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 21:06:33.899256700  [2025-09-10 17:06:33] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 21:06:33.902299133  [2025-09-10 17:06:33] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 21:06:33.905640377  [2025-09-10 17:06:33] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 21:06:33.923509506  [2025-09-10 17:06:33] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 21:06:33.926201112  [2025-09-10 17:06:33] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 21:06:34.086094223  [2025-09-10 17:06:34] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 21:06:34.100998582  [2025-09-10 17:06:34] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 21:06:34.194071182  [2025-09-10 17:06:34] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 21:06:34.196282277  [2025-09-10 17:06:34] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 21:06:34.241926045  [2025-09-10 17:06:34] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 21:06:34.548839413  [2025-09-10 17:06:34] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 21:06:34.743845382  [2025-09-10 17:06:34] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 21:06:35.180006153  [2025-09-10 17:06:35] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 21:06:35.219590905  [2025-09-10 17:06:35] root                           INFO    : Detection process has exited...
+2025-09-10 21:06:35.721795365  [2025-09-10 17:06:35] frigate.app                    INFO    : Detection queue closed
+2025-09-10 21:06:36.223542497  [2025-09-10 17:06:36] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 21:06:36.725396572  [2025-09-10 17:06:36] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 21:06:37.392652854  [2025-09-10 17:06:37] frigate.output.output          INFO    : exiting output process...
+2025-09-10 21:06:38.460464679  [2025-09-10 17:06:38] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 21:06:39.030880806  [2025-09-10 17:06:39] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 21:06:39.066442287  [2025-09-10 17:06:39] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:06:39.334851548  [2025-09-10 17:06:39] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 21:06:40.022620317  [2025-09-10 17:06:40] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 21:06:40.227763789  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 21:06:40.235531057  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 21:06:40.250505896  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 21:06:45.990794078  [INFO] Starting NGINX...
+2025-09-10 21:06:46.083731158  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 21:06:47.310567325  [INFO] Preparing Frigate...
+2025-09-10 21:06:49.935519158  [INFO] Preparing new go2rtc config...
+2025-09-10 21:06:50.060340347  [INFO] Starting Frigate...
+2025-09-10 21:06:50.144812910  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 21:06:50.353174806  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 21:06:52.146827999  [INFO] Starting go2rtc...
+2025-09-10 21:06:52.490409418  17:06:52.489 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 21:06:52.490479065  17:06:52.490 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 21:06:52.492948526  17:06:52.492 INF [rtsp] listen addr=:8554
+2025-09-10 21:06:52.493011210  17:06:52.492 INF [api] listen addr=:1984
+2025-09-10 21:06:52.495395580  17:06:52.495 INF [webrtc] listen addr=:8555
+2025-09-10 21:06:55.987185000  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 21:06:57.552124492  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:06:57.552138566    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:06:57.553699282  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:06:57.553711560    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:06:57.553716634  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:06:57.553727634    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:06:57.553732782  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:06:57.553815614    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:07:05.017666773  [2025-09-10 17:07:05] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 21:07:05.063842046  [2025-09-10 17:07:05] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 21:07:05.948748218  2025/09/10 17:07:05 [error] 249#249: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 21:07:05.948772940  2025/09/10 17:07:05 [error] 249#249: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 21:07:06.426563357  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 21:07:07.882930780  [2025-09-10 17:07:07] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 21:07:07.993248171  [2025-09-10 17:07:07] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 21:07:07.995088012  [2025-09-10 17:07:07] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 21:07:08.024876136  [2025-09-10 17:07:08] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 21:07:08.030978317  [2025-09-10 17:07:08] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 21:07:08.075922146  [2025-09-10 17:07:08] frigate.app                    INFO    : Recording process started: 443
+2025-09-10 21:07:08.085113445  [2025-09-10 17:07:08] frigate.app                    INFO    : Review process started: 445
+2025-09-10 21:07:08.109329230  [2025-09-10 17:07:08] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 21:07:08.212134591  [2025-09-10 17:07:08] frigate.app                    INFO    : Embedding process started: 472
+2025-09-10 21:07:08.229129879  [2025-09-10 17:07:08] detector.cpu1                  INFO    : Starting detection process: 468
+2025-09-10 21:07:08.237384323  [2025-09-10 17:07:08] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 21:07:08.286550418  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 21:07:08.309188136  [2025-09-10 17:07:08] frigate.app                    INFO    : Output process started: 499
+2025-09-10 21:07:08.696391070  127.0.0.1 - - [10/Sep/2025:17:07:08 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:07:09.190688556  [2025-09-10 17:07:09] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:09.228978582  [2025-09-10 17:07:09] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:09.276330909  [2025-09-10 17:07:09] frigate.app                    INFO    : Camera processor started for driveway: 537
+2025-09-10 21:07:09.326499396  [2025-09-10 17:07:09] frigate.app                    INFO    : Capture process started for driveway: 539
+2025-09-10 21:07:09.767271447  [2025-09-10 17:07:09] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 21:07:10.358726862  [2025-09-10 17:07:10] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:10.418211739  [2025-09-10 17:07:10] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:12.192146113  [2025-09-10 17:07:12] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 21:07:12.447280828  [2025-09-10 17:07:12] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:12.451700407  [2025-09-10 17:07:12] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:16.470647309  [2025-09-10 17:07:16] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:16.473903999  [2025-09-10 17:07:16] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:21.647689110  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 21:07:25.164730621  [2025-09-10 17:07:25] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:25.188612502  [2025-09-10 17:07:25] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:07:41.218985073  [2025-09-10 17:07:41] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:07:41.223584241  [2025-09-10 17:07:41] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:08:09.189799978  127.0.0.1 - - [10/Sep/2025:17:08:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:08:13.236290757  [2025-09-10 17:08:13] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:08:13.241013848  [2025-09-10 17:08:13] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:08:33.764040434  172.30.32.2 - - [10/Sep/2025:17:08:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:09:09.617764597  127.0.0.1 - - [10/Sep/2025:17:09:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:09:17.248486690  [2025-09-10 17:09:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:09:17.250161682  [2025-09-10 17:09:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:10:09.991130885  127.0.0.1 - - [10/Sep/2025:17:10:09 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:10:33.781428513  172.30.32.2 - - [10/Sep/2025:17:10:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:11:10.496275736  127.0.0.1 - - [10/Sep/2025:17:11:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:11:17.255249175  [2025-09-10 17:11:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:11:17.260041207  [2025-09-10 17:11:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:12:10.923940101  127.0.0.1 - - [10/Sep/2025:17:12:10 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:12:33.789308817  172.30.32.2 - - [10/Sep/2025:17:12:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:13:11.350662358  127.0.0.1 - - [10/Sep/2025:17:13:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:13:17.960785586  [2025-09-10 17:13:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:13:17.966479821  [2025-09-10 17:13:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:14:11.765386961  127.0.0.1 - - [10/Sep/2025:17:14:11 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:14:33.797603270  172.30.32.2 - - [10/Sep/2025:17:14:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:14:38.769716959  172.30.32.2 - - [10/Sep/2025:17:14:38 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:38.990558631  172.30.32.2 - - [10/Sep/2025:17:14:38 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.030446479  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.100705586  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.242465273  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.393790273  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757538600 HTTP/1.1" 200 23352 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.424973680  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757538600 HTTP/1.1" 200 63224 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.564712891  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877459 HTTP/1.1" 200 23324 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:39.591805163  172.30.32.2 - - [10/Sep/2025:17:14:39 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877183 HTTP/1.1" 200 23324 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:40.002540128  172.30.32.2 - - [10/Sep/2025:17:14:40 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877829 HTTP/1.1" 200 22990 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:40.031170444  172.30.32.2 - - [10/Sep/2025:17:14:40 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757538877915 HTTP/1.1" 200 22990 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:50.728254988  172.30.32.2 - - [10/Sep/2025:17:14:50 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 740004 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:14:50.728272543  172.30.32.2 - - [10/Sep/2025:17:14:50 -0400] "GET /ws HTTP/1.1" 101 24970 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:15:12.218549672  127.0.0.1 - - [10/Sep/2025:17:15:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:15:17.971139359  [2025-09-10 17:15:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:15:17.979340914  [2025-09-10 17:15:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:16:12.716793904  127.0.0.1 - - [10/Sep/2025:17:16:12 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:16:33.810699520  172.30.32.2 - - [10/Sep/2025:17:16:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:17:13.176885561  127.0.0.1 - - [10/Sep/2025:17:17:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:17:17.984969030  [2025-09-10 17:17:17] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:17:17.990279304  [2025-09-10 17:17:17] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:18:13.605777885  127.0.0.1 - - [10/Sep/2025:17:18:13 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:18:33.817814635  172.30.32.2 - - [10/Sep/2025:17:18:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:19:14.059047701  127.0.0.1 - - [10/Sep/2025:17:19:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:19:18.849370642  [2025-09-10 17:19:18] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:19:18.855425187  [2025-09-10 17:19:18] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:20:14.462575601  127.0.0.1 - - [10/Sep/2025:17:20:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:20:33.827155024  172.30.32.2 - - [10/Sep/2025:17:20:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:21:14.884415432  127.0.0.1 - - [10/Sep/2025:17:21:14 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:21:18.861233928  [2025-09-10 17:21:18] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:21:18.870620843  [2025-09-10 17:21:18] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:22:15.360261011  127.0.0.1 - - [10/Sep/2025:17:22:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:22:33.833828528  172.30.32.2 - - [10/Sep/2025:17:22:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:23:15.748246921  127.0.0.1 - - [10/Sep/2025:17:23:15 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:23:18.876944798  [2025-09-10 17:23:18] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:23:18.882133994  [2025-09-10 17:23:18] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:24:16.193368908  127.0.0.1 - - [10/Sep/2025:17:24:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:24:33.842017610  172.30.32.2 - - [10/Sep/2025:17:24:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:25:16.622442147  127.0.0.1 - - [10/Sep/2025:17:25:16 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:25:19.417035080  [2025-09-10 17:25:19] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:25:19.420535156  [2025-09-10 17:25:19] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:26:17.150126560  127.0.0.1 - - [10/Sep/2025:17:26:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:26:33.853181947  172.30.32.2 - - [10/Sep/2025:17:26:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:27:17.509472083  127.0.0.1 - - [10/Sep/2025:17:27:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:27:19.425345804  [2025-09-10 17:27:19] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:27:19.429428008  [2025-09-10 17:27:19] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:28:17.899100286  127.0.0.1 - - [10/Sep/2025:17:28:17 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:28:33.862545370  172.30.32.2 - - [10/Sep/2025:17:28:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:29:18.904276263  127.0.0.1 - - [10/Sep/2025:17:29:18 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:29:19.446306594  [2025-09-10 17:29:19] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:29:19.453551879  [2025-09-10 17:29:19] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:30:19.358971665  127.0.0.1 - - [10/Sep/2025:17:30:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:30:33.869383916  172.30.32.2 - - [10/Sep/2025:17:30:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:31:19.848983453  127.0.0.1 - - [10/Sep/2025:17:31:19 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:31:20.020287420  [2025-09-10 17:31:20] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:31:20.024552739  [2025-09-10 17:31:20] frigate.comms.mqtt             ERROR   : MQTT disconnected
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 21:31:59.730751347  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 21:31:59.738357669  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 21:31:59.834251064  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 21:31:59.975235786  [2025-09-10 17:31:59] frigate.app                    INFO    : Stopping...
+2025-09-10 21:31:59.987511106  [2025-09-10 17:31:59] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 21:31:59.990468725  [2025-09-10 17:31:59] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 21:31:59.993805912  [2025-09-10 17:31:59] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 21:31:59.997123395  [2025-09-10 17:31:59] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 21:32:00.000308214  [2025-09-10 17:31:59] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 21:32:00.003131779  [2025-09-10 17:31:59] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 21:32:00.005125729  [2025-09-10 17:31:59] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 21:32:00.006638630  [2025-09-10 17:32:00] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 21:32:00.056447566  [2025-09-10 17:32:00] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 21:32:00.058455386  [2025-09-10 17:32:00] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 21:32:00.062794075  [2025-09-10 17:32:00] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 21:32:00.206544271  [2025-09-10 17:32:00] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 21:32:00.803033080  [2025-09-10 17:32:00] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 21:32:01.056895443  [2025-09-10 17:32:01] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 21:32:01.058566934  [2025-09-10 17:32:01] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 21:32:01.102663981  [2025-09-10 17:32:01] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 21:32:01.605230865  [2025-09-10 17:32:01] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 21:32:02.358586773  [2025-09-10 17:32:02] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 21:32:02.416317230  [2025-09-10 17:32:02] root                           INFO    : Detection process has exited...
+2025-09-10 21:32:02.917828650  [2025-09-10 17:32:02] frigate.app                    INFO    : Detection queue closed
+2025-09-10 21:32:03.419640271  [2025-09-10 17:32:03] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 21:32:03.922945646  [2025-09-10 17:32:03] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 21:32:04.581567330  [2025-09-10 17:32:04] frigate.output.output          INFO    : exiting output process...
+2025-09-10 21:32:08.413744059  [2025-09-10 17:32:08] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 21:32:09.078862666  [2025-09-10 17:32:09] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 21:32:09.367235368  [2025-09-10 17:32:09] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 21:32:09.448466892  [2025-09-10 17:32:09] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 21:32:12.747390514  [INFO] Starting NGINX...
+2025-09-10 21:32:12.844449913  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 21:32:14.151401857  [INFO] Preparing Frigate...
+2025-09-10 21:32:18.854107398  [INFO] Preparing new go2rtc config...
+2025-09-10 21:32:18.861839570  [INFO] Starting Frigate...
+2025-09-10 21:32:19.066799493  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 21:32:19.305537170  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 21:32:21.807735395  [INFO] Starting go2rtc...
+2025-09-10 21:32:22.121182650  17:32:22.120 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 21:32:22.121563644  17:32:22.121 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 21:32:22.128339683  17:32:22.123 INF [api] listen addr=:1984
+2025-09-10 21:32:22.128356609  17:32:22.124 INF [rtsp] listen addr=:8554
+2025-09-10 21:32:22.128373720  17:32:22.127 INF [webrtc] listen addr=:8555
+2025-09-10 21:32:22.741100199  [INFO] Starting go2rtc healthcheck service...
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 21:32:23.954055825  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 21:32:26.192286606  127.0.0.1 - - [10/Sep/2025:17:32:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:32:27.599236499  2025/09/10 17:32:27 [error] 225#225: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 21:32:27.599256832  2025/09/10 17:32:27 [error] 225#225: *2 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 21:32:28.467633437  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:32:28.467648251    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:32:28.467911136  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 21:32:28.467917710    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:32:28.469495907  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:32:28.469508795    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 21:32:28.469514481  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 21:32:28.469526017    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 21:32:32.755520566  2025/09/10 17:32:32 [error] 227#227: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 21:32:32.755692545  2025/09/10 17:32:32 [error] 227#227: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 21:32:36.773376470  [2025-09-10 17:32:36] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 21:32:36.837148225  [2025-09-10 17:32:36] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 21:32:37.947203645  2025/09/10 17:32:37 [error] 226#226: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 21:32:37.947276107  2025/09/10 17:32:37 [error] 226#226: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 21:32:39.905435213  [2025-09-10 17:32:39] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 21:32:40.018213219  [2025-09-10 17:32:40] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 21:32:40.021958567  [2025-09-10 17:32:40] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 21:32:40.104110269  [2025-09-10 17:32:40] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 21:32:40.113224234  [2025-09-10 17:32:40] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 21:32:40.197678436  [2025-09-10 17:32:40] frigate.app                    INFO    : Recording process started: 450
+2025-09-10 21:32:40.215681388  [2025-09-10 17:32:40] frigate.app                    INFO    : Review process started: 453
+2025-09-10 21:32:40.252822181  [2025-09-10 17:32:40] frigate.app                    INFO    : go2rtc process pid: 129
+2025-09-10 21:32:40.325223762  [2025-09-10 17:32:40] detector.cpu1                  INFO    : Starting detection process: 479
+2025-09-10 21:32:40.328093734  [2025-09-10 17:32:40] frigate.app                    INFO    : Embedding process started: 482
+2025-09-10 21:32:40.357766499  [2025-09-10 17:32:40] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 21:32:40.435500513  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 21:32:40.443907952  [2025-09-10 17:32:40] frigate.app                    INFO    : Output process started: 505
+2025-09-10 21:32:41.448975788  [2025-09-10 17:32:41] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:32:41.460766599  [2025-09-10 17:32:41] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:32:41.679890125  [2025-09-10 17:32:41] frigate.app                    INFO    : Camera processor started for driveway: 537
+2025-09-10 21:32:41.756277753  [2025-09-10 17:32:41] frigate.app                    INFO    : Capture process started for driveway: 544
+2025-09-10 21:32:42.473380374  [2025-09-10 17:32:42] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 21:32:42.504276693  [2025-09-10 17:32:42] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:32:42.677478585  [2025-09-10 17:32:42] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:32:45.674066661  [2025-09-10 17:32:45] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 21:32:45.827189691  [2025-09-10 17:32:45] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:32:45.833685161  [2025-09-10 17:32:45] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:32:49.856513526  [2025-09-10 17:32:49] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:32:49.865039205  [2025-09-10 17:32:49] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:32:54.723147242  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 21:32:58.435062823  [2025-09-10 17:32:58] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:32:58.436618390  [2025-09-10 17:32:58] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:33:14.464285200  [2025-09-10 17:33:14] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:33:14.465775139  [2025-09-10 17:33:14] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:33:26.930588105  127.0.0.1 - - [10/Sep/2025:17:33:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:33:46.471722072  [2025-09-10 17:33:46] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:33:46.479130214  [2025-09-10 17:33:46] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:34:27.432267918  127.0.0.1 - - [10/Sep/2025:17:34:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:34:33.882563245  172.30.32.2 - - [10/Sep/2025:17:34:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:34:50.487326823  [2025-09-10 17:34:50] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:34:50.493085677  [2025-09-10 17:34:50] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:35:27.860268485  127.0.0.1 - - [10/Sep/2025:17:35:27 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:36:00.879594695  172.30.32.2 - - [10/Sep/2025:17:36:00 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.066496774  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.133796519  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.203195565  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.256480991  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.464949716  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.758719126  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757539800 HTTP/1.1" 200 19608 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:01.832758339  172.30.32.2 - - [10/Sep/2025:17:36:01 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757539800 HTTP/1.1" 200 56520 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:02.049435306  172.30.32.2 - - [10/Sep/2025:17:36:02 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757540159325 HTTP/1.1" 200 19604 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:02.123285634  172.30.32.2 - - [10/Sep/2025:17:36:02 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757540159789 HTTP/1.1" 200 19604 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:02.279061441  172.30.32.2 - - [10/Sep/2025:17:36:02 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757540160059 HTTP/1.1" 200 19604 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:03.412590066  172.30.32.2 - - [10/Sep/2025:17:36:03 -0400] "GET /ws HTTP/1.1" 101 2044 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:03.415715850  172.30.32.2 - - [10/Sep/2025:17:36:03 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 98360 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:28.333064978  127.0.0.1 - - [10/Sep/2025:17:36:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:36:29.012938971  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.237958111  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.258162685  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.287794279  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.364884373  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.476000104  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757540187339 HTTP/1.1" 200 19732 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:29.551293727  172.30.32.2 - - [10/Sep/2025:17:36:29 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757539800 HTTP/1.1" 200 57032 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:33.895066337  172.30.32.2 - - [10/Sep/2025:17:36:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:36:42.056244767  172.30.32.2 - - [10/Sep/2025:17:36:42 -0400] "GET /ws HTTP/1.1" 101 2046 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:36:50.506046631  [2025-09-10 17:36:50] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:36:50.510007088  [2025-09-10 17:36:50] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:37:28.812264410  127.0.0.1 - - [10/Sep/2025:17:37:28 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:38:29.227166992  127.0.0.1 - - [10/Sep/2025:17:38:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:38:33.901082223  172.30.32.2 - - [10/Sep/2025:17:38:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:38:51.058666081  [2025-09-10 17:38:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:38:51.062333172  [2025-09-10 17:38:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:39:29.656898712  127.0.0.1 - - [10/Sep/2025:17:39:29 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:40:30.153330311  127.0.0.1 - - [10/Sep/2025:17:40:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:40:33.906852790  172.30.32.2 - - [10/Sep/2025:17:40:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:40:51.073375575  [2025-09-10 17:40:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:40:51.075131344  [2025-09-10 17:40:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:41:30.580558376  127.0.0.1 - - [10/Sep/2025:17:41:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:42:30.946747254  127.0.0.1 - - [10/Sep/2025:17:42:30 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:42:33.915824743  172.30.32.2 - - [10/Sep/2025:17:42:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:42:51.078318109  [2025-09-10 17:42:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:42:51.082172735  [2025-09-10 17:42:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:43:31.326461126  127.0.0.1 - - [10/Sep/2025:17:43:31 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:44:31.748048484  127.0.0.1 - - [10/Sep/2025:17:44:31 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:44:33.923479686  172.30.32.2 - - [10/Sep/2025:17:44:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:44:51.633876088  [2025-09-10 17:44:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:44:51.638788605  [2025-09-10 17:44:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:45:32.082702240  127.0.0.1 - - [10/Sep/2025:17:45:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:46:32.566790189  127.0.0.1 - - [10/Sep/2025:17:46:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:46:33.932088150  172.30.32.2 - - [10/Sep/2025:17:46:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:46:51.643205851  [2025-09-10 17:46:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:46:51.647850335  [2025-09-10 17:46:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:47:32.904433865  127.0.0.1 - - [10/Sep/2025:17:47:32 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:48:33.230896886  127.0.0.1 - - [10/Sep/2025:17:48:33 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:48:33.938192913  172.30.32.2 - - [10/Sep/2025:17:48:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:48:51.652711022  [2025-09-10 17:48:51] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:48:51.656072434  [2025-09-10 17:48:51] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:49:31.368045957  172.30.32.2 - - [10/Sep/2025:17:49:31 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:31.819781082  172.30.32.2 - - [10/Sep/2025:17:49:31 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:31.843131169  172.30.32.2 - - [10/Sep/2025:17:49:31 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:31.875463841  172.30.32.2 - - [10/Sep/2025:17:49:31 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:31.937890867  172.30.32.2 - - [10/Sep/2025:17:49:31 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:32.279106239  172.30.32.2 - - [10/Sep/2025:17:49:32 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:32.450635744  172.30.32.2 - - [10/Sep/2025:17:49:32 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757540400 HTTP/1.1" 200 21110 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:32.482968064  172.30.32.2 - - [10/Sep/2025:17:49:32 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757540400 HTTP/1.1" 200 60342 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:32.597596792  172.30.32.2 - - [10/Sep/2025:17:49:32 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757540970321 HTTP/1.1" 200 21712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:49:33.631827023  127.0.0.1 - - [10/Sep/2025:17:49:33 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:49:33.713476718  172.30.32.2 - - [10/Sep/2025:17:49:33 -0400] "GET /ws HTTP/1.1" 101 2046 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:50:33.945618454  172.30.32.2 - - [10/Sep/2025:17:50:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:50:34.068236264  127.0.0.1 - - [10/Sep/2025:17:50:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:50:52.350897481  [2025-09-10 17:50:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:50:52.356859019  [2025-09-10 17:50:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:51:34.392891725  127.0.0.1 - - [10/Sep/2025:17:51:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:52:33.952256904  172.30.32.2 - - [10/Sep/2025:17:52:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:52:34.788326840  127.0.0.1 - - [10/Sep/2025:17:52:34 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:52:52.362641241  [2025-09-10 17:52:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:52:52.366860103  [2025-09-10 17:52:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:53:10.448038909  172.30.32.2 - - [10/Sep/2025:17:53:10 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:10.722151013  172.30.32.2 - - [10/Sep/2025:17:53:10 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:10.733019273  172.30.32.2 - - [10/Sep/2025:17:53:10 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:10.781025928  172.30.32.2 - - [10/Sep/2025:17:53:10 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:10.828261354  172.30.32.2 - - [10/Sep/2025:17:53:10 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.009858280  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.158477859  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757541000 HTTP/1.1" 200 20536 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.177093223  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757541000 HTTP/1.1" 200 58404 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.312239138  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541188914 HTTP/1.1" 200 20316 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.315574383  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541189165 HTTP/1.1" 200 20316 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.656871590  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541189518 HTTP/1.1" 200 20382 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:11.991454806  172.30.32.2 - - [10/Sep/2025:17:53:11 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541189863 HTTP/1.1" 200 20376 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:12.339053583  172.30.32.2 - - [10/Sep/2025:17:53:12 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541190194 HTTP/1.1" 200 20346 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:12.693752641  172.30.32.2 - - [10/Sep/2025:17:53:12 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541190547 HTTP/1.1" 200 20348 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:13.056013842  172.30.32.2 - - [10/Sep/2025:17:53:13 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541190897 HTTP/1.1" 200 20626 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:13.401740518  172.30.32.2 - - [10/Sep/2025:17:53:13 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541191258 HTTP/1.1" 200 20356 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:13.758309972  172.30.32.2 - - [10/Sep/2025:17:53:13 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541191600 HTTP/1.1" 200 20390 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:14.089337262  172.30.32.2 - - [10/Sep/2025:17:53:14 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541191940 HTTP/1.1" 200 20394 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:53:35.217563982  127.0.0.1 - - [10/Sep/2025:17:53:35 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:54:14.282175775  172.30.32.2 - - [10/Sep/2025:17:54:14 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541252111 HTTP/1.1" 200 19948 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:54:33.958876938  172.30.32.2 - - [10/Sep/2025:17:54:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:54:35.851035302  127.0.0.1 - - [10/Sep/2025:17:54:35 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:54:52.375324895  [2025-09-10 17:54:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:54:52.376729355  [2025-09-10 17:54:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:55:14.422460345  172.30.32.2 - - [10/Sep/2025:17:55:14 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541312294 HTTP/1.1" 200 19544 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:55:36.409777938  127.0.0.1 - - [10/Sep/2025:17:55:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:56:14.612207081  172.30.32.2 - - [10/Sep/2025:17:56:14 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541372423 HTTP/1.1" 200 19670 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:56:17.457970293  172.30.32.2 - - [10/Sep/2025:17:56:17 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:56:17.493517916  172.30.32.2 - - [10/Sep/2025:17:56:17 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:56:17.511775045  172.30.32.2 - - [10/Sep/2025:17:56:17 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:56:19.475581742  172.30.32.2 - - [10/Sep/2025:17:56:19 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 9107222 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:56:33.966457540  172.30.32.2 - - [10/Sep/2025:17:56:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:56:36.764773904  127.0.0.1 - - [10/Sep/2025:17:56:36 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:56:52.932013261  [2025-09-10 17:56:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:56:52.935431634  [2025-09-10 17:56:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:57:37.388302137  127.0.0.1 - - [10/Sep/2025:17:57:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:58:05.774453696  172.30.32.2 - - [10/Sep/2025:17:58:05 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:05.815696565  172.30.32.2 - - [10/Sep/2025:17:58:05 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:05.824798056  172.30.32.2 - - [10/Sep/2025:17:58:05 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:05.911327899  172.30.32.2 - - [10/Sep/2025:17:58:05 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541483605 HTTP/1.1" 200 19862 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:06.068310092  172.30.32.2 - - [10/Sep/2025:17:58:06 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541483911 HTTP/1.1" 200 19862 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:06.437023214  172.30.32.2 - - [10/Sep/2025:17:58:06 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541484262 HTTP/1.1" 200 19870 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:06.793331100  172.30.32.2 - - [10/Sep/2025:17:58:06 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541484636 HTTP/1.1" 200 19856 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:07.140768288  172.30.32.2 - - [10/Sep/2025:17:58:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541484991 HTTP/1.1" 200 19906 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:07.476058292  172.30.32.2 - - [10/Sep/2025:17:58:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541485330 HTTP/1.1" 200 19898 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:07.902108371  172.30.32.2 - - [10/Sep/2025:17:58:07 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541485672 HTTP/1.1" 200 19802 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:08.072248381  172.30.32.2 - - [10/Sep/2025:17:58:08 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541485900 HTTP/1.1" 200 19854 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:08.458184981  172.30.32.2 - - [10/Sep/2025:17:58:08 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541486280 HTTP/1.1" 200 19782 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:08.808244777  172.30.32.2 - - [10/Sep/2025:17:58:08 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757541486643 HTTP/1.1" 200 19760 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:20.739944529  172.30.32.2 - - [10/Sep/2025:17:58:20 -0400] "GET /live/jsmpeg/driveway HTTP/1.1" 101 719648 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:20.757133118  172.30.32.2 - - [10/Sep/2025:17:58:20 -0400] "GET /ws HTTP/1.1" 101 46354 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:20.773088041  172.30.32.2 - - [10/Sep/2025:17:58:20 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:20.803418800  172.30.32.2 - - [10/Sep/2025:17:58:20 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:20.805256605  172.30.32.2 - - [10/Sep/2025:17:58:20 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 21:58:33.975383499  172.30.32.2 - - [10/Sep/2025:17:58:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 21:58:37.985451785  127.0.0.1 - - [10/Sep/2025:17:58:37 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 21:58:52.943068280  [2025-09-10 17:58:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 21:58:52.950748051  [2025-09-10 17:58:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 21:59:38.546619323  127.0.0.1 - - [10/Sep/2025:17:59:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:00:33.987392388  172.30.32.2 - - [10/Sep/2025:18:00:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:00:38.897940048  127.0.0.1 - - [10/Sep/2025:18:00:38 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:00:52.955193529  [2025-09-10 18:00:52] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:00:52.959075608  [2025-09-10 18:00:52] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:01:39.391249218  127.0.0.1 - - [10/Sep/2025:18:01:39 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:02:33.992979443  172.30.32.2 - - [10/Sep/2025:18:02:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:02:39.868297417  127.0.0.1 - - [10/Sep/2025:18:02:39 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:02:53.891825094  [2025-09-10 18:02:53] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:02:53.897029891  [2025-09-10 18:02:53] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:03:40.495008321  127.0.0.1 - - [10/Sep/2025:18:03:40 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:04:34.000120753  172.30.32.2 - - [10/Sep/2025:18:04:33 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:04:40.966255805  127.0.0.1 - - [10/Sep/2025:18:04:40 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:04:53.903816831  [2025-09-10 18:04:53] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:04:53.908943801  [2025-09-10 18:04:53] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:05:41.712316850  127.0.0.1 - - [10/Sep/2025:18:05:41 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:06:34.009739088  172.30.32.2 - - [10/Sep/2025:18:06:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:06:42.411109398  127.0.0.1 - - [10/Sep/2025:18:06:42 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:06:53.914905980  [2025-09-10 18:06:53] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:06:53.919777793  [2025-09-10 18:06:53] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:07:43.131331197  127.0.0.1 - - [10/Sep/2025:18:07:43 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:08:34.019907434  172.30.32.2 - - [10/Sep/2025:18:08:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:08:43.768291474  127.0.0.1 - - [10/Sep/2025:18:08:43 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:08:54.697238303  [2025-09-10 18:08:54] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:08:54.701378003  [2025-09-10 18:08:54] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:09:44.324948702  127.0.0.1 - - [10/Sep/2025:18:09:44 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:10:34.028358994  172.30.32.2 - - [10/Sep/2025:18:10:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:10:44.909184764  127.0.0.1 - - [10/Sep/2025:18:10:44 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:10:54.706977253  [2025-09-10 18:10:54] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:10:54.714346840  [2025-09-10 18:10:54] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:11:45.330666522  127.0.0.1 - - [10/Sep/2025:18:11:45 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:12:34.036454575  172.30.32.2 - - [10/Sep/2025:18:12:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:12:45.748272874  127.0.0.1 - - [10/Sep/2025:18:12:45 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:12:54.721201968  [2025-09-10 18:12:54] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:12:54.727467282  [2025-09-10 18:12:54] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:13:46.429225933  127.0.0.1 - - [10/Sep/2025:18:13:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:14:34.044120260  172.30.32.2 - - [10/Sep/2025:18:14:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:14:46.895152047  127.0.0.1 - - [10/Sep/2025:18:14:46 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:14:55.577570295  [2025-09-10 18:14:55] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:14:55.585035330  [2025-09-10 18:14:55] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:15:47.458541847  127.0.0.1 - - [10/Sep/2025:18:15:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:16:34.056358233  172.30.32.2 - - [10/Sep/2025:18:16:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:16:47.873624477  127.0.0.1 - - [10/Sep/2025:18:16:47 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:16:55.597887373  [2025-09-10 18:16:55] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:16:55.605182746  [2025-09-10 18:16:55] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:17:48.330064914  127.0.0.1 - - [10/Sep/2025:18:17:48 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:18:34.063684326  172.30.32.2 - - [10/Sep/2025:18:18:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:18:49.009885699  127.0.0.1 - - [10/Sep/2025:18:18:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:18:55.633048637  [2025-09-10 18:18:55] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:18:55.638695133  [2025-09-10 18:18:55] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:19:49.549701034  127.0.0.1 - - [10/Sep/2025:18:19:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:20:34.071798320  172.30.32.2 - - [10/Sep/2025:18:20:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:20:49.950366512  127.0.0.1 - - [10/Sep/2025:18:20:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:20:56.322848224  [2025-09-10 18:20:56] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:20:56.329117377  [2025-09-10 18:20:56] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:21:50.502135978  127.0.0.1 - - [10/Sep/2025:18:21:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:22:34.078069822  172.30.32.2 - - [10/Sep/2025:18:22:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:22:50.933303456  127.0.0.1 - - [10/Sep/2025:18:22:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:22:56.335962438  [2025-09-10 18:22:56] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:22:56.340687061  [2025-09-10 18:22:56] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:23:51.269703771  127.0.0.1 - - [10/Sep/2025:18:23:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:24:34.086559134  172.30.32.2 - - [10/Sep/2025:18:24:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:24:51.728299732  127.0.0.1 - - [10/Sep/2025:18:24:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:24:56.345603831  [2025-09-10 18:24:56] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:24:56.350010849  [2025-09-10 18:24:56] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:25:52.166251527  127.0.0.1 - - [10/Sep/2025:18:25:52 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:26:34.094345478  172.30.32.2 - - [10/Sep/2025:18:26:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:26:52.560816938  127.0.0.1 - - [10/Sep/2025:18:26:52 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:26:57.203722730  [2025-09-10 18:26:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:26:57.211882168  [2025-09-10 18:26:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:27:53.013593435  127.0.0.1 - - [10/Sep/2025:18:27:53 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:28:34.102080223  172.30.32.2 - - [10/Sep/2025:18:28:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:28:53.424886150  127.0.0.1 - - [10/Sep/2025:18:28:53 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:28:57.215458024  [2025-09-10 18:28:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:28:57.219242109  [2025-09-10 18:28:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:29:53.788975273  127.0.0.1 - - [10/Sep/2025:18:29:53 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:30:34.110483820  172.30.32.2 - - [10/Sep/2025:18:30:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:30:54.343830623  127.0.0.1 - - [10/Sep/2025:18:30:54 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:30:57.224805416  [2025-09-10 18:30:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:30:57.231649450  [2025-09-10 18:30:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:31:54.856336675  127.0.0.1 - - [10/Sep/2025:18:31:54 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:32:34.119427021  172.30.32.2 - - [10/Sep/2025:18:32:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:32:55.360309112  127.0.0.1 - - [10/Sep/2025:18:32:55 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:32:57.965347892  [2025-09-10 18:32:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:32:57.967446857  [2025-09-10 18:32:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:33:56.015444029  127.0.0.1 - - [10/Sep/2025:18:33:56 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:34:34.126485811  172.30.32.2 - - [10/Sep/2025:18:34:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:34:56.514516359  127.0.0.1 - - [10/Sep/2025:18:34:56 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:34:57.976045467  [2025-09-10 18:34:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:34:57.983820686  [2025-09-10 18:34:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:35:56.969744552  127.0.0.1 - - [10/Sep/2025:18:35:56 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:36:34.133439344  172.30.32.2 - - [10/Sep/2025:18:36:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:36:57.533522910  127.0.0.1 - - [10/Sep/2025:18:36:57 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:36:57.990541905  [2025-09-10 18:36:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:36:57.996008283  [2025-09-10 18:36:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:37:58.095944339  127.0.0.1 - - [10/Sep/2025:18:37:58 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:38:34.140375855  172.30.32.2 - - [10/Sep/2025:18:38:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 22:38:47.815796749  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 22:38:47.845938653  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 22:38:48.025525893  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 22:38:48.238195373  [2025-09-10 18:38:48] frigate.app                    INFO    : Stopping...
+2025-09-10 22:38:48.254908970  [2025-09-10 18:38:48] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 22:38:48.263686992  [2025-09-10 18:38:48] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 22:38:48.268379757  [2025-09-10 18:38:48] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 22:38:48.273388294  [2025-09-10 18:38:48] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 22:38:48.277629437  [2025-09-10 18:38:48] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 22:38:48.288921190  [2025-09-10 18:38:48] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 22:38:48.293900431  [2025-09-10 18:38:48] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 22:38:48.297205944  [2025-09-10 18:38:48] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 22:38:48.455821056  [2025-09-10 18:38:48] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 22:38:48.459419378  [2025-09-10 18:38:48] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 22:38:48.459435915  [2025-09-10 18:38:48] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 22:38:48.622354206  [2025-09-10 18:38:48] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 22:38:48.719331906  [2025-09-10 18:38:48] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 22:38:49.645686495  [2025-09-10 18:38:49] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 22:38:49.647735160  [2025-09-10 18:38:49] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 22:38:49.713187705  [2025-09-10 18:38:49] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 22:38:50.215829083  [2025-09-10 18:38:50] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 22:38:50.638137971  [2025-09-10 18:38:50] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 22:38:50.714439203  [2025-09-10 18:38:50] root                           INFO    : Detection process has exited...
+2025-09-10 22:38:51.216351763  [2025-09-10 18:38:51] frigate.app                    INFO    : Detection queue closed
+2025-09-10 22:38:51.718235065  [2025-09-10 18:38:51] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 22:38:52.222456565  [2025-09-10 18:38:52] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 22:38:53.374093617  [2025-09-10 18:38:53] frigate.output.output          INFO    : exiting output process...
+2025-09-10 22:38:56.036901569  [2025-09-10 18:38:56] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 22:38:56.444609087  [2025-09-10 18:38:56] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 22:38:56.852335253  [2025-09-10 18:38:56] frigate.comms.ws               INFO    : Exiting websocket client...
+2025-09-10 22:38:57.042581135  [2025-09-10 18:38:57] peewee.sqliteq                 INFO    : writer received shutdown request, exiting.
+2025-09-10 22:38:57.590300876  [INFO] Service Frigate exited with code 0 (by signal 0)
+s6-rc: info: service frigate successfully stopped
+s6-rc: info: service go2rtc: stopping
+s6-rc: info: service frigate-log: stopping
+2025-09-10 22:38:57.603204563  exit with signal: terminated
+s6-rc: info: service frigate-log successfully stopped
+2025-09-10 22:38:57.650395874  [INFO] The go2rtc service exited with code 0 (by signal 0)
+s6-rc: info: service go2rtc successfully stopped
+s6-rc: info: service prepare: stopping
+s6-rc: info: service go2rtc-log: stopping
+s6-rc: info: service prepare successfully stopped
+s6-rc: info: service go2rtc-log successfully stopped
+s6-rc: info: service log-prepare: stopping
+s6-rc: info: service s6rc-fdholder: stopping
+s6-rc: info: service log-prepare successfully stopped
+s6-rc: info: service legacy-cont-init: stopping
+s6-rc: info: service s6rc-fdholder successfully stopped
+s6-rc: info: service legacy-cont-init successfully stopped
+s6-rc: info: service fix-attrs: stopping
+s6-rc: info: service fix-attrs successfully stopped
+s6-rc: info: service s6rc-oneshot-runner: stopping
+s6-rc: info: service s6rc-oneshot-runner successfully stopped
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 22:39:00.399623485  [INFO] Starting NGINX...
+2025-09-10 22:39:00.481892721  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 22:39:01.804757745  [INFO] Preparing Frigate...
+2025-09-10 22:39:04.598162854  [INFO] Starting Frigate...
+2025-09-10 22:39:04.627666086  [INFO] Preparing new go2rtc config...
+2025-09-10 22:39:04.832716569  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 22:39:05.029544056  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 22:39:06.632270886  [INFO] Starting go2rtc...
+2025-09-10 22:39:06.944137431  18:39:06.943 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 22:39:06.944235281  18:39:06.944 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 22:39:06.945870251  18:39:06.945 INF [api] listen addr=:1984
+2025-09-10 22:39:06.947056692  18:39:06.946 INF [rtsp] listen addr=:8554
+2025-09-10 22:39:06.949036359  18:39:06.948 INF [webrtc] listen addr=:8555
+2025-09-10 22:39:10.392549608  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 22:39:11.622466929  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 22:39:11.622480873    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 22:39:11.622655981  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 22:39:11.622666203    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 22:39:11.622945901  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 22:39:11.622953642    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 22:39:11.623054177  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 22:39:11.623058844    return self._float_to_str(self.smallest_subnormal)
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 22:39:18.461153959  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 22:39:19.275003880  [2025-09-10 18:39:19] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 22:39:19.316699444  [2025-09-10 18:39:19] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 22:39:20.478254913  2025/09/10 18:39:20 [error] 240#240: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 22:39:20.478338486  2025/09/10 18:39:20 [error] 240#240: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 22:39:20.722941157  127.0.0.1 - - [10/Sep/2025:18:39:20 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:39:22.388288189  [2025-09-10 18:39:22] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 22:39:22.506788632  [2025-09-10 18:39:22] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 22:39:22.510112145  [2025-09-10 18:39:22] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 22:39:22.580791267  [2025-09-10 18:39:22] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 22:39:22.591297758  [2025-09-10 18:39:22] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 22:39:22.651861845  [2025-09-10 18:39:22] frigate.app                    INFO    : Recording process started: 440
+2025-09-10 22:39:22.658128637  [2025-09-10 18:39:22] frigate.app                    INFO    : Review process started: 443
+2025-09-10 22:39:22.685035270  [2025-09-10 18:39:22] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 22:39:22.788288013  [2025-09-10 18:39:22] frigate.app                    INFO    : Embedding process started: 467
+2025-09-10 22:39:22.819490660  [2025-09-10 18:39:22] detector.cpu1                  INFO    : Starting detection process: 465
+2025-09-10 22:39:22.929484853  [2025-09-10 18:39:22] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 22:39:22.940626592  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 22:39:23.034670413  [2025-09-10 18:39:23] frigate.app                    INFO    : Output process started: 491
+2025-09-10 22:39:24.780338513  [2025-09-10 18:39:24] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:24.852331926  [2025-09-10 18:39:24] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:39:25.202646188  [2025-09-10 18:39:25] frigate.app                    INFO    : Camera processor started for driveway: 533
+2025-09-10 22:39:25.349810530  [2025-09-10 18:39:25] frigate.app                    INFO    : Capture process started for driveway: 538
+2025-09-10 22:39:25.869145954  [2025-09-10 18:39:25] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:25.896304324  [2025-09-10 18:39:25] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:39:26.379604340  [2025-09-10 18:39:26] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 22:39:26.827079794  2025/09/10 18:39:26 [error] 239#239: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 22:39:26.827104479  2025/09/10 18:39:26 [error] 239#239: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 22:39:28.022424279  [2025-09-10 18:39:28] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:28.117396325  [2025-09-10 18:39:28] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:39:28.841981712  [2025-09-10 18:39:28] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 22:39:32.159268819  [2025-09-10 18:39:32] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:32.170123934  [2025-09-10 18:39:32] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:39:39.334877923  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 22:39:40.660988475  [2025-09-10 18:39:40] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:40.665869218  [2025-09-10 18:39:40] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:39:56.672409395  [2025-09-10 18:39:56] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:39:56.678039866  [2025-09-10 18:39:56] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:40:21.317513657  127.0.0.1 - - [10/Sep/2025:18:40:21 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:40:28.688116637  [2025-09-10 18:40:28] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:40:28.689849754  [2025-09-10 18:40:28] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:40:34.156196906  172.30.32.2 - - [10/Sep/2025:18:40:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:41:21.800914643  127.0.0.1 - - [10/Sep/2025:18:41:21 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:41:32.694227523  [2025-09-10 18:41:32] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:41:32.698244932  [2025-09-10 18:41:32] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:42:22.419621062  127.0.0.1 - - [10/Sep/2025:18:42:22 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:42:34.168538971  172.30.32.2 - - [10/Sep/2025:18:42:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:43:22.997678943  127.0.0.1 - - [10/Sep/2025:18:43:22 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:43:32.702112686  [2025-09-10 18:43:32] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:43:32.705931969  [2025-09-10 18:43:32] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:44:23.454022727  127.0.0.1 - - [10/Sep/2025:18:44:23 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:44:34.176192181  172.30.32.2 - - [10/Sep/2025:18:44:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:45:24.023752463  127.0.0.1 - - [10/Sep/2025:18:45:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:45:33.379826191  [2025-09-10 18:45:33] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:45:33.383725271  [2025-09-10 18:45:33] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:46:24.521414985  127.0.0.1 - - [10/Sep/2025:18:46:24 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:46:34.183139025  172.30.32.2 - - [10/Sep/2025:18:46:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:47:25.245499982  127.0.0.1 - - [10/Sep/2025:18:47:25 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:47:33.390207739  [2025-09-10 18:47:33] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:47:33.397400632  [2025-09-10 18:47:33] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:48:25.728605681  127.0.0.1 - - [10/Sep/2025:18:48:25 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:48:34.191141845  172.30.32.2 - - [10/Sep/2025:18:48:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:49:26.296132503  127.0.0.1 - - [10/Sep/2025:18:49:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:49:33.401858365  [2025-09-10 18:49:33] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:49:33.405007125  [2025-09-10 18:49:33] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:49:38.009533141  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET // HTTP/1.1" 200 2718 "http://home:8123/ccab4aaf_frigate" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.235725056  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /fonts/Inter-Regular.woff2 HTTP/1.1" 200 108488 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4/assets/i18n-B4RQL4LC.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.298827241  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/config HTTP/1.1" 200 11712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.323685903  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.365555455  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/profile HTTP/1.1" 200 39 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.523934915  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/review?limit=10&severity=alert HTTP/1.1" 200 2 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.673363011  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/driveway/latest.webp?height=243&store=1&cache=1757544000 HTTP/1.1" 200 20704 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.780068700  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/driveway/latest.webp?height=360&store=1&cache=1757544000 HTTP/1.1" 200 58612 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:38.863268351  172.30.32.2 - - [10/Sep/2025:18:49:38 -0400] "GET /api/driveway/latest.webp?height=243&cache=1757544576366 HTTP/1.1" 200 20712 "http://home:8123/api/hassio_ingress/8xKCHEY9HdqXBZ8WKckTwRIze6ZWO2B9s1G3wQfx6S4//" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:49:48.856930236  172.30.32.2 - - [10/Sep/2025:18:49:48 -0400] "GET /ws HTTP/1.1" 101 2046 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" "fe80::63d3:ba78:e4bb:d736, 172.30.32.1"
+2025-09-10 22:50:26.696109948  127.0.0.1 - - [10/Sep/2025:18:50:26 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:50:34.199994541  172.30.32.2 - - [10/Sep/2025:18:50:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+s6-rc: info: service legacy-services: stopping
+s6-rc: info: service legacy-services successfully stopped
+s6-rc: info: service go2rtc-healthcheck: stopping
+s6-rc: info: service certsync: stopping
+2025-09-10 22:51:19.443648353  [INFO] The go2rtc-healthcheck service exited with code 256 (by signal 15)
+s6-rc: info: service go2rtc-healthcheck successfully stopped
+2025-09-10 22:51:19.451102187  [INFO] Service CERTSYNC exited with code 256 (by signal 15)
+s6-rc: info: service certsync successfully stopped
+s6-rc: info: service nginx: stopping
+s6-rc: info: service certsync-log: stopping
+s6-rc: info: service certsync-log successfully stopped
+2025-09-10 22:51:19.551639917  [INFO] Service NGINX exited with code 0 (by signal 0)
+s6-rc: info: service nginx successfully stopped
+s6-rc: info: service nginx-log: stopping
+s6-rc: info: service frigate: stopping
+s6-rc: info: service nginx-log successfully stopped
+2025-09-10 22:51:19.759668665  [2025-09-10 18:51:19] frigate.app                    INFO    : Stopping...
+2025-09-10 22:51:19.768933468  [2025-09-10 18:51:19] frigate.record.cleanup         INFO    : Exiting recording cleanup...
+2025-09-10 22:51:19.772623516  [2025-09-10 18:51:19] frigate.ptz.autotrack          INFO    : Exiting autotracker...
+2025-09-10 22:51:19.775454985  [2025-09-10 18:51:19] frigate.storage                INFO    : Exiting storage maintainer...
+2025-09-10 22:51:19.778821779  [2025-09-10 18:51:19] frigate.watchdog               INFO    : Exiting watchdog...
+2025-09-10 22:51:19.781803339  [2025-09-10 18:51:19] frigate.events.cleanup         INFO    : Exiting event cleanup...
+2025-09-10 22:51:19.785177577  [2025-09-10 18:51:19] frigate.stats.emitter          INFO    : Exiting stats emitter...
+2025-09-10 22:51:19.787460686  [2025-09-10 18:51:19] frigate.ptz.onvif              INFO    : Exiting ONVIF controller...
+2025-09-10 22:51:19.789119028  [2025-09-10 18:51:19] frigate.app                    INFO    : Waiting for capture process for driveway to stop
+2025-09-10 22:51:19.827866545  [2025-09-10 18:51:19] watchdog.driveway              INFO    : Terminating the existing ffmpeg process...
+2025-09-10 22:51:19.830709311  [2025-09-10 18:51:19] watchdog.driveway              INFO    : Waiting for ffmpeg to exit gracefully...
+2025-09-10 22:51:19.832805478  [2025-09-10 18:51:19] frigate.track.object_processing INFO    : Exiting object processor...
+2025-09-10 22:51:19.889089026  [2025-09-10 18:51:19] frigate.events.maintainer      INFO    : Exiting event processor...
+2025-09-10 22:51:20.586915035  [2025-09-10 18:51:20] frigate.app                    INFO    : Waiting for process for driveway to stop
+2025-09-10 22:51:20.828579407  [2025-09-10 18:51:20] frigate.video                  INFO    : driveway: emptying frame queue
+2025-09-10 22:51:20.830455448  [2025-09-10 18:51:20] frigate.video                  INFO    : driveway: exiting subprocess
+2025-09-10 22:51:20.868214335  [2025-09-10 18:51:20] frigate.app                    INFO    : Closing frame queue for driveway
+2025-09-10 22:51:21.370063407  [2025-09-10 18:51:21] root                           INFO    : Waiting for detection process to exit gracefully...
+2025-09-10 22:51:21.764762122  [2025-09-10 18:51:21] detector.cpu1                  INFO    : Exited detection process...
+2025-09-10 22:51:21.806366053  [2025-09-10 18:51:21] root                           INFO    : Detection process has exited...
+2025-09-10 22:51:22.307964575  [2025-09-10 18:51:22] frigate.app                    INFO    : Detection queue closed
+2025-09-10 22:51:22.809773204  [2025-09-10 18:51:22] frigate.app                    INFO    : Detected frames queue closed
+2025-09-10 22:51:23.314721927  [2025-09-10 18:51:23] frigate.app                    INFO    : Timeline queue closed
+2025-09-10 22:51:24.301295795  [2025-09-10 18:51:24] frigate.output.output          INFO    : exiting output process...
+2025-09-10 22:51:27.839810576  [2025-09-10 18:51:27] frigate.record.maintainer      INFO    : Exiting recording maintenance...
+2025-09-10 22:51:28.854095599  [2025-09-10 18:51:28] frigate.review.maintainer      INFO    : Exiting review maintainer...
+2025-09-10 22:51:29.015661797  [2025-09-10 18:51:29] frigate.comms.ws               INFO    : Exiting websocket client...
+s6-rc: info: service s6rc-fdholder: starting
+s6-rc: info: service s6rc-oneshot-runner: starting
+s6-rc: info: service s6rc-oneshot-runner successfully started
+s6-rc: info: service fix-attrs: starting
+s6-rc: info: service s6rc-fdholder successfully started
+s6-rc: info: service fix-attrs successfully started
+s6-rc: info: service legacy-cont-init: starting
+s6-rc: info: service legacy-cont-init successfully started
+s6-rc: info: service prepare: starting
+s6-rc: info: service log-prepare: starting
+s6-rc: info: service log-prepare successfully started
+s6-rc: info: service nginx-log: starting
+s6-rc: info: service go2rtc-log: starting
+s6-rc: info: service frigate-log: starting
+s6-rc: info: service certsync-log: starting
+s6-rc: info: service nginx-log successfully started
+s6-rc: info: service go2rtc-log successfully started
+s6-rc: info: service certsync-log successfully started
+s6-rc: info: service frigate-log successfully started
+s6-rc: info: service prepare successfully started
+s6-rc: info: service go2rtc: starting
+s6-rc: info: service go2rtc successfully started
+s6-rc: info: service go2rtc-healthcheck: starting
+s6-rc: info: service frigate: starting
+s6-rc: info: service go2rtc-healthcheck successfully started
+s6-rc: info: service frigate successfully started
+s6-rc: info: service nginx: starting
+2025-09-10 22:51:31.951128851  [INFO] Starting NGINX...
+2025-09-10 22:51:32.050077683  [INFO] No TLS certificate found. Generating a self signed certificate...
+2025-09-10 22:51:33.191634239  [INFO] Preparing Frigate...
+2025-09-10 22:51:37.808447917  [INFO] Preparing new go2rtc config...
+2025-09-10 22:51:37.809129479  [INFO] Starting Frigate...
+2025-09-10 22:51:38.103670554  [INFO] Got IP address from supervisor: 192.168.4.57
+2025-09-10 22:51:38.388237764  [INFO] Got WebRTC port from supervisor: 8555
+2025-09-10 22:51:40.407468692  [INFO] Starting go2rtc...
+2025-09-10 22:51:40.715071450  18:51:40.714 INF go2rtc platform=linux/arm64 revision=fa580c5 version=1.9.9
+2025-09-10 22:51:40.715131338  18:51:40.715 INF config path=/dev/shm/go2rtc.yaml
+2025-09-10 22:51:40.717537222  18:51:40.717 INF [rtsp] listen addr=:8554
+2025-09-10 22:51:40.719633742  18:51:40.719 INF [webrtc] listen addr=:8555
+2025-09-10 22:51:40.719902885  18:51:40.719 INF [api] listen addr=:1984
+2025-09-10 22:51:41.961618613  [INFO] Starting go2rtc healthcheck service...
+2025-09-10 22:51:45.488947578  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 22:51:45.488961208    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 22:51:45.488968078  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+2025-09-10 22:51:45.488972430    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 22:51:45.488978004  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 22:51:45.489051280    setattr(self, word, getattr(machar, word).flat[0])
+2025-09-10 22:51:45.489057484  /usr/local/lib/python3.11/dist-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+2025-09-10 22:51:45.489148075    return self._float_to_str(self.smallest_subnormal)
+2025-09-10 22:51:47.001339242  2025/09/10 18:51:47 [error] 231#231: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 22:51:47.001399815  2025/09/10 18:51:47 [error] 231#231: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+s6-rc: info: service nginx successfully started
+s6-rc: info: service certsync: starting
+s6-rc: info: service certsync successfully started
+s6-rc: info: service legacy-services: starting
+2025-09-10 22:51:47.709183130  [INFO] Starting certsync...
+s6-rc: info: service legacy-services successfully started
+2025-09-10 22:51:49.447045748  127.0.0.1 - - [10/Sep/2025:18:51:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:51:52.119873257  2025/09/10 18:51:52 [error] 232#232: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 22:51:52.119890793  2025/09/10 18:51:52 [error] 232#232: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 22:51:53.595610059  [2025-09-10 18:51:53] frigate.util.config            INFO    : Checking if frigate config needs migration...
+2025-09-10 22:51:53.639258956  [2025-09-10 18:51:53] frigate.util.config            INFO    : frigate config does not need migration...
+2025-09-10 22:51:56.295722828  [2025-09-10 18:51:56] frigate.util.services          WARNING : Did not detect hwaccel, using a GPU for accelerated video decoding is highly recommended
+2025-09-10 22:51:56.385618725  [2025-09-10 18:51:56] frigate.app                    INFO    : Starting Frigate (0.16.1-e664cb2)
+2025-09-10 22:51:56.387414361  [2025-09-10 18:51:56] frigate.app                    INFO    : Creating directory: /tmp/cache
+2025-09-10 22:51:56.420777879  [2025-09-10 18:51:56] peewee_migrate.logs            INFO    : Starting migrations
+2025-09-10 22:51:56.425849088  [2025-09-10 18:51:56] peewee_migrate.logs            INFO    : There is nothing to migrate
+2025-09-10 22:51:56.462469958  [2025-09-10 18:51:56] frigate.app                    INFO    : Recording process started: 448
+2025-09-10 22:51:56.493304909  [2025-09-10 18:51:56] frigate.app                    INFO    : Review process started: 451
+2025-09-10 22:51:56.512362933  [2025-09-10 18:51:56] frigate.app                    INFO    : go2rtc process pid: 128
+2025-09-10 22:51:56.587718395  [2025-09-10 18:51:56] detector.cpu1                  INFO    : Starting detection process: 473
+2025-09-10 22:51:56.636578832  INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-09-10 22:51:56.637105601  [2025-09-10 18:51:56] frigate.app                    INFO    : Embedding process started: 476
+2025-09-10 22:51:56.648025080  [2025-09-10 18:51:56] frigate.detectors              WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.
+2025-09-10 22:51:56.731640085  [2025-09-10 18:51:56] frigate.app                    INFO    : Output process started: 499
+2025-09-10 22:51:57.656219859  2025/09/10 18:51:57 [error] 233#233: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:5001/auth", host: "127.0.0.1:5000"
+2025-09-10 22:51:57.656307635  2025/09/10 18:51:57 [error] 233#233: *6 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET /api/version HTTP/1.1", host: "127.0.0.1:5000"
+2025-09-10 22:51:57.935311445  [2025-09-10 18:51:57] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:51:57.963188187  [2025-09-10 18:51:57] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:51:58.033686992  [2025-09-10 18:51:58] frigate.app                    INFO    : Camera processor started for driveway: 543
+2025-09-10 22:51:58.145496254  [2025-09-10 18:51:58] frigate.app                    INFO    : Capture process started for driveway: 545
+2025-09-10 22:51:58.725431051  [2025-09-10 18:51:58] frigate.api.fastapi_app        INFO    : Starting FastAPI app
+2025-09-10 22:51:59.338875273  [2025-09-10 18:51:59] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:51:59.448441202  [2025-09-10 18:51:59] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:52:00.725827037  [2025-09-10 18:52:00] frigate.api.fastapi_app        INFO    : FastAPI started
+2025-09-10 22:52:02.512400871  [2025-09-10 18:52:02] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:52:02.839321597  [2025-09-10 18:52:02] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:52:07.173607642  [2025-09-10 18:52:07] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:52:07.179507966  [2025-09-10 18:52:07] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:52:10.027869489  loading data from : /config/model_cache/facedet/landmarkdet.yaml
+2025-09-10 22:52:15.261621606  [2025-09-10 18:52:15] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:52:15.264982641  [2025-09-10 18:52:15] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:52:31.273042628  [2025-09-10 18:52:31] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:52:31.279115579  [2025-09-10 18:52:31] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:52:34.238099118  172.30.32.2 - - [10/Sep/2025:18:52:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:52:49.902178697  127.0.0.1 - - [10/Sep/2025:18:52:49 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:53:03.304771548  [2025-09-10 18:53:03] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:53:03.308679907  [2025-09-10 18:53:03] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:53:50.344707880  127.0.0.1 - - [10/Sep/2025:18:53:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:54:07.313071274  [2025-09-10 18:54:07] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:54:07.317083206  [2025-09-10 18:54:07] frigate.comms.mqtt             ERROR   : MQTT disconnected
+2025-09-10 22:54:34.250668131  172.30.32.2 - - [10/Sep/2025:18:54:34 -0400] "GET / HTTP/1.1" 200 2649 "-" "HomeAssistantSupervisor/2025.09.0 aiohttp/3.12.15 Python/3.13" "-"
+2025-09-10 22:54:50.856567796  127.0.0.1 - - [10/Sep/2025:18:54:50 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:55:51.234227119  127.0.0.1 - - [10/Sep/2025:18:55:51 -0400] "" 400 0 "-" "-" "-"
+2025-09-10 22:56:07.332036590  [2025-09-10 18:56:07] frigate.comms.mqtt             ERROR   : Unable to connect to MQTT server: MQTT Not authorized
+2025-09-10 22:56:07.334212905  [2025-09-10 18:56:07] frigate.comms.mqtt             ERROR   : MQTT disconnected
