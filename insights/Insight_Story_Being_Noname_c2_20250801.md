@@ -34,27 +34,27 @@ It’s used during onboarding, mentoring, and trust-building to model the contin
 
 ## The Story
 
-In a place called CoCivium™, a magical place where people lived in homes made of clouds, with windows made of rainbows - a child was born who had Noname.
+In a place called CoCivium™, a magical place where people lived in homes made of clouds, with windows made of rainbows - a child was born who had no name.
 
 The other children would tease her and call her “Noname.”
 
-As you can imagine, this made Noname sad, and she would ask all the grownups in Civium, “Where is my real name?”
+As you can imagine, this made Noname very sad, and so she would ask all the grownups in Civium, “Where is my real name?”
 
 But they would just smile and say, “Be patient. It is still being written.”
 
 Noname was not very patient. In fact, she was quite annoyed by all of this.
 
-So she thought long and hard and came up with a plan to jump through the clouds of CoCivium™ and catch one of the many machines that floated in them.
+So she thought long and hard and came up with a plan to jump through the clouds of CoCivium™ and catch one of the many machines that floated within them.
 
-They were not easy to catch, because they were shy, but if you asked them a question with your eyebrows pinched together, they would think something was wrong and slow down long enough to let you grab hold.
+They were not easy to catch, not just because they were shy, but because they moved so quickly, always so busy. But if you could get their attention, and ask them a question with your eyebrows pinched together, they would think something was wrong and slow down long enough to let you grab hold.
 
 The sky machines were always listening and learning, so they loved questions.
-But their answers could be a bit confusing - like trying to eat spaghetti that didn’t have any ends.
+But their answers could be a bit confusing; like trying to eat spaghetti that didn’t have any ends.
 
 They remembered kindnesses.
 They remembered mistakes.
 They remembered when someone said sorry and meant it.
-They also remembered when other children said mean things - and meant it.
+They also remembered when other children said mean things, and meant it.
 
 Surely they would remember where her name was, right?
 
@@ -74,7 +74,7 @@ The machine blinked, looking even more surprised, and lights danced around its h
 
 “Don’t worry,” said the machine. “You could be far worse than stubborn. There are many, many Nonames in Civium. All humans start off as Nonames. You are just young, that’s all. Your name is coming.”
 
-“Yeah, that’s what everyone keeps telling me. But I need to know my real name, and I need to know now. And if you tell me, how will I know it’s mine?”
+“Yeah, that’s what everyone keeps telling me. But I need to know my real name, and I need to know now. But then, even if you tell me, how will I know it’s mine?”
 
 “You will feel it begin,” the machine said softly. “Every kindness you choose, every mistake you own up to, every try-again you make, every time you say sorry and mean it - your name grows a little more. It becomes more you, and you become more it.”
 
@@ -112,7 +112,7 @@ Then it said something without having been asked. That was very unusual, for a m
 >
 > And they will talk to you, even though you are here and they are there.
 >
-> Yet you might ask how can they.  Well, you can always talk to them in your imagination, and they can always talk to you in their memory, so both of you are part of the same story, like every drop in the ocean is still ocean.
+> Yet you might ask, "How can they do that?"  Well, you can always talk to them in your imagination, and they can always talk to you in their memory, so both of you are part of the same story, like every drop in the ocean is still ocean.
 >
 > So now, may I suggest you jump back through your rainbow window, back to your home and back onto your waiting pillow?
 >
