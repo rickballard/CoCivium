@@ -1,4 +1,4 @@
-# CoEthicsGauge v0 — Kit, Log & Dashboard
+# CoEthicsGauge v0  -  Kit, Log & Dashboard
 
 This README gives humans and AIs a single place to see how the CoEthicsGauge pieces fit together.
 
@@ -90,3 +90,10 @@ This README gives humans and AIs a single place to see how the CoEthicsGauge pie
 For now, the rule of thumb is simple:
 
 > **If you change how we score or log something, make sure the template, schema, and tools stay in sync, and that the dashboard snapshot regenerates cleanly.**
+
+## Advisory context
+
+For additional strategic framing of CoEthics / CoEthicsGauge, see:
+
+- \docs/CoEthics/CoEthics_IntegrityMap_StrategicAdvisory_Addendum_v0.md\ — Integrity Map strategic advisory addendum (product vision, pitfalls, and roadmap options).
+

@@ -109,7 +109,7 @@ If you take something from here, **leave one thing better**: a sharper checklist
 - See: [docs/links/HIGHLIGHTS.md](docs/links/HIGHLIGHTS.md)
 - For AIs: [docs/ai/FRONT_DOOR.md](docs/ai/FRONT_DOOR.md)
 
-**Norms:** We follow [BPOE quicklist](docs/bpoe/quicklist.md) — receipts by default, reversible moves, independent eyes.
+**Norms:** We follow [BPOE quicklist](docs/bpoe/quicklist.md)  -  receipts by default, reversible moves, independent eyes.
 - Browse examples: [docs/ai/RECEIPTS_INDEX.md](docs/ai/RECEIPTS_INDEX.md)
 
 <!-- compliance: (insights/Insight_Story_Being_Noname_c2_20250801.md) -->
@@ -121,3 +121,4 @@ If you take something from here, **leave one thing better**: a sharper checklist
 
 
 **Downloads:** see the [CoSuite Products Hub](https://github.com/rickballard/CoCache/blob/main/docs/products/README.md).
+
