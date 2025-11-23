@@ -4,12 +4,19 @@ Canonical stall-risk order: **WT → HU → CU → PU**.
 
 Console usage:
 ```powershell
-. .\tools\CoHeartbeat.ps1; & (Join-Path $PWD "tools\CoHeartbeat.ps1") -CU OK -PU OK -HU OK -WT OK
+# Use canonical helper from CoCache (cloned locally)
+$CC = Join-Path $HOME "Documents\GitHub\CoCache"
+. (Join-Path $CC "tools\CoHeartbeat.ps1")
+& (Join-Path $CC "tools\CoHeartbeat.ps1") -CU OK -PU SOFT -HU OK -WT OK -Out markdown
+Get-Content .cobloat_line.md
 ```
 
 Markdown drop (writes `.cobloat_line.md`):
 ```powershell
-. .\tools\CoHeartbeat.ps1; & (Join-Path $PWD "tools\CoHeartbeat.ps1") -CU OK -PU SOFT -HU SOFT -WT OK -Out markdown
+# Use canonical helper from CoCache (cloned locally)
+$CC = Join-Path $HOME "Documents\GitHub\CoCache"
+. (Join-Path $CC "tools\CoHeartbeat.ps1")
+& (Join-Path $CC "tools\CoHeartbeat.ps1") -CU OK -PU SOFT -HU OK -WT OK -Out markdown
 Get-Content .cobloat_line.md
 ```
 
