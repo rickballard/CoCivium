@@ -1,0 +1,1 @@
+Prompt→policy gate→DSL validator→sandbox→egress gate→persistence.

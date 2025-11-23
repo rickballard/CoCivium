@@ -1,0 +1,1 @@
+Policy proposal→review→publish→telemetry→red-team→update.
