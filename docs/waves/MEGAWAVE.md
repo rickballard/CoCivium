@@ -1,4 +1,4 @@
-# MegaWave — Canonical Wave Workflow
+# MegaWave  -  Canonical Wave Workflow
 
 **Goal:** Standardize “waves” (Megazip/AdviceBomb/ContentWave/…) as **manifested bundles** with **CI gates**, **receipts**, and **promotion lanes** across repos.
 
@@ -6,11 +6,11 @@
 - `advicebomb`, `contentwave`, `indexwave`, `assetwave` (extensible)
 
 ## Layout (zip or folder)
-- `_spanky/` — provenance, hashes
-- `payload/` — primary content
-- `notes/` — CoSync notes, human rationale
-- `receipts/` — VIOLET receipts, CI artifacts
-- `manifest/wave.manifest.json` — required schema
+- `_spanky/`  -  provenance, hashes
+- `payload/`  -  primary content
+- `notes/`  -  CoSync notes, human rationale
+- `receipts/`  -  VIOLET receipts, CI artifacts
+- `manifest/wave.manifest.json`  -  required schema
 
 ## Lifecycle
 draft → candidate → approved
@@ -32,3 +32,4 @@ draft → candidate → approved
 ## CoSync bus
 Every handoff writes a short note under `docs/intent/advice/notes/YYYYMMDD/CoSync_<UTCSTAMP>.md`
 with: wave id, type, PRs opened/merged, next steps.
+

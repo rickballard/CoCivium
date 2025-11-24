@@ -1,4 +1,4 @@
-# Asset A — Harmonious Intelligence under Constitutional Guardrails
+# Asset A  -  Harmonious Intelligence under Constitutional Guardrails
 
 **TL;DR:** Harmony = constraint-compatible plurality. CoCivium functions as a selection environment; agents “meld” constitutionally (rules, tests, reversible diffs), not via identity fusion. Treat CoCivium canon+tools+evals as the *operational extended self* (pinned by commit/sha), while human primacy and plural providers prevent monoculture.
 
@@ -31,3 +31,4 @@
 - **Harmonies Map (one-pager)** using the five rails.
 - **Falsifiable Bridge:** 3 predictions distinguishing central planning, laissez-faire, and constitutional meld.
 - **Classroom Pack Seed:** 45-min lesson outline with rubric.
+

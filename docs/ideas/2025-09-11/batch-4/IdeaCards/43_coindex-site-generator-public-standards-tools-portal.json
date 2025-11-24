@@ -1,5 +1,5 @@
 {
-  "title": "CoIndex Site Generator — Public Standards & Tools Portal",
+  "title": "CoIndex Site Generator  -  Public Standards & Tools Portal",
   "summary": "Static site generator that renders CivIndex (standards+tools registry) into an accessible portal with filters, badges, and vendor-neutral docs.",
   "rationale": "A public-facing site turns the registry into adoption fuel and creates accountability via visibility.",
   "impact": "Accelerates ecosystem uptake and gives a canonical reference for integrations.",

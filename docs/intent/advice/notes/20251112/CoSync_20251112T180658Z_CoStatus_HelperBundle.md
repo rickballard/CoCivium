@@ -1,4 +1,4 @@
-# CoSync — Suggestion: CoStatus HelperBundle (aggregated) (20251112T180658Z)
+# CoSync  -  Suggestion: CoStatus HelperBundle (aggregated) (20251112T180658Z)
 
 ## Intent
 Package the CoStatus line into a single, drop-in **HelperBundle** so sessions can call one API and get:
@@ -11,11 +11,11 @@ Package the CoStatus line into a single, drop-in **HelperBundle** so sessions ca
 
 ## Proposed bundle shape (suggestion; CoPrime to own/evolve)
 \	ools/heartbeat/CoStatusBundle/\
-- **CoStatus.API.ps1** — Show-CoStatus -Phase -Tier -TargetSec -Start -CU -PU -HU -WT (single entrypoint)
-- **CoStatus.Receipt.ps1** — Write-CoStatusReceipt -Line -Kind <phase> (ensures \eceipts\ path)
-- **CoStatus.SafePaths.ps1** — Get-ScriptRoot (handles empty $PSScriptRoot), Ensure-ReceiptsDir
-- **CoStatus.Examples.ps1** — minimal examples for DO_* scripts
-- **README.md** — quick adoption steps (one dot-source + two calls)
+- **CoStatus.API.ps1**  -  Show-CoStatus -Phase -Tier -TargetSec -Start -CU -PU -HU -WT (single entrypoint)
+- **CoStatus.Receipt.ps1**  -  Write-CoStatusReceipt -Line -Kind <phase> (ensures \eceipts\ path)
+- **CoStatus.SafePaths.ps1**  -  Get-ScriptRoot (handles empty $PSScriptRoot), Ensure-ReceiptsDir
+- **CoStatus.Examples.ps1**  -  minimal examples for DO_* scripts
+- **README.md**  -  quick adoption steps (one dot-source + two calls)
 
 > Sessions do:  
 > ./heartbeat/CoStatusBundle/CoStatus.API.ps1  

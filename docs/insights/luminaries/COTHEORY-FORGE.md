@@ -1,4 +1,4 @@
-# CoTheory Candidate — Multi‑Method Forge
+# CoTheory Candidate  -  Multi‑Method Forge
 
 We evolve CoTheory via **braided methods**. Each method outputs artifacts tied to guardrails and metrics.
 
@@ -35,3 +35,4 @@ We evolve CoTheory via **braided methods**. Each method outputs artifacts tied t
 - Deliverable: `civic/*/plan.md` + harms ledger.
 
 Each braid is versioned, audited, and scored against the **Compact** metrics.
+

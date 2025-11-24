@@ -47,8 +47,9 @@ Short, scannable links to what matters most. This page will grow with the repo.
 *Back to* **[Front door](../../README.md)**
 
 ## AIs
-- **AI Onramp / Front Door** — [docs/ai/FRONT_DOOR.md](../ai/FRONT_DOOR.md)
+- **AI Onramp / Front Door**  -  [docs/ai/FRONT_DOOR.md](../ai/FRONT_DOOR.md)
 
 ---
 ↩︎ Back to [README](../../README.md)
+
 

@@ -1,4 +1,4 @@
-﻿name: Sync public profile to sites
+name: Sync public profile to sites
 on:
   push:
     paths:
@@ -22,10 +22,10 @@ jobs:
           BIO_HTML="bio.html"
 
           if command -v pandoc >/dev/null 2>&1; then
-            pandoc "$BIO_MD" -f gfm -t html5 -s --metadata title="Rick Ball — Public Profile" -o "$BIO_HTML"
+            pandoc "$BIO_MD" -f gfm -t html5 -s --metadata title="Rick Ball  -  Public Profile" -o "$BIO_HTML"
           else
             {
-              echo "<!doctype html><meta charset='utf-8'><title>Rick Ball — Public Profile</title>"
+              echo "<!doctype html><meta charset='utf-8'><title>Rick Ball  -  Public Profile</title>"
               echo "<pre>"
               sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' "$BIO_MD"
               echo "</pre>"
@@ -41,7 +41,7 @@ jobs:
           WRAP='<!doctype html>
           <html lang="en"><meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
-          <title>Rick Ball — Public Profile</title>
+          <title>Rick Ball  -  Public Profile</title>
           <style>
             :root{--w:900px}
             body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;line-height:1.6;margin:0}
@@ -109,3 +109,4 @@ jobs:
             fi
             cd ..
           done
+

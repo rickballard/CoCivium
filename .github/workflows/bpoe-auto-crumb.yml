@@ -1,4 +1,4 @@
-﻿name: BPOE Auto Breadcrumb
+name: BPOE Auto Breadcrumb
 
 on:
   pull_request:
@@ -40,7 +40,7 @@ jobs:
             const dt = new Date().toISOString().slice(0,10);
             const slug = (title.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60)) || `pr-${number}`;
             const relPath = `docs/status/breadcrumbs/${dt}_pr-${number}-${slug}.md`;
-            const content = `# Breadcrumb — PR #${number}: ${title}
+            const content = `# Breadcrumb  -  PR #${number}: ${title}
 
 **Merged:** ${dt}
 **Author:** ${author}
@@ -69,3 +69,4 @@ ${changed}
         with:
           commit_message: "BPOE: auto breadcrumb for PR #${{ github.event.pull_request.number }}"
           file_pattern: docs/status/breadcrumbs/*.md
+

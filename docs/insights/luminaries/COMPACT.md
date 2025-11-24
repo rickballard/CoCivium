@@ -1,1 +1,2 @@
-# Compact — see v3; unchanged criteria, plus Forge metrics.
+# Compact  -  see v3; unchanged criteria, plus Forge metrics.
+

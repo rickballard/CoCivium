@@ -1,4 +1,4 @@
-# Asset B — Counter-Harmony & Red-Team Scenarios
+# Asset B  -  Counter-Harmony & Red-Team Scenarios
 
 **Claim:** Harmony can be maladaptive when it suppresses necessary dissent, creates brittle consensus, or invites capture.
 
@@ -20,3 +20,4 @@
 
 ## Prompt for the Luminaries
 - **Counter-Harmony (steelman):** “Write the strongest case against harmony and specify testable guardrails + rollback criteria.”
+

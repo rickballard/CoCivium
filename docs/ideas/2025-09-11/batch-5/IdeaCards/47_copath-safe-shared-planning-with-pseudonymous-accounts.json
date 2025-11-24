@@ -1,5 +1,5 @@
 {
-  "title": "CoPath — Safe Shared Planning with Pseudonymous Accounts",
+  "title": "CoPath  -  Safe Shared Planning with Pseudonymous Accounts",
   "summary": "Task graph + consent layers that let pseudonymous users and AIs co-plan without exposing real-world identity; integrates RepTag histories and role scoping.",
   "rationale": "Many contributors will only engage if they can partition identity from action while still building trust via intent history.",
   "impact": "Expands contributor pool, reduces chilling effects, and creates reliable intent trails without deanonymization.",

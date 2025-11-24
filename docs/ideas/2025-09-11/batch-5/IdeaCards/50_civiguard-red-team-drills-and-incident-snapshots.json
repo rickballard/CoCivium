@@ -1,5 +1,5 @@
 {
-  "title": "CiviGuard — Red-Team Drills & Incident Snapshots",
+  "title": "CiviGuard  -  Red-Team Drills & Incident Snapshots",
   "summary": "Recurring adversarial exercises (technical, process, narrative) with capture of minimal, privacy-preserving incident snapshots and public postmortems.",
   "rationale": "‘Practice the breach’ keeps us honest, strengthens culture, and generates artifacts for community learning.",
   "impact": "Fewer blind spots, faster incident response, and a healthier safety posture across products and protectorates.",
