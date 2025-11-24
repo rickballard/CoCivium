@@ -1,0 +1,10 @@
+name: smoke
+on:
+  push: {branches: ["**"]}
+  pull_request:
+  workflow_dispatch:
+jobs:
+  call:
+    uses: rickballard/CoCache/.github/workflows/bpoe-smoke.yml@main
+    with:
+      fail_external: false
