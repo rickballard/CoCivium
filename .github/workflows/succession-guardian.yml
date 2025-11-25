@@ -45,7 +45,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const title = 'Succession — Activation (Manifest v1.0)';
+            const title = 'Succession  -  Activation (Manifest v1.0)';
             const { data: existing } = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'succession'
             });
@@ -63,4 +63,5 @@ jobs:
               owner: context.repo.owner, repo: context.repo.repo,
               title, body, labels: ['succession','governance']
             });
+
 

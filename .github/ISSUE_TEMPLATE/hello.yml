@@ -1,5 +1,5 @@
 name: Hello CoCivium
-description: Say hi and what you care about—one line is enough.
+description: Say hi and what you care about - one line is enough.
 title: "Hello: <your name or alias>"
 labels: ["hello"]
 assignees: []
@@ -12,4 +12,5 @@ body:
       todo: "Hi, I’m <name>. I care about <thing>."
     validations:
       required: true
+
 

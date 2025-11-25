@@ -51,7 +51,8 @@ Poetry/quotation exemptions are allowed - see that file for how to mark them.
 ### README edit guards
 
 Some CI checks block README changes unless warranted. Maintainers may apply:
-- **readme-ok** — content edits that are reversible and backed by receipts
-- **name-pending-ok** — temporary bypass for Noname compliance grep
+- **readme-ok**  -  content edits that are reversible and backed by receipts
+- **name-pending-ok**  -  temporary bypass for Noname compliance grep
 
 Use sparingly and prefer small, auditable PRs.
+

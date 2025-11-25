@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Assemble megascroll
         run: |
-          echo "# CoHarmony — Megascroll (v4)" > docs/insights/luminaries/MEGASCROLL.md
+          echo "# CoHarmony  -  Megascroll (v4)" > docs/insights/luminaries/MEGASCROLL.md
           echo "" >> docs/insights/luminaries/MEGASCROLL.md
           for f in PROLOGUE.md COMPACT.md EVOLUTION.md EXTENDED-SELF.md COUNTERPOINT.md COTHEORY-FORGE.md CROSS-CULTURAL.md diagrams/LIGHTCONE.md diagrams/COLLAPSE.md formal/CONSTRAINTS.md debate/maps/DISHARMONY_BURDEN.md; do
             echo -e "\n\n---\n\n" >> docs/insights/luminaries/MEGASCROLL.md
@@ -27,5 +27,6 @@ jobs:
           git add docs/insights/luminaries/MEGASCROLL.md
           git commit -m "chore: build megascroll" || true
           git push || true
+
 
 

@@ -1,5 +1,5 @@
 {
-  "title": "CiviProof UI — Human-Readable Provenance Viewer",
+  "title": "CiviProof UI  -  Human-Readable Provenance Viewer",
   "summary": "A simple, universal UI to render CiviProof attestations: who/what/when, lineage graph, edits, signatures, and integrity state with one-click shareable proof bundles.",
   "rationale": "Provenance is useless if only machines can read it; a human-first viewer drives adoption and trust.",
   "impact": "Journalists, courts, educators, and citizens can verify and share proofs without technical friction.",

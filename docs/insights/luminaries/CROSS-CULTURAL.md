@@ -1,4 +1,4 @@
-# Cross‑Cultural Canon — Starter Set
+# Cross‑Cultural Canon  -  Starter Set
 
 | Tradition | Luminary | Core Stance | Harmony Link |
 |---|---|---|---|
@@ -11,3 +11,4 @@
 | Indian | Nāgārjuna | Emptiness; dependent arising | Relational accountability; anti-essentialism |
 | African | Ubuntu | “I am because we are” | Consent coverage; community flourishing |
 | Indigenous | Two‑Eyed Seeing | Dual knowledge systems | Perspective tags; view synthesis |
+

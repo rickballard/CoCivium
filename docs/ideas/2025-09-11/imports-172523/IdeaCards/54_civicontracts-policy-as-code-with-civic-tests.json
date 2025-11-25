@@ -1,5 +1,5 @@
 {
-  "title": "CiviContracts — Policy‑as‑Code with Civic Tests",
+  "title": "CiviContracts  -  Policy‑as‑Code with Civic Tests",
   "summary": "Encode policies as testable contracts with unit/impact tests, datasets, and red‑team scenarios; publish green/red dashboards and machine‑readable change logs.",
   "rationale": "Turning prose into executable checks catches regressions, democratizes review, and aligns agencies on expected outcomes.",
   "impact": "Fewer unintended consequences; faster compliance rollouts; easier handoffs during transitions.",

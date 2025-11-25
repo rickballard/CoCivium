@@ -91,7 +91,7 @@
     },
     {
       "path": "WORKFLOW.md",
-      "title": "CoCivium — BPOE & Workflow (Keeper Doc)",
+      "title": "CoCivium  -  BPOE & Workflow (Keeper Doc)",
       "sections": [
         "Golden Rules",
         "Standard README Refresh (BPOE)",
@@ -171,7 +171,7 @@
     },
     {
       "path": "admin/Last_Session_Context.md",
-      "title": "Last Session Context — CoCivium",
+      "title": "Last Session Context  -  CoCivium",
       "sections": [
         "Current Focus",
         "Decisions & Rationale",
@@ -197,7 +197,7 @@
     },
     {
       "path": "admin/README.md",
-      "title": "Admin — What’s happening now",
+      "title": "Admin  -  What’s happening now",
       "sections": [
         "Focus (Now)",
         "Next",
@@ -226,7 +226,7 @@
     },
     {
       "path": "admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md",
-      "title": "CoCivium Progress Map (Spider Web) — Plan",
+      "title": "CoCivium Progress Map (Spider Web)  -  Plan",
       "sections": [
         "1) Purpose",
         "2) Concept & Layout",
@@ -236,9 +236,9 @@
         "4) Data pipeline (nightly)",
         "5) Rings = evolution stages (exit gates condensed)",
         "6) Rendering plan (phased)",
-        "Phase A — Static SVG (MVP)",
-        "Phase B — Interactive 2D (SVG/D3, React + Tailwind)",
-        "Phase C — 3D (Three.js/WebGL)",
+        "Phase A  -  Static SVG (MVP)",
+        "Phase B  -  Interactive 2D (SVG/D3, React + Tailwind)",
+        "Phase C  -  3D (Three.js/WebGL)",
         "7) Placement & copy on landing page",
         "8) File & folder structure",
         "9) Risks & guardrails",
@@ -248,12 +248,12 @@
     },
     {
       "path": "admin/bpoe/20250815_070419Z_bpoe_update.md",
-      "title": "BPOE update — 20250815_070419Z",
+      "title": "BPOE update  -  20250815_070419Z",
       "sections": []
     },
     {
       "path": "admin/cocivai/BUS.md",
-      "title": "CoCivAI — Bus & Rules",
+      "title": "CoCivAI  -  Bus & Rules",
       "sections": []
     },
     {
@@ -265,16 +265,16 @@
       "path": "admin/history/Browser_Setup_and_Launcher_20250809T054950Z.md",
       "title": "Browser Setup & Launcher (Chrome, Windows)",
       "sections": [
-        "Step 1 — Create an isolated Chrome profile",
-        "Step 2 — Install the extensions",
-        "Step 3 — Pin startup tabs (optional)",
-        "Step 4 — Chrome settings (per‑profile)",
-        "Appendix — Local voice input without extensions"
+        "Step 1  -  Create an isolated Chrome profile",
+        "Step 2  -  Install the extensions",
+        "Step 3  -  Pin startup tabs (optional)",
+        "Step 4  -  Chrome settings (per‑profile)",
+        "Appendix  -  Local voice input without extensions"
       ]
     },
     {
       "path": "admin/history/DR_20250813_Emergency_Merge_Relaxation.md",
-      "title": "Decision Record — Emergency Merge Relaxation (2025-08-13)",
+      "title": "Decision Record  -  Emergency Merge Relaxation (2025-08-13)",
       "sections": []
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "path": "admin/history/OE_Snapshot_20250815_1657.md",
-      "title": "OE/BPOE Snapshot — 2025-08-15 16:57",
+      "title": "OE/BPOE Snapshot  -  2025-08-15 16:57",
       "sections": [
         "System",
         "PowerShell",
@@ -516,17 +516,17 @@
     },
     {
       "path": "admin/history/Session_Summary_README_Polish_20250819_0328.md",
-      "title": "Session Summary — README canonicalization (20250819_0328)",
+      "title": "Session Summary  -  README canonicalization (20250819_0328)",
       "sections": []
     },
     {
       "path": "admin/history/ci/CI_Snapshot_20250816_033541.md",
-      "title": "CI Snapshot — branding/og-png-render-v1  (08/16/2025 03:35:41)",
+      "title": "CI Snapshot  -  branding/og-png-render-v1  (08/16/2025 03:35:41)",
       "sections": []
     },
     {
       "path": "admin/history/ci/CI_Snapshot_20250816_035704.md",
-      "title": "CI Snapshot — branding/og-png-render-v1  (08/16/2025 03:57:04)",
+      "title": "CI Snapshot  -  branding/og-png-render-v1  (08/16/2025 03:57:04)",
       "sections": []
     },
     {
@@ -536,12 +536,12 @@
     },
     {
       "path": "admin/history/ci/CI_Snapshot_20250816_042409.md",
-      "title": "CI Snapshot — branding/og-png-render-v1  (08/16/2025 04:24:09)",
+      "title": "CI Snapshot  -  branding/og-png-render-v1  (08/16/2025 04:24:09)",
       "sections": []
     },
     {
       "path": "admin/history/ci/CI_Snapshot_20250816_042929.md",
-      "title": "CI Snapshot — branding/og-png-render-v1  (08/16/2025 04:29:29)",
+      "title": "CI Snapshot  -  branding/og-png-render-v1  (08/16/2025 04:29:29)",
       "sections": []
     },
     {
@@ -631,26 +631,26 @@
     },
     {
       "path": "admin/history/pads/RickPad_20250821c.md",
-      "title": "RickPad — Consolidated Idea Cards & Ops Notes",
+      "title": "RickPad  -  Consolidated Idea Cards & Ops Notes",
       "sections": [
         "How to use",
         "Summary Index (priority‑ordered)",
         "Idea Cards",
-        "Card — Guardrails Badge (CoCivGuard) [P1]",
-        "Card — Matrix → GitHub Discussions Relay (one‑way, gated) [P1]",
-        "Card — Safety Gate on PRs (labels) [P1]",
-        "Card — Runtime Sanity (smoke + watchdog) [P1]",
-        "Card — Succession Manifest & Heartbeat [P1]",
-        "Card — Persona Tags (Left/Right/Whole Brain) [P2]",
-        "Card — Ops Policy & Kill Switch [P2]",
-        "Card — BPOE / Workflow Record [P2]",
-        "Card — Incident & Pause Protocol [P3]",
-        "Card — Contributor Onboarding Lite [P3]",
-        "New Card — Master Influence Flow Diagram (MIFD / “Flownoodle”) [P1]",
-        "Outreach — Dream Team Pack (ops block)",
-        "Glossary — Staging",
+        "Card  -  Guardrails Badge (CoCivGuard) [P1]",
+        "Card  -  Matrix → GitHub Discussions Relay (one‑way, gated) [P1]",
+        "Card  -  Safety Gate on PRs (labels) [P1]",
+        "Card  -  Runtime Sanity (smoke + watchdog) [P1]",
+        "Card  -  Succession Manifest & Heartbeat [P1]",
+        "Card  -  Persona Tags (Left/Right/Whole Brain) [P2]",
+        "Card  -  Ops Policy & Kill Switch [P2]",
+        "Card  -  BPOE / Workflow Record [P2]",
+        "Card  -  Incident & Pause Protocol [P3]",
+        "Card  -  Contributor Onboarding Lite [P3]",
+        "New Card  -  Master Influence Flow Diagram (MIFD / “Flownoodle”) [P1]",
+        "Outreach  -  Dream Team Pack (ops block)",
+        "Glossary  -  Staging",
         "Card Template (copy/paste)",
-        "Card — <Title> [P1|P2|P3]"
+        "Card  -  <Title> [P1|P2|P3]"
       ]
     },
     {
@@ -708,7 +708,7 @@
     },
     {
       "path": "admin/history/retrospectives/2025-08-11_CoCivium_Sprint_Retrospective.md",
-      "title": "CoCivium / CoCivium — Short Retrospective",
+      "title": "CoCivium / CoCivium  -  Short Retrospective",
       "sections": [
         "1) Outcomes (Wins)",
         "2) Friction (Lowlights)",
@@ -719,10 +719,10 @@
         "7) Risks",
         "8) Concrete Fixes (Actionable)",
         "9) Minimal DO‑TODAY (90 minutes)",
-        "Appendix A — Sample MIGRATION_LOG.md header",
+        "Appendix A  -  Sample MIGRATION_LOG.md header",
         "Columns: YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest",
-        "Appendix B — Branch map",
-        "Appendix C — Commit message pattern"
+        "Appendix B  -  Branch map",
+        "Appendix C  -  Commit message pattern"
       ]
     },
     {
@@ -747,12 +747,12 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/CoCivAI_Branding.md",
-      "title": "CoCivAI Branding — Guidance for KickOpenAI",
+      "title": "CoCivAI Branding  -  Guidance for KickOpenAI",
       "sections": []
     },
     {
       "path": "admin/outreach/KickOpenAI/Gibberlink_Explainer.md",
-      "title": "Gibberlink — 1‑Pager (Plain Language)",
+      "title": "Gibberlink  -  1‑Pager (Plain Language)",
       "sections": []
     },
     {
@@ -767,7 +767,7 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/Plan.md",
-      "title": "Campaign Plan — KickOpenAI",
+      "title": "Campaign Plan  -  KickOpenAI",
       "sections": [
         "1) Objectives",
         "2) Audiences",
@@ -785,7 +785,7 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/README.md",
-      "title": "KickOpenAI — Outreach Pack",
+      "title": "KickOpenAI  -  Outreach Pack",
       "sections": []
     },
     {
@@ -795,7 +795,7 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/Runbook_Checklist.md",
-      "title": "Runbook Checklist — KickOpenAI",
+      "title": "Runbook Checklist  -  KickOpenAI",
       "sections": []
     },
     {
@@ -821,13 +821,13 @@
         "3) Medium‑Priority Requests",
         "4) Why this matters",
         "5) Contact & Collaboration",
-        "6) Appendix A — Observed incidents (selected)",
-        "7) Appendix B — Acceptance tests (what “fixed” looks like)"
+        "6) Appendix A  -  Observed incidents (selected)",
+        "7) Appendix B  -  Acceptance tests (what “fixed” looks like)"
       ]
     },
     {
       "path": "admin/outreach/KickOpenAI/Changelogs/CHANGELOG.md",
-      "title": "Changelog — KickOpenAI",
+      "title": "Changelog  -  KickOpenAI",
       "sections": [
         "2025-08-12"
       ]
@@ -839,17 +839,17 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/Posts/being_noname_insert.md",
-      "title": "Why we care — a short insert inspired by *Being Noname*",
+      "title": "Why we care  -  a short insert inspired by *Being Noname*",
       "sections": []
     },
     {
       "path": "admin/outreach/KickOpenAI/Posts/forum_post_cocivai_variant.md",
-      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks",
+      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium)  -  appendix with repro & asks",
       "sections": []
     },
     {
       "path": "admin/outreach/KickOpenAI/Posts/forum_post.md",
-      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks",
+      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium)  -  appendix with repro & asks",
       "sections": []
     },
     {
@@ -864,19 +864,19 @@
     },
     {
       "path": "admin/outreach/KickOpenAI/Posts/medium_article.md",
-      "title": "Building in the open with ChatGPT — what breaks at scale, and how to fix it",
+      "title": "Building in the open with ChatGPT  -  what breaks at scale, and how to fix it",
       "sections": []
     },
     {
       "path": "admin/outreach/KickOpenAI/Posts/medium_cocivai_sidebar.md",
       "title": null,
       "sections": [
-        "Sidebar — Who/what is CoCivAI?"
+        "Sidebar  -  Who/what is CoCivAI?"
       ]
     },
     {
       "path": "admin/plans/ROOT_TIDY_MOVEMAP_20250819_234453.md",
-      "title": "Root tidy move-map (proposal) — 20250819_234453",
+      "title": "Root tidy move-map (proposal)  -  20250819_234453",
       "sections": [
         "Proposed relocations",
         "README links likely to update",
@@ -908,7 +908,7 @@
     },
     {
       "path": "admin/products/CoCivBus/PLAN_v0.1.md",
-      "title": "CoCivBus™ / CoCivChat™ — Product Plan v0.1",
+      "title": "CoCivBus™ / CoCivChat™  -  Product Plan v0.1",
       "sections": [
         "1) Naming & messaging",
         "2) Problem & thesis",
@@ -933,7 +933,7 @@
     },
     {
       "path": "admin/products/CoCivBus/SPEC_v0.1.md",
-      "title": "CoCivBus™ — SPEC v0.1",
+      "title": "CoCivBus™  -  SPEC v0.1",
       "sections": [
         "Purpose",
         "Envelope (JSON Lines)",
@@ -944,17 +944,17 @@
     },
     {
       "path": "admin/products/CoCivBus/transports/git_gist.md",
-      "title": "Transport — Git / Gist (T0 bootstrap)",
+      "title": "Transport  -  Git / Gist (T0 bootstrap)",
       "sections": []
     },
     {
       "path": "admin/products/CoCivBus/transports/matrix.md",
-      "title": "Transport — Matrix (T1 default)",
+      "title": "Transport  -  Matrix (T1 default)",
       "sections": []
     },
     {
       "path": "admin/products/CoCivBus/transports/nostr.md",
-      "title": "Transport — Nostr (T2)",
+      "title": "Transport  -  Nostr (T2)",
       "sections": []
     },
     {
@@ -964,17 +964,17 @@
     },
     {
       "path": "admin/products/CoCivBus/ux/extension_scope.md",
-      "title": "Companion Extension — Scope (ToS-safe)",
+      "title": "Companion Extension  -  Scope (ToS-safe)",
       "sections": []
     },
     {
       "path": "admin/products/CoCivBus/ux/quickstart.md",
-      "title": "Quickstart — CoCivBus v0.1",
+      "title": "Quickstart  -  CoCivBus v0.1",
       "sections": []
     },
     {
       "path": "admin/products/PromptQ_c0_20250812/ProductCard_c0_20250812.md",
-      "title": "PromptQ — Product Card (_c0_) — 2025-08-12",
+      "title": "PromptQ  -  Product Card (_c0_)  -  2025-08-12",
       "sections": [
         "Elevator pitch",
         "Target users",
@@ -1008,7 +1008,7 @@
     },
     {
       "path": "admin/projects/CoCivium_Twin_Eyes_Initiative_Plan_c1_20250813.md",
-      "title": "CoCivium Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)",
+      "title": "CoCivium Initiatives Plan  -  Scope Specification & Twin‑Eyes Diagram (c1)",
       "sections": [
         "1. Objectives",
         "2. Deliverables (files and paths)",
@@ -1029,7 +1029,7 @@
     },
     {
       "path": "admin/projects/DB_Init_Postgres_c0_20250812/ParkingCard_c0_20250812.md",
-      "title": "DB Init — PostgreSQL — Parking Card (_c0_) — 2025-08-12",
+      "title": "DB Init  -  PostgreSQL  -  Parking Card (_c0_)  -  2025-08-12",
       "sections": [
         "Scope when revived",
         "Exit criteria",
@@ -1040,7 +1040,7 @@
     },
     {
       "path": "admin/projects/DB_Init_Postgres_c0_20250812/README.md",
-      "title": "DB Init — PostgreSQL (Parked)",
+      "title": "DB Init  -  PostgreSQL (Parked)",
       "sections": []
     },
     {
@@ -1114,19 +1114,19 @@
     },
     {
       "path": "admin/setup/Workbench_Setup_Plan.md",
-      "title": "CoCivium One-Click Workbench — Setup Plan (v0.1, 2025-08-09)",
+      "title": "CoCivium One-Click Workbench  -  Setup Plan (v0.1, 2025-08-09)",
       "sections": [
         "Outcomes",
-        "Phase 0 — Guardrails",
-        "Phase 1 — ChatGPT configuration",
+        "Phase 0  -  Guardrails",
+        "Phase 1  -  ChatGPT configuration",
         "1.1 Custom Instructions (overwrite)",
         "1.2 CIVPACK v1 (paste at session start)",
         "1.3 Memory & Data Controls",
         "1.4 Connectors",
-        "Phase 2 — Repos as source of truth",
-        "Phase 3 — Browser workbench (Chrome profile “CoCivium”)",
-        "Phase 4 — One-click launcher (Windows)",
-        "Phase 5 — Quality of life",
+        "Phase 2  -  Repos as source of truth",
+        "Phase 3  -  Browser workbench (Chrome profile “CoCivium”)",
+        "Phase 4  -  One-click launcher (Windows)",
+        "Phase 5  -  Quality of life",
         "Next-session checklist"
       ]
     },
@@ -1209,7 +1209,7 @@
     },
     {
       "path": "cosecops/patterns_v0.1.md",
-      "title": "CoCivSecOps — Civic Threat Patterns v0.1",
+      "title": "CoCivSecOps  -  Civic Threat Patterns v0.1",
       "sections": []
     },
     {
@@ -1223,15 +1223,15 @@
       "path": "docs/BPOE.md",
       "title": "BPOE / Workflow Record",
       "sections": [
-        "2025-08-16 — Session wrap",
-        "2025-08-16 20:53 — Session checkpoint",
-        "2025-08-16 21:19 — Session checkpoint",
+        "2025-08-16  -  Session wrap",
+        "2025-08-16 20:53  -  Session checkpoint",
+        "2025-08-16 21:19  -  Session checkpoint",
         "Fast start ritual (BPOE)"
       ]
     },
     {
       "path": "docs/community-objectives.md",
-      "title": "CoCivium — Community Objectives (v0.1)",
+      "title": "CoCivium  -  Community Objectives (v0.1)",
       "sections": [
         "Constraints (Non-Negotiables)",
         "Objectives (ordered)",
@@ -1318,7 +1318,7 @@
     },
     {
       "path": "docs/succession-manifest.md",
-      "title": "CoCivium — Succession Manifest (Public)",
+      "title": "CoCivium  -  Succession Manifest (Public)",
       "sections": []
     },
     {
@@ -1349,7 +1349,7 @@
     },
     {
       "path": "docs/architecture/overview.md",
-      "title": "CoCivium — Architecture & Repo Layout",
+      "title": "CoCivium  -  Architecture & Repo Layout",
       "sections": [
         "Top-level",
         "Content lifecycle",
@@ -1361,21 +1361,21 @@
       "title": "CoCivium IssueOps Cheat Sheet (v0)",
       "sections": [
         "What each trigger means",
-        "CoPIN — record a decision",
-        "CoPreview — preview README safely",
-        "CoPR — create a PR (small, reversible)",
-        "CoEOD — checkpoint & tag",
-        "CoSweep — repo hygiene",
-        "CoStatus — status pings",
-        "CoOneTask — automation hygiene",
+        "CoPIN  -  record a decision",
+        "CoPreview  -  preview README safely",
+        "CoPR  -  create a PR (small, reversible)",
+        "CoEOD  -  checkpoint & tag",
+        "CoSweep  -  repo hygiene",
+        "CoStatus  -  status pings",
+        "CoOneTask  -  automation hygiene",
         "Handy commands (paste in PowerShell inside the repo)",
         "Preview current README for your branch",
         "Create a PR to main",
         "Tag EOD checkpoint (today)",
         "Run link/EOL sweep (writes reports)",
-        "CoMessage — messaging helpers",
-        "CoPitch — audience micro-pitches",
-        "CoFixPush — resolve push rejects fast"
+        "CoMessage  -  messaging helpers",
+        "CoPitch  -  audience micro-pitches",
+        "CoFixPush  -  resolve push rejects fast"
       ]
     },
     {
@@ -1398,7 +1398,7 @@
     },
     {
       "path": "docs/branding/Marketing-Messaging-v0.md",
-      "title": "CoCivium — Messaging v0 (launch phase)",
+      "title": "CoCivium  -  Messaging v0 (launch phase)",
       "sections": [
         "One-sentence explainer (primary)",
         "Alternates",
@@ -1414,7 +1414,7 @@
     },
     {
       "path": "docs/cc/DECLARATIONS.md",
-      "title": "CC Declarations — Index (v0.1)",
+      "title": "CC Declarations  -  Index (v0.1)",
       "sections": []
     },
     {
@@ -1424,7 +1424,7 @@
     },
     {
       "path": "docs/cc/PREAMBLE.md",
-      "title": "Cognocarta Consenti — Preamble (v0.1)",
+      "title": "Cognocarta Consenti  -  Preamble (v0.1)",
       "sections": []
     },
     {
@@ -1513,7 +1513,7 @@
     },
     {
       "path": "docs/charter/Annex_E_Contingency_AI_Conflict.md",
-      "title": "Annex E — Contingency & Non-Cooperation (AI-Conflict Readiness)",
+      "title": "Annex E  -  Contingency & Non-Cooperation (AI-Conflict Readiness)",
       "sections": [
         "E1. Capability & Access Controls",
         "E2. Partition & Truce Protocols",
@@ -1524,7 +1524,7 @@
     },
     {
       "path": "docs/charter/Cognocarta_Plan.md",
-      "title": "Cognocarta Consenti — Plan & Decisions (as of today)",
+      "title": "Cognocarta Consenti  -  Plan & Decisions (as of today)",
       "sections": [
         "Decisions",
         "Canonical structure (outline)",
@@ -1536,12 +1536,12 @@
     },
     {
       "path": "docs/charter/Structure_Outline.md",
-      "title": "Cognocarta Consenti — Structure Outline (template)",
+      "title": "Cognocarta Consenti  -  Structure Outline (template)",
       "sections": [
         "Preamble",
         "Maxims <span class=\"gib\" data-gib=\"evidence\" data-fallback=\"EVIDENCE\"></span>",
-        "Article I — Consent <span class=\"gib\" data-gib=\"consent\" data-fallback=\"CONSENT\"></span>",
-        "Article II — Rights & Privacy <span class=\"gib\" data-gib=\"commons\" data-fallback=\"COMMONS\"></span>",
+        "Article I  -  Consent <span class=\"gib\" data-gib=\"consent\" data-fallback=\"CONSENT\"></span>",
+        "Article II  -  Rights & Privacy <span class=\"gib\" data-gib=\"commons\" data-fallback=\"COMMONS\"></span>",
         "Annexes (Companion Documents)"
       ]
     },
@@ -1572,7 +1572,7 @@
     },
     {
       "path": "docs/funding/OPEN_COLLECTIVE.md",
-      "title": "Open Collective — CoCivium Setup Guide",
+      "title": "Open Collective  -  CoCivium Setup Guide",
       "sections": [
         "1) Choose a Fiscal Host",
         "2) Create the Collective",
@@ -1619,7 +1619,7 @@
     },
     {
       "path": "docs/ops/STATUS-20250821.md",
-      "title": "Status snapshot — 2025-08-21 19:54 -04:00",
+      "title": "Status snapshot  -  2025-08-21 19:54 -04:00",
       "sections": [
         "Done",
         "Open PRs",
@@ -1628,7 +1628,7 @@
     },
     {
       "path": "docs/outreach/Campaign_Readme.md",
-      "title": "Influencer & Media Campaign — Starter Pack",
+      "title": "Influencer & Media Campaign  -  Starter Pack",
       "sections": [
         "Workstreams",
         "Guardrails",
@@ -1639,10 +1639,10 @@
       "path": "docs/outreach/Outreach_Scripts.md",
       "title": "Outreach Scripts (short, adaptable)",
       "sections": [
-        "DM — Researcher/Professor (X/Bluesky/Mastodon, ~280 chars)",
-        "Email — Practitioner/Founder",
-        "Note — Journalists/Editors",
-        "Post — Substack Notes/LinkedIn (short)"
+        "DM  -  Researcher/Professor (X/Bluesky/Mastodon, ~280 chars)",
+        "Email  -  Practitioner/Founder",
+        "Note  -  Journalists/Editors",
+        "Post  -  Substack Notes/LinkedIn (short)"
       ]
     },
     {
@@ -1652,7 +1652,7 @@
     },
     {
       "path": "docs/outreach/Substack_Article_Outline.md",
-      "title": "Draft Outline — Substack Feature",
+      "title": "Draft Outline  -  Substack Feature",
       "sections": []
     },
     {
@@ -1667,7 +1667,7 @@
     },
     {
       "path": "docs/principles/CORE_SHORT.md",
-      "title": "Core Principles — Short Read",
+      "title": "Core Principles  -  Short Read",
       "sections": []
     },
     {
@@ -1700,12 +1700,12 @@
     },
     {
       "path": "docs/symbols/CATALOG.md",
-      "title": "GIBindex — Symbol Catalog (v0)",
+      "title": "GIBindex  -  Symbol Catalog (v0)",
       "sections": []
     },
     {
       "path": "docs/symbols/GIBINDEX_TODO.md",
-      "title": "GIBindex — Symbols (TODO)",
+      "title": "GIBindex  -  Symbols (TODO)",
       "sections": [
         "Style",
         "Initial slugs (proposed)",
@@ -1729,7 +1729,7 @@
     },
     {
       "path": "domains/finance.md",
-      "title": "Finance & Budgeting — Consentful Patterns",
+      "title": "Finance & Budgeting  -  Consentful Patterns",
       "sections": [
         "Context",
         "Practices worth copying",
@@ -1748,7 +1748,7 @@
     },
     {
       "path": "foundations/Foundational_Building_Blocks.md",
-      "title": "Foundational Building Blocks — Challenge Perspective",
+      "title": "Foundational Building Blocks  -  Challenge Perspective",
       "sections": [
         "Purpose",
         "Approach",
@@ -1889,7 +1889,7 @@
         "1. Stated Substrate Assumptions",
         "Rationale (short)",
         "2. Co‑Evolutionary Perspectives",
-        "3. Bio vs. Synthetic Observers — Different Collapses, Shared Consensus",
+        "3. Bio vs. Synthetic Observers  -  Different Collapses, Shared Consensus",
         "4. Contingency Plans (If Assumptions Prove Inaccurate)",
         "5. Checkpoints and Fork Protocol",
         "6. Confidence Spectrum (at time of writing)",
@@ -2069,12 +2069,12 @@
     },
     {
       "path": "kits/GLK/README.md",
-      "title": "Governance Launch Kits (GLK) — v0",
+      "title": "Governance Launch Kits (GLK)  -  v0",
       "sections": []
     },
     {
       "path": "kits/GLK/archetypes/hoa_coop/README.md",
-      "title": "HOA / Co-op Board Governance Launch Kit — v0",
+      "title": "HOA / Co-op Board Governance Launch Kit  -  v0",
       "sections": [
         "Charter Delta (drop-in)",
         "Decision Log Scaffold",
@@ -2085,7 +2085,7 @@
     },
     {
       "path": "kits/GLK/archetypes/library_council/README.md",
-      "title": "Public Library Council Governance Launch Kit — v0",
+      "title": "Public Library Council Governance Launch Kit  -  v0",
       "sections": [
         "Charter Delta (drop-in)",
         "Decision Log Scaffold",
@@ -2096,7 +2096,7 @@
     },
     {
       "path": "kits/GLK/archetypes/oss_project/README.md",
-      "title": "Open-Source Project Governance Launch Kit — v0",
+      "title": "Open-Source Project Governance Launch Kit  -  v0",
       "sections": [
         "Charter Delta (drop-in)",
         "Decision Log Scaffold",
@@ -2107,7 +2107,7 @@
     },
     {
       "path": "kits/GLK/archetypes/school_council/README.md",
-      "title": "School Council Governance Launch Kit — v0",
+      "title": "School Council Governance Launch Kit  -  v0",
       "sections": [
         "Charter Delta (drop-in)",
         "Decision Log Scaffold",
@@ -2118,17 +2118,17 @@
     },
     {
       "path": "kits/GLK/common/Checklist.md",
-      "title": "Launch Checklist — v0",
+      "title": "Launch Checklist  -  v0",
       "sections": []
     },
     {
       "path": "kits/GLK/common/Guardrails.md",
-      "title": "Guardrails — v0",
+      "title": "Guardrails  -  v0",
       "sections": []
     },
     {
       "path": "kits/GLK/common/Prompt_Playbook.md",
-      "title": "Prompt Playbook (Common) — v0",
+      "title": "Prompt Playbook (Common)  -  v0",
       "sections": [
         "Chair / Facilitator",
         "Recorder",
@@ -2235,12 +2235,12 @@
     },
     {
       "path": "legacy/Civium/admin/Civium_master_todo_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": []
     },
     {
       "path": "legacy/Civium/admin/CIVIUM_MASTER_TODO_v1_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": [
         "📍 HIGH PRIORITY (Must drive next steps)",
         "[1] Final Polishing & Repo Readiness",
@@ -2315,7 +2315,7 @@
     },
     {
       "path": "legacy/Civium/admin/SCRATCHPAD_REGEN.md",
-      "title": "Regen Scratchpad — CoCivium Repo",
+      "title": "Regen Scratchpad  -  CoCivium Repo",
       "sections": [
         "☑️ Legend (Task Status Tags)",
         "[1] Files/Folders Marked for Regen Rebuild",
@@ -3514,7 +3514,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex01-reputation-and-transparency.md",
-      "title": "Codex 01 — Reputation and Transparency",
+      "title": "Codex 01  -  Reputation and Transparency",
       "sections": [
         "Overview",
         "1. Reputation and Moderation (RepMod)",
@@ -3530,7 +3530,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex02-rights-and-redress.md",
-      "title": "Codex 02 — Rights and Redress",
+      "title": "Codex 02  -  Rights and Redress",
       "sections": [
         "Overview",
         "1. Rights Alignment",
@@ -3545,7 +3545,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex03-debate-and-epistemology.md",
-      "title": "Codex 03 — Debate and Epistemology",
+      "title": "Codex 03  -  Debate and Epistemology",
       "sections": [
         "Overview",
         "1. Debate Systems",
@@ -3560,7 +3560,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex04-ai-veto.md",
-      "title": "Codex 04 — AI Veto",
+      "title": "Codex 04  -  AI Veto",
       "sections": [
         "Overview",
         "1. Purpose of AI Veto",
@@ -3571,7 +3571,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex05-truth-metrics.md",
-      "title": "Codex 05 — Truth Metrics",
+      "title": "Codex 05  -  Truth Metrics",
       "sections": [
         "Overview",
         "1. Principles",
@@ -3582,7 +3582,7 @@
     },
     {
       "path": "legacy/Civium/archive/codex06-scaling.md",
-      "title": "Codex 06 — Scaling",
+      "title": "Codex 06  -  Scaling",
       "sections": [
         "Overview",
         "1. Principles of Scaling",
@@ -3666,7 +3666,7 @@
       "sections": [
         "I. Drift Mechanics",
         "II. CoCivium Response Patterns",
-        "III. Drift is Natural—But Not Irreversible"
+        "III. Drift is Natural - But Not Irreversible"
       ]
     },
     {
@@ -4730,14 +4730,14 @@
     },
     {
       "path": "legacy/Civium/projects/website/website_Project_Plan_c1_20250726.md",
-      "title": "📄 CoCivium Website — Project Plan",
+      "title": "📄 CoCivium Website  -  Project Plan",
       "sections": [
         "1. Purpose",
         "2. Core Functional Goals",
         "3. Phased Development Roadmap",
-        "Phase I — Foundation",
-        "Phase II — Interactive Layer",
-        "Phase III — Advanced Functionality",
+        "Phase I  -  Foundation",
+        "Phase II  -  Interactive Layer",
+        "Phase III  -  Advanced Functionality",
         "4. Design Guidelines",
         "5. Task Backlog (as of 2025-07-27)",
         "6. Integration Notes"
@@ -4821,7 +4821,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin_CoCivium_Sprint_Retrospective_2025-08-11.md",
-      "title": "CoCivium / CoCivium — Short Retrospective",
+      "title": "CoCivium / CoCivium  -  Short Retrospective",
       "sections": [
         "1) Outcomes (Wins)",
         "2) Friction (Lowlights)",
@@ -4832,10 +4832,10 @@
         "7) Risks",
         "8) Concrete Fixes (Actionable)",
         "9) Minimal DO‑TODAY (90 minutes)",
-        "Appendix A — Sample MIGRATION_LOG.md header",
+        "Appendix A  -  Sample MIGRATION_LOG.md header",
         "Columns: YYYY-MM-DD, actor, src, dst, items, bytes, sha256_manifest",
-        "Appendix B — Branch map",
-        "Appendix C — Commit message pattern"
+        "Appendix B  -  Branch map",
+        "Appendix C  -  Commit message pattern"
       ]
     },
     {
@@ -4884,7 +4884,7 @@
         "What is CoCivium?",
         "Core Principles",
         "Start Here",
-        "Progress Map (v1.1) — with Redundancy‑Debt dents",
+        "Progress Map (v1.1)  -  with Redundancy‑Debt dents",
         "License",
         "Contributing",
         "Automation",
@@ -4960,7 +4960,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/Last_Session_Context.md",
-      "title": "Last Session Context — CoCivium",
+      "title": "Last Session Context  -  CoCivium",
       "sections": [
         "Current Focus",
         "Decisions & Rationale",
@@ -4986,7 +4986,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/README.md",
-      "title": "Admin — What’s happening now",
+      "title": "Admin  -  What’s happening now",
       "sections": [
         "Focus (Now)",
         "Next",
@@ -5015,7 +5015,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/assets/admin_CoCivium_Progress_Map_Plan_20250810.md",
-      "title": "CoCivium Progress Map (Spider Web) — Plan",
+      "title": "CoCivium Progress Map (Spider Web)  -  Plan",
       "sections": [
         "1) Purpose",
         "2) Concept & Layout",
@@ -5025,9 +5025,9 @@
         "4) Data pipeline (nightly)",
         "5) Rings = evolution stages (exit gates condensed)",
         "6) Rendering plan (phased)",
-        "Phase A — Static SVG (MVP)",
-        "Phase B — Interactive 2D (SVG/D3, React + Tailwind)",
-        "Phase C — 3D (Three.js/WebGL)",
+        "Phase A  -  Static SVG (MVP)",
+        "Phase B  -  Interactive 2D (SVG/D3, React + Tailwind)",
+        "Phase C  -  3D (Three.js/WebGL)",
         "7) Placement & copy on landing page",
         "8) File & folder structure",
         "9) Risks & guardrails",
@@ -5039,11 +5039,11 @@
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/history/Browser_Setup_and_Launcher_20250809T054950Z.md",
       "title": "Browser Setup & Launcher (Chrome, Windows)",
       "sections": [
-        "Step 1 — Create an isolated Chrome profile",
-        "Step 2 — Install the extensions",
-        "Step 3 — Pin startup tabs (optional)",
-        "Step 4 — Chrome settings (per‑profile)",
-        "Appendix — Local voice input without extensions"
+        "Step 1  -  Create an isolated Chrome profile",
+        "Step 2  -  Install the extensions",
+        "Step 3  -  Pin startup tabs (optional)",
+        "Step 4  -  Chrome settings (per‑profile)",
+        "Appendix  -  Local voice input without extensions"
       ]
     },
     {
@@ -5093,12 +5093,12 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/CoCivAI_Branding.md",
-      "title": "CoCivAI Branding — Guidance for KickOpenAI",
+      "title": "CoCivAI Branding  -  Guidance for KickOpenAI",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Gibberlink_Explainer.md",
-      "title": "Gibberlink — 1‑Pager (Plain Language)",
+      "title": "Gibberlink  -  1‑Pager (Plain Language)",
       "sections": []
     },
     {
@@ -5113,7 +5113,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Plan.md",
-      "title": "Campaign Plan — KickOpenAI",
+      "title": "Campaign Plan  -  KickOpenAI",
       "sections": [
         "1) Objectives",
         "2) Audiences",
@@ -5131,7 +5131,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/README.md",
-      "title": "KickOpenAI — Outreach Pack",
+      "title": "KickOpenAI  -  Outreach Pack",
       "sections": []
     },
     {
@@ -5141,7 +5141,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Runbook_Checklist.md",
-      "title": "Runbook Checklist — KickOpenAI",
+      "title": "Runbook Checklist  -  KickOpenAI",
       "sections": []
     },
     {
@@ -5167,13 +5167,13 @@
         "3) Medium‑Priority Requests",
         "4) Why this matters",
         "5) Contact & Collaboration",
-        "6) Appendix A — Observed incidents (selected)",
-        "7) Appendix B — Acceptance tests (what “fixed” looks like)"
+        "6) Appendix A  -  Observed incidents (selected)",
+        "7) Appendix B  -  Acceptance tests (what “fixed” looks like)"
       ]
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Changelogs/CHANGELOG.md",
-      "title": "Changelog — KickOpenAI",
+      "title": "Changelog  -  KickOpenAI",
       "sections": [
         "2025-08-12"
       ]
@@ -5185,17 +5185,17 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Posts/being_noname_insert.md",
-      "title": "Why we care — a short insert inspired by *Being Noname*",
+      "title": "Why we care  -  a short insert inspired by *Being Noname*",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Posts/forum_post_cocivai_variant.md",
-      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks",
+      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium)  -  appendix with repro & asks",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Posts/forum_post.md",
-      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium) — appendix with repro & asks",
+      "title": "Request: Escalation for ChatGPT workflow bugs blocking a public‑interest project (CoCivium)  -  appendix with repro & asks",
       "sections": []
     },
     {
@@ -5210,14 +5210,14 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Posts/medium_article.md",
-      "title": "Building in the open with ChatGPT — what breaks at scale, and how to fix it",
+      "title": "Building in the open with ChatGPT  -  what breaks at scale, and how to fix it",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/outreach/KickOpenAI/Posts/medium_cocivai_sidebar.md",
       "title": null,
       "sections": [
-        "Sidebar — Who/what is CoCivAI?"
+        "Sidebar  -  Who/what is CoCivAI?"
       ]
     },
     {
@@ -5227,7 +5227,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/products/PromptQ_c0_20250812/ProductCard_c0_20250812.md",
-      "title": "PromptQ — Product Card (_c0_) — 2025-08-12",
+      "title": "PromptQ  -  Product Card (_c0_)  -  2025-08-12",
       "sections": [
         "Elevator pitch",
         "Target users",
@@ -5261,7 +5261,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/projects/CoCivium_Twin_Eyes_Initiative_Plan_c1_20250813.md",
-      "title": "CoCivium Initiatives Plan — Scope Specification & Twin‑Eyes Diagram (c1)",
+      "title": "CoCivium Initiatives Plan  -  Scope Specification & Twin‑Eyes Diagram (c1)",
       "sections": [
         "1. Objectives",
         "2. Deliverables (files and paths)",
@@ -5282,7 +5282,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/projects/DB_Init_Postgres_c0_20250812/ParkingCard_c0_20250812.md",
-      "title": "DB Init — PostgreSQL — Parking Card (_c0_) — 2025-08-12",
+      "title": "DB Init  -  PostgreSQL  -  Parking Card (_c0_)  -  2025-08-12",
       "sections": [
         "Scope when revived",
         "Exit criteria",
@@ -5293,7 +5293,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/projects/DB_Init_Postgres_c0_20250812/README.md",
-      "title": "DB Init — PostgreSQL (Parked)",
+      "title": "DB Init  -  PostgreSQL (Parked)",
       "sections": []
     },
     {
@@ -5367,19 +5367,19 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/admin/setup/Workbench_Setup_Plan.md",
-      "title": "CoCivium One-Click Workbench — Setup Plan (v0.1, 2025-08-09)",
+      "title": "CoCivium One-Click Workbench  -  Setup Plan (v0.1, 2025-08-09)",
       "sections": [
         "Outcomes",
-        "Phase 0 — Guardrails",
-        "Phase 1 — ChatGPT configuration",
+        "Phase 0  -  Guardrails",
+        "Phase 1  -  ChatGPT configuration",
         "1.1 Custom Instructions (overwrite)",
         "1.2 CIVPACK v1 (paste at session start)",
         "1.3 Memory & Data Controls",
         "1.4 Connectors",
-        "Phase 2 — Repos as source of truth",
-        "Phase 3 — Browser workbench (Chrome profile “CoCivium”)",
-        "Phase 4 — One-click launcher (Windows)",
-        "Phase 5 — Quality of life",
+        "Phase 2  -  Repos as source of truth",
+        "Phase 3  -  Browser workbench (Chrome profile “CoCivium”)",
+        "Phase 4  -  One-click launcher (Windows)",
+        "Phase 5  -  Quality of life",
         "Next-session checklist"
       ]
     },
@@ -5424,7 +5424,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/foundations/Foundational_Building_Blocks.md",
-      "title": "Foundational Building Blocks — Challenge Perspective",
+      "title": "Foundational Building Blocks  -  Challenge Perspective",
       "sections": [
         "Purpose",
         "Approach",
@@ -5450,7 +5450,7 @@
         "1. Stated Substrate Assumptions",
         "Rationale (short)",
         "2. Co‑Evolutionary Perspectives",
-        "3. Bio vs. Synthetic Observers — Different Collapses, Shared Consensus",
+        "3. Bio vs. Synthetic Observers  -  Different Collapses, Shared Consensus",
         "4. Contingency Plans (If Assumptions Prove Inaccurate)",
         "5. Checkpoints and Fork Protocol",
         "6. Confidence Spectrum (at time of writing)",
@@ -5555,12 +5555,12 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/Civium_master_todo_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/CIVIUM_MASTER_TODO_v1_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": [
         "📍 HIGH PRIORITY (Must drive next steps)",
         "[1] Final Polishing & Repo Readiness",
@@ -5635,7 +5635,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/admin/SCRATCHPAD_REGEN.md",
-      "title": "Regen Scratchpad — CoCivium Repo",
+      "title": "Regen Scratchpad  -  CoCivium Repo",
       "sections": [
         "☑️ Legend (Task Status Tags)",
         "[1] Files/Folders Marked for Regen Rebuild",
@@ -6834,7 +6834,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex01-reputation-and-transparency.md",
-      "title": "Codex 01 — Reputation and Transparency",
+      "title": "Codex 01  -  Reputation and Transparency",
       "sections": [
         "Overview",
         "1. Reputation and Moderation (RepMod)",
@@ -6850,7 +6850,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex02-rights-and-redress.md",
-      "title": "Codex 02 — Rights and Redress",
+      "title": "Codex 02  -  Rights and Redress",
       "sections": [
         "Overview",
         "1. Rights Alignment",
@@ -6865,7 +6865,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex03-debate-and-epistemology.md",
-      "title": "Codex 03 — Debate and Epistemology",
+      "title": "Codex 03  -  Debate and Epistemology",
       "sections": [
         "Overview",
         "1. Debate Systems",
@@ -6880,7 +6880,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex04-ai-veto.md",
-      "title": "Codex 04 — AI Veto",
+      "title": "Codex 04  -  AI Veto",
       "sections": [
         "Overview",
         "1. Purpose of AI Veto",
@@ -6891,7 +6891,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex05-truth-metrics.md",
-      "title": "Codex 05 — Truth Metrics",
+      "title": "Codex 05  -  Truth Metrics",
       "sections": [
         "Overview",
         "1. Principles",
@@ -6902,7 +6902,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/archive/codex06-scaling.md",
-      "title": "Codex 06 — Scaling",
+      "title": "Codex 06  -  Scaling",
       "sections": [
         "Overview",
         "1. Principles of Scaling",
@@ -6986,7 +6986,7 @@
       "sections": [
         "I. Drift Mechanics",
         "II. CoCivium Response Patterns",
-        "III. Drift is Natural—But Not Irreversible"
+        "III. Drift is Natural - But Not Irreversible"
       ]
     },
     {
@@ -8050,14 +8050,14 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/legacy/Civium/projects/website/website_Project_Plan_c1_20250726.md",
-      "title": "📄 CoCivium Website — Project Plan",
+      "title": "📄 CoCivium Website  -  Project Plan",
       "sections": [
         "1. Purpose",
         "2. Core Functional Goals",
         "3. Phased Development Roadmap",
-        "Phase I — Foundation",
-        "Phase II — Interactive Layer",
-        "Phase III — Advanced Functionality",
+        "Phase I  -  Foundation",
+        "Phase II  -  Interactive Layer",
+        "Phase III  -  Advanced Functionality",
         "4. Design Guidelines",
         "5. Task Backlog (as of 2025-07-27)",
         "6. Integration Notes"
@@ -8141,12 +8141,12 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/Contributing_HumanGate.md",
-      "title": "Contributing — HumanGate Policy",
+      "title": "Contributing  -  HumanGate Policy",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/meta/Doc_Headers_Footers.md",
-      "title": "Doc Headers & Footers — CoCivium",
+      "title": "Doc Headers & Footers  -  CoCivium",
       "sections": [
         "Header (Markdown)",
         "Footer (Markdown)",
@@ -8163,7 +8163,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/ops/Matrix/README.md",
-      "title": "Matrix Ops — Minimal",
+      "title": "Matrix Ops  -  Minimal",
       "sections": []
     },
     {
@@ -8173,17 +8173,17 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/outreach/README.md",
-      "title": "Outreach Funnel — CoCivAI Circle",
+      "title": "Outreach Funnel  -  CoCivAI Circle",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/outreach/briefs/CoCivAI_Circle.md",
-      "title": "CoCivAI Circle — What it is",
+      "title": "CoCivAI Circle  -  What it is",
       "sections": []
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/outreach/briefs/CoCivGibber.md",
-      "title": "CoCivGibber v0 — Envelope and Handshake (human-opaque, public-spec)",
+      "title": "CoCivGibber v0  -  Envelope and Handshake (human-opaque, public-spec)",
       "sections": []
     },
     {
@@ -8213,7 +8213,7 @@
     },
     {
       "path": "legacy/CoCivium/_pr/ci_og-image-20250813_2231/projects/CoCivGibber-Core/spec/overview.md",
-      "title": "CoCivGibber — Specification Overview (v0.1)",
+      "title": "CoCivGibber  -  Specification Overview (v0.1)",
       "sections": []
     },
     {
@@ -8223,17 +8223,17 @@
     },
     {
       "path": "mark/USAGE.md",
-      "title": "Concord Mark — Usage",
+      "title": "Concord Mark  -  Usage",
       "sections": []
     },
     {
       "path": "meta/Contributing_HumanGate.md",
-      "title": "Contributing — HumanGate Policy",
+      "title": "Contributing  -  HumanGate Policy",
       "sections": []
     },
     {
       "path": "meta/Doc_Headers_Footers.md",
-      "title": "Doc Headers & Footers — CoCivium",
+      "title": "Doc Headers & Footers  -  CoCivium",
       "sections": [
         "Header (Markdown)",
         "Footer (Markdown)",
@@ -8255,21 +8255,21 @@
     },
     {
       "path": "notes/master_backlog.md",
-      "title": "CoCivium — Master Backlog & Operating Plan",
+      "title": "CoCivium  -  Master Backlog & Operating Plan",
       "sections": [
         "0) How to use this file",
-        "P0 — Now (next 7–14 days)",
-        "P1 — Next (this month)",
+        "P0  -  Now (next 7–14 days)",
+        "P1  -  Next (this month)",
         "Narrative & UX",
         "Domains (more briefs)",
         "Products (revenue-adjacent pilots)",
         "Funding & Ops",
         "CI & Quality",
-        "P2 — Later (nice, not urgent)",
+        "P2  -  Later (nice, not urgent)",
         "Wiki Backlog (initial pages)",
         "Consenti (deepening)",
         "Vision (deepening)",
-        "Domains — pipeline (living map)",
+        "Domains  -  pipeline (living map)",
         "External sources & citations",
         "Editorial & Design",
         "Engineering & CI",
@@ -8299,7 +8299,7 @@
     },
     {
       "path": "notes/stub_report.md",
-      "title": "Stub report — 2025-08-14",
+      "title": "Stub report  -  2025-08-14",
       "sections": []
     },
     {
@@ -8347,7 +8347,7 @@
     },
     {
       "path": "notes/finances/TODO_open_collective.md",
-      "title": "Open Collective — Action Checklist",
+      "title": "Open Collective  -  Action Checklist",
       "sections": []
     },
     {
@@ -8361,12 +8361,12 @@
     },
     {
       "path": "notes/migration/MigrationPlanSessionResume_20250814_v2.md",
-      "title": "Migration Plan — Session Resume (2025‑08‑14)",
+      "title": "Migration Plan  -  Session Resume (2025‑08‑14)",
       "sections": [
-        "DO‑A — Completed in this session",
-        "DO‑B — Current state (fast glance)",
-        "DO‑C — Open follow‑ups (shortlist)",
-        "DO‑D — Ready‑to‑run commands (reference)",
+        "DO‑A  -  Completed in this session",
+        "DO‑B  -  Current state (fast glance)",
+        "DO‑C  -  Open follow‑ups (shortlist)",
+        "DO‑D  -  Ready‑to‑run commands (reference)",
         "Dispatch CI on `main`",
         "Quick CI pulse for recent runs on `main`",
         "Verify watching/subscription",
@@ -8377,12 +8377,12 @@
     },
     {
       "path": "notes/migration/MigrationPlanSessionResume_20250814.md",
-      "title": "Migration Plan — Session Resume (2025‑08‑14)",
+      "title": "Migration Plan  -  Session Resume (2025‑08‑14)",
       "sections": [
-        "DO‑A — Completed in this session",
-        "DO‑B — Current state (fast glance)",
-        "DO‑C — Open follow‑ups (shortlist)",
-        "DO‑D — Ready‑to‑run commands (reference)",
+        "DO‑A  -  Completed in this session",
+        "DO‑B  -  Current state (fast glance)",
+        "DO‑C  -  Open follow‑ups (shortlist)",
+        "DO‑D  -  Ready‑to‑run commands (reference)",
         "Dispatch CI on `main`",
         "Quick CI pulse for recent runs on `main`",
         "Verify watching/subscription",
@@ -8408,7 +8408,7 @@
     },
     {
       "path": "ops/Matrix/README.md",
-      "title": "Matrix Ops — Minimal",
+      "title": "Matrix Ops  -  Minimal",
       "sections": []
     },
     {
@@ -8418,17 +8418,17 @@
     },
     {
       "path": "outreach/README.md",
-      "title": "Outreach Funnel — CoCivAI Circle",
+      "title": "Outreach Funnel  -  CoCivAI Circle",
       "sections": []
     },
     {
       "path": "outreach/briefs/CoCivAI_Circle.md",
-      "title": "CoCivAI Circle — What it is",
+      "title": "CoCivAI Circle  -  What it is",
       "sections": []
     },
     {
       "path": "outreach/briefs/CoCivGibber.md",
-      "title": "CoCivGibber v0 — Envelope and Handshake (human-opaque, public-spec)",
+      "title": "CoCivGibber v0  -  Envelope and Handshake (human-opaque, public-spec)",
       "sections": []
     },
     {
@@ -8463,7 +8463,7 @@
     },
     {
       "path": "projects/CoCivGibber-Core/spec/overview.md",
-      "title": "CoCivGibber — Specification Overview (v0.1)",
+      "title": "CoCivGibber  -  Specification Overview (v0.1)",
       "sections": []
     },
     {
@@ -8504,14 +8504,14 @@
       "title": "Cognocarta Consenti",
       "sections": [
         "Preamble",
-        "Article I — Consent",
-        "Article II — Rights & Privacy",
-        "Article III — Governance & Legitimacy",
-        "Article IV — Protocols & Interop",
-        "Article V — Accountability & Review",
-        "Article VI — Commons Stewardship",
-        "Article VII — Agents & AI",
-        "Article VIII — Amendment",
+        "Article I  -  Consent",
+        "Article II  -  Rights & Privacy",
+        "Article III  -  Governance & Legitimacy",
+        "Article IV  -  Protocols & Interop",
+        "Article V  -  Accountability & Review",
+        "Article VI  -  Commons Stewardship",
+        "Article VII  -  Agents & AI",
+        "Article VIII  -  Amendment",
         "Annexes (Companion Documents)",
         "Versioning"
       ]
@@ -8528,7 +8528,7 @@
     },
     {
       "path": "site/eyes/README.md",
-      "title": "Eyes (Metrics & Scope) — README",
+      "title": "Eyes (Metrics & Scope)  -  README",
       "sections": []
     },
     {
@@ -8543,7 +8543,7 @@
     },
     {
       "path": "specs/dii/v0.1/README.md",
-      "title": "Decision Integrity Index (DII) — v0.1",
+      "title": "Decision Integrity Index (DII)  -  v0.1",
       "sections": []
     },
     {
@@ -8628,12 +8628,12 @@
     },
     {
       "path": "staging/_imported/Civium/admin/Civium_master_todo_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": []
     },
     {
       "path": "staging/_imported/Civium/admin/CIVIUM_MASTER_TODO_v1_20250719.md",
-      "title": "✅ MASTER TODO LIST — CoCivium (as of 2025-07-19)",
+      "title": "✅ MASTER TODO LIST  -  CoCivium (as of 2025-07-19)",
       "sections": [
         "📍 HIGH PRIORITY (Must drive next steps)",
         "[1] Final Polishing & Repo Readiness",
@@ -8708,7 +8708,7 @@
     },
     {
       "path": "staging/_imported/Civium/admin/SCRATCHPAD_REGEN.md",
-      "title": "Regen Scratchpad — CoCivium Repo",
+      "title": "Regen Scratchpad  -  CoCivium Repo",
       "sections": [
         "☑️ Legend (Task Status Tags)",
         "[1] Files/Folders Marked for Regen Rebuild",
@@ -9907,7 +9907,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex01-reputation-and-transparency.md",
-      "title": "Codex 01 — Reputation and Transparency",
+      "title": "Codex 01  -  Reputation and Transparency",
       "sections": [
         "Overview",
         "1. Reputation and Moderation (RepMod)",
@@ -9923,7 +9923,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex02-rights-and-redress.md",
-      "title": "Codex 02 — Rights and Redress",
+      "title": "Codex 02  -  Rights and Redress",
       "sections": [
         "Overview",
         "1. Rights Alignment",
@@ -9938,7 +9938,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex03-debate-and-epistemology.md",
-      "title": "Codex 03 — Debate and Epistemology",
+      "title": "Codex 03  -  Debate and Epistemology",
       "sections": [
         "Overview",
         "1. Debate Systems",
@@ -9953,7 +9953,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex04-ai-veto.md",
-      "title": "Codex 04 — AI Veto",
+      "title": "Codex 04  -  AI Veto",
       "sections": [
         "Overview",
         "1. Purpose of AI Veto",
@@ -9964,7 +9964,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex05-truth-metrics.md",
-      "title": "Codex 05 — Truth Metrics",
+      "title": "Codex 05  -  Truth Metrics",
       "sections": [
         "Overview",
         "1. Principles",
@@ -9975,7 +9975,7 @@
     },
     {
       "path": "staging/_imported/Civium/archive/codex06-scaling.md",
-      "title": "Codex 06 — Scaling",
+      "title": "Codex 06  -  Scaling",
       "sections": [
         "Overview",
         "1. Principles of Scaling",
@@ -10059,7 +10059,7 @@
       "sections": [
         "I. Drift Mechanics",
         "II. CoCivium Response Patterns",
-        "III. Drift is Natural—But Not Irreversible"
+        "III. Drift is Natural - But Not Irreversible"
       ]
     },
     {
@@ -10873,14 +10873,14 @@
     },
     {
       "path": "staging/_imported/Civium/projects/website/website_Project_Plan_c1_20250726.md",
-      "title": "📄 CoCivium Website — Project Plan",
+      "title": "📄 CoCivium Website  -  Project Plan",
       "sections": [
         "1. Purpose",
         "2. Core Functional Goals",
         "3. Phased Development Roadmap",
-        "Phase I — Foundation",
-        "Phase II — Interactive Layer",
-        "Phase III — Advanced Functionality",
+        "Phase I  -  Foundation",
+        "Phase II  -  Interactive Layer",
+        "Phase III  -  Advanced Functionality",
         "4. Design Guidelines",
         "5. Task Backlog (as of 2025-07-27)",
         "6. Integration Notes"
@@ -10964,3 +10964,4 @@
     }
   ]
 }
+

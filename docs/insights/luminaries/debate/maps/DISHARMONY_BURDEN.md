@@ -1,4 +1,4 @@
-# Argument Map — Disharmony Burden (Template)
+# Argument Map  -  Disharmony Burden (Template)
 
 ```mermaid
 graph TD
@@ -12,3 +12,4 @@ graph TD
   A3 -->|No| R1
   S1 --> D1[Deploy Pilot under Objection Window]
 ```
+

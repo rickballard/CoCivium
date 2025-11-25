@@ -1,4 +1,4 @@
-# SESSION — CoHarmony Immunity Layer (CoAudit-first)
+# SESSION  -  CoHarmony Immunity Layer (CoAudit-first)
 
 > Track at major milestones. Check only when actually on **main** (or clearly landed via PR).
 
@@ -28,3 +28,4 @@
 - Keep CoAudit non-mutating. All “fixes” stay in effectors.
 
 **CoBloat**: CU=OK | PU=SOFT | HU=SOFT | WT=SOFT
+

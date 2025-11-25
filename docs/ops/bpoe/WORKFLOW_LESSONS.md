@@ -1,9 +1,9 @@
-## 20251107T155409Z — CoHarmony v5.x CI hardening (authz & UX)
+## 20251107T155409Z  -  CoHarmony v5.x CI hardening (authz & UX)
 - Snapshotted **Actions perms**, **branch protection**, **recent runs** (for Co1 mining).
 - Documented **authz model** + **frictions** (PR labeler, PR comments, PS -replace, linkcheck).
 - Reinforced artifact-only PR discipline; badge guidance.
 - Next: composite action for PR tension table; DOI allow-list.
-## 20251107T152945Z — CoHarmony v5.x CI hardening
+## 20251107T152945Z  -  CoHarmony v5.x CI hardening
 
 - **PR trail:** #516 (quality & signals), #517 (v5.1 hardening).
 - **Labeler config:** added .github/pr-labeler.yml to satisfy **PR labeler** check.
@@ -15,9 +15,10 @@
 - **PR checks cadence:** ok to merge when required checks are green and advisories pass tolerances.
 
 **Next:** consolidate comment-poster as reusable script, consider allow-list for bot-blocked DOI hosts, promote “tension” JSON to a small PR summary table.
-# BPOE — Workflow Lessons (Cumulative)
+# BPOE  -  Workflow Lessons (Cumulative)
 
 Source of truth for CI/BPOE learnings. Append newest entries at the top.
+
 
 
 

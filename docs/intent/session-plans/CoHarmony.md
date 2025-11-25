@@ -1,13 +1,13 @@
-# CoHarmony — Session Plan (Live Checklist)
+# CoHarmony  -  Session Plan (Live Checklist)
 
-- [x] Quality workflow (linkcheck, tension-detector, norms-radar) — artifacts only
+- [x] Quality workflow (linkcheck, tension-detector, norms-radar)  -  artifacts only
 - [x] PR labeler config present
 - [x] PR tension comment path documented (permissions + same-repo)
 - [ ] Composite action for PR tension table
 - [ ] DOI allow-list policy (doc + code)
 - Priors: #515, #516, #517
 
-## Immunity Layer (CoAudit-first) — seed plan (20251109T143325Z)
+## Immunity Layer (CoAudit-first)  -  seed plan (20251109T143325Z)
 
 **Intent**: Keep CoAudit strictly read-only; emit findings + artifacts; let other systems act (CoHarmony/CoPrime/CoForge).  
 **Outcome**: A minimal, repeatable “immunity” scout ships; CoCivium consumes artifacts for a sticky PR tension table; CoPrime indexes findings.
@@ -32,3 +32,4 @@
    - One AdviceBomb entry describing the Immunity Layer roadmap
 
 **CoBloat heartbeat**: CU=OK | PU=SOFT | HU=SOFT | WT=SOFT
+

@@ -1,4 +1,4 @@
-# CoEthicsLog — Entry Format v0
+# CoEthicsLog  -  Entry Format v0
 
 CoEthicsLog entries capture **lens-based opinions grounded in evidence**.
 
@@ -94,4 +94,5 @@ Each evidence item:
   - clearly state which lens was used for any given gauge.
 
 Future versions may define a JSON/YAML schema to validate entries before accepting them into shared registries.
+
 

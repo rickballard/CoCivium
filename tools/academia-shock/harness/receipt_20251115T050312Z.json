@@ -1,0 +1,18 @@
+{
+  "run_id": "ca4faaad-8929-4f07-b835-e2b15950fc17",
+  "ts_utc": "2025-11-15T05:03:12.7614292Z",
+  "task": "demo-br",
+  "metrics": {
+    "CL": 0.0,
+    "BR": 0.91,
+    "PF": 0.0,
+    "PPR": 0.0
+  },
+  "artifacts": [
+    {
+      "sha256": "ab08300a5e585dcbdd7a6f938368d225d174247eb36a8fe18d8eb05adb656280",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium\\tools\\academia-shock\\harness\\artifact_20251115T050312Z.txt"
+    }
+  ],
+  "notes": "Seed demo; replace with real harness in MW6.x"
+}

@@ -1,4 +1,4 @@
-# Session Plan — BPOE Checklist
+# Session Plan  -  BPOE Checklist
 
 _Operational guardrails for all sessions._
 
@@ -9,4 +9,5 @@ _Operational guardrails for all sessions._
 - Use `gh pr view --json statusCheckRollup` for merge readiness; treat only FAIL/TIMED_OUT as blocking.
 - Merge docs PRs in declared order; prefer **squash** with branch delete.
 - Always drop a **CoSync** note (PRs, paths, next steps).
+
 

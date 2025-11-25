@@ -1,5 +1,5 @@
 {
-  "title": "ProofPack — One-Click CiviProof Bundles",
+  "title": "ProofPack  -  One-Click CiviProof Bundles",
   "summary": "Exportable proof bundles (ZIP/JSON-LD) that package assets with attestations, signatures, and minimal viewer.",
   "rationale": "Journalists/courts need portable evidence; ProofPack reduces friction and preserves chain-of-custody semantics.",
   "impact": "Raises credibility and speeds verification workflows beyond Civium.",
