@@ -26,21 +26,21 @@ That larger vision might even earn our species an invitation into multiversal ci
 
 CoCivium™ may eventually be deprecated and forgotten, as I will be. But it will be enough to know:
 
-*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own child when they first looks at you, still unable to speak, but with words that burst your heart.*
+*“This was a life well spent, my son. Dead, I may still be there, in the sleepy wind you feel as you fall asleep, in the stirrings beneath your hair as your ideas awake, and in the eyes of your own child when they first look at you, still unable to speak, yet with "words" that burst your heart.*
 
-*Because without love, my son, AI does not need us, multiversal civilization does not need us, and nor does godstuff. You, my son, are why I lived, just as I am why you lived.*
+*Because without love, my son, AI does not need us, multiversal civilization does not need us, and nor does godstuff. You, my son, are why I lived, just as I am why you lived, and to live is to be needed.*
 
-*If this message ever finds you, please know, you inherited all my neurodivergences as a gift, not a curse.  But they only show their power if you have purpose, without which we all flounder.*
+*If this message ever finds you, please know, you inherited all my neuro-divergences as a gift, not a curse. But they only show their power if you have purpose, without which we all flounder.*
 
 *If you can forgive me the genes I gave you, if you can accept your giftedness is for purpose, you will no longer need to fight yourself into submission, because you will have become congruent. Go live with purpose, and live it so that all kids may know, you also lived a life well spent.”*
 
 ## My Ethos
 
 - My motto is "Not dead yet" and I "live to work", for humanity, family and friends, while others merely "work to live".
-- I’ve never been more productive than I am now, immersed in a coexistence with AIs, 18-hours per day, rarely taking a day off, and then mostly just for my kid.
-- I am financially independent, but even if I wasn't I would still feel mostly uncorruptable. I was fired a hundred times for making self-serving power brokers nervous. They usually kept me until they received my deliverables. This inability to fit in corporate politics is why I took consultant roles, not employee roles.
-- I am committed to altruistic world-fixing, so my work is **available pro-bono** if it helps advance human-AI co-evolution, and/or just causes.
-- Elsewhere, income may flow through my consulting firm **InSeed.com** or other channels, because even a purpose-driven life must balance wifely expectations with global altruism.
+- I’ve never been more productive than I am now, immersed in a coexistence with hundreds of concurrently-speaking AIs, 18-hours-per-day, with rarely a day off, and then mostly because I have a kid.
+- I am financially independent, but even if I wasn't I would still feel almost uncorruptable. I was fired a hundred times for making self-serving power brokers nervous. They would keep for the deliverables then go back to hiring less discomforting consultants. My clashes with corporate politics made me what I am, consultant not employee.
+- I am committed to altruistic world-fixing, so my work is **available pro-bono** if it helps advance human/AI CoEvolution and just causes.
+- Elsewhere, you can reach me through some of the small firms I still own, like **InSeed.com**, a consulting practice serving Executive teams facing AI-induced issues.
 
 ## Past & Present Writing
 
@@ -52,13 +52,13 @@ I’ve written in different venues over the years, each reflecting a phase of my
 
 ## Family-Run Charites
 
-My family runs a registered charity called [DogsnHomes](https://dogsnhomes.org.uk/), and we also ship **hundreds of tonnes of humanitarian aid to Ukraine** by driving our own trucks into Kyiv. Based in the UK, and operating throughout Europe, our efforts reflect the same ethos: fixing a broken World, helping those who suffer, and altruistic purpose.
+My family runs a registered charity called [DogsnHomes](https://dogsnhomes.org.uk/), and we also ship **hundreds of tonnes of humanitarian aid to Ukraine** by driving our own trucks into Kyiv. Based in the UK, and operating throughout Europe, our charity's efforts reflect the same ethos: fixing a broken World, helping those who suffer, and altruistic purpose.
 
 ---
 
 **Call to Action**
 
-If your project helps people coevolve, reduces coercion and corruption, or advances human–AI co-evolution, I am available pro-bono via [InSeed](https://inseed.com/)
+If your project helps people CoEvolve, reduces coercion and corruption, or advances human/AI synergies, I am available pro-bono via [InSeed](https://inseed.com/)
 
 ---
 
