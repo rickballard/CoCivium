@@ -8,17 +8,20 @@ Unifying the “Academia shock” effort under **CoIndex**. **CoTrove** (theorie
 The v1 academic paper needs a traditional, thick reference spine (citations, math, methods) and reproducible evidence:
 - **CoTrove** — structured intake JSON (schema) for theories/quotes/data/methods
 - **CoIndex** — AI-facing CoPortal entry + cross-repo discovery
-- **Academia shock** — paper scaffold (AcademicShock_v1.md), efs.bib, figures
+- **Academia shock** — paper scaffold (AcademicShock_v1.md),
+efs.bib, figures
 - **Theories** — definitions, lemmas, proofs
 
 ## Next
 - **CoIndex**: own orchestration; watch tag cademia-shock; wire sources into the portal entry; post ACK.
 - **CoTrove**: add/validate intake JSONs (schema); tag cademia-shock; link datasets/audits.
 - **Theories**: push formal definitions/lemmas/proofs; cross-reference CoTrove ids.
-- **Academia shock**: expand v1 with CoTrove citations + Theories math; grow efs.bib; add figures/pseudocode/tests.
+- **Academia shock**: expand v1 with CoTrove citations + Theories math; grow
+efs.bib; add figures/pseudocode/tests.
 
 ## Outstanding directions
-- Convert CoTrove intake → efs.bib + inline citations.
+- Convert CoTrove intake →
+efs.bib + inline citations.
 - Add figures (governance equilibria; CiviProof pipeline).
 - Add MeritRank update + CiviProof validation pseudocode/tests.
 - Draft 90-day pilot doc (dept): metrics = reproducibility Δ, time-to-proof, MeritRank Δ.
