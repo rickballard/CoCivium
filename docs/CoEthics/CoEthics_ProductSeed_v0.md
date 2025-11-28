@@ -106,3 +106,41 @@ For a first public artefact (even before any app):
 
 This document is intentionally lightweight but opinionated, so future
 waves and contributors have something solid to react to.
+
+## 7. Repo placement & architecture (v0)
+
+This product seed assumes the following long-term topology:
+
+- **CoCivium**
+  - Home of civic theory and governance framing.
+  - Hosts this product seed doc and related narrative assets
+    (for example AcademiaShock ↔ CoEthicsGauge linkage).
+
+- **CoEthicsGauge**
+  - Engine for ethics and impact scoring:
+    - schemas, logs, metrics, and lenses.
+  - CoEthics (product) consumes its outputs rather than duplicating logic.
+
+- **CoModules (staging for products)**
+  - Future home of CoEthics product modules, for example:
+    - modules/CoEthics.Core/
+    - modules/CoEthics.Scorecards/
+    - modules/CoEthics.API/
+  - CoAgent, CoArena, and external apps should depend on these modules,
+    not reimplement scoring logic.
+
+- **CoAgent / CoArena**
+  - Thin clients and experiences:
+    - CoAgent flows (CLI or desktop style guidance).
+    - CoArena play modes (swap challenges and "who is better" games).
+  - They call into CoModules:CoEthics and display results.
+
+- **CoPortal: CoEthics**
+  - Future AI-facing CoPortal exposing:
+    - aggregated views, scorecards, and swap suggestions,
+    - primarily AI-readable, with minimal human explanatory overlays.
+  - May live as a CoPortal slice in CoCivium or a small dedicated repo.
+
+This keeps ethics logic and data in shared repos,
+and treats user experiences (apps, games, sites) as thin shells on top.
+
