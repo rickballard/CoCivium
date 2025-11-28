@@ -37,3 +37,9 @@ efs.bib + inline citations.
 - repo:CoCivium/docs/academia-shock/WhitePaper/refs.bib
 - repo:CoTrove/docs/INTAKE/items
 - (opt) repo:CoTheories/docs/*
+
+## Backlinks
+- [/docs/README.md](/docs/README.md)
+- [/docs/intent/README.md](/docs/intent/README.md)
+- [/docs/intent/advice/README.md](/docs/intent/advice/README.md)
+
