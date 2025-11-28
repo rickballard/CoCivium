@@ -1,0 +1,12 @@
+# CoVibe repo prefs consumed by scripts/workflows
+require_pr: true
+min_reviews: 1
+require_codeowners: true
+linear_history: true
+allow_force_pushes: false
+allow_deletions: false
+readme_smoke: true
+linkcheck_on_push: true
+normalize_lf: true
+ascii_reports: true
+wait_notes: true
