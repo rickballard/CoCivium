@@ -1,0 +1,39 @@
+name: CoCivia heartbeat
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+jobs:
+  heartbeat:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout CoCivium
+        uses: actions/checkout@v4
+
+      - name: Run CoCivia heartbeat
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          Set-StrictMode -Version Latest
+          ./tools/CoCiviaHeartbeat.ps1
+
+      - name: Commit and push heartbeat (if any changes)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          Set-StrictMode -Version Latest
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+
+          $status = git status --porcelain
+          if([string]::IsNullOrWhiteSpace($status)){
+            Write-Host "No changes to commit."
+          } else {
+            git add docs/intent/advice/heartbeat/CoCivia
+            git commit -m "CoCivia heartbeat $(Get-Date -Format yyyyMMddTHHmmssZ)"
+            git push
+          }
