@@ -3,4 +3,9 @@
  ## Backlinks
 - [/docs/README.md](/docs/README.md)
 - [/docs/intent/README.md](/docs/intent/README.md)
-- [/docs/intent/advice/README.md](/docs/intent/advice/README.md) 
+- [/docs/intent/advice/README.md](/docs/intent/advice/README.md)
+
+## Backlinks
+- [/docs/README.md](/docs/README.md)
+- [/docs/intent/README.md](/docs/intent/README.md)
+- [/docs/intent/advice/README.md](/docs/intent/advice/README.md)
