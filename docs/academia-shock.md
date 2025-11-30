@@ -1,3 +1,3 @@
 # Academia Shock - Preprint
 
-DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+Public release: [https://github.com/rickballard/CoCivium/releases/tag/academia-shock-preprint-v1.1-20251130T215249Z](https://github.com/rickballard/CoCivium/releases/tag/academia-shock-preprint-v1.1-20251130T215249Z)
