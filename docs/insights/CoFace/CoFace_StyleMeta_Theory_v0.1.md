@@ -37,4 +37,4 @@ In the long arc:
   - Anchor HumanTouch metrics
   - Interact with GIBindex entries
   - Inform CoAudit brand and quality checks
-  - Help CoPortal and CoBeacon decide what to surface first to humans
+  - Help System.Func`2[System.Text.RegularExpressions.Match,System.String] and CoBeacon decide what to surface first to humans
