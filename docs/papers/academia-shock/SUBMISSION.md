@@ -1,11 +1,12 @@
 # SUBMISSION.md
+
 Targets:
-- Nature Machine Intelligence – Perspective (primary) OR
+- Nature Machine Intelligence – Perspective, or
 - Communications of the ACM – Viewpoint
-Parallel: JOSS short paper for CoGuard/CoPortal software; arXiv preprint first.
+Parallel: JOSS short paper for software bundles and arXiv preprint.
 
 Checklist:
-- [ ] Convert Viewpoint to PDF via CI (pandoc)
-- [ ] Public bundle: /bundles/academia-shock-v1 with scripts + expected receipts
-- [ ] DOI via Zenodo release; CITATION.cff
-- [ ] Ethics + data license notes
+- [ ] Build DOCX and HTML via CI and attach artifacts
+- [ ] Public bundle with scripts and expected receipts
+- [ ] DOI via tagged release and archive
+- [ ] Ethics notes for data handling
