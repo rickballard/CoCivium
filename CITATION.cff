@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Academia Shock: CoPortals, Edge-Control, and Public Trust Receipts
+authors:
+  - family-names: Ballard
+    given-names: Rick
+    email: contact@InSeed.com
+  - name: CoCivium Collective
+license: CC-BY-4.0
+repository-code: https://github.com/rickballard/CoCivium
