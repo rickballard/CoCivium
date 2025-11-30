@@ -7,7 +7,7 @@ Repo: CoCivium
 
 - A scope-drop memo has been created for the CoIndex repo that proposes:
   - CoIndex owns the CoTrove schema.
-  - CoIndex owns CoTrove mining, indexing, and CoPortal preparation.
+  - CoIndex owns CoTrove mining, indexing, and System.Func`2[System.Text.RegularExpressions.Match,System.String] preparation.
   - CoTrove is treated as an indexable primitive that lives under CoIndex.
 
 - The memo is advisory only. It is not a binding standard.
@@ -23,7 +23,7 @@ Repo: CoCivium
 - Co1 and future CoIndex sessions should:
   - Read this memo.
   - Evolve or refactor the advice into formal standards and tools.
-  - Wire CoTrove into the CoIndex and CoPortal architectures.
+  - Wire CoTrove into the CoIndex and System.Func`2[System.Text.RegularExpressions.Match,System.String] architectures.
 
 - This session ("Benedict") will terminate once this CoSync note and the CoIndex memo are on repo, with no remaining unsaved wisdom.
 
