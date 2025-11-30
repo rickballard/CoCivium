@@ -1,5 +1,5 @@
-docs-only:   - "docs/**"   - "**/*.md"   - "advice/**" ci:   - ".github/workflows/**" diagrams:   - "docs/diagrams/**" ai-receipt:   - changed-files:       - any-glob-to-any-file: 'docs/ai/examples/receipt_*.md' 
+docs-only:   - "docs/**"   - "**/*.md"   - "advice/**" ci:   - ".github/workflows/**" diagrams:   - "docs/diagrams/**" ai-receipt:   - changed-files:       - any-glob-to-any-file: 'docs/ai/examples/receipt_*.md'    docs-only:   - changed-files:       - any-glob-to-any-file: ["docs/**"]rnrndocs-only:
 
- docs-only:
-  - changed-files:
-      - any-glob-to-any-file: ["docs/**"]
+changed-files:
+
+any-glob-to-any-file: ["docs/**"]
