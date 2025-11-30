@@ -1,0 +1,3 @@
+# Academia Shock paper bundle
+
+This folder contains a viewpoint and a methods document that describe how to publish agent-ready portals, edge-held consent, and public trust receipts as first-class research artifacts. The text is verbose and plain to match expectations of academic reviewers. There are no em dashes. The build workflow outputs DOCX and HTML so that reviewers can open the files without a LaTeX toolchain.
