@@ -18,9 +18,9 @@ In any interface that participates in CoCivium / CoSuite:
 
 ## 2. Example scenarios
 
-### 2.1 CoPortal explanation that “lands”
+### 2.1 System.Func`2[System.Text.RegularExpressions.Match,System.String] explanation that “lands”
 
-A CoPortal page explains CoCivium’s role in democracy in a way that feels clear
+A System.Func`2[System.Text.RegularExpressions.Match,System.String] page explains CoCivium’s role in democracy in a way that feels clear
 and empowering.
 
 - Human thinks: “Yes, that. Keep that way of explaining it.”
@@ -63,7 +63,7 @@ Even though implementations differ by vendor / platform, CoSuite can specify:
 
 - Minimal fields for a CoDitto log entry:
   - `pattern_id` or `pattern_hash`
-  - `context_label` (mission, repo, CoPortal name)
+  - `context_label` (mission, repo, System.Func`2[System.Text.RegularExpressions.Match,System.String] name)
   - `user_role` (CoSteward, contributor, citizen)
   - `timestamp`
 - Aggregation rules:
@@ -73,7 +73,7 @@ Even though implementations differ by vendor / platform, CoSuite can specify:
 CoDitto events should, over time, inform:
 
 - updates to CoSteward Ops Manual,
-- refinements to CoPortal / CoBeacon content,
+- refinements to System.Func`2[System.Text.RegularExpressions.Match,System.String] / CoBeacon content,
 - additions to CoTheory insight pairs and GIBindex.
 
 ## 4. Relationship to humans and democracy

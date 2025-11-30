@@ -33,7 +33,7 @@ CoSuite.
   - revisit prompts,
   - adjust templates,
   - prioritize certain response styles.
-- **CoPortal / CoBeacon** – CoDitto events happening on CoPortal surfaces help
+- **System.Func`2[System.Text.RegularExpressions.Match,System.String] / CoBeacon** – CoDitto events happening on System.Func`2[System.Text.RegularExpressions.Match,System.String] surfaces help
   discover which explanations, on-ramps, and patterns actually serve humans.
 
 ## 4. Design considerations
@@ -67,7 +67,7 @@ CoDitto must always operate inside CoCivium’s edge-owned guardrails, not above
   - CoDitto? (uncertain but interesting),
   - CoDitto- (soft “less of this”).
 - Integrate CoDitto into:
-  - CoPortal UX,
+  - System.Func`2[System.Text.RegularExpressions.Match,System.String] UX,
   - CoSteward Ops Manual (how to interpret patterns),
   - CoAudit (auditing reinforcement dynamics).
 
