@@ -7,7 +7,7 @@ Unifying the “Academia shock” effort under **CoIndex**. **CoTrove** (theorie
 ## Why
 The v1 academic paper needs a traditional, thick reference spine (citations, math, methods) and reproducible evidence:
 - **CoTrove** — structured intake JSON (schema) for theories/quotes/data/methods
-- **CoIndex** — AI-facing CoPortal entry + cross-repo discovery
+- **CoIndex** — AI-facing System.Func`2[System.Text.RegularExpressions.Match,System.String] entry + cross-repo discovery
 - **Academia shock** — paper scaffold (AcademicShock_v1.md),
 efs.bib, figures
 - **Theories** — definitions, lemmas, proofs
