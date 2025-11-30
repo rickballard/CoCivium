@@ -1,0 +1,21 @@
+name: paper-build
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+      - name: Build PDFs
+        run: |
+          mkdir -p artifacts
+          pandoc docs/papers/academia-shock/VIEWPOINT.md -o artifacts/AcademiaShock_Viewpoint.pdf
+          pandoc docs/papers/academia-shock/METHODS.md -o artifacts/AcademiaShock_Methods.pdf
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: academia-shock-pdfs
+          path: artifacts/*.pdf
