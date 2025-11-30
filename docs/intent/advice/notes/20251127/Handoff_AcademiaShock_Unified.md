@@ -7,7 +7,7 @@ Unifying the "Academia Shock" effort under CoIndex. CoTrove (theories/quotes), C
 ## Why
 The academic v1 needs a thick literature spine (citations), formal math, and reproducible evidence:
 - CoTrove: structured intake of theories/quotes/data/methods
-- CoIndex: AI-facing CoPortal entries + cross-repo discovery
+- CoIndex: AI-facing System.Func`2[System.Text.RegularExpressions.Match,System.String] entries + cross-repo discovery
 - CoCivium: paper scaffold, figures, refs
 - CoTheories: definitions, lemmas, proofs
 
