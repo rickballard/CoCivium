@@ -1,6 +1,80 @@
-# Methods & Benchmark (E-series)
-- E1: CoPortal fidelity vs human-face pages (task success, token cost, wrong-state actions)
-- E2: Consent clarity under Edge-Control (blocked reads vs attempted disallowed actions)
-- E3: Trust visibility with receipts (reproducibility rate, anomaly time-to-detection)
+# Methods and Benchmark Protocols for Academia Shock
 
-Each experiment ships: data stub, config, fixed seeds, and expected receipts.
+This document specifies runnable protocols for E1, E2, and E3. It is designed so that an outside lab can reproduce the same receipts within one working day on commodity hardware.
+
+## 1. Common setup
+
+- Code and portal: the repository exposes both the human-face site and the CoPortal from the same source tree.  
+- Environment: container image pinned by digest; OS, toolchain, and library versions recorded in the receipt.  
+- Seeds: all stochastic elements are controlled by fixed seeds stored in the receipt.  
+- Data: only open datasets or user-donated traces with revocable grants. Each dataset is accompanied by a short data statement and a checksum.  
+- Receipts: the build system emits a signed archive with scripts, configuration, checksums, short summaries, and links to the commit and tag.  
+- Concept registry: terms used in tasks and metrics are versioned in a simple registry so that teams agree on definitions.
+
+## 2. Metrics
+
+- Reproducibility rate (R).  
+- Consent clarity (C).  
+- Trust visibility (T).  
+- Task yield (Y).  
+- Violation rate (V).  
+- Evidence latency (L).
+
+Report means with 95 percent confidence intervals. Where appropriate, use non-parametric tests. Do not round away variance.
+
+## 3. E1 CoPortal fidelity
+
+Question. Do portal-mediated tasks reduce hallucination and improve task completion relative to human-face pages.
+
+Design. Balanced within-subject comparison on a fixed battery of tasks. Each task is defined once and executed in the two conditions. Task order is randomized per seed.
+
+Tasks. Small, verifiable tasks with clear pass-fail checks. Examples include structured look-ups, multi-step instructions, and policy-aware retrieval.
+
+Measure. Success rate, token cost, and wrong-state actions.
+
+Analysis. Paired tests on success and cost. Report effect sizes and confidence intervals.
+
+Artifacts. `bundles/e1/` contains the scripts, configs, and expected receipt.
+
+## 4. E2 Consent clarity with Edge-Control
+
+Question. Does explicit, revocable consent reduce silent over-reach without imposing heavy friction.
+
+Design. Two flows over the same tasks. In one arm, all agent actions pass through the Edge-Control layer. In the other arm, the layer is disabled. Input data and seeds are identical.
+
+Measure. Attempted disallowed actions, blocked actions, time overhead per task, and user-facing consent events. Record the policy rules that triggered blocks.
+
+Analysis. Compare violation and latency rates. Treat consent clarity as a first-class outcome.
+
+Artifacts. `bundles/e2/` contains scripts, policies, and the expected receipt.
+
+## 5. E3 Public trust receipts
+
+Question. Does publishing receipts improve reproducibility and anomaly detection speed.
+
+Design. Two matched application branches. One branch publishes receipts to an immutable store. The other branch withholds them. Teams run identical task batteries.
+
+Measure. Reproducibility rate and evidence latency. Record the number of anomalies detected by third parties.
+
+Analysis. Compare rates and times using standard survival and proportion tests where appropriate.
+
+Artifacts. `bundles/e3/` contains the scripts and expected receipt.
+
+## 6. Ethics and data protection
+
+Use only openly licensed data or data for which the contributor holds the right to grant revocable access. Clearly separate synthetic from non-synthetic data. Document any potential harms and channels for redress. Default to deny when in doubt. Record consent events as part of the receipt.
+
+## 7. Negative results
+
+Publish negative results with the same care as positive results. Receipts that fail to reproduce are labeled as such, and the anomaly is tracked to closure.
+
+## 8. Reproduction instructions
+
+1. Fork the repository and run `./repro.sh` or `pwsh ./repro.ps1`.  
+2. Verify hashes against the expected receipt.  
+3. If the run diverges, file an anomaly card with logs and environment details.  
+4. Submit your receipt via pull request for automated recomputation.
+
+## 9. Submission package
+
+The preprint includes the portal URL, the receipt URL, and a short summary of the experiment arms. A tag is pushed and archived so the receipt is immutable.
