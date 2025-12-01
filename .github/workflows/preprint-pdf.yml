@@ -1,0 +1,47 @@
+name: Preprint PDFs
+
+on:
+  push:
+    paths:
+      - "docs/papers/academia-shock/**"
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc & tectonic
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc tectonic
+      - name: Build PDFs
+        working-directory: docs/papers/academia-shock
+        run: |
+          set -e
+          OUT=../../..//preprint-pdfs
+          mkdir -p "$OUT"
+          if [ -f CITATIONS.bib ]; then BIB="--bibliography CITATIONS.bib"; fi
+          pandoc VIEWPOINT.md --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Viewpoint.pdf"
+          pandoc METHODS.md   --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Methods.pdf"
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: preprint-pdfs
+          path: preprint-pdfs/*.pdf
+
+  attach-on-release:
+    if: github.event_name == 'release'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: preprint-pdfs
+          path: preprint-pdfs
+      - name: Attach PDFs to release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "${{ github.event.release.tag_name }}" preprint-pdfs/*.pdf --clobber
