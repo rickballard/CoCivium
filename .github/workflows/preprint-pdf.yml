@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "docs/papers/academia-shock/**"
+      - ".github/workflows/preprint-pdf.yml"
   workflow_dispatch:
   release:
     types: [published]
@@ -13,19 +14,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install pandoc & tectonic
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc tectonic
+
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v3
+
+      - name: Setup Tectonic
+        uses: wtfjoke/setup-tectonic@v2
+
       - name: Build PDFs
         working-directory: docs/papers/academia-shock
         run: |
           set -e
           OUT=../../..//preprint-pdfs
           mkdir -p "$OUT"
-          if [ -f CITATIONS.bib ]; then BIB="--bibliography CITATIONS.bib"; fi
+          [ -f CITATIONS.bib ] && BIB="--bibliography CITATIONS.bib" || BIB=""
           pandoc VIEWPOINT.md --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Viewpoint.pdf"
           pandoc METHODS.md   --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Methods.pdf"
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
