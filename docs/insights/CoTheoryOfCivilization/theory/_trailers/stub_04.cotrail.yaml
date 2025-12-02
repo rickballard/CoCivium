@@ -1,0 +1,31 @@
+id: CoSteward:docs/handbook/StewardsHandbook_v2_FULL.md
+title: Stewards Handbook v2
+version: "0.1.0"
+asset_type: doc
+owner: CoSteward
+license: CC-BY-4.0
+origin: attachment
+links:
+  source: placeholder://attach/seed
+intents: ['rituals', 'guardrails']
+vectors:
+  - name: readiness
+    direction: integrate into CoCloud
+    pressure: 0.5
+signals: [ 'draft_stub' ]
+synergy_with: ['CoCivium:docs/insights/CoTheoryOfCivilization/practice/CoTheory_Practice_Playbook_v1.md']
+anti_synergy: []
+dependencies: []
+risks: [ 'context_mismatch' ]
+fitness:
+  readiness_tier: seed
+  value_score: 0.3
+  risk_score: 0.2
+  evidence: []
+roadmaps:
+  - name: stub_to_live
+    milestones: [ 'locate_real_path', 'link_from_index', 'add_alt_text' ]
+stewardship:
+  circle: Founding Stewards
+  appeals_path: /stewards/appeals
+  care_notes: keep stubs fresh until replaced
