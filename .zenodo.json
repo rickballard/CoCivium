@@ -1,14 +1,13 @@
 {
-  "title": "Academia Shock: CoPortals, Edge Control, and Public Trust Receipts",
+  "title": "{"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}",
   "upload_type": "publication",
-  "publication_type": "preprint",
+  "publication_type": "report",
+  "description": "This\ preprint\ proposes\ practical,\ auditable\ workflows\ for\ credible\ AI\ and\ data\ stewardship\.",
   "creators": [
-    {"name": "Ballard, Rick", "affiliation": "InSeed / CoCivium"},
-    {"name": "CoCivium Collective"}
+    {"name": "Ballard, Rick", "affiliation": "InSeed / CoCivium"}
   ],
-  "description": "Preprint bundle and receipts for Academia Shock. Includes PREPRINT, VIEWPOINT, METHODS, and citations.",
-  "keywords": ["AI governance", "reproducibility", "agents", "CoPortal", "Edge Control", "trust receipts"],
-  "notes": "Release created from GitHub tag; receipts and artifacts are attached on the GitHub release.",
   "access_right": "open",
-  "license": "cc-by-4.0"
+  "license": "cc-by-4.0",
+  "keywords": ["AI governance","reproducibility","artifacts","CoCivium"],
+  "notes": "Release v1.1.1; PDFs attached in GitHub release."
 }
