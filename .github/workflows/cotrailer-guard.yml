@@ -2,10 +2,10 @@ name: CoTrailer Guard
 on:
 pull_request:
 paths:
-- "/*.cotrail.json"
-- "/.cotrail.yaml"
-- "**/.cotrail.yml"
-- "schemas/co.trailer.schema.json"
+- '/*.cotrail.json'
+- '/.cotrail.yaml'
+- '**/.cotrail.yml'
+- 'schemas/co.trailer.schema.json'
 jobs:
 validate:
 runs-on: ubuntu-latest
@@ -17,8 +17,3 @@ run: ./tools/CoTrailer-Validate.ps1 -RepoPath . -SchemaPath ./schemas/co.trailer
 - name: Build CoCloud map
 shell: pwsh
 run: ./tools/CoCloud-Index.ps1 -RepoPath . -OutPath docs/insights/CoTheoryOfCivilization/practice/CoCloud_Map.md
-- name: Upload map
-uses: actions/upload-artifact@v4
-with:
-name: cocloud-map
-path: docs/insights/CoTheoryOfCivilization/practice/CoCloud_Map.md
