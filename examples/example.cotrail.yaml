@@ -1,0 +1,44 @@
+# example .cotrail.yaml
+id: CoCivium:docs/insights/CoTheoryOfCivilization/theory/CoTheoryOfCivilization_v1.md
+title: CoTheory of Civilization - seed
+version: "1.0.0"
+asset_type: doc
+owner: CoSteward
+license: CC-BY-4.0
+origin: seeded_from_ideation
+links:
+  repo: https://github.com/rickballard/CoCivium
+intents:
+  - explain deliberative evolution frame
+  - attract stewards and contributors
+vectors:
+  - name: edge_governed_pluralism
+    direction: plural civic operating system
+    pressure: 0.7
+    alt_routes: [city_first_pilots, coop_networks]
+  - name: convergence_risk
+    direction: elite capture avoidance
+    pressure: 0.6
+    alt_routes: [open_model_audit, procurement_guardrails]
+signals: [stewards_circle_formed, pilot_receipts_present]
+synergy_with:
+  - CoCivium:docs/infographics/pack.md
+  - CoSteward:docs/handbook/StewardsHandbook_v2_FULL.md
+anti_synergy: []
+dependencies: []
+risks: [language too abstract]
+fitness:
+  readiness_tier: seed
+  value_score: 0.4
+  risk_score: 0.3
+  evidence: [infographics_pack_linked]
+roadmaps:
+  - name: v1_to_v2_path
+    milestones:
+      - add human_interest caselets
+      - wire to AIFD patterns
+      - ship steward rituals appendix
+stewardship:
+  circle: Founding Stewards
+  appeals_path: /stewards/appeals
+  care_notes: rotate editing to avoid burnout

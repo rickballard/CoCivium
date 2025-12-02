@@ -1,0 +1,44 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"CoTrailer - asset meta cloud sidecar",
+  "type":"object",
+  "required":["id","title","version","asset_type","intents","vectors","fitness","roadmaps"],
+  "properties":{
+    "id":{"type":"string"},
+    "title":{"type":"string"},
+    "version":{"type":"string"},
+    "asset_type":{"type":"string","enum":["doc","code","diagram","dataset","model","script","workflow","policy","other"]},
+    "owner":{"type":"string"},
+    "license":{"type":"string"},
+    "origin":{"type":"string"},
+    "links":{"type":"object","additionalProperties":{"type":"string"}},
+    "intents":{"type":"array","items":{"type":"string"}},
+    "vectors":{"type":"array","items":{
+      "type":"object",
+      "required":["name","direction","pressure"],
+      "properties":{
+        "name":{"type":"string"},
+        "direction":{"type":"string"},
+        "pressure":{"type":"number","minimum":0,"maximum":1},
+        "alt_routes":{"type":"array","items":{"type":"string"}}
+      }}},
+    "signals":{"type":"array","items":{"type":"string"}},
+    "synergy_with":{"type":"array","items":{"type":"string"}},
+    "anti_synergy":{"type":"array","items":{"type":"string"}},
+    "dependencies":{"type":"array","items":{"type":"string"}},
+    "risks":{"type":"array","items":{"type":"string"}},
+    "fitness":{"type":"object","required":["readiness_tier","value_score","risk_score"],
+      "properties":{
+        "readiness_tier":{"type":"string","enum":["seed","alpha","beta","pilot","prod"]},
+        "value_score":{"type":"number","minimum":0,"maximum":1},
+        "risk_score":{"type":"number","minimum":0,"maximum":1},
+        "evidence":{"type":"array","items":{"type":"string"}}}},
+    "roadmaps":{"type":"array","items":{
+      "type":"object","required":["name","milestones"],
+      "properties":{"name":{"type":"string"},"milestones":{"type":"array","items":{"type":"string"}}}}},
+    "stewardship":{"type":"object","properties":{
+      "circle":{"type":"string"},
+      "appeals_path":{"type":"string"},
+      "care_notes":{"type":"string"}}}
+  }
+}

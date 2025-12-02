@@ -1,0 +1,20 @@
+{
+  "id":"CoCivium:docs/infographics/pack.md",
+  "title":"Infographics pack",
+  "version":"1.0.0",
+  "asset_type":"diagram",
+  "owner":"CoSteward",
+  "license":"CC-BY-4.0",
+  "origin":"InfographicsPack_v1.md",
+  "links":{"repo":"https://github.com/rickballard/CoCivium"},
+  "intents":["make phases visible","teach drift and coercion loops"],
+  "vectors":[{"name":"visual_literacy","direction":"faster onboarding","pressure":0.8,"alt_routes":["short_reels","print_cards"]}],
+  "signals":["diagram_citations","requests_for_svg"],
+  "synergy_with":["CoCivium:docs/insights/CoTheoryOfCivilization/theory/CoTheoryOfCivilization_v1.md"],
+  "anti_synergy":[],
+  "dependencies":[],
+  "risks":["over_simplification"],
+  "fitness":{"readiness_tier":"beta","value_score":0.6,"risk_score":0.2,"evidence":["used_in_3_readmes"]},
+  "roadmaps":[{"name":"v1_to_v2","milestones":["add D2 sources","add legend","publish SVGs"]}],
+  "stewardship":{"circle":"Design","appeals_path":"/stewards/appeals","care_notes":"maintain alt text"}
+}
