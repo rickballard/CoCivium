@@ -4,7 +4,7 @@
 - See release assets on tag: academia-shock-preprint-v1.1.1
 
 **How to cite**
-- DOI: 10.5281/zenodo.TBD
+- DOI: 10.5281/zenodo.17783961
 - Citation file: CITATION.cff
 
 **Abstract**

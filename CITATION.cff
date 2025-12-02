@@ -7,7 +7,7 @@ authors:
     given-names: Rick
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.TBD
+    value: 10.5281/zenodo.17783961
 abstract: >-
   This preprint proposes practical, auditable workflows for credible AI and data stewardship.
 keywords:
@@ -17,3 +17,4 @@ keywords:
   - CoCivium
 license: CC-BY-4.0
 version: v1.1.1
+
