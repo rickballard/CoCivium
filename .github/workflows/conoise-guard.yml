@@ -1,0 +1,16 @@
+name: CoNoise Guard
+on:
+pull_request:
+paths:
+- '/*.conoise.json'
+- '/.conoise.yaml'
+- '**/.conoise.yml'
+- 'schemas/co.noisebudget.schema.json'
+jobs:
+validate:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+- name: Validate CoNoiseBudget
+shell: pwsh
+run: ./tools/CoNoise-Validate.ps1 -RepoPath . -SchemaPath ./schemas/co.noisebudget.schema.json

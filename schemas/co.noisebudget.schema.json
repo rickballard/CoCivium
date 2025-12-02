@@ -1,0 +1,5 @@
+{ "$schema":"http://json-schema.org/draft-07/schema#","title":"CoNoiseBudget","type":"object
+",
+"required":["budget","window","rollback_threshold"],
+"properties":{"budget":{"type":"integer","minimum":0,"maximum":100},"window":{"type":"string","enum":["PR","week","month"]},
+"rollback_threshold":{"type":"integer","minimum":0,"maximum":100},"notes":{"type":"string"}}}
