@@ -80,3 +80,22 @@
   - Feeds: Handoffs, session summaries, index updates and guardrail specs.
   - Draws from: all active sessions as listed above.
 
+## Session plan update (2025-12-02T11:19:03Z) – CoPolitic20251201
+
+- Session: CoPolitic20251201
+  - Repo: CoPolitic
+  - Current wave:
+    1) Upstream theory: CoTheory of Civilization article suite in CoCivium.   [THIS SESSION]
+    2) Bridge: align CoPolitic.org and InSeed.com futures via bridge paper.   [THIS SESSION]
+    3) CoPolitic.org site rebuild:
+       - New IA / page map.
+       - Core messages derived from CoTheory + Academia Shock.
+       - Draft hero + CTA copy.
+       - Stub key pages in CoPolitic repo (Home, Why Now, For Stewards, For Elites, For Youth).
+    4) Sync back to Co1 / CoPrime:
+       - Note which artifacts are canonical for narrative reuse.
+  - Related sessions:
+    - AcademiaShock_Zenodo (CoCivium, preprint + DOI flow).
+    - InSeed_more (InSeed.com strategy copy).
+    - CoPrime20251128 (Co1 orchestrator).
+
