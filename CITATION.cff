@@ -1,15 +1,1 @@
-cff-version: 1.2.0
-title: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
-message: Please cite this work if you use it.
-type: report
-authors:
-  - family-names: Ballard
-    given-names: Rick
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.TBD
-abstract: >-
-  This preprint proposes practical, auditable workflows for credible AI and data stewardship.
-keywords: [AI governance, reproducibility, artifacts, CoCivium]
-license: CC-BY-4.0
-version: v1.1.1
+cff-version: 1.2.0 title: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"} message: Please cite this work if you use it. type: report authors:   - family-names: Ballard     given-names: Rick identifiers:   - type: doi     value: 10.5281/zenodo.8475 abstract: >-   This preprint proposes practical, auditable workflows for credible AI and data stewardship. keywords: [AI governance, reproducibility, artifacts, CoCivium] license: CC-BY-4.0 version: v1.1.1
