@@ -55,3 +55,28 @@
 - notes:
   - First CoIndex HARVEST H/A/E pipeline run for academia-shock lane.
   - Export shape is "CoIndex_ExportSchema_v2-pilot" pointees for System.Func`2[System.Text.RegularExpressions.Match,System.String] consumption.
+## Session scopes snapshot (2025-12-02T10:38:02Z)
+
+- Session: AcademiaShock_Zenodo
+  - Repo: CoCivium
+  - Focus: Academia Shock preprint, DOIs, Zenodo integration, artifacts and workflows.
+  - Feeds: Academia Shock PDF, CoTheory of Civilization citations, CoBus history.
+
+- Session: CoPolitic20251201
+  - Repo: CoPolitic
+  - Focus: Public facing civic and political narrative for edge balanced hybrid society.
+  - Feeds: Messaging and visuals for policymakers, civic leaders and the public.
+  - Draws from: CoTheory of Civilization, Academia Shock, CoGuard, CoIndex.
+
+- Session: InSeed_more
+  - Repo: InSeed
+  - Focus: Strategy and commercial framing of the same futures for execs and innovators.
+  - Feeds: InSeed.com copy, client decks and workshops.
+  - Draws from: CoTheory of Civilization, Academia Shock, CoPolitic narratives.
+
+- Session: CoPrime20251128 (Co1)
+  - Repo: CoSteward / CoPrime constellation
+  - Focus: Orchestrator for cross-repo intent, CoBus, GIBindex and MegaWaves.
+  - Feeds: Handoffs, session summaries, index updates and guardrail specs.
+  - Draws from: all active sessions as listed above.
+
