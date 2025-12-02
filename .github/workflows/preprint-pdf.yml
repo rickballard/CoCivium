@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "docs/papers/academia-shock/**"
+      - ".github/workflows/preprint-pdf.yml"
   workflow_dispatch:
   release:
     types: [published]
@@ -13,19 +14,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install pandoc & tectonic
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc tectonic
+
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Setup Tectonic
+        uses: wtfjoke/setup-tectonic@v4
+
       - name: Build PDFs
         working-directory: docs/papers/academia-shock
         run: |
-          set -e
+          set -euo pipefail
           OUT=../../..//preprint-pdfs
           mkdir -p "$OUT"
-          if [ -f CITATIONS.bib ]; then BIB="--bibliography CITATIONS.bib"; fi
+          if [ -f CITATIONS.bib ]; then BIB="--bibliography CITATIONS.bib"; else BIB=""; fi
           pandoc VIEWPOINT.md --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Viewpoint.pdf"
           pandoc METHODS.md   --citeproc $BIB --pdf-engine=tectonic -o "$OUT/AcademiaShock_Methods.pdf"
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -36,12 +41,14 @@ jobs:
     if: github.event_name == 'release'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: preprint-pdfs
           path: preprint-pdfs
       - name: Attach PDFs to release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload "${{ github.event.release.tag_name }}" preprint-pdfs/*.pdf --clobber
+        uses: softprops/action-gh-release@v2
+        with:
+          files: preprint-pdfs/*.pdf
