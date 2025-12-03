@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install powershell-yaml
+        shell: pwsh
+        run: Install-Module powershell-yaml -Scope CurrentUser -Force
       - name: Validate CoNoiseBudget
         shell: pwsh
         run: ./tools/CoNoise-Validate.ps1 -RepoPath . -SchemaPath ./schemas/co.noisebudget.schema.json
+

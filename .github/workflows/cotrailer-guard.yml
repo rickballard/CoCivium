@@ -11,9 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install powershell-yaml
+        shell: pwsh
+        run: Install-Module powershell-yaml -Scope CurrentUser -Force
       - name: Validate trailers
         shell: pwsh
         run: ./tools/CoTrailer-Validate.ps1 -RepoPath . -SchemaPath ./schemas/co.trailer.schema.json
       - name: Build CoCloud map
         shell: pwsh
         run: ./tools/CoCloud-Index.ps1 -RepoPath . -OutPath docs/insights/CoTheoryOfCivilization/practice/CoCloud_Map.md
+
