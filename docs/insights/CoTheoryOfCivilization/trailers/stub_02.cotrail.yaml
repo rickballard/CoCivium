@@ -1,0 +1,18 @@
+id: CoCivium:docs/theory/CoTheoryCivilization_HumanInterest_v4_FULL.md
+title: CoTheory Human Interest v4
+version: '0.1.0'
+asset_type: doc
+owner: CoSteward
+license: CC-BY-4.0
+origin: repo_seed
+links: { source: 'placeholder://attach/seed' }
+intents: [ 'storylines', 'caselets' ]
+vectors: [ { name: readiness, direction: 'integrate_into_cocloud', pressure: 0.5 } ]
+signals: [ 'draft_stub' ]
+synergy_with: [ 'CoSteward:docs/handbook/StewardsHandbook_v2_FULL.md' ]
+anti_synergy: [ ]
+dependencies: [ ]
+risks: [ 'context_mismatch' ]
+fitness: { readiness_tier: seed, value_score: 0.3, risk_score: 0.2, evidence: [ ] }
+roadmaps: [ { name: stub_to_live, milestones: [ 'locate_real_path', 'link_from_index', 'add_alt_text' ] } ]
+stewardship: { circle: 'Founding Stewards', appeals_path: '/stewards/appeals', care_notes: 'keep stubs fresh until replaced' }
