@@ -99,3 +99,94 @@
     - InSeed_more (InSeed.com strategy copy).
     - CoPrime20251128 (Co1 orchestrator).
 
+## Event (2025-12-02T16:57:22Z) – CoPolitic MegaWave v2 site
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- Change:
+  - Applied CoPolitic_MegaWave_v2 (static site v1 + intent + Labs + CoBus note).
+  - PR: https://github.com/rickballard/CoPolitic/pull/27
+- Notes:
+  - CoPolitic.org now has a coherent near-final static v1:
+    - Home, Why now, For stewards, For elites, For youth, Labs.
+    - Perspective Plan explained in plain language (commons power, stewardship, truth alignment).
+    - Labs catalog wired as both HTML and intent docs for future experiments.
+## Event (2025-12-02T17:31:33Z) – CoPolitic MegaWave v4 CoIndex-aware labs & plane
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: (fill once created)  # e.g. https://github.com/rickballard/CoPolitic/pull/29
+- Change:
+  - Updated docs/site-v1/why-now.html with a practical "How to use the perspective plane" section.
+  - Wired why-now and labs pages to canonical CoIndex / CoGbx views for AI-facing tools.
+  - Rewrote docs/site-v1/labs.html around three named labs (Perspective Plane Lab, Guardrail Jam, Civic Twin Sprint).
+  - Added docs/intent/site/CoPolitic_CoIndexPointers_v1.md as a stable pointer doc for Co1 and CoAgent sessions.
+  - Added CoBus_Note_CoPolitic_MegaWave_v4.md under docs/intent/bus.
+
+- Canonical CoIndex / CoGbx links:
+  - Seed view: https://github.com/rickballard/CoIndex/blob/main/exports/views/CoGbx_SeedViews_v1.md
+  - Seed contract: https://github.com/rickballard/CoIndex/blob/main/docs/CoGbx/CoGibber_CoGbx_SeedContract_v1.md
+## Event (2025-12-02T18:37:10Z) – CoPolitic MegaWave v5 roles landing
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: https://github.com/rickballard/CoPolitic/pull/29
+- Change:
+  - Added docs/site-v1/roles.html as the new canonical roles landing page.
+  - Clarified how stewards, elites, and youth are expected to use the site and Labs.
+  - Documented the change in CoBus_Note_CoPolitic_MegaWave_v5_Roles.md under CoPolitic docs/intent/bus.
+
+- Notes:
+  - Hosting can route /roles or /roles/ to docs/site-v1/roles.html to replace the deprecated TOS-AI stub mentioned in CoPolitic20251201.
+## Event (2025-12-02T18:37:31Z) – CoPolitic MegaWave v5 roles landing
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: https://github.com/rickballard/CoPolitic/pull/30
+- Change:
+  - Added docs/site-v1/roles.html as the new canonical roles landing page.
+  - Clarified how stewards, elites, and youth are expected to use the site and Labs.
+  - Documented the change in CoBus_Note_CoPolitic_MegaWave_v5_Roles.md under CoPolitic docs/intent/bus.
+
+- Notes:
+  - Hosting can route /roles or /roles/ to docs/site-v1/roles.html to replace the deprecated TOS-AI stub mentioned in CoPolitic20251201.
+## Event (2025-12-02T18:44:05Z) – CoPolitic MegaWave v5 roles landing
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: https://github.com/rickballard/CoPolitic/pull/30
+- Change:
+  - Added docs/site-v1/roles.html as the new canonical roles landing page.
+  - Clarified how stewards, elites, and youth are expected to use the site and Labs.
+  - Documented the change in CoBus_Note_CoPolitic_MegaWave_v5_Roles.md under CoPolitic docs/intent/bus.
+
+- Notes:
+  - Hosting can route /roles or /roles/ to docs/site-v1/roles.html to replace the deprecated TOS-AI stub mentioned in CoPolitic20251201.
+## Event (2025-12-02T19:59:32Z) – CoPolitic MegaWave v6 roles polish
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: https://github.com/rickballard/CoPolitic/pull/31
+- Change:
+  - Updated docs/site-v1/roles.html as a clearer, near-final roles landing page.
+  - Clarified how stewards, elites and youth are expected to move through the site and into Labs.
+  - Documented the change in CoBus_Note_CoPolitic_MegaWave_v6_RolesPolish.md under CoPolitic docs/intent/bus.
+
+- Notes:
+  - Hosting can continue to route /roles or /roles/ to docs/site-v1/roles.html
+    as the canonical roles entry point for CoPolitic.
+## Event (2025-12-02T20:46:07Z) – CoPolitic MegaWave v7 plane and story polish
+
+- Session: CoPolitic20251201
+- Repo: CoPolitic
+- PR: https://github.com/rickballard/CoPolitic/pull/32
+- Change:
+  - Refined the public CoPolitic site to a "finished enough" state for early external use.
+  - Clarified the perspective plane and drift patterns.
+  - Tightened the roles, Labs and track pages for stewards, elites and youth.
+  - Updated intent docs (site plan, copy blocks, Labs catalog, CoIndex pointers).
+  - Logged this wave in CoBus_Note_CoPolitic_MegaWave_v7_PlaneAndStory.md under CoPolitic docs/intent/bus.
+
+- Notes:
+  - Hosting can continue routing /roles or /roles/ to docs/site-v1/roles.html.
+  - Future waves can add visual assets without breaking these flows.

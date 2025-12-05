@@ -1,17 +1,28 @@
 param([Parameter(Mandatory=$true)][string]$RepoPath,[Parameter(Mandatory=$true)][string]$OutPath)
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 
+# Best-effort local YAML (CI installs module separately)
+try{
+  if(-not (Get-Command ConvertFrom-Yaml -ErrorAction SilentlyContinue)){
+    Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted -ErrorAction SilentlyContinue
+    Install-Module powershell-yaml -Scope CurrentUser -Force -ErrorAction SilentlyContinue
+  }
+}catch{}
+
 function Read-Trailer($p){
   if($p -match '\.ya?ml$'){
     if(Get-Command ConvertFrom-Yaml -ErrorAction SilentlyContinue){
       return (Get-Content -Raw -Path $p | ConvertFrom-Yaml | ConvertTo-Json -Depth 20 | ConvertFrom-Json)
     } else { return $null }
-  } else { return (Get-Content -Raw -Path $p | ConvertFrom-Json) }
+  } else {
+    return (Get-Content -Raw -Path $p | ConvertFrom-Json)
+  }
 }
 
-$files = Get-ChildItem -Path $RepoPath -Recurse -File -Include *.cotrail.json,*.cotrail.yaml,*.cotrail.yml
-$nodes=@(); $edges=@()
+# Use wildcard on Path for -Include reliability
+$files = Get-ChildItem -Path (Join-Path $RepoPath '*') -Recurse -File -Include '*.cotrail.json','*.cotrail.yaml','*.cotrail.yml'
 
+$nodes=@(); $edges=@()
 foreach($f in $files){
   $o = Read-Trailer $f.FullName; if($null -eq $o){ continue }
   $id    = if($o.id){ $o.id } else { $f.BaseName }
@@ -20,6 +31,7 @@ foreach($f in $files){
   $safe  = ($id -replace '[^A-Za-z0-9_]','_')
   $label = ('{0}`n({1})' -f ($title -replace '"','\"'), $tier)
   $nodes += ('  {0}["{1}"]' -f $safe, $label)
+
   if($o.synergy_with){
     foreach($s in $o.synergy_with){
       if([string]::IsNullOrWhiteSpace($s)){ continue }
@@ -38,7 +50,9 @@ graph LR
 {EDGES}
 "@
 
-$body = $tmpl.Replace('{NODES}', (($nodes | Sort-Object -Unique) -join "n")) $body = $body.Replace('{EDGES}', (($edges | Sort-Object -Unique) -join "n"))
+$nodesText = ($nodes | Sort-Object -Unique) -join "n" $edgesText = ($edges | Sort-Object -Unique) -join "n"
+$body = $tmpl.Replace('{NODES}', $nodesText)
+$body = $body.Replace('{EDGES}', $edgesText)
 
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $OutPath) *> $null
 Set-Content -Path $OutPath -Value $body -Encoding UTF8
