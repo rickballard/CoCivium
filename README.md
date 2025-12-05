@@ -121,3 +121,20 @@ If you take something from here, **leave one thing better**: a sharper checklist
 
 
 **Downloads:** see the [CoSuite Products Hub](https://github.com/rickballard/CoCache/blob/main/docs/products/README.md).
+---
+CoProtect_SeedStage_v1:
+  license: 'CSPL-1.0 (CoCivium Seed-Stage Protective License)'
+  bucket: 'Private_RepoOnly'
+  rationale: 'Seed-stage protection of CoCivium / CoSuite rails, helpers, and governance patterns.'
+  openness_intent:
+    summary: 'Protect now, open later when safe and governed.'
+    notes:
+      - 'Planned evolution toward more open licensing as legal and safety structures mature.'
+  trademarks_notice:
+    summary: 'CoCivium and related names are claimed as trademarks or pending trademarks.'
+    usage:
+      - 'Use nominatively only.'
+      - 'Do not imply endorsement or affiliation without written permission.'
+  contact:
+    steward_email: 'contact@InSeed.com'
+
