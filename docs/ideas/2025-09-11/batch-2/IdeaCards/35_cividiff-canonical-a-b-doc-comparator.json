@@ -1,0 +1,24 @@
+{
+  "title": "CiviDiff — Canonical A/B Doc Comparator",
+  "summary": "Side-by-side comparator + A/B switch for highly canonical docs (e.g., main README) with voter/edit suggestion workflow and intent-delta highlights.",
+  "rationale": "Explicit A/B treatment for top-tier docs educates contributors, slows risky churn, and surfaces intent differences transparently.",
+  "impact": "Reduces accidental regressions, teaches governance-by-example, and makes canon changes auditable.",
+  "dependencies": [
+    "Operating Constitution",
+    "Standards Body",
+    "IdeaForge"
+  ],
+  "tags": [
+    "docs",
+    "canon",
+    "A/B",
+    "governance"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.docs.diff",
+    "cap.vote.suggest",
+    "cap.gov.canon"
+  ]
+}

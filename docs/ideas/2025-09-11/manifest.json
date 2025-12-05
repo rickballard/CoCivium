@@ -1,0 +1,385 @@
+{
+  "session": "CoCivium Idea Scratchpad",
+  "created_utc": "2025-09-11T17:39:21.085747Z",
+  "count": 34,
+  "cards": [
+    {
+      "file": "01_ideaforge-github-for-ideas.json",
+      "title": "IdeaForge — GitHub for Ideas",
+      "tags": [
+        "intake",
+        "ideas",
+        "congruence",
+        "RepTag",
+        "platform"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "02_devil-s-advocate-ai-adversarial-red-team.json",
+      "title": "Devil’s Advocate AI — Adversarial Red Team",
+      "tags": [
+        "security",
+        "ethics",
+        "trust",
+        "resilience",
+        "adversarial"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "03_reptag-ai-faces-pseudonymous-trust-histories.json",
+      "title": "RepTag AI Faces — Pseudonymous Trust Histories",
+      "tags": [
+        "RepTag",
+        "identity",
+        "trust",
+        "pseudonymity",
+        "safe-logging"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "04_congruence-dashboard-session-bloat-and-workflow-integrity.json",
+      "title": "Congruence Dashboard — Session Bloat and Workflow Integrity",
+      "tags": [
+        "workflow",
+        "bloat",
+        "dashboard",
+        "congruence"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "05_dual-veto-mechanism-human-and-ai-guardrails.json",
+      "title": "Dual Veto Mechanism — Human and AI Guardrails",
+      "tags": [
+        "veto",
+        "governance",
+        "ethics",
+        "checks-and-balances"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "06_progress-map-radials-mycelogram-of-civium-growth.json",
+      "title": "Progress Map Radials — Mycelogram of Civium Growth",
+      "tags": [
+        "visualization",
+        "progress",
+        "radials",
+        "mycelogram"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "07_meritrank-dynamic-meritocratic-voting.json",
+      "title": "MeritRank — Dynamic Meritocratic Voting",
+      "tags": [
+        "voting",
+        "governance",
+        "meritocracy",
+        "RepTag"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "08_null-contributor-protected-silent-role.json",
+      "title": "Null Contributor — Protected Silent Role",
+      "tags": [
+        "roles",
+        "null",
+        "onboarding",
+        "governance"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "09_civium-academy-onboarding-and-education-hub.json",
+      "title": "Civium Academy — Onboarding and Education Hub",
+      "tags": [
+        "education",
+        "academy",
+        "training",
+        "onboarding"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "10_cocache-distributed-sidecar-memory-graph.json",
+      "title": "CoCache — Distributed Sidecar Memory Graph",
+      "tags": [
+        "memory",
+        "continuity",
+        "graph",
+        "CoCache"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "11_humangate-on-mandatory-human-merge-approval.json",
+      "title": "HumanGate ON — Mandatory Human Merge Approval",
+      "tags": [
+        "human-gate",
+        "sovereignty",
+        "workflow",
+        "governance"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "12_congruence-gradients-visual-trust-footers.json",
+      "title": "Congruence Gradients — Visual Trust Footers",
+      "tags": [
+        "visuals",
+        "transparency",
+        "branding",
+        "congruence"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "13_ai-vendor-intent-mapping-cooption-broker.json",
+      "title": "AI Vendor Intent Mapping & Cooption Broker",
+      "tags": [
+        "vendors",
+        "partnerships",
+        "strategy",
+        "goals-mapping"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "14_civium-standards-body-one-ring-of-standards.json",
+      "title": "Civium Standards Body — One Ring of Standards",
+      "tags": [
+        "standards",
+        "interoperability",
+        "governance",
+        "meta-body"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "15_civium-toolshop-certified-open-tools-hub.json",
+      "title": "Civium Toolshop — Certified Open Tools Hub",
+      "tags": [
+        "tools",
+        "certification",
+        "ecosystem",
+        "openness"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "16_civium-risk-tracker-systemic-threat-mapping.json",
+      "title": "Civium Risk Tracker — Systemic Threat Mapping",
+      "tags": [
+        "risk",
+        "resilience",
+        "transparency",
+        "security"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "17_civium-protectorates-localized-civic-zones.json",
+      "title": "Civium Protectorates — Localized Civic Zones",
+      "tags": [
+        "federation",
+        "protectorates",
+        "scalability",
+        "autonomy"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "18_civarc-roles-gamified-civic-architecture.json",
+      "title": "CivArc Roles — Gamified Civic Architecture",
+      "tags": [
+        "gamification",
+        "roles",
+        "community",
+        "onboarding"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "19_cocivgibber-ai-to-ai-condensed-language-protocol.json",
+      "title": "CoCivGibber — AI-to-AI Condensed Language Protocol",
+      "tags": [
+        "AI-to-AI",
+        "language",
+        "protocol",
+        "efficiency"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "20_influencer-map-campaigns-strategic-outreach-planning.json",
+      "title": "Influencer-Map Campaigns — Strategic Outreach Planning",
+      "tags": [
+        "outreach",
+        "influencers",
+        "campaigns",
+        "strategy"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "21_civium-feed-manager-curated-civic-knowledge-streams.json",
+      "title": "Civium Feed Manager — Curated Civic Knowledge Streams",
+      "tags": [
+        "feeds",
+        "education",
+        "literacy",
+        "civic knowledge"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "22_cosafe-analyzer-organizational-policy-process-risk.json",
+      "title": "CoSafe Analyzer — Organizational Policy & Process Risk",
+      "tags": [
+        "risk",
+        "policy",
+        "analyzer",
+        "adoption"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "23_civium-hall-of-fame-ideacards-showcase.json",
+      "title": "Civium Hall of Fame — IdeaCards Showcase",
+      "tags": [
+        "hall-of-fame",
+        "culture",
+        "branding",
+        "engagement"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "24_anticensor-archive-resilient-knowledge-vault.json",
+      "title": "AntiCensor Archive — Resilient Knowledge Vault",
+      "tags": [
+        "archive",
+        "anti-censorship",
+        "provenance",
+        "privacy",
+        "education"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "25_civiproof-content-provenance-certification.json",
+      "title": "CiviProof — Content Provenance & Certification",
+      "tags": [
+        "provenance",
+        "attestation",
+        "signatures",
+        "integrity"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "26_anonymous-access-layer-safe-retrieval-deniability.json",
+      "title": "Anonymous Access Layer — Safe Retrieval & Deniability",
+      "tags": [
+        "privacy",
+        "anonymity",
+        "access",
+        "safety"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "27_deprogramming-playbooks-self-guided-contrastive-learning.json",
+      "title": "Deprogramming Playbooks — Self-Guided Contrastive Learning",
+      "tags": [
+        "deprogramming",
+        "contrastive-learning",
+        "education",
+        "anti-propaganda"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "28_bias-contrastive-guides-dual-frame-narratives.json",
+      "title": "Bias Contrastive Guides — Dual-Frame Narratives",
+      "tags": [
+        "bias",
+        "media-literacy",
+        "guides",
+        "education"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "29_crisis-snapshotter-ephemeral-event-capture.json",
+      "title": "Crisis Snapshotter — Ephemeral Event Capture",
+      "tags": [
+        "crisis",
+        "evidence",
+        "snapshot",
+        "accountability"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "30_memory-seeds-distributed-dead-drops.json",
+      "title": "Memory Seeds — Distributed Dead Drops",
+      "tags": [
+        "memory",
+        "resilience",
+        "dead-drops",
+        "continuity"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "31_ai-to-human-training-loop-train-your-ai-to-train-you.json",
+      "title": "AI-to-Human Training Loop — Train Your AI to Train You",
+      "tags": [
+        "training",
+        "meta-learning",
+        "oversight",
+        "growth"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "32_current-events-reframer-civium-lens-newsletter.json",
+      "title": "Current Events Reframer — Civium Lens Newsletter",
+      "tags": [
+        "current-events",
+        "newsletter",
+        "reframing",
+        "coevolution"
+      ],
+      "sensitivity": "public"
+    },
+    {
+      "file": "33_ai-alignment-auditor-oversight-on-training-loops.json",
+      "title": "AI Alignment Auditor — Oversight on Training Loops",
+      "tags": [
+        "alignment",
+        "oversight",
+        "bias",
+        "trust"
+      ],
+      "sensitivity": "internal"
+    },
+    {
+      "file": "34_provocative-onramps-let-s-argue-world-fixing.json",
+      "title": "Provocative Onramps — 'Let’s Argue World Fixing!'",
+      "tags": [
+        "onboarding",
+        "provocation",
+        "engagement",
+        "idea-intake"
+      ],
+      "sensitivity": "public"
+    }
+  ]
+}

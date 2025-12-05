@@ -1,0 +1,24 @@
+{
+  "title": "Civium Protectorates — Localized Civic Zones",
+  "summary": "Communities run their own 'Protectorates' under Civium umbrella with local customization.",
+  "rationale": "Scale without monolith; mirrors federalism/franchise with digital twist.",
+  "impact": "Expands reach; allows experimentation; prevents single-point failure.",
+  "dependencies": [
+    "Operating Constitution",
+    "Standards Body",
+    "RepTag trails"
+  ],
+  "tags": [
+    "federation",
+    "protectorates",
+    "scalability",
+    "autonomy"
+  ],
+  "sensitivity": "public",
+  "source_session": "CoCivium Idea Scratchpad",
+  "capability_handles": [
+    "cap.gov.federation",
+    "cap.local.policy",
+    "cap.scalability"
+  ]
+}
