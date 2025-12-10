@@ -52,7 +52,7 @@ PS7 scripts can:
 Example pattern:
 
 - Branch:
-  - feature/CoCrux_update_20251210T163709Z
+  - feature/CoCrux_update_20251210T164939Z
 - DO Block label:
   - DO CoCivium_Insights_CoCrux_CoEvoMetaHandles_v0_1_UTS
 - Log messages:
