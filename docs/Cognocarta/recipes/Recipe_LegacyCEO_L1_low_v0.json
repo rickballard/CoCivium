@@ -1,0 +1,8 @@
+{
+  "name": "LegacyCEO L1 low (v0)",
+  "persona": "LegacyCEO",
+  "tier": "L1",
+  "spikiness": "low",
+  "max_chunks": 8,
+  "ids": []
+}

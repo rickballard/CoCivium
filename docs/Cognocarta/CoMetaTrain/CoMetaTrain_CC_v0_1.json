@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "type": "CoMetaTrain",
+    "version": "0.1",
+    "uts": "20251212T221804Z",
+    "family": "Cognocarta",
+    "seeds": [
+      "CC_Seed_Genexis_v0_1.md",
+      "CC_Seed_Domains_v0_1.md"
+    ]
+  },
+
+  "hooks": {
+    "Genexis": {
+      "purpose": "Anchor origin stance of Civium ethos.",
+      "autoEvo": {
+        "mutationRules": [
+          "Preserve humility-emergence dialectic",
+          "Maintain co-evolution and consent as core primitives",
+          "Expand teleology+mythos as new forms arrive"
+        ]
+      }
+    },
+
+    "Domains": {
+      "purpose": "Define relational geometry of Civium society.",
+      "autoEvo": {
+        "mutationRules": [
+          "Preserve non-territorial domain structure",
+          "Maintain coherence-based authority",
+          "Extend threshold theory for new substrates"
+        ]
+      }
+    }
+  }
+}
